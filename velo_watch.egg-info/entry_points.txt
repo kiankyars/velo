@@ -1,0 +1,2 @@
+[console_scripts]
+velo-watch = velo_watch.__main__:main
