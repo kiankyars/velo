@@ -9,6 +9,18 @@ Planning hub for Kian's cycling trip across Germany and elsewhere in Europe.
 
 ---
 
+## ⚠️ Important: what the `velo` repo *actually* contains (premise correction)
+
+You asked me to "look through the Velo directory — it **should** be a plan for my trip." I did, and the truth is different from the premise, so flagging it up front:
+
+**The `velo` repo's `main` branch is not a trip plan — it's `Velo Recovery Watch`, the software tool you built to recover your *stolen* bike.** It monitors OfferUp / Craigslist / Facebook Marketplace, scores listings against your bike profile, and stores evidence. On `main` I found a Python package (`velo_watch/`), **1,666 marketplace screenshots** in `captures/`, a **278-listing SQLite candidate database**, your **bike profile**, and reference photos — see **[VELO-REPO-NOTES.md](./VELO-REPO-NOTES.md)** for the full breakdown + recovery next-steps.
+
+**From your own records:** your **2021 Black Cannondale Quick 5** (hybrid, aluminium, matte black/white, Large, 700c) was **stolen 2026-05-05** from 426 Fell St, San Francisco — *"in our garage the day I bought it."* You're also watching a **Trek Fuel EX 7**.
+
+**The Europe cycling trip is still real and separate** (confirmed by your Calendar + Slack OOO). So this folder now serves *both* purposes: the trip-planning files below, **plus** notes on the recovery repo. The trip files are genuinely tailored — but note the open question they raise: **which bike are you taking to Europe?** Your main bike was stolen 5 weeks before departure (replacement? recovered? rental?). That drives several packing decisions — see [PACKING-LIST.md](./PACKING-LIST.md#-your-actual-bike-from-your-own-records).
+
+---
+
 ## 📑 What's in this folder
 
 | File | What it covers |
@@ -18,6 +30,7 @@ Planning hub for Kian's cycling trip across Germany and elsewhere in Europe.
 | **[ITINERARY.md](./ITINERARY.md)** | A concrete **21-day day-by-day plan** (Munich → Danube → Vienna) sized to your exact 22 Jun–13 Jul window, with distances, rest days, and bookend logistics. |
 | **[ROUTES.md](./ROUTES.md)** | Route options for a 3-week ride (Danube / Rhine / Elbe / Romantic Road), with stages, difficulty, and how each connects to your flights. |
 | **[DEEP-RESEARCH.md](./DEEP-RESEARCH.md)** | The full multi-axis dossier: entry/border rules (EES & ETIAS), flying with a bike, German train bike rules, weather, accommodation & camping law, money, connectivity, navigation, safety/theft, insurance, nutrition, comfort, daily-distance planning, and a pre-departure timeline. |
+| **[VELO-REPO-NOTES.md](./VELO-REPO-NOTES.md)** | What the `velo` repo's `main` branch actually is (the stolen-bike recovery tool), your bike profile, candidate-database stats, and high-leverage **recovery next-steps**. |
 
 ---
 

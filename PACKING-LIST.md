@@ -8,6 +8,20 @@ A concrete, print-and-tick checklist so nothing gets forgotten. Tailored to a **
 
 ---
 
+## 🚲 Your actual bike (from your own records)
+
+Pulled from `config/bike_profile.yml` and the reference photos (`bike.jpg`, `vélo.jpg`) in this repo — your real bike, not a generic one:
+
+- **2021 Cannondale Quick 5** — hybrid/fitness, **aluminium**, **matte black** w/ white accents, **Large**, **700c**
+- **Shimano 2× drivetrain**, **mechanical disc brakes**, **Schwalbe Spicer** tyres, flat bar with bar-end grips, bell, kickstand, bottle cage *(from the photos)*
+
+> ⚠️ **Open question that changes this whole list:** this bike was **reported stolen on 2026-05-05** (see [VELO-REPO-NOTES.md](./VELO-REPO-NOTES.md)) — about 5 weeks before your 22 Jun departure. **Confirm which bike is actually going to Europe** (recovered Quick 5 / a replacement / a rental). It determines:
+> - **Disc vs rim** spare pads, and which spares fit
+> - Whether you **fly with your own bike** at all (vs rent at the start city — often simpler for a one-way river route)
+> - Tyre size/clearance for the spares you carry
+>
+> A **Quick 5 is genuinely well-suited** to the flat, paved EuroVelo river routes (disc brakes, 700c, rack mounts) — if you have one for the trip, it's a fine choice. Tell me the trip bike and I'll lock the spares/sizes below to it exactly.
+
 ## 🔧 Bike & components (verify your build / what you bought)
 
 - [ ] **The bike itself** (touring/gravel) — drivetrain shifting cleanly, headset/bottom bracket tight
