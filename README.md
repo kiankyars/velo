@@ -1,104 +1,55 @@
-# Velo Recovery Watch
+# 🚲 Velo Journey 2026: SFO → Edmonton → Europe
 
-Local tooling for watching stolen-bike marketplace candidates, scoring them
-against your bike profile, and exporting evidence packets.
+Welcome to the agent-native repository for planning and executing the 2026 ultra-distance bike tour.
 
-The system is intentionally local-first. It stores candidates in SQLite, accepts
-alert emails, URLs, screenshots, and listing-photo crops, and runs optional OCR
-and image similarity when Pillow/Tesseract are installed.
+---
 
-## Quick Start
+## 📅 Trip Timeline & Overview
 
-```bash
-uv run velo-watch init
-uv run velo-watch serve
+### 1. Leg 1: Remote Work in Edmonton 🇨🇦
+* **Dates:** June 13, 2026 – June 20, 2026
+* **Details:** Working remotely from Edmonton (no PTO required).
+
+### 2. Leg 2: Transatlantic Bike Tour (The Frankfurt Loop) 🇪🇺
+* **Dates:** June 21, 2026 – July 13, 2026
+* **Format:** Multi-city KLM booking starting/ending in Frankfurt (FRA).
+* **Target:** ~3,000 to 5,000 km in 22 days (averaging 150–200 km/day).
+
+```
+[San Francisco] ──(June 13)──> [Edmonton] ──(June 20)──> [SFO Layover]
+                                                             │
+                                                         (June 21)
+                                                             ▼
+[San Francisco] <──(July 13)── [Frankfurt Loop (EV15/17/8/7/6)]
 ```
 
-Then open http://127.0.0.1:8765.
+---
 
-The three canonical marketplace searches live in `config/watchlist.yml`:
+## 🗺️ Route Itinerary (Proposed)
 
-- OfferUp: https://offerup.com/search?q=cannondale
-- Craigslist: https://sfbay.craigslist.org/search/bia?query=cannondale#search=2~gallery~0
-- Facebook Marketplace: https://www.facebook.com/marketplace/sanfrancisco/search/?query=cannondale
+We are using a **modular segment routing approach** instead of pre-generating fixed daily routes:
+* **Segment 1 (EV15 - Rhine Route):** Frankfurt → Andermatt (Switzerland). Climbing up the Rhine source.
+* **Segment 2 (EV17 - Rhône Route):** Andermatt → Mediterranean Coast (France). Scenic downhills.
+* **Segment 3 (EV8 - Med Route):** French Riviera east to Italy.
+* **Segment 4 (EV7 - Central Europe Route):** Italy heading north through the Alps.
+* **Segment 5 (EV6 / Passau Link):** Connecting through Austria/Germany and heading back to Frankfurt.
 
-## Browserbase Scan
+---
 
-Put Browserbase credentials in `~/.env`:
+## 📂 Repository Structure
 
-```bash
-BROWSERBASE_API_KEY=...
-# Optional:
-BROWSERBASE_PROJECT_ID=...
-```
+* `todo.md` – Unified atomic task manager for travel, gear, cards, and logistics.
+* `trip_config.json` – Machine-readable metadata (flights, contacts, routes, gear checklist).
+* `scripts/` – Python CLI automation helpers for routes, checklist tracking, and stats.
+* `transcripts/` – Transcripts of the 2025 900-km Rockies trip (5-day tour) for gear and pacing references.
+* `gpx/` – Modular GPX route segments synced to your Polar navigation device.
 
-Then run:
+---
 
-```bash
-uv run velo-watch scan
-```
+## 🤖 Agent Instructions
 
-`scan` loads `~/.env`, opens each saved marketplace search in one Browserbase
-session, extracts visible listing links, captures a search-page screenshot,
-records listing text, scores each listing, and adds or updates candidates in the
-local dashboard. By default it keeps only listings posted after `2026-05-04`,
-checks the top 8 listings per search, and captures a per-listing card image.
-Tune these in `~/.env` with `VELO_POSTED_AFTER_DATE`, `VELO_SCAN_WAIT_MS`,
-`VELO_DETAIL_WAIT_MS`, `VELO_DETAIL_TIMEOUT_MS`, and `VELO_MAX_LISTINGS_PER_SEARCH`.
-
-## Candidate Ingest
-
-The CLI has one ingest command:
-
-```bash
-uv run velo-watch add "https://sfbay.craigslist.org/..."
-uv run velo-watch add ~/Downloads/craigslist-alert.eml
-uv run velo-watch add ~/Desktop/listing-screenshot.png
-uv run velo-watch add ~/Desktop/listing-notes.txt
-```
-
-Use the dashboard for editing status, notes, or detailed listing fields.
-
-Other commands:
-
-```bash
-uv run velo-watch scan
-uv run velo-watch list
-uv run velo-watch export 1
-uv run velo-watch delete 1
-```
-
-## Automation
-
-Install the LaunchAgent to run a scan every 6 hours:
-
-```bash
-mkdir -p ~/Library/LaunchAgents
-cp launchd/com.kian.velo-watch.scan.plist ~/Library/LaunchAgents/
-launchctl unload ~/Library/LaunchAgents/com.kian.velo-watch.scan.plist 2>/dev/null || true
-launchctl load ~/Library/LaunchAgents/com.kian.velo-watch.scan.plist
-```
-
-Logs go to `data/logs/scan.log`.
-
-## Optional Vision/OCR
-
-Install optional dependencies if you want screenshot OCR and image hashing:
-
-```bash
-uv sync --extra vision
-```
-
-OCR also needs the `tesseract` binary installed on the machine. Without these
-dependencies, the app still works from manually pasted text, copied URLs, and
-attached screenshots.
-
-## High-Agency Recovery Checklist
-
-- File the SFPD report and add the report number to `config/bike_profile.yml`.
-- Create a Bike Index listing and add its URL to `config/bike_profile.yml`.
-- Keep Project 529 active, and consider Project 529 Detective if you want paid
-  marketplace monitoring.
-- Screenshot candidate listings before any contact.
-- Do not meet a seller alone; coordinate with SFPD/non-emergency if there is a
-  likely match.
+If you are an AI assistant helping Kian prepare for this trip:
+1. **Always read** [todo.md](file:///Users/kian/Developer/v%C3%A9lo/todo.md) and [trip_config.json](file:///Users/kian/Developer/v%C3%A9lo/trip_config.json) first to check current task status.
+2. Use the CLI tool `python3 scripts/planner.py` to view task categories or print countdown status.
+3. Help Kian process GPX files by loading them into the `gpx/` folder and running `python3 scripts/planner.py routes` to calculate aggregate statistics (distance, elevations).
+4. Update `todo.md` directly as tasks are completed.

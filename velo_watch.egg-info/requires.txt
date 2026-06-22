@@ -1,9 +1,0 @@
-browserbase>=1
-playwright>=1.45
-
-[test]
-pytest>=8
-
-[vision]
-Pillow>=10
-pytesseract>=0.3.10
