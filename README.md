@@ -42,8 +42,15 @@ You asked me to "look through the Velo directory — it **should** be a plan for
 
 - **Out-of-Office** is set on your Google Calendar from **2026-06-22 01:00** to **2026-07-14 01:00** (America/Edmonton). Your Slack `#out-of-office` note reads: *"OOO (cycling trip in Europe) June 22–July 13."*
 - Your calendar's home time zone is **America/Edmonton**, and a Slack note ("WFH in Canada June 15–18") confirms you're departing from **Alberta**.
-- You have **two YouTube channels**, both linked from your homepage: **[@kiankyars](https://www.youtube.com/@kiankyars)** ("Technical", channel ID `UCjIwowfXAbWRS3zrqGSmIYw`) and **[@kkyars](https://www.youtube.com/@kkyars)** ("Personal"). The bike-parts video is most likely on the **Personal** channel.
-- Your personal site is **[kiankyars.github.io](https://kiankyars.github.io/)** (Home / [Now](https://kiankyars.github.io/now/) / [Blog](https://kiankyars.github.io/blog/) / [Build](https://kiankyars.github.io/build/) / [About](https://kiankyars.github.io/about/)), sourced from the public repo `kiankyars/kiankyars.github.io`. You also keep a private notes vault in `kiankyars/obsidian` (updated today).
+- You have **two YouTube channels** (per your homepage `index.md`): **Personal = [@kiankyars](https://www.youtube.com/@kiankyars)** and **Technical = [@neuralkian](https://www.youtube.com/@neuralkian)**. The bike-parts video is on the **Personal** channel.
+- Your personal site is **[kiankyars.github.io](https://kiankyars.github.io/)** (public repo `kiankyars/kiankyars.github.io`). I was able to read it via `raw.githubusercontent.com` (allowlisted) and reconstruct the real trip from your **weekly-victories** journals (see below). You keep trip notes in a **private** `kiankyars/obsidian` vault (out of my scope).
+
+### 🧩 Real trip reconstructed from your own journals + flight data
+- **Mon 4 May "Bought a bike" → Tue 5 May "Bike stolen. Bought another bike."** The replacement is the **Giant Defy** you're taking to Europe.
+- **15 May:** *"First draft of the Europe bike-trip route."* (the draft itself lives in your private `obsidian` vault).
+- **29 May:** *"Got denied by KLM again…"* → you're flying **KLM**, whose only nonstop Canada route here is **Edmonton (YEG) → Amsterdam (AMS)** (~8 h 35 m). So you **arrive in Amsterdam**, which makes the **Rhine / EuroVelo 15** (Netherlands → Germany) the natural route — see [ITINERARY.md](./ITINERARY.md) and [ROUTES.md](./ROUTES.md).
+- You're an **experienced, very fit cyclist** (2025 Rockies tour; regular 60–87 km hikes/rides; you film & edit your cycling trips), so the plans here use **stronger daily distances** than a beginner would.
+- You were in **Edmonton** with family mid-June (birthday ~16 Jun) before departing ~22 Jun.
 
 ## ⚠️ Honest note on sources (please read)
 

@@ -56,13 +56,15 @@ Because the rivers cross borders, you can easily ride into neighbouring countrie
 - **Elbe** → starts at the **Czech** border (Bad Schandau / Děčín → Prague is a popular extension)
 - **Lake Constance (Bodensee-Radweg)** → loops **Germany + Austria + Switzerland** in ~260 km, a classic warm-up or standalone week
 
-## 🧭 My recommendation for *your* trip
+## 🧭 My recommendation for *your* trip (updated to your real flights)
 
-Given **3 weeks, flying from Alberta, and a relaxed-but-real touring goal**, the strongest shape is:
+Your journals show you're flying **KLM** — whose only nonstop Canada route here is **Edmonton → Amsterdam** — so you **land in Amsterdam**. That flips the recommendation to **the Rhine (Option B), ridden south from the Netherlands into Germany:**
 
-> **Fly into Munich → train to the upper Danube → ride EuroVelo 6 down the Danube → continue Passau → Vienna → train/fly home from Vienna.**
+> **Land at Amsterdam → ride the Rhine Cycle Route (EuroVelo 15) south through the Netherlands into Germany → Cologne → the UNESCO Rhine Gorge → Mainz → on toward Basel → train back to Amsterdam for the flight home.**
 
-It's the gentlest gradient, the best signage, the most reliable accommodation density, the easiest train bail-outs if weather hits, and it naturally delivers the "Germany **and** elsewhere in Europe" brief (Germany → Austria). If you'd rather prioritise dramatic scenery over easy gradient, swap in the **Rhine Gorge** (Option B).
+It's flat, superbly signed, train-shadowed the whole way, and uniquely matches your arrival airport while delivering *"Germany **and** elsewhere in Europe"* (NL → DE → FR → CH). The full day-by-day is in **[ITINERARY.md](./ITINERARY.md)**.
+
+*If you'd rather start in Germany proper and prefer the quietest possible gradient,* change the flight to Munich and ride the **Danube (Option A)** — still excellent.
 
 ---
 

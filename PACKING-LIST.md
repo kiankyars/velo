@@ -171,7 +171,7 @@ You confirmed you're taking your **Giant Defy** — a **carbon endurance road bi
 - [ ] **Disc-brake pad spacers** in the calipers (or cardboard wedges) so a knock doesn't squeeze the pistons
 - [ ] **Protect/remove rotors**, pad fork dropouts & frame, **deflate tyres**
 - [ ] **Pedals off, bars turned/loosened, derailleur removed or shielded**
-- [ ] **Pre-register the bike with the airline** (Air Canada ~$50 each way & must reserve space; Lufthansa €80–200 & register ≥72 h ahead; **confirm Condor's policy directly**)
+- [ ] **Pre-register the bike with KLM** (your flight): bike **must be boxed** (max **176.5 × 23 × 101.5 cm**), **always charged a bike fee** (~**CAD 175** Canada–Europe), **reserve ≥48 h before departure**; turn handlebars sideways + remove pedals. *(You can buy a bike box at Amsterdam Schiphol for €30 — handy for the flight home.)*
 - [ ] **Plan for the empty box at the start** (storage vs. ship-ahead vs. buy-new-at-end) — see [DEEP-RESEARCH.md](./DEEP-RESEARCH.md#-flying-with-your-bike)
 - [ ] **Tools to reassemble** packed in checked luggage (not carry-on — they'll confiscate the multi-tool/blades)
 

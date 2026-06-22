@@ -1,53 +1,51 @@
-# 🗓️ Sample 3-Week Itinerary — Munich → Danube → Vienna (Germany + Austria)
+# 🗓️ Sample 3-Week Itinerary — Amsterdam → the Rhine → Germany (your likely route)
 
-A concrete, paced day-by-day plan that fits your exact window (**22 Jun → 13 Jul 2026**), flying from Alberta. It follows the recommendation in [ROUTES.md](./ROUTES.md): **EuroVelo 6 / Danube**, the gentlest-gradient, best-signed long-distance route in Europe — Germany's upper Danube into Austria, finishing in Vienna.
+Sized to your exact window (**22 Jun → 13 Jul 2026**) and grounded in what your own journals revealed: you're flying **KLM** (only nonstop Canada route: **Edmonton YEG → Amsterdam AMS**, ~8 h 35 m), so you **land in Amsterdam**. That makes the **Rhine Cycle Route (EuroVelo 15)** the obvious line — it runs from the Dutch coast up the Rhine **through the Netherlands into Germany** (and on to Switzerland), delivering *"Germany **and** elsewhere in Europe."*
 
-> **Shape:** ~**885 km** over ~**18 riding days** + travel/rest = a *relaxed* ~50 km/day average with built-in rest days and an on-trip ramp-up (important since the trip itself is your training block). All flat-to-gentle, almost entirely on paved traffic-free cycle paths.
+> **Pace:** tuned to a **strong, experienced rider** (you did the Rockies tour and routinely log 60–87 km days) — so this plans **~90–110 km/day** with 3 rest/explore days. ~**18 riding days**, ~**900 km**, almost entirely flat, paved, traffic-free riverside path. Dial down if you'd rather soak it in.
 >
-> **Why it ends in Vienna:** great air links home (via FRA/MUC), and it cleanly delivers *"Germany **and** elsewhere in Europe"* (Germany → Austria). It also solves the bike-box problem — ship your case Munich→Vienna, or grab a free cardboard box from a Vienna bike shop.
+> **Bike-box logistics (KLM):** fly into AMS with the Defy in a box → assemble at Schiphol → ride south. For the return, **train from Basel back to Amsterdam** with the bike, then **buy a bike box at Schiphol (€30)** for the KLM flight home. (KLM: bike must be boxed, max 176.5×23×101.5 cm, **always a fee** ~CAD 175 Canada–Europe, **reserve ≥48 h ahead**.)
 
 | Day | Date | Plan | ~km |
 |----|------|------|----|
-| 0 | Mon 22 Jun | **Fly YYC/YEG → Munich** (overnight; Condor/Lufthansa nonstop or via FRA) | — |
-| 1 | Tue 23 Jun | **Arrive Munich.** EES biometrics (allow time). Reassemble bike, easy spin/shakedown, sleep | ~10 |
-| 2 | Wed 24 Jun | **Train Munich → Donaueschingen** (Danube source). Ride **Donaueschingen → Tuttlingen** — easy ramp-up day | ~35 |
-| 3 | Thu 25 Jun | Tuttlingen → Sigmaringen (castle) | ~55 |
-| 4 | Fri 26 Jun | Sigmaringen → Ehingen | ~70 |
-| 5 | Sat 27 Jun | Ehingen → **Ulm** (world's tallest church steeple). *Shop today — Sunday everything's closed* | ~40 |
-| 6 | Sun 28 Jun | **Rest / explore Ulm** (laundry, bike check) | 0 |
-| 7 | Mon 29 Jun | Ulm → Donauwörth | ~75 |
-| 8 | Tue 30 Jun | Donauwörth → Ingolstadt | ~75 |
-| 9 | Wed 1 Jul | Ingolstadt → **Kelheim** (Weltenburg Monastery + Danube Gorge boat) → Regensburg | ~80 |
-| 10 | Thu 2 Jul | **Rest / explore Regensburg** (UNESCO old town) | 0 |
-| 11 | Fri 3 Jul | Regensburg → Straubing | ~50 |
-| 12 | Sat 4 Jul | Straubing → Deggendorf | ~45 |
-| 13 | Sun 5 Jul | Deggendorf → **Passau** (Three-Rivers city) | ~55 |
-| 14 | Mon 6 Jul | **Rest / explore Passau.** Cross into **Austria** 🇦🇹 | 0 |
-| 15 | Tue 7 Jul | Passau → Schlögen (the famous Danube Loop) | ~40 |
-| 16 | Wed 8 Jul | Schlögen → **Linz** | ~55 |
-| 17 | Thu 9 Jul | Linz → Grein | ~55 |
-| 18 | Fri 10 Jul | Grein → **Melk** (Benedictine abbey); **Wachau Valley** begins | ~55 |
-| 19 | Sat 11 Jul | Melk → Spitz → Dürnstein → **Krems** (UNESCO Wachau: vineyards, apricots) | ~35 |
-| 20 | Sun 12 Jul | Krems → Tulln → **Vienna** (or train the last dull stretch). Pack the bike | ~70 |
-| 21 | Mon 13 Jul | **Explore Vienna → fly home** | — |
+| 0 | Mon 22 Jun | **Fly YEG → Amsterdam** (KLM, overnight) | — |
+| 1 | Tue 23 Jun | **Arrive AMS.** EES biometrics (allow time), assemble bike at Schiphol, easy spin into Amsterdam, sleep | ~15 |
+| 2 | Wed 24 Jun | Amsterdam → Utrecht → **Arnhem** (superb Dutch cycle paths) | ~95 |
+| 3 | Thu 25 Jun | Arnhem → Nijmegen → cross at **Millingen** → **Emmerich (DE)** 🇩🇪 → Wesel | ~85 |
+| 4 | Fri 26 Jun | Wesel → Duisburg → **Düsseldorf** | ~90 |
+| 5 | Sat 27 Jun | Düsseldorf → **Cologne (Köln)** — cathedral; *shop today, Sunday everything's closed* | ~45 |
+| 6 | Sun 28 Jun | **Rest / explore Cologne** (laundry, bike check) | 0 |
+| 7 | Mon 29 Jun | Cologne → Bonn → **Remagen** | ~65 |
+| 8 | Tue 30 Jun | Remagen → **Koblenz** (Deutsches Eck, Rhine ⨯ Moselle) | ~40 |
+| 9 | Wed 1 Jul | Koblenz → **Rhine Gorge** (Boppard, St. Goar/Loreley) → **Bingen/Rüdesheim** — UNESCO, 40+ castles | ~65 |
+| 10 | Thu 2 Jul | Bingen → **Mainz** → Worms | ~75 |
+| 11 | Fri 3 Jul | Worms → Speyer (Romanesque cathedral) → **Heidelberg** detour | ~90 |
+| 12 | Sat 4 Jul | **Rest / explore Heidelberg** (castle, old town) | 0 |
+| 13 | Sun 5 Jul | Heidelberg → Speyer → **Karlsruhe** | ~85 |
+| 14 | Mon 6 Jul | Karlsruhe → Rastatt → **Strasbourg (FR)** 🇫🇷 (Rhine border-hop) | ~85 |
+| 15 | Tue 7 Jul | Strasbourg → Breisach → wine country | ~100 |
+| 16 | Wed 8 Jul | Breisach → **Basel (CH)** 🇨🇭 — three-country corner | ~75 |
+| 17 | Thu 9 Jul | **Rest / explore Basel** (Rhine swim! locals float the river) | 0 |
+| 18 | Fri 10 Jul | Buffer/extend: ride toward the **Rhine Falls (Schaffhausen)** or relax | ~60 |
+| 19 | Sat 11 Jul | **Train Basel → Amsterdam** with the bike (book bike space in advance) | — |
+| 20 | Sun 12 Jul | Amsterdam: box the bike (Schiphol €30 box), explore the city | — |
+| 21 | Mon 13 Jul | **Fly Amsterdam → home** | — |
 
-**Running total: ≈ 885 km.**
+**Running total: ≈ 900 km** (Netherlands → Germany → France → Switzerland).
 
-## Pacing logic (since the trip *is* your training)
-- **Ease in:** Days 2–4 are short/moderate while your saddle, legs, and loaded handling adapt — exactly how a build block works (most riding easy/"Zone 2", increase load gradually). Don't hammer day one.
-- **Rest cadence:** a rest/explore day roughly every 4–6 riding days (Ulm, Regensburg, Passau) — also your laundry + bike-maintenance days.
-- **Flex built in:** the Danube has a train line shadowing it almost the whole way — bail onto a regional train (just a ~€7.50 Fahrradkarte, no reservation) on a rain day or if legs are cooked.
+## Why this shape
+- **Matches your real arrival (AMS via KLM)** instead of guessing.
+- **Flat & beginner-friendly *terrain* but strong *pace*** — perfect for a fit rider who wants distance + sightseeing.
+- **Train shadows the Rhine the whole way** → bail onto a regional train (≈€7.50 Fahrradkarte, no reservation in DE) on a rain day.
+- **Four countries, one river** — NL, DE, FR, CH — the most efficient way to hit "Germany and elsewhere in Europe."
+- **Clean bookend:** one direct-ish train returns you (and the bike) to your AMS departure airport.
 
-## Logistics bookends
-- **Start:** Munich airport → Hauptbahnhof → regional/IC train to Donaueschingen (reserve a long-distance bike spot if you take IC/ICE; regional needs no reservation). Alternatively start at **Ulm** (skip the quieter top section) for a shorter trip.
-- **Bike box:** either (a) **ship your hard case Munich → Vienna** via a parcel service / your last hotel, or (b) use a **cardboard box** and source a fresh one from a **Vienna bike shop** (call ahead) for the flight home.
-- **Getting home from Vienna (VIE):** frequent connections to Canada via Frankfurt/Munich; pre-register the bike again for the return.
+## Alternate A — go further/south
+Strong legs + good weather? From Basel the Rhine continues to **Lake Constance (Bodensee)** and the source in the Swiss Alps; or peel onto the **Romantic Road** toward Bavaria.
 
-## Variants
-- **Shorter / more relaxed:** start at **Ulm** or **Regensburg** (skip the upper German stages) → Passau → Vienna (~10–12 riding days), more rest/swim days.
-- **Scenery-max instead:** swap to the **Rhine** (fly into Frankfurt) for the UNESCO Rhine Gorge castles — see [ROUTES.md](./ROUTES.md#option-b--eurovelo-15-the-rhine-rhein--the-scenic-blockbuster).
-- **Extend past Vienna:** the Danube continues to **Bratislava** (Slovakia) and **Budapest** (Hungary) if you finish early and feel strong.
+## Alternate B — the Danube (if you'd rather start in Germany proper)
+If you change the flight to **Munich**, ride **EuroVelo 6 / Danube** (Donaueschingen → Passau → Vienna). Gentle downhill, even quieter. Full breakdown kept in [ROUTES.md](./ROUTES.md#-option-a--eurovelo-6-the-danube-donau--most-popular-easiest-recommended-starter).
 
 ---
 
-*Stage distances synthesised from EuroVelo, cycle.travel, eurobike.at, cycling-holiday.com and Cicerone's Danube Cycleway guide (full citations in [DEEP-RESEARCH.md](./DEEP-RESEARCH.md#-sources)). Confirm each day against live `Bett+Bike` accommodation availability and weather before committing — and book your first/last nights + any long-distance DB/ÖBB bike reservations in advance, as summer bike spaces sell out.*
+*Stage distances synthesised from EuroVelo, cycle.travel, and komoot Rhine guides; flight/bike facts from KLM + Edmonton–Amsterdam schedules (citations in [DEEP-RESEARCH.md](./DEEP-RESEARCH.md#-sources)). Your actual route draft (15 May) lives in your private `obsidian` vault, which I can't read — so confirm specifics against it and live accommodation availability before booking.*

@@ -23,7 +23,9 @@ This is the axis most likely to bite you, because **two new EU border systems ar
 
 ## ✈️ Flying with your bike
 
-**Getting there from Alberta:**
+> **Your actual flight (from your journals): KLM.** Its only nonstop Canada route to this region is **Edmonton (YEG) → Amsterdam (AMS)**, ~8 h 35 m, ~5×/week (KL675/676). **KLM bike rules:** the bike must be **boxed** (max **176.5 × 23 × 101.5 cm**), is **always charged a bike-handling fee** (~**€125 / CAD 175** Canada–Europe — it is *not* part of your baggage allowance), and must be **reserved ≥48 h before departure**; turn the bars sideways and remove pedals. You can **buy a bike box at Schiphol for €30** (useful for the return). Because you arrive in Amsterdam, the **Rhine (EuroVelo 15)** is the natural route — see [ITINERARY.md](./ITINERARY.md).
+
+**Other carriers (for reference / if you reroute):**
 - **Condor** flies **nonstop Calgary (YYC) → Frankfurt** (~9 h 40 m) in summer 2026, and serves **Munich** nonstop from Canada — a strong option since Condor is a leisure carrier with bike-friendly policies. Edmonton typically connects via Frankfurt.
 - **Lufthansa** runs ~**7 weekly Calgary → Frankfurt** flights (~9 h 25 m) with onward connections to Munich, Berlin, Hamburg, etc.
 - **Air Canada** connects YYC/YEG to FRA/MUC (often via a hub).
@@ -283,6 +285,8 @@ Weather
 Flying with a bike
 - [Orucase — Air Canada (2026)](https://www.orucase.com/blogs/airline-guides/flying-with-a-bike-on-air-canada), [Orucase — Lufthansa (2026)](https://www.orucase.com/blogs/airline-guides/flying-with-a-bike-on-lufthansa), [Condor Canadian airports](https://www.condor.com/us/book-plan/flight/our-canadian-airports.jsp), [Velora — best airlines for bikes 2026](https://veloracycling.com/features/best-airlines-flying-bike-price-weight)
 - [Bikeflights packing guide](https://www.bikeflights.com/packing-guide), [Liv — how to travel with a bike](https://www.liv-cycling.com/global/campaigns/how-to-pack-and-ship-a-bike/19058)
+- [KLM — sports/special baggage (bikes)](https://www.klm.com/information/baggage/special-baggage), [airline-baggage-fees — KLM bikes](https://www.airline-baggage-fees.com/sports/bikes/klm.html), [KLM — Edmonton→Amsterdam flights](https://www.klm.ca/en-ca/flights-from-edmonton-to-amsterdam)
+- [EuroVelo 15 Netherlands (cycle.travel)](https://cycle.travel/route/summary/268653), [EuroVelo 15 — Germany stages](https://en.eurovelo.com/ev15/germany)
 
 Trains (Deutsche Bahn)
 - [DB — bicycle tickets (EN)](https://int.bahn.de/en/offers/additional-services/bicycle-tickets), [DB — Fahrrad](https://www.bahn.de/angebot/zusatzticket/fahrrad), [Bahnpedia — bike on train Germany 2026](https://bahnpedia.de/en/bike-on-train-germany/)
