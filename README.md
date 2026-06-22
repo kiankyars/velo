@@ -23,7 +23,8 @@ Planning hub for Kian's cycling trip across Germany and elsewhere in Europe.
 
 - **Out-of-Office** is set on your Google Calendar from **2026-06-22 01:00** to **2026-07-14 01:00** (America/Edmonton). Your Slack `#out-of-office` note reads: *"OOO (cycling trip in Europe) June 22–July 13."*
 - Your calendar's home time zone is **America/Edmonton**, and a Slack note ("WFH in Canada June 15–18") confirms you're departing from **Alberta**.
-- Your YouTube channel is **[@kiankyars](https://www.youtube.com/@kiankyars)** (channel ID `UCjIwowfXAbWRS3zrqGSmIYw`).
+- You have **two YouTube channels**, both linked from your homepage: **[@kiankyars](https://www.youtube.com/@kiankyars)** ("Technical", channel ID `UCjIwowfXAbWRS3zrqGSmIYw`) and **[@kkyars](https://www.youtube.com/@kkyars)** ("Personal"). The bike-parts video is most likely on the **Personal** channel.
+- Your personal site is **[kiankyars.github.io](https://kiankyars.github.io/)** (Home / [Now](https://kiankyars.github.io/now/) / [Blog](https://kiankyars.github.io/blog/) / [Build](https://kiankyars.github.io/build/) / [About](https://kiankyars.github.io/about/)), sourced from the public repo `kiankyars/kiankyars.github.io`. You also keep a private notes vault in `kiankyars/obsidian` (updated today).
 
 ## ⚠️ Honest note on sources (please read)
 
@@ -36,7 +37,33 @@ Two hard constraints in this environment shaped the result:
 
 **What that means for the packing list:** I could not transcribe the exact parts shown in your video, so I did **not** invent them. Instead, the packing/parts list is a comprehensive, best-practice checklist built from authoritative cycling sources (REI, BIKEPACKING.com, Adventure Cycling, Tom's Bike Trip, EuroVelo, Deutsche Bahn, etc.) and tailored to your specific trip parameters. **Use the "Bike & components" section to tick off the parts you actually bought** and flag anything missing.
 
-**To make this exact:** paste the link/title of your bike-parts video (or its transcript) and I'll fold the precise component list straight into `PACKING-LIST.md`.
+### Investigation log (everything I tried to reach the video/parts list)
+
+I did not give up at the first blocker — here is the full trail, so you can see exactly where the wall is and how to get past it:
+
+| Avenue | Result |
+|--------|--------|
+| Local `velo` repo | Empty (no commits) — no pre-existing plan/transcripts |
+| Google Drive (search + recent) | Only work docs; one *metaphorical* "riding a bike" mention. No trip files |
+| Gmail (bike retailers, purchases category, travel, YouTube notifications) | Work account only; **0** personal bike orders / video notifications |
+| Google Calendar | Confirmed OOO dates + Alberta time zone; no itinerary detail |
+| Notion / Slack (via search) | Confirmed the OOO note; no trip plan |
+| `WebSearch` | Found both channels + your site, but **can't enumerate the small personal channel's individual videos** |
+| `WebFetch` (YouTube, RSS feed, Invidious, Jina reader, even Wikipedia) | **HTTP 403 on every domain** — blanket egress block |
+| `yt-dlp` / `curl` from shell | **403 on every domain** — same block |
+| GitHub `search_repositories` | ✅ Worked — enumerated your 67 repos, found `obsidian`, `kiankyars.github.io`, `velo` |
+| GitHub `get_file_contents` on `obsidian` / `kiankyars.github.io` | ❌ **Access denied** — session scope is locked to `kiankyars/velo` only |
+| GitHub `search_code` across your repos | 0 results (private repos aren't indexed without scoped auth) |
+
+**Conclusion:** the bike-parts video is audio/visual content on your Personal channel, and there is **no machine-readable path to it from this sandbox.** The most likely text version of your plan/gear list (your `obsidian` vault or `kiankyars.github.io`) is also outside my allowed repo scope.
+
+### ✅ How to unblock deliverables (1) & (2) — pick any one
+
+1. **Paste the bike-parts video URL + its transcript** (YouTube → "..." → *Show transcript* → copy) into the chat. I'll convert it into an exact parts list in minutes.
+2. **Add `kiankyars/obsidian` and/or `kiankyars/kiankyars.github.io` to this session's GitHub repo scope.** Then I can read your own notes/plan directly and build the list from them.
+3. **Paste the text of your `/now` page or trip-planning note.** I'll fold it in.
+
+Until then, `PACKING-LIST.md` is the best-practice, trip-tailored checklist — accurate and genuinely useful, just not transcribed from your specific video.
 
 ---
 
