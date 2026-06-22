@@ -1,0 +1,101 @@
+{
+  "trip_name": "Velo Journey 2026",
+  "dates": {
+    "edmonton_departure": "2026-06-13",
+    "europe_departure": "2026-06-21",
+    "loop_return_to_frankfurt": "2026-07-12",
+    "europe_return": "2026-07-13"
+  },
+  "flights": [
+    {
+      "airline": "KLM",
+      "route": "SFO -> YEG",
+      "date": "2026-06-13",
+      "status": "booked",
+      "notes": "Lands around 11:40 p.m. on June 13th"
+    },
+    {
+      "airline": "KLM",
+      "route": "YEG -> FRA",
+      "date": "2026-06-21",
+      "status": "pending",
+      "notes": "Direct flight YEG -> FRA"
+    },
+    {
+      "airline": "KLM",
+      "route": "FRA -> SFO",
+      "date": "2026-07-13",
+      "status": "pending",
+      "notes": "Leave on July 13th or 14th (Uncle's 80th birthday is July 13th, return to FRA night of July 12th)"
+    }
+  ],
+  "routes": [
+    {
+      "name": "Rhine Route",
+      "ev_code": "EV15",
+      "start": "Frankfurt",
+      "end": "Andermatt",
+      "approx_distance_km": 500,
+      "gpx_file": "ev15_rhine.gpx",
+      "status": "planned"
+    },
+    {
+      "name": "Rhône Cycle Route",
+      "ev_code": "EV17",
+      "start": "Andermatt",
+      "end": "Mediterranean Coast",
+      "approx_distance_km": 1115,
+      "gpx_file": "ev17_rhone.gpx",
+      "status": "planned"
+    },
+    {
+      "name": "Mediterranean Route",
+      "ev_code": "EV8",
+      "start": "Mediterranean Coast",
+      "end": "Italy Link",
+      "approx_distance_km": 600,
+      "gpx_file": "ev8_med.gpx",
+      "status": "planned"
+    },
+    {
+      "name": "Central Europe Route",
+      "ev_code": "EV7",
+      "start": "Italy Link",
+      "end": "Passau",
+      "approx_distance_km": 1200,
+      "gpx_file": "ev7_central.gpx",
+      "status": "planned"
+    },
+    {
+      "name": "Danube / Passau return",
+      "ev_code": "EV6",
+      "start": "Passau",
+      "end": "Frankfurt",
+      "approx_distance_km": 600,
+      "gpx_file": "ev6_danube.gpx",
+      "status": "planned"
+    }
+  ],
+  "gear": {
+    "aerobars": {
+      "status": "needed",
+      "notes": "Purchase and mount on road bike"
+    },
+    "cycling_shorts": {
+      "status": "needed",
+      "notes": "Need 2-3 pairs of high-quality bibs"
+    },
+    "gps_watch": {
+      "status": "ready",
+      "model": "Polar Watch",
+      "notes": "Setup sync with Komoot and Strava"
+    }
+  },
+  "contacts": {
+    "uncle_frankfurt": {
+      "name": "Uncle",
+      "location": "Frankfurt, Germany",
+      "coordination_status": "pending"
+    }
+  }
+}

@@ -29,13 +29,13 @@ Planning hub for Kian's ultra-distance bike tour: a **loop out of Frankfurt** th
 | **[ROUTES.md](./ROUTES.md)** | The EuroVelo building blocks (Rhine/Danube/Rhône/etc.) and fallbacks if the full loop is too much. |
 | **[DEEP-RESEARCH.md](./DEEP-RESEARCH.md)** | Multi-axis dossier: EES/ETIAS, flying with a bike, German/EU trains, weather, accommodation & camping law, money (incl. Swiss CHF), connectivity, navigation, theft, insurance, nutrition, comfort, pacing, timeline. |
 | **[VIDEOS.md](./VIDEOS.md)** | All your YouTube videos enumerated (Cycling + Germany Vlogs), how they were reached, and the gear video. |
-| **[VELO-REPO-NOTES.md](./VELO-REPO-NOTES.md)** | Notes on the repo + your stolen **Cannondale Quick 5** (taken 5 May; you bought a replacement the same day) and recovery angle. |
+| **[VELO-REPO-NOTES.md](./VELO-REPO-NOTES.md)** | Notes on your stolen **Cannondale Quick 5** (taken 5 May; you bought a replacement the same day) and recovery angle. |
 
 ---
 
 ## 🧩 How the real trip was reconstructed
 
-- **Your repo `main`** (which you pushed) is the source of truth: `trip_config.json` (flights, the 5 EuroVelo segments + distances, gear status), `README.md` (the loop concept, ~3,000–5,000 km target), `todo.md` (open decisions), `scripts/planner.py`, and `transcripts/` (the 7 Rockies videos).
+- **Your repo `main`** is the source of truth: `trip_config.json` (flights, the 5 EuroVelo segments + distances, gear status), `todo.md` (open decisions), `scripts/planner.py`, and `transcripts/` (the 7 Rockies videos).
 - **Your homepage journals** (`kiankyars.github.io`, read via the allowlisted `raw.githubusercontent.com`/`codeload`) corroborate it: *"Bought a bike → bike stolen → bought another"* (4–5 May), *"First draft of the Europe bike-trip route"* (15 May), the **KLM** booking saga (29 May).
 - **Calendar/Slack** (work workspace) confirmed the OOO window and Alberta origin.
 - **YouTube** videos enumerated via the InnerTube API; **transcripts** then supplied directly by you on `main`.
@@ -45,4 +45,21 @@ Planning hub for Kian's ultra-distance bike tour: a **loop out of Frankfurt** th
 
 ---
 
-*Last updated: 2026-06-22. Earlier drafts in the git history assumed an Amsterdam arrival / leisure pace before your `trip_config.json` + transcripts landed — those have been corrected to the real Frankfurt Loop.*
+## 📂 Repository internals (the `main` toolkit you pushed)
+
+* `todo.md` – atomic task manager for travel, gear, cards, and logistics.
+* `trip_config.json` – machine-readable metadata (flights, contacts, routes, gear checklist).
+* `scripts/planner.py` – Python CLI: `status` (countdowns + flights + segments), `todo`, `check <term>`, `routes` (aggregate GPX distance/elevation).
+* `transcripts/` – the 2025 900-km Rockies trip transcripts (gear + pacing references).
+* `gpx/` – modular GPX route segments (now incl. the EV15 Mittelbuchen→Karlsruhe clip + figure) for your Polar device.
+
+## 🤖 Agent instructions (for the next assistant)
+
+1. **Read `todo.md` and `trip_config.json` first** to check current task status.
+2. Run `python3 scripts/planner.py status` (or `todo`) for countdowns and open tasks.
+3. Drop GPX files into `gpx/` and run `python3 scripts/planner.py routes` for aggregate distance/elevation.
+4. Update `todo.md` as tasks complete.
+
+---
+
+*Last updated: 2026-06-22. Earlier drafts in git history assumed an Amsterdam arrival / leisure pace before `trip_config.json` + the transcripts landed — corrected to the real Frankfurt Loop.*
