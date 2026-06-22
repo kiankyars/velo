@@ -13,7 +13,9 @@ Planning hub for Kian's cycling trip across Germany and elsewhere in Europe.
 
 | File | What it covers |
 |------|----------------|
-| **[PACKING-LIST.md](./PACKING-LIST.md)** | The concrete, checkbox "don't-forget-anything" list — bike & components, bags, tools/spares, clothing, camp/sleep, electronics, documents, health/toiletries. This is the file to print and tick off. |
+| **[CHECKLIST.md](./CHECKLIST.md)** | The **concise one-pager** — the distilled essentials. Read this if you read nothing else before leaving. |
+| **[PACKING-LIST.md](./PACKING-LIST.md)** | The full concrete, checkbox "don't-forget-anything" list — bike & components, bags, tools/spares, clothing, camp/sleep, electronics, documents, health/toiletries. Print and tick off. |
+| **[ITINERARY.md](./ITINERARY.md)** | A concrete **21-day day-by-day plan** (Munich → Danube → Vienna) sized to your exact 22 Jun–13 Jul window, with distances, rest days, and bookend logistics. |
 | **[ROUTES.md](./ROUTES.md)** | Route options for a 3-week ride (Danube / Rhine / Elbe / Romantic Road), with stages, difficulty, and how each connects to your flights. |
 | **[DEEP-RESEARCH.md](./DEEP-RESEARCH.md)** | The full multi-axis dossier: entry/border rules (EES & ETIAS), flying with a bike, German train bike rules, weather, accommodation & camping law, money, connectivity, navigation, safety/theft, insurance, nutrition, comfort, daily-distance planning, and a pre-departure timeline. |
 
