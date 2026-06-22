@@ -56,15 +56,15 @@ Because the rivers cross borders, you can easily ride into neighbouring countrie
 - **Elbe** → starts at the **Czech** border (Bad Schandau / Děčín → Prague is a popular extension)
 - **Lake Constance (Bodensee-Radweg)** → loops **Germany + Austria + Switzerland** in ~260 km, a classic warm-up or standalone week
 
-## 🧭 My recommendation for *your* trip (updated to your real flights)
+## 🧭 Your ACTUAL plan (from `trip_config.json` on `main`)
 
-Your journals show you're flying **KLM** — whose only nonstop Canada route here is **Edmonton → Amsterdam** — so you **land in Amsterdam**. That flips the recommendation to **the Rhine (Option B), ridden south from the Netherlands into Germany:**
+Your repo settles the route question: it's **not** a single river path but a **~4,000 km Frankfurt loop** stitching five EuroVelo segments, flying **YEG → Frankfurt (FRA)** and back (your uncle's 80th is 13 Jul). The options above are the building blocks; here's how you actually chained them:
 
-> **Land at Amsterdam → ride the Rhine Cycle Route (EuroVelo 15) south through the Netherlands into Germany → Cologne → the UNESCO Rhine Gorge → Mainz → on toward Basel → train back to Amsterdam for the flight home.**
+> **Frankfurt → (EV15 Rhine) → Andermatt CH → (EV17 Rhône) → Mediterranean FR → (EV8 Med) → Italy → (EV7 Central Europe) → Passau → (EV6 Danube) → Frankfurt.**
+>
+> Touches **Germany · Switzerland · France · Italy · Austria** — the fullest possible read of *"Germany and elsewhere in Europe."* Full day-by-day, pace reality, and train escape-hatches in **[ITINERARY.md](./ITINERARY.md)**.
 
-It's flat, superbly signed, train-shadowed the whole way, and uniquely matches your arrival airport while delivering *"Germany **and** elsewhere in Europe"* (NL → DE → FR → CH). The full day-by-day is in **[ITINERARY.md](./ITINERARY.md)**.
-
-*If you'd rather start in Germany proper and prefer the quietest possible gradient,* change the flight to Munich and ride the **Danube (Option A)** — still excellent.
+This is **ultra-distance** (~150–200 km/day, two Alpine crossings) — at the top of the ~200 km/day ceiling you set in your Rockies transcripts. The four single-route options above remain useful as **fallbacks**: if the full loop proves too much, dropping to just **EV15 Rhine** or **EV6 Danube** out-and-back from Frankfurt is a saner, still-spectacular plan B.
 
 ---
 

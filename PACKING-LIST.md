@@ -8,7 +8,7 @@ A concrete, print-and-tick checklist so nothing gets forgotten. Tailored to a **
 
 ---
 
-> 📹 **Your gear video, found:** *"My Gear for 900 km through the Canadian Rockies"* (`youtu.be/g2AvZq_XQsE`, in your Cycling playlist) — see [VIDEOS.md](./VIDEOS.md). It's your kit walkthrough for a 900 km self-supported tour. I could identify it and confirm it has a transcript, but YouTube anti-bot (PoToken) blocks pulling the transcript text from this sandbox. **Paste that video's transcript** (`…More → Show transcript`) and I'll turn it into your exact, verbatim gear list. Until then, the list below is the research- + bike-grounded version.
+> ✅ **Your gear video — transcript obtained & extracted.** *"My Gear for 900 km through the Canadian Rockies"* (`youtu.be/g2AvZq_XQsE`) is now in `transcripts/` on `main`. The **verbatim list of what you actually brought** — plus your own stated regrets (no bibs, no tights, bad gloves, leaky pump, broken saddle bag) and the lessons from all 7 Cycling-playlist videos — is in **[GEAR-FROM-VIDEOS.md](./GEAR-FROM-VIDEOS.md)**. The checklist below merges that real list with trip-specific essentials (German light law, EES, insurance, Alpine cold on the Rhône leg).
 
 ## 🚲 Your trip bike — Giant Defy (confirmed)
 
