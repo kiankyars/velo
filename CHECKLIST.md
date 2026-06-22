@@ -2,17 +2,17 @@
 
 The TL;DR distilled from [PACKING-LIST.md](./PACKING-LIST.md). If you only read one page before leaving, read this. (Full rationale + sources: [DEEP-RESEARCH.md](./DEEP-RESEARCH.md).)
 
-## 🚲 Bike (ride-ready before you box it)
-- [ ] Tyres 35–45 mm, fresh; tubes/sealant topped up
-- [ ] Low gearing for loaded climbs (~1:1 or lower)
-- [ ] Brakes good + **spare pads**
-- [ ] Comfortable, broken-in **saddle** (not new)
+## 🚲 Bike — Giant Defy (ride-ready before you box it)
+- [ ] Tyres **30–32 mm** (widest supple that clears), **tubeless** if possible; sealant topped up
+- [ ] Compact crank + wide cassette (~1:1 low gear) confirmed
+- [ ] Disc brakes good + **spare disc pads** (correct resin/metal type)
+- [ ] Comfortable, broken-in **saddle** (not new); bar tape OK
 - [ ] **Mandatory German lights:** white front + red rear, **StVZO, non-blinking**
-- [ ] Racks/bags fitted; bell fitted
+- [ ] **Bikepacking bags** fitted (saddle/frame/bar — Defy likely has no rack mounts); bell fitted
 
 ## 🛠️ Spares & tools (the unbuyable-on-road four ⭐)
-- [ ] ⭐ **Bike-specific derailleur hanger** · ⭐ quick/master link · ⭐ 2× tubes + boot · ⭐ spare brake pads
-- [ ] Multi-tool (w/ chain breaker), tyre levers, mini-pump, patch kit, chain lube, spoke key + spokes, zip ties + tape
+- [ ] ⭐ **Bike-specific derailleur hanger** · ⭐ **11-/12-speed quick link** (match your drivetrain) · ⭐ tubeless plugs+sealant (or 2× 700×28–32 tubes) + boot · ⭐ spare disc pads
+- [ ] Multi-tool (w/ chain breaker), tyre levers, mini-pump, patch kit, chain lube, spoke key + spokes, zip ties + tape, **carbon-safe torque key**
 
 ## 🔒 Security
 - [ ] One **high-quality lock** (folding/mini-D) + secure the wheels

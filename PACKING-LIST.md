@@ -8,19 +8,19 @@ A concrete, print-and-tick checklist so nothing gets forgotten. Tailored to a **
 
 ---
 
-## 🚲 Your actual bike (from your own records)
+## 🚲 Your trip bike — Giant Defy (confirmed)
 
-Pulled from `config/bike_profile.yml` and the reference photos (`bike.jpg`, `vélo.jpg`) in this repo — your real bike, not a generic one:
+You confirmed you're taking your **Giant Defy** — a **carbon endurance road bike** (the stolen Cannondale Quick 5 is a separate matter; ignore it for the trip). That changes the kit vs. a hybrid/tourer, so this section and the spares below are tuned to it:
 
-- **2021 Cannondale Quick 5** — hybrid/fitness, **aluminium**, **matte black** w/ white accents, **Large**, **700c**
-- **Shimano 2× drivetrain**, **mechanical disc brakes**, **Schwalbe Spicer** tyres, flat bar with bar-end grips, bell, kickstand, bottle cage *(from the photos)*
+- **Endurance road geometry, drop bars, 700c, disc brakes, tubeless-ready** (typical for the Defy Advanced/Pro line). *Confirm a couple of specifics so I can finalise exact spares:*
+  - **Drivetrain speed** (e.g. 105/Ultegra **11- or 12-speed**) → determines the right **quick link**
+  - **Tubeless or tubes?** → determines plugs+sealant vs. spare tubes
+  - **Rack/fender mounts?** Most Defy frames have **limited/no rack mounts** → plan **bikepacking bags** (saddle pack + frame bag + bar roll) rather than panniers
+- **Tyres:** the Defy clears roughly **28–32 mm** (some up to ~35 mm). For 3 weeks on paved EuroVelo paths, fit the **widest supple tyre that clears (30–32 mm)**, tubeless if possible, for comfort + puncture resistance. Don't try to force fat touring tyres on.
+- **Carbon frame/bar/post → a mini torque key is essential** (clamp bolts have low limits; over-tightening cracks carbon). Extra padding when boxing for the flight.
+- **Gearing:** a compact road crank (50/34) + wide cassette (e.g. 11-34) gives a ~1:1 low gear — fine for the flat river routes, but if you'll tackle the Romantic Road/Alps foothills, confirm your easiest gear.
 
-> ⚠️ **Open question that changes this whole list:** this bike was **reported stolen on 2026-05-05** (see [VELO-REPO-NOTES.md](./VELO-REPO-NOTES.md)) — about 5 weeks before your 22 Jun departure. **Confirm which bike is actually going to Europe** (recovered Quick 5 / a replacement / a rental). It determines:
-> - **Disc vs rim** spare pads, and which spares fit
-> - Whether you **fly with your own bike** at all (vs rent at the start city — often simpler for a one-way river route)
-> - Tyre size/clearance for the spares you carry
->
-> A **Quick 5 is genuinely well-suited** to the flat, paved EuroVelo river routes (disc brakes, 700c, rack mounts) — if you have one for the trip, it's a fine choice. Tell me the trip bike and I'll lock the spares/sizes below to it exactly.
+> ✅ **Net effect on this list:** under **Luggage**, prefer **bikepacking bags** over panniers (unless your Defy has rack mounts); under **Spares**, use **disc pads + tubeless plugs/sealant** (or 700×28–32 tubes) and a **12-/11-speed quick link**; add a **carbon-safe torque key**. Tell me the drivetrain speed + tubeless-or-not and I'll pin the exact part numbers.
 
 ## 🔧 Bike & components (verify your build / what you bought)
 

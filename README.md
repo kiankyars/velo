@@ -17,7 +17,11 @@ You asked me to "look through the Velo directory — it **should** be a plan for
 
 **From your own records:** your **2021 Black Cannondale Quick 5** (hybrid, aluminium, matte black/white, Large, 700c) was **stolen 2026-05-05** from 426 Fell St, San Francisco — *"in our garage the day I bought it."* You're also watching a **Trek Fuel EX 7**.
 
-**The Europe cycling trip is still real and separate** (confirmed by your Calendar + Slack OOO). So this folder now serves *both* purposes: the trip-planning files below, **plus** notes on the recovery repo. The trip files are genuinely tailored — but note the open question they raise: **which bike are you taking to Europe?** Your main bike was stolen 5 weeks before departure (replacement? recovered? rental?). That drives several packing decisions — see [PACKING-LIST.md](./PACKING-LIST.md#-your-actual-bike-from-your-own-records).
+**The Europe cycling trip is still real and separate** (confirmed by your Calendar + Slack OOO). So this folder serves *both* purposes: the trip-planning files below, **plus** notes on the recovery repo (which is irrelevant to the trip — flagged only because it's what the directory actually holds).
+
+**Two things you've since confirmed:**
+- **Trip bike = your Giant Defy** (a carbon endurance *road* bike — *not* the stolen Cannondale). The packing list is now tuned to it: bikepacking bags over panniers, disc pads + tubeless spares, carbon-safe torque key. See [PACKING-LIST.md](./PACKING-LIST.md#-your-trip-bike--giant-defy-confirmed).
+- **There are no transcripts in this repo.** I verified the entire file tree of both branches: `captures/` is 1,666 `.png` screenshots, the only `.txt` files are Python packaging metadata, and there is no `transcripts/` folder or `.srt`/`.vtt` file anywhere. The YouTube videos' transcripts live only on YouTube, which this sandbox can't reach — so #1/#2 can only be made *video-exact* if you paste a transcript.
 
 ---
 
