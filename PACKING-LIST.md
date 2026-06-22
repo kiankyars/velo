@@ -8,6 +8,8 @@ A concrete, print-and-tick checklist so nothing gets forgotten. Tailored to a **
 
 ---
 
+> 📹 **Your gear video, found:** *"My Gear for 900 km through the Canadian Rockies"* (`youtu.be/g2AvZq_XQsE`, in your Cycling playlist) — see [VIDEOS.md](./VIDEOS.md). It's your kit walkthrough for a 900 km self-supported tour. I could identify it and confirm it has a transcript, but YouTube anti-bot (PoToken) blocks pulling the transcript text from this sandbox. **Paste that video's transcript** (`…More → Show transcript`) and I'll turn it into your exact, verbatim gear list. Until then, the list below is the research- + bike-grounded version.
+
 ## 🚲 Your trip bike — Giant Defy (confirmed)
 
 You confirmed you're taking your **Giant Defy** — a **carbon endurance road bike** (the stolen Cannondale Quick 5 is a separate matter; ignore it for the trip). That changes the kit vs. a hybrid/tourer, so this section and the spares below are tuned to it:

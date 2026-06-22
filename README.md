@@ -35,6 +35,7 @@ You asked me to "look through the Velo directory — it **should** be a plan for
 | **[ROUTES.md](./ROUTES.md)** | Route options for a 3-week ride (Danube / Rhine / Elbe / Romantic Road), with stages, difficulty, and how each connects to your flights. |
 | **[DEEP-RESEARCH.md](./DEEP-RESEARCH.md)** | The full multi-axis dossier: entry/border rules (EES & ETIAS), flying with a bike, German train bike rules, weather, accommodation & camping law, money, connectivity, navigation, safety/theft, insurance, nutrition, comfort, daily-distance planning, and a pre-departure timeline. |
 | **[VELO-REPO-NOTES.md](./VELO-REPO-NOTES.md)** | What the `velo` repo's `main` branch actually is (the stolen-bike recovery tool), your bike profile, candidate-database stats, and high-leverage **recovery next-steps**. |
+| **[VIDEOS.md](./VIDEOS.md)** | Your YouTube videos **enumerated via the InnerTube API** — incl. the identified gear/"parts" video (*"My Gear for 900 km through the Canadian Rockies"*) and the Cycling + Germany Vlogs playlists. |
 
 ---
 
