@@ -35,11 +35,12 @@
       "ev_code": "EV15",
       "start": "Mittelbuchen (Hanau)",
       "end": "Andermatt (CH)",
-      "approx_distance_km": 843.9,
+      "approx_distance_km": 874.7,
       "gpx_file": "ev15_rhine.gpx",
       "status": "built",
-      "ascent_m": 7756,
-      "on_cyclenetwork_pct": 87.5
+      "ascent_m": 9206,
+      "on_cyclenetwork_pct": 98.5,
+      "notes": "Mittelbuchen-to-Mainz connector is routed with BRouter; Mainz-to-Andermatt uses the official EuroVelo 15 GPX and avoids the prior inland Osthofen drift."
     },
     {
       "name": "Rhône Cycle Route",
@@ -109,9 +110,9 @@
     }
   },
   "loop_totals": {
-    "distance_km": 4018.7,
-    "ascent_m": 39509,
+    "distance_km": 4049.5,
+    "ascent_m": 40959,
     "segments": 5,
-    "method": "BRouter trekking profile on OpenStreetMap; no motorway/rail/ferry; built 2026-06-23T16:46:41Z"
+    "method": "EV15 official EuroVelo GPX plus BRouter connectors; other legs BRouter trekking profile on OpenStreetMap; no motorway/rail/ferry in validated routed legs; rebuilt 2026-06-23"
   }
 }

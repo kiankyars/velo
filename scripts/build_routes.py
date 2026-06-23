@@ -19,6 +19,7 @@ Responses are cached under scripts/.cache so re-runs are free and reproducible.
 """
 import os, sys, json, math, time, hashlib, urllib.request, urllib.parse
 import xml.sax.saxutils as sx
+import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -36,6 +37,16 @@ os.makedirs(CACHE, exist_ok=True)
 PROFILE_FILE = os.path.join(HERE, "velo_trekking.brf")
 PROFILE_CACHE_KEY = "velo_trekking"   # stable key (the server id is ephemeral)
 _PROFILE_ID = None
+
+OFFICIAL_EV15_URL = "https://en.eurovelo.com/route/get-gpx/36"
+# Main continuous official EV15 line for this trip:
+# Andermatt -> St Margrethen -> Konstanz -> Basel -> Alsace/Strasbourg ->
+# Karlsruhe/Maxau -> Speyer -> Eich -> Mainz. The omitted track numbers are
+# alternate bank variants or downstream sections beyond Mainz.
+OFFICIAL_EV15_TRACKS = (
+    list(range(1, 8)) + list(range(10, 17)) +
+    list(range(22, 27)) + list(range(32, 37))
+)
 
 def get_profile_id():
     global _PROFILE_ID
@@ -170,6 +181,116 @@ def build_segment(seg):
         "cats": cats, "ferries": ferries, "tunnels": tunnels, "motorways": motorways,
     }
 
+def download_official_ev15():
+    cf = os.path.join(CACHE, "official_ev15.gpx")
+    if os.path.exists(cf):
+        return cf
+    req = urllib.request.Request(OFFICIAL_EV15_URL, headers={"User-Agent": "velo-planner/1.0"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        data = r.read()
+    open(cf, "wb").write(data)
+    return cf
+
+def parse_gpx_track_numbers(path, track_numbers):
+    ns = "{http://www.topografix.com/GPX/1/1}"
+    root = ET.parse(path).getroot()
+    wanted = set(track_numbers)
+    parts = []
+    for idx, trk in enumerate(root.findall(f"{ns}trk"), start=1):
+        if idx not in wanted:
+            continue
+        part = []
+        for p in trk.iter(f"{ns}trkpt"):
+            ele = p.find(f"{ns}ele")
+            part.append([
+                float(p.attrib["lat"]),
+                float(p.attrib["lon"]),
+                float(ele.text) if ele is not None and ele.text else None,
+            ])
+        parts.append((idx, part))
+    missing = sorted(wanted - {idx for idx, _ in parts})
+    if missing:
+        raise RuntimeError(f"Official EV15 GPX missing track(s): {missing}")
+    return parts
+
+def route_between(a, b):
+    d = brouter([(a[0], a[1]), (b[0], b[1])])
+    coords = d["features"][0]["geometry"]["coordinates"]
+    return [[c[1], c[0], c[2] if len(c) > 2 else None] for c in coords]
+
+def append_official_part(track, part, label):
+    if not part:
+        return
+    if not track:
+        track.extend(part)
+        return
+    gap = haversine((track[-1][0], track[-1][1]), (part[0][0], part[0][1]))
+    if gap < 100:
+        track.extend(part[1:])
+    elif gap <= 5000:
+        print(f"  official EV15 connector before track {label}: {gap:.0f} m", flush=True)
+        connector = route_between(track[-1], part[0])
+        track.extend(connector[1:-1])
+        track.extend(part)
+    else:
+        raise RuntimeError(f"Official EV15 track {label} is disconnected by {gap:.0f} m")
+
+def build_official_ev15_segment(seg):
+    """Use official EuroVelo 15 geometry for the Rhine backbone.
+
+    BRouter's waypoint route cut inland near Osthofen between Mainz and Worms.
+    The official EV15 GPX follows the Rhine-side line via Eich, so Segment 1 is
+    assembled as: Mittelbuchen->Mainz connector by BRouter, then official EV15
+    GPX from Mainz back to Andermatt for our southbound direction.
+    """
+    connector_seg = {**seg, "waypoints": seg["waypoints"][:5]}
+    connector = build_segment(connector_seg)
+
+    official_northbound = []
+    for idx, part in parse_gpx_track_numbers(download_official_ev15(), OFFICIAL_EV15_TRACKS):
+        append_official_part(official_northbound, part, idx)
+    official_southbound = list(reversed(official_northbound))
+
+    track = connector["track"]
+    gap = haversine(
+        (track[-1][0], track[-1][1]),
+        (official_southbound[0][0], official_southbound[0][1]),
+    )
+    if gap < 100:
+        track = track[:-1]
+    elif gap <= 5000:
+        print(f"  connector to official EV15 at Mainz: {gap:.0f} m", flush=True)
+        link = route_between(track[-1], official_southbound[0])
+        track.extend(link[1:-1])
+    else:
+        raise RuntimeError(f"Mittelbuchen connector is {gap:.0f} m from official EV15")
+    track.extend(official_southbound)
+    andermatt = WP["Andermatt, Switzerland"]
+    target = [andermatt["lat"], andermatt["lon"], track[-1][2]]
+    gap = haversine((track[-1][0], track[-1][1]), (target[0], target[1]))
+    if gap > 1:
+        print(f"  official EV15 to EV17 Andermatt seam: {gap:.0f} m", flush=True)
+        link = route_between(track[-1], target)
+        track.extend(link[1:])
+
+    dist_km = haversine_total(track)
+    eles = [p[2] for p in track if p[2] is not None]
+    gain = sum(max(0, eles[i+1]-eles[i]) for i in range(len(eles)-1)) if len(eles) > 1 else 0
+
+    cats = {k: float(v) for k, v in connector["cats"].items()}
+    official_m = haversine_total(official_southbound) * 1000.0
+    cats["cyclenet"] += official_m
+    cats["icn"] += official_m
+    return {
+        "seg": seg, "track": track,
+        "brouter_len_km": connector["brouter_len_km"],
+        "dist_km": dist_km, "ascent_m": gain,
+        "n_points": len(track), "total_m": connector["total_m"] + official_m,
+        "cats": cats, "ferries": connector["ferries"], "tunnels": connector["tunnels"],
+        "motorways": connector["motorways"],
+        "source": "Mittelbuchen->Mainz by BRouter; Mainz->Andermatt official EuroVelo 15 GPX",
+    }
+
 def haversine_total(track):
     s = 0.0
     for i in range(len(track)-1):
@@ -219,7 +340,7 @@ def main():
     results = []
     for seg in SEGMENTS:
         print(f"Routing {seg['id']} ({len(seg['waypoints'])} wp)...", flush=True)
-        r = build_segment(seg)
+        r = build_official_ev15_segment(seg) if seg["id"] == "ev15_rhine" else build_segment(seg)
         results.append(r)
         c = r["cats"]; tot = r["total_m"] or 1
         print(f"  {r['dist_km']:.1f} km  ascent {r['ascent_m']:.0f} m  "
@@ -264,6 +385,7 @@ def main():
         summary["segments"].append({
             "id": r["seg"]["id"], "name": r["seg"]["name"], "ev": r["seg"]["ev"],
             "desc": r["seg"]["desc"],
+            "source": r.get("source", "BRouter trekking profile on OpenStreetMap"),
             "distance_km": round(r["dist_km"], 1),
             "ascent_m": round(r["ascent_m"]),
             "n_points": r["n_points"],

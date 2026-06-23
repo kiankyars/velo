@@ -4,8 +4,8 @@
    "id": "ev15_rhine",
    "file": "ev15_rhine.gpx",
    "xml_valid": true,
-   "n_points": 25166,
-   "distance_km": 843.9,
+   "n_points": 13567,
+   "distance_km": 874.7,
    "max_point_gap_m": 150.0,
    "jumps_over_threshold": 0,
    "continuous": true
@@ -90,14 +90,14 @@
  ],
  "ok": true,
  "problems": [],
- "total_km": 4018.7,
+ "total_km": 4049.5,
  "safety": {
   "motorway_km": 0.0,
-  "trunk_km": 0.069,
+  "trunk_km": 0.048,
   "motorroad_km": 0.0,
   "active_rail_km": 0.0,
   "ferry_km": 0.0,
-  "tunnel_km": 21.61,
-  "road_tunnel_km": 7.79
+  "tunnel_km": 19.38,
+  "road_tunnel_km": 6.17
  }
 }
