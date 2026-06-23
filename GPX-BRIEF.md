@@ -15,11 +15,20 @@
 > `api.openrouteservice.org`, `brouter.de`, `routing.openstreetmap.de`,
 > `*.komoot.com`, `*.strava.com`).
 >
-> **Deux confirmations à obtenir avant l'export final :**
-> 1. le **point GPS exact** où le vélo sera monté à Francfort (aéroport ? hôtel ?
->    magasin de vélo ?) — détermine le connecteur Francfort→Mayence ;
-> 2. le **type de vélo / largeur des pneus** — détermine la tolérance au gravier
->    (Innradweg, plaine du Pô, Turchino) vs. routage 100 % asphalte.
+> **MISE À JOUR (2026-06-23) — remplace les dates/point de départ de la section 1/2A :**
+> - **Départ confirmé : Mittelbuchen (Hanau)** — PAS l'aéroport. Le connecteur
+>   initial est donc **Mittelbuchen → Mayence** (et non FRA → Mayence).
+> - **Date/heure décalées de +1 jour : mercredi 24 juin 2026, 5 h.**
+> - **Jour 1 volontairement long (~250–300 km)** pour récupérer le jour perdu et
+>   fuir la chaleur → viser une arrivée le **12 juillet**, le **13 juillet** restant
+>   le butoir. Les étapes quotidiennes deviennent **D01–D19** (Jour 1 = double étape).
+> - **Pneus confirmés : ~32 mm** (politique surface : voir `WAYPOINTS.md`).
+> - **Accès réseau re-testé le 2026-06-23 : toujours bloqué** (eurovelo / brouter /
+>   ORS / routing.osm.de / cycle.travel = HTTP 403). GPX réels impossibles dans
+>   cette session ; lancer une session à `Network access = Full`.
+>
+> **Confirmations pour l'export final :** point GPS exact dans Mittelbuchen
+> (adresse de montage) encore à préciser ; pneus 32 mm = OK.
 >
 > **Déjà disponible dans le repo (réutilisable) :** `gpx/ev15_mittelbuchen-mainz_to_karlsruhe.gpx`
 > — tronçon EV15 réel Mayence→Karlsruhe (1 769 points avec altitude), à intégrer
