@@ -33,47 +33,57 @@
     {
       "name": "Rhine Route",
       "ev_code": "EV15",
-      "start": "Frankfurt",
-      "end": "Andermatt",
-      "approx_distance_km": 500,
+      "start": "Mittelbuchen (Hanau)",
+      "end": "Andermatt (CH)",
+      "approx_distance_km": 843.9,
       "gpx_file": "ev15_rhine.gpx",
-      "status": "planned"
+      "status": "built",
+      "ascent_m": 7756,
+      "on_cyclenetwork_pct": 87.5
     },
     {
       "name": "Rhône Cycle Route",
       "ev_code": "EV17",
-      "start": "Andermatt",
-      "end": "Mediterranean Coast",
-      "approx_distance_km": 1115,
+      "start": "Andermatt (CH)",
+      "end": "Port-Saint-Louis-du-Rhone (Med)",
+      "approx_distance_km": 846.6,
       "gpx_file": "ev17_rhone.gpx",
-      "status": "planned"
+      "status": "built",
+      "ascent_m": 8450,
+      "on_cyclenetwork_pct": 80.4
     },
     {
       "name": "Mediterranean Route",
       "ev_code": "EV8",
-      "start": "Mediterranean Coast",
-      "end": "Italy Link",
-      "approx_distance_km": 600,
+      "start": "Port-Saint-Louis (Med)",
+      "end": "Piacenza (IT)",
+      "approx_distance_km": 874.5,
       "gpx_file": "ev8_med.gpx",
-      "status": "planned"
+      "status": "built",
+      "ascent_m": 12521,
+      "on_cyclenetwork_pct": 50.3
     },
     {
       "name": "Central Europe Route",
       "ev_code": "EV7",
-      "start": "Italy Link",
-      "end": "Passau",
-      "approx_distance_km": 1200,
+      "start": "Piacenza (IT)",
+      "end": "Passau (DE)",
+      "approx_distance_km": 764.8,
       "gpx_file": "ev7_central.gpx",
-      "status": "planned"
+      "status": "built",
+      "ascent_m": 6369,
+      "on_cyclenetwork_pct": 89.6
     },
     {
       "name": "Danube / Passau return",
       "ev_code": "EV6",
-      "start": "Passau",
-      "end": "Frankfurt",
-      "approx_distance_km": 600,
+      "start": "Passau (DE)",
+      "end": "Mittelbuchen (Hanau)",
+      "approx_distance_km": 688.9,
       "gpx_file": "ev6_danube.gpx",
-      "status": "planned"
+      "status": "built",
+      "ascent_m": 4413,
+      "on_cyclenetwork_pct": 84.1
     }
   ],
   "gear": {
@@ -97,5 +107,11 @@
       "location": "Frankfurt, Germany",
       "coordination_status": "pending"
     }
+  },
+  "loop_totals": {
+    "distance_km": 4018.7,
+    "ascent_m": 39509,
+    "segments": 5,
+    "method": "BRouter trekking profile on OpenStreetMap; no motorway/rail/ferry; built 2026-06-23T16:46:41Z"
   }
 }

@@ -1,0 +1,1492 @@
+{
+ "profile": "trekking (BRouter, processUnusedTags=true) on OpenStreetMap",
+ "generated_utc": "2026-06-23T16:46:41Z",
+ "total_km": 4018.7,
+ "total_ascent_m": 39509,
+ "loop_closure_gap_m": 0.0,
+ "seams": [
+  {
+   "from": "ev15_rhine",
+   "to": "ev17_rhone",
+   "gap_m": 0.0
+  },
+  {
+   "from": "ev17_rhone",
+   "to": "ev8_med",
+   "gap_m": 0.0
+  },
+  {
+   "from": "ev8_med",
+   "to": "ev7_central",
+   "gap_m": 0.0
+  },
+  {
+   "from": "ev7_central",
+   "to": "ev6_danube",
+   "gap_m": 0.0
+  }
+ ],
+ "segments": [
+  {
+   "id": "ev15_rhine",
+   "name": "EV15 Rhine + Mittelbuchen connector",
+   "ev": "EV15",
+   "desc": "Mittelbuchen -> Mainz (connector) then EuroVelo 15 up the Rhine to its Alpine source at Andermatt",
+   "distance_km": 843.9,
+   "ascent_m": 7756,
+   "n_points": 24201,
+   "on_cyclenetwork_pct": 87.5,
+   "on_eurovelo_icn_pct": 28.2,
+   "motorway_km": 0.0,
+   "trunk_km": 0.021,
+   "motorroad_km": 0.0,
+   "rail_km": 0.0,
+   "ferry_km": 0.0,
+   "tunnel_km": 2.34,
+   "tunnel_road_km": 1.72,
+   "ferries": [],
+   "tunnels": [
+    {
+     "lat": 50.0881,
+     "lon": 8.62915,
+     "len_m": 6,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=paving_stones lit=no estimated_noise_class=5 estimated_town_class=4 foot=designated bicycle=designated tunnel=building_passage segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_iwn=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 50.06957,
+     "lon": 8.54583,
+     "len_m": 58,
+     "bikepath": false,
+     "tags": "highway=track surface=asphalt estimated_forest_class=3 estimated_noise_class=6 tracktype=grade1 foot=yes bicycle=yes smoothness=good tunnel=yes motor_vehicle=no route_bicycle_lcn=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 49.99708,
+     "lon": 8.34513,
+     "len_m": 47,
+     "bikepath": false,
+     "tags": "highway=track surface=asphalt estimated_noise_class=6 tracktype=grade1 foot=yes bicycle=yes smoothness=good tunnel=yes motor_vehicle=agricultural route_bicycle_rcn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 49.87308,
+     "lon": 8.34173,
+     "len_m": 27,
+     "bikepath": true,
+     "tags": "highway=footway surface=paving_stones lit=no estimated_noise_class=2 bicycle=yes smoothness=good tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 49.00778,
+     "lon": 8.40964,
+     "len_m": 13,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=residential surface=asphalt lit=yes estimated_noise_class=4 estimated_town_class=3 maxspeed=50 lanes=2 smoothness=excellent tunnel=building_passage sidewalk=both lcn=yes cycleway:right=lane cycleway:left=shared_lane cycleway:right:lane=exclusive cycleway:left:lane=pictogram route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 49.03717,
+     "lon": 8.29925,
+     "len_m": 31,
+     "bikepath": false,
+     "tags": "highway=service surface=paved estimated_noise_class=4 tunnel=yes vehicle=destination route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 48.03423,
+     "lon": 7.57927,
+     "len_m": 22,
+     "bikepath": false,
+     "tags": "highway=tertiary surface=asphalt lit=yes maxspeed=30 estimated_traffic_class=4 lanes=2 tunnel=yes cycleway=no route_bicycle_lcn=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 47.75567,
+     "lon": 7.54416,
+     "len_m": 31,
+     "bikepath": false,
+     "tags": "highway=track surface=pebblestone estimated_forest_class=5 estimated_noise_class=5 tracktype=grade2 tunnel=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 47.5604,
+     "lon": 7.59106,
+     "len_m": 108,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=living_street surface=paving_stones lit=yes estimated_town_class=3 maxspeed=20 smoothness=excellent tunnel=yes motorcar=no motorcycle=no lcn=yes route_bicycle_icn=yes route_bicycle_lcn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 47.55921,
+     "lon": 7.61352,
+     "len_m": 84,
+     "bikepath": true,
+     "tags": "highway=footway surface=asphalt lit=yes estimated_noise_class=6 estimated_town_class=3 bicycle=yes tunnel=yes motor_vehicle=destination route_bicycle_icn=yes route_bicycle_lcn=yes route_hiking_nwn=yes route_hiking_rwn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 47.55912,
+     "lon": 7.64213,
+     "len_m": 12,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt estimated_noise_class=3 foot=yes bicycle=yes tunnel=yes segregated=no route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 47.55718,
+     "lon": 7.78664,
+     "len_m": 35,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=primary surface=asphalt lit=yes estimated_noise_class=6 maxspeed=50 estimated_traffic_class=6 lanes=3 bicycle=yes smoothness=good tunnel=yes sidewalk=no cycleway:both=no route_bicycle_icn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_mtb_rcn=yes"
+    },
+    {
+     "lat": 47.5816,
+     "lon": 7.81242,
+     "len_m": 22,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=living_street surface=paving_stones bicycle=yes tunnel=building_passage route_bicycle_icn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_rwn=yes route_hiking_lwn=yes route_mtb_rcn=yes"
+    },
+    {
+     "lat": 47.56442,
+     "lon": 8.06335,
+     "len_m": 21,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=living_street surface=sett estimated_noise_class=3 maxspeed=unknown bicycle=yes smoothness=intermediate tunnel=building_passage route_bicycle_icn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_mtb_rcn=yes"
+    },
+    {
+     "lat": 47.59141,
+     "lon": 8.13481,
+     "len_m": 25,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt lit=yes estimated_noise_class=6 foot=designated bicycle=designated smoothness=excellent tunnel=yes horse=no segregated=no route_bicycle_icn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 47.62369,
+     "lon": 8.20948,
+     "len_m": 36,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=footway surface=paving_stones lit=yes estimated_noise_class=5 bicycle=yes smoothness=good tunnel=yes route_bicycle_lcn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 47.63253,
+     "lon": 8.29702,
+     "len_m": 21,
+     "bikepath": true,
+     "tags": "highway=path surface=asphalt estimated_noise_class=6 foot=designated bicycle=designated tunnel=yes motor_vehicle=no horse=no segregated=no route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 47.67947,
+     "lon": 8.46387,
+     "len_m": 17,
+     "bikepath": true,
+     "tags": "highway=path surface=asphalt lit=yes estimated_forest_class=3 estimated_noise_class=3 foot=designated bicycle=designated smoothness=excellent tunnel=yes horse=no segregated=no incline=unknown route_bicycle_rcn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 47.69034,
+     "lon": 8.50099,
+     "len_m": 7,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=residential surface=asphalt estimated_forest_class=5 estimated_noise_class=3 tunnel=building_passage route_bicycle_rcn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 47.6945,
+     "lon": 8.59888,
+     "len_m": 10,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_noise_class=4 foot=yes smoothness=excellent tunnel=yes segregated=no oneway=no route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 47.69508,
+     "lon": 8.64392,
+     "len_m": 15,
+     "bikepath": true,
+     "tags": "highway=path surface=asphalt lit=yes estimated_noise_class=3 maxspeed=10 foot=designated bicycle=designated smoothness=excellent tunnel=building_passage segregated=yes route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_iwn=yes route_hiking_nwn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 47.68923,
+     "lon": 8.75183,
+     "len_m": 5,
+     "bikepath": true,
+     "tags": "highway=tertiary surface=asphalt lit=yes maxspeed=30 estimated_traffic_class=3 smoothness=excellent tunnel=building_passage sidewalk=both cycleway=lane route_bicycle_icn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 47.67007,
+     "lon": 8.83182,
+     "len_m": 13,
+     "bikepath": false,
+     "tags": "highway=unclassified surface=asphalt estimated_noise_class=3 smoothness=excellent tunnel=yes motor_vehicle=permissive route_bicycle_icn=yes route_hiking_iwn=yes route_hiking_nwn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 47.66087,
+     "lon": 8.85771,
+     "len_m": 25,
+     "bikepath": true,
+     "tags": "highway=pedestrian surface=sett lit=yes estimated_noise_class=4 bicycle=yes smoothness=good tunnel=building_passage motor_vehicle=permit route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 47.65543,
+     "lon": 8.95724,
+     "len_m": 16,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=no estimated_noise_class=4 foot=designated bicycle=designated smoothness=excellent tunnel=yes route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 47.24381,
+     "lon": 9.51923,
+     "len_m": 18,
+     "bikepath": false,
+     "tags": "highway=track surface=asphalt estimated_forest_class=3 estimated_noise_class=6 tracktype=grade1 smoothness=good tunnel=yes motor_vehicle=no motorcar=no motorcycle=no"
+    },
+    {
+     "lat": 47.16726,
+     "lon": 9.47902,
+     "len_m": 58,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=yes smoothness=excellent tunnel=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 47.13034,
+     "lon": 9.51126,
+     "len_m": 20,
+     "bikepath": false,
+     "tags": "highway=track surface=asphalt lit=no estimated_forest_class=1 estimated_noise_class=5 tracktype=grade1 foot=yes tunnel=yes motor_vehicle=no motorcar=no motorcycle=no route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 46.83122,
+     "lon": 9.41681,
+     "len_m": 145,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt estimated_forest_class=4 foot=yes bicycle=yes tunnel=avalanche_protector route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 46.80632,
+     "lon": 9.34353,
+     "len_m": 275,
+     "bikepath": false,
+     "tags": "highway=tertiary surface=asphalt estimated_forest_class=3 estimated_traffic_class=1 tunnel=avalanche_protector cycleway:both=no route_bicycle_ncn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 46.78686,
+     "lon": 9.29217,
+     "len_m": 25,
+     "bikepath": false,
+     "tags": "highway=tertiary surface=asphalt estimated_forest_class=5 maxspeed=80 estimated_traffic_class=1 bicycle=yes tunnel=yes cycleway:both=no route_bicycle_ncn=yes route_mtb_=yes"
+    },
+    {
+     "lat": 46.75618,
+     "lon": 9.08029,
+     "len_m": 6,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=track surface=gravel tracktype=grade2 bicycle=yes tunnel=yes route_bicycle_ncn=yes crossing=unmarked"
+    },
+    {
+     "lat": 46.70685,
+     "lon": 8.86079,
+     "len_m": 7,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt smoothness=excellent tunnel=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 46.68131,
+     "lon": 8.80943,
+     "len_m": 179,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=primary surface=asphalt estimated_forest_class=4 estimated_noise_class=5 maxspeed=80 estimated_traffic_class=1 bicycle=yes tunnel=yes sidewalk=both route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 46.65988,
+     "lon": 8.65659,
+     "len_m": 733,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=primary surface=asphalt estimated_noise_class=5 maxspeed=60 estimated_traffic_class=1 lanes=2 bicycle=yes tunnel=avalanche_protector route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 46.63957,
+     "lon": 8.60115,
+     "len_m": 163,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=primary surface=asphalt lit=yes estimated_forest_class=4 estimated_noise_class=5 maxspeed=60 estimated_traffic_class=3 lanes=2 foot=yes bicycle=yes tunnel=yes sidewalk=no cycleway:both=no shoulder=no route_bicycle_ncn=yes"
+    }
+   ],
+   "motorway_hits": [
+    {
+     "lat": 49.22549,
+     "lon": 8.39501,
+     "len_m": 21,
+     "tags": "highway=trunk_link surface=asphalt estimated_forest_class=3 estimated_noise_class=6 maxspeed=100 lanes=1 bicycle=yes smoothness=excellent mofa=yes agricultural=yes motorroad=unknown oneway=yes route_bicycle_lcn=yes"
+    }
+   ]
+  },
+  {
+   "id": "ev17_rhone",
+   "name": "EV17 Rhone (ViaRhona)",
+   "ev": "EV17",
+   "desc": "Andermatt over the Furka to the Rhone glacier, down the Valais and French Rhone to the Mediterranean",
+   "distance_km": 846.6,
+   "ascent_m": 8450,
+   "n_points": 24792,
+   "on_cyclenetwork_pct": 80.4,
+   "on_eurovelo_icn_pct": 45.3,
+   "motorway_km": 0.0,
+   "trunk_km": 0.048,
+   "motorroad_km": 0.0,
+   "rail_km": 0.0,
+   "ferry_km": 0.0,
+   "tunnel_km": 1.33,
+   "tunnel_road_km": 1.0,
+   "ferries": [],
+   "tunnels": [
+    {
+     "lat": 46.54956,
+     "lon": 8.35996,
+     "len_m": 46,
+     "bikepath": false,
+     "tags": "highway=primary surface=sett estimated_forest_class=3 estimated_noise_class=6 maxspeed=80 estimated_traffic_class=1 tunnel=yes incline=down route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 46.41872,
+     "lon": 8.1712,
+     "len_m": 130,
+     "bikepath": false,
+     "tags": "highway=residential surface=asphalt estimated_forest_class=5 tunnel=yes sidewalk=right route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 46.34223,
+     "lon": 8.02575,
+     "len_m": 22,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=track surface=asphalt estimated_noise_class=4 tracktype=grade1 foot=yes bicycle=yes tunnel=yes motor_vehicle=no horse=yes route_bicycle_ncn=yes route_hiking_lwn=yes route_mtb_=yes"
+    },
+    {
+     "lat": 46.32081,
+     "lon": 7.98627,
+     "len_m": 121,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt estimated_noise_class=4 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 46.30739,
+     "lon": 7.96499,
+     "len_m": 24,
+     "bikepath": true,
+     "tags": "highway=path estimated_noise_class=6 foot=designated bicycle=designated tunnel=yes segregated=yes"
+    },
+    {
+     "lat": 46.29455,
+     "lon": 7.87587,
+     "len_m": 266,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified tunnel=yes"
+    },
+    {
+     "lat": 46.30663,
+     "lon": 7.65347,
+     "len_m": 15,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=service surface=asphalt estimated_forest_class=3 estimated_noise_class=3 tunnel=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 46.29336,
+     "lon": 7.55722,
+     "len_m": 21,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=concrete lit=yes estimated_forest_class=5 estimated_noise_class=6 tunnel=yes route_bicycle_ncn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 46.22679,
+     "lon": 7.35781,
+     "len_m": 47,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=residential surface=asphalt lit=yes maxspeed=50 lanes=2 tunnel=yes oneway=no"
+    },
+    {
+     "lat": 46.11486,
+     "lon": 7.07785,
+     "len_m": 100,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt lit=no estimated_noise_class=6 maxspeed=50 foot=designated bicycle=designated tunnel=yes motor_vehicle=no motorcar=no motorcycle=no vehicle=no horse=yes segregated=no"
+    },
+    {
+     "lat": 46.40131,
+     "lon": 6.58993,
+     "len_m": 16,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=pedestrian tunnel=yes"
+    },
+    {
+     "lat": 46.17933,
+     "lon": 6.08402,
+     "len_m": 27,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_forest_class=3 estimated_noise_class=6 foot=designated bicycle=designated tunnel=yes segregated=yes oneway=no"
+    },
+    {
+     "lat": 45.76655,
+     "lon": 5.75759,
+     "len_m": 24,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt lit=no estimated_forest_class=5 foot=designated bicycle=designated tunnel=yes motor_vehicle=no segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_hiking_nwn=yes route_hiking_lwn=yes route_mtb_rcn=yes"
+    },
+    {
+     "lat": 45.75779,
+     "lon": 4.83037,
+     "len_m": 299,
+     "bikepath": false,
+     "tags": "highway=service surface=concrete lit=yes estimated_noise_class=2 estimated_town_class=4 maxspeed=30 tunnel=yes oneway=yes zone:maxspeed=30"
+    },
+    {
+     "lat": 45.59222,
+     "lon": 4.78528,
+     "len_m": 13,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=track bicycle=yes tunnel=yes route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.93258,
+     "lon": 4.88061,
+     "len_m": 32,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified surface=asphalt estimated_noise_class=6 tunnel=yes cycleway:both=no oneway=no"
+    },
+    {
+     "lat": 44.91016,
+     "lon": 4.86349,
+     "len_m": 35,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified estimated_noise_class=5 bicycle=yes tunnel=yes route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.55178,
+     "lon": 4.74213,
+     "len_m": 13,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=residential tunnel=yes"
+    },
+    {
+     "lat": 44.44066,
+     "lon": 4.68153,
+     "len_m": 20,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt estimated_forest_class=4 estimated_noise_class=5 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.3797,
+     "lon": 4.64714,
+     "len_m": 20,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=residential surface=asphalt estimated_forest_class=3 estimated_noise_class=4 maxspeed=30 lanes=2 tunnel=yes route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 43.94993,
+     "lon": 4.78355,
+     "len_m": 10,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=residential estimated_noise_class=5 maxspeed=30 lanes=1 tunnel=yes oneway=yes oneway:bicycle=no route_bicycle_icn=yes route_hiking_nwn=yes zone:maxspeed=30"
+    },
+    {
+     "lat": 43.95079,
+     "lon": 4.75941,
+     "len_m": 29,
+     "bikepath": false,
+     "tags": "highway=unclassified surface=asphalt estimated_noise_class=5 maxspeed=30 lanes=2 tunnel=yes route_bicycle_icn=yes"
+    },
+    {
+     "lat": 43.80792,
+     "lon": 4.66236,
+     "len_m": 3,
+     "bikepath": false,
+     "tags": "highway=residential surface=asphalt lit=yes estimated_noise_class=6 tunnel=yes oneway=yes"
+    }
+   ],
+   "motorway_hits": [
+    {
+     "lat": 45.72975,
+     "lon": 4.81543,
+     "len_m": 48,
+     "tags": "highway=trunk_link surface=asphalt estimated_noise_class=6 estimated_river_class=4 maxspeed=50 lanes=2 bicycle=yes sidewalk=right oneway=yes cycleway:right=lane cycleway:left=no cycleway:right:lane=exclusive route_bicycle_icn=yes route_bicycle_ncn=yes"
+    }
+   ]
+  },
+  {
+   "id": "ev8_med",
+   "name": "EV8 Mediterranean (bespoke)",
+   "ev": "EV8*",
+   "desc": "Custom Mediterranean route: inland Provence (Manosque->Draguignan), French Riviera to Liguria, the Ligurian coast, over the Passo del Turchino to Piacenza",
+   "distance_km": 874.5,
+   "ascent_m": 12521,
+   "n_points": 29370,
+   "on_cyclenetwork_pct": 50.3,
+   "on_eurovelo_icn_pct": 20.3,
+   "motorway_km": 0.0,
+   "trunk_km": 0.0,
+   "motorroad_km": 0.0,
+   "rail_km": 0.0,
+   "ferry_km": 0.0,
+   "tunnel_km": 13.21,
+   "tunnel_road_km": 4.21,
+   "ferries": [],
+   "tunnels": [
+    {
+     "lat": 43.64127,
+     "lon": 5.09704,
+     "len_m": 17,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=pedestrian surface=sett lit=yes tunnel=building_passage"
+    },
+    {
+     "lat": 43.83353,
+     "lon": 5.78125,
+     "len_m": 1,
+     "bikepath": false,
+     "tags": "highway=residential maxspeed=30 tunnel=yes oneway=yes route_mtb_rcn=yes"
+    },
+    {
+     "lat": 43.70235,
+     "lon": 6.03962,
+     "len_m": 9,
+     "bikepath": false,
+     "tags": "highway=residential tunnel=yes"
+    },
+    {
+     "lat": 43.51566,
+     "lon": 6.3976,
+     "len_m": 285,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified estimated_forest_class=4 maxspeed=30 tunnel=yes railway=abandoned cycleway:both=no route_bicycle_icn=yes"
+    },
+    {
+     "lat": 43.52959,
+     "lon": 6.46798,
+     "len_m": 20,
+     "bikepath": true,
+     "tags": "highway=path surface=asphalt estimated_noise_class=3 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 43.46381,
+     "lon": 6.56589,
+     "len_m": 40,
+     "bikepath": false,
+     "tags": "highway=tertiary surface=asphalt estimated_noise_class=5 estimated_traffic_class=4 tunnel=yes route_bicycle_lcn=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 43.43133,
+     "lon": 6.7354,
+     "len_m": 21,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=concrete lit=yes estimated_noise_class=3 estimated_town_class=1 foot=designated bicycle=designated tunnel=yes wheelchair=yes segregated=no route_hiking_nwn=yes"
+    },
+    {
+     "lat": 43.70146,
+     "lon": 7.27835,
+     "len_m": 22,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=yes estimated_forest_class=1 estimated_noise_class=4 estimated_town_class=3 tunnel=yes oneway=no route_bicycle_lcn=proposed"
+    },
+    {
+     "lat": 43.70839,
+     "lon": 7.33263,
+     "len_m": 49,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=tertiary surface=asphalt lit=yes maxspeed=30 estimated_traffic_class=4 tunnel=yes sidewalk=left route_hiking_lwn=yes"
+    },
+    {
+     "lat": 43.72382,
+     "lon": 7.3899,
+     "len_m": 86,
+     "bikepath": false,
+     "tags": "highway=secondary surface=asphalt lit=24/7 estimated_noise_class=4 maxspeed=30 estimated_traffic_class=4 lanes=2 tunnel=yes sidewalk=right cycleway:both=no"
+    },
+    {
+     "lat": 43.73032,
+     "lon": 7.41402,
+     "len_m": 286,
+     "bikepath": false,
+     "tags": "highway=primary surface=asphalt lit=24/7 estimated_noise_class=6 maxspeed=50 estimated_traffic_class=5 lanes=2 foot=no smoothness=excellent tunnel=yes sidewalk=no oneway=no"
+    },
+    {
+     "lat": 43.76128,
+     "lon": 7.45475,
+     "len_m": 37,
+     "bikepath": true,
+     "tags": "highway=service estimated_noise_class=1 tunnel=building_passage"
+    },
+    {
+     "lat": 43.78448,
+     "lon": 7.53956,
+     "len_m": 1135,
+     "bikepath": false,
+     "tags": "highway=primary surface=asphalt lit=yes estimated_forest_class=3 estimated_noise_class=5 maxspeed=70 estimated_traffic_class=3 lanes=2 tunnel=yes sidewalk=both cycleway:both=no route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 43.79471,
+     "lon": 7.60425,
+     "len_m": 24,
+     "bikepath": false,
+     "tags": "highway=secondary surface=asphalt lit=yes estimated_noise_class=6 maxspeed=30 estimated_traffic_class=4 lanes=2 tunnel=yes sidewalk=right cycleway:both=no oneway=no"
+    },
+    {
+     "lat": 43.78554,
+     "lon": 7.62885,
+     "len_m": 1,
+     "bikepath": true,
+     "tags": "highway=cycleway estimated_forest_class=5 foot=yes bicycle=yes tunnel=building_passage route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 43.78726,
+     "lon": 7.68703,
+     "len_m": 192,
+     "bikepath": false,
+     "tags": "highway=primary surface=asphalt estimated_noise_class=5 maxspeed=60 estimated_traffic_class=3 lanes=2 tunnel=yes cycleway=proposed route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 43.80432,
+     "lon": 7.74698,
+     "len_m": 1737,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=yes estimated_noise_class=2 foot=designated bicycle=designated smoothness=excellent tunnel=yes segregated=yes route_bicycle_ncn=yes route_bicycle_rcn=yes cycleway:surface=asphalt footway:surface=asphalt"
+    },
+    {
+     "lat": 43.82061,
+     "lon": 7.82008,
+     "len_m": 523,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=yes estimated_noise_class=4 estimated_town_class=1 foot=designated bicycle=designated tunnel=yes segregated=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 43.82363,
+     "lon": 7.84021,
+     "len_m": 207,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_noise_class=3 estimated_town_class=1 foot=designated bicycle=designated tunnel=yes segregated=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_hiking_lwn=yes cycleway:surface=asphalt footway:surface=asphalt"
+    },
+    {
+     "lat": 43.85019,
+     "lon": 7.95596,
+     "len_m": 1530,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt lit=yes estimated_forest_class=1 estimated_noise_class=2 foot=designated bicycle=designated tunnel=yes segregated=yes route_bicycle_ncn=yes route_bicycle_rcn=yes cycleway:surface=asphalt footway:surface=asphalt"
+    },
+    {
+     "lat": 43.86668,
+     "lon": 7.99556,
+     "len_m": 670,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=yes estimated_forest_class=2 estimated_noise_class=4 foot=designated bicycle=designated smoothness=excellent tunnel=yes segregated=yes oneway=no route_bicycle_ncn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 43.87943,
+     "lon": 8.0174,
+     "len_m": 445,
+     "bikepath": true,
+     "tags": "highway=cycleway estimated_noise_class=4 foot=designated bicycle=designated tunnel=yes segregated=yes oneway=no route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 43.88953,
+     "lon": 8.04545,
+     "len_m": 631,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_noise_class=4 foot=designated bicycle=designated tunnel=yes segregated=yes route_bicycle_ncn=yes footway:surface=asphalt"
+    },
+    {
+     "lat": 43.92589,
+     "lon": 8.12042,
+     "len_m": 662,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt lit=yes estimated_forest_class=3 estimated_noise_class=4 foot=designated bicycle=designated tunnel=yes railway=abandoned segregated=yes"
+    },
+    {
+     "lat": 43.95707,
+     "lon": 8.173,
+     "len_m": 575,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=primary surface=asphalt estimated_noise_class=5 maxspeed=50 estimated_traffic_class=1 lanes=2 tunnel=yes cycleway:both=no route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.01117,
+     "lon": 8.17597,
+     "len_m": 5,
+     "bikepath": false,
+     "tags": "highway=unclassified estimated_noise_class=6 tunnel=yes route_hiking_lwn=yes bus=yes"
+    },
+    {
+     "lat": 44.08952,
+     "lon": 8.22945,
+     "len_m": 23,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=residential surface=asphalt maxspeed=30 tunnel=yes cycleway=proposed oneway=no route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.16303,
+     "lon": 8.3365,
+     "len_m": 133,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=primary surface=asphalt lit=yes estimated_noise_class=5 maxspeed=50 estimated_traffic_class=3 lanes=2 smoothness=good tunnel=yes sidewalk=left cycleway:both=no shoulder=no route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.17271,
+     "lon": 8.36145,
+     "len_m": 69,
+     "bikepath": false,
+     "tags": "highway=primary surface=asphalt lit=no estimated_noise_class=6 maxspeed=50 estimated_traffic_class=3 lanes=2 tunnel=yes cycleway=proposed route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.18346,
+     "lon": 8.40509,
+     "len_m": 465,
+     "bikepath": false,
+     "tags": "highway=residential surface=asphalt lit=yes estimated_forest_class=2 estimated_noise_class=4 tracktype=grade1 foot=yes smoothness=good tunnel=yes sidewalk=no railway=abandoned cycleway:both=no route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.20907,
+     "lon": 8.41752,
+     "len_m": 215,
+     "bikepath": false,
+     "tags": "highway=primary lit=yes estimated_noise_class=6 estimated_traffic_class=4 lanes=2 tunnel=yes oneway=no route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.25344,
+     "lon": 8.45033,
+     "len_m": 36,
+     "bikepath": false,
+     "tags": "highway=primary surface=asphalt estimated_noise_class=6 estimated_traffic_class=5 lanes=2 tunnel=yes cycleway=proposed route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.31865,
+     "lon": 8.49342,
+     "len_m": 118,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=primary surface=asphalt lit=yes estimated_noise_class=5 estimated_town_class=1 maxspeed=50 estimated_traffic_class=5 lanes=2 tunnel=yes sidewalk=left cycleway:both=no shoulder=no route_bicycle_ncn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 44.33105,
+     "lon": 8.52457,
+     "len_m": 192,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=unpaved lit=yes foot=yes tunnel=yes railway=abandoned route_bicycle_ncn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 44.34346,
+     "lon": 8.54911,
+     "len_m": 305,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=yes estimated_noise_class=5 foot=designated bicycle=designated tunnel=yes railway=abandoned route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.35912,
+     "lon": 8.57546,
+     "len_m": 63,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=pedestrian estimated_noise_class=4 tunnel=building_passage"
+    },
+    {
+     "lat": 44.36549,
+     "lon": 8.60417,
+     "len_m": 273,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt lit=yes estimated_forest_class=3 foot=designated bicycle=designated tunnel=yes railway=abandoned segregated=no route_bicycle_ncn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 44.37379,
+     "lon": 8.62542,
+     "len_m": 532,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt lit=yes estimated_forest_class=5 estimated_noise_class=4 foot=designated bicycle=designated tunnel=yes railway=abandoned segregated=no route_bicycle_ncn=yes route_bicycle_=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 44.39316,
+     "lon": 8.67873,
+     "len_m": 1135,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=paved lit=yes tunnel=yes railway=abandoned route_bicycle_ncn=yes route_bicycle_=yes"
+    },
+    {
+     "lat": 44.4157,
+     "lon": 8.71276,
+     "len_m": 261,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=primary estimated_noise_class=5 estimated_town_class=4 maxspeed=70 estimated_traffic_class=3 lanes=2 foot=yes tunnel=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 44.6684,
+     "lon": 8.66027,
+     "len_m": 37,
+     "bikepath": false,
+     "tags": "highway=unclassified surface=asphalt estimated_noise_class=5 tunnel=yes"
+    },
+    {
+     "lat": 44.76032,
+     "lon": 8.79176,
+     "len_m": 23,
+     "bikepath": false,
+     "tags": "highway=tertiary surface=asphalt estimated_noise_class=3 estimated_traffic_class=4 tunnel=yes route_bicycle_=yes"
+    },
+    {
+     "lat": 44.88889,
+     "lon": 8.85265,
+     "len_m": 17,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=service surface=asphalt tunnel=yes"
+    },
+    {
+     "lat": 44.99334,
+     "lon": 9.00835,
+     "len_m": 40,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=pedestrian surface=paving_stones foot=designated bicycle=yes tunnel=building_passage"
+    },
+    {
+     "lat": 45.04975,
+     "lon": 9.06966,
+     "len_m": 61,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=tertiary maxspeed=30 estimated_traffic_class=2 tunnel=yes"
+    }
+   ],
+   "motorway_hits": []
+  },
+  {
+   "id": "ev7_central",
+   "name": "EV7 Central Europe + Inn-valley connector",
+   "ev": "EV7",
+   "desc": "Piacenza across the Po plain to the EV7 corridor (Mantova-Verona), up the Adige and over the Brenner to Innsbruck, then the Inn valley to Passau",
+   "distance_km": 764.8,
+   "ascent_m": 6369,
+   "n_points": 20666,
+   "on_cyclenetwork_pct": 89.6,
+   "on_eurovelo_icn_pct": 39.1,
+   "motorway_km": 0.0,
+   "trunk_km": 0.0,
+   "motorroad_km": 0.0,
+   "rail_km": 0.0,
+   "ferry_km": 0.0,
+   "tunnel_km": 3.85,
+   "tunnel_road_km": 0.67,
+   "ferries": [],
+   "tunnels": [
+    {
+     "lat": 45.04507,
+     "lon": 9.80692,
+     "len_m": 43,
+     "bikepath": false,
+     "tags": "highway=residential estimated_noise_class=5 maxspeed=50 lanes=1 tunnel=yes route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 45.12856,
+     "lon": 10.36632,
+     "len_m": 35,
+     "bikepath": false,
+     "tags": "highway=unclassified surface=asphalt lanes=2 tunnel=yes segregated=no cycleway:left=lane cycleway:left:oneway=no"
+    },
+    {
+     "lat": 45.12583,
+     "lon": 10.53884,
+     "len_m": 41,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway estimated_noise_class=6 tunnel=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 45.16299,
+     "lon": 10.80999,
+     "len_m": 26,
+     "bikepath": true,
+     "tags": "highway=footway surface=paving_stones estimated_forest_class=5 estimated_noise_class=5 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_lcn=yes route_bicycle_=yes"
+    },
+    {
+     "lat": 45.40334,
+     "lon": 10.93334,
+     "len_m": 79,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=tertiary surface=asphalt lit=yes estimated_noise_class=6 estimated_town_class=3 maxspeed=50 estimated_traffic_class=6 tunnel=yes oneway=no route_bicycle_ncn=proposed route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 45.42947,
+     "lon": 10.98684,
+     "len_m": 79,
+     "bikepath": true,
+     "tags": "highway=path surface=asphalt lit=yes estimated_noise_class=6 estimated_town_class=3 foot=designated bicycle=designated smoothness=good tunnel=yes segregated=no oneway=no route_bicycle_ncn=proposed route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 45.50797,
+     "lon": 10.8389,
+     "len_m": 32,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway access=yes foot=designated bicycle=designated tunnel=yes motor_vehicle=no horse=no"
+    },
+    {
+     "lat": 45.54837,
+     "lon": 10.82592,
+     "len_m": 22,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=residential tunnel=yes oneway=no route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 45.56954,
+     "lon": 10.82611,
+     "len_m": 21,
+     "bikepath": true,
+     "tags": "highway=path surface=ground estimated_forest_class=3 estimated_noise_class=3 tunnel=yes horse=no"
+    },
+    {
+     "lat": 45.63219,
+     "lon": 10.87935,
+     "len_m": 49,
+     "bikepath": true,
+     "tags": "highway=path surface=paving_stones lit=yes estimated_forest_class=5 estimated_noise_class=3 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 45.65277,
+     "lon": 10.89876,
+     "len_m": 15,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified surface=asphalt estimated_forest_class=1 maxspeed=20 tunnel=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 45.76632,
+     "lon": 11.0009,
+     "len_m": 21,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt estimated_forest_class=5 estimated_noise_class=4 tunnel=yes route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 45.82554,
+     "lon": 11.0038,
+     "len_m": 27,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified surface=asphalt estimated_forest_class=5 estimated_noise_class=6 access=destination foot=yes bicycle=yes tunnel=yes cycleway=shared_lane route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 45.84849,
+     "lon": 10.99406,
+     "len_m": 63,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway estimated_forest_class=4 foot=yes tunnel=yes route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 45.88363,
+     "lon": 11.0327,
+     "len_m": 27,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_noise_class=5 foot=yes tunnel=yes sidewalk=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 45.92654,
+     "lon": 11.08014,
+     "len_m": 20,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.00957,
+     "lon": 11.1244,
+     "len_m": 16,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt lit=yes estimated_noise_class=6 estimated_town_class=2 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.03476,
+     "lon": 11.12459,
+     "len_m": 71,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_noise_class=6 estimated_town_class=2 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.09486,
+     "lon": 11.1147,
+     "len_m": 39,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=yes estimated_noise_class=6 estimated_town_class=2 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 46.11496,
+     "lon": 11.1073,
+     "len_m": 20,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt lit=yes estimated_forest_class=5 estimated_noise_class=5 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 46.19109,
+     "lon": 11.1232,
+     "len_m": 13,
+     "bikepath": false,
+     "tags": "highway=service surface=asphalt lit=no estimated_forest_class=1 lanes=1 smoothness=good tunnel=yes oneway=no route_bicycle_icn=yes route_bicycle_rcn=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 46.48237,
+     "lon": 11.32247,
+     "len_m": 18,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_noise_class=4 estimated_town_class=2 foot=yes smoothness=good tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_iwn=yes route_hiking_nwn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 46.49453,
+     "lon": 11.35412,
+     "len_m": 134,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_noise_class=5 estimated_town_class=2 foot=designated bicycle=designated tunnel=yes segregated=yes oneway=no route_bicycle_icn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 46.49513,
+     "lon": 11.39186,
+     "len_m": 89,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_forest_class=4 estimated_noise_class=3 foot=designated bicycle=designated tunnel=yes horse=no segregated=yes oneway=no route_bicycle_icn=yes route_bicycle_rcn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 46.49112,
+     "lon": 11.43047,
+     "len_m": 523,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt lit=yes estimated_forest_class=5 estimated_noise_class=5 tunnel=avalanche_protector railway=abandoned route_bicycle_icn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.50618,
+     "lon": 11.46344,
+     "len_m": 214,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=paved estimated_forest_class=4 estimated_noise_class=1 foot=yes tunnel=yes railway=abandoned route_bicycle_icn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.52205,
+     "lon": 11.48678,
+     "len_m": 703,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt estimated_forest_class=5 foot=yes tunnel=yes railway=abandoned route_bicycle_icn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.59573,
+     "lon": 11.52904,
+     "len_m": 18,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=paved estimated_forest_class=1 estimated_noise_class=5 foot=yes tunnel=yes route_bicycle_icn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.64164,
+     "lon": 11.56828,
+     "len_m": 143,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=pedestrian surface=sett lit=yes estimated_noise_class=2 bicycle=yes smoothness=intermediate tunnel=building_passage route_bicycle_icn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.71066,
+     "lon": 11.6594,
+     "len_m": 41,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt lit=yes foot=yes tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_rcn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 46.73571,
+     "lon": 11.65095,
+     "len_m": 8,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=track surface=asphalt estimated_forest_class=5 estimated_noise_class=3 maxspeed=30 tracktype=grade1 bicycle=yes smoothness=good tunnel=yes vehicle=private route_bicycle_ncn=yes route_hiking_iwn=yes"
+    },
+    {
+     "lat": 46.77768,
+     "lon": 11.62666,
+     "len_m": 66,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=footway surface=asphalt estimated_forest_class=2 estimated_noise_class=6 bicycle=permissive smoothness=good tunnel=yes route_bicycle_icn=yes route_bicycle_rcn=yes route_hiking_iwn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 46.80607,
+     "lon": 11.57268,
+     "len_m": 42,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified surface=asphalt estimated_forest_class=4 estimated_noise_class=6 tunnel=yes route_bicycle_icn=yes route_bicycle_rcn=yes route_hiking_iwn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 46.88978,
+     "lon": 11.4345,
+     "len_m": 27,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt estimated_noise_class=4 foot=yes tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.91298,
+     "lon": 11.43905,
+     "len_m": 27,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_forest_class=1 estimated_noise_class=4 foot=yes smoothness=excellent tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 46.95464,
+     "lon": 11.455,
+     "len_m": 234,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt estimated_forest_class=4 foot=yes tunnel=yes railway=abandoned segregated=no route_bicycle_icn=yes route_bicycle_rcn=yes route_hiking_iwn=yes"
+    },
+    {
+     "lat": 47.00241,
+     "lon": 11.5058,
+     "len_m": 116,
+     "bikepath": true,
+     "tags": "highway=footway surface=paved lit=yes estimated_forest_class=1 estimated_noise_class=3 tunnel=yes"
+    },
+    {
+     "lat": 47.06539,
+     "lon": 11.48882,
+     "len_m": 23,
+     "bikepath": false,
+     "tags": "highway=track estimated_forest_class=4 estimated_noise_class=3 tracktype=grade2 bicycle=yes tunnel=yes route_bicycle_icn=yes route_hiking_iwn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 47.09128,
+     "lon": 11.46916,
+     "len_m": 40,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified tunnel=yes route_mtb_rcn=yes"
+    },
+    {
+     "lat": 47.12941,
+     "lon": 11.45414,
+     "len_m": 26,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=residential surface=asphalt estimated_noise_class=2 tunnel=yes route_bicycle_icn=yes route_bicycle_rcn=yes route_mtb_rcn=yes"
+    },
+    {
+     "lat": 47.25203,
+     "lon": 11.40188,
+     "len_m": 176,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=residential surface=asphalt lit=yes estimated_noise_class=6 estimated_town_class=2 maxspeed=50 access=yes lanes=2 foot=yes smoothness=excellent tunnel=yes sidewalk=left cycleway:both=no route_hiking_iwn=yes"
+    },
+    {
+     "lat": 47.27787,
+     "lon": 11.50863,
+     "len_m": 19,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=footway surface=asphalt lit=yes bicycle=dismount smoothness=good tunnel=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 47.28906,
+     "lon": 11.56073,
+     "len_m": 32,
+     "bikepath": false,
+     "tags": "highway=track surface=asphalt lit=yes estimated_noise_class=6 tracktype=grade1 foot=yes bicycle=yes tunnel=yes motor_vehicle=agricultural route_bicycle_icn=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 47.43349,
+     "lon": 11.8732,
+     "len_m": 33,
+     "bikepath": false,
+     "tags": "highway=service surface=asphalt estimated_noise_class=2 maxspeed=40 tunnel=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 47.47734,
+     "lon": 11.98683,
+     "len_m": 42,
+     "bikepath": false,
+     "tags": "highway=unclassified surface=asphalt lit=yes maxspeed=40 tunnel=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 47.48034,
+     "lon": 12.01432,
+     "len_m": 18,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=track surface=asphalt lit=no tracktype=grade1 bicycle=yes tunnel=yes route_bicycle_ncn=yes"
+    },
+    {
+     "lat": 47.49503,
+     "lon": 12.06821,
+     "len_m": 88,
+     "bikepath": true,
+     "tags": "highway=path surface=asphalt lit=yes bicycle=dismount tunnel=yes vehicle=no segregated=no route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 47.58341,
+     "lon": 12.16857,
+     "len_m": 14,
+     "bikepath": true,
+     "tags": "highway=living_street surface=paving_stones lit=yes maxspeed=20 tunnel=building_passage sidewalk=both vehicle=yes cycleway:both=no route_hiking_lwn=yes"
+    },
+    {
+     "lat": 47.64825,
+     "lon": 12.19942,
+     "len_m": 15,
+     "bikepath": false,
+     "tags": "highway=track surface=asphalt estimated_noise_class=4 tracktype=grade1 foot=yes bicycle=yes tunnel=yes motor_vehicle=destination route_bicycle_ncn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 47.84495,
+     "lon": 12.15048,
+     "len_m": 12,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt estimated_forest_class=2 estimated_noise_class=3 foot=designated bicycle=designated smoothness=good tunnel=yes segregated=no route_bicycle_ncn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 47.85638,
+     "lon": 12.12825,
+     "len_m": 24,
+     "bikepath": true,
+     "tags": "highway=pedestrian surface=sett lit=yes estimated_town_class=1 smoothness=good tunnel=building_passage cycleway:both=no"
+    },
+    {
+     "lat": 48.0631,
+     "lon": 12.20239,
+     "len_m": 38,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt estimated_noise_class=5 foot=designated bicycle=designated tunnel=yes segregated=no lcn=yes"
+    },
+    {
+     "lat": 48.26426,
+     "lon": 12.71293,
+     "len_m": 18,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt estimated_forest_class=1 estimated_noise_class=4 foot=designated bicycle=designated tunnel=yes segregated=no incline=up"
+    },
+    {
+     "lat": 48.25721,
+     "lon": 13.03525,
+     "len_m": 60,
+     "bikepath": true,
+     "tags": "highway=residential surface=sett maxspeed=50 tunnel=building_passage cycleway:both=no oneway=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 48.45916,
+     "lon": 13.4306,
+     "len_m": 10,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=tertiary surface=asphalt estimated_traffic_class=1 tunnel=yes route_bicycle_icn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 48.5695,
+     "lon": 13.46151,
+     "len_m": 3,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=residential surface=sett lit=yes estimated_town_class=1 bicycle=yes smoothness=intermediate tunnel=building_passage sidewalk=no cycleway:both=no route_bicycle_icn=yes route_bicycle_lcn=yes route_hiking_iwn=yes route_foot_rwn=yes"
+    }
+   ],
+   "motorway_hits": []
+  },
+  {
+   "id": "ev6_danube",
+   "name": "EV6 Danube + Main connector",
+   "ev": "EV6",
+   "desc": "EV6 up the Danube from Passau to Kelheim, the Main-Donau canal/Altmuehl to Nuremberg, then the Main downstream through Wuerzburg back to Mittelbuchen",
+   "distance_km": 688.9,
+   "ascent_m": 4413,
+   "n_points": 17448,
+   "on_cyclenetwork_pct": 84.1,
+   "on_eurovelo_icn_pct": 39.0,
+   "motorway_km": 0.0,
+   "trunk_km": 0.0,
+   "motorroad_km": 0.0,
+   "rail_km": 0.0,
+   "ferry_km": 0.0,
+   "tunnel_km": 0.88,
+   "tunnel_road_km": 0.19,
+   "ferries": [],
+   "tunnels": [
+    {
+     "lat": 48.57499,
+     "lon": 13.45053,
+     "len_m": 22,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=cycleway surface=asphalt estimated_noise_class=5 estimated_town_class=1 foot=designated tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_mtb_rcn=yes"
+    },
+    {
+     "lat": 48.58242,
+     "lon": 13.40939,
+     "len_m": 15,
+     "bikepath": true,
+     "tags": "highway=path surface=asphalt lit=yes estimated_noise_class=4 estimated_town_class=1 tunnel=yes route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 48.59905,
+     "lon": 13.37397,
+     "len_m": 19,
+     "bikepath": true,
+     "tags": "highway=path surface=asphalt lit=no estimated_forest_class=1 estimated_noise_class=3 estimated_town_class=1 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_lcn=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 48.63522,
+     "lon": 13.18595,
+     "len_m": 19,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=sett lit=yes estimated_noise_class=5 foot=designated bicycle=designated smoothness=intermediate tunnel=yes segregated=no route_hiking_iwn=yes"
+    },
+    {
+     "lat": 48.65949,
+     "lon": 13.12841,
+     "len_m": 12,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=footway estimated_noise_class=3 bicycle=yes tunnel=yes route_bicycle_rcn=yes route_hiking_iwn=yes"
+    },
+    {
+     "lat": 48.80833,
+     "lon": 12.79305,
+     "len_m": 14,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt foot=designated bicycle=designated tunnel=yes"
+    },
+    {
+     "lat": 49.02356,
+     "lon": 12.11321,
+     "len_m": 34,
+     "bikepath": false,
+     "tags": "highway=residential surface=asphalt lit=yes estimated_noise_class=3 estimated_town_class=2 maxspeed=30 smoothness=good tunnel=yes sidewalk=both cycleway:both=no route_bicycle_icn=yes route_bicycle_ncn=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 48.92008,
+     "lon": 11.87299,
+     "len_m": 12,
+     "bikepath": true,
+     "tags": "highway=residential surface=paving_stones maxspeed=20 tunnel=building_passage motor_vehicle=destination route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_iwn=yes route_hiking_nwn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 49.03108,
+     "lon": 11.59685,
+     "len_m": 16,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt estimated_noise_class=4 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_ncn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 49.03777,
+     "lon": 11.47114,
+     "len_m": 20,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt estimated_forest_class=5 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_rwn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 49.10696,
+     "lon": 11.43816,
+     "len_m": 41,
+     "bikepath": true,
+     "tags": "highway=unclassified surface=sett lit=no estimated_forest_class=2 maxspeed=30 tunnel=building_passage cycleway:both=no route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_nwn=yes route_hiking_rwn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 49.28177,
+     "lon": 11.45759,
+     "len_m": 33,
+     "bikepath": true,
+     "tags": "highway=residential surface=asphalt lit=yes estimated_noise_class=2 maxspeed=30 lanes=1 bicycle=yes smoothness=excellent tunnel=building_passage cycleway:both=no oneway=yes route_bicycle_rcn=yes sidewalk:left=no sidewalk:right=separate"
+    },
+    {
+     "lat": 49.34456,
+     "lon": 11.32135,
+     "len_m": 34,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=gravel estimated_forest_class=5 foot=yes bicycle=yes tunnel=passage route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 49.45015,
+     "lon": 11.09773,
+     "len_m": 110,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt lit=yes estimated_forest_class=3 estimated_noise_class=6 foot=designated bicycle=designated smoothness=good tunnel=yes segregated=no route_bicycle_ncn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 49.45479,
+     "lon": 11.07081,
+     "len_m": 52,
+     "bikepath": true,
+     "tags": "highway=path surface=sett lit=yes estimated_noise_class=3 estimated_town_class=4 foot=designated bicycle=designated smoothness=intermediate tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 49.54252,
+     "lon": 10.9835,
+     "len_m": 24,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt estimated_forest_class=4 estimated_noise_class=1 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 49.89148,
+     "lon": 10.88694,
+     "len_m": 16,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=pedestrian surface=paving_stones lit=yes estimated_town_class=1 bicycle=no smoothness=intermediate tunnel=yes route_hiking_nwn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 49.97894,
+     "lon": 10.67136,
+     "len_m": 55,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=asphalt lit=yes estimated_noise_class=5 foot=designated bicycle=designated tunnel=yes segregated=no route_bicycle_lcn=yes route_hiking_nwn=yes route_hiking_rwn=yes"
+    },
+    {
+     "lat": 50.00057,
+     "lon": 10.61377,
+     "len_m": 15,
+     "bikepath": false,
+     "tags": "highway=track surface=concrete tracktype=grade1 foot=yes bicycle=yes tunnel=yes route_bicycle_ncn=yes route_bicycle_lcn=yes route_hiking_lwn=yes"
+    },
+    {
+     "lat": 50.03154,
+     "lon": 10.50293,
+     "len_m": 6,
+     "bikepath": true,
+     "tags": "highway=secondary surface=paving_stones lit=yes estimated_noise_class=5 maxspeed=30 estimated_traffic_class=4 lanes=1 tunnel=building_passage cycleway:both=no oneway=yes route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 50.01491,
+     "lon": 10.41782,
+     "len_m": 24,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=service surface=sett smoothness=bad tunnel=yes motor_vehicle=agricultural segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 50.04473,
+     "lon": 10.2347,
+     "len_m": 21,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=pedestrian surface=paving_stones estimated_town_class=1 bicycle=yes tunnel=building_passage route_bicycle_rcn=yes route_bicycle_lcn=yes route_hiking_iwn=yes"
+    },
+    {
+     "lat": 50.0227,
+     "lon": 10.20651,
+     "len_m": 32,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified surface=paved estimated_noise_class=5 estimated_town_class=1 bicycle=yes tunnel=yes cycleway:both=no route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 49.79937,
+     "lon": 9.95746,
+     "len_m": 45,
+     "bikepath": true,
+     "tags": "highway=path surface=paving_stones lit=24/7 estimated_noise_class=6 estimated_town_class=2 foot=designated bicycle=designated smoothness=good tunnel=yes segregated=no oneway=no route_bicycle_rcn=yes route_bicycle_lcn=yes"
+    },
+    {
+     "lat": 49.79847,
+     "lon": 9.92151,
+     "len_m": 35,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=path surface=paving_stones lit=yes estimated_noise_class=4 estimated_town_class=2 foot=designated bicycle=designated smoothness=good tunnel=yes segregated=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes route_hiking_nwn=yes"
+    },
+    {
+     "lat": 49.9598,
+     "lon": 9.76502,
+     "len_m": 9,
+     "bikepath": true,
+     "tags": "highway=living_street surface=sett lit=yes estimated_noise_class=3 smoothness=good tunnel=building_passage hgv=permissive"
+    },
+    {
+     "lat": 50.02503,
+     "lon": 9.72381,
+     "len_m": 26,
+     "bikepath": true,
+     "tags": "reversedirection=yes highway=footway surface=asphalt estimated_noise_class=5 foot=designated bicycle=designated tunnel=yes wheelchair=yes segregated=no"
+    },
+    {
+     "lat": 50.05518,
+     "lon": 9.69038,
+     "len_m": 36,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=service surface=paving_stones estimated_noise_class=5 smoothness=good tunnel=yes oneway=no route_bicycle_icn=yes route_bicycle_ncn=yes route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 49.74304,
+     "lon": 9.17875,
+     "len_m": 9,
+     "bikepath": false,
+     "tags": "reversedirection=yes highway=unclassified surface=asphalt estimated_noise_class=4 smoothness=excellent tunnel=yes cycleway:both=no route_bicycle_rcn=yes"
+    },
+    {
+     "lat": 50.01785,
+     "lon": 9.04233,
+     "len_m": 39,
+     "bikepath": false,
+     "tags": "highway=track surface=asphalt estimated_noise_class=5 maxspeed=30 tracktype=grade1 tunnel=yes motor_vehicle=agricultural"
+    },
+    {
+     "lat": 50.05274,
+     "lon": 9.00468,
+     "len_m": 33,
+     "bikepath": true,
+     "tags": "highway=cycleway surface=asphalt estimated_forest_class=4 foot=yes smoothness=excellent tunnel=yes route_bicycle_lcn=yes route_hiking_nwn=yes"
+    }
+   ],
+   "motorway_hits": []
+  }
+ ]
+}

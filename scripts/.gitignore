@@ -1,0 +1,4 @@
+# BRouter response cache — regenerable with build_routes.py, not committed
+.cache/
+__pycache__/
+*.pyc

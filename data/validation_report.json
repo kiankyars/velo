@@ -1,0 +1,103 @@
+{
+ "segments": [
+  {
+   "id": "ev15_rhine",
+   "file": "ev15_rhine.gpx",
+   "xml_valid": true,
+   "n_points": 25166,
+   "distance_km": 843.9,
+   "max_point_gap_m": 150.0,
+   "jumps_over_threshold": 0,
+   "continuous": true
+  },
+  {
+   "id": "ev17_rhone",
+   "file": "ev17_rhone.gpx",
+   "xml_valid": true,
+   "n_points": 25776,
+   "distance_km": 846.6,
+   "max_point_gap_m": 150.0,
+   "jumps_over_threshold": 0,
+   "continuous": true
+  },
+  {
+   "id": "ev8_med",
+   "file": "ev8_med.gpx",
+   "xml_valid": true,
+   "n_points": 30142,
+   "distance_km": 874.5,
+   "max_point_gap_m": 149.9,
+   "jumps_over_threshold": 0,
+   "continuous": true
+  },
+  {
+   "id": "ev7_central",
+   "file": "ev7_central.gpx",
+   "xml_valid": true,
+   "n_points": 21612,
+   "distance_km": 764.8,
+   "max_point_gap_m": 150.0,
+   "jumps_over_threshold": 0,
+   "continuous": true
+  },
+  {
+   "id": "ev6_danube",
+   "file": "ev6_danube.gpx",
+   "xml_valid": true,
+   "n_points": 18141,
+   "distance_km": 688.9,
+   "max_point_gap_m": 149.9,
+   "jumps_over_threshold": 0,
+   "continuous": true
+  }
+ ],
+ "seams": [
+  {
+   "from": "ev15_rhine",
+   "to": "ev17_rhone",
+   "kind": "seam",
+   "gap_m": 0.0,
+   "ok": true
+  },
+  {
+   "from": "ev17_rhone",
+   "to": "ev8_med",
+   "kind": "seam",
+   "gap_m": 0.0,
+   "ok": true
+  },
+  {
+   "from": "ev8_med",
+   "to": "ev7_central",
+   "kind": "seam",
+   "gap_m": 0.0,
+   "ok": true
+  },
+  {
+   "from": "ev7_central",
+   "to": "ev6_danube",
+   "kind": "seam",
+   "gap_m": 0.0,
+   "ok": true
+  },
+  {
+   "from": "ev6_danube",
+   "to": "ev15_rhine",
+   "kind": "loop-close",
+   "gap_m": 0.0,
+   "ok": true
+  }
+ ],
+ "ok": true,
+ "problems": [],
+ "total_km": 4018.7,
+ "safety": {
+  "motorway_km": 0.0,
+  "trunk_km": 0.069,
+  "motorroad_km": 0.0,
+  "active_rail_km": 0.0,
+  "ferry_km": 0.0,
+  "tunnel_km": 21.61,
+  "road_tunnel_km": 7.79
+ }
+}
