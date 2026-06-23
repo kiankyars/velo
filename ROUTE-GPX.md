@@ -1,14 +1,15 @@
 # 🛰️ Frankfurt Loop — the built GPX (route, validation, distances)
 
 This is the routing deliverable: **five continuous GPX tracks** that close a loop
-out of Mittelbuchen (Hanau, Frankfurt) and back, plus a combined master track,
-using the official EuroVelo 15 GPX where the previous generated route drifted
-inland, and BRouter/OSM routing for connectors and the other legs. Everything
-here is generated and checked by scripts in [`scripts/`](./scripts) so it can be
+out of Mittelbuchen (Hanau, Frankfurt) and back, plus a combined master track.
+The four EuroVelo legs (EV15/EV17/EV7/EV6) are built from the **official
+eurovelo.com GPX**; BRouter/OSM routing is used only for the bespoke EV8 and for
+the connectors that aren't part of any signed EuroVelo route. Everything here is
+generated and checked by scripts in [`scripts/`](./scripts) so it can be
 reproduced and re-verified.
 
-> **Loop total: `4,049.5 km`, `≈ 41,000 m` of climbing, 5 segments.**
-> Backbone = official **EuroVelo** corridors (EV15 → EV17 → EV7 → EV6); the
+> **Loop total: `4,172.7 km`, `≈ 42,600 m` of climbing, 5 segments.**
+> Backbone = official **EuroVelo** GPX (EV15 → EV17 → EV7 → EV6); the
 > Mediterranean leg is the **bespoke EV8** that was requested; the seams are
 > joined by routed connectors. Every segment joins the next to within **0.0 m**
 > and the loop closes on itself to within **0.0 m**.
@@ -17,19 +18,20 @@ reproduced and re-verified.
 
 ## The segments
 
-| # | File | EV | From → To | Distance | Climb | On OSM cycle-network |
-|---|------|----|-----------|---------:|------:|---------------------:|
+| # | File | EV | From → To | Distance | Climb | On cycle-network |
+|---|------|----|-----------|---------:|------:|-----------------:|
 | 1 | [`gpx/ev15_rhine.gpx`](./gpx/ev15_rhine.gpx) | **EV15** | Mittelbuchen → Mainz → Basel → **Andermatt** | **874.7 km** | 9,206 m | 99% (94% EV-signed) |
-| 2 | [`gpx/ev17_rhone.gpx`](./gpx/ev17_rhone.gpx) | **EV17** | Andermatt → Furka → Rhône → **Port-Saint-Louis** | **846.6 km** | 8,450 m | 80% (45% EV-signed) |
+| 2 | [`gpx/ev17_rhone.gpx`](./gpx/ev17_rhone.gpx) | **EV17** | Andermatt → Furka → Rhône → **Port-Saint-Louis** | **947.4 km** | 9,605 m | 100% (100% EV-signed) |
 | 3 | [`gpx/ev8_med.gpx`](./gpx/ev8_med.gpx) | **EV8\*** | Med → Manosque → Draguignan → Liguria → Turchino → **Piacenza** | **874.5 km** | 12,521 m | 50% (bespoke) |
-| 4 | [`gpx/ev7_central.gpx`](./gpx/ev7_central.gpx) | **EV7** | Piacenza → Mantova → Brenner → Innsbruck → **Passau** | **764.8 km** | 6,369 m | 90% (39% EV-signed) |
-| 5 | [`gpx/ev6_danube.gpx`](./gpx/ev6_danube.gpx) | **EV6** | Passau → Regensburg → Nürnberg → Würzburg → **Mittelbuchen** | **688.9 km** | 4,413 m | 84% (39% EV-signed) |
-| | [`gpx/velo_loop_master.gpx`](./gpx/velo_loop_master.gpx) | — | the whole loop in one file (5 tracks) | **4,049.5 km** | 40,959 m | — |
+| 4 | [`gpx/ev7_central.gpx`](./gpx/ev7_central.gpx) | **EV7** | Piacenza → Mantua → Adige → Bolzano → Brenner → **Passau** | **765.5 km** | 6,676 m | 92% (55% EV-signed) |
+| 5 | [`gpx/ev6_danube.gpx`](./gpx/ev6_danube.gpx) | **EV6** | Passau → Regensburg → Nürnberg → Würzburg → **Mittelbuchen** | **710.6 km** | 4,572 m | 92% (57% EV-signed) |
+| | [`gpx/velo_loop_master.gpx`](./gpx/velo_loop_master.gpx) | — | the whole loop in one file (5 tracks) | **4,172.7 km** | ~42,600 m | — |
 
 *EV8\* = a **custom** Mediterranean route, not the signed EuroVelo 8; see below.*
-*"On cycle-network" = share of the leg whose OSM ways carry a
-`route_bicycle_icn/ncn/rcn/lcn` tag, plus the official EV15 GPX backbone after
-Mainz. "EV-signed" is the `icn` (international) share specifically.*
+*"On cycle-network" = share of the leg on an official EuroVelo GPX backbone or on
+OSM ways tagged `route_bicycle_icn/ncn/rcn/lcn`. "EV-signed" is the international
+(`icn`) / official-EuroVelo share specifically — EV17 is 100% because the entire
+leg is the official EuroVelo 17 GPX.*
 
 ```
 Mittelbuchen ─EV15─▶ Andermatt ─EV17─▶ Med (Port-St-Louis)
@@ -39,6 +41,16 @@ Mittelbuchen ─EV15─▶ Andermatt ─EV17─▶ Med (Port-St-Louis)
      │                                         ▼
   Passau ◀────────────── EV7 ────────────── Piacenza
 ```
+
+## How each leg is sourced
+
+| Leg | Official EuroVelo GPX | BRouter connector(s) |
+|-----|-----------------------|----------------------|
+| EV15 | Mainz → Andermatt (route 36) | Mittelbuchen → Mainz |
+| EV17 | **whole leg** Andermatt → Port-Saint-Louis (route 37) | — (just seam links) |
+| EV7 | Mantua → Adige → Bolzano (route 30, tracks 95–98) | Piacenza → Mantua; Bolzano → Brenner → Inn → Passau |
+| EV6 | Passau → Regensburg → Kelheim (route 29, tracks 79–83) | Kelheim → Main-Donau canal → Main → Mittelbuchen |
+| EV8 | — (no official EV8 variant exists for this route) | whole leg (bespoke, see below) |
 
 ## The bespoke EV8 (Mediterranean)
 
@@ -61,27 +73,25 @@ Apennine crossing that takes you off the coast and down to the Po plain.
 
 ## Connectors (routed, not signed EuroVelo)
 
-These are the bits that aren't on a single EuroVelo route and were routed to
-stitch the backbone together — all on cycle-friendly roads/paths:
-
 - **Mittelbuchen → Mainz** — down the Main (Hanau → Frankfurt → Rüsselsheim) to
   join EV15. *(~40 km, flat.)*
-- **Mainz city / Basel / Andermatt seams** — short routed links stitch the
-  official EV15 stage GPX to the connector, to the selected official bank
-  variant, and to the EV17 start point in Andermatt.
-- **Piacenza → Mantova** — across the Po plain (via Cremona) to pick up the EV7
-  corridor.
-- **Innsbruck → Passau** — the **Inn cycleway** (Kufstein → Rosenheim → Mühldorf
-  → Braunau → Schärding), since EV7 itself does not run to Passau.
-- **Kelheim → Nürnberg → Bamberg → Mittelbuchen** — leave the Danube at Kelheim,
-  follow the **Altmühl / Main-Donau canal** to Nürnberg, then the **Main
-  cycleway** (Bamberg → Würzburg → Aschaffenburg → Hanau) home.
+- **Piacenza → Mantua** — across the Po plain (via Cremona) to pick up the
+  official EV7 line on the Adige.
+- **Bolzano → Passau** — over the **Brenner** and down the **Inn cycleway**
+  (Bressanone, Innsbruck, Kufstein, Rosenheim, Braunau, Schärding). EV7 itself
+  leaves Bolzano *east* through the Pustertal, so the run to Passau is a routed
+  connector, not EV7.
+- **Kelheim → Mittelbuchen** — leave the Danube at Kelheim, follow the **Altmühl /
+  Main-Donau canal** to Nürnberg, then the **Main cycleway** (Bamberg → Würzburg →
+  Aschaffenburg → Hanau) home.
+- **Seam links** — short BRouter hops pin each leg exactly to the next at
+  Andermatt, Port-Saint-Louis, Piacenza, Passau and Mittelbuchen (0.0 m seams).
 
 ---
 
 ## Validation results
 
-Run independently from the saved GPX by
+Re-read independently from the saved GPX by
 [`scripts/validate_routes.py`](./scripts/validate_routes.py):
 
 | Check | Result |
@@ -91,17 +101,31 @@ Run independently from the saved GPX by
 | **Seam gaps** (end of one leg → start of next) | ✅ 0.0 m × 4 |
 | **Loop closure** (EV6 finish → EV15 start) | ✅ 0.0 m |
 | **Motorways / motorroads** | ✅ 0.0 km |
-| **Trunk roads** | 0.05 km (a couple of bridge/junction crossings) |
+| **Trunk roads** | ✅ 0.0 km |
 | **Active railway / train** | ✅ 0.0 km (the `railway=abandoned` hits are rail-*trails*) |
 | **Ferries** | ✅ 0.0 km (every water crossing uses a bridge) |
-| **Tunnels** | 19.4 km total; **none prohibit bikes** on the BRouter-tagged portions |
+| **Tunnels** | 17.3 km total; **none prohibit bikes** on the BRouter-tagged portions |
+
+And the official-alignment check
+([`scripts/validate_route_alignment.py --compare-official`](./scripts/validate_route_alignment.py)),
+which measures how far each backbone leg sits from the official EuroVelo line:
+
+| Leg | Max drift from official | 
+|-----|------------------------:|
+| EV15 (Mainz–Maxau stage) | **1.9 m** |
+| EV17 (whole leg) | **17 m** |
+| EV7 (Mantua–Bolzano) | **24 m** |
+| EV6 (Passau–Kelheim) | **0 m** |
+
+EV15 also passes the Rhine checkpoints (Mainz, Worms, Speyer, Maxau) and stays
+**2.2 km clear of the inland Osthofen** short-cut the first generated route took.
 
 ### About the tunnels
-Most tunnel distance is **dedicated cycleway** — chiefly the old-railway tunnels
-of the Ligurian seaside cycle path (legal, lit, scenic). Only **6.2 km** runs
-through shared road tunnels on the BRouter-tagged portions, none of which are
-tagged `bicycle=no` (the router refuses bike-prohibited tunnels). The handful
-worth knowing about before you ride them:
+Almost all tunnel distance is **dedicated cycleway** — chiefly the old-railway
+tunnels of the Ligurian seaside cycle path (legal, lit, scenic). Only **5.0 km**
+runs through shared road tunnels, all on the bespoke EV8 leg and none tagged
+`bicycle=no` (the router refuses bike-prohibited tunnels). The two worth knowing
+before you ride them:
 
 | Where | Length | Road type | Note |
 |-------|-------:|-----------|------|
@@ -122,22 +146,20 @@ pass/fail report is in [`data/validation_report.json`](./data/validation_report.
    [`scripts/geocode.py`](./scripts/geocode.py) (Photon/OSM, hand-checked
    overrides for mountain passes and a few mis-geocoded Italian cities) →
    [`data/waypoints.json`](./data/waypoints.json).
-2. **Routing** — [`scripts/build_routes.py`](./scripts/build_routes.py) routes
-   the connectors and non-EV15 legs through their waypoints with **BRouter** on
-   OpenStreetMap, using a copy of BRouter's stock **`trekking`** profile
+2. **Routing** — [`scripts/build_routes.py`](./scripts/build_routes.py) downloads
+   the official EuroVelo GPX for EV15/EV17/EV7/EV6 from eurovelo.com, selects the
+   main-line tracks, stitches them, and pins the ends to the seam waypoints. The
+   bespoke EV8 and every connector are routed with **BRouter** on OpenStreetMap
+   using a copy of the stock **`trekking`** profile
    ([`scripts/velo_trekking.brf`](./scripts/velo_trekking.brf)) with
-   `processUnusedTags = true` so OSM tags (tunnel, bridge, ferry, motorroad,
-   railway, cycle-network) are returned and can be audited. EV15 is different:
-   the Mittelbuchen→Mainz connector is BRouter, then Mainz→Andermatt is assembled
-   from the official EuroVelo 15 GPX download. This is what keeps the Mainz→Worms
-   portion on the Rhine-side line instead of cutting inland through Osthofen.
-   Tracks are densified to ≤ 150 m spacing for clean device rendering.
+   `processUnusedTags = true`, so OSM tags (tunnel, bridge, ferry, motorroad,
+   railway, cycle-network) are returned and can be audited. Tracks are densified
+   to ≤ 150 m spacing for clean device rendering.
 3. **Validation** — [`scripts/validate_routes.py`](./scripts/validate_routes.py)
-   re-reads the GPX from disk and re-checks XML, continuity, seams and distance.
+   re-reads the GPX and re-checks XML, continuity, seams and distance;
    [`scripts/validate_route_alignment.py`](./scripts/validate_route_alignment.py)
-   separately verifies that EV15 stays away from Osthofen and, with
-   `--compare-official`, compares the Mainz→Maxau portion to EuroVelo's current
-   official stage GPX.
+   (`--compare-official`) checks every backbone leg against the official EuroVelo
+   GPX and confirms EV15 avoids Osthofen.
 
 ```bash
 python3 scripts/geocode.py        # data/waypoints.json   (internet)
@@ -148,12 +170,13 @@ python3 scripts/planner.py routes # aggregate distance/elevation
 ```
 
 ### Caveats
-- EV15 now uses EuroVelo's own GPX geometry from Mainz to Andermatt. The other
-  EuroVelo-coded legs are still BRouter routes through their ordered corridor
-  towns and connectors, not byte-copies of EuroVelo's downloadable GPX.
-- Tunnel/ferry/motorway tag auditing comes from BRouter output. The official
-  EV15 GPX portion is alignment- and continuity-checked, but it does not include
-  OSM way tags in the same format.
-- Elevation is BRouter's SRTM-based data; treat climb totals as ±5–10%.
+- The four EuroVelo legs use EuroVelo's own GPX geometry (verified to within a
+  few metres above). The bespoke EV8 and the connectors are BRouter routes on OSM
+  cycle infrastructure.
+- Tunnel/ferry/motorway tag auditing comes from BRouter output, so it covers the
+  bespoke EV8 and the connectors. The official EuroVelo backbones are
+  alignment- and continuity-checked but their GPX carries no OSM way tags; as
+  signed cycle routes, any tunnels on them are bike-legal by definition.
+- Elevation is BRouter/EuroVelo elevation data; treat climb totals as ±5–10%.
 - Re-confirm daily stages, the two notable road tunnels, and Alpine pass opening
   (Furka/Oberalp open ~June) against live conditions before riding.
