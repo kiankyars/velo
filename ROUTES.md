@@ -58,13 +58,13 @@ Because the rivers cross borders, you can easily ride into neighbouring countrie
 
 ## 🧭 Your ACTUAL plan (from `trip_config.json` on `main`)
 
-Your repo settles the route question: it's **not** a single river path but a **~4,000 km Frankfurt loop** stitching five EuroVelo segments, flying **YEG → Frankfurt (FRA)** and back (your uncle's 80th is 13 Jul). The options above are the building blocks; here's how you actually chained them:
+Your repo settles the route question: it's **not** a single river path but a **4,019 km Frankfurt loop** stitching four EuroVelo backbones + one bespoke Mediterranean leg, flying **YEG → Frankfurt (FRA)** and back (your uncle's 80th is 13 Jul). The loop is now **built as GPX and measured** ([ROUTE-GPX.md](./ROUTE-GPX.md)); here's how the segments chain:
 
-> **Frankfurt → (EV15 Rhine) → Andermatt CH → (EV17 Rhône) → Mediterranean FR → (EV8 Med) → Italy → (EV7 Central Europe) → Passau → (EV6 Danube) → Frankfurt.**
+> **Mittelbuchen → (EV15 Rhine, 843.9 km) → Andermatt CH → (EV17 Rhône, 846.6 km) → Med → (bespoke EV8, 874.5 km: Manosque ▸ Draguignan ▸ Ligurian coast ▸ Turchino) → Piacenza IT → (EV7 + Inn-valley, 764.8 km) → Passau → (EV6 Danube + Main, 688.9 km) → Mittelbuchen.**
 >
-> Touches **Germany · Switzerland · France · Italy · Austria** — the fullest possible read of *"Germany and elsewhere in Europe."* Full day-by-day, pace reality, and train escape-hatches in **[ITINERARY.md](./ITINERARY.md)**.
+> Touches **Germany · Switzerland · France · Italy · Austria** — the fullest possible read of *"Germany and elsewhere in Europe."* The route uses **no trains, motorways or ferries** (verified). Full day-by-day, pace reality, and emergency-only escape-hatches in **[ITINERARY.md](./ITINERARY.md)**.
 
-This is **ultra-distance** (~150–200 km/day, two Alpine crossings) — at the top of the ~200 km/day ceiling you set in your Rockies transcripts. The four single-route options above remain useful as **fallbacks**: if the full loop proves too much, dropping to just **EV15 Rhine** or **EV6 Danube** out-and-back from Frankfurt is a saner, still-spectacular plan B.
+This is **ultra-distance** (~183 km/day, ≈ 39,500 m climbing, two Alpine crossings + the Apennines) — at the top of the ~200 km/day ceiling you set in your Rockies transcripts. The four single-route options above remain useful as **fallbacks**: if the full loop proves too much, dropping to just **EV15 Rhine** or **EV6 Danube** out-and-back from Frankfurt is a saner, still-spectacular plan B.
 
 ---
 

@@ -7,11 +7,18 @@ import math
 from datetime import datetime
 import xml.etree.ElementTree as ET
 
-# Paths
-BASE_DIR = "/Users/kian/Developer/vélo"
+# Paths (resolved relative to this script so it runs anywhere the repo lives)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_PATH = os.path.join(BASE_DIR, "trip_config.json")
 TODO_PATH = os.path.join(BASE_DIR, "todo.md")
 GPX_DIR = os.path.join(BASE_DIR, "gpx")
+
+# The five canonical loop segments (the master GPX and any sub-leg clips are
+# NOT summed, to avoid double-counting).
+SEGMENT_FILES = [
+    "ev15_rhine.gpx", "ev17_rhone.gpx", "ev8_med.gpx",
+    "ev7_central.gpx", "ev6_danube.gpx",
+]
 
 # Colors for terminal output
 GREEN = "\033[92m"
@@ -181,21 +188,21 @@ def cmd_check(search_term):
         print(f"No matching open task found containing: '{search_term}'")
 
 def cmd_routes():
-    print(f"\n{BOLD}{CYAN}=== Route Analysis ==={RESET}")
-    gpx_files = [f for f in os.listdir(GPX_DIR) if f.endswith(".gpx")]
-    
-    if not gpx_files:
+    print(f"\n{BOLD}{CYAN}=== Route Analysis (Frankfurt Loop) ==={RESET}")
+    all_gpx = sorted(f for f in os.listdir(GPX_DIR) if f.endswith(".gpx"))
+    if not all_gpx:
         print(f"No GPX files found in {GPX_DIR}/.")
-        print("Add your EuroVelo GPX segment files to analyze them.")
+        print("Run: python3 scripts/build_routes.py")
         return
-        
+
     total_dist = 0.0
     total_ele = 0.0
-    
-    for f_name in gpx_files:
+    for f_name in SEGMENT_FILES:
         path = os.path.join(GPX_DIR, f_name)
+        if not os.path.exists(path):
+            print(f"⚠️  {BOLD}{f_name}{RESET}: missing (run build_routes.py)")
+            continue
         stats = parse_gpx(path)
-        
         if "error" in stats:
             print(f"❌ {BOLD}{f_name}{RESET}: Error parsing ({stats['error']})")
         else:
@@ -205,10 +212,15 @@ def cmd_routes():
             print(f"   GPS Trackpoints: {stats['points_count']}")
             total_dist += stats['distance_km']
             total_ele += stats['elevation_gain_m']
-            
-    print(f"\n{BOLD}Total Route Metrics:{RESET}")
+
+    print(f"\n{BOLD}Total Loop Metrics (5 segments):{RESET}")
     print(f"  🏁 Distance: {BOLD}{total_dist:.2f} km{RESET}")
-    print(f"  🏔️ Elevation Gain: {BOLD}{total_ele:.1f} m{RESET}\n")
+    print(f"  🏔️ Elevation Gain: {BOLD}{total_ele:.1f} m{RESET}")
+
+    extras = [f for f in all_gpx if f not in SEGMENT_FILES]
+    if extras:
+        print(f"\n{BOLD}Other GPX (not summed):{RESET} {', '.join(extras)}")
+    print()
 
 def main():
     if len(sys.argv) < 2:

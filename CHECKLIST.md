@@ -26,7 +26,7 @@ The TL;DR distilled from [PACKING-LIST.md](./PACKING-LIST.md). If you only read 
 ## 🔌 Electronics
 - [ ] Phone + **handlebar mount** + **power bank** + all cables
 - [ ] **EU plug adapter (Type F)** · **eSIM installed & tested before flying**
-- [ ] Lights charged · **offline maps + GPX downloaded** (Komoot / cycle.travel)
+- [ ] Lights charged · **offline maps + GPX downloaded** — the loop is built in [`gpx/`](./gpx) (see [ROUTE-GPX.md](./ROUTE-GPX.md)); load `velo_loop_master.gpx` into Komoot/Polar
 
 ## 📄 Documents & money
 - [ ] **Passport** valid ≥3 months past mid-July · **ETIAS not needed** (Q4 2026) · expect **EES biometrics** at the border

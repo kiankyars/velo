@@ -1,3 +1,5 @@
+> **Update (2026-06-23):** this Mainz→Karlsruhe clip is now the opening stretch of the **full** `gpx/ev15_rhine.gpx` (Mittelbuchen → Andermatt, 843.9 km) built and validated in **[ROUTE-GPX.md](./ROUTE-GPX.md)**. This page is kept for the detailed waypoint table + figure of the first leg.
+
 # 📐 EV15 Leg — Mittelbuchen → Karlsruhe (mapped from the GPX)
 
 Computed from the **official EuroVelo 15 (Rhine) GPX track** (26,639 pts, Andermatt→Hook of Holland, with elevation), clipped to your leg. *(EuroVelo.com itself is blocked from this sandbox, so I sourced the identical EV15 track from a public GitHub mirror — `FabriziodelaRusta/eurovelo_gpx` / `VeloFactory/VeloMap` — verified to match the EV15 extent.)*

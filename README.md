@@ -4,7 +4,7 @@ Planning hub for Kian's ultra-distance bike tour: a **loop out of Frankfurt** th
 
 > **Ride window:** **21 Jun → 12–13 Jul 2026** (~22 days) · back in Frankfurt the night of **12 Jul** for your **uncle's 80th (13 Jul)**
 > **Flights (KLM):** SFO→YEG 13 Jun · remote work in Edmonton 13–20 Jun · **YEG→FRA 21 Jun** · **FRA→SFO 13–14 Jul**
-> **Route:** ~**4,000 km** — EV15 Rhine → EV17 Rhône → EV8 Med → EV7 Central → EV6 Danube → Frankfurt · **150–200 km/day**, road bike + aerobars, credit-card (hostel) style
+> **Route:** **4,019 km** (built & measured) — EV15 Rhine → EV17 Rhône → **bespoke EV8** Med → EV7 Central → EV6 Danube → back to Frankfurt · **150–200 km/day**, road bike + aerobars, credit-card (hostel) style · GPX in [`gpx/`](./gpx), details in **[ROUTE-GPX.md](./ROUTE-GPX.md)**
 > **Traveller:** Canadian citizen, experienced solo ultra-cyclist (2025 Rockies tour)
 
 ---
@@ -24,8 +24,9 @@ Planning hub for Kian's ultra-distance bike tour: a **loop out of Frankfurt** th
 | **[GEAR-FROM-VIDEOS.md](./GEAR-FROM-VIDEOS.md)** | ⭐ Asks #1 & #2 — the **verbatim gear list** from your parts video, your own stated regrets (no bibs/tights, bad gloves, leaky pump, broken saddle bag), and the **lessons distilled from all 7 transcripts**. |
 | **[CHECKLIST.md](./CHECKLIST.md)** | The **concise one-pager** to read before you leave. |
 | **[PACKING-LIST.md](./PACKING-LIST.md)** | Full checkbox packing list, merging your real video kit with trip essentials (German light law, EES, insurance, Alpine cold). |
-| **[ITINERARY.md](./ITINERARY.md)** | The **Frankfurt Loop** day-by-day from your `trip_config.json` — 5 EuroVelo segments, ~4,000 km, pace reality + train escape-hatches. |
-| **[LEG-EV15-Mittelbuchen-Karlsruhe.md](./LEG-EV15-Mittelbuchen-Karlsruhe.md)** | Your requested EV15 leg mapped from the official GPX: **Mainz→Karlsruhe 159.8 km (flat)** + ~45–50 km connector from Mittelbuchen. GPX + map/elevation figure in [`gpx/`](./gpx/). |
+| **[ROUTE-GPX.md](./ROUTE-GPX.md)** | ⭐ **The built route.** All 5 GPX segments (EV15/EV17/EV8/EV7/EV6), **4,018.7 km**, routed on real cycle paths with **no train/motorway/ferry**, XML + continuity + tunnels/ferries validated, distances recomputed. |
+| **[ITINERARY.md](./ITINERARY.md)** | The **Frankfurt Loop** day-by-day from your `trip_config.json` — 5 EuroVelo segments, ~4,019 km, pace reality + train escape-hatches. |
+| **[LEG-EV15-Mittelbuchen-Karlsruhe.md](./LEG-EV15-Mittelbuchen-Karlsruhe.md)** | The first EV15 leg (**Mainz→Karlsruhe 159.8 km**), now superseded by the full `gpx/ev15_rhine.gpx` (Mittelbuchen→Andermatt). |
 | **[ROUTES.md](./ROUTES.md)** | The EuroVelo building blocks (Rhine/Danube/Rhône/etc.) and fallbacks if the full loop is too much. |
 | **[DEEP-RESEARCH.md](./DEEP-RESEARCH.md)** | Multi-axis dossier: EES/ETIAS, flying with a bike, German/EU trains, weather, accommodation & camping law, money (incl. Swiss CHF), connectivity, navigation, theft, insurance, nutrition, comfort, pacing, timeline. |
 | **[VIDEOS.md](./VIDEOS.md)** | All your YouTube videos enumerated (Cycling + Germany Vlogs), how they were reached, and the gear video. |
@@ -48,16 +49,18 @@ Planning hub for Kian's ultra-distance bike tour: a **loop out of Frankfurt** th
 ## 📂 Repository internals (the `main` toolkit you pushed)
 
 * `todo.md` – atomic task manager for travel, gear, cards, and logistics.
-* `trip_config.json` – machine-readable metadata (flights, contacts, routes, gear checklist).
-* `scripts/planner.py` – Python CLI: `status` (countdowns + flights + segments), `todo`, `check <term>`, `routes` (aggregate GPX distance/elevation).
+* `trip_config.json` – machine-readable metadata (flights, contacts, routes with **recomputed distances/ascent**, loop totals, gear checklist).
+* `scripts/planner.py` – Python CLI: `status` (countdowns + flights + segments), `todo`, `check <term>`, `routes` (aggregate GPX distance/elevation; paths now resolve relative to the repo).
+* `scripts/route_waypoints.py`, `scripts/geocode.py`, `scripts/build_routes.py`, `scripts/validate_routes.py`, `scripts/velo_trekking.brf` – the **route builder**: define waypoints → geocode → route with BRouter on OSM → validate. See [ROUTE-GPX.md](./ROUTE-GPX.md).
+* `data/` – generated artefacts: `waypoints.json`, `route_summary.json` (per-leg distances, tunnels/ferries, network %), `validation_report.json`.
 * `transcripts/` – the 2025 900-km Rockies trip transcripts (gear + pacing references).
-* `gpx/` – modular GPX route segments (now incl. the EV15 Mittelbuchen→Karlsruhe clip + figure) for your Polar device.
+* `gpx/` – the built loop: `ev15_rhine.gpx`, `ev17_rhone.gpx`, `ev8_med.gpx`, `ev7_central.gpx`, `ev6_danube.gpx`, plus `velo_loop_master.gpx` (whole loop) for your Polar device.
 
 ## 🤖 Agent instructions (for the next assistant)
 
 1. **Read `todo.md` and `trip_config.json` first** to check current task status.
 2. Run `python3 scripts/planner.py status` (or `todo`) for countdowns and open tasks.
-3. Drop GPX files into `gpx/` and run `python3 scripts/planner.py routes` for aggregate distance/elevation.
+3. To rebuild/verify the route: `python3 scripts/geocode.py` → `python3 scripts/build_routes.py` → `python3 scripts/validate_routes.py` → `python3 scripts/planner.py routes` (needs internet). Details in [ROUTE-GPX.md](./ROUTE-GPX.md).
 4. Update `todo.md` as tasks complete.
 
 ---

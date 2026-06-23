@@ -12,31 +12,33 @@ Rebuilt from your own **`trip_config.json`**, **`README.md`**, and **`todo.md`**
 | 2 | **YEG → FRA** (Frankfurt, direct, KLM) | **21 Jun 2026** | ⏳ pending — *book this* |
 | 3 | **FRA → SFO** | **13–14 Jul 2026** | ⏳ pending — *book this* |
 
-## 🔁 The route — 5 modular EuroVelo segments (from `trip_config.json`)
-| # | Segment | EV | From → To | ~km |
-|---|---|----|-----------|----:|
-| 1 | **Rhine** | EV15 | Frankfurt → **Andermatt** (CH, Rhine source/Alps) | ~500 |
-| 2 | **Rhône** | EV17 | Andermatt → **Mediterranean coast** (FR) | ~1,115 |
-| 3 | **Mediterranean** | EV8 | Med coast → **Italy link** | ~600 |
-| 4 | **Central Europe** | EV7 | Italy → **Passau** (north through/along the Alps) | ~1,200 |
-| 5 | **Danube** | EV6 | Passau → **Frankfurt** | ~600 |
-| | **Total** | | **Frankfurt loop** | **~4,000** |
+## 🔁 The route — 5 modular segments (now **built & measured**, see [ROUTE-GPX.md](./ROUTE-GPX.md))
+| # | Segment | EV | From → To | km | climb |
+|---|---|----|-----------|----:|----:|
+| 1 | **Rhine** | EV15 | Mittelbuchen → **Andermatt** (CH, Rhine source/Alps) | **843.9** | 7,756 m |
+| 2 | **Rhône** | EV17 | Andermatt → Furka → **Port-Saint-Louis** (Med) | **846.6** | 8,450 m |
+| 3 | **Mediterranean** | EV8\* | Med → Manosque → Draguignan → Liguria → Turchino → **Piacenza** | **874.5** | 12,521 m |
+| 4 | **Central Europe** | EV7 | Piacenza → Brenner → Innsbruck → **Passau** | **764.8** | 6,369 m |
+| 5 | **Danube** | EV6 | Passau → Regensburg → Nürnberg → Main → **Mittelbuchen** | **688.9** | 4,413 m |
+| | **Total** | | **Frankfurt loop** | **4,018.7** | **39,509 m** |
+
+*Distances are measured straight from the GPX in [`gpx/`](./gpx), not estimates. EV8\* is the bespoke Mediterranean route requested (inland Provence + Ligurian coast + Passo del Turchino), not the signed EuroVelo 8. The built route contains **no trains, motorways or ferries** — verified.*
 
 ## 📏 Reality check on pace (grounded in your own riding)
-- **~4,000 km in ~22 days ≈ 180 km/day, essentially every day**, and it **crosses the Alps** (Rhine source at Andermatt; EV17 descends the Rhône; EV7 climbs back north). Your `README` target of "3,000–5,000 km, 150–200 km/day" matches this.
+- **4,019 km in ~22 days ≈ 183 km/day, essentially every day**, with **≈ 39,500 m of climbing** — it crosses the Alps twice (up to the Rhine source at Andermatt, over the Furka into the Rhône, then over the Brenner on the way home) plus the Apennines at the Turchino. Your `README` target of "3,000–5,000 km, 150–200 km/day" matches this.
 - Your **transcripts set your tested ceiling at ~200 km/day**, and that was with big climbs leaving you wrecked. So this loop is **at the very top of your proven range with near-zero slack** — it's a genuine ultra-endurance objective, not a touring holiday.
-- **Honest recommendation:** treat the full loop as a *stretch* goal and pre-plan **2–3 escape hatches** where a **train** closes a gap so a bad-weather or bad-legs day doesn't end the trip:
+- **The built GPX itself has no trains/motorways/ferries** (that was the brief). The *contingency* hatches below are emergency-only — a bad-weather or bad-legs bail, not part of the planned line:
   - **Andermatt ↔ Rhône valley** (Matterhorn-Gotthard / SBB) if the Alps bite.
   - **Med coast → north** (French/Italian rail) if EV8/EV7 runs long.
   - **Passau → Frankfurt** (ÖBB/DB) as a guaranteed way to be back for the **12 Jul** deadline.
 - **Build in the uncle buffer:** plan to be within an easy **train hop of Frankfurt by ~10 Jul** so the 80th birthday is never at risk.
 
 ## 🗺️ Segment notes & where to resupply/sleep
-- **Seg 1 — EV15 Rhine (Frankfurt → Andermatt, ~500 km):** down the Rhine to Basel, then *up* toward the Alpine source. Mostly flat until the final climb into the Alps. Towns dense → easy hostels/Gasthöfe. *Switzerland = CHF, not euros, and pricey — carry a card + some francs.*
-- **Seg 2 — EV17 Rhône (Andermatt → Mediterranean, ~1,115 km):** the big one. Furka/Rhône-glacier start, long descent through the Valais (Brig, Sion, Martigny), Lake Geneva, then down the French Rhône (Lyon, Avignon, Arles) to the sea. Largely downhill-trending after the top → your fastest segment.
-- **Seg 3 — EV8 Mediterranean (~600 km):** coastal France → Italy (Riviera). Hotter, busier, more climbing on the headlands; hydrate hard (your heat/electrolyte playbook).
-- **Seg 4 — EV7 Central Europe (Italy → Passau, ~1,200 km):** north back across/around the Alps toward Austria/Bavaria — the second serious climbing block. Hardest re-entry leg; this is the one to shorten with a train if you're behind.
-- **Seg 5 — EV6 Danube (Passau → Frankfurt, ~600 km):** gentle, famous, well-signed Danube path then the link back to Frankfurt — a fitting easy-ish finish before the birthday.
+- **Seg 1 — EV15 Rhine (Mittelbuchen → Andermatt, 843.9 km, 7,756 m):** a connector down the Main to Mainz, then EV15 up the Rhine through Worms, Speyer, Karlsruhe, Strasbourg and Basel — flat and dense with towns — then the *Alpine* Rhine up the Bodensee, Chur, Disentis and over the **Oberalppass** to Andermatt. *Switzerland = CHF, not euros, and pricey — carry a card + some francs.*
+- **Seg 2 — EV17 Rhône (Andermatt → Port-Saint-Louis, 846.6 km, 8,450 m):** over the **Furka** to the Rhône glacier, down the Valais (Brig, Sion, Martigny), along the south shore of Lake Geneva, then the French Rhône / ViaRhôna (Lyon, Valence, Avignon, Arles) to the Med. Largely downhill-trending after the Furka → your fastest segment.
+- **Seg 3 — bespoke EV8 (Med → Piacenza, 874.5 km, 12,521 m):** the climbing leg. Inland Provence (Manosque, Draguignan) to dodge the worst coast traffic, back to the sea at Fréjus, the Riviera to Ventimiglia, the **Ligurian seaside cycleway** (old-railway tunnels), then over the **Passo del Turchino** to the Po plain. Hottest, busiest, most up-and-down — hydrate hard (your heat/electrolyte playbook).
+- **Seg 4 — EV7 Central Europe (Piacenza → Passau, 764.8 km, 6,369 m):** across the Po plain (Cremona, Mantova), up the Adige cycleway (Verona, Trento, Bolzano), over the **Brenner** to Innsbruck, then the **Inn cycleway** down to Passau. The second Alpine crossing, but the Adige and Inn paths are gentle and well-signed.
+- **Seg 5 — EV6 Danube (Passau → Mittelbuchen, 688.9 km, 4,413 m):** the famous Danube path to Regensburg/Kelheim, then the **Altmühl / Main-Donau canal** to Nürnberg and the **Main cycleway** (Bamberg, Würzburg, Aschaffenburg) home — a gentle, scenic finish before the birthday.
 
 ## 🧳 Bookend logistics
 - **Bike:** decision still open in `todo.md` — **bring own** (KLM ~$250 round-trip + transport box; YEG→FRA is direct, good for the bike) / **rent in Frankfurt** / **buy & resell** (Buycycle, Kleinanzeigen). If bringing own, box it for YEG→FRA and **store the box at your uncle's** in Frankfurt for the return (this is *why* a Frankfurt loop is logistically clean — start = finish = box storage).

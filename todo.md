@@ -24,5 +24,6 @@ This is the master list of tasks required before departure on **June 13, 2026** 
   3. *Buy & Resell:* Locate second-hand shops or online portals (Buycycle, Kleinanzeigen) in Germany.
 
 ## 🗺️ Route & GPS Sync
-- `[ ]` **GPX segments:** Reconstruct and download the 5 main segments of the Frankfurt loop (EV15, EV17, EV8, EV7, EV6).
+- `[x]` **GPX segments:** Built all 5 segments of the Frankfurt loop (EV15/EV17/EV8/EV7/EV6) → `gpx/*.gpx` + `velo_loop_master.gpx`. 4,018.7 km, no train/motorway/ferry, XML + continuity validated. See **[ROUTE-GPX.md](./ROUTE-GPX.md)**.
+- `[ ]` **Load GPX to device:** Import `gpx/velo_loop_master.gpx` (or the 5 per-segment files) into Komoot/the Polar watch and spot-check the two flagged road tunnels (Menton coast, Oberalp).
 - `[ ]` **Watch configuration:** Verify Strava/Komoot integration with your Polar watch and test route guidance on a local ride.

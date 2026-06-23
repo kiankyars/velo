@@ -1,0 +1,800 @@
+{
+ "Mittelbuchen, Hanau, Germany": {
+  "label": "Mittelbuchen (Hanau)",
+  "lat": 50.1776159,
+  "lon": 8.8870552,
+  "src": "Mittelbuchen,Deutschland"
+ },
+ "Hanau, Germany": {
+  "label": "Hanau",
+  "lat": 50.132881,
+  "lon": 8.9169797,
+  "src": "Hanau,Deutschland"
+ },
+ "Frankfurt am Main, Germany": {
+  "label": "Frankfurt am Main",
+  "lat": 50.1106444,
+  "lon": 8.6820917,
+  "src": "Frankfurt am Main,Deutschland"
+ },
+ "Ruesselsheim am Main, Germany": {
+  "label": "Russelsheim",
+  "lat": 49.9948503,
+  "lon": 8.411719,
+  "src": "Rüsselsheim am Main,Deutschland"
+ },
+ "Mainz, Germany": {
+  "label": "Mainz (join EV15)",
+  "lat": 49.9995205,
+  "lon": 8.2736253,
+  "src": "Mainz,Deutschland"
+ },
+ "Oppenheim, Germany": {
+  "label": "Oppenheim",
+  "lat": 49.8527604,
+  "lon": 8.3548557,
+  "src": "Oppenheim,Deutschland"
+ },
+ "Worms, Germany": {
+  "label": "Worms",
+  "lat": 49.6302618,
+  "lon": 8.3620898,
+  "src": "Worms,Deutschland"
+ },
+ "Ludwigshafen am Rhein, Germany": {
+  "label": "Ludwigshafen",
+  "lat": 49.4704113,
+  "lon": 8.4381568,
+  "src": "Ludwigshafen am Rhein,Deutschland"
+ },
+ "Speyer, Germany": {
+  "label": "Speyer",
+  "lat": 49.3165553,
+  "lon": 8.433615,
+  "src": "Speyer,Deutschland"
+ },
+ "Germersheim, Germany": {
+  "label": "Germersheim",
+  "lat": 49.2222749,
+  "lon": 8.36659,
+  "src": "Germersheim,Deutschland"
+ },
+ "Karlsruhe, Germany": {
+  "label": "Karlsruhe (Maxau)",
+  "lat": 49.0068705,
+  "lon": 8.4034195,
+  "src": "Karlsruhe,Deutschland"
+ },
+ "Lauterbourg, France": {
+  "label": "Lauterbourg",
+  "lat": 48.9751103,
+  "lon": 8.1767166,
+  "src": "Lauterbourg,France"
+ },
+ "Strasbourg, France": {
+  "label": "Strasbourg",
+  "lat": 48.584614,
+  "lon": 7.7507127,
+  "src": "Strasbourg,France"
+ },
+ "Erstein, France": {
+  "label": "Erstein",
+  "lat": 48.4227385,
+  "lon": 7.6632641,
+  "src": "Erstein,France"
+ },
+ "Selestat, France": {
+  "label": "Selestat",
+  "lat": 48.2594396,
+  "lon": 7.454217,
+  "src": "Sélestat,France"
+ },
+ "Breisach am Rhein, Germany": {
+  "label": "Breisach",
+  "lat": 48.0291415,
+  "lon": 7.5806123,
+  "src": "Breisach am Rhein,Deutschland"
+ },
+ "Neuenburg am Rhein, Germany": {
+  "label": "Neuenburg am Rhein",
+  "lat": 47.8155916,
+  "lon": 7.5627871,
+  "src": "Neuenburg am Rhein,Deutschland"
+ },
+ "Basel, Switzerland": {
+  "label": "Basel",
+  "lat": 47.5581077,
+  "lon": 7.5878261,
+  "src": "Basel,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Rheinfelden, Aargau, Switzerland": {
+  "label": "Rheinfelden",
+  "lat": 47.5543859,
+  "lon": 7.7922905,
+  "src": "Rheinfelden,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Bad Saeckingen, Germany": {
+  "label": "Bad Saeckingen",
+  "lat": 47.5527459,
+  "lon": 7.9410556,
+  "src": "Bad Säckingen,Deutschland"
+ },
+ "Waldshut-Tiengen, Germany": {
+  "label": "Waldshut",
+  "lat": 47.6281754,
+  "lon": 8.2408579,
+  "src": "Waldshut-Tiengen,Deutschland"
+ },
+ "Schaffhausen, Switzerland": {
+  "label": "Schaffhausen",
+  "lat": 47.6960491,
+  "lon": 8.634513,
+  "src": "Schaffhausen,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Stein am Rhein, Switzerland": {
+  "label": "Stein am Rhein",
+  "lat": 47.6597323,
+  "lon": 8.8596823,
+  "src": "Stein am Rhein,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Kreuzlingen, Switzerland": {
+  "label": "Kreuzlingen (Bodensee)",
+  "lat": 47.6464362,
+  "lon": 9.1725621,
+  "src": "Kreuzlingen,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Rorschach, Switzerland": {
+  "label": "Rorschach",
+  "lat": 47.4779686,
+  "lon": 9.4914025,
+  "src": "Rorschach,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Buchs, St. Gallen, Switzerland": {
+  "label": "Buchs SG",
+  "lat": 47.1627634,
+  "lon": 9.4764086,
+  "src": "Buchs SG,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Bad Ragaz, Switzerland": {
+  "label": "Bad Ragaz",
+  "lat": 47.0025282,
+  "lon": 9.5016438,
+  "src": "Bad Ragaz,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Chur, Switzerland": {
+  "label": "Chur",
+  "lat": 46.854747,
+  "lon": 9.5264904,
+  "src": "Chur,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Ilanz, Switzerland": {
+  "label": "Ilanz",
+  "lat": 46.7730344,
+  "lon": 9.2033532,
+  "src": "Ilanz,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Disentis, Switzerland": {
+  "label": "Disentis",
+  "lat": 46.7426599,
+  "lon": 8.8529583,
+  "src": "Disentis/Mustér,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Sedrun, Switzerland": {
+  "label": "Sedrun",
+  "lat": 46.6809591,
+  "lon": 8.7762198,
+  "src": "Sedrun,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Oberalppass, Switzerland": {
+  "label": "Oberalppass",
+  "lat": 46.6597,
+  "lon": 8.671,
+  "src": "override"
+ },
+ "Andermatt, Switzerland": {
+  "label": "Andermatt",
+  "lat": 46.6340499,
+  "lon": 8.5948148,
+  "src": "Andermatt,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Realp, Switzerland": {
+  "label": "Realp",
+  "lat": 46.5988457,
+  "lon": 8.5020509,
+  "src": "Realp,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Furkapass, Switzerland": {
+  "label": "Furkapass",
+  "lat": 46.5723,
+  "lon": 8.415,
+  "src": "override"
+ },
+ "Gletsch, Switzerland": {
+  "label": "Gletsch",
+  "lat": 46.5616,
+  "lon": 8.364,
+  "src": "override"
+ },
+ "Oberwald, Wallis, Switzerland": {
+  "label": "Oberwald",
+  "lat": 46.5328571,
+  "lon": 8.3520502,
+  "src": "Oberwald,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Fiesch, Switzerland": {
+  "label": "Fiesch",
+  "lat": 46.402946,
+  "lon": 8.1341501,
+  "src": "Fiesch,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Brig, Switzerland": {
+  "label": "Brig",
+  "lat": 46.2887325,
+  "lon": 7.9753044,
+  "src": "Brig-Glis,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Visp, Switzerland": {
+  "label": "Visp",
+  "lat": 46.2913113,
+  "lon": 7.8811918,
+  "src": "Visp,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Sierre, Switzerland": {
+  "label": "Sierre",
+  "lat": 46.2922522,
+  "lon": 7.5323195,
+  "src": "Sierre,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Sion, Switzerland": {
+  "label": "Sion",
+  "lat": 46.2311749,
+  "lon": 7.3588795,
+  "src": "Sion,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Martigny, Switzerland": {
+  "label": "Martigny",
+  "lat": 46.103115,
+  "lon": 7.0727354,
+  "src": "Martigny,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Saint-Maurice, Valais, Switzerland": {
+  "label": "Saint-Maurice",
+  "lat": 46.2197694,
+  "lon": 7.0045193,
+  "src": "Saint-Maurice,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Le Bouveret, Switzerland": {
+  "label": "Le Bouveret",
+  "lat": 46.382908,
+  "lon": 6.8540248,
+  "src": "Le Bouveret,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Saint-Gingolph, France": {
+  "label": "Saint-Gingolph",
+  "lat": 46.3890207,
+  "lon": 6.7756388,
+  "src": "Saint-Gingolph,France"
+ },
+ "Evian-les-Bains, France": {
+  "label": "Evian-les-Bains",
+  "lat": 46.400979,
+  "lon": 6.5897931,
+  "src": "Évian-les-Bains,France"
+ },
+ "Thonon-les-Bains, France": {
+  "label": "Thonon-les-Bains",
+  "lat": 46.3731303,
+  "lon": 6.4779448,
+  "src": "Thonon-les-Bains,France"
+ },
+ "Geneva, Switzerland": {
+  "label": "Geneva",
+  "lat": 46.2017559,
+  "lon": 6.1466014,
+  "src": "Genève,Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "Seyssel, Ain, France": {
+  "label": "Seyssel",
+  "lat": 45.9566342,
+  "lon": 5.8315197,
+  "src": "Seyssel,France"
+ },
+ "Belley, France": {
+  "label": "Belley",
+  "lat": 45.760758,
+  "lon": 5.6861466,
+  "src": "Belley,France"
+ },
+ "Lyon, France": {
+  "label": "Lyon",
+  "lat": 45.7578137,
+  "lon": 4.8320114,
+  "src": "Lyon,France"
+ },
+ "Vienne, Isere, France": {
+  "label": "Vienne",
+  "lat": 45.52524,
+  "lon": 4.87477,
+  "src": "Vienne,France"
+ },
+ "Valence, Drome, France": {
+  "label": "Valence",
+  "lat": 44.9332277,
+  "lon": 4.8920811,
+  "src": "Valence,France"
+ },
+ "Montelimar, France": {
+  "label": "Montelimar",
+  "lat": 44.5579391,
+  "lon": 4.750318,
+  "src": "Montélimar,France"
+ },
+ "Pont-Saint-Esprit, France": {
+  "label": "Pont-Saint-Esprit",
+  "lat": 44.2538589,
+  "lon": 4.6456631,
+  "src": "Pont-Saint-Esprit,France"
+ },
+ "Avignon, France": {
+  "label": "Avignon",
+  "lat": 43.9492493,
+  "lon": 4.8059012,
+  "src": "Avignon,France"
+ },
+ "Arles, France": {
+  "label": "Arles",
+  "lat": 43.6776223,
+  "lon": 4.6309653,
+  "src": "Arles,France"
+ },
+ "Port-Saint-Louis-du-Rhone, France": {
+  "label": "Port-Saint-Louis (Med)",
+  "lat": 43.3880925,
+  "lon": 4.8033753,
+  "src": "Port-Saint-Louis-du-Rhône,France"
+ },
+ "Salon-de-Provence, France": {
+  "label": "Salon-de-Provence",
+  "lat": 43.6405237,
+  "lon": 5.0980225,
+  "src": "Salon-de-Provence,France"
+ },
+ "Aix-en-Provence, France": {
+  "label": "Aix-en-Provence",
+  "lat": 43.5298424,
+  "lon": 5.4474738,
+  "src": "Aix-en-Provence,France"
+ },
+ "Manosque, France": {
+  "label": "Manosque",
+  "lat": 43.8338026,
+  "lon": 5.7826657,
+  "src": "Manosque,France"
+ },
+ "Greoux-les-Bains, France": {
+  "label": "Greoux-les-Bains",
+  "lat": 43.7581306,
+  "lon": 5.8841886,
+  "src": "Gréoux-les-Bains,France"
+ },
+ "Riez, France": {
+  "label": "Riez",
+  "lat": 43.8176907,
+  "lon": 6.0930048,
+  "src": "Riez,France"
+ },
+ "Quinson, France": {
+  "label": "Quinson",
+  "lat": 43.7019544,
+  "lon": 6.0397855,
+  "src": "Quinson,France"
+ },
+ "Aups, France": {
+  "label": "Aups",
+  "lat": 43.6283799,
+  "lon": 6.2253165,
+  "src": "Aups,France"
+ },
+ "Salernes, France": {
+  "label": "Salernes",
+  "lat": 43.5640073,
+  "lon": 6.2325706,
+  "src": "Salernes,France"
+ },
+ "Draguignan, France": {
+  "label": "Draguignan",
+  "lat": 43.5374662,
+  "lon": 6.4627333,
+  "src": "Draguignan,France"
+ },
+ "Le Muy, France": {
+  "label": "Le Muy",
+  "lat": 43.4713932,
+  "lon": 6.566111,
+  "src": "Le Muy,France"
+ },
+ "Frejus, France": {
+  "label": "Frejus (coast)",
+  "lat": 43.4330308,
+  "lon": 6.7360182,
+  "src": "Fréjus,France"
+ },
+ "Cannes, France": {
+  "label": "Cannes",
+  "lat": 43.5515198,
+  "lon": 7.0134418,
+  "src": "Cannes,France"
+ },
+ "Antibes, France": {
+  "label": "Antibes",
+  "lat": 43.5813878,
+  "lon": 7.1236966,
+  "src": "Antibes,France"
+ },
+ "Nice, France": {
+  "label": "Nice",
+  "lat": 43.7009358,
+  "lon": 7.2683912,
+  "src": "Nice,France"
+ },
+ "Monaco": {
+  "label": "Monaco",
+  "lat": 43.7323492,
+  "lon": 7.4276832,
+  "src": "Monaco,Monaco"
+ },
+ "Menton, France": {
+  "label": "Menton",
+  "lat": 43.7753495,
+  "lon": 7.5029213,
+  "src": "Menton,France"
+ },
+ "Ventimiglia, Italy": {
+  "label": "Ventimiglia",
+  "lat": 43.826485,
+  "lon": 7.5495174,
+  "src": "Ventimiglia,Italia"
+ },
+ "Sanremo, Italy": {
+  "label": "Sanremo",
+  "lat": 43.8362985,
+  "lon": 7.7772658,
+  "src": "Sanremo,Italia"
+ },
+ "Imperia, Italy": {
+  "label": "Imperia",
+  "lat": 43.9583753,
+  "lon": 7.8667427,
+  "src": "Provincia di Imperia,Italia"
+ },
+ "Albenga, Italy": {
+  "label": "Albenga",
+  "lat": 44.0492503,
+  "lon": 8.2131239,
+  "src": "Albenga,Italia"
+ },
+ "Savona, Italy": {
+  "label": "Savona",
+  "lat": 44.2334238,
+  "lon": 8.2525727,
+  "src": "Savona,Italia"
+ },
+ "Varazze, Italy": {
+  "label": "Varazze",
+  "lat": 44.3592996,
+  "lon": 8.5753273,
+  "src": "Varazze,Italia"
+ },
+ "Voltri, Genova, Italy": {
+  "label": "Genova Voltri",
+  "lat": 44.4285842,
+  "lon": 8.7542329,
+  "src": "Voltri,Italia"
+ },
+ "Mele, Genova, Italy": {
+  "label": "Mele",
+  "lat": 44.4475498,
+  "lon": 8.7477687,
+  "src": "Mele,Italia"
+ },
+ "Passo del Turchino, Italy": {
+  "label": "Passo del Turchino",
+  "lat": 44.5527,
+  "lon": 8.756,
+  "src": "override"
+ },
+ "Masone, Genova, Italy": {
+  "label": "Masone",
+  "lat": 44.5013362,
+  "lon": 8.7163481,
+  "src": "Masone,Italia"
+ },
+ "Ovada, Italy": {
+  "label": "Ovada",
+  "lat": 44.638346,
+  "lon": 8.64525,
+  "src": "Ovada,Italia"
+ },
+ "Novi Ligure, Italy": {
+  "label": "Novi Ligure",
+  "lat": 44.76085,
+  "lon": 8.789551,
+  "src": "Novi Ligure,Italia"
+ },
+ "Tortona, Italy": {
+  "label": "Tortona",
+  "lat": 44.89666,
+  "lon": 8.8641282,
+  "src": "Tortona,Italia"
+ },
+ "Voghera, Italy": {
+  "label": "Voghera",
+  "lat": 44.9926704,
+  "lon": 9.0086667,
+  "src": "Voghera,Italia"
+ },
+ "Piacenza, Italy": {
+  "label": "Piacenza",
+  "lat": 45.0526,
+  "lon": 9.6929,
+  "src": "override"
+ },
+ "Cremona, Italy": {
+  "label": "Cremona",
+  "lat": 45.1335,
+  "lon": 10.0245,
+  "src": "override"
+ },
+ "Mantova, Italy": {
+  "label": "Mantova (join EV7)",
+  "lat": 45.1564,
+  "lon": 10.7914,
+  "src": "override"
+ },
+ "Verona, Italy": {
+  "label": "Verona",
+  "lat": 45.4424977,
+  "lon": 10.9857377,
+  "src": "Verona,Italia"
+ },
+ "Rovereto, Italy": {
+  "label": "Rovereto",
+  "lat": 45.886548,
+  "lon": 11.0452369,
+  "src": "Rovereto,Italia"
+ },
+ "Trento, Italy": {
+  "label": "Trento",
+  "lat": 46.0664228,
+  "lon": 11.1257601,
+  "src": "Trento,Italia"
+ },
+ "Bolzano, Italy": {
+  "label": "Bolzano",
+  "lat": 46.4983,
+  "lon": 11.3548,
+  "src": "override"
+ },
+ "Bressanone, Italy": {
+  "label": "Bressanone",
+  "lat": 46.716413,
+  "lon": 11.657792,
+  "src": "Brixen - Bressanone,Italia"
+ },
+ "Vipiteno, Italy": {
+  "label": "Vipiteno",
+  "lat": 46.8963235,
+  "lon": 11.4319398,
+  "src": "Sterzing - Vipiteno,Italia"
+ },
+ "Brennero, Italy": {
+  "label": "Brennero (pass)",
+  "lat": 47.0023,
+  "lon": 11.5063,
+  "src": "override"
+ },
+ "Steinach am Brenner, Austria": {
+  "label": "Steinach am Brenner",
+  "lat": 47.0907467,
+  "lon": 11.4665722,
+  "src": "Steinach am Brenner,Österreich"
+ },
+ "Innsbruck, Austria": {
+  "label": "Innsbruck",
+  "lat": 47.2654296,
+  "lon": 11.3927685,
+  "src": "Innsbruck,Österreich"
+ },
+ "Hall in Tirol, Austria": {
+  "label": "Hall in Tirol",
+  "lat": 47.2816648,
+  "lon": 11.5075337,
+  "src": "Hall in Tirol,Österreich"
+ },
+ "Schwaz, Austria": {
+  "label": "Schwaz",
+  "lat": 47.3449529,
+  "lon": 11.7084253,
+  "src": "Schwaz,Österreich"
+ },
+ "Jenbach, Austria": {
+  "label": "Jenbach",
+  "lat": 47.3915387,
+  "lon": 11.7717443,
+  "src": "Jenbach,Österreich"
+ },
+ "Kufstein, Austria": {
+  "label": "Kufstein",
+  "lat": 47.582996,
+  "lon": 12.1692134,
+  "src": "Kufstein,Österreich"
+ },
+ "Rosenheim, Germany": {
+  "label": "Rosenheim",
+  "lat": 47.8557873,
+  "lon": 12.1272983,
+  "src": "Rosenheim,Deutschland"
+ },
+ "Wasserburg am Inn, Germany": {
+  "label": "Wasserburg am Inn",
+  "lat": 48.0615171,
+  "lon": 12.220026,
+  "src": "Wasserburg am Inn,Deutschland"
+ },
+ "Muehldorf am Inn, Germany": {
+  "label": "Muehldorf am Inn",
+  "lat": 48.2563486,
+  "lon": 12.3981185,
+  "src": "Landkreis Mühldorf am Inn,Deutschland"
+ },
+ "Marktl, Germany": {
+  "label": "Marktl",
+  "lat": 48.2537608,
+  "lon": 12.8417327,
+  "src": "Marktl,Deutschland"
+ },
+ "Braunau am Inn, Austria": {
+  "label": "Braunau am Inn",
+  "lat": 48.2534159,
+  "lon": 13.0397862,
+  "src": "Braunau am Inn,Österreich"
+ },
+ "Schaerding, Austria": {
+  "label": "Schaerding",
+  "lat": 48.4569975,
+  "lon": 13.4318,
+  "src": "Schärding,Österreich"
+ },
+ "Passau, Germany": {
+  "label": "Passau",
+  "lat": 48.5748229,
+  "lon": 13.4609744,
+  "src": "Passau,Deutschland"
+ },
+ "Vilshofen an der Donau, Germany": {
+  "label": "Vilshofen",
+  "lat": 48.6258041,
+  "lon": 13.1643127,
+  "src": "Vilshofen an der Donau,Deutschland"
+ },
+ "Deggendorf, Germany": {
+  "label": "Deggendorf",
+  "lat": 48.7814115,
+  "lon": 13.0006423,
+  "src": "Deggendorf,Deutschland"
+ },
+ "Straubing, Germany": {
+  "label": "Straubing",
+  "lat": 48.8839157,
+  "lon": 12.5955773,
+  "src": "Straubing,Deutschland"
+ },
+ "Regensburg, Germany": {
+  "label": "Regensburg",
+  "lat": 49.0195333,
+  "lon": 12.0974869,
+  "src": "Regensburg,Deutschland"
+ },
+ "Kelheim, Germany": {
+  "label": "Kelheim",
+  "lat": 48.91849,
+  "lon": 11.8722777,
+  "src": "Kelheim,Deutschland"
+ },
+ "Riedenburg, Germany": {
+  "label": "Riedenburg",
+  "lat": 48.9717049,
+  "lon": 11.6927181,
+  "src": "Riedenburg,Deutschland"
+ },
+ "Beilngries, Germany": {
+  "label": "Beilngries",
+  "lat": 49.0351602,
+  "lon": 11.473829,
+  "src": "Beilngries,Deutschland"
+ },
+ "Berching, Germany": {
+  "label": "Berching",
+  "lat": 49.1063443,
+  "lon": 11.4404282,
+  "src": "Berching,Deutschland"
+ },
+ "Neumarkt in der Oberpfalz, Germany": {
+  "label": "Neumarkt",
+  "lat": 49.2800542,
+  "lon": 11.4585353,
+  "src": "Neumarkt in der Oberpfalz,Deutschland"
+ },
+ "Nuremberg, Germany": {
+  "label": "Nuremberg",
+  "lat": 49.453872,
+  "lon": 11.077298,
+  "src": "Nürnberg,Deutschland"
+ },
+ "Fuerth, Bavaria, Germany": {
+  "label": "Fuerth",
+  "lat": 49.4885711,
+  "lon": 10.9587203,
+  "src": "Fürth,Deutschland"
+ },
+ "Erlangen, Germany": {
+  "label": "Erlangen",
+  "lat": 49.5891571,
+  "lon": 10.9812072,
+  "src": "Erlangen,Deutschland"
+ },
+ "Forchheim, Bavaria, Germany": {
+  "label": "Forchheim",
+  "lat": 49.7122951,
+  "lon": 11.0664285,
+  "src": "Forchheim,Deutschland"
+ },
+ "Bamberg, Germany": {
+  "label": "Bamberg",
+  "lat": 49.8916044,
+  "lon": 10.8868478,
+  "src": "Bamberg,Deutschland"
+ },
+ "Schweinfurt, Germany": {
+  "label": "Schweinfurt",
+  "lat": 50.0451485,
+  "lon": 10.2340647,
+  "src": "Schweinfurt,Deutschland"
+ },
+ "Wuerzburg, Germany": {
+  "label": "Wuerzburg",
+  "lat": 49.7780356,
+  "lon": 9.9434769,
+  "src": "Würzburg,Deutschland"
+ },
+ "Karlstadt am Main, Germany": {
+  "label": "Karlstadt",
+  "lat": 50.01624,
+  "lon": 9.7350597,
+  "src": "Gemünden am Main-Gössenheim-Karlstadt,Deutschland"
+ },
+ "Lohr am Main, Germany": {
+  "label": "Lohr am Main",
+  "lat": 49.9960531,
+  "lon": 9.5566886,
+  "src": "Lohr am Main,Deutschland"
+ },
+ "Wertheim, Germany": {
+  "label": "Wertheim",
+  "lat": 49.7599825,
+  "lon": 9.5166598,
+  "src": "Wertheim,Deutschland"
+ },
+ "Miltenberg, Germany": {
+  "label": "Miltenberg",
+  "lat": 49.6903244,
+  "lon": 9.2462204,
+  "src": "Miltenberg,Deutschland"
+ },
+ "Aschaffenburg, Germany": {
+  "label": "Aschaffenburg",
+  "lat": 49.9706701,
+  "lon": 9.1384857,
+  "src": "Aschaffenburg,Deutschland"
+ }
+}
