@@ -48,6 +48,16 @@ OFFICIAL_EV15_TRACKS = (
     list(range(22, 27)) + list(range(32, 37))
 )
 
+# Official EuroVelo GPX downloads (eurovelo.com route ids), used as the backbone
+# for EV17/EV7/EV6 the same way the user aligned EV15. BRouter is used only for
+# connectors that are not part of any signed EuroVelo route.
+OFFICIAL_ROUTES = {
+    "ev15": "https://en.eurovelo.com/route/get-gpx/36",
+    "ev17": "https://en.eurovelo.com/route/get-gpx/37",
+    "ev7":  "https://en.eurovelo.com/route/get-gpx/30",
+    "ev6":  "https://en.eurovelo.com/route/get-gpx/29",
+}
+
 def get_profile_id():
     global _PROFILE_ID
     if _PROFILE_ID:
@@ -118,25 +128,19 @@ def tunnel_is_bikepath(tags):
             "highway=footway" in tags or "bicycle=designated" in tags or
             "tunnel=building_passage" in tags)
 
-def build_segment(seg):
-    pts = [(WP[q]["lat"], WP[q]["lon"]) for _, q in seg["waypoints"]]
-    d = brouter(pts)
+def analyze_brouter(d):
+    """Parse a BRouter geojson response into a track + per-way safety analysis.
+    Returns track [[lat,lon,ele],...] plus distance-by-category and the located
+    ferries/tunnels/motorways. Shared by build_segment and the spliced builder."""
     feat = d["features"][0]
     coords = feat["geometry"]["coordinates"]          # [lon,lat,(ele)]
     msgs = feat["properties"]["messages"]
     hdr = msgs[0]
     iLon, iLat = hdr.index("Longitude"), hdr.index("Latitude")
     iDist = hdr.index("Distance"); iWT = hdr.index("WayTags")
-    iEle = hdr.index("Elevation")
 
-    # Track points (lat, lon, ele). BRouter coords may be 2D; take ele from messages.
-    track = []
-    for c in coords:
-        lon, lat = c[0], c[1]
-        ele = c[2] if len(c) > 2 else None
-        track.append([lat, lon, ele])
+    track = [[c[1], c[0], c[2] if len(c) > 2 else None] for c in coords]
 
-    # Per-way analysis
     cats = {"motorway": 0.0, "trunk": 0.0, "motorroad": 0.0, "rail": 0.0,
             "ferry": 0.0, "tunnel": 0.0, "tunnel_road": 0.0, "cyclenet": 0.0, "icn": 0.0}
     total_m = 0.0
@@ -158,7 +162,6 @@ def build_segment(seg):
         if "motorway" in fl or "trunk" in fl or "motorroad" in fl:
             motorways.append((lat, lon, seg_m, row[iWT]))
 
-    # Merge consecutive ferry/tunnel rows into single features
     def merge(rows):
         out = []
         for lat, lon, m, wt in rows:
@@ -168,17 +171,24 @@ def build_segment(seg):
                 out.append([lat, lon, m, wt])
         return out
     ferries, tunnels, motorways = merge(ferries), merge(tunnels), merge(motorways)
+    return {
+        "track": track, "cats": cats, "total_m": total_m,
+        "ferries": ferries, "tunnels": tunnels, "motorways": motorways,
+        "brouter_len_km": float(feat["properties"]["track-length"]) / 1000.0,
+    }
 
-    # Elevation gain from track (smoothed: only count rises)
+def build_segment(seg):
+    a = analyze_brouter(brouter([(WP[q]["lat"], WP[q]["lon"]) for _, q in seg["waypoints"]]))
+    track = a["track"]
     eles = [p[2] for p in track if p[2] is not None]
     gain = sum(max(0, eles[i+1]-eles[i]) for i in range(len(eles)-1)) if len(eles) > 1 else 0
-    dist_km = haversine_total(track)
     return {
         "seg": seg, "track": track,
-        "brouter_len_km": float(feat["properties"]["track-length"]) / 1000.0,
-        "dist_km": dist_km, "ascent_m": gain,
-        "n_points": len(track), "total_m": total_m,
-        "cats": cats, "ferries": ferries, "tunnels": tunnels, "motorways": motorways,
+        "brouter_len_km": a["brouter_len_km"],
+        "dist_km": haversine_total(track), "ascent_m": gain,
+        "n_points": len(track), "total_m": a["total_m"],
+        "cats": a["cats"], "ferries": a["ferries"],
+        "tunnels": a["tunnels"], "motorways": a["motorways"],
     }
 
 def download_official_ev15():
@@ -228,12 +238,12 @@ def append_official_part(track, part, label):
     if gap < 100:
         track.extend(part[1:])
     elif gap <= 5000:
-        print(f"  official EV15 connector before track {label}: {gap:.0f} m", flush=True)
+        print(f"  official connector before track {label}: {gap:.0f} m", flush=True)
         connector = route_between(track[-1], part[0])
         track.extend(connector[1:-1])
         track.extend(part)
     else:
-        raise RuntimeError(f"Official EV15 track {label} is disconnected by {gap:.0f} m")
+        raise RuntimeError(f"Official track {label} is disconnected by {gap:.0f} m")
 
 def build_official_ev15_segment(seg):
     """Use official EuroVelo 15 geometry for the Rhine backbone.
@@ -291,6 +301,75 @@ def build_official_ev15_segment(seg):
         "source": "Mittelbuchen->Mainz by BRouter; Mainz->Andermatt official EuroVelo 15 GPX",
     }
 
+def download_official(ev_key):
+    """Download (and cache) an official EuroVelo GPX from eurovelo.com."""
+    cf = os.path.join(CACHE, f"official_{ev_key}.gpx")
+    if os.path.exists(cf):
+        return cf
+    req = urllib.request.Request(OFFICIAL_ROUTES[ev_key], headers={"User-Agent": "velo-planner/1.0"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        open(cf, "wb").write(r.read())
+    return cf
+
+def official_line(ev_key, track_numbers, reverse=False):
+    """Stitch the chosen official tracks into one continuous polyline."""
+    line = []
+    for idx, part in parse_gpx_track_numbers(download_official(ev_key), track_numbers):
+        append_official_part(line, part, f"{ev_key} {idx}")
+    return list(reversed(line)) if reverse else line
+
+def build_spliced_segment(seg, steps, start_label, end_label, source):
+    """Assemble a segment from a sequence of steps and pin its ends to the
+    neighbouring segments' seam waypoints.
+
+    steps: list of either
+      ("brouter", [(lat, lon), ...])     -> BRouter through these points
+      ("official", ev_key, [tracks], rev)-> official EuroVelo geometry (optionally reversed)
+    BRouter steps continue from the current track end so the join is seamless.
+    Official distance is credited to the cycle-network / EV-signed totals.
+    """
+    track = []
+    cats = {"motorway": 0.0, "trunk": 0.0, "motorroad": 0.0, "rail": 0.0,
+            "ferry": 0.0, "tunnel": 0.0, "tunnel_road": 0.0, "cyclenet": 0.0, "icn": 0.0}
+    total_m = 0.0; official_m = 0.0
+    ferries, tunnels, motorways = [], [], []
+
+    for step in steps:
+        if step[0] == "brouter":
+            pts = list(step[1])
+            if track:                       # continue seamlessly from where we are
+                pts = [(track[-1][0], track[-1][1])] + pts
+            a = analyze_brouter(brouter(pts))
+            for k in cats:
+                cats[k] += a["cats"][k]
+            total_m += a["total_m"]
+            ferries += a["ferries"]; tunnels += a["tunnels"]; motorways += a["motorways"]
+            append_official_part(track, a["track"], "connector")
+        else:
+            _, ev_key, tnums, rev = step
+            part = official_line(ev_key, tnums, rev)
+            official_m += haversine_total(part) * 1000.0
+            append_official_part(track, part, f"official {ev_key}")
+
+    # Pin the ends exactly to the seam waypoints shared with the neighbours.
+    s = WP[start_label]; e = WP[end_label]
+    if haversine((s["lat"], s["lon"]), (track[0][0], track[0][1])) > 1:
+        link = route_between([s["lat"], s["lon"], track[0][2]], track[0])
+        track = link[:-1] + track
+    if haversine((track[-1][0], track[-1][1]), (e["lat"], e["lon"])) > 1:
+        link = route_between(track[-1], [e["lat"], e["lon"], track[-1][2]])
+        track = track + link[1:]
+
+    cats["cyclenet"] += official_m; cats["icn"] += official_m; total_m += official_m
+    eles = [p[2] for p in track if p[2] is not None]
+    gain = sum(max(0, eles[i+1]-eles[i]) for i in range(len(eles)-1)) if len(eles) > 1 else 0
+    return {
+        "seg": seg, "track": track, "brouter_len_km": haversine_total(track),
+        "dist_km": haversine_total(track), "ascent_m": gain,
+        "n_points": len(track), "total_m": total_m, "cats": cats,
+        "ferries": ferries, "tunnels": tunnels, "motorways": motorways, "source": source,
+    }
+
 def haversine_total(track):
     s = 0.0
     for i in range(len(track)-1):
@@ -336,11 +415,55 @@ def write_gpx(path, segments):
     lines.append('</gpx>')
     open(path, "w").write("\n".join(lines) + "\n")
 
+def build_official_ev17_segment(seg):
+    """EV17 is official end to end: Andermatt -> ... -> Port-Saint-Louis."""
+    tracks = [1, 2, 3, 4, 5, 8, 9, 10, 11] + list(range(12, 33))  # south-shore main line
+    return build_spliced_segment(
+        seg, [("official", "ev17", tracks, False)],
+        "Andermatt, Switzerland", "Port-Saint-Louis-du-Rhone, France",
+        "Official EuroVelo 17 GPX (Andermatt -> Port-Saint-Louis, Lake Geneva south shore)")
+
+def build_official_ev7_segment(seg):
+    """Piacenza->Mantova connector, official EV7 up the Adige to Bolzano, then
+    BRouter over the Brenner and down the Inn to Passau (EV7 itself heads east
+    through the Pustertal, not toward Passau)."""
+    wp = [q for _, q in seg["waypoints"]]
+    prefix = [(WP[wp[i]]["lat"], WP[wp[i]]["lon"]) for i in (0, 1, 2)]      # Piacenza,Cremona,Mantova
+    suffix = [(WP[wp[i]]["lat"], WP[wp[i]]["lon"]) for i in range(7, len(wp))]  # Bressanone..Passau
+    return build_spliced_segment(
+        seg,
+        [("brouter", prefix),
+         ("official", "ev7", [95, 96, 97, 98], True),   # Mantua->Peschiera->Rivoli->Trento->Bolzano
+         ("brouter", suffix)],
+        "Piacenza, Italy", "Passau, Germany",
+        "Piacenza->Mantova BRouter; Mantova->Bolzano official EuroVelo 7 GPX; "
+        "Bolzano->Brenner->Inn->Passau BRouter")
+
+def build_official_ev6_segment(seg):
+    """Official EV6 up the Danube Passau->Kelheim, then BRouter via the
+    Main-Donau canal and the Main back to Mittelbuchen."""
+    wp = [q for _, q in seg["waypoints"]]
+    suffix = [(WP[wp[i]]["lat"], WP[wp[i]]["lon"]) for i in range(6, len(wp))]  # Riedenburg..Mittelbuchen
+    return build_spliced_segment(
+        seg,
+        [("official", "ev6", [79, 80, 81, 82, 83], True),  # Passau->...->Kelheim
+         ("brouter", suffix)],
+        "Passau, Germany", "Mittelbuchen, Hanau, Germany",
+        "Passau->Kelheim official EuroVelo 6 GPX; Kelheim->Main->Mittelbuchen BRouter")
+
+BUILDERS = {
+    "ev15_rhine": build_official_ev15_segment,
+    "ev17_rhone": build_official_ev17_segment,
+    "ev7_central": build_official_ev7_segment,
+    "ev6_danube": build_official_ev6_segment,
+}
+
 def main():
     results = []
     for seg in SEGMENTS:
         print(f"Routing {seg['id']} ({len(seg['waypoints'])} wp)...", flush=True)
-        r = build_official_ev15_segment(seg) if seg["id"] == "ev15_rhine" else build_segment(seg)
+        builder = BUILDERS.get(seg["id"], build_segment)
+        r = builder(seg)
         results.append(r)
         c = r["cats"]; tot = r["total_m"] or 1
         print(f"  {r['dist_km']:.1f} km  ascent {r['ascent_m']:.0f} m  "

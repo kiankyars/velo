@@ -40,18 +40,22 @@
       "status": "built",
       "ascent_m": 9206,
       "on_cyclenetwork_pct": 98.5,
-      "notes": "Mittelbuchen-to-Mainz connector is routed with BRouter; Mainz-to-Andermatt uses the official EuroVelo 15 GPX and avoids the prior inland Osthofen drift."
+      "notes": "Mittelbuchen-to-Mainz connector is routed with BRouter; Mainz-to-Andermatt uses the official EuroVelo 15 GPX and avoids the prior inland Osthofen drift.",
+      "on_eurovelo_icn_pct": 93.7,
+      "source": "Mittelbuchen->Mainz by BRouter; Mainz->Andermatt official EuroVelo 15 GPX"
     },
     {
       "name": "Rhône Cycle Route",
       "ev_code": "EV17",
       "start": "Andermatt (CH)",
       "end": "Port-Saint-Louis-du-Rhone (Med)",
-      "approx_distance_km": 846.6,
+      "approx_distance_km": 947.4,
       "gpx_file": "ev17_rhone.gpx",
       "status": "built",
-      "ascent_m": 8450,
-      "on_cyclenetwork_pct": 80.4
+      "ascent_m": 9605,
+      "on_cyclenetwork_pct": 100.0,
+      "on_eurovelo_icn_pct": 100.0,
+      "source": "Official EuroVelo 17 GPX (Andermatt -> Port-Saint-Louis, Lake Geneva south shore)"
     },
     {
       "name": "Mediterranean Route",
@@ -62,29 +66,35 @@
       "gpx_file": "ev8_med.gpx",
       "status": "built",
       "ascent_m": 12521,
-      "on_cyclenetwork_pct": 50.3
+      "on_cyclenetwork_pct": 50.3,
+      "on_eurovelo_icn_pct": 20.3,
+      "source": "BRouter trekking profile on OpenStreetMap"
     },
     {
       "name": "Central Europe Route",
       "ev_code": "EV7",
       "start": "Piacenza (IT)",
       "end": "Passau (DE)",
-      "approx_distance_km": 764.8,
+      "approx_distance_km": 765.5,
       "gpx_file": "ev7_central.gpx",
       "status": "built",
-      "ascent_m": 6369,
-      "on_cyclenetwork_pct": 89.6
+      "ascent_m": 6676,
+      "on_cyclenetwork_pct": 92.1,
+      "on_eurovelo_icn_pct": 54.5,
+      "source": "Piacenza->Mantova BRouter; Mantova->Bolzano official EuroVelo 7 GPX; Bolzano->Brenner->Inn->Passau BRouter"
     },
     {
       "name": "Danube / Passau return",
       "ev_code": "EV6",
       "start": "Passau (DE)",
       "end": "Mittelbuchen (Hanau)",
-      "approx_distance_km": 688.9,
+      "approx_distance_km": 710.6,
       "gpx_file": "ev6_danube.gpx",
       "status": "built",
-      "ascent_m": 4413,
-      "on_cyclenetwork_pct": 84.1
+      "ascent_m": 4572,
+      "on_cyclenetwork_pct": 91.6,
+      "on_eurovelo_icn_pct": 57.4,
+      "source": "Passau->Kelheim official EuroVelo 6 GPX; Kelheim->Main->Mittelbuchen BRouter"
     }
   ],
   "gear": {
@@ -110,9 +120,9 @@
     }
   },
   "loop_totals": {
-    "distance_km": 4049.5,
-    "ascent_m": 40959,
+    "distance_km": 4172.7,
+    "ascent_m": 42580,
     "segments": 5,
-    "method": "EV15 official EuroVelo GPX plus BRouter connectors; other legs BRouter trekking profile on OpenStreetMap; no motorway/rail/ferry in validated routed legs; rebuilt 2026-06-23"
+    "method": "Official EuroVelo GPX backbone (EV15/17/7/6) + BRouter connectors + bespoke EV8; no train/motorway/ferry; built 2026-06-23T21:22:53Z"
   }
 }

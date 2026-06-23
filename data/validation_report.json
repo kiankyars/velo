@@ -14,8 +14,8 @@
    "id": "ev17_rhone",
    "file": "ev17_rhone.gpx",
    "xml_valid": true,
-   "n_points": 25776,
-   "distance_km": 846.6,
+   "n_points": 13025,
+   "distance_km": 947.4,
    "max_point_gap_m": 150.0,
    "jumps_over_threshold": 0,
    "continuous": true
@@ -34,8 +34,8 @@
    "id": "ev7_central",
    "file": "ev7_central.gpx",
    "xml_valid": true,
-   "n_points": 21612,
-   "distance_km": 764.8,
+   "n_points": 18573,
+   "distance_km": 765.5,
    "max_point_gap_m": 150.0,
    "jumps_over_threshold": 0,
    "continuous": true
@@ -44,8 +44,8 @@
    "id": "ev6_danube",
    "file": "ev6_danube.gpx",
    "xml_valid": true,
-   "n_points": 18141,
-   "distance_km": 688.9,
+   "n_points": 16356,
+   "distance_km": 710.6,
    "max_point_gap_m": 149.9,
    "jumps_over_threshold": 0,
    "continuous": true
@@ -90,14 +90,14 @@
  ],
  "ok": true,
  "problems": [],
- "total_km": 4049.5,
+ "total_km": 4172.7,
  "safety": {
   "motorway_km": 0.0,
-  "trunk_km": 0.048,
+  "trunk_km": 0.0,
   "motorroad_km": 0.0,
   "active_rail_km": 0.0,
   "ferry_km": 0.0,
-  "tunnel_km": 19.38,
-  "road_tunnel_km": 6.17
+  "tunnel_km": 17.25,
+  "road_tunnel_km": 4.98
  }
 }
