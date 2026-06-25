@@ -4,9 +4,9 @@
    "id": "ev15_rhine",
    "file": "ev15_rhine.gpx",
    "xml_valid": true,
-   "n_points": 94172,
+   "n_points": 13567,
    "distance_km": 874.7,
-   "max_point_gap_m": 10.1,
+   "max_point_gap_m": 150.0,
    "jumps_over_threshold": 0,
    "continuous": true
   },
