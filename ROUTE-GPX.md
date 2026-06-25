@@ -154,7 +154,10 @@ pass/fail report is in [`data/validation_report.json`](./data/validation_report.
    ([`scripts/velo_trekking.brf`](./scripts/velo_trekking.brf)) with
    `processUnusedTags = true`, so OSM tags (tunnel, bridge, ferry, motorroad,
    railway, cycle-network) are returned and can be audited. Tracks are densified
-   to ≤ 150 m spacing for clean device rendering.
+   for clean device rendering — **EV15 to ≤ 10 m** (gap-free to follow on the
+   phone), the other legs to ≤ 150 m. [`scripts/gpx_from_here.py LAT LON`](./scripts/gpx_from_here.py)
+   produces a dense GPX from any live position to the end of a leg
+   (e.g. [`gpx/ev15_from_karlsruhe.gpx`](./gpx/ev15_from_karlsruhe.gpx), day-2 start).
 3. **Validation** — [`scripts/validate_routes.py`](./scripts/validate_routes.py)
    re-reads the GPX and re-checks XML, continuity, seams and distance;
    [`scripts/validate_route_alignment.py`](./scripts/validate_route_alignment.py)

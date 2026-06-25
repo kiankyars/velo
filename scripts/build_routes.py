@@ -58,6 +58,10 @@ OFFICIAL_ROUTES = {
     "ev6":  "https://en.eurovelo.com/route/get-gpx/29",
 }
 
+# Densification spacing (metres) per segment; default 150 m. EV15 is taken much
+# finer so the line is gap-free to follow on the device.
+SEG_DENSIFY = {"ev15_rhine": 10.0}
+
 def get_profile_id():
     global _PROFILE_ID
     if _PROFILE_ID:
@@ -472,9 +476,10 @@ def main():
               f"(road {c['tunnel_road']/1000:.2f})  motorway {c['motorway']/1000:.3f} "
               f"trunk {c['trunk']/1000:.2f} motorroad {c['motorroad']/1000:.2f} rail {c['rail']/1000:.2f}km")
 
-    # Densify tracks (<=150 m spacing) for clean device rendering & continuity
+    # Densify tracks for clean device rendering & continuity. EV15 is taken to a
+    # finer spacing on request (the rider wanted a denser line to follow on EV15).
     for r in results:
-        r["track"] = densify(r["track"])
+        r["track"] = densify(r["track"], SEG_DENSIFY.get(r["seg"]["id"], 150.0))
     # Per-segment GPX
     for r in results:
         write_gpx(os.path.join(GPX_DIR, r["seg"]["id"] + ".gpx"),
