@@ -3,12 +3,12 @@
 
 Finds the nearest point on the chosen segment's official line, routes a short
 connector from where you are onto it (BRouter), then takes the segment from
-there to its end and densifies to a fine spacing so the line is gap-free to
-follow on the phone.
+there to its end and simplifies it (Douglas-Peucker, keeping every turn) so the
+file stays small enough to import into phone apps like Ride with GPS / OsmAnd.
 
 Usage:
-    python3 scripts/gpx_from_here.py LAT LON [segment_id] [spacing_m]
-    # e.g. python3 scripts/gpx_from_here.py 49.012944 8.365083 ev15_rhine 10
+    python3 scripts/gpx_from_here.py LAT LON [segment_id] [tolerance_m]
+    # e.g. python3 scripts/gpx_from_here.py 49.012944 8.365083 ev15_rhine 5
 
 Writes gpx/<segment_id>_from_here.gpx.
 """
@@ -40,21 +40,31 @@ def load(path):
     return out
 
 
-def densify(track, max_m):
-    out = []
-    for i in range(len(track)):
-        out.append(track[i])
-        if i == len(track)-1:
-            break
-        a, b = track[i], track[i+1]
-        d = hav((a[0], a[1]), (b[0], b[1]))
-        if d > max_m:
-            n = int(d // max_m)
-            for k in range(1, n+1):
-                f = k/(n+1)
-                ele = None if (a[2] is None or b[2] is None) else a[2]+(b[2]-a[2])*f
-                out.append([a[0]+(b[0]-a[0])*f, a[1]+(b[1]-a[1])*f, ele])
-    return out
+def perp_m(p, a, b):
+    """Perpendicular distance (metres) of p from segment a-b (equirectangular)."""
+    lat0 = math.radians(a[0])
+    bx = (b[1]-a[1]) * math.cos(lat0) * 111320; by = (b[0]-a[0]) * 110540
+    px = (p[1]-a[1]) * math.cos(lat0) * 111320; py = (p[0]-a[0]) * 110540
+    if bx == 0 and by == 0:
+        return math.hypot(px, py)
+    t = max(0, min(1, (px*bx + py*by) / (bx*bx + by*by)))
+    return math.hypot(px - t*bx, py - t*by)
+
+
+def simplify(track, tol_m):
+    """Douglas-Peucker: drop near-collinear points but keep every turn that
+    deviates more than tol_m. Yields a small, app-importable file."""
+    keep = [False]*len(track); keep[0] = keep[-1] = True
+    stack = [(0, len(track)-1)]
+    while stack:
+        s, e = stack.pop(); dmax = 0; idx = -1
+        for i in range(s+1, e):
+            d = perp_m(track[i], track[s], track[e])
+            if d > dmax:
+                dmax = d; idx = i
+        if dmax > tol_m and idx > 0:
+            keep[idx] = True; stack.append((s, idx)); stack.append((idx, e))
+    return [p for i, p in enumerate(track) if keep[i]]
 
 
 def brouter(latlons):
@@ -85,7 +95,7 @@ def main():
         print(__doc__); sys.exit(1)
     lat, lon = float(sys.argv[1]), float(sys.argv[2])
     seg = sys.argv[3] if len(sys.argv) > 3 else "ev15_rhine"
-    spacing = float(sys.argv[4]) if len(sys.argv) > 4 else 10.0
+    tol_m = float(sys.argv[4]) if len(sys.argv) > 4 else 5.0  # turn-keeping tolerance
 
     track = load(os.path.join(GPX_DIR, seg + ".gpx"))
     i = min(range(len(track)), key=lambda j: hav((track[j][0], track[j][1]), (lat, lon)))
@@ -99,13 +109,13 @@ def main():
     else:
         forward = [[lat, lon, track[i][2]]] + track[i+1:]
 
-    dense = densify(forward, spacing)
-    km = sum(hav((dense[k][0], dense[k][1]), (dense[k+1][0], dense[k+1][1]))
-             for k in range(len(dense)-1)) / 1000
+    out_track = simplify(forward, tol_m)   # small + app-importable, keeps every turn
+    km = sum(hav((forward[k][0], forward[k][1]), (forward[k+1][0], forward[k+1][1]))
+             for k in range(len(forward)-1)) / 1000
     out = os.path.join(GPX_DIR, f"{seg}_from_here.gpx")
-    write_gpx(out, f"{seg} from current position to end", dense)
-    print(f"wrote {out}: {len(dense)} pts, {km:.0f} km, {os.path.getsize(out)/1e6:.1f} MB "
-          f"(<= {spacing:.0f} m spacing)")
+    write_gpx(out, f"{seg} from current position to end", out_track)
+    print(f"wrote {out}: {len(out_track)} pts, {km:.0f} km, {os.path.getsize(out)/1e6:.2f} MB "
+          f"(turns kept within {tol_m:.0f} m)")
 
 
 if __name__ == "__main__":
