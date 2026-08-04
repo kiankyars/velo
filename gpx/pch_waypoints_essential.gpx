@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="velo-build_pch_route" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>SF -&gt; LA coast route: essential waypoints</name>
+    <desc>Curated stops plus water, campgrounds and bike shops only - the readable subset for a bike computer</desc>
+    <time>2026-08-04T17:13:01Z</time>
+  </metadata>
+  <wpt lat="37.777091" lon="-122.422326">
+    <ele>24.0</ele>
+    <name>Last Mile</name>
+    <desc>OSM bike shop (node/12950158476)  [day1_sf_limekiln km 0]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="37.775944" lon="-122.424462">
+    <ele>24.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9525019945)  [day1_sf_limekiln km 0]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.773361" lon="-122.426918">
+    <ele>40.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12829284836); access=yes; fee=no  [day1_sf_limekiln km 0]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.775723" lon="-122.434637">
+    <ele>71.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3922797790)  [day1_sf_limekiln km 1]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.776685" lon="-122.433922">
+    <ele>74.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6923608236); access=yes; fee=no  [day1_sf_limekiln km 1]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.773791" lon="-122.448157">
+    <ele>81.0</ele>
+    <name>Freewheel Bike Shop</name>
+    <desc>OSM bike shop (node/414270268); opening_hours=Mo,Su off; Tu-Sa 12:00-17:00  [day1_sf_limekiln km 2]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="37.772377" lon="-122.447681">
+    <ele>80.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2724417511); access=yes; fee=no  [day1_sf_limekiln km 2]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.769963" lon="-122.454251">
+    <ele>81.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8810021701); access=yes; fee=no  [day1_sf_limekiln km 3]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.767985" lon="-122.453154">
+    <ele>81.0</ele>
+    <name>Avenue Cyclery</name>
+    <desc>OSM bike shop (node/414269873); opening_hours=Mo-Tu off; We-Su 11:00-17:00  [day1_sf_limekiln km 3]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="37.768439" lon="-122.457119">
+    <ele>90.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2699075519)  [day1_sf_limekiln km 3]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.770593" lon="-122.458707">
+    <ele>82.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10832888565); fee=no  [day1_sf_limekiln km 3]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.770014" lon="-122.459555">
+    <ele>76.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10832810392); access=yes; fee=no  [day1_sf_limekiln km 3]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.772348" lon="-122.460098">
+    <ele>78.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3926655041); access=yes; fee=no  [day1_sf_limekiln km 3]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.772540" lon="-122.460771">
+    <ele>79.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8810178777)  [day1_sf_limekiln km 3]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.768518" lon="-122.465479">
+    <ele>82.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3700455535)  [day1_sf_limekiln km 4]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.772591" lon="-122.464436">
+    <ele>80.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4110684320)  [day1_sf_limekiln km 4]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.770103" lon="-122.466194">
+    <ele>78.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1601847792); description=Inside Cal Acadamey; fee=yes  [day1_sf_limekiln km 4]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.771480" lon="-122.467389">
+    <ele>81.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6551994777)  [day1_sf_limekiln km 4]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.770586" lon="-122.468400">
+    <ele>80.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681804); description=deyoung museum  [day1_sf_limekiln km 4]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.770047" lon="-122.468972">
+    <ele>80.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3297762011); access=yes; fee=no  [day1_sf_limekiln km 4]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.772055" lon="-122.471168">
+    <ele>80.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6831779663)  [day1_sf_limekiln km 4]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.768821" lon="-122.470883">
+    <ele>86.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11028572457); access=customers; fee=no  [day1_sf_limekiln km 4]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.770941" lon="-122.476931">
+    <ele>87.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5384090421)  [day1_sf_limekiln km 5]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.770595" lon="-122.480176">
+    <ele>78.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3716475869); access=yes; fee=no  [day1_sf_limekiln km 5]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.769715" lon="-122.484973">
+    <ele>66.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3922912561)  [day1_sf_limekiln km 6]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.769371" lon="-122.493148">
+    <ele>57.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3715645643)  [day1_sf_limekiln km 6]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.765572" lon="-122.493210">
+    <ele>54.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5603344733); access=yes; fee=no  [day1_sf_limekiln km 6]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.766757" lon="-122.492829">
+    <ele>53.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6944077480); access=yes; fee=no  [day1_sf_limekiln km 6]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.768046" lon="-122.496662">
+    <ele>47.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8377046980)  [day1_sf_limekiln km 7]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.762662" lon="-122.500894">
+    <ele>32.0</ele>
+    <name>Swell Bicycles</name>
+    <desc>OSM bike shop (node/4015100320); opening_hours=Mo-Tu,Th-Fr 10:00-20:00; Sa-Su 10:00-18:00; phone=+1 415-731-3838; website=https://swellbicycles.com/  [day1_sf_limekiln km 7]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="37.765726" lon="-122.500728">
+    <ele>32.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1584201016)  [day1_sf_limekiln km 7]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.767945" lon="-122.501879">
+    <ele>38.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3716475874); access=yes; fee=no  [day1_sf_limekiln km 7]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.760038" lon="-122.509649">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12763385876); access=yes; fee=no  [day1_sf_limekiln km 8]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.735096" lon="-122.507056">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3922887154)  [day1_sf_limekiln km 12]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.718835" lon="-122.503015">
+    <ele>23.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8870733146)  [day1_sf_limekiln km 14]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.714611" lon="-122.502724">
+    <ele>46.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2707506650)  [day1_sf_limekiln km 14]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.679797" lon="-122.493944">
+    <ele>144.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3983465703)  [day1_sf_limekiln km 19]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.585503" lon="-122.510383">
+    <ele>121.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4622574603)  [day1_sf_limekiln km 33]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.580800" lon="-122.516000">
+    <ele>111.0</ele>
+    <name>HAZARD Devil's Slide - tunnels ban bikes, use the trail</name>
+    <desc>Bicycles are not permitted in the Tom Lantos Tunnels. The route is pinned onto the Devil's Slide Trail, the old Highway 1 alignment (2.9 km of paved bicycle=designated cycleway). TIMING PROBLEM: San Mateo County publishes that the PARKING LOTS open at 08:00; it does NOT publish separate trail-access hours, and the county page says to contact them for trail access. On a 05:00 start you reach here about 06:30-07:00. If the trail is gated you have no legal way past - the tunnels are not an option. CALL SAN MATEO COUNTY PARKS BEFORE YOU LEAVE, or ride the inland bypass variant (pch_day1_alt_inland_bypass.gpx). SRC smcgov.org/parks/devils-slide-trail-hours  [day1_sf_limekiln km 34]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="37.572478" lon="-122.516539">
+    <ele>87.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10048249225); access=yes; fee=no  [day1_sf_limekiln km 35]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.501276" lon="-122.471712">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12193143170); access=yes  [day1_sf_limekiln km 49]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.481837" lon="-122.450987">
+    <ele>18.0</ele>
+    <name>Sweetwood Group Camp</name>
+    <desc>OSM campground (node/6532816787); opening_hours=24/7; phone=+1-800-444-7275  [day1_sf_limekiln km 52]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="37.463803" lon="-122.433291">
+    <ele>19.0</ele>
+    <name>Bike Works Bike Shop</name>
+    <desc>OSM bike shop (way/389972714)  [day1_sf_limekiln km 55]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="37.463471" lon="-122.429435">
+    <ele>21.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4409173508)  [day1_sf_limekiln km 55]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.182411" lon="-122.393736">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10902819191)  [day1_sf_limekiln km 90]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.157012" lon="-122.349026">
+    <ele>26.0</ele>
+    <name>Costanoa</name>
+    <desc>OSM campground (way/44478680)  [day1_sf_limekiln km 95]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="37.118901" lon="-122.307003">
+    <ele>32.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9435094642)  [day1_sf_limekiln km 101]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="37.101134" lon="-122.277287">
+    <ele>10.0</ele>
+    <name>Rancho Del Oso Walk-in Campground</name>
+    <desc>OSM campground (node/1306234572)  [day1_sf_limekiln km 105]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.964813" lon="-122.102308">
+    <ele>39.0</ele>
+    <name>Wilder Ranch State Park Horse Camping</name>
+    <desc>OSM campground (way/1428870630); phone=+1 831 423 9703; reservation=no  [day1_sf_limekiln km 128]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.959288" lon="-122.056407">
+    <ele>19.0</ele>
+    <name>Santa Cruz Bicycles</name>
+    <desc>OSM bike shop (node/3241634064); phone=+1-831-459-7560; website=https://santacruzbicycles.com/  [day1_sf_limekiln km 133]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.957178" lon="-122.053212">
+    <ele>18.0</ele>
+    <name>Ibis Bicycles</name>
+    <desc>OSM bike shop (node/1484085788)  [day1_sf_limekiln km 133]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.960729" lon="-122.047860">
+    <ele>18.0</ele>
+    <name>Another Bike Shop</name>
+    <desc>OSM bike shop (node/412317756); opening_hours=Mo-Fr 10:00-18:00; Sa-Su 10:00-17:00; phone=+1-831-427-2232  [day1_sf_limekiln km 134]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.963320" lon="-122.034287">
+    <ele>20.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6282150359); access=yes; fee=no  [day1_sf_limekiln km 135]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.971368" lon="-122.026456">
+    <ele>10.0</ele>
+    <name>Spokesman Bicycles</name>
+    <desc>OSM bike shop (node/412317757); opening_hours=Mo-Sa 11:00-18:00; Su 12:00-17:00; phone=+1-831-429-6062; website=https://www.spokesmanbicycles.com/  [day1_sf_limekiln km 136]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.974117" lon="-122.026221">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/392908061)  [day1_sf_limekiln km 137]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.975605" lon="-122.026674">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/402127083)  [day1_sf_limekiln km 137]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.978851" lon="-122.013020">
+    <ele>25.0</ele>
+    <name>The Bicycle Trip</name>
+    <desc>OSM bike shop (way/256802809); opening_hours=Tu-Fr 11:00-18:00; Sa 10:00-18:00; phone=+1-831-427-2580; website=https://www.bicycletrip.com/  [day1_sf_limekiln km 138]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.981544" lon="-122.008943">
+    <ele>24.0</ele>
+    <name>Earth Cycles</name>
+    <desc>OSM bike shop (node/416599026)  [day1_sf_limekiln km 139]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.980940" lon="-122.006823">
+    <ele>25.0</ele>
+    <name>sc bike repair</name>
+    <desc>OSM bike shop (node/12644140001)  [day1_sf_limekiln km 139]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.976186" lon="-121.991077">
+    <ele>25.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8272201945)  [day1_sf_limekiln km 141]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.974542" lon="-121.987863">
+    <ele>24.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8272199268)  [day1_sf_limekiln km 141]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.978624" lon="-121.980822">
+    <ele>27.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8279643286); fee=no  [day1_sf_limekiln km 141]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.980597" lon="-121.945482">
+    <ele>41.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8228347054)  [day1_sf_limekiln km 146]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.979234" lon="-121.936480">
+    <ele>44.0</ele>
+    <name>New Brighton State Beach Campground</name>
+    <desc>OSM campground (way/686493773); drinking_water=yes; fee=yes; shower=yes; toilets=yes; website=https://www.parks.ca.gov/?page_id=30490  [day1_sf_limekiln km 146]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.981533" lon="-121.934411">
+    <ele>36.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/792073412)  [day1_sf_limekiln km 147]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.976158" lon="-121.904813">
+    <ele>32.0</ele>
+    <name>Aptos speed shop</name>
+    <desc>OSM bike shop (node/12639369301); opening_hours=Mo-Fr 09:00-17:00  [day1_sf_limekiln km 150]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.977902" lon="-121.902331">
+    <ele>28.0</ele>
+    <name>Epicenter Cycling</name>
+    <desc>OSM bike shop (node/3335428071)  [day1_sf_limekiln km 151]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.932465" lon="-121.861953">
+    <ele>21.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2630331403)  [day1_sf_limekiln km 160]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.932888" lon="-121.862579">
+    <ele>21.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2630331409)  [day1_sf_limekiln km 160]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.929391" lon="-121.856496">
+    <ele>29.0</ele>
+    <name>(campground)</name>
+    <desc>OSM campground (node/12862485801)  [day1_sf_limekiln km 161]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.761299" lon="-121.749207">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5713794846)  [day1_sf_limekiln km 190]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.714504" lon="-121.792110">
+    <ele>19.0</ele>
+    <name>free campsite</name>
+    <desc>OSM campground (node/4388132793)  [day1_sf_limekiln km 197]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.712419" lon="-121.791366">
+    <ele>13.0</ele>
+    <name>Free Campsite. Sunset-Sunrise</name>
+    <desc>OSM campground (node/6532816789); opening_hours=24/7  [day1_sf_limekiln km 197]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.686766" lon="-121.798244">
+    <ele>2.0</ele>
+    <name>Marina Cycle</name>
+    <desc>OSM bike shop (node/1388946951)  [day1_sf_limekiln km 200]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.600481" lon="-121.884284">
+    <ele>-2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12530586839)  [day1_sf_limekiln km 215]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.597769" lon="-121.886433">
+    <ele>0.0</ele>
+    <name>Monterey Recreation</name>
+    <desc>OSM drinking water (node/1855131567); access=permissive; description=A fountain shaped like a lion within Dennis the Menace Playground; operator=Monterey Recreation  [day1_sf_limekiln km 215]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.603384" lon="-121.889528">
+    <ele>0.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12530561338)  [day1_sf_limekiln km 216]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.598073" lon="-121.893146">
+    <ele>4.0</ele>
+    <name>Work Horse Bicycles</name>
+    <desc>OSM bike shop (node/12479955701); opening_hours=Su-Mo 10:00-17:00; Tu-Fr 10:00-18:00; Sa 09:00-18:00; operator=Work Horse Bicycles; phone=+1-831-375-2144; website=https://www.workhorsebicycles.com/  [day1_sf_limekiln km 216]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="36.597559" lon="-121.894356">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8816324731); access=yes  [day1_sf_limekiln km 216]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.515768" lon="-121.938082">
+    <ele>31.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1777573351)  [day1_sf_limekiln km 232]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.520429" lon="-121.940883">
+    <ele>27.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1777573352)  [day1_sf_limekiln km 232]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.519055" lon="-121.949417">
+    <ele>21.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1777573356)  [day1_sf_limekiln km 233]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.515295" lon="-121.946718">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1676363407)  [day1_sf_limekiln km 234]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.515811" lon="-121.946332">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1777573355)  [day1_sf_limekiln km 234]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.510732" lon="-121.941021">
+    <ele>40.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1777573354)  [day1_sf_limekiln km 236]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.509828" lon="-121.941096">
+    <ele>39.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1990951605)  [day1_sf_limekiln km 236]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.384800" lon="-121.902700">
+    <ele>34.0</ele>
+    <name>HAZARD Rocky Creek Bridge - one-way signal control</name>
+    <desc>Caltrans one-way, signal-controlled traffic control at Rocky Creek Bridge, running 24/7 through 31 August 2026, with delays up to 15 minutes. You will be held here. Expect to share a single lane with released traffic - take the lane, do not let a queue pass you inside the control. Check QuickMap the morning you ride. SRC Caltrans D5 / Big Sur Chamber Highway 1 conditions, Aug 2026  [day1_sf_limekiln km 252]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="36.286965" lon="-121.850328">
+    <ele>33.0</ele>
+    <name>Trail Camp</name>
+    <desc>OSM campground (way/45676457); operator=Andrew Molera State Park  [day1_sf_limekiln km 270]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.287165" lon="-121.843440">
+    <ele>33.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2330797150)  [day1_sf_limekiln km 271]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.279650" lon="-121.830950">
+    <ele>28.0</ele>
+    <name>Andrew Molera SP (walk-in camping)</name>
+    <desc>Walk-in sites 0.5 km from the car park, 22 km north of Limekiln's latitude. Rougher than Pfeiffer, no showers. VERIFY it is open - Molera has had long closures.  [day1_sf_limekiln km 273]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.270640" lon="-121.808490">
+    <ele>48.0</ele>
+    <name>SERVICES Big Sur Village (last real resupply)</name>
+    <desc>The River Inn / Ripplewood / Fernwood cluster, with a general store and delis over about 1 km of Highway 1. THE last dense resupply before a very thin 90 km. Fill everything here. Hours are seasonal and early-closing - VERIFY on the day.  [day1_sf_limekiln km 275]</desc>
+    <sym>Convenience Store</sym>
+    <type>services</type>
+  </wpt>
+  <wpt lat="36.266533" lon="-121.806124">
+    <ele>74.0</ele>
+    <name>Big Sur Campground &amp; Cabins</name>
+    <desc>OSM campground (way/731899573); access=yes; fee=yes; phone=+1 831-667-2322; reservation=yes; website=https://www.bigsurcamp.com/  [day1_sf_limekiln km 276]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.265817" lon="-121.804189">
+    <ele>74.0</ele>
+    <name>Riverside Campground &amp; Cabins</name>
+    <desc>OSM campground (node/1183479128); access=customers; phone=+1-831-667-2414; website=https://www.riversidecampground.com/  [day1_sf_limekiln km 276]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.260292" lon="-121.793459">
+    <ele>83.0</ele>
+    <name>Fernwood Camp</name>
+    <desc>OSM campground (way/262005540); access=private  [day1_sf_limekiln km 277]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.253310" lon="-121.783300">
+    <ele>154.0</ele>
+    <name>Pfeiffer Big Sur SP - short-day fallback</name>
+    <desc>In Big Sur Village, 55 km SHORT of Limekiln (day 1 becomes 282 km). The fallback if the light goes or the legs do. Full facilities, water, showers, and stores within walking distance. Also the sane place to stop rather than descend the Big Sur cliffs after dark.  [day1_sf_limekiln km 279]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.250300" lon="-121.784954">
+    <ele>94.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9196009189)  [day1_sf_limekiln km 280]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.250422" lon="-121.782854">
+    <ele>106.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9195989680)  [day1_sf_limekiln km 280]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.249491" lon="-121.781741">
+    <ele>106.0</ele>
+    <name>Hike &amp; Bike. Pfeiffer Big Sur Campground</name>
+    <desc>OSM campground (node/6532837187); opening_hours=24/7  [day1_sf_limekiln km 280]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.247980" lon="-121.781290">
+    <ele>99.0</ele>
+    <name>SERVICES Big Sur Station (ranger station, water)</name>
+    <desc>USFS/State Parks multi-agency station just south of Pfeiffer Big Sur. Water and toilets, and the people who actually know today's road status.  [day1_sf_limekiln km 281]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.246123" lon="-121.779904">
+    <ele>113.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2676601975)  [day1_sf_limekiln km 281]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.246206" lon="-121.777768">
+    <ele>132.0</ele>
+    <name>(campground)</name>
+    <desc>OSM campground (node/4240755689)  [day1_sf_limekiln km 281]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.245468" lon="-121.777322">
+    <ele>147.0</ele>
+    <name>Pfeiffer Big Sur</name>
+    <desc>OSM campground (way/237314510)  [day1_sf_limekiln km 281]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.231392" lon="-121.759989">
+    <ele>290.0</ele>
+    <name>Ventana Campground</name>
+    <desc>OSM campground (way/1226974145); phone=+1-855-391-8683; website=https://www.ventanacamping.com/  [day1_sf_limekiln km 283]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.221810" lon="-121.759660">
+    <ele>225.0</ele>
+    <name>SERVICES Nepenthe / Cafe Kevah</name>
+    <desc>Cliff-top restaurant 4 km south of Big Sur Station. Expensive, but it is food and water on a stretch that offers neither.  [day1_sf_limekiln km 284]</desc>
+    <sym>Restaurant</sym>
+    <type>services</type>
+  </wpt>
+  <wpt lat="36.159795" lon="-121.668898">
+    <ele>94.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10902819187)  [day1_sf_limekiln km 298]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.156827" lon="-121.671809">
+    <ele>74.0</ele>
+    <name>(campground)</name>
+    <desc>OSM campground (node/713921822)  [day1_sf_limekiln km 302]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.150000" lon="-121.650000">
+    <ele>96.0</ele>
+    <name>HAZARD Big Sur - no cell signal, no bike shop, no exit</name>
+    <desc>From Carmel to Cambria there is no bike shop, no hospital, no transit and long stretches with no cell signal. A destroyed rear wheel here is a hitch-hike, not a phone call. Carry: 2 tubes, patches, a boot, a spare quick-link, a derailleur hanger, and enough water for 60 km.  [day1_sf_limekiln km 304]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="36.055952" lon="-121.589518">
+    <ele>82.0</ele>
+    <name>Free Camping. Sunset - Sunrise</name>
+    <desc>OSM campground (node/6532838285); opening_hours=24/7  [day1_sf_limekiln km 316]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.020610" lon="-121.549260">
+    <ele>124.0</ele>
+    <name>Lucia Lodge (10 rooms/cabins)</name>
+    <desc>3.6 km NORTH of Limekiln on the cliff - the indoor option closest to the ideal stopping point, and the shortest day 1 of the indoor set (323 km). Ten rooms/cabins only, so it books out. Restaurant on site.  [day1_sf_limekiln km 323]</desc>
+    <sym>Lodging</sym>
+    <type>lodging</type>
+  </wpt>
+  <wpt lat="36.020610" lon="-121.549260">
+    <ele>124.0</ele>
+    <name>SERVICES Lucia Lodge restaurant</name>
+    <desc>3.6 km before Limekiln - the practical place to eat before camping, because Limekiln has no store. Seasonal hours; VERIFY.  [day1_sf_limekiln km 323]</desc>
+    <sym>Restaurant</sym>
+    <type>services</type>
+  </wpt>
+  <wpt lat="36.010023" lon="-121.518095">
+    <ele>36.0</ele>
+    <name>Limekiln State Park Campground</name>
+    <desc>OSM campground (way/222438819); fee=yes  [day1_sf_limekiln km 326]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.010526" lon="-121.518493">
+    <ele>31.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4581447538)  [day1_sf_limekiln km 326]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.009980" lon="-121.518350">
+    <ele>30.0</ele>
+    <name>Limekiln SP - NIGHT 1 (hike/bike $5)</name>
+    <desc>THE NIGHT 1 TARGET. Reopened to camping 1 Apr 2026 after the Highway 1 slide closures. Hike/bike site $5/night; you must arrive on foot or by bike (no vehicle) and may stay a maximum of 2 consecutive nights. Fresh water, token hot showers ($1 / 5 min), toilets. Check-in 14:00, check-out 12:00. Sites 1-29 (Beach 1-12, Redwood 13-29). CRITICAL: California State Parks states 'Reservations are strongly encouraged for all campsites. There are no first-come, first-served campsites.' Do NOT plan to walk up. ReserveCalifornia 800-444-7275. SRC parks.ca.gov/?page_id=31154  [day1_sf_limekiln km 326]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.010023" lon="-121.518095">
+    <ele>36.0</ele>
+    <name>Limekiln State Park Campground</name>
+    <desc>OSM campground (way/222438819); fee=yes  [day2_limekiln_refugio km 0]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="36.010526" lon="-121.518493">
+    <ele>31.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4581447538)  [day2_limekiln_refugio km 0]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="36.009980" lon="-121.518350">
+    <ele>30.0</ele>
+    <name>Limekiln SP - NIGHT 1 (hike/bike $5)</name>
+    <desc>THE NIGHT 1 TARGET. Reopened to camping 1 Apr 2026 after the Highway 1 slide closures. Hike/bike site $5/night; you must arrive on foot or by bike (no vehicle) and may stay a maximum of 2 consecutive nights. Fresh water, token hot showers ($1 / 5 min), toilets. Check-in 14:00, check-out 12:00. Sites 1-29 (Beach 1-12, Redwood 13-29). CRITICAL: California State Parks states 'Reservations are strongly encouraged for all campsites. There are no first-come, first-served campsites.' Do NOT plan to walk up. ReserveCalifornia 800-444-7275. SRC parks.ca.gov/?page_id=31154  [day2_limekiln_refugio km 0]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.989160" lon="-121.495570">
+    <ele>46.0</ele>
+    <name>Kirk Creek Campground (USFS) - fallback</name>
+    <desc>3.5 km SOUTH of Limekiln, on the ocean bluff where Nacimiento-Fergusson Road meets Highway 1. USFS Los Padres, recreation.gov. The obvious fallback if Limekiln has no bed. VERIFY hiker/biker availability and whether any sites are held back for walk-ups - USFS policy differs from State Parks. No potable water historically; carry what you need.  [day2_limekiln_refugio km 4]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.990156" lon="-121.495926">
+    <ele>47.0</ele>
+    <name>Kirk Creek Campground</name>
+    <desc>OSM campground (way/222438818); drinking_water=no; fee=yes; operator=U.S. Forest Service; toilets=yes  [day2_limekiln_refugio km 4]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.932883" lon="-121.468238">
+    <ele>51.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11333692369)  [day2_limekiln_refugio km 11]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.920000" lon="-121.465000">
+    <ele>62.0</ele>
+    <name>INFO Regent's Slide - reopened, monitored</name>
+    <desc>The slide that closed Big Sur for two years. Highway 1 reopened here on 14 January 2026, about 90 days early, after an $82 million repair. Caltrans calls the slope stable and monitors it continuously (prisms, accelerometer arrays, inclinometers, drone survey, piezometers). This is why the ride is possible at all in 2026 - and why you check QuickMap before departing anyway. Position approximate. SRC gov.ca.gov 14 Jan 2026 / Caltrans D5  [day2_limekiln_refugio km 12]</desc>
+    <sym>Flag, Blue</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="35.918776" lon="-121.466794">
+    <ele>69.0</ele>
+    <name>Hike &amp; Bike. Plaskett Creek Campground</name>
+    <desc>OSM campground (node/6532838286); opening_hours=24/7; phone=+1-805-434-1996  [day2_limekiln_refugio km 12]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.918382" lon="-121.465833">
+    <ele>73.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2710018892)  [day2_limekiln_refugio km 12]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.917880" lon="-121.466421">
+    <ele>74.0</ele>
+    <name>Plaskett Creek Campground</name>
+    <desc>OSM campground (way/255485280); phone=+1-805-434-1996  [day2_limekiln_refugio km 12]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.917678" lon="-121.467551">
+    <ele>72.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2710018880)  [day2_limekiln_refugio km 12]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.917880" lon="-121.466650">
+    <ele>74.0</ele>
+    <name>Plaskett Creek Campground (USFS)</name>
+    <desc>12.5 km south of Limekiln, across Highway 1 from Sand Dollar Beach. USFS, recreation.gov. Second fallback south of Limekiln. VERIFY water.  [day2_limekiln_refugio km 12]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.916428" lon="-121.467357">
+    <ele>62.0</ele>
+    <name>Plaskett Creek Group Campground</name>
+    <desc>OSM campground (way/265336158)  [day2_limekiln_refugio km 13]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.915906" lon="-121.467484">
+    <ele>66.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2710018859)  [day2_limekiln_refugio km 13]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.884270" lon="-121.455330">
+    <ele>121.0</ele>
+    <name>Treebones Resort (yurts)</name>
+    <desc>17.8 km south of Limekiln. Yurts with real beds. The plan notes a two-night minimum, which usually rules it out for a through-ride - VERIFY, they sometimes release single nights late.  [day2_limekiln_refugio km 18]</desc>
+    <sym>Lodging</sym>
+    <type>lodging</type>
+  </wpt>
+  <wpt lat="35.876410" lon="-121.446140">
+    <ele>107.0</ele>
+    <name>Gorda Springs Resort (cabins) + store + fuel</name>
+    <desc>20.3 km south of Limekiln. Cabins, and one of only a handful of shops on this coast. Not bookable online in practice - the plan says call 805-924-1825. VERIFY the number before relying on it.  [day2_limekiln_refugio km 20]</desc>
+    <sym>Lodging</sym>
+    <type>lodging</type>
+  </wpt>
+  <wpt lat="35.876410" lon="-121.446140">
+    <ele>107.0</ele>
+    <name>SERVICES Gorda Springs - store + fuel</name>
+    <desc>20 km south of Limekiln. Small store and fuel; famously expensive. On day 2 this is your first resupply chance after camp.  [day2_limekiln_refugio km 20]</desc>
+    <sym>Convenience Store</sym>
+    <type>services</type>
+  </wpt>
+  <wpt lat="35.780720" lon="-121.330830">
+    <ele>89.0</ele>
+    <name>Ragged Point Inn (39 rooms) + market + fuel</name>
+    <desc>39 conventional rooms, restaurant, market and fuel at the south end of the Big Sur cliffs - the most reliable indoor bed on the coast, but it makes day 1 a 364 km ride. Last real services before San Simeon.  [day2_limekiln_refugio km 39]</desc>
+    <sym>Lodging</sym>
+    <type>lodging</type>
+  </wpt>
+  <wpt lat="35.780720" lon="-121.330830">
+    <ele>89.0</ele>
+    <name>SERVICES Ragged Point - market + restaurant + fuel</name>
+    <desc>39 km into day 2. The first substantial services since Big Sur Village and the last before San Simeon.  [day2_limekiln_refugio km 39]</desc>
+    <sym>Convenience Store</sym>
+    <type>services</type>
+  </wpt>
+  <wpt lat="35.596940" lon="-121.125594">
+    <ele>12.0</ele>
+    <name>Hiker-Biker Campsite - San Simeon Creek</name>
+    <desc>OSM campground (node/10902819188); access=yes; fee=yes  [day2_limekiln_refugio km 71]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.597617" lon="-121.123865">
+    <ele>12.0</ele>
+    <name>San Simeon Creek Campground</name>
+    <desc>OSM campground (way/1117620313); opening_hours=Mo-Su 08:00-20:00  [day2_limekiln_refugio km 71]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.592350" lon="-121.124460">
+    <ele>10.0</ele>
+    <name>San Simeon Acres (motel strip)</name>
+    <desc>Ordinary motels in numbers, 10 km south of the Hearst Castle entrance. The reliable fallback, but day 1 becomes 396 km - only if Limekiln, Lucia and Ragged Point have all failed.  [day2_limekiln_refugio km 72]</desc>
+    <sym>Lodging</sym>
+    <type>lodging</type>
+  </wpt>
+  <wpt lat="35.584637" lon="-121.121803">
+    <ele>22.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1484890224)  [day2_limekiln_refugio km 73]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.581941" lon="-121.120969">
+    <ele>14.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1484915566)  [day2_limekiln_refugio km 73]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.581680" lon="-121.120300">
+    <ele>14.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1484915576)  [day2_limekiln_refugio km 73]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.400344" lon="-120.866818">
+    <ele>14.0</ele>
+    <name>Morro Strand State Beach Campground</name>
+    <desc>OSM campground (way/190787466); access=yes; fee=yes; operator=California Department of Parks and Recreation; phone=+1-805-772-8812; website=https://www.parks.ca.gov/?page_id=593  [day2_limekiln_refugio km 107]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.377853" lon="-120.860624">
+    <ele>10.0</ele>
+    <name>Morro Dunes RV Park</name>
+    <desc>OSM campground (way/164559026); phone=+1-805-772-2722; website=https://morrodunes.com/  [day2_limekiln_refugio km 110]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.347957" lon="-120.839639">
+    <ele>54.0</ele>
+    <name>Hiker-Biker Campsite - Morro Bay SP</name>
+    <desc>OSM campground (node/10902819189); access=yes; fee=yes  [day2_limekiln_refugio km 114]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.349763" lon="-120.839095">
+    <ele>54.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3327782980)  [day2_limekiln_refugio km 114]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.354937" lon="-120.834789">
+    <ele>56.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3327783246)  [day2_limekiln_refugio km 114]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.342770" lon="-120.826020">
+    <ele>9.0</ele>
+    <name>Morro Bay SP campground</name>
+    <desc>Day 2 escape hatch at km 125 if the day falls apart early. Has a hike/bike site. Water, showers.  [day2_limekiln_refugio km 116]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.293278" lon="-120.673133">
+    <ele>80.0</ele>
+    <name>Foothill Cyclery</name>
+    <desc>OSM bike shop (node/393024498); opening_hours=Mo-Fr 10:00-18:00; Sa 10:00-17:00; phone=+1-805-541-4101  [day2_limekiln_refugio km 138]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="35.289619" lon="-120.664363">
+    <ele>72.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12922469269); access=yes; fee=no  [day2_limekiln_refugio km 139]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.283793" lon="-120.657711">
+    <ele>73.0</ele>
+    <name>Cambria Bicycle Outfitters</name>
+    <desc>OSM bike shop (node/3857898565)  [day2_limekiln_refugio km 140]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="35.279103" lon="-120.660620">
+    <ele>68.0</ele>
+    <name>Bike SLO County/SLO Bike Kitchen</name>
+    <desc>OSM bike shop (node/4931258724)  [day2_limekiln_refugio km 140]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="35.279606" lon="-120.661522">
+    <ele>68.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9666126070); fee=no  [day2_limekiln_refugio km 140]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.280313" lon="-120.662266">
+    <ele>69.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9666126107); access=yes; fee=no  [day2_limekiln_refugio km 140]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.276320" lon="-120.654680">
+    <ele>68.0</ele>
+    <name>BAILOUT San Luis Obispo Amtrak</name>
+    <desc>1011 Railroad Avenue. Coast Starlight AND Pacific Surfliner - the best bail-out on the whole route, and it sits directly on day 2 at km ~148. Surfliner has roll-on bicycle racks. VERIFY 2026 bike reservation rules.  [day2_limekiln_refugio km 140]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
+  <wpt lat="35.273321" lon="-120.669754">
+    <ele>55.0</ele>
+    <name>Wally's Bicycle Works</name>
+    <desc>OSM bike shop (way/45644735)  [day2_limekiln_refugio km 141]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="35.244205" lon="-120.672184">
+    <ele>40.0</ele>
+    <name>Art's Cyclery</name>
+    <desc>OSM bike shop (node/4335697760)  [day2_limekiln_refugio km 144]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="35.179616" lon="-120.733748">
+    <ele>22.0</ele>
+    <name>Pedego Electric Bikes</name>
+    <desc>OSM bike shop (node/3934896785)  [day2_limekiln_refugio km 155]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="35.183604" lon="-120.702784">
+    <ele>17.0</ele>
+    <name>Avila Koa Campground</name>
+    <desc>OSM campground (way/390311273); fee=yes; shower=yes; toilets=yes; website=https://koa.com/campgrounds/avila/  [day2_limekiln_refugio km 159]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.160432" lon="-120.686268">
+    <ele>36.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4990873720)  [day2_limekiln_refugio km 162]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.154442" lon="-120.665391">
+    <ele>28.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2033206163)  [day2_limekiln_refugio km 165]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.151475" lon="-120.652939">
+    <ele>33.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13289932401)  [day2_limekiln_refugio km 166]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.140251" lon="-120.641148">
+    <ele>14.0</ele>
+    <name>(bike shop)</name>
+    <desc>OSM bike shop (node/12476316786); website=https://pedegoelectricbikes.com/dealers/pismo-beach/  [day2_limekiln_refugio km 168]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="35.139090" lon="-120.642997">
+    <ele>14.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13846641388); access=yes; fee=no  [day2_limekiln_refugio km 168]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="35.130544" lon="-120.635167">
+    <ele>6.0</ele>
+    <name>Pismo State Beach, North Beach Campground</name>
+    <desc>OSM campground (way/220452304); operator=State of CA; phone=+1-805-473-7220  [day2_limekiln_refugio km 169]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.130540" lon="-120.634890">
+    <ele>6.0</ele>
+    <name>Pismo SB - North Beach campground</name>
+    <desc>Day 2 escape hatch at km ~176. Hike/bike site. Water, showers.  [day2_limekiln_refugio km 169]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.121749" lon="-120.629048">
+    <ele>6.0</ele>
+    <name>Coastal Vibes</name>
+    <desc>OSM bike shop (node/12476592939)  [day2_limekiln_refugio km 170]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="35.110536" lon="-120.624649">
+    <ele>8.0</ele>
+    <name>Hiker-Biker Campsite - Coastal Dunes</name>
+    <desc>OSM campground (node/10902819190); access=yes; fee=yes  [day2_limekiln_refugio km 171]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.109004" lon="-120.627144">
+    <ele>10.0</ele>
+    <name>Pismo State Beach Oceano Campground</name>
+    <desc>OSM campground (way/43701060); phone=+1 805 473 7220  [day2_limekiln_refugio km 171]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="35.103474" lon="-120.623980">
+    <ele>12.0</ele>
+    <name>Oceano Airport Campground</name>
+    <desc>OSM campground (way/326810768); website=https://www.oceanoairport.com/facilities.html  [day2_limekiln_refugio km 172]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.711650" lon="-120.460680">
+    <ele>121.0</ele>
+    <name>HAZARD Vandenberg - CA-1 can close at short notice</name>
+    <desc>Day 2 passes Vandenberg SFB on CA-1. Launch operations close roads around the base at a few hours' notice - a documented example closed CA-246 between CA-1 and Mission Gate Road from 10:00 to 15:00 on 2 Mar 2026 for a launch that then scrubbed. That closure was on CA-246, NOT on this route's CA-1 line, but CA-1 itself has been closed here for base incidents and carries ongoing Caltrans roadwork (Vandenberg Village, Santa Lucia Canyon Rd). Check QuickMap and the Vandenberg launch schedule for your date; there is no good detour - the inland alternative is US-101 via Santa Maria and Los Alamos.  [day2_limekiln_refugio km 239]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="34.647208" lon="-120.456962">
+    <ele>32.0</ele>
+    <name>Bicycle Works</name>
+    <desc>OSM bike shop (node/13854771538)  [day2_limekiln_refugio km 248]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.515000" lon="-120.228000">
+    <ele>110.0</ele>
+    <name>INFO Gaviota Tunnel - bicycles ARE allowed</name>
+    <desc>US-101 through Gaviota Pass. Bicycles are allowed through the Gaviota Tunnel - it is the only route between the South Coast and the Santa Ynez Valley. Southbound you are descending; take the lane through the bore and run lights. Position approximate.  [day2_limekiln_refugio km 280]</desc>
+    <sym>Flag, Blue</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="34.490000" lon="-120.220000">
+    <ele>75.0</ele>
+    <name>WATER Gaviota rest area - best water on the Gaviota coast</name>
+    <desc>Riders single this out: 'there are very few opportunities for water or food between Lompoc and Santa Barbara. The rest stop at Gaviota is the best place to water up.' Position approximate - it is on US-101 near the CA-1 junction. SRC rbw-owners-bunch cyclist thread  [day2_limekiln_refugio km 283]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.472433" lon="-120.228350">
+    <ele>41.0</ele>
+    <name>Gaviota Campground</name>
+    <desc>OSM campground (way/346087566); access=yes; drinking_water=yes; fee=yes; shower=yes; toilets=yes  [day2_limekiln_refugio km 285]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.471915" lon="-120.228078">
+    <ele>41.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8329180802)  [day2_limekiln_refugio km 285]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.471800" lon="-120.228600">
+    <ele>41.0</ele>
+    <name>Gaviota SP - NIGHT 2 alt (16 km earlier)</name>
+    <desc>Where CA-1 meets US-101 at the coast, under the railway trestle. Hike-and-bike campsites confirmed; drinking water, restrooms/showers, camp store. Open August 2026, reservable via ReserveCalifornia. (805) 968-1033. Stops day 2 at 285 km instead of 303 km, at the cost of a longer day 3. Known to be windy. SRC parks.ca.gov Gaviota page  [day2_limekiln_refugio km 285]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.470000" lon="-120.130000">
+    <ele>29.0</ele>
+    <name>HAZARD narrow southbound 101 bridge (Baron Ranch)</name>
+    <desc>The Gaviota-coast 101 shoulder is wide, but riders single out the narrow SOUTHBOUND bridge near the Baron Ranch trailhead. Short, signed, good sight lines - but the shoulder pinches. Position approximate. SRC rbw-owners-bunch cyclist thread, Lompoc-Santa Barbara  [day2_limekiln_refugio km 294]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="34.464075" lon="-120.070494">
+    <ele>11.0</ele>
+    <name>(campground)</name>
+    <desc>OSM campground (way/899676442); access=yes; drinking_water=yes; fee=yes; shower=yes; toilets=yes  [day2_limekiln_refugio km 301]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.463739" lon="-120.068540">
+    <ele>10.0</ele>
+    <name>(campground)</name>
+    <desc>OSM campground (way/899676441); access=yes; drinking_water=yes; fee=yes; shower=yes; toilets=yes  [day2_limekiln_refugio km 301]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.463319" lon="-120.067283">
+    <ele>12.0</ele>
+    <name>(campground)</name>
+    <desc>OSM campground (way/899676439); access=yes; drinking_water=yes; fee=yes; shower=yes; toilets=yes  [day2_limekiln_refugio km 301]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.462430" lon="-120.048300">
+    <ele>11.0</ele>
+    <name>Refugio SB - NIGHT 2 (hike/bike)</name>
+    <desc>THE NIGHT 2 TARGET. 10 Refugio Beach Road, Goleta CA 93117 - 20 miles west of Santa Barbara, off US-101 at Refugio Road. Hike-and-bike campsites confirmed; drinking water, restrooms, showers, outdoor showers, and a camp store on site. Open August 2026. Park/district phone (805) 968-1033. VERIFY the per-person hike/bike rate: the $10/person figure in the plan is NOT published on the park page - phone it. SRC parks.ca.gov/refugio  [day2_limekiln_refugio km 303]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.460000" lon="-120.024000">
+    <ele>11.0</ele>
+    <name>El Capitan SB - NIGHT 2 alt (3 km later)</name>
+    <desc>Third of the three Gaviota-coast hike/bike parks, 2.6 km east of Refugio, and the one with the most services. Reported first-come, first-served on the middle/upper loops through 28 Jun 2026 - VERIFY current status and whether that extends to August.  [day2_limekiln_refugio km 303]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.461000" lon="-120.036000">
+    <ele>11.0</ele>
+    <name>INFO Aniso Trail - paved path El Capitan &lt;-&gt; Refugio</name>
+    <desc>A 2.5 mile undulating paved bike path along the bluff between El Capitan and Refugio - the pleasant way to start day 3 instead of the 101 shoulder. A segment has been closed for storm damage; VERIFY on site, and drop back onto 101 if it is shut.  [day2_limekiln_refugio km 303]</desc>
+    <sym>Bike Trail</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="34.462430" lon="-120.048300">
+    <ele>12.0</ele>
+    <name>Refugio SB - NIGHT 2 (hike/bike)</name>
+    <desc>THE NIGHT 2 TARGET. 10 Refugio Beach Road, Goleta CA 93117 - 20 miles west of Santa Barbara, off US-101 at Refugio Road. Hike-and-bike campsites confirmed; drinking water, restrooms, showers, outdoor showers, and a camp store on site. Open August 2026. Park/district phone (805) 968-1033. VERIFY the per-person hike/bike rate: the $10/person figure in the plan is NOT published on the park page - phone it. SRC parks.ca.gov/refugio  [day3_refugio_la km 0]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.461000" lon="-120.036000">
+    <ele>20.0</ele>
+    <name>INFO Aniso Trail - paved path El Capitan &lt;-&gt; Refugio</name>
+    <desc>A 2.5 mile undulating paved bike path along the bluff between El Capitan and Refugio - the pleasant way to start day 3 instead of the 101 shoulder. A segment has been closed for storm damage; VERIFY on site, and drop back onto 101 if it is shut.  [day3_refugio_la km 1]</desc>
+    <sym>Bike Trail</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="34.460000" lon="-120.024000">
+    <ele>17.0</ele>
+    <name>El Capitan SB - NIGHT 2 alt (3 km later)</name>
+    <desc>Third of the three Gaviota-coast hike/bike parks, 2.6 km east of Refugio, and the one with the most services. Reported first-come, first-served on the middle/upper loops through 28 Jun 2026 - VERIFY current status and whether that extends to August.  [day3_refugio_la km 3]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.433200" lon="-119.912800">
+    <ele>16.0</ele>
+    <name>HAZARD US-101 Goleta - 391 m OSM says bikes banned</name>
+    <desc>THE ONE DELIBERATE EXCEPTION IN THIS GPX. OSM begins the US-101 bicycle=no run about 1 km west of the Winchester Canyon off-ramp, which leaves no legal bicycle path at all from the Gaviota coast into Goleta. Obeying it literally routes you over the Santa Ynez Mountains: 85 km instead of 8, +1,491 m, 5.3 km of dirt. So this leg is routed with a permissive profile and uses 391 m of freeway that OSM tags bicycle=no. Cyclists ride this shoulder in practice - it is the Adventure Cycling Pacific Coast line. Leave 101 at the Winchester Canyon off-ramp and take Calle Real / Hollister Ave into Goleta. If signage says otherwise on the day, obey the signage.  [day3_refugio_la km 18]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="34.439324" lon="-119.906173">
+    <ele>22.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1396617472)  [day3_refugio_la km 20]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.435644" lon="-119.828728">
+    <ele>6.0</ele>
+    <name>Velo Pro Cyclery</name>
+    <desc>OSM bike shop (node/13380343296); opening_hours=Mo-Sa 10:00-18:00; Su off; phone=+1-805-964-8355; website=https://www.velopro.com/  [day3_refugio_la km 27]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.424652" lon="-119.836447">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10028525822)  [day3_refugio_la km 29]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.417068" lon="-119.830464">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13111056362); access=yes; fee=no  [day3_refugio_la km 31]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.419071" lon="-119.702371">
+    <ele>16.0</ele>
+    <name>Fastrack Bicycles</name>
+    <desc>OSM bike shop (node/14028177385); opening_hours=Mo-Sa 12:00-17:00; Su off; phone=+1 805-884-0210; website=https://www.fastrackbicycles.com/  [day3_refugio_la km 45]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.408681" lon="-119.697211">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/14029239873)  [day3_refugio_la km 46]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.407193" lon="-119.692996">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11360617758); access=yes  [day3_refugio_la km 46]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.413650" lon="-119.692800">
+    <ele>4.0</ele>
+    <name>BAILOUT Santa Barbara Amtrak</name>
+    <desc>209 State Street, right on the day-3 line at km ~95. Surfliner roll-on bikes; Coast Starlight also stops.  [day3_refugio_la km 47]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
+  <wpt lat="34.410211" lon="-119.685557">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5735648023); access=yes  [day3_refugio_la km 47]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.416633" lon="-119.690687">
+    <ele>3.0</ele>
+    <name>Rad Power Bikes</name>
+    <desc>OSM bike shop (node/13513466515); opening_hours=Mo-Tu off; We-Su 11:00-18:00; phone=+1 805-468-8440; website=https://www.radpowerbikes.com/pages/locations-santa-barbara-california  [day3_refugio_la km 47]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.419246" lon="-119.678630">
+    <ele>4.0</ele>
+    <name>Cal Coast Adventures</name>
+    <desc>OSM bike shop (way/623254254); phone=+1-805-628-2444; website=https://www.calcoastadventures.com/  [day3_refugio_la km 48]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.392984" lon="-119.521706">
+    <ele>5.0</ele>
+    <name>Hike Bike Campsite</name>
+    <desc>OSM campground (node/11033882657); drinking_water=yes; fee=yes; operator=Carpinteria State Beach; shower=yes; toilets=yes  [day3_refugio_la km 65]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.393616" lon="-119.522134">
+    <ele>5.0</ele>
+    <name>Carpinteria State Beach: Anacapa</name>
+    <desc>OSM campground (way/785039448); access=customers; fee=yes; operator=California State Parks  [day3_refugio_la km 65]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.393715" lon="-119.521812">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/7342419258); drinking_water=yes  [day3_refugio_la km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.392623" lon="-119.522265">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/7342419261); drinking_water=yes  [day3_refugio_la km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.391763" lon="-119.520302">
+    <ele>6.0</ele>
+    <name>Carpinteria State Beach: Santa Cruz</name>
+    <desc>OSM campground (way/785503650); access=customers; fee=yes; operator=California State Parks  [day3_refugio_la km 65]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.392039" lon="-119.520986">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/7342419254); drinking_water=yes  [day3_refugio_la km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.391340" lon="-119.520375">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/7342419255); drinking_water=yes  [day3_refugio_la km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.391330" lon="-119.521470">
+    <ele>6.0</ele>
+    <name>Carpinteria SB campground</name>
+    <desc>Day 3 escape hatch, on the beach in town. Hike/bike site, water, showers, and food a block away.  [day3_refugio_la km 65]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.391924" lon="-119.520172">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/7342419257); drinking_water=yes  [day3_refugio_la km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.400000" lon="-119.500000">
+    <ele>20.0</ele>
+    <name>INFO US-101 closed to bikes, Santa Barbara -&gt; Ventura</name>
+    <desc>US-101 between Santa Barbara and Ventura is closed to bicycles, which is why day 3 runs on city streets, county roads and the ocean-side bike paths through Carpinteria and the Rincon instead. The route obeys this: the audit shows zero bike-banned metres on this stretch.  [day3_refugio_la km 67]</desc>
+    <sym>Flag, Blue</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="34.345545" lon="-119.419258">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8588079786)  [day3_refugio_la km 78]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.338024" lon="-119.411445">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13710038667)  [day3_refugio_la km 79]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.285061" lon="-119.324588">
+    <ele>7.0</ele>
+    <name>state beach RV on the water</name>
+    <desc>OSM campground (node/5897045785)  [day3_refugio_la km 90]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.280777" lon="-119.315841">
+    <ele>6.0</ele>
+    <name>Hike/Bike Campsite</name>
+    <desc>OSM campground (node/11034019506); fee=yes; operator=Emma Wood State Beach  [day3_refugio_la km 95]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.281569" lon="-119.316564">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12964375060); access=yes  [day3_refugio_la km 95]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.280140" lon="-119.313932">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12964375059); access=yes  [day3_refugio_la km 96]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.281748" lon="-119.304440">
+    <ele>10.0</ele>
+    <name>Ventura Bike Depot, Inc.</name>
+    <desc>OSM bike shop (node/5675838921); opening_hours=Mo-Su 09:00-17:00; operator=Shelley Sund; website=https://www.venturabikedepot.com  [day3_refugio_la km 96]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.274688" lon="-119.297974">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12865540199); access=yes  [day3_refugio_la km 98]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.276940" lon="-119.299870">
+    <ele>6.0</ele>
+    <name>BAILOUT Ventura Amtrak</name>
+    <desc>Harbor Boulevard, on the day-3 line. Surfliner.  [day3_refugio_la km 98]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
+  <wpt lat="34.280689" lon="-119.294118">
+    <ele>11.0</ele>
+    <name>Coastal E-Bike Co Llc</name>
+    <desc>OSM bike shop (node/13483168911); phone=+1-805-901-5508  [day3_refugio_la km 98]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.276051" lon="-119.292108">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6828760757)  [day3_refugio_la km 99]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.275748" lon="-119.290615">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11367042934)  [day3_refugio_la km 99]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.270340" lon="-119.279397">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13030719910); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 100]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.269459" lon="-119.276922">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13030696395); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 100]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.263364" lon="-119.270345">
+    <ele>8.0</ele>
+    <name>Matt's Cycling Center</name>
+    <desc>OSM bike shop (node/5675838922)  [day3_refugio_la km 101]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.183346" lon="-119.236184">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13030710882); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 111]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.085701" lon="-119.034997">
+    <ele>8.0</ele>
+    <name>(campground)</name>
+    <desc>OSM campground (way/536536616)  [day3_refugio_la km 137]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.073325" lon="-119.015706">
+    <ele>17.0</ele>
+    <name>Hike and Bike Campsites</name>
+    <desc>OSM campground (way/1188279115); fee=yes; operator=Sycamore Canyon Campground  [day3_refugio_la km 140]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.073574" lon="-119.014978">
+    <ele>8.0</ele>
+    <name>Sycamore Canyon Campground</name>
+    <desc>OSM campground (way/75622199); phone=+1-310-457-8144; website=https://www.parks.ca.gov/?page_id=630  [day3_refugio_la km 140]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.073026" lon="-119.014777">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9594971358)  [day3_refugio_la km 140]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.070706" lon="-119.013193">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9594973757)  [day3_refugio_la km 140]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.050783" lon="-118.933910">
+    <ele>33.0</ele>
+    <name>(campground)</name>
+    <desc>OSM campground (way/135247154); description=urban land  [day3_refugio_la km 149]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.046525" lon="-118.933790">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9592536712)  [day3_refugio_la km 152]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.015817" lon="-118.820284">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10278640927)  [day3_refugio_la km 164]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.016574" lon="-118.823384">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10278639982)  [day3_refugio_la km 164]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.013792" lon="-118.819797">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10278648238)  [day3_refugio_la km 166]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.032091" lon="-118.746624">
+    <ele>25.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8620553177)  [day3_refugio_la km 174]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.037000" lon="-118.600000">
+    <ele>20.0</ele>
+    <name>HAZARD PCH Malibu-&gt;Santa Monica - active fire-rebuild corridor</name>
+    <desc>The last ~25 km of day 3 runs through the Palisades Fire reconstruction corridor. Caltrans D7 has a rock-slope-protection and pavement rebuild near Ratner Beach due to finish FALL 2026, and a second project covering about five miles from just south of the California Incline to Topanga Creek due END OF 2026 - both still live in August 2026. After the fire, PCH reopened with ONE LANE each way at 25 mph. Expect no shoulder, construction traffic and coned lanes exactly where you are most tired. The route leaves PCH at Santa Monica Pier and goes inland via Culver City, so the exposure is Malibu to Santa Monica only. If it looks bad, quit at Oxnard or Ventura Amtrak and take the Surfliner in. Position approximate - the corridor is long. SRC Caltrans D7 PCH Palisades Fire Repairs project pages  [day3_refugio_la km 188]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="34.037823" lon="-118.540524">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521372)  [day3_refugio_la km 194]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.037034" lon="-118.533957">
+    <ele>13.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521515)  [day3_refugio_la km 194]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.035644" lon="-118.536581">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521886)  [day3_refugio_la km 194]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.031758" lon="-118.527712">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521412); access=yes  [day3_refugio_la km 195]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.026305" lon="-118.514186">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4200821729)  [day3_refugio_la km 197]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.024760" lon="-118.511332">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521508)  [day3_refugio_la km 197]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.025575" lon="-118.512812">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521910)  [day3_refugio_la km 197]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.023563" lon="-118.509636">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521793)  [day3_refugio_la km 197]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.022813" lon="-118.508595">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521919)  [day3_refugio_la km 198]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.020797" lon="-118.506231">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/820017741)  [day3_refugio_la km 198]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.020313" lon="-118.505553">
+    <ele>2.0</ele>
+    <name>Water Fountain</name>
+    <desc>OSM drinking water (node/1314521603)  [day3_refugio_la km 198]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.019240" lon="-118.504285">
+    <ele>1.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521783)  [day3_refugio_la km 198]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.017537" lon="-118.502515">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12072605589)  [day3_refugio_la km 198]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.015388" lon="-118.500868">
+    <ele>9.0</ele>
+    <name>(bike shop)</name>
+    <desc>OSM bike shop (node/2970866825)  [day3_refugio_la km 199]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.015369" lon="-118.499780">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521497)  [day3_refugio_la km 199]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.014799" lon="-118.493573">
+    <ele>9.0</ele>
+    <name>Santa Monica Bike Center: Satellite Location</name>
+    <desc>OSM bike shop (node/2976424585); phone=+1-310-656-8500  [day3_refugio_la km 199]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.012497" lon="-118.493886">
+    <ele>8.0</ele>
+    <name>Santa Monica Bike Center</name>
+    <desc>OSM bike shop (node/2976424584); phone=+1-310-656-8500  [day3_refugio_la km 199]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.011617" lon="-118.495480">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8822456612)  [day3_refugio_la km 199]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.009100" lon="-118.497100">
+    <ele>8.0</ele>
+    <name>INFO Santa Monica Pier - 190 m of timber decking</name>
+    <desc>The only 'unpaved' metres on day 3 are the pier's wooden boards. Harmless, but it is where the audit's 0.22 km of non-asphalt comes from. Slippery when wet.  [day3_refugio_la km 200]</desc>
+    <sym>Flag, Blue</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="34.009972" lon="-118.495468">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3439778859)  [day3_refugio_la km 200]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.005886" lon="-118.491438">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521590)  [day3_refugio_la km 200]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.005183" lon="-118.486770">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521582)  [day3_refugio_la km 201]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.004132" lon="-118.485998">
+    <ele>8.0</ele>
+    <name>The Bike Shop</name>
+    <desc>OSM bike shop (node/2948712922); opening_hours=Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00; phone=+1-310-581-8014  [day3_refugio_la km 201]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.003888" lon="-118.485211">
+    <ele>10.0</ele>
+    <name>Giant</name>
+    <desc>OSM bike shop (node/9157356062)  [day3_refugio_la km 201]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.989713" lon="-118.472124">
+    <ele>5.0</ele>
+    <name>Solé Bicycles</name>
+    <desc>OSM bike shop (node/12731868501); website=https://www.solebicycles.com/  [day3_refugio_la km 203]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.995861" lon="-118.456091">
+    <ele>10.0</ele>
+    <name>Luft Los Angeles</name>
+    <desc>OSM bike shop (node/9341799273); description=We created Luft to bring together people who embrace individual style and want to grow cycling culture beyond the bike. Our Resident brands are bigger names that primarily live online. We give you the chance to see, touch, and try on and NOW sell all of; opening_hours=Mo-Su 10:00-18:00; phone=+1-310-392-5838; website=https://www.luftlosangeles.com/  [day3_refugio_la km 205]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.993104" lon="-118.450231">
+    <ele>13.0</ele>
+    <name>Helens Cycles</name>
+    <desc>OSM bike shop (way/414479934); opening_hours=Mo-Fr 10:00-19:00; Sa 09:00-18:00; Su 11:00-17:00; phone=+1-310-306-7843  [day3_refugio_la km 206]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.004598" lon="-118.432326">
+    <ele>27.0</ele>
+    <name>Bikerowave Co-op</name>
+    <desc>OSM bike shop (node/1629231487); opening_hours=Mo-Th 18:30-22:00; Fr off; Sa 11:00-17:00; Su 11:00-14:00; phone=+1 310 230 5236; website=https://bikerowave.org/  [day3_refugio_la km 208]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.004334" lon="-118.431744">
+    <ele>26.0</ele>
+    <name>Sunny Cycles</name>
+    <desc>OSM bike shop (node/1629231486); phone=+1-310-313-6300; website=https://sunnycyclesla.com  [day3_refugio_la km 208]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.021124" lon="-118.404253">
+    <ele>31.0</ele>
+    <name>The Bike Shop California</name>
+    <desc>OSM bike shop (node/3960923721)  [day3_refugio_la km 211]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.020463" lon="-118.397706">
+    <ele>36.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13374557642)  [day3_refugio_la km 212]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.015259" lon="-118.388104">
+    <ele>31.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13307275966); fee=no  [day3_refugio_la km 212]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.016550" lon="-118.381817">
+    <ele>32.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8150578020)  [day3_refugio_la km 213]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.019075" lon="-118.287008">
+    <ele>64.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4547472581)  [day3_refugio_la km 222]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.033994" lon="-118.264874">
+    <ele>73.0</ele>
+    <name>Just Ride LA</name>
+    <desc>OSM bike shop (node/2956626162); opening_hours=Mo-Sa 10:00-19:00;Su 11:00-18:00; phone=+1 213 745 6783; website=https://www.justridela.com/  [day3_refugio_la km 226]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.042433" lon="-118.253404">
+    <ele>86.0</ele>
+    <name>El Maestro Bicycle Shop</name>
+    <desc>OSM bike shop (node/4098463772)  [day3_refugio_la km 227]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.048932" lon="-118.250170">
+    <ele>100.0</ele>
+    <name>DTLA Bikes</name>
+    <desc>OSM bike shop (node/2163540658); website=https://dtlabikes.com/  [day3_refugio_la km 228]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.053731" lon="-118.241642">
+    <ele>101.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5572327427)  [day3_refugio_la km 229]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.055653" lon="-118.235553">
+    <ele>91.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13290101801)  [day3_refugio_la km 230]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.056060" lon="-118.235900">
+    <ele>91.0</ele>
+    <name>FINISH LA Union Station</name>
+    <desc>800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.  [day3_refugio_la km 230]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
+</gpx>

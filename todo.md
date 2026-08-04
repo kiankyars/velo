@@ -1,6 +1,24 @@
 # 📋 Trip Preparation Checklist
 
-This is the master list of tasks required before departure on **June 13, 2026** (Edmonton) and **June 21, 2026** (Europe).
+---
+
+## 🇺🇸 IMMEDIATE — Highway 1 south, leaving 5–6 Aug 2026
+
+Route is **built and validated**: 858.6 km over 3 days, GPX in `gpx/pch_*.gpx`,
+write-up in **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)**. What's left is not routing:
+
+- `[ ]` **BOOK LIMEKILN — ReserveCalifornia, 800-444-7275.** California State Parks states *"There are no first-come, first-served campsites."* The $5 hike/bike site still has to be reserved. Check-in 14:00, max 2 consecutive nights, arrive on foot/bike only. **This is the single blocking item** — without it night 1 has no bed.
+- `[ ]` **Call San Mateo County Parks re Devil's Slide Trail hours.** Bikes are banned from the Tom Lantos Tunnels; the county publishes an 08:00 opening for the *parking lots* and no trail-access hours. A 05:00 start reaches the trail ~06:30. No answer → load `gpx/pch_day1_alt_inland_bypass.gpx` (costs 0.2 km).
+- `[ ]` **Call (805) 968-1033** for the Refugio/Gaviota per-person hike/bike rate — not published on either park page, so the *$10/person* figure is unverified. Also ask about arriving after dark.
+- `[ ]` **Check [Caltrans QuickMap](https://quickmap.dot.ca.gov) the morning you leave.** Rocky Creek Bridge runs one-way signal control 24/7 through 31 Aug, delays to 15 min — at km 284 of day 1.
+- `[ ]` **Book the bike on the train home.** Coast Starlight roll-on space out of LA Union Station is limited, sells out, and is a separate reservation from your seat.
+- `[ ]` **Decide day 1 honestly before you commit.** 326 km and +3,642 m with the cliffs in the last 80 km. Pfeiffer Big Sur (km 311, `pch_day1_alt_pfeiffer.gpx`) is the graceful out — better than descending Big Sur in the dark.
+- `[ ]` **Loaded shakedown ride** (20–30 km) with the camping kit: confirm the bags don't foul braking or shifting before committing to a 326 km day.
+- `[x]` **GPX built** — 3 stages + 8 variants + waypoint file; legality/surface/continuity audited (`python3 scripts/validate_pch_routes.py`).
+
+---
+
+## 🇪🇺 The Frankfurt Loop — departure **June 13, 2026** (Edmonton) / **June 21, 2026** (Europe)
 
 ---
 

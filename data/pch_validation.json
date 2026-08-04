@@ -1,0 +1,177 @@
+{
+ "files": [
+  {
+   "id": "pch_day1_sf_limekiln",
+   "file": "pch_day1_sf_limekiln.gpx",
+   "is_main_stage": true,
+   "xml_valid": true,
+   "n_points": 3504,
+   "distance_km": 326.1,
+   "max_point_gap_m": 299.3,
+   "worst_corridor_offset_m": 203,
+   "worst_corridor_point": "Rocky Creek Bridge",
+   "continuous": true
+  },
+  {
+   "id": "pch_day2_limekiln_refugio",
+   "file": "pch_day2_limekiln_refugio.gpx",
+   "is_main_stage": true,
+   "xml_valid": true,
+   "n_points": 2619,
+   "distance_km": 302.6,
+   "max_point_gap_m": 298.4,
+   "worst_corridor_offset_m": 244,
+   "worst_corridor_point": "Cayucos",
+   "continuous": true
+  },
+  {
+   "id": "pch_day3_refugio_la",
+   "file": "pch_day3_refugio_la.gpx",
+   "is_main_stage": true,
+   "xml_valid": true,
+   "n_points": 1947,
+   "distance_km": 229.3,
+   "max_point_gap_m": 298.9,
+   "worst_corridor_offset_m": 174,
+   "worst_corridor_point": "Point Mugu Rock",
+   "continuous": true
+  },
+  {
+   "id": "pch_day1_alt_inland_bypass",
+   "file": "pch_day1_alt_inland_bypass.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 3484,
+   "distance_km": 326.0,
+   "max_point_gap_m": 299.3,
+   "worst_corridor_offset_m": 207,
+   "worst_corridor_point": "Lake Merced / Skyline Blvd",
+   "continuous": true
+  },
+  {
+   "id": "pch_day1_alt_17mile",
+   "file": "pch_day1_alt_17mile.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 3711,
+   "distance_km": 339.7,
+   "max_point_gap_m": 299.3,
+   "worst_corridor_offset_m": 203,
+   "worst_corridor_point": "Rocky Creek Bridge",
+   "continuous": true
+  },
+  {
+   "id": "pch_day1_alt_pfeiffer",
+   "file": "pch_day1_alt_pfeiffer.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 2818,
+   "distance_km": 281.9,
+   "max_point_gap_m": 299.0,
+   "worst_corridor_offset_m": 203,
+   "worst_corridor_point": "Rocky Creek Bridge",
+   "continuous": true
+  },
+  {
+   "id": "pch_day1_alt_lucia",
+   "file": "pch_day1_alt_lucia.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 3459,
+   "distance_km": 322.6,
+   "max_point_gap_m": 299.3,
+   "worst_corridor_offset_m": 203,
+   "worst_corridor_point": "Rocky Creek Bridge",
+   "continuous": true
+  },
+  {
+   "id": "pch_day1_alt_raggedpoint",
+   "file": "pch_day1_alt_raggedpoint.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 4050,
+   "distance_km": 363.3,
+   "max_point_gap_m": 299.3,
+   "worst_corridor_offset_m": 203,
+   "worst_corridor_point": "Rocky Creek Bridge",
+   "continuous": true
+  },
+  {
+   "id": "pch_day1_alt_sansimeon",
+   "file": "pch_day1_alt_sansimeon.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 4317,
+   "distance_km": 395.9,
+   "max_point_gap_m": 299.3,
+   "worst_corridor_offset_m": 203,
+   "worst_corridor_point": "Rocky Creek Bridge",
+   "continuous": true
+  },
+  {
+   "id": "pch_day2_alt_gaviota",
+   "file": "pch_day2_alt_gaviota.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 2485,
+   "distance_km": 284.7,
+   "max_point_gap_m": 298.4,
+   "worst_corridor_offset_m": 244,
+   "worst_corridor_point": "Cayucos",
+   "continuous": true
+  },
+  {
+   "id": "pch_day2_alt_elcapitan",
+   "file": "pch_day2_alt_elcapitan.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 2669,
+   "distance_km": 305.2,
+   "max_point_gap_m": 298.4,
+   "worst_corridor_offset_m": 244,
+   "worst_corridor_point": "Cayucos",
+   "continuous": true
+  }
+ ],
+ "seams": [
+  {
+   "from": "pch_day1_sf_limekiln",
+   "to": "pch_day2_limekiln_refugio",
+   "gap_m": 1.2,
+   "ok": true
+  },
+  {
+   "from": "pch_day2_limekiln_refugio",
+   "to": "pch_day3_refugio_la",
+   "gap_m": 0.0,
+   "ok": true
+  }
+ ],
+ "legality": {
+  "bicycle_no_km_total": 0.391,
+  "bicycle_no_allowance_km": 0.45,
+  "motorway_not_bicycle_legal_km": 0.391,
+  "unpaved_km_total": 0.367,
+  "bicycle_no_locations": [
+   {
+    "stage": "pch_day3_refugio_la",
+    "lat": 34.43319,
+    "lon": -119.91278,
+    "len_m": 391,
+    "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=no hgv=designated oneway=yes shoulder=yes"
+   }
+  ],
+  "note": "the 0.391 km of not-explicitly-legal freeway is the same metres as the documented bicycle=no exception, not additional"
+ },
+ "ok": true,
+ "master": {
+  "tracks": 3,
+  "total_km": 858.0
+ },
+ "waypoints": {
+  "count": 945,
+  "without_name": 0,
+  "without_desc": 0
+ },
+ "problems": []
+}
