@@ -3,7 +3,7 @@
   <metadata>
     <name>Day 1 - San Francisco to Limekiln State Park (with waypoints)</name>
     <desc>Out of San Francisco on the Great Highway, the Devil's Slide Trail around the bike-banned tunnels, the San Mateo coast to Santa Cruz, around Monterey Bay, 17-Mile Drive to Carmel, then the whole of Big Sur to the Limekiln hike/bike site two miles south of Lucia.</desc>
-    <time>2026-08-04T17:12:59Z</time>
+    <time>2026-08-05T04:01:54Z</time>
   </metadata>
   <wpt lat="37.775729" lon="-122.411959">
     <ele>24.0</ele>
@@ -705,26 +705,26 @@
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="37.734094" lon="-122.505262">
-    <ele>6.0</ele>
-    <name>12km (toilets)</name>
-    <desc>OSM toilets (node/702393212)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
   <wpt lat="37.735192" lon="-122.506999">
     <ele>6.0</ele>
-    <name>12km (toilets)</name>
+    <name>11km (toilets)</name>
     <desc>OSM toilets (way/287906154); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.735096" lon="-122.507056">
     <ele>6.0</ele>
-    <name>12km (drinking water)</name>
+    <name>11km (drinking water)</name>
     <desc>OSM drinking water (node/3922887154)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
+  </wpt>
+  <wpt lat="37.734094" lon="-122.505262">
+    <ele>4.0</ele>
+    <name>12km (toilets)</name>
+    <desc>OSM toilets (node/702393212)</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
   </wpt>
   <wpt lat="37.732876" lon="-122.505112">
     <ele>3.0</ele>
@@ -735,7 +735,7 @@
   </wpt>
   <wpt lat="37.718835" lon="-122.503015">
     <ele>23.0</ele>
-    <name>14km (drinking water)</name>
+    <name>13km (drinking water)</name>
     <desc>OSM drinking water (node/8870733146)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
@@ -747,13 +747,6 @@
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
-  <wpt lat="37.683164" lon="-122.490009">
-    <ele>140.0</ele>
-    <name>18km Valero</name>
-    <desc>OSM fuel+shop (node/8244038684)</desc>
-    <sym>Gas Station</sym>
-    <type>food</type>
-  </wpt>
   <wpt lat="37.681687" lon="-122.488513">
     <ele>140.0</ele>
     <name>18km 99 Ranch Market</name>
@@ -761,19 +754,19 @@
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="37.683164" lon="-122.490009">
+    <ele>140.0</ele>
+    <name>18km Valero</name>
+    <desc>OSM fuel+shop (node/8244038684)</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
   <wpt lat="37.679797" lon="-122.493944">
     <ele>144.0</ele>
-    <name>19km (drinking water)</name>
+    <name>18km (drinking water)</name>
     <desc>OSM drinking water (node/3983465703)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
-  </wpt>
-  <wpt lat="37.650817" lon="-122.491793">
-    <ele>28.0</ele>
-    <name>22km Pacifica Farmers Market</name>
-    <desc>OSM supermarket (node/3381660976)</desc>
-    <sym>Shopping Center</sym>
-    <type>food</type>
   </wpt>
   <wpt lat="37.651356" lon="-122.491131">
     <ele>28.0</ele>
@@ -782,40 +775,47 @@
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="37.650817" lon="-122.491793">
+    <ele>28.0</ele>
+    <name>22km Pacifica Farmers Market</name>
+    <desc>OSM supermarket (node/3381660976)</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
   <wpt lat="37.650232" lon="-122.492010">
     <ele>25.0</ele>
-    <name>23km Safeway</name>
+    <name>22km Safeway</name>
     <desc>OSM supermarket (way/241074455); opening_hours=06:00-24:00; phone=+1 650-359-2751; website=https://local.safeway.com/safeway/ca/pacifica/12-manor-plz.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="37.649508" lon="-122.491289">
-    <ele>25.0</ele>
-    <name>23km Eddie's 76</name>
-    <desc>OSM fuel+shop (node/3381660961); opening_hours=Mo-Fr 07:00-20:00;Sa-Su 08:00-17:00; phone=+1 888 805 4714; website=https://www.eddies76servicecenter.com/</desc>
-    <sym>Gas Station</sym>
-    <type>food</type>
-  </wpt>
   <wpt lat="37.649501" lon="-122.489575">
     <ele>26.0</ele>
-    <name>23km 7-Eleven</name>
+    <name>22km 7-Eleven</name>
     <desc>OSM convenience (way/134417468); phone=+1 650-355-6667; website=https://www.7-eleven.com/locations/ca/pacifica/137-manor-dr-14337</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="37.646333" lon="-122.492540">
-    <ele>26.0</ele>
-    <name>23km (toilets)</name>
-    <desc>OSM toilets (node/7912274908); access=customers</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
+  <wpt lat="37.649508" lon="-122.491289">
+    <ele>25.0</ele>
+    <name>22km Eddie's 76</name>
+    <desc>OSM fuel+shop (node/3381660961); opening_hours=Mo-Fr 07:00-20:00;Sa-Su 08:00-17:00; phone=+1 888 805 4714; website=https://www.eddies76servicecenter.com/</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
   </wpt>
   <wpt lat="37.645911" lon="-122.490924">
     <ele>27.0</ele>
-    <name>23km Chevron</name>
+    <name>22km Chevron</name>
     <desc>OSM fuel+shop (node/529895128)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
+  </wpt>
+  <wpt lat="37.646333" lon="-122.492540">
+    <ele>26.0</ele>
+    <name>22km (toilets)</name>
+    <desc>OSM toilets (node/7912274908); access=customers</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
   </wpt>
   <wpt lat="37.636390" lon="-122.492398">
     <ele>18.0</ele>
@@ -826,14 +826,14 @@
   </wpt>
   <wpt lat="37.632885" lon="-122.487949">
     <ele>14.0</ele>
-    <name>25km Oceana Market</name>
+    <name>24km Oceana Market</name>
     <desc>OSM supermarket (node/1269562221); website=https://www.oceanamarket.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.629620" lon="-122.490962">
     <ele>5.0</ele>
-    <name>25km 7-Eleven</name>
+    <name>24km 7-Eleven</name>
     <desc>OSM convenience (node/441286094); phone=+1 650-355-3516; website=https://www.7-eleven.com/locations/ca/pacifica/100-clarendon-rd-14318</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
@@ -847,7 +847,7 @@
   </wpt>
   <wpt lat="37.613574" lon="-122.486338">
     <ele>25.0</ele>
-    <name>27km Sun Valley Market</name>
+    <name>26km Sun Valley Market</name>
     <desc>OSM supermarket (node/3381682561)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
@@ -861,2024 +861,1905 @@
   </wpt>
   <wpt lat="37.607914" lon="-122.497539">
     <ele>12.0</ele>
-    <name>29km (toilets)</name>
+    <name>28km (toilets)</name>
     <desc>OSM toilets (node/4238308770)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.598203" lon="-122.502362">
     <ele>2.0</ele>
-    <name>31km (toilets)</name>
+    <name>30km (toilets)</name>
     <desc>OSM toilets (node/435184386)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.595927" lon="-122.503155">
     <ele>2.0</ele>
-    <name>31km Food Mart</name>
+    <name>30km Food Mart</name>
     <desc>OSM convenience (way/102526676)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.597185" lon="-122.503831">
     <ele>1.0</ele>
-    <name>31km (toilets)</name>
+    <name>30km (toilets)</name>
     <desc>OSM toilets (node/10772183052)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.596487" lon="-122.504220">
     <ele>1.0</ele>
-    <name>31km (toilets)</name>
+    <name>30km (toilets)</name>
     <desc>OSM toilets (node/1128776809)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.594409" lon="-122.503086">
     <ele>2.0</ele>
-    <name>31km Safeway</name>
+    <name>30km Safeway</name>
     <desc>OSM supermarket (way/241074190); opening_hours=05:00-24:00; phone=+1 650-359-6707; website=https://local.safeway.com/safeway/ca/pacifica/1380-linda-mar-shopping-center.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.594592" lon="-122.506656">
     <ele>4.0</ele>
-    <name>31km Grocery Outlet</name>
+    <name>30km Grocery Outlet</name>
     <desc>OSM supermarket (way/123528849); opening_hours=Mo-Su 08:00-21:00; phone=+1-650-355-5100; website=https://www.groceryoutlet.com/circulars/storeid/294</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.585503" lon="-122.510383">
     <ele>121.0</ele>
-    <name>33km (drinking water)</name>
+    <name>32km (drinking water)</name>
     <desc>OSM drinking water (node/4622574603)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="37.585532" lon="-122.510549">
     <ele>121.0</ele>
-    <name>33km (toilets)</name>
+    <name>32km (toilets)</name>
     <desc>OSM toilets (way/467652737)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.580800" lon="-122.516000">
     <ele>111.0</ele>
-    <name>34km HAZARD Devil's Slide - tunnels ban bikes, use the trail</name>
+    <name>33km HAZARD Devil's Slide - tunnels ban bikes, use the trail</name>
     <desc>Bicycles are not permitted in the Tom Lantos Tunnels. The route is pinned onto the Devil's Slide Trail, the old Highway 1 alignment (2.9 km of paved bicycle=designated cycleway). TIMING PROBLEM: San Mateo County publishes that the PARKING LOTS open at 08:00; it does NOT publish separate trail-access hours, and the county page says to contact them for trail access. On a 05:00 start you reach here about 06:30-07:00. If the trail is gated you have no legal way past - the tunnels are not an option. CALL SAN MATEO COUNTY PARKS BEFORE YOU LEAVE, or ride the inland bypass variant (pch_day1_alt_inland_bypass.gpx). SRC smcgov.org/parks/devils-slide-trail-hours</desc>
     <sym>Danger Area</sym>
     <type>hazard</type>
   </wpt>
   <wpt lat="37.572555" lon="-122.516560">
     <ele>87.0</ele>
-    <name>35km (toilets)</name>
+    <name>34km (toilets)</name>
     <desc>OSM toilets (way/576475558); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.572478" lon="-122.516539">
     <ele>87.0</ele>
-    <name>35km (drinking water)</name>
+    <name>34km (drinking water)</name>
     <desc>OSM drinking water (node/10048249225); access=yes; fee=no</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="37.564525" lon="-122.513118">
     <ele>38.0</ele>
-    <name>36km (toilets)</name>
+    <name>35km (toilets)</name>
     <desc>OSM toilets (node/2287575496); drinking_water=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.551945" lon="-122.512511">
     <ele>18.0</ele>
-    <name>37km (toilets)</name>
+    <name>36km (toilets)</name>
     <desc>OSM toilets (node/10684498053)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.545350" lon="-122.514453">
-    <ele>16.0</ele>
-    <name>38km (toilets)</name>
+    <ele>17.0</ele>
+    <name>37km (toilets)</name>
     <desc>OSM toilets (node/443810948)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.541674" lon="-122.515809">
-    <ele>29.0</ele>
+    <ele>24.0</ele>
     <name>38km Montara Gas Station</name>
     <desc>OSM convenience (node/851514999)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.527486" lon="-122.512727">
-    <ele>26.0</ele>
-    <name>44km Coastside Market</name>
+    <ele>17.0</ele>
+    <name>39km Coastside Market</name>
     <desc>OSM convenience (node/853390294)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.527783" lon="-122.511959">
-    <ele>26.0</ele>
-    <name>44km (toilets)</name>
+    <ele>17.0</ele>
+    <name>39km (toilets)</name>
     <desc>OSM toilets (way/1289243717)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.525749" lon="-122.512106">
-    <ele>26.0</ele>
-    <name>44km (fuel+shop)</name>
+    <ele>20.0</ele>
+    <name>39km (fuel+shop)</name>
     <desc>OSM fuel+shop (way/291549871)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.505803" lon="-122.480279">
     <ele>10.0</ele>
-    <name>48km Easy Mart</name>
+    <name>43km Easy Mart</name>
     <desc>OSM convenience (way/391407455)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.504460" lon="-122.477032">
     <ele>10.0</ele>
-    <name>48km Spangler's Market</name>
+    <name>43km Spangler's Market</name>
     <desc>OSM convenience (node/853378607)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.501322" lon="-122.471791">
     <ele>3.0</ele>
-    <name>49km (toilets)</name>
+    <name>44km (toilets)</name>
     <desc>OSM toilets (node/12193143169)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.501276" lon="-122.471712">
     <ele>3.0</ele>
-    <name>49km (drinking water)</name>
+    <name>44km (drinking water)</name>
     <desc>OSM drinking water (node/12193143170); access=yes</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="37.496845" lon="-122.461879">
     <ele>8.0</ele>
-    <name>50km (toilets)</name>
+    <name>45km (toilets)</name>
     <desc>OSM toilets (node/4873130153)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.481837" lon="-122.450987">
     <ele>18.0</ele>
-    <name>52km Sweetwood Group Camp</name>
+    <name>47km Sweetwood Group Camp</name>
     <desc>OSM campground (node/6532816787); opening_hours=24/7; phone=+1-800-444-7275</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="37.468576" lon="-122.445711">
     <ele>14.0</ele>
-    <name>54km Francis Beach Campground</name>
+    <name>48km Francis Beach Campground</name>
     <desc>OSM campground (way/688263611)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="37.469231" lon="-122.436130">
     <ele>16.0</ele>
-    <name>54km Safeway</name>
+    <name>49km Safeway</name>
     <desc>OSM supermarket (way/30489339); opening_hours=24/7; phone=+1 650-726-1143; website=https://local.safeway.com/safeway/ca/half-moon-bay/70-cabrillo-hwy.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.469619" lon="-122.433095">
     <ele>16.0</ele>
-    <name>54km Chevron</name>
+    <name>49km Chevron</name>
     <desc>OSM fuel+shop (way/219073105)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.469057" lon="-122.432128">
     <ele>16.0</ele>
-    <name>54km New Leaf Community Market</name>
+    <name>49km New Leaf Community Market</name>
     <desc>OSM supermarket (way/219058157); opening_hours=Mo-Su 07:00-21:00; operator=New Leaf Community Markets; website=https://newleaf.com/stores/view.php?location=3</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.468410" lon="-122.432668">
     <ele>15.0</ele>
-    <name>54km (convenience)</name>
+    <name>49km (convenience)</name>
     <desc>OSM convenience (node/4641873702)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.468133" lon="-122.430892">
     <ele>15.0</ele>
-    <name>54km 7-Eleven</name>
+    <name>49km 7-Eleven</name>
     <desc>OSM convenience (way/219058156); phone=+1 650-726-3215; website=https://www.7-eleven.com/locations/ca/half-moon-bay/196-san-mateo-rd-21480</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.467776" lon="-122.429620">
     <ele>15.0</ele>
-    <name>54km Texaco</name>
+    <name>49km Texaco</name>
     <desc>OSM fuel+shop (way/392161227)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.467550" lon="-122.431101">
     <ele>14.0</ele>
-    <name>54km (toilets)</name>
+    <name>49km (toilets)</name>
     <desc>OSM toilets (way/982372587); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.468105" lon="-122.435920">
     <ele>14.0</ele>
-    <name>54km (toilets)</name>
+    <name>49km (toilets)</name>
     <desc>OSM toilets (way/1211372766)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.463803" lon="-122.433291">
     <ele>19.0</ele>
-    <name>55km Bike Works Bike Shop</name>
+    <name>50km Bike Works Bike Shop</name>
     <desc>OSM bike shop (way/389972714)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="37.464424" lon="-122.433428">
     <ele>18.0</ele>
-    <name>55km More4Less</name>
+    <name>50km More4Less</name>
     <desc>OSM convenience (way/222253183)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.463485" lon="-122.429633">
     <ele>21.0</ele>
-    <name>55km (toilets)</name>
+    <name>50km (toilets)</name>
     <desc>OSM toilets (node/862054630); opening_hours=Mo-Su 06:30-20:00</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.463891" lon="-122.429508">
     <ele>21.0</ele>
-    <name>55km Cunha's Country Grocery</name>
+    <name>50km Cunha's Country Grocery</name>
     <desc>OSM supermarket (way/349684890)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.463471" lon="-122.429435">
     <ele>21.0</ele>
-    <name>55km (drinking water)</name>
+    <name>50km (drinking water)</name>
     <desc>OSM drinking water (node/4409173508)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="37.422252" lon="-122.426557">
     <ele>40.0</ele>
-    <name>60km (toilets)</name>
+    <name>55km (toilets)</name>
     <desc>OSM toilets (node/3700476653); fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.396214" lon="-122.415907">
     <ele>52.0</ele>
-    <name>63km (toilets)</name>
+    <name>58km (toilets)</name>
     <desc>OSM toilets (node/4295038104); fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.372307" lon="-122.407537">
     <ele>54.0</ele>
-    <name>66km (toilets)</name>
+    <name>61km (toilets)</name>
     <desc>OSM toilets (way/1087284272); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.322930" lon="-122.401791">
-    <ele>10.0</ele>
-    <name>72km Toilets</name>
+    <ele>8.0</ele>
+    <name>67km Toilets</name>
     <desc>OSM toilets (way/503268414)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.300560" lon="-122.405224">
     <ele>7.0</ele>
-    <name>76km (toilets)</name>
+    <name>70km (toilets)</name>
     <desc>OSM toilets (node/6550523132)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.265370" lon="-122.412316">
     <ele>9.0</ele>
-    <name>80km (toilets)</name>
+    <name>74km (toilets)</name>
     <desc>OSM toilets (node/2029293807); drinking_water=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.260791" lon="-122.413231">
     <ele>10.0</ele>
-    <name>80km (toilets)</name>
+    <name>74km (toilets)</name>
     <desc>OSM toilets (node/4378043692); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.225766" lon="-122.408752">
     <ele>6.0</ele>
-    <name>85km (toilets)</name>
+    <name>78km (toilets)</name>
     <desc>OSM toilets (way/239940924); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="37.182578" lon="-122.393747">
-    <ele>10.0</ele>
-    <name>90km (toilets)</name>
-    <desc>OSM toilets (node/2344167747)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
-  <wpt lat="37.182411" lon="-122.393736">
-    <ele>10.0</ele>
-    <name>90km (drinking water)</name>
-    <desc>OSM drinking water (node/10902819191)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
   <wpt lat="37.166496" lon="-122.361958">
     <ele>9.0</ele>
-    <name>94km (toilets)</name>
+    <name>87km (toilets)</name>
     <desc>OSM toilets (node/6299763592)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.165495" lon="-122.360221">
     <ele>2.0</ele>
-    <name>94km Alliance gas station</name>
+    <name>87km Alliance gas station</name>
     <desc>OSM convenience (node/12842907110)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="37.157012" lon="-122.349026">
     <ele>26.0</ele>
-    <name>95km Costanoa</name>
+    <name>89km Costanoa</name>
     <desc>OSM campground (way/44478680)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="37.120476" lon="-122.307643">
     <ele>35.0</ele>
-    <name>101km (toilets)</name>
+    <name>94km (toilets)</name>
     <desc>OSM toilets (node/2589415261); fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.118901" lon="-122.307003">
     <ele>32.0</ele>
-    <name>101km (drinking water)</name>
+    <name>94km (drinking water)</name>
     <desc>OSM drinking water (node/9435094642)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="37.101134" lon="-122.277287">
     <ele>10.0</ele>
-    <name>105km Rancho Del Oso Walk-in Campground</name>
+    <name>98km Rancho Del Oso Walk-in Campground</name>
     <desc>OSM campground (node/1306234572)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="37.096868" lon="-122.279486">
     <ele>4.0</ele>
-    <name>105km (toilets)</name>
+    <name>98km (toilets)</name>
     <desc>OSM toilets (way/683044058)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.079742" lon="-122.264841">
     <ele>54.0</ele>
-    <name>107km (toilets)</name>
+    <name>100km (toilets)</name>
     <desc>OSM toilets (node/836071066)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.030429" lon="-122.218477">
     <ele>24.0</ele>
-    <name>114km (toilets)</name>
+    <name>107km (toilets)</name>
     <desc>OSM toilets (node/12793412837)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.024940" lon="-122.215691">
     <ele>18.0</ele>
-    <name>115km (toilets)</name>
+    <name>108km (toilets)</name>
     <desc>OSM toilets (way/1486227495)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.022219" lon="-122.208023">
     <ele>28.0</ele>
-    <name>115km (toilets)</name>
+    <name>109km (toilets)</name>
     <desc>OSM toilets (node/13076933967); toilets=pit_latrine</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="37.011686" lon="-122.195567">
     <ele>28.0</ele>
-    <name>117km Arro's Country Store</name>
+    <name>110km Arro's Country Store</name>
     <desc>OSM convenience (way/239271466)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.964813" lon="-122.102308">
     <ele>39.0</ele>
-    <name>128km Wilder Ranch State Park Horse Camping</name>
+    <name>120km Wilder Ranch State Park Horse Camping</name>
     <desc>OSM campground (way/1428870630); phone=+1 831 423 9703; reservation=no</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
-  <wpt lat="36.960273" lon="-122.085185">
-    <ele>16.0</ele>
-    <name>130km (toilets)</name>
-    <desc>OSM toilets (node/1422561254)</desc>
+  <wpt lat="36.961122" lon="-122.083815">
+    <ele>13.0</ele>
+    <name>122km (toilets)</name>
+    <desc>OSM toilets (node/849815075)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="36.961122" lon="-122.083815">
-    <ele>13.0</ele>
-    <name>130km (toilets)</name>
-    <desc>OSM toilets (node/849815075)</desc>
+  <wpt lat="36.960273" lon="-122.085185">
+    <ele>16.0</ele>
+    <name>122km (toilets)</name>
+    <desc>OSM toilets (node/1422561254)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.963926" lon="-122.083768">
     <ele>11.0</ele>
-    <name>130km (toilets)</name>
+    <name>122km (toilets)</name>
     <desc>OSM toilets (node/2276151856)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
-  <wpt lat="36.960438" lon="-122.056532">
-    <ele>20.0</ele>
-    <name>132km (toilets)</name>
-    <desc>OSM toilets (node/6512288310)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.959288" lon="-122.056407">
     <ele>19.0</ele>
-    <name>133km Santa Cruz Bicycles</name>
+    <name>124km Santa Cruz Bicycles</name>
     <desc>OSM bike shop (node/3241634064); phone=+1-831-459-7560; website=https://santacruzbicycles.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
+  <wpt lat="36.960438" lon="-122.056532">
+    <ele>20.0</ele>
+    <name>124km (toilets)</name>
+    <desc>OSM toilets (node/6512288310)</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
   <wpt lat="36.957178" lon="-122.053212">
     <ele>18.0</ele>
-    <name>133km Ibis Bicycles</name>
+    <name>125km Ibis Bicycles</name>
     <desc>OSM bike shop (node/1484085788)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.960202" lon="-122.049095">
     <ele>17.0</ele>
-    <name>133km 7-Eleven</name>
+    <name>125km 7-Eleven</name>
     <desc>OSM convenience (node/401461449); opening_hours=24/7; phone=+1 831-458-2720; website=https://www.7-eleven.com/locations/ca/santa-cruz/2429-mission-street-29795</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.958931" lon="-122.048751">
     <ele>17.0</ele>
-    <name>133km (toilets)</name>
+    <name>125km (toilets)</name>
     <desc>OSM toilets (node/2019385409)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.960729" lon="-122.047860">
     <ele>18.0</ele>
-    <name>134km Another Bike Shop</name>
+    <name>125km Another Bike Shop</name>
     <desc>OSM bike shop (node/412317756); opening_hours=Mo-Fr 10:00-18:00; Sa-Su 10:00-17:00; phone=+1-831-427-2232</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.959095" lon="-122.047445">
     <ele>18.0</ele>
-    <name>134km (toilets)</name>
+    <name>125km (toilets)</name>
     <desc>OSM toilets (node/3627884865); access=destination</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.959080" lon="-122.046382">
     <ele>16.0</ele>
-    <name>134km New Leaf Community Market</name>
+    <name>126km New Leaf Community Market</name>
     <desc>OSM supermarket (way/35838123); opening_hours=Mo-Su 07:00-21:00; phone=+1-831-426-1306; website=https://www.newleaf.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.961401" lon="-122.045189">
     <ele>15.0</ele>
-    <name>134km Safeway</name>
+    <name>126km Safeway</name>
     <desc>OSM supermarket (way/32503072); opening_hours=24/7; phone=+1 831-420-0781; website=https://local.safeway.com/safeway/ca/santa-cruz/2203-mission-st.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.962361" lon="-122.045334">
     <ele>15.0</ele>
-    <name>134km The Local Shoppe</name>
+    <name>126km The Local Shoppe</name>
     <desc>OSM convenience (node/2379497804)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.959106" lon="-122.038843">
     <ele>16.0</ele>
-    <name>134km Circle Market</name>
+    <name>126km Circle Market</name>
     <desc>OSM convenience (node/421256660)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.963770" lon="-122.043373">
     <ele>16.0</ele>
-    <name>134km Rotten Robbie</name>
+    <name>126km Rotten Robbie</name>
     <desc>OSM convenience (way/194284628)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.962898" lon="-122.043066">
     <ele>16.0</ele>
-    <name>134km Gas and Shop</name>
+    <name>126km Gas and Shop</name>
     <desc>OSM convenience (way/908918653)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.964724" lon="-122.041758">
     <ele>20.0</ele>
-    <name>134km APCO Gasoline</name>
+    <name>126km APCO Gasoline</name>
     <desc>OSM fuel+shop (node/409821486)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.960672" lon="-122.036921">
     <ele>21.0</ele>
-    <name>134km Santa Cruz Market</name>
+    <name>126km Santa Cruz Market</name>
     <desc>OSM convenience (way/219988726); opening_hours=Mo-Sa 07:00-21:30; Su 08:00-21:30</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="36.963596" lon="-122.034868">
+    <ele>19.0</ele>
+    <name>127km (toilets)</name>
+    <desc>OSM toilets (way/670840367); access=yes</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
   <wpt lat="36.963320" lon="-122.034287">
     <ele>20.0</ele>
-    <name>135km (drinking water)</name>
+    <name>127km (drinking water)</name>
     <desc>OSM drinking water (node/6282150359); access=yes; fee=no</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.965232" lon="-122.025592">
     <ele>19.0</ele>
-    <name>135km Pacific Ave Cycles</name>
+    <name>127km Pacific Ave Cycles</name>
     <desc>OSM bike shop (node/6284631802); opening_hours=Mo-Sa 10:00-18:00; phone=+1-831-471-2453; website=http://pacificavecycles.com</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.969929" lon="-122.037580">
     <ele>22.0</ele>
-    <name>136km Food Bin</name>
+    <name>127km Food Bin</name>
     <desc>OSM convenience (way/35027378); opening_hours=08:00-21:00; phone=+1-831-423-5526; website=https://foodbinherbroom.com</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.972289" lon="-122.035772">
     <ele>24.0</ele>
-    <name>136km 76</name>
+    <name>128km 76</name>
     <desc>OSM fuel+shop (node/401461436)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.972624" lon="-122.035008">
     <ele>24.0</ele>
-    <name>136km USA Pro Gasoline</name>
+    <name>128km USA Pro Gasoline</name>
     <desc>OSM fuel+shop (node/1590254846)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.969036" lon="-122.029796">
     <ele>18.0</ele>
-    <name>136km 7-Eleven</name>
+    <name>128km 7-Eleven</name>
     <desc>OSM convenience (way/39551599); phone=+1 831-423-8497; website=https://www.7-eleven.com/locations/ca/santa-cruz/602-laurel-st-16346</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.971368" lon="-122.026456">
     <ele>10.0</ele>
-    <name>136km Spokesman Bicycles</name>
+    <name>128km Spokesman Bicycles</name>
     <desc>OSM bike shop (node/412317757); opening_hours=Mo-Sa 11:00-18:00; Su 12:00-17:00; phone=+1-831-429-6062; website=https://www.spokesmanbicycles.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.968545" lon="-122.025103">
     <ele>10.0</ele>
-    <name>136km The Bike Church</name>
+    <name>128km The Bike Church</name>
     <desc>OSM bike shop (node/412317758); opening_hours=Th-Mo 12:00-17:00; phone=+1-831-425-2453</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.967328" lon="-122.024671">
     <ele>10.0</ele>
-    <name>136km Current eBikes</name>
+    <name>128km Current eBikes</name>
     <desc>OSM bike shop (node/6284610762); opening_hours=Tu-Fr 10:00-18:00, Sa 09:00-17:00; phone=+1-831-621-2309; website=https://currentebikes.com</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.968565" lon="-122.028786">
     <ele>10.0</ele>
-    <name>136km Hernandez Market</name>
+    <name>128km Hernandez Market</name>
     <desc>OSM supermarket (node/414150589)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.976026" lon="-122.032207">
     <ele>11.0</ele>
-    <name>136km Om's Market</name>
+    <name>128km Om's Market</name>
     <desc>OSM convenience (node/401461437)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.974276" lon="-122.029556">
-    <ele>7.0</ele>
-    <name>136km (toilets)</name>
+    <ele>10.0</ele>
+    <name>128km (toilets)</name>
     <desc>OSM toilets (node/411912511)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.974628" lon="-122.028555">
     <ele>10.0</ele>
-    <name>137km (toilets)</name>
+    <name>128km (toilets)</name>
     <desc>OSM toilets (node/411912515); description=Publicly accessible restrooms inside the library, open from the time the library opens until 20 minutes prior to closing.; opening_hours=Mo-Th 10:00-17:40; Fr, Sa 10:00-16:40; Su 13:00-16:40</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.974117" lon="-122.026221">
     <ele>10.0</ele>
-    <name>137km (drinking water)</name>
+    <name>128km (drinking water)</name>
     <desc>OSM drinking water (node/392908061)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.975046" lon="-122.027397">
     <ele>10.0</ele>
-    <name>137km Awe Sum Organically</name>
+    <name>128km Awe Sum Organically</name>
     <desc>OSM supermarket (node/3240421235)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.975323" lon="-122.027343">
     <ele>10.0</ele>
-    <name>137km (toilets)</name>
+    <name>128km (toilets)</name>
     <desc>OSM toilets (node/392893385)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.981490" lon="-122.029744">
     <ele>12.0</ele>
-    <name>137km Specialized Experience Center</name>
+    <name>129km Specialized Experience Center</name>
     <desc>OSM bike shop (node/8163034045); opening_hours=Mo-Su 10:00-17:00; phone=+1-831-331-4827; website=https://specializedsantacruz.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.977512" lon="-122.028032">
     <ele>12.0</ele>
-    <name>137km (toilets)</name>
+    <name>129km (toilets)</name>
     <desc>OSM toilets (node/10612661431); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.974522" lon="-122.024802">
     <ele>8.0</ele>
-    <name>137km Trader Joe's</name>
+    <name>129km Trader Joe's</name>
     <desc>OSM supermarket (node/8241788547); opening_hours=Mo-Su 08:00-21:00; phone=+1 831-425-0140; website=https://locations.traderjoes.com/ca/santa-cruz/193/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.975547" lon="-122.026057">
     <ele>8.0</ele>
-    <name>137km (toilets)</name>
+    <name>129km (toilets)</name>
     <desc>OSM toilets (node/411912513)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.975605" lon="-122.026674">
     <ele>10.0</ele>
-    <name>137km (drinking water)</name>
+    <name>129km (drinking water)</name>
     <desc>OSM drinking water (node/402127083)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
-  <wpt lat="36.976576" lon="-122.021895">
-    <ele>12.0</ele>
-    <name>137km (toilets)</name>
-    <desc>OSM toilets (node/1800977981)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
-  <wpt lat="36.979757" lon="-122.021694">
-    <ele>9.0</ele>
-    <name>138km Shell</name>
-    <desc>OSM fuel+shop (node/395034133)</desc>
+  <wpt lat="36.977620" lon="-122.020920">
+    <ele>10.0</ele>
+    <name>129km County Vehicles Only</name>
+    <desc>OSM fuel+shop (node/2754813829); access=private</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="36.977620" lon="-122.020920">
-    <ele>10.0</ele>
-    <name>138km County Vehicles Only</name>
-    <desc>OSM fuel+shop (node/2754813829); access=private</desc>
+  <wpt lat="36.979757" lon="-122.021694">
+    <ele>9.0</ele>
+    <name>129km Shell</name>
+    <desc>OSM fuel+shop (node/395034133)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.976578" lon="-122.016054">
     <ele>9.0</ele>
-    <name>138km Shopper's Corner</name>
+    <name>130km Shopper's Corner</name>
     <desc>OSM supermarket (way/35556042); opening_hours=Mo-Su 06:00-21:00; phone=+1-831-423-1398; website=http://shopperscorner.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.979000" lon="-122.014571">
     <ele>23.0</ele>
-    <name>138km Whole Foods Market</name>
+    <name>130km Whole Foods Market</name>
     <desc>OSM supermarket (way/34445819); opening_hours=Mo-Su 08:00-21:00; phone=+1 831-426-9901; toilets=yes; website=https://www.wholefoodsmarket.com/stores/santacruz</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.979137" lon="-122.014505">
     <ele>23.0</ele>
-    <name>138km (toilets)</name>
+    <name>130km (toilets)</name>
     <desc>OSM toilets (node/11137490376); access=permissive; description=A code, which is changed periodically, is needed to unlock the restrooms. It can easily be obtained by asking any staff member. Access to the restrooms is generally permissive and open to the public upon request.; drinking_water=yes; fee=no; opening_hours=Mo-Su 08:00-21:00</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.978851" lon="-122.013020">
     <ele>25.0</ele>
-    <name>138km The Bicycle Trip</name>
+    <name>130km The Bicycle Trip</name>
     <desc>OSM bike shop (way/256802809); opening_hours=Tu-Fr 11:00-18:00; Sa 10:00-18:00; phone=+1-831-427-2580; website=https://www.bicycletrip.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.981165" lon="-122.011110">
     <ele>26.0</ele>
-    <name>138km Arco</name>
+    <name>130km Arco</name>
     <desc>OSM fuel+shop (way/899731800)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.981544" lon="-122.008943">
     <ele>24.0</ele>
-    <name>139km Earth Cycles</name>
+    <name>130km Earth Cycles</name>
     <desc>OSM bike shop (node/416599026)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
-  <wpt lat="36.982099" lon="-122.007504">
-    <ele>24.0</ele>
-    <name>139km Safeway</name>
-    <desc>OSM supermarket (way/34569098); opening_hours=24/7; phone=+1 831-426-7489; website=https://local.safeway.com/safeway/ca/santa-cruz/117-morrissey-blvd.html</desc>
+  <wpt lat="36.980589" lon="-122.008291">
+    <ele>23.0</ele>
+    <name>130km Staff of Life</name>
+    <desc>OSM supermarket (node/400699340); opening_hours=Mo-Su 08:00-21:00</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="36.980589" lon="-122.008291">
-    <ele>23.0</ele>
-    <name>139km Staff of Life</name>
-    <desc>OSM supermarket (node/400699340); opening_hours=Mo-Su 08:00-21:00</desc>
+  <wpt lat="36.982099" lon="-122.007504">
+    <ele>24.0</ele>
+    <name>130km Safeway</name>
+    <desc>OSM supermarket (way/34569098); opening_hours=24/7; phone=+1 831-426-7489; website=https://local.safeway.com/safeway/ca/santa-cruz/117-morrissey-blvd.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.980940" lon="-122.006823">
     <ele>25.0</ele>
-    <name>139km sc bike repair</name>
+    <name>131km sc bike repair</name>
     <desc>OSM bike shop (node/12644140001)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.981999" lon="-122.005858">
     <ele>24.0</ele>
-    <name>139km Grocery Outlet</name>
+    <name>131km Grocery Outlet</name>
     <desc>OSM supermarket (way/34569113); opening_hours=Mo-Su 08:00-21:00; phone=+1-831-425-6533; website=https://groceryoutlet.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.981242" lon="-122.004416">
     <ele>24.0</ele>
-    <name>139km 76</name>
+    <name>131km 76</name>
     <desc>OSM fuel+shop (way/894432759); website=https://www.76.com/station/U76-SEI-38007-0000887006/</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.983983" lon="-121.989361">
     <ele>24.0</ele>
-    <name>140km Recycled Bikes of Santa Cruz</name>
+    <name>132km Recycled Bikes of Santa Cruz</name>
     <desc>OSM bike shop (node/1484085789)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.979267" lon="-121.991224">
     <ele>24.0</ele>
-    <name>140km Z Ma Self Service Gasoline</name>
+    <name>132km Z Ma Self Service Gasoline</name>
     <desc>OSM fuel+shop (node/431405446)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.976186" lon="-121.991077">
     <ele>25.0</ele>
-    <name>141km (drinking water)</name>
+    <name>132km (drinking water)</name>
     <desc>OSM drinking water (node/8272201945)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.974542" lon="-121.987863">
     <ele>24.0</ele>
-    <name>141km (drinking water)</name>
+    <name>133km (drinking water)</name>
     <desc>OSM drinking water (node/8272199268)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.975642" lon="-121.983443">
     <ele>26.0</ele>
-    <name>141km Live Oak Super</name>
+    <name>133km Live Oak Super</name>
     <desc>OSM supermarket (node/431699198)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.975962" lon="-121.982821">
     <ele>26.0</ele>
-    <name>141km Valero</name>
+    <name>133km Valero</name>
     <desc>OSM fuel+shop (node/3146806429)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.978624" lon="-121.980822">
     <ele>27.0</ele>
-    <name>141km (drinking water)</name>
+    <name>133km (drinking water)</name>
     <desc>OSM drinking water (node/8279643286); fee=no</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.977838" lon="-121.970515">
     <ele>24.0</ele>
-    <name>142km Trader Joe's</name>
+    <name>134km Trader Joe's</name>
     <desc>OSM supermarket (node/1742495877); opening_hours=Mo-Su 08:00-21:00; phone=+1 831-464-0115; website=https://locations.traderjoes.com/ca/capitola/64/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.978777" lon="-121.968867">
     <ele>23.0</ele>
-    <name>143km Bicycle Trip</name>
+    <name>134km Bicycle Trip</name>
     <desc>OSM bike shop (node/4890223749); opening_hours=Tu-Fr 11:00-18:00, Sa 10:00-18:00, Su 11:00-16:00; phone=+1-831-226-5050; website=http://www.bicycletripcapitola.com</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.971755" lon="-121.966400">
     <ele>22.0</ele>
-    <name>143km New Leaf Community Markets</name>
+    <name>135km New Leaf Community Markets</name>
     <desc>OSM supermarket (node/2623071064)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.973306" lon="-121.965342">
     <ele>22.0</ele>
-    <name>143km (convenience)</name>
+    <name>135km (convenience)</name>
     <desc>OSM convenience (way/768674012)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.965262" lon="-121.964744">
     <ele>22.0</ele>
-    <name>143km Family Cycling Center</name>
+    <name>135km Family Cycling Center</name>
     <desc>OSM bike shop (node/881539260); opening_hours=Mo-Fr 10:00-18:00; Sa-Su 10:00-17:00; phone=+1-831-475-3883; website=https://www.cyclesport.com</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.972773" lon="-121.964751">
     <ele>22.0</ele>
-    <name>143km Shell</name>
+    <name>135km Shell</name>
     <desc>OSM convenience (node/8200403927)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.977052" lon="-121.964644">
     <ele>22.0</ele>
-    <name>143km Dollar Tree</name>
+    <name>135km Dollar Tree</name>
     <desc>OSM convenience (node/13837924201); opening_hours=Mo-Su 08:00-22:00</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.973369" lon="-121.964465">
     <ele>22.0</ele>
-    <name>143km Chevron</name>
+    <name>135km Chevron</name>
     <desc>OSM fuel+shop (way/881783755); phone=+1-831-475-9785</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.974263" lon="-121.963582">
     <ele>25.0</ele>
-    <name>143km Whole Foods Market</name>
+    <name>135km Whole Foods Market</name>
     <desc>OSM supermarket (node/709777197); opening_hours=Mo-Su 08:00-21:00; phone=+1 831-464-2900; website=https://www.wholefoodsmarket.com/stores/capitola</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.969287" lon="-121.963597">
     <ele>25.0</ele>
-    <name>143km New Leaf Community Market</name>
+    <name>135km New Leaf Community Market</name>
     <desc>OSM supermarket (node/2623068683)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.978319" lon="-121.952957">
     <ele>9.0</ele>
-    <name>145km (convenience)</name>
+    <name>136km (convenience)</name>
     <desc>OSM convenience (node/4336476831)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.980597" lon="-121.945482">
     <ele>41.0</ele>
-    <name>146km (drinking water)</name>
+    <name>137km (drinking water)</name>
     <desc>OSM drinking water (node/8228347054)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.979234" lon="-121.936480">
     <ele>44.0</ele>
-    <name>146km New Brighton State Beach Campground</name>
+    <name>138km New Brighton State Beach Campground</name>
     <desc>OSM campground (way/686493773); drinking_water=yes; fee=yes; shower=yes; toilets=yes; website=https://www.parks.ca.gov/?page_id=30490</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.980258" lon="-121.934782">
     <ele>52.0</ele>
-    <name>146km (toilets)</name>
+    <name>138km (toilets)</name>
     <desc>OSM toilets (way/737966912)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.981533" lon="-121.934411">
     <ele>36.0</ele>
-    <name>147km (drinking water)</name>
+    <name>139km (drinking water)</name>
     <desc>OSM drinking water (node/792073412)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.980801" lon="-121.933358">
     <ele>42.0</ele>
-    <name>147km (toilets)</name>
+    <name>139km (toilets)</name>
     <desc>OSM toilets (way/737966914)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.980219" lon="-121.932186">
     <ele>48.0</ele>
-    <name>147km (toilets)</name>
+    <name>139km (toilets)</name>
     <desc>OSM toilets (way/737966915)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.981150" lon="-121.931194">
     <ele>44.0</ele>
-    <name>147km (toilets)</name>
+    <name>139km (toilets)</name>
     <desc>OSM toilets (way/737966916)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.988879" lon="-121.924079">
     <ele>44.0</ele>
-    <name>148km Cabrillo Bike Coop</name>
+    <name>140km Cabrillo Bike Coop</name>
     <desc>OSM bike shop (node/2828403849); website=https://sites.google.com/a/cabrillo.edu/cabrillobikeco-op/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.973857" lon="-121.917840">
     <ele>37.0</ele>
-    <name>149km (campground)</name>
+    <name>141km (campground)</name>
     <desc>OSM campground (node/1012768214)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.975496" lon="-121.912211">
     <ele>37.0</ele>
-    <name>149km 76</name>
+    <name>141km 76</name>
     <desc>OSM fuel+shop (node/453791233)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.978581" lon="-121.908609">
     <ele>48.0</ele>
-    <name>150km Safeway</name>
+    <name>142km Safeway</name>
     <desc>OSM supermarket (node/453738678); phone=+1 831-688-2775; website=https://local.safeway.com/safeway/ca/aptos/16-rancho-del-mar.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.981719" lon="-121.910642">
     <ele>49.0</ele>
-    <name>150km Aptos Natural Foods</name>
+    <name>142km Aptos Natural Foods</name>
     <desc>OSM supermarket (node/3645875854)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.979456" lon="-121.908561">
     <ele>49.0</ele>
-    <name>150km Safeway</name>
+    <name>142km Safeway</name>
     <desc>OSM fuel+shop (node/453736983); operator=Safeway; website=https://local.fuel.safeway.com/safeway/ca/aptos/16-rancho-del-mar.html</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.979822" lon="-121.907982">
     <ele>48.0</ele>
-    <name>150km Chevron</name>
+    <name>142km Chevron</name>
     <desc>OSM fuel+shop (node/453737377)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.976158" lon="-121.904813">
     <ele>32.0</ele>
-    <name>150km Aptos speed shop</name>
+    <name>142km Aptos speed shop</name>
     <desc>OSM bike shop (node/12639369301); opening_hours=Mo-Fr 09:00-17:00</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.977902" lon="-121.902331">
     <ele>28.0</ele>
-    <name>151km Epicenter Cycling</name>
+    <name>142km Epicenter Cycling</name>
     <desc>OSM bike shop (node/3335428071)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.978293" lon="-121.901086">
     <ele>29.0</ele>
-    <name>151km Penny Ice creamery</name>
+    <name>142km Penny Ice creamery</name>
     <desc>OSM toilets (way/1162563877); access=yes; fee=yes; operator=Penny Ice creamery</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.978451" lon="-121.900424">
-    <ele>34.0</ele>
-    <name>151km New Leaf Market</name>
+    <ele>30.0</ele>
+    <name>143km New Leaf Market</name>
     <desc>OSM supermarket (node/6479601177); opening_hours=08:00-21:00</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.974354" lon="-121.889494">
     <ele>40.0</ele>
-    <name>153km Deluxe Foods</name>
+    <name>144km Deluxe Foods</name>
     <desc>OSM supermarket (way/97641479)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.974501" lon="-121.887701">
     <ele>46.0</ele>
-    <name>153km Arco</name>
+    <name>144km Arco</name>
     <desc>OSM fuel+shop (node/395042391)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.976468" lon="-121.886515">
     <ele>42.0</ele>
-    <name>154km Palm Deli</name>
+    <name>144km Palm Deli</name>
     <desc>OSM supermarket (node/2047027777)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.945388" lon="-121.871247">
     <ele>48.0</ele>
-    <name>158km Camp Saint Francis</name>
+    <name>149km Camp Saint Francis</name>
     <desc>OSM campground (node/833696583); operator=Camp SEA Lab; website=https://campsealab.org/</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.937147" lon="-121.862794">
     <ele>29.0</ele>
-    <name>160km El Patio</name>
+    <name>150km El Patio</name>
     <desc>OSM supermarket (node/442197491)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="36.932443" lon="-121.861966">
-    <ele>21.0</ele>
-    <name>160km (toilets)</name>
-    <desc>OSM toilets (node/2630331401)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
-  <wpt lat="36.932465" lon="-121.861953">
-    <ele>21.0</ele>
-    <name>160km (drinking water)</name>
-    <desc>OSM drinking water (node/2630331403)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="36.932888" lon="-121.862579">
-    <ele>21.0</ele>
-    <name>160km (drinking water)</name>
-    <desc>OSM drinking water (node/2630331409)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
   <wpt lat="36.929391" lon="-121.856496">
     <ele>29.0</ele>
-    <name>161km (campground)</name>
+    <name>151km (campground)</name>
     <desc>OSM campground (node/12862485801)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.916469" lon="-121.848757">
     <ele>48.0</ele>
-    <name>162km (campground)</name>
+    <name>153km (campground)</name>
     <desc>OSM campground (node/1620910757)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.890391" lon="-121.831124">
     <ele>37.0</ele>
-    <name>166km Dunes Camp</name>
+    <name>156km Dunes Camp</name>
     <desc>OSM campground (node/6660283531)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.888256" lon="-121.829656">
     <ele>33.0</ele>
-    <name>166km Pine Hollow Camp</name>
+    <name>156km Pine Hollow Camp</name>
     <desc>OSM campground (node/6660283529)</desc>
-    <sym>Campground</sym>
-    <type>camp</type>
-  </wpt>
-  <wpt lat="36.886655" lon="-121.828353">
-    <ele>33.0</ele>
-    <name>166km Group Camp</name>
-    <desc>OSM campground (node/6660283530)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.887853" lon="-121.828885">
     <ele>33.0</ele>
-    <name>166km Hike and Bike Campsites</name>
+    <name>156km Hike and Bike Campsites</name>
     <desc>OSM campground (node/11034435349); fee=yes; operator=Sunset State Beach</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
-  <wpt lat="36.831494" lon="-121.771393">
-    <ele>10.0</ele>
-    <name>178km (convenience)</name>
-    <desc>OSM convenience (way/894072083)</desc>
-    <sym>Convenience Store</sym>
+  <wpt lat="36.831531" lon="-121.771257">
+    <ele>12.0</ele>
+    <name>168km 76</name>
+    <desc>OSM fuel+shop (node/1183479923); website=https://www.76.com/station/U76-SEI-37985-0000886985/</desc>
+    <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.812705" lon="-121.786432">
     <ele>2.0</ele>
-    <name>181km (toilets)</name>
+    <name>171km (toilets)</name>
     <desc>OSM toilets (way/350824114); description=Very poorly maintained toilets without doors on cubicles.</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="36.798452" lon="-121.783603">
-    <ele>5.0</ele>
-    <name>182km (convenience)</name>
-    <desc>OSM convenience (node/1912129706)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
   <wpt lat="36.800895" lon="-121.785466">
-    <ele>2.0</ele>
-    <name>182km (toilets)</name>
+    <ele>7.0</ele>
+    <name>172km (toilets)</name>
     <desc>OSM toilets (way/223323295); fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="36.799057" lon="-121.789214">
-    <ele>1.0</ele>
-    <name>183km (toilets)</name>
-    <desc>OSM toilets (node/4350543323); description=A portable toilet unit.</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
+  <wpt lat="36.798452" lon="-121.783603">
+    <ele>4.0</ele>
+    <name>173km (convenience)</name>
+    <desc>OSM convenience (node/1912129706)</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
   </wpt>
   <wpt lat="36.791084" lon="-121.784037">
     <ele>4.0</ele>
-    <name>185km Moss Landing Organic Market</name>
+    <name>174km Moss Landing Organic Market</name>
     <desc>OSM supermarket (way/984428766); phone=+1-831-633-6069</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.767533" lon="-121.760217">
     <ele>3.0</ele>
-    <name>188km Primavera Market</name>
+    <name>177km Primavera Market</name>
     <desc>OSM supermarket (node/7831229811)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.765131" lon="-121.757816">
     <ele>3.0</ele>
-    <name>188km Exxon</name>
+    <name>177km Exxon</name>
     <desc>OSM fuel+shop (node/2606170128)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.761364" lon="-121.754135">
     <ele>6.0</ele>
-    <name>190km Santa Fe Foods</name>
+    <name>178km Santa Fe Foods</name>
     <desc>OSM supermarket (node/7831229846)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.760287" lon="-121.750155">
     <ele>8.0</ele>
-    <name>190km (fuel+shop)</name>
+    <name>178km (fuel+shop)</name>
     <desc>OSM fuel+shop (node/419438222)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="36.760652" lon="-121.751544">
+  <wpt lat="36.759573" lon="-121.749369">
     <ele>8.0</ele>
-    <name>190km Eco Gas &amp; Mart</name>
-    <desc>OSM fuel+shop (node/775298448)</desc>
+    <name>178km Chevron</name>
+    <desc>OSM fuel+shop (node/12922573100)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.761299" lon="-121.749207">
     <ele>8.0</ele>
-    <name>190km (drinking water)</name>
+    <name>178km (drinking water)</name>
     <desc>OSM drinking water (node/5713794846)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.760302" lon="-121.752260">
     <ele>6.0</ele>
-    <name>190km Nick's Hi-Way Market</name>
+    <name>179km Nick's Hi-Way Market</name>
     <desc>OSM supermarket (node/7831208744)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="36.760584" lon="-121.751668">
+    <ele>8.0</ele>
+    <name>179km Eco Gas &amp; Mart</name>
+    <desc>OSM convenience (way/836623746); operator=Eco Gas &amp; Mart</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
   <wpt lat="36.714504" lon="-121.792110">
     <ele>19.0</ele>
-    <name>197km free campsite</name>
+    <name>186km free campsite</name>
     <desc>OSM campground (node/4388132793)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.712419" lon="-121.791366">
     <ele>13.0</ele>
-    <name>197km Free Campsite. Sunset-Sunrise</name>
+    <name>186km Free Campsite. Sunset-Sunrise</name>
     <desc>OSM campground (node/6532816789); opening_hours=24/7</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.694206" lon="-121.801711">
     <ele>10.0</ele>
-    <name>200km 7-Eleven</name>
+    <name>188km 7-Eleven</name>
     <desc>OSM convenience (way/556624911)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.693133" lon="-121.801147">
     <ele>10.0</ele>
-    <name>200km Walmart Supercenter</name>
+    <name>188km Walmart Supercenter</name>
     <desc>OSM supermarket (way/35024035); opening_hours=Mo-Su 07:00-23:00; operator=Walmart; phone=+1 831-883-9138; website=https://www.walmart.com/store/4488-marina-ca</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.687922" lon="-121.797912">
     <ele>0.0</ele>
-    <name>200km Grocery Outlet</name>
+    <name>189km Grocery Outlet</name>
     <desc>OSM supermarket (node/4505476040)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.686766" lon="-121.798244">
     <ele>2.0</ele>
-    <name>200km Marina Cycle</name>
+    <name>189km Marina Cycle</name>
     <desc>OSM bike shop (node/1388946951)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.684160" lon="-121.796420">
     <ele>2.0</ele>
-    <name>200km Save Mart</name>
+    <name>189km Save Mart</name>
     <desc>OSM supermarket (node/1388946952)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.686456" lon="-121.800393">
     <ele>2.0</ele>
-    <name>200km Beacon</name>
+    <name>189km Beacon</name>
     <desc>OSM fuel+shop (node/4505464314)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.683273" lon="-121.802773">
     <ele>10.0</ele>
-    <name>201km 7-Eleven</name>
+    <name>189km 7-Eleven</name>
     <desc>OSM convenience (way/94174246)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.682498" lon="-121.804008">
     <ele>10.0</ele>
-    <name>201km Del Monte Asian Market</name>
+    <name>190km Del Monte Asian Market</name>
     <desc>OSM supermarket (node/12594196676)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.681344" lon="-121.804915">
     <ele>4.0</ele>
-    <name>201km Tommy's FoodMart</name>
+    <name>190km Tommy's FoodMart</name>
     <desc>OSM convenience (node/2606267506)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.664285" lon="-121.809780">
     <ele>16.0</ele>
-    <name>203km Trader Joe's</name>
+    <name>192km Trader Joe's</name>
     <desc>OSM supermarket (way/1334150342); opening_hours=Mo-Su 09:00-21:00</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="36.644844" lon="-121.812020">
+    <ele>44.0</ele>
+    <name>194km Commissary (military only)</name>
+    <desc>OSM supermarket (node/5158768022); opening_hours=Tu-Sa 09:00-19:00; Su 10:00-18:00; operator=Defense Commissary Agency (DeCA); phone=+1-831-242-7668; website=https://commissaries.com</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.623247" lon="-121.842127">
     <ele>20.0</ele>
-    <name>209km 7-Eleven</name>
+    <name>197km 7-Eleven</name>
     <desc>OSM convenience (way/326486729)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.619862" lon="-121.843951">
     <ele>9.0</ele>
-    <name>210km Lucky</name>
+    <name>198km Lucky</name>
     <desc>OSM supermarket (node/7690700456); opening_hours=Mo-Su 06:00-22:00; website=https://www.luckysupermarkets.com/stores/sand-city-772/5082</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="36.619810" lon="-121.841438">
-    <ele>9.0</ele>
-    <name>210km (fuel+shop)</name>
-    <desc>OSM fuel+shop (way/326486736)</desc>
-    <sym>Gas Station</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="36.615921" lon="-121.843518">
-    <ele>8.0</ele>
-    <name>210km Costco Gasoline</name>
-    <desc>OSM fuel+shop (node/1648518142); operator=Costco; website=https://www.costco.com/warehouse-locations/sand-city-ca-131.html</desc>
-    <sym>Gas Station</sym>
-    <type>food</type>
-  </wpt>
   <wpt lat="36.608980" lon="-121.855355">
     <ele>-2.0</ele>
-    <name>212km Smart &amp; Final</name>
+    <name>200km Smart &amp; Final</name>
     <desc>OSM supermarket (way/55878884); opening_hours=Mo-Su 06:00-22:00; phone=+1-831-393-0250</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.609950" lon="-121.856961">
     <ele>2.0</ele>
-    <name>212km Shell</name>
+    <name>200km Shell</name>
     <desc>OSM convenience (way/152297419)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.610085" lon="-121.859348">
     <ele>8.0</ele>
-    <name>212km (toilets)</name>
+    <name>200km (toilets)</name>
     <desc>OSM toilets (node/9770318973)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.603722" lon="-121.861765">
     <ele>10.0</ele>
-    <name>213km Speedway</name>
+    <name>201km Speedway</name>
     <desc>OSM convenience (way/993611258); website=https://www.speedway.com/locations/CA/Monterey/2338-Del-Monte-Ave</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.599628" lon="-121.872740">
     <ele>14.0</ele>
-    <name>214km Navy Exchange (NEX)</name>
+    <name>202km Navy Exchange (NEX)</name>
     <desc>OSM convenience (node/5158866521); opening_hours=Mo-Sa 09:00-18:00; Su 10:00-16:00; operator=Navy Exchange Service Command; phone=+1-831-373-7277; website=https://www.mynavyexchange.com/storelocator/storedetails.jsp?storeid=390</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.599939" lon="-121.872059">
     <ele>12.0</ele>
-    <name>214km NEX Gas Station</name>
+    <name>202km NEX Gas Station</name>
     <desc>OSM fuel+shop (way/1328639499); opening_hours=24/7</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.599669" lon="-121.883211">
     <ele>-5.0</ele>
-    <name>215km Chevron</name>
+    <name>204km Chevron</name>
     <desc>OSM fuel+shop (relation/14019742)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.600481" lon="-121.884284">
     <ele>-2.0</ele>
-    <name>215km (drinking water)</name>
+    <name>204km (drinking water)</name>
     <desc>OSM drinking water (node/12530586839)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.597769" lon="-121.886433">
     <ele>0.0</ele>
-    <name>215km Monterey Recreation</name>
+    <name>204km Monterey Recreation</name>
     <desc>OSM drinking water (node/1855131567); access=permissive; description=A fountain shaped like a lion within Dennis the Menace Playground; operator=Monterey Recreation</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.598790" lon="-121.887254">
     <ele>-2.0</ele>
-    <name>215km (toilets)</name>
+    <name>204km (toilets)</name>
     <desc>OSM toilets (way/690402504); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.601054" lon="-121.889094">
     <ele>0.0</ele>
-    <name>216km (toilets)</name>
+    <name>204km (toilets)</name>
     <desc>OSM toilets (node/9197851909); opening_hours=Mo-Su 09:00-17:00</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.603384" lon="-121.889528">
     <ele>0.0</ele>
-    <name>216km (drinking water)</name>
+    <name>204km (drinking water)</name>
     <desc>OSM drinking water (node/12530561338)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.602231" lon="-121.891333">
     <ele>-1.0</ele>
-    <name>216km (toilets)</name>
+    <name>204km (toilets)</name>
     <desc>OSM toilets (node/2328274290); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.601412" lon="-121.889776">
     <ele>-1.0</ele>
-    <name>216km (toilets)</name>
+    <name>204km (toilets)</name>
     <desc>OSM toilets (node/12530505598)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.598073" lon="-121.893146">
     <ele>4.0</ele>
-    <name>216km Work Horse Bicycles</name>
+    <name>205km Work Horse Bicycles</name>
     <desc>OSM bike shop (node/12479955701); opening_hours=Su-Mo 10:00-17:00; Tu-Fr 10:00-18:00; Sa 09:00-18:00; operator=Work Horse Bicycles; phone=+1-831-375-2144; website=https://www.workhorsebicycles.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="36.597559" lon="-121.894356">
     <ele>4.0</ele>
-    <name>216km (drinking water)</name>
+    <name>205km (drinking water)</name>
     <desc>OSM drinking water (node/8816324731); access=yes</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.596504" lon="-121.894577">
     <ele>5.0</ele>
-    <name>216km Trader Joe's</name>
+    <name>205km Trader Joe's</name>
     <desc>OSM supermarket (node/1648518457); opening_hours=Mo-Su 08:00-21:00; phone=+1 831-372-2010; website=https://locations.traderjoes.com/ca/monterey/204/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.595593" lon="-121.892483">
     <ele>10.0</ele>
-    <name>216km Chevron</name>
+    <name>205km Chevron</name>
     <desc>OSM convenience (way/152297422); opening_hours=24/7; phone=+18316491060</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.595054" lon="-121.892552">
     <ele>9.0</ele>
-    <name>216km Shell</name>
+    <name>205km Shell</name>
     <desc>OSM convenience (way/152304260); opening_hours=24/7; website=https://find.shell.com/us/fuel/13254928-398-fremont-st/en_US</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.583431" lon="-121.900318">
     <ele>68.0</ele>
-    <name>218km Whole Foods Market</name>
+    <name>206km Whole Foods Market</name>
     <desc>OSM supermarket (way/151562346); opening_hours=Mo-Su 08:00-21:00; phone=+1 831-333-1600; website=https://www.wholefoodsmarket.com/stores/monterey</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.582806" lon="-121.901578">
     <ele>75.0</ele>
-    <name>218km 76</name>
+    <name>207km 76</name>
     <desc>OSM fuel+shop (way/255070784); website=https://www.76.com/station/U76-UNITED-PACIFIC-5686-0000880495/</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.556671" lon="-121.921698">
     <ele>77.0</ele>
-    <name>223km Shell</name>
+    <name>211km Shell</name>
     <desc>OSM fuel+shop (node/12325161955)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.555969" lon="-121.919810">
     <ele>75.0</ele>
-    <name>223km Brunos Market &amp; Deli</name>
+    <name>211km Brunos Market &amp; Deli</name>
     <desc>OSM supermarket (node/6298322297); opening_hours=Mo-Su 09:00-21:00</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="36.555583" lon="-121.920274">
-    <ele>73.0</ele>
-    <name>223km Devendorf Park Public Restroom</name>
-    <desc>OSM toilets (node/4977622305); access=yes; description=toilettes très confortables, bien entretenues; opening_hours=24/7</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
   <wpt lat="36.555866" lon="-121.923937">
-    <ele>64.0</ele>
-    <name>223km First Murphy Park Public Restroom</name>
+    <ele>74.0</ele>
+    <name>211km First Murphy Park Public Restroom</name>
     <desc>OSM toilets (node/2285896087)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="36.554442" lon="-121.922962">
-    <ele>66.0</ele>
-    <name>224km Picadilly Park Public Restroom</name>
-    <desc>OSM toilets (node/9070946802); access=yes</desc>
+  <wpt lat="36.555583" lon="-121.920274">
+    <ele>73.0</ele>
+    <name>211km Devendorf Park Public Restroom</name>
+    <desc>OSM toilets (node/4977622305); access=yes; description=toilettes très confortables, bien entretenues; opening_hours=24/7</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.553958" lon="-121.921618">
     <ele>66.0</ele>
-    <name>224km Nielsen Bros. Market</name>
+    <name>211km Nielsen Bros. Market</name>
     <desc>OSM supermarket (node/8780157617); opening_hours=Mo-Su 08:00-19:00; website=https://nielsenbros.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.554117" lon="-121.920425">
     <ele>66.0</ele>
-    <name>224km Carmel Plaza Public Restroom</name>
+    <name>211km Carmel Plaza Public Restroom</name>
     <desc>OSM toilets (node/597552209)</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="36.554442" lon="-121.922962">
+    <ele>67.0</ele>
+    <name>211km Picadilly Park Public Restroom</name>
+    <desc>OSM toilets (node/9070946802); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.542288" lon="-121.919925">
     <ele>10.0</ele>
-    <name>225km (toilets)</name>
+    <name>213km (toilets)</name>
     <desc>OSM toilets (way/1498945564); access=customers</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="36.542609" lon="-121.905710">
-    <ele>0.0</ele>
-    <name>226km Lucky</name>
-    <desc>OSM supermarket (node/4917628775)</desc>
-    <sym>Shopping Center</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="36.539185" lon="-121.908928">
-    <ele>0.0</ele>
-    <name>226km Chevron</name>
-    <desc>OSM convenience (way/224448033)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="36.537788" lon="-121.907659">
-    <ele>0.0</ele>
-    <name>226km (fuel+shop)</name>
-    <desc>OSM fuel+shop (node/3947003375)</desc>
-    <sym>Gas Station</sym>
-    <type>food</type>
-  </wpt>
   <wpt lat="36.536433" lon="-121.911214">
     <ele>6.0</ele>
-    <name>226km Safeway</name>
+    <name>214km Safeway</name>
     <desc>OSM supermarket (way/254303342); opening_hours=24/7; phone=+1 831-625-8820; website=https://local.safeway.com/safeway/ca/carmel/5-crossroads-blvd.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.521918" lon="-121.928893">
     <ele>10.0</ele>
-    <name>231km (toilets)</name>
+    <name>216km (toilets)</name>
     <desc>OSM toilets (way/960862652); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.515748" lon="-121.938288">
-    <ele>32.0</ele>
-    <name>232km (toilets)</name>
+    <ele>34.0</ele>
+    <name>217km (toilets)</name>
     <desc>OSM toilets (node/1477256998)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.515768" lon="-121.938082">
-    <ele>31.0</ele>
-    <name>232km (drinking water)</name>
+    <ele>34.0</ele>
+    <name>217km (drinking water)</name>
     <desc>OSM drinking water (node/1777573351)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="36.520429" lon="-121.940883">
-    <ele>27.0</ele>
-    <name>232km (drinking water)</name>
-    <desc>OSM drinking water (node/1777573352)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="36.519055" lon="-121.949417">
-    <ele>21.0</ele>
-    <name>233km (drinking water)</name>
-    <desc>OSM drinking water (node/1777573356)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="36.515244" lon="-121.946699">
-    <ele>4.0</ele>
-    <name>234km (toilets)</name>
-    <desc>OSM toilets (node/1676362151)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
-  <wpt lat="36.515295" lon="-121.946718">
-    <ele>4.0</ele>
-    <name>234km (drinking water)</name>
-    <desc>OSM drinking water (node/1676363407)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="36.515811" lon="-121.946332">
-    <ele>7.0</ele>
-    <name>234km (drinking water)</name>
-    <desc>OSM drinking water (node/1777573355)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.510732" lon="-121.941021">
     <ele>40.0</ele>
-    <name>236km (drinking water)</name>
+    <name>218km (drinking water)</name>
     <desc>OSM drinking water (node/1777573354)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.509828" lon="-121.941096">
     <ele>39.0</ele>
-    <name>236km (drinking water)</name>
+    <name>218km (drinking water)</name>
     <desc>OSM drinking water (node/1990951605)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.505332" lon="-121.936218">
     <ele>43.0</ele>
-    <name>237km Carmel Highlands General Store</name>
+    <name>218km Carmel Highlands General Store</name>
     <desc>OSM convenience (node/12197916888)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.454333" lon="-121.923047">
     <ele>26.0</ele>
-    <name>243km (toilets)</name>
+    <name>225km (toilets)</name>
     <desc>OSM toilets (node/6290440237)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.384800" lon="-121.902700">
-    <ele>34.0</ele>
-    <name>252km HAZARD Rocky Creek Bridge - one-way signal control</name>
+    <ele>61.0</ele>
+    <name>233km HAZARD Rocky Creek Bridge - one-way signal control</name>
     <desc>Caltrans one-way, signal-controlled traffic control at Rocky Creek Bridge, running 24/7 through 31 August 2026, with delays up to 15 minutes. You will be held here. Expect to share a single lane with released traffic - take the lane, do not let a queue pass you inside the control. Check QuickMap the morning you ride. SRC Caltrans D5 / Big Sur Chamber Highway 1 conditions, Aug 2026</desc>
     <sym>Danger Area</sym>
     <type>hazard</type>
   </wpt>
-  <wpt lat="36.306495" lon="-121.897085">
-    <ele>6.0</ele>
-    <name>264km (toilets)</name>
-    <desc>OSM toilets (node/5769233293); access=yes; fee=no</desc>
+  <wpt lat="36.305654" lon="-121.885631">
+    <ele>46.0</ele>
+    <name>244km (toilets)</name>
+    <desc>OSM toilets (node/8716059301)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="36.305654" lon="-121.885631">
-    <ele>46.0</ele>
-    <name>267km (toilets)</name>
-    <desc>OSM toilets (node/8716059301)</desc>
+  <wpt lat="36.287241" lon="-121.851554">
+    <ele>33.0</ele>
+    <name>248km (toilets)</name>
+    <desc>OSM toilets (way/263316166)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.286965" lon="-121.850328">
     <ele>33.0</ele>
-    <name>270km Trail Camp</name>
+    <name>248km Trail Camp</name>
     <desc>OSM campground (way/45676457); operator=Andrew Molera State Park</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.287594" lon="-121.849882">
     <ele>33.0</ele>
-    <name>270km (toilets)</name>
+    <name>248km (toilets)</name>
     <desc>OSM toilets (way/263316161)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
-  <wpt lat="36.287241" lon="-121.851554">
-    <ele>33.0</ele>
-    <name>270km (toilets)</name>
-    <desc>OSM toilets (way/263316166)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.287251" lon="-121.843468">
     <ele>33.0</ele>
-    <name>271km (toilets)</name>
+    <name>248km (toilets)</name>
     <desc>OSM toilets (node/3275024628); description=Two individual huts containing restrooms.</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.287165" lon="-121.843440">
     <ele>33.0</ele>
-    <name>271km (drinking water)</name>
+    <name>248km (drinking water)</name>
     <desc>OSM drinking water (node/2330797150)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.279650" lon="-121.830950">
-    <ele>28.0</ele>
-    <name>273km Andrew Molera SP (walk-in camping)</name>
-    <desc>Walk-in sites 0.5 km from the car park, 22 km north of Limekiln's latitude. Rougher than Pfeiffer, no showers. VERIFY it is open - Molera has had long closures.</desc>
+    <ele>36.0</ele>
+    <name>250km Andrew Molera SP (walk-in camping)</name>
+    <desc>Walk-in sites 0.5 km from the car park, north of Big Sur Village. Rougher than Pfeiffer, no showers. VERIFY it is open - Molera has had long closures.</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.271028" lon="-121.808677">
     <ele>53.0</ele>
-    <name>275km (fuel+shop)</name>
+    <name>252km (fuel+shop)</name>
     <desc>OSM fuel+shop (node/12362743734)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="36.270640" lon="-121.808490">
-    <ele>48.0</ele>
-    <name>275km SERVICES Big Sur Village (last real resupply)</name>
-    <desc>The River Inn / Ripplewood / Fernwood cluster, with a general store and delis over about 1 km of Highway 1. THE last dense resupply before a very thin 90 km. Fill everything here. Hours are seasonal and early-closing - VERIFY on the day.</desc>
-    <sym>Convenience Store</sym>
-    <type>services</type>
-  </wpt>
   <wpt lat="36.270320" lon="-121.808367">
     <ele>52.0</ele>
-    <name>275km (convenience)</name>
+    <name>252km (convenience)</name>
     <desc>OSM convenience (node/1857478531)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="36.270640" lon="-121.808490">
+    <ele>48.0</ele>
+    <name>252km SERVICES Big Sur Village (last real resupply)</name>
+    <desc>The River Inn / Ripplewood / Fernwood cluster, with a general store and delis over about 1 km of Highway 1. THE last dense resupply before a very thin 90 km. Fill everything here. Hours are seasonal and early-closing - VERIFY on the day.</desc>
+    <sym>Convenience Store</sym>
+    <type>services</type>
+  </wpt>
   <wpt lat="36.266533" lon="-121.806124">
     <ele>74.0</ele>
-    <name>276km Big Sur Campground &amp; Cabins</name>
+    <name>253km Big Sur Campground &amp; Cabins</name>
     <desc>OSM campground (way/731899573); access=yes; fee=yes; phone=+1 831-667-2322; reservation=yes; website=https://www.bigsurcamp.com/</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.265817" lon="-121.804189">
     <ele>74.0</ele>
-    <name>276km Riverside Campground &amp; Cabins</name>
+    <name>253km Riverside Campground &amp; Cabins</name>
     <desc>OSM campground (node/1183479128); access=customers; phone=+1-831-667-2414; website=https://www.riversidecampground.com/</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.264697" lon="-121.801437">
     <ele>75.0</ele>
-    <name>276km Chevron</name>
+    <name>253km Chevron</name>
     <desc>OSM fuel+shop (node/2618477621)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="36.260292" lon="-121.793459">
+    <ele>83.0</ele>
+    <name>254km Fernwood Camp</name>
+    <desc>OSM campground (way/262005540); access=private</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
   <wpt lat="36.260861" lon="-121.793318">
     <ele>82.0</ele>
-    <name>277km (convenience)</name>
+    <name>254km (convenience)</name>
     <desc>OSM convenience (node/2618506395); opening_hours=Mo-Su 08:00-22:00</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.260527" lon="-121.793683">
     <ele>82.0</ele>
-    <name>277km (toilets)</name>
+    <name>254km (toilets)</name>
     <desc>OSM toilets (way/262005560)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="36.260292" lon="-121.793459">
-    <ele>83.0</ele>
-    <name>277km Fernwood Camp</name>
-    <desc>OSM campground (way/262005540); access=private</desc>
-    <sym>Campground</sym>
-    <type>camp</type>
-  </wpt>
   <wpt lat="36.259589" lon="-121.792926">
     <ele>84.0</ele>
-    <name>277km (toilets)</name>
+    <name>254km (toilets)</name>
     <desc>OSM toilets (way/262005558)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="36.250759" lon="-121.782663">
-    <ele>108.0</ele>
-    <name>279km (toilets)</name>
-    <desc>OSM toilets (way/810636210)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
   <wpt lat="36.253310" lon="-121.783300">
-    <ele>154.0</ele>
-    <name>279km Pfeiffer Big Sur SP - short-day fallback</name>
-    <desc>In Big Sur Village, 55 km SHORT of Limekiln (day 1 becomes 282 km). The fallback if the light goes or the legs do. Full facilities, water, showers, and stores within walking distance. Also the sane place to stop rather than descend the Big Sur cliffs after dark.</desc>
+    <ele>90.0</ele>
+    <name>255km Pfeiffer Big Sur SP - short-day fallback</name>
+    <desc>In Big Sur Village, ~41 km SHORT of Limekiln (day 1 becomes 256 km - see pch_day1_alt_pfeiffer.gpx). The fallback if the light goes or the legs do. Full facilities, water, showers, and stores within walking distance. Also the sane place to stop rather than descend the Big Sur cliffs after dark.</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.250656" lon="-121.786220">
     <ele>90.0</ele>
-    <name>280km (convenience)</name>
+    <name>256km (convenience)</name>
     <desc>OSM convenience (node/2618588520)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.250300" lon="-121.784954">
     <ele>94.0</ele>
-    <name>280km (drinking water)</name>
+    <name>256km (drinking water)</name>
     <desc>OSM drinking water (node/9196009189)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
-  <wpt lat="36.250560" lon="-121.781755">
-    <ele>109.0</ele>
-    <name>280km (toilets)</name>
-    <desc>OSM toilets (way/810636211)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
   <wpt lat="36.250422" lon="-121.782854">
     <ele>106.0</ele>
-    <name>280km (drinking water)</name>
+    <name>256km (drinking water)</name>
     <desc>OSM drinking water (node/9195989680)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.249491" lon="-121.781741">
     <ele>106.0</ele>
-    <name>280km Hike &amp; Bike. Pfeiffer Big Sur Campground</name>
+    <name>256km Hike &amp; Bike. Pfeiffer Big Sur Campground</name>
     <desc>OSM campground (node/6532837187); opening_hours=24/7</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
-  <wpt lat="36.249472" lon="-121.781360">
-    <ele>106.0</ele>
-    <name>280km Pfeiffer</name>
-    <desc>OSM toilets (node/6532837188); opening_hours=24/7; operator=Pfeiffer</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
   <wpt lat="36.247794" lon="-121.781122">
-    <ele>99.0</ele>
-    <name>281km (toilets)</name>
+    <ele>106.0</ele>
+    <name>256km (toilets)</name>
     <desc>OSM toilets (node/12947478413)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.247980" lon="-121.781290">
-    <ele>99.0</ele>
-    <name>281km SERVICES Big Sur Station (ranger station, water)</name>
+    <ele>108.0</ele>
+    <name>256km SERVICES Big Sur Station (ranger station, water)</name>
     <desc>USFS/State Parks multi-agency station just south of Pfeiffer Big Sur. Water and toilets, and the people who actually know today's road status.</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.246092" lon="-121.780574">
     <ele>113.0</ele>
-    <name>281km (toilets)</name>
+    <name>256km (toilets)</name>
     <desc>OSM toilets (node/2618588435)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.246123" lon="-121.779904">
     <ele>113.0</ele>
-    <name>281km (drinking water)</name>
+    <name>256km (drinking water)</name>
     <desc>OSM drinking water (node/2676601975)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.246206" lon="-121.777768">
     <ele>132.0</ele>
-    <name>281km (campground)</name>
+    <name>256km (campground)</name>
     <desc>OSM campground (node/4240755689)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.245468" lon="-121.777322">
     <ele>147.0</ele>
-    <name>281km Pfeiffer Big Sur</name>
+    <name>257km Pfeiffer Big Sur</name>
     <desc>OSM campground (way/237314510)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.235931" lon="-121.769112">
     <ele>233.0</ele>
-    <name>282km Shell</name>
+    <name>258km Shell</name>
     <desc>OSM fuel+shop (node/973617725); operator=Shell</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="36.231392" lon="-121.759989">
     <ele>290.0</ele>
-    <name>283km Ventana Campground</name>
+    <name>259km Ventana Campground</name>
     <desc>OSM campground (way/1226974145); phone=+1-855-391-8683; website=https://www.ventanacamping.com/</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
+  <wpt lat="36.230861" lon="-121.762761">
+    <ele>290.0</ele>
+    <name>259km (toilets)</name>
+    <desc>OSM toilets (node/11377945897); access=customers</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
   <wpt lat="36.221810" lon="-121.759660">
-    <ele>225.0</ele>
-    <name>284km SERVICES Nepenthe / Cafe Kevah</name>
+    <ele>232.0</ele>
+    <name>260km SERVICES Nepenthe / Cafe Kevah</name>
     <desc>Cliff-top restaurant 4 km south of Big Sur Station. Expensive, but it is food and water on a stretch that offers neither.</desc>
     <sym>Restaurant</sym>
     <type>services</type>
   </wpt>
   <wpt lat="36.203654" lon="-121.716596">
     <ele>175.0</ele>
-    <name>290km (campground)</name>
+    <name>266km (campground)</name>
     <desc>OSM campground (node/8796733508)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
-  <wpt lat="36.159820" lon="-121.668941">
-    <ele>94.0</ele>
-    <name>298km (toilets)</name>
-    <desc>OSM toilets (node/2261970596)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
   <wpt lat="36.159795" lon="-121.668898">
-    <ele>94.0</ele>
-    <name>298km (drinking water)</name>
+    <ele>80.0</ele>
+    <name>273km (drinking water)</name>
     <desc>OSM drinking water (node/10902819187)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.156827" lon="-121.671809">
     <ele>74.0</ele>
-    <name>302km (campground)</name>
+    <name>273km (campground)</name>
     <desc>OSM campground (node/713921822)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
+  <wpt lat="36.156560" lon="-121.671517">
+    <ele>70.0</ele>
+    <name>273km (toilets)</name>
+    <desc>OSM toilets (node/2261970558)</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
   <wpt lat="36.150000" lon="-121.650000">
     <ele>96.0</ele>
-    <name>304km HAZARD Big Sur - no cell signal, no bike shop, no exit</name>
+    <name>275km HAZARD Big Sur - no cell signal, no bike shop, no exit</name>
     <desc>From Carmel to Cambria there is no bike shop, no hospital, no transit and long stretches with no cell signal. A destroyed rear wheel here is a hitch-hike, not a phone call. Carry: 2 tubes, patches, a boot, a spare quick-link, a derailleur hanger, and enough water for 60 km.</desc>
     <sym>Danger Area</sym>
     <type>hazard</type>
   </wpt>
   <wpt lat="36.077032" lon="-121.591787">
     <ele>32.0</ele>
-    <name>315km Redwood Camp</name>
+    <name>286km Redwood Camp</name>
     <desc>OSM campground (node/3216479552)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.055952" lon="-121.589518">
     <ele>82.0</ele>
-    <name>316km Free Camping. Sunset - Sunrise</name>
+    <name>287km Free Camping. Sunset - Sunrise</name>
     <desc>OSM campground (node/6532838285); opening_hours=24/7</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
+  <wpt lat="36.020790" lon="-121.550500">
+    <ele>112.0</ele>
+    <name>294km INFO Wild camping - where it is actually legal here</name>
+    <desc>If you are stopping where you like rather than booking: dispersed camping on LOS PADRES NATIONAL FOREST land is allowed and needs no permit. The catch is geography - the strip immediately along Highway 1 through Big Sur is mostly state park or private ranch, where it is prohibited; the National Forest land (Ventana and Silver Peak Wilderness) is largely EAST of the highway and uphill, so it means getting off CA-1 and climbing. CAMPFIRES ARE BANNED until 31 Jan 2027 under a Forest Order effective 4 Jun 2026, across Los Padres including Ventana and Silver Peak; a stove is fine with a free California Campfire Permit. August is peak fire season and restrictions tighten at short notice - check before you go. Position is nominal, it applies to the whole Big Sur stretch. SRC fs.usda.gov/r05/lospadres fire-use restrictions</desc>
+    <sym>Flag, Blue</sym>
+    <type>info</type>
+  </wpt>
   <wpt lat="36.020610" lon="-121.549260">
     <ele>124.0</ele>
-    <name>323km Lucia Lodge (10 rooms/cabins)</name>
-    <desc>3.6 km NORTH of Limekiln on the cliff - the indoor option closest to the ideal stopping point, and the shortest day 1 of the indoor set (323 km). Ten rooms/cabins only, so it books out. Restaurant on site.</desc>
+    <name>294km Lucia Lodge (10 rooms/cabins)</name>
+    <desc>3.6 km NORTH of Limekiln on the cliff - the indoor option closest to the ideal stopping point. Ten rooms/cabins only, so it books out. Restaurant on site.</desc>
     <sym>Lodging</sym>
     <type>lodging</type>
   </wpt>
   <wpt lat="36.020610" lon="-121.549260">
     <ele>124.0</ele>
-    <name>323km SERVICES Lucia Lodge restaurant</name>
+    <name>294km SERVICES Lucia Lodge restaurant</name>
     <desc>3.6 km before Limekiln - the practical place to eat before camping, because Limekiln has no store. Seasonal hours; VERIFY.</desc>
     <sym>Restaurant</sym>
     <type>services</type>
   </wpt>
   <wpt lat="36.009276" lon="-121.518805">
     <ele>28.0</ele>
-    <name>326km (toilets)</name>
+    <name>297km (toilets)</name>
     <desc>OSM toilets (way/796353595)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.010023" lon="-121.518095">
     <ele>36.0</ele>
-    <name>326km Limekiln State Park Campground</name>
+    <name>297km Limekiln State Park Campground</name>
     <desc>OSM campground (way/222438819); fee=yes</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="36.010590" lon="-121.518541">
     <ele>31.0</ele>
-    <name>326km (toilets)</name>
+    <name>297km (toilets)</name>
     <desc>OSM toilets (node/9454049966)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="36.010526" lon="-121.518493">
     <ele>31.0</ele>
-    <name>326km (drinking water)</name>
+    <name>297km (drinking water)</name>
     <desc>OSM drinking water (node/4581447538)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="36.009980" lon="-121.518350">
     <ele>30.0</ele>
-    <name>326km Limekiln SP - NIGHT 1 (hike/bike $5)</name>
-    <desc>THE NIGHT 1 TARGET. Reopened to camping 1 Apr 2026 after the Highway 1 slide closures. Hike/bike site $5/night; you must arrive on foot or by bike (no vehicle) and may stay a maximum of 2 consecutive nights. Fresh water, token hot showers ($1 / 5 min), toilets. Check-in 14:00, check-out 12:00. Sites 1-29 (Beach 1-12, Redwood 13-29). CRITICAL: California State Parks states 'Reservations are strongly encouraged for all campsites. There are no first-come, first-served campsites.' Do NOT plan to walk up. ReserveCalifornia 800-444-7275. SRC parks.ca.gov/?page_id=31154</desc>
+    <name>297km Limekiln SP - NIGHT 1 (hike/bike $5)</name>
+    <desc>NIGHT 1 (if booking rather than camping wild). Reopened to camping 1 Apr 2026 after the Highway 1 slide closures. Hike/bike site $5/night; you must arrive on foot or by bike (no vehicle) and may stay a maximum of 2 consecutive nights. Fresh water, token hot showers ($1 / 5 min), toilets. Check-in 14:00, check-out 12:00. Sites 1-29 (Beach 1-12, Redwood 13-29). CRITICAL: California State Parks states 'Reservations are strongly encouraged for all campsites. There are no first-come, first-served campsites.' Do NOT plan to walk up. ReserveCalifornia 800-444-7275. SRC parks.ca.gov/?page_id=31154</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
@@ -2990,11 +2871,6 @@
      <trkpt lat="37.760265" lon="-122.509834"><ele>7.2</ele></trkpt>
      <trkpt lat="37.736330" lon="-122.506725"><ele>7.8</ele></trkpt>
      <trkpt lat="37.735384" lon="-122.506697"><ele>7.2</ele></trkpt>
-     <trkpt lat="37.735401" lon="-122.505584"><ele>6.2</ele></trkpt>
-     <trkpt lat="37.734917" lon="-122.505638"><ele>5.8</ele></trkpt>
-     <trkpt lat="37.734952" lon="-122.505826"><ele>5.8</ele></trkpt>
-     <trkpt lat="37.734917" lon="-122.505638"><ele>5.8</ele></trkpt>
-     <trkpt lat="37.735336" lon="-122.505583"><ele>6.0</ele></trkpt>
      <trkpt lat="37.735361" lon="-122.506843"><ele>6.2</ele></trkpt>
      <trkpt lat="37.734969" lon="-122.506848"><ele>5.5</ele></trkpt>
      <trkpt lat="37.733160" lon="-122.507203"><ele>3.5</ele></trkpt>
@@ -3016,17 +2892,9 @@
      <trkpt lat="37.720823" lon="-122.500672"><ele>24.2</ele></trkpt>
      <trkpt lat="37.720591" lon="-122.500557"><ele>22.8</ele></trkpt>
      <trkpt lat="37.720084" lon="-122.500404"><ele>20.5</ele></trkpt>
-     <trkpt lat="37.719073" lon="-122.500335"><ele>22.8</ele></trkpt>
-     <trkpt lat="37.719043" lon="-122.500075"><ele>21.8</ele></trkpt>
-     <trkpt lat="37.719096" lon="-122.499857"><ele>21.2</ele></trkpt>
-     <trkpt lat="37.719502" lon="-122.499988"><ele>18.8</ele></trkpt>
-     <trkpt lat="37.720224" lon="-122.500128"><ele>17.8</ele></trkpt>
-     <trkpt lat="37.719502" lon="-122.499988"><ele>18.8</ele></trkpt>
-     <trkpt lat="37.719096" lon="-122.499857"><ele>21.2</ele></trkpt>
-     <trkpt lat="37.719043" lon="-122.500075"><ele>21.8</ele></trkpt>
-     <trkpt lat="37.719073" lon="-122.500335"><ele>22.8</ele></trkpt>
-     <trkpt lat="37.718152" lon="-122.500268"><ele>29.5</ele></trkpt>
-     <trkpt lat="37.717877" lon="-122.500207"><ele>32.5</ele></trkpt>
+     <trkpt lat="37.718436" lon="-122.500298"><ele>26.5</ele></trkpt>
+     <trkpt lat="37.718014" lon="-122.500243"><ele>31.0</ele></trkpt>
+     <trkpt lat="37.717746" lon="-122.500159"><ele>33.8</ele></trkpt>
      <trkpt lat="37.717229" lon="-122.499884"><ele>38.2</ele></trkpt>
      <trkpt lat="37.715753" lon="-122.498787"><ele>46.8</ele></trkpt>
      <trkpt lat="37.715170" lon="-122.498535"><ele>49.8</ele></trkpt>
@@ -3149,12 +3017,11 @@
      <trkpt lat="37.619257" lon="-122.486361"><ele>16.8</ele></trkpt>
      <trkpt lat="37.619212" lon="-122.486407"><ele>17.0</ele></trkpt>
      <trkpt lat="37.619101" lon="-122.486361"><ele>18.2</ele></trkpt>
-     <trkpt lat="37.618529" lon="-122.485784"><ele>25.8</ele></trkpt>
-     <trkpt lat="37.618442" lon="-122.485644"><ele>27.0</ele></trkpt>
-     <trkpt lat="37.618235" lon="-122.485469"><ele>30.5</ele></trkpt>
-     <trkpt lat="37.616957" lon="-122.485474"><ele>43.0</ele></trkpt>
+     <trkpt lat="37.618274" lon="-122.485488"><ele>29.8</ele></trkpt>
+     <trkpt lat="37.617817" lon="-122.485446"><ele>37.8</ele></trkpt>
+     <trkpt lat="37.616518" lon="-122.485519"><ele>40.8</ele></trkpt>
      <trkpt lat="37.616152" lon="-122.485604"><ele>36.0</ele></trkpt>
-     <trkpt lat="37.615396" lon="-122.485930"><ele>30.2</ele></trkpt>
+     <trkpt lat="37.615586" lon="-122.485827"><ele>31.0</ele></trkpt>
      <trkpt lat="37.614699" lon="-122.486395"><ele>28.0</ele></trkpt>
      <trkpt lat="37.614409" lon="-122.486679"><ele>26.2</ele></trkpt>
      <trkpt lat="37.613986" lon="-122.487205"><ele>24.2</ele></trkpt>
@@ -3208,11 +3075,11 @@
      <trkpt lat="37.604965" lon="-122.499027"><ele>35.5</ele></trkpt>
      <trkpt lat="37.604823" lon="-122.499230"><ele>33.2</ele></trkpt>
      <trkpt lat="37.604729" lon="-122.499630"><ele>30.2</ele></trkpt>
-     <trkpt lat="37.604688" lon="-122.499619"><ele>29.8</ele></trkpt>
-     <trkpt lat="37.604666" lon="-122.499548"><ele>29.2</ele></trkpt>
-     <trkpt lat="37.604663" lon="-122.499202"><ele>26.8</ele></trkpt>
-     <trkpt lat="37.604516" lon="-122.499065"><ele>25.2</ele></trkpt>
-     <trkpt lat="37.603069" lon="-122.498719"><ele>13.8</ele></trkpt>
+     <trkpt lat="37.604671" lon="-122.499578"><ele>29.5</ele></trkpt>
+     <trkpt lat="37.604668" lon="-122.499232"><ele>27.0</ele></trkpt>
+     <trkpt lat="37.604636" lon="-122.499147"><ele>26.0</ele></trkpt>
+     <trkpt lat="37.604366" lon="-122.499014"><ele>23.0</ele></trkpt>
+     <trkpt lat="37.602368" lon="-122.498596"><ele>10.8</ele></trkpt>
      <trkpt lat="37.602110" lon="-122.498566"><ele>10.8</ele></trkpt>
      <trkpt lat="37.601539" lon="-122.498676"><ele>10.5</ele></trkpt>
      <trkpt lat="37.601316" lon="-122.499105"><ele>7.8</ele></trkpt>
@@ -3220,17 +3087,10 @@
      <trkpt lat="37.600671" lon="-122.499320"><ele>8.0</ele></trkpt>
      <trkpt lat="37.600401" lon="-122.499457"><ele>7.8</ele></trkpt>
      <trkpt lat="37.600181" lon="-122.499635"><ele>6.5</ele></trkpt>
-     <trkpt lat="37.599709" lon="-122.500168"><ele>5.8</ele></trkpt>
-     <trkpt lat="37.599667" lon="-122.500148"><ele>5.8</ele></trkpt>
-     <trkpt lat="37.599492" lon="-122.500251"><ele>5.5</ele></trkpt>
-     <trkpt lat="37.599401" lon="-122.500101"><ele>5.2</ele></trkpt>
-     <trkpt lat="37.599471" lon="-122.500023"><ele>5.2</ele></trkpt>
-     <trkpt lat="37.598808" lon="-122.498946"><ele>7.5</ele></trkpt>
-     <trkpt lat="37.598406" lon="-122.499315"><ele>5.2</ele></trkpt>
-     <trkpt lat="37.598174" lon="-122.499646"><ele>4.2</ele></trkpt>
-     <trkpt lat="37.598406" lon="-122.499315"><ele>5.2</ele></trkpt>
-     <trkpt lat="37.598808" lon="-122.498946"><ele>7.5</ele></trkpt>
-     <trkpt lat="37.599407" lon="-122.499920"><ele>5.0</ele></trkpt>
+     <trkpt lat="37.599709" lon="-122.500168"><ele>5.5</ele></trkpt>
+     <trkpt lat="37.599667" lon="-122.500148"><ele>5.2</ele></trkpt>
+     <trkpt lat="37.599492" lon="-122.500251"><ele>5.0</ele></trkpt>
+     <trkpt lat="37.599338" lon="-122.499998"><ele>4.8</ele></trkpt>
      <trkpt lat="37.598360" lon="-122.501086"><ele>2.2</ele></trkpt>
      <trkpt lat="37.595894" lon="-122.503647"><ele>1.5</ele></trkpt>
      <trkpt lat="37.595944" lon="-122.503840"><ele>1.2</ele></trkpt>
@@ -3245,30 +3105,31 @@
      <trkpt lat="37.590105" lon="-122.503939"><ele>54.2</ele></trkpt>
      <trkpt lat="37.589882" lon="-122.504051"><ele>56.5</ele></trkpt>
      <trkpt lat="37.589711" lon="-122.504184"><ele>57.5</ele></trkpt>
-     <trkpt lat="37.588778" lon="-122.505180"><ele>80.0</ele></trkpt>
-     <trkpt lat="37.588518" lon="-122.505322"><ele>82.8</ele></trkpt>
-     <trkpt lat="37.588259" lon="-122.505372"><ele>83.5</ele></trkpt>
-     <trkpt lat="37.587966" lon="-122.505326"><ele>84.0</ele></trkpt>
+     <trkpt lat="37.588885" lon="-122.505088"><ele>77.5</ele></trkpt>
+     <trkpt lat="37.588623" lon="-122.505278"><ele>82.0</ele></trkpt>
+     <trkpt lat="37.588380" lon="-122.505359"><ele>83.0</ele></trkpt>
+     <trkpt lat="37.588103" lon="-122.505360"><ele>84.0</ele></trkpt>
      <trkpt lat="37.587733" lon="-122.505206"><ele>82.5</ele></trkpt>
      <trkpt lat="37.586928" lon="-122.504462"><ele>74.8</ele></trkpt>
      <trkpt lat="37.586618" lon="-122.504265"><ele>74.2</ele></trkpt>
      <trkpt lat="37.586225" lon="-122.504223"><ele>75.0</ele></trkpt>
-     <trkpt lat="37.585954" lon="-122.504324"><ele>78.0</ele></trkpt>
-     <trkpt lat="37.585659" lon="-122.504606"><ele>78.0</ele></trkpt>
-     <trkpt lat="37.585502" lon="-122.504924"><ele>78.0</ele></trkpt>
+     <trkpt lat="37.585848" lon="-122.504400"><ele>79.5</ele></trkpt>
+     <trkpt lat="37.585583" lon="-122.504729"><ele>77.8</ele></trkpt>
+     <trkpt lat="37.585465" lon="-122.505043"><ele>78.5</ele></trkpt>
      <trkpt lat="37.584939" lon="-122.507579"><ele>98.2</ele></trkpt>
      <trkpt lat="37.584992" lon="-122.507612"><ele>100.8</ele></trkpt>
      <trkpt lat="37.585024" lon="-122.507719"><ele>103.2</ele></trkpt>
      <trkpt lat="37.584965" lon="-122.508368"><ele>107.2</ele></trkpt>
      <trkpt lat="37.585015" lon="-122.508766"><ele>109.5</ele></trkpt>
      <trkpt lat="37.585309" lon="-122.509873"><ele>117.5</ele></trkpt>
-     <trkpt lat="37.585433" lon="-122.510442"><ele>120.8</ele></trkpt>
-     <trkpt lat="37.585450" lon="-122.510680"><ele>121.0</ele></trkpt>
+     <trkpt lat="37.585446" lon="-122.510546"><ele>121.0</ele></trkpt>
      <trkpt lat="37.585185" lon="-122.514019"><ele>145.8</ele></trkpt>
      <trkpt lat="37.585077" lon="-122.514453"><ele>141.5</ele></trkpt>
-     <trkpt lat="37.584849" lon="-122.514849"><ele>140.5</ele></trkpt>
-     <trkpt lat="37.584553" lon="-122.515112"><ele>138.0</ele></trkpt>
-     <trkpt lat="37.584170" lon="-122.515224"><ele>137.5</ele></trkpt>
+     <trkpt lat="37.584913" lon="-122.514765"><ele>140.2</ele></trkpt>
+     <trkpt lat="37.584622" lon="-122.515068"><ele>139.0</ele></trkpt>
+     <trkpt lat="37.584400" lon="-122.515175"><ele>137.0</ele></trkpt>
+     <trkpt lat="37.583979" lon="-122.515224"><ele>136.2</ele></trkpt>
+     <trkpt lat="37.583388" lon="-122.515137"><ele>138.5</ele></trkpt>
      <trkpt lat="37.582709" lon="-122.515107"><ele>136.5</ele></trkpt>
      <trkpt lat="37.581606" lon="-122.515215"><ele>126.8</ele></trkpt>
      <trkpt lat="37.581419" lon="-122.515309"><ele>127.5</ele></trkpt>
@@ -3294,16 +3155,16 @@
      <trkpt lat="37.571846" lon="-122.516034"><ele>76.5</ele></trkpt>
      <trkpt lat="37.571602" lon="-122.515978"><ele>71.0</ele></trkpt>
      <trkpt lat="37.571080" lon="-122.516068"><ele>65.2</ele></trkpt>
-     <trkpt lat="37.570682" lon="-122.516197"><ele>52.5</ele></trkpt>
-     <trkpt lat="37.570603" lon="-122.516128"><ele>54.5</ele></trkpt>
+     <trkpt lat="37.570706" lon="-122.516198"><ele>53.0</ele></trkpt>
+     <trkpt lat="37.570637" lon="-122.516176"><ele>52.5</ele></trkpt>
+     <trkpt lat="37.570588" lon="-122.516072"><ele>57.8</ele></trkpt>
      <trkpt lat="37.570593" lon="-122.515934"><ele>66.2</ele></trkpt>
      <trkpt lat="37.570199" lon="-122.515815"><ele>66.2</ele></trkpt>
      <trkpt lat="37.569818" lon="-122.515608"><ele>67.5</ele></trkpt>
      <trkpt lat="37.568431" lon="-122.514404"><ele>55.2</ele></trkpt>
      <trkpt lat="37.567675" lon="-122.513893"><ele>47.2</ele></trkpt>
      <trkpt lat="37.565565" lon="-122.512983"><ele>32.5</ele></trkpt>
-     <trkpt lat="37.564692" lon="-122.512639"><ele>36.0</ele></trkpt>
-     <trkpt lat="37.564421" lon="-122.512581"><ele>39.5</ele></trkpt>
+     <trkpt lat="37.564554" lon="-122.512601"><ele>37.8</ele></trkpt>
      <trkpt lat="37.564047" lon="-122.512574"><ele>41.5</ele></trkpt>
      <trkpt lat="37.563632" lon="-122.512657"><ele>39.0</ele></trkpt>
      <trkpt lat="37.563102" lon="-122.512986"><ele>40.2</ele></trkpt>
@@ -3316,9 +3177,10 @@
      <trkpt lat="37.560178" lon="-122.513126"><ele>39.0</ele></trkpt>
      <trkpt lat="37.559887" lon="-122.513281"><ele>38.0</ele></trkpt>
      <trkpt lat="37.559773" lon="-122.513394"><ele>39.0</ele></trkpt>
-     <trkpt lat="37.559110" lon="-122.514349"><ele>28.2</ele></trkpt>
-     <trkpt lat="37.558842" lon="-122.514543"><ele>27.2</ele></trkpt>
-     <trkpt lat="37.558580" lon="-122.514629"><ele>27.8</ele></trkpt>
+     <trkpt lat="37.559238" lon="-122.514186"><ele>30.0</ele></trkpt>
+     <trkpt lat="37.558985" lon="-122.514461"><ele>28.2</ele></trkpt>
+     <trkpt lat="37.558710" lon="-122.514599"><ele>27.0</ele></trkpt>
+     <trkpt lat="37.558456" lon="-122.514627"><ele>29.5</ele></trkpt>
      <trkpt lat="37.558174" lon="-122.514570"><ele>29.0</ele></trkpt>
      <trkpt lat="37.557850" lon="-122.514393"><ele>25.8</ele></trkpt>
      <trkpt lat="37.557615" lon="-122.514158"><ele>25.5</ele></trkpt>
@@ -3326,108 +3188,41 @@
      <trkpt lat="37.556850" lon="-122.513238"><ele>32.8</ele></trkpt>
      <trkpt lat="37.556363" lon="-122.512983"><ele>34.8</ele></trkpt>
      <trkpt lat="37.555912" lon="-122.512862"><ele>34.0</ele></trkpt>
-     <trkpt lat="37.551840" lon="-122.512133"><ele>18.5</ele></trkpt>
+     <trkpt lat="37.550940" lon="-122.511980"><ele>17.5</ele></trkpt>
      <trkpt lat="37.550273" lon="-122.511905"><ele>16.8</ele></trkpt>
-     <trkpt lat="37.549388" lon="-122.511945"><ele>14.5</ele></trkpt>
+     <trkpt lat="37.549705" lon="-122.511907"><ele>15.5</ele></trkpt>
      <trkpt lat="37.548756" lon="-122.512092"><ele>12.2</ele></trkpt>
      <trkpt lat="37.548155" lon="-122.512312"><ele>10.5</ele></trkpt>
-     <trkpt lat="37.547546" lon="-122.512653"><ele>8.0</ele></trkpt>
-     <trkpt lat="37.545569" lon="-122.514015"><ele>15.5</ele></trkpt>
-     <trkpt lat="37.545261" lon="-122.513373"><ele>22.2</ele></trkpt>
-     <trkpt lat="37.544492" lon="-122.513502"><ele>29.2</ele></trkpt>
-     <trkpt lat="37.542326" lon="-122.508439"><ele>42.0</ele></trkpt>
-     <trkpt lat="37.542033" lon="-122.507824"><ele>47.0</ele></trkpt>
-     <trkpt lat="37.541828" lon="-122.507506"><ele>48.8</ele></trkpt>
-     <trkpt lat="37.541010" lon="-122.506400"><ele>50.8</ele></trkpt>
-     <trkpt lat="37.539352" lon="-122.502557"><ele>64.2</ele></trkpt>
-     <trkpt lat="37.542505" lon="-122.500436"><ele>83.0</ele></trkpt>
-     <trkpt lat="37.544162" lon="-122.499233"><ele>92.2</ele></trkpt>
-     <trkpt lat="37.544520" lon="-122.498267"><ele>94.2</ele></trkpt>
-     <trkpt lat="37.544501" lon="-122.497760"><ele>90.8</ele></trkpt>
-     <trkpt lat="37.544568" lon="-122.497526"><ele>90.8</ele></trkpt>
-     <trkpt lat="37.544714" lon="-122.497288"><ele>91.2</ele></trkpt>
-     <trkpt lat="37.545540" lon="-122.496272"><ele>93.5</ele></trkpt>
-     <trkpt lat="37.545709" lon="-122.495963"><ele>91.2</ele></trkpt>
-     <trkpt lat="37.545962" lon="-122.496161"><ele>96.2</ele></trkpt>
-     <trkpt lat="37.546386" lon="-122.496043"><ele>97.0</ele></trkpt>
-     <trkpt lat="37.547668" lon="-122.496609"><ele>107.5</ele></trkpt>
-     <trkpt lat="37.547791" lon="-122.496590"><ele>108.8</ele></trkpt>
-     <trkpt lat="37.548340" lon="-122.496319"><ele>112.8</ele></trkpt>
-     <trkpt lat="37.548599" lon="-122.496301"><ele>117.2</ele></trkpt>
-     <trkpt lat="37.549008" lon="-122.496051"><ele>120.2</ele></trkpt>
-     <trkpt lat="37.549417" lon="-122.495625"><ele>122.0</ele></trkpt>
-     <trkpt lat="37.549008" lon="-122.496051"><ele>120.2</ele></trkpt>
-     <trkpt lat="37.548599" lon="-122.496301"><ele>117.2</ele></trkpt>
-     <trkpt lat="37.548340" lon="-122.496319"><ele>112.8</ele></trkpt>
-     <trkpt lat="37.547791" lon="-122.496590"><ele>108.8</ele></trkpt>
-     <trkpt lat="37.547668" lon="-122.496609"><ele>107.5</ele></trkpt>
-     <trkpt lat="37.546386" lon="-122.496043"><ele>97.0</ele></trkpt>
-     <trkpt lat="37.545962" lon="-122.496161"><ele>96.2</ele></trkpt>
-     <trkpt lat="37.545709" lon="-122.495963"><ele>91.2</ele></trkpt>
-     <trkpt lat="37.545540" lon="-122.496272"><ele>93.5</ele></trkpt>
-     <trkpt lat="37.544714" lon="-122.497288"><ele>91.2</ele></trkpt>
-     <trkpt lat="37.544568" lon="-122.497526"><ele>90.8</ele></trkpt>
-     <trkpt lat="37.544501" lon="-122.497760"><ele>90.8</ele></trkpt>
-     <trkpt lat="37.544520" lon="-122.498267"><ele>94.2</ele></trkpt>
-     <trkpt lat="37.544162" lon="-122.499233"><ele>92.2</ele></trkpt>
-     <trkpt lat="37.542505" lon="-122.500436"><ele>83.0</ele></trkpt>
-     <trkpt lat="37.539352" lon="-122.502557"><ele>64.2</ele></trkpt>
-     <trkpt lat="37.539151" lon="-122.502046"><ele>61.0</ele></trkpt>
-     <trkpt lat="37.539101" lon="-122.501694"><ele>60.0</ele></trkpt>
-     <trkpt lat="37.539393" lon="-122.500495"><ele>60.0</ele></trkpt>
-     <trkpt lat="37.539387" lon="-122.500214"><ele>61.2</ele></trkpt>
-     <trkpt lat="37.539118" lon="-122.499632"><ele>67.8</ele></trkpt>
-     <trkpt lat="37.538998" lon="-122.499545"><ele>70.5</ele></trkpt>
-     <trkpt lat="37.538890" lon="-122.499543"><ele>72.2</ele></trkpt>
-     <trkpt lat="37.538683" lon="-122.499686"><ele>74.5</ele></trkpt>
-     <trkpt lat="37.538397" lon="-122.500350"><ele>78.0</ele></trkpt>
-     <trkpt lat="37.538294" lon="-122.500497"><ele>79.8</ele></trkpt>
-     <trkpt lat="37.538149" lon="-122.500585"><ele>80.8</ele></trkpt>
-     <trkpt lat="37.537985" lon="-122.500578"><ele>81.8</ele></trkpt>
-     <trkpt lat="37.537115" lon="-122.500259"><ele>88.2</ele></trkpt>
-     <trkpt lat="37.536527" lon="-122.500325"><ele>89.0</ele></trkpt>
-     <trkpt lat="37.536267" lon="-122.500427"><ele>88.0</ele></trkpt>
-     <trkpt lat="37.533902" lon="-122.502943"><ele>68.0</ele></trkpt>
-     <trkpt lat="37.533166" lon="-122.503645"><ele>66.0</ele></trkpt>
-     <trkpt lat="37.533063" lon="-122.503687"><ele>66.0</ele></trkpt>
-     <trkpt lat="37.532641" lon="-122.503650"><ele>63.8</ele></trkpt>
-     <trkpt lat="37.531558" lon="-122.503659"><ele>61.8</ele></trkpt>
-     <trkpt lat="37.530435" lon="-122.503862"><ele>57.2</ele></trkpt>
-     <trkpt lat="37.530109" lon="-122.503960"><ele>55.5</ele></trkpt>
-     <trkpt lat="37.529885" lon="-122.504091"><ele>54.2</ele></trkpt>
-     <trkpt lat="37.529428" lon="-122.504452"><ele>54.5</ele></trkpt>
-     <trkpt lat="37.529284" lon="-122.504635"><ele>54.2</ele></trkpt>
-     <trkpt lat="37.529208" lon="-122.504857"><ele>54.0</ele></trkpt>
-     <trkpt lat="37.529100" lon="-122.505835"><ele>52.0</ele></trkpt>
-     <trkpt lat="37.528898" lon="-122.506299"><ele>55.8</ele></trkpt>
-     <trkpt lat="37.528841" lon="-122.506525"><ele>56.0</ele></trkpt>
-     <trkpt lat="37.528765" lon="-122.507125"><ele>53.8</ele></trkpt>
-     <trkpt lat="37.528752" lon="-122.507889"><ele>48.8</ele></trkpt>
-     <trkpt lat="37.528826" lon="-122.509142"><ele>44.0</ele></trkpt>
-     <trkpt lat="37.528246" lon="-122.510216"><ele>41.2</ele></trkpt>
-     <trkpt lat="37.527427" lon="-122.510815"><ele>25.5</ele></trkpt>
-     <trkpt lat="37.526300" lon="-122.509841"><ele>24.8</ele></trkpt>
-     <trkpt lat="37.523317" lon="-122.507018"><ele>25.5</ele></trkpt>
-     <trkpt lat="37.522969" lon="-122.506739"><ele>26.2</ele></trkpt>
-     <trkpt lat="37.522088" lon="-122.506159"><ele>28.0</ele></trkpt>
-     <trkpt lat="37.521716" lon="-122.506047"><ele>28.2</ele></trkpt>
-     <trkpt lat="37.521472" lon="-122.506018"><ele>27.2</ele></trkpt>
-     <trkpt lat="37.521313" lon="-122.506047"><ele>26.0</ele></trkpt>
-     <trkpt lat="37.520959" lon="-122.506385"><ele>22.5</ele></trkpt>
-     <trkpt lat="37.520002" lon="-122.504719"><ele>23.2</ele></trkpt>
+     <trkpt lat="37.547844" lon="-122.512476"><ele>9.2</ele></trkpt>
+     <trkpt lat="37.543242" lon="-122.515598"><ele>32.8</ele></trkpt>
+     <trkpt lat="37.542825" lon="-122.515850"><ele>31.2</ele></trkpt>
+     <trkpt lat="37.542357" lon="-122.516054"><ele>28.2</ele></trkpt>
+     <trkpt lat="37.539985" lon="-122.516765"><ele>23.5</ele></trkpt>
+     <trkpt lat="37.536568" lon="-122.517714"><ele>17.8</ele></trkpt>
+     <trkpt lat="37.535566" lon="-122.517886"><ele>25.8</ele></trkpt>
+     <trkpt lat="37.534552" lon="-122.517899"><ele>29.2</ele></trkpt>
+     <trkpt lat="37.533274" lon="-122.517701"><ele>29.0</ele></trkpt>
+     <trkpt lat="37.532408" lon="-122.517417"><ele>25.0</ele></trkpt>
+     <trkpt lat="37.531566" lon="-122.517014"><ele>23.0</ele></trkpt>
+     <trkpt lat="37.530676" lon="-122.516457"><ele>24.2</ele></trkpt>
+     <trkpt lat="37.529606" lon="-122.515512"><ele>23.0</ele></trkpt>
+     <trkpt lat="37.524235" lon="-122.510204"><ele>20.0</ele></trkpt>
+     <trkpt lat="37.523137" lon="-122.509111"><ele>20.2</ele></trkpt>
+     <trkpt lat="37.522034" lon="-122.507881"><ele>22.8</ele></trkpt>
+     <trkpt lat="37.521182" lon="-122.506727"><ele>22.0</ele></trkpt>
+     <trkpt lat="37.520483" lon="-122.505600"><ele>23.0</ele></trkpt>
      <trkpt lat="37.514645" lon="-122.494722"><ele>14.8</ele></trkpt>
      <trkpt lat="37.514346" lon="-122.494246"><ele>15.5</ele></trkpt>
      <trkpt lat="37.509474" lon="-122.487544"><ele>11.5</ele></trkpt>
      <trkpt lat="37.506973" lon="-122.484233"><ele>7.8</ele></trkpt>
      <trkpt lat="37.506140" lon="-122.482969"><ele>8.0</ele></trkpt>
      <trkpt lat="37.505598" lon="-122.482008"><ele>9.2</ele></trkpt>
-     <trkpt lat="37.505184" lon="-122.481129"><ele>9.5</ele></trkpt>
+     <trkpt lat="37.505218" lon="-122.481207"><ele>9.8</ele></trkpt>
      <trkpt lat="37.503890" lon="-122.478070"><ele>10.0</ele></trkpt>
-     <trkpt lat="37.496004" lon="-122.457709"><ele>14.5</ele></trkpt>
-     <trkpt lat="37.495419" lon="-122.456114"><ele>20.2</ele></trkpt>
-     <trkpt lat="37.495021" lon="-122.455241"><ele>20.8</ele></trkpt>
-     <trkpt lat="37.494593" lon="-122.454559"><ele>19.5</ele></trkpt>
-     <trkpt lat="37.493971" lon="-122.453785"><ele>18.0</ele></trkpt>
+     <trkpt lat="37.495240" lon="-122.455676"><ele>21.0</ele></trkpt>
+     <trkpt lat="37.494805" lon="-122.454884"><ele>20.0</ele></trkpt>
+     <trkpt lat="37.494362" lon="-122.454246"><ele>18.8</ele></trkpt>
+     <trkpt lat="37.493796" lon="-122.453608"><ele>17.8</ele></trkpt>
      <trkpt lat="37.493292" lon="-122.453179"><ele>15.2</ele></trkpt>
      <trkpt lat="37.484336" lon="-122.446993"><ele>17.5</ele></trkpt>
      <trkpt lat="37.482021" lon="-122.445349"><ele>17.0</ele></trkpt>
@@ -3441,10 +3236,9 @@
      <trkpt lat="37.468617" lon="-122.433587"><ele>15.5</ele></trkpt>
      <trkpt lat="37.467827" lon="-122.433643"><ele>14.0</ele></trkpt>
      <trkpt lat="37.464114" lon="-122.434221"><ele>17.0</ele></trkpt>
-     <trkpt lat="37.463570" lon="-122.428587"><ele>20.8</ele></trkpt>
      <trkpt lat="37.463634" lon="-122.429242"><ele>21.2</ele></trkpt>
-     <trkpt lat="37.457804" lon="-122.430146"><ele>26.8</ele></trkpt>
-     <trkpt lat="37.456298" lon="-122.430031"><ele>27.5</ele></trkpt>
+     <trkpt lat="37.457667" lon="-122.430155"><ele>27.2</ele></trkpt>
+     <trkpt lat="37.455997" lon="-122.429996"><ele>27.0</ele></trkpt>
      <trkpt lat="37.450757" lon="-122.429329"><ele>27.2</ele></trkpt>
      <trkpt lat="37.450544" lon="-122.429455"><ele>26.8</ele></trkpt>
      <trkpt lat="37.450343" lon="-122.429908"><ele>25.8</ele></trkpt>
@@ -3530,40 +3324,19 @@
      <trkpt lat="37.328873" lon="-122.393290"><ele>75.2</ele></trkpt>
      <trkpt lat="37.329068" lon="-122.394939"><ele>67.5</ele></trkpt>
      <trkpt lat="37.329037" lon="-122.395584"><ele>62.8</ele></trkpt>
-     <trkpt lat="37.328937" lon="-122.396027"><ele>59.0</ele></trkpt>
-     <trkpt lat="37.328793" lon="-122.396435"><ele>57.0</ele></trkpt>
-     <trkpt lat="37.328617" lon="-122.396776"><ele>55.8</ele></trkpt>
+     <trkpt lat="37.328872" lon="-122.396240"><ele>58.0</ele></trkpt>
+     <trkpt lat="37.328710" lon="-122.396612"><ele>56.2</ele></trkpt>
      <trkpt lat="37.328410" lon="-122.397074"><ele>54.0</ele></trkpt>
      <trkpt lat="37.328177" lon="-122.397321"><ele>52.0</ele></trkpt>
-     <trkpt lat="37.327894" lon="-122.397543"><ele>49.2</ele></trkpt>
      <trkpt lat="37.324538" lon="-122.399894"><ele>20.2</ele></trkpt>
      <trkpt lat="37.323113" lon="-122.400811"><ele>9.8</ele></trkpt>
-     <trkpt lat="37.323185" lon="-122.401146"><ele>10.0</ele></trkpt>
-     <trkpt lat="37.323050" lon="-122.403081"><ele>7.0</ele></trkpt>
-     <trkpt lat="37.323070" lon="-122.403296"><ele>8.0</ele></trkpt>
-     <trkpt lat="37.323108" lon="-122.403360"><ele>8.5</ele></trkpt>
-     <trkpt lat="37.324104" lon="-122.403422"><ele>15.2</ele></trkpt>
-     <trkpt lat="37.324258" lon="-122.403472"><ele>16.2</ele></trkpt>
-     <trkpt lat="37.324476" lon="-122.403628"><ele>18.0</ele></trkpt>
-     <trkpt lat="37.324516" lon="-122.403553"><ele>18.5</ele></trkpt>
-     <trkpt lat="37.324503" lon="-122.403307"><ele>20.0</ele></trkpt>
-     <trkpt lat="37.324600" lon="-122.403084"><ele>22.0</ele></trkpt>
-     <trkpt lat="37.324503" lon="-122.403307"><ele>19.0</ele></trkpt>
-     <trkpt lat="37.324516" lon="-122.403553"><ele>17.8</ele></trkpt>
-     <trkpt lat="37.324476" lon="-122.403628"><ele>17.2</ele></trkpt>
-     <trkpt lat="37.324258" lon="-122.403472"><ele>15.5</ele></trkpt>
-     <trkpt lat="37.324104" lon="-122.403422"><ele>14.2</ele></trkpt>
-     <trkpt lat="37.323108" lon="-122.403360"><ele>7.2</ele></trkpt>
-     <trkpt lat="37.323070" lon="-122.403296"><ele>6.8</ele></trkpt>
-     <trkpt lat="37.323050" lon="-122.403081"><ele>7.0</ele></trkpt>
-     <trkpt lat="37.323185" lon="-122.401146"><ele>10.0</ele></trkpt>
-     <trkpt lat="37.323113" lon="-122.400811"><ele>9.8</ele></trkpt>
-     <trkpt lat="37.321449" lon="-122.401709"><ele>3.8</ele></trkpt>
-     <trkpt lat="37.319539" lon="-122.402520"><ele>19.8</ele></trkpt>
-     <trkpt lat="37.318366" lon="-122.402890"><ele>29.2</ele></trkpt>
-     <trkpt lat="37.316899" lon="-122.403227"><ele>43.8</ele></trkpt>
-     <trkpt lat="37.307595" lon="-122.404507"><ele>42.0</ele></trkpt>
-     <trkpt lat="37.306472" lon="-122.404619"><ele>45.8</ele></trkpt>
+     <trkpt lat="37.321268" lon="-122.401795"><ele>3.8</ele></trkpt>
+     <trkpt lat="37.320291" lon="-122.402225"><ele>9.2</ele></trkpt>
+     <trkpt lat="37.318984" lon="-122.402703"><ele>24.8</ele></trkpt>
+     <trkpt lat="37.318026" lon="-122.402980"><ele>33.0</ele></trkpt>
+     <trkpt lat="37.316324" lon="-122.403325"><ele>48.8</ele></trkpt>
+     <trkpt lat="37.307028" lon="-122.404572"><ele>44.2</ele></trkpt>
+     <trkpt lat="37.305872" lon="-122.404645"><ele>45.8</ele></trkpt>
      <trkpt lat="37.299354" lon="-122.404664"><ele>4.2</ele></trkpt>
      <trkpt lat="37.298661" lon="-122.404706"><ele>8.5</ele></trkpt>
      <trkpt lat="37.298239" lon="-122.404791"><ele>11.5</ele></trkpt>
@@ -3624,76 +3397,55 @@
      <trkpt lat="37.221205" lon="-122.406139"><ele>23.2</ele></trkpt>
      <trkpt lat="37.215736" lon="-122.406296"><ele>11.2</ele></trkpt>
      <trkpt lat="37.214817" lon="-122.406231"><ele>12.8</ele></trkpt>
-     <trkpt lat="37.213644" lon="-122.405989"><ele>14.8</ele></trkpt>
+     <trkpt lat="37.213819" lon="-122.406035"><ele>14.8</ele></trkpt>
      <trkpt lat="37.212655" lon="-122.405646"><ele>18.2</ele></trkpt>
      <trkpt lat="37.208518" lon="-122.403686"><ele>23.0</ele></trkpt>
      <trkpt lat="37.202824" lon="-122.401091"><ele>22.2</ele></trkpt>
      <trkpt lat="37.202011" lon="-122.400894"><ele>21.5</ele></trkpt>
-     <trkpt lat="37.198304" lon="-122.400599"><ele>24.0</ele></trkpt>
-     <trkpt lat="37.197494" lon="-122.400440"><ele>23.2</ele></trkpt>
-     <trkpt lat="37.196376" lon="-122.400046"><ele>22.0</ele></trkpt>
-     <trkpt lat="37.195720" lon="-122.399708"><ele>21.5</ele></trkpt>
+     <trkpt lat="37.198508" lon="-122.400622"><ele>23.2</ele></trkpt>
+     <trkpt lat="37.197906" lon="-122.400532"><ele>23.5</ele></trkpt>
+     <trkpt lat="37.196833" lon="-122.400227"><ele>22.8</ele></trkpt>
+     <trkpt lat="37.195943" lon="-122.399832"><ele>21.8</ele></trkpt>
      <trkpt lat="37.195028" lon="-122.399259"><ele>20.8</ele></trkpt>
-     <trkpt lat="37.191947" lon="-122.396932"><ele>9.2</ele></trkpt>
-     <trkpt lat="37.191837" lon="-122.397159"><ele>8.5</ele></trkpt>
-     <trkpt lat="37.191688" lon="-122.397298"><ele>8.5</ele></trkpt>
-     <trkpt lat="37.191571" lon="-122.397358"><ele>8.2</ele></trkpt>
-     <trkpt lat="37.191448" lon="-122.397358"><ele>7.8</ele></trkpt>
-     <trkpt lat="37.190018" lon="-122.396742"><ele>7.2</ele></trkpt>
-     <trkpt lat="37.189816" lon="-122.396710"><ele>7.8</ele></trkpt>
-     <trkpt lat="37.188424" lon="-122.396861"><ele>6.0</ele></trkpt>
-     <trkpt lat="37.188088" lon="-122.396821"><ele>6.0</ele></trkpt>
-     <trkpt lat="37.185644" lon="-122.396185"><ele>5.8</ele></trkpt>
-     <trkpt lat="37.185198" lon="-122.395955"><ele>5.8</ele></trkpt>
-     <trkpt lat="37.183495" lon="-122.394641"><ele>5.8</ele></trkpt>
-     <trkpt lat="37.183168" lon="-122.394271"><ele>8.0</ele></trkpt>
-     <trkpt lat="37.183004" lon="-122.393997"><ele>9.5</ele></trkpt>
-     <trkpt lat="37.182922" lon="-122.393790"><ele>10.0</ele></trkpt>
-     <trkpt lat="37.182905" lon="-122.393520"><ele>10.8</ele></trkpt>
-     <trkpt lat="37.182466" lon="-122.393596"><ele>9.5</ele></trkpt>
-     <trkpt lat="37.182066" lon="-122.394000"><ele>10.8</ele></trkpt>
-     <trkpt lat="37.182466" lon="-122.393596"><ele>9.5</ele></trkpt>
-     <trkpt lat="37.182905" lon="-122.393520"><ele>10.8</ele></trkpt>
-     <trkpt lat="37.182978" lon="-122.393297"><ele>11.5</ele></trkpt>
-     <trkpt lat="37.183512" lon="-122.392361"><ele>13.8</ele></trkpt>
-     <trkpt lat="37.183925" lon="-122.391353"><ele>14.2</ele></trkpt>
-     <trkpt lat="37.184168" lon="-122.390875"><ele>16.0</ele></trkpt>
-     <trkpt lat="37.184290" lon="-122.390689"><ele>16.8</ele></trkpt>
-     <trkpt lat="37.184594" lon="-122.390459"><ele>18.5</ele></trkpt>
-     <trkpt lat="37.184374" lon="-122.389816"><ele>17.0</ele></trkpt>
-     <trkpt lat="37.184178" lon="-122.388854"><ele>17.0</ele></trkpt>
+     <trkpt lat="37.193780" lon="-122.398337"><ele>13.2</ele></trkpt>
+     <trkpt lat="37.186068" lon="-122.392430"><ele>19.2</ele></trkpt>
+     <trkpt lat="37.185456" lon="-122.391860"><ele>20.0</ele></trkpt>
+     <trkpt lat="37.184966" lon="-122.391198"><ele>20.0</ele></trkpt>
+     <trkpt lat="37.184683" lon="-122.390670"><ele>19.2</ele></trkpt>
+     <trkpt lat="37.184443" lon="-122.390049"><ele>17.2</ele></trkpt>
+     <trkpt lat="37.184215" lon="-122.389095"><ele>17.0</ele></trkpt>
      <trkpt lat="37.183709" lon="-122.383737"><ele>16.8</ele></trkpt>
      <trkpt lat="37.183612" lon="-122.383035"><ele>15.2</ele></trkpt>
-     <trkpt lat="37.183405" lon="-122.381992"><ele>15.2</ele></trkpt>
+     <trkpt lat="37.183251" lon="-122.381384"><ele>17.8</ele></trkpt>
      <trkpt lat="37.183092" lon="-122.380822"><ele>19.5</ele></trkpt>
-     <trkpt lat="37.182893" lon="-122.380231"><ele>21.5</ele></trkpt>
-     <trkpt lat="37.182469" lon="-122.379149"><ele>22.8</ele></trkpt>
+     <trkpt lat="37.182675" lon="-122.379643"><ele>22.5</ele></trkpt>
      <trkpt lat="37.182051" lon="-122.378278"><ele>24.2</ele></trkpt>
+     <trkpt lat="37.176453" lon="-122.368007"><ele>29.5</ele></trkpt>
      <trkpt lat="37.175196" lon="-122.365753"><ele>26.2</ele></trkpt>
      <trkpt lat="37.174765" lon="-122.365121"><ele>29.0</ele></trkpt>
      <trkpt lat="37.174443" lon="-122.364748"><ele>31.5</ele></trkpt>
      <trkpt lat="37.173895" lon="-122.364243"><ele>32.0</ele></trkpt>
-     <trkpt lat="37.173097" lon="-122.363697"><ele>29.2</ele></trkpt>
+     <trkpt lat="37.173505" lon="-122.363950"><ele>30.2</ele></trkpt>
+     <trkpt lat="37.172888" lon="-122.363593"><ele>29.2</ele></trkpt>
      <trkpt lat="37.168518" lon="-122.361820"><ele>18.8</ele></trkpt>
      <trkpt lat="37.165039" lon="-122.360475"><ele>2.5</ele></trkpt>
      <trkpt lat="37.164178" lon="-122.360081"><ele>5.5</ele></trkpt>
      <trkpt lat="37.163436" lon="-122.359656"><ele>7.2</ele></trkpt>
      <trkpt lat="37.157850" lon="-122.355836"><ele>19.8</ele></trkpt>
-     <trkpt lat="37.156891" lon="-122.355113"><ele>20.8</ele></trkpt>
+     <trkpt lat="37.156417" lon="-122.354724"><ele>23.0</ele></trkpt>
      <trkpt lat="37.155559" lon="-122.353963"><ele>27.5</ele></trkpt>
      <trkpt lat="37.151198" lon="-122.349880"><ele>26.0</ele></trkpt>
-     <trkpt lat="37.150392" lon="-122.348986"><ele>30.8</ele></trkpt>
-     <trkpt lat="37.149864" lon="-122.348249"><ele>32.0</ele></trkpt>
-     <trkpt lat="37.149532" lon="-122.347696"><ele>27.2</ele></trkpt>
-     <trkpt lat="37.149137" lon="-122.346895"><ele>23.8</ele></trkpt>
+     <trkpt lat="37.150583" lon="-122.349221"><ele>29.2</ele></trkpt>
+     <trkpt lat="37.150044" lon="-122.348515"><ele>32.8</ele></trkpt>
+     <trkpt lat="37.149393" lon="-122.347432"><ele>25.2</ele></trkpt>
+     <trkpt lat="37.149013" lon="-122.346612"><ele>23.5</ele></trkpt>
      <trkpt lat="37.148675" lon="-122.345743"><ele>23.8</ele></trkpt>
      <trkpt lat="37.148234" lon="-122.344480"><ele>18.8</ele></trkpt>
      <trkpt lat="37.144049" lon="-122.331703"><ele>24.2</ele></trkpt>
-     <trkpt lat="37.141284" lon="-122.323465"><ele>36.5</ele></trkpt>
-     <trkpt lat="37.141108" lon="-122.322995"><ele>36.2</ele></trkpt>
+     <trkpt lat="37.141199" lon="-122.323225"><ele>36.2</ele></trkpt>
      <trkpt lat="37.140696" lon="-122.322143"><ele>37.5</ele></trkpt>
-     <trkpt lat="37.139985" lon="-122.321146"><ele>41.5</ele></trkpt>
-     <trkpt lat="37.139486" lon="-122.320614"><ele>42.8</ele></trkpt>
+     <trkpt lat="37.140269" lon="-122.321511"><ele>40.5</ele></trkpt>
+     <trkpt lat="37.139828" lon="-122.320965"><ele>41.8</ele></trkpt>
      <trkpt lat="37.138554" lon="-122.319729"><ele>44.2</ele></trkpt>
      <trkpt lat="37.131195" lon="-122.312966"><ele>41.8</ele></trkpt>
      <trkpt lat="37.129445" lon="-122.311413"><ele>36.8</ele></trkpt>
@@ -3768,53 +3520,25 @@
      <trkpt lat="37.034049" lon="-122.224948"><ele>26.8</ele></trkpt>
      <trkpt lat="37.033424" lon="-122.224143"><ele>27.0</ele></trkpt>
      <trkpt lat="37.028455" lon="-122.216186"><ele>25.0</ele></trkpt>
-     <trkpt lat="37.027569" lon="-122.214902"><ele>18.5</ele></trkpt>
-     <trkpt lat="37.027006" lon="-122.214209"><ele>14.5</ele></trkpt>
+     <trkpt lat="37.027924" lon="-122.215390"><ele>20.0</ele></trkpt>
+     <trkpt lat="37.027298" lon="-122.214559"><ele>16.5</ele></trkpt>
      <trkpt lat="37.026301" lon="-122.213442"><ele>17.5</ele></trkpt>
      <trkpt lat="37.020674" lon="-122.207916"><ele>25.8</ele></trkpt>
      <trkpt lat="37.014644" lon="-122.201116"><ele>25.0</ele></trkpt>
      <trkpt lat="37.014140" lon="-122.200485"><ele>32.0</ele></trkpt>
-     <trkpt lat="37.013773" lon="-122.199913"><ele>28.8</ele></trkpt>
-     <trkpt lat="37.011900" lon="-122.196533"><ele>28.8</ele></trkpt>
-     <trkpt lat="37.010602" lon="-122.193846"><ele>21.5</ele></trkpt>
-     <trkpt lat="37.010754" lon="-122.193742"><ele>23.2</ele></trkpt>
-     <trkpt lat="37.010716" lon="-122.193522"><ele>22.2</ele></trkpt>
-     <trkpt lat="37.010798" lon="-122.193222"><ele>21.2</ele></trkpt>
-     <trkpt lat="37.011377" lon="-122.192426"><ele>17.0</ele></trkpt>
-     <trkpt lat="37.011528" lon="-122.192052"><ele>14.2</ele></trkpt>
-     <trkpt lat="37.011571" lon="-122.191730"><ele>11.0</ele></trkpt>
-     <trkpt lat="37.011664" lon="-122.191644"><ele>10.8</ele></trkpt>
-     <trkpt lat="37.011947" lon="-122.191639"><ele>11.5</ele></trkpt>
-     <trkpt lat="37.012330" lon="-122.191788"><ele>14.5</ele></trkpt>
-     <trkpt lat="37.012631" lon="-122.191716"><ele>13.8</ele></trkpt>
-     <trkpt lat="37.012950" lon="-122.191436"><ele>12.2</ele></trkpt>
-     <trkpt lat="37.013796" lon="-122.190395"><ele>14.5</ele></trkpt>
-     <trkpt lat="37.013909" lon="-122.190306"><ele>14.8</ele></trkpt>
-     <trkpt lat="37.015214" lon="-122.189832"><ele>17.2</ele></trkpt>
-     <trkpt lat="37.013909" lon="-122.190306"><ele>14.8</ele></trkpt>
-     <trkpt lat="37.013796" lon="-122.190395"><ele>14.5</ele></trkpt>
-     <trkpt lat="37.012950" lon="-122.191436"><ele>12.2</ele></trkpt>
-     <trkpt lat="37.012631" lon="-122.191716"><ele>13.8</ele></trkpt>
-     <trkpt lat="37.012330" lon="-122.191788"><ele>14.5</ele></trkpt>
-     <trkpt lat="37.011947" lon="-122.191639"><ele>11.5</ele></trkpt>
-     <trkpt lat="37.011664" lon="-122.191644"><ele>10.8</ele></trkpt>
-     <trkpt lat="37.011571" lon="-122.191730"><ele>11.0</ele></trkpt>
-     <trkpt lat="37.011528" lon="-122.192052"><ele>14.2</ele></trkpt>
-     <trkpt lat="37.011377" lon="-122.192426"><ele>17.0</ele></trkpt>
-     <trkpt lat="37.010798" lon="-122.193222"><ele>21.2</ele></trkpt>
-     <trkpt lat="37.010716" lon="-122.193522"><ele>22.2</ele></trkpt>
-     <trkpt lat="37.010754" lon="-122.193742"><ele>23.2</ele></trkpt>
-     <trkpt lat="37.010602" lon="-122.193846"><ele>21.5</ele></trkpt>
-     <trkpt lat="37.008305" lon="-122.189001"><ele>25.2</ele></trkpt>
-     <trkpt lat="37.007821" lon="-122.188172"><ele>25.8</ele></trkpt>
-     <trkpt lat="37.007167" lon="-122.187184"><ele>27.8</ele></trkpt>
-     <trkpt lat="37.006548" lon="-122.186370"><ele>28.8</ele></trkpt>
-     <trkpt lat="37.005609" lon="-122.185281"><ele>22.2</ele></trkpt>
-     <trkpt lat="36.999627" lon="-122.178981"><ele>11.8</ele></trkpt>
-     <trkpt lat="36.998917" lon="-122.178137"><ele>15.5</ele></trkpt>
-     <trkpt lat="36.998261" lon="-122.177223"><ele>23.2</ele></trkpt>
-     <trkpt lat="36.997864" lon="-122.176591"><ele>23.0</ele></trkpt>
-     <trkpt lat="36.996285" lon="-122.173832"><ele>24.0</ele></trkpt>
+     <trkpt lat="37.013416" lon="-122.199280"><ele>32.0</ele></trkpt>
+     <trkpt lat="37.011568" lon="-122.195897"><ele>28.8</ele></trkpt>
+     <trkpt lat="37.008578" lon="-122.189536"><ele>23.0</ele></trkpt>
+     <trkpt lat="37.008119" lon="-122.188669"><ele>25.5</ele></trkpt>
+     <trkpt lat="37.007626" lon="-122.187861"><ele>26.5</ele></trkpt>
+     <trkpt lat="37.006732" lon="-122.186603"><ele>28.5</ele></trkpt>
+     <trkpt lat="37.005874" lon="-122.185571"><ele>24.2</ele></trkpt>
+     <trkpt lat="37.002444" lon="-122.181927"><ele>23.8</ele></trkpt>
+     <trkpt lat="37.000187" lon="-122.179591"><ele>8.5</ele></trkpt>
+     <trkpt lat="36.999153" lon="-122.178433"><ele>12.8</ele></trkpt>
+     <trkpt lat="36.998688" lon="-122.177834"><ele>19.0</ele></trkpt>
+     <trkpt lat="36.998058" lon="-122.176907"><ele>23.2</ele></trkpt>
+     <trkpt lat="36.997580" lon="-122.176103"><ele>23.2</ele></trkpt>
      <trkpt lat="36.992435" lon="-122.166935"><ele>30.0</ele></trkpt>
      <trkpt lat="36.990955" lon="-122.163932"><ele>28.2</ele></trkpt>
      <trkpt lat="36.984708" lon="-122.150321"><ele>30.5</ele></trkpt>
@@ -3912,17 +3636,6 @@
      <trkpt lat="36.972626" lon="-122.030646"><ele>9.5</ele></trkpt>
      <trkpt lat="36.974050" lon="-122.030963"><ele>10.2</ele></trkpt>
      <trkpt lat="36.974449" lon="-122.030927"><ele>11.0</ele></trkpt>
-     <trkpt lat="36.974606" lon="-122.030101"><ele>9.5</ele></trkpt>
-     <trkpt lat="36.974545" lon="-122.030085"><ele>9.2</ele></trkpt>
-     <trkpt lat="36.974574" lon="-122.029945"><ele>9.2</ele></trkpt>
-     <trkpt lat="36.974379" lon="-122.029875"><ele>8.5</ele></trkpt>
-     <trkpt lat="36.974389" lon="-122.029809"><ele>8.2</ele></trkpt>
-     <trkpt lat="36.974296" lon="-122.029780"><ele>7.2</ele></trkpt>
-     <trkpt lat="36.974389" lon="-122.029809"><ele>8.2</ele></trkpt>
-     <trkpt lat="36.974379" lon="-122.029875"><ele>8.5</ele></trkpt>
-     <trkpt lat="36.974574" lon="-122.029945"><ele>9.2</ele></trkpt>
-     <trkpt lat="36.974545" lon="-122.030085"><ele>9.2</ele></trkpt>
-     <trkpt lat="36.974606" lon="-122.030101"><ele>9.5</ele></trkpt>
      <trkpt lat="36.974814" lon="-122.029064"><ele>9.5</ele></trkpt>
      <trkpt lat="36.975143" lon="-122.029105"><ele>10.8</ele></trkpt>
      <trkpt lat="36.975419" lon="-122.029031"><ele>10.2</ele></trkpt>
@@ -4071,49 +3784,26 @@
      <trkpt lat="36.975647" lon="-121.911702"><ele>36.2</ele></trkpt>
      <trkpt lat="36.976605" lon="-121.911484"><ele>40.8</ele></trkpt>
      <trkpt lat="36.976928" lon="-121.911315"><ele>42.0</ele></trkpt>
+     <trkpt lat="36.979491" lon="-121.909012"><ele>49.0</ele></trkpt>
      <trkpt lat="36.979714" lon="-121.908774"><ele>49.2</ele></trkpt>
      <trkpt lat="36.979732" lon="-121.908524"><ele>49.0</ele></trkpt>
      <trkpt lat="36.979659" lon="-121.908283"><ele>48.5</ele></trkpt>
      <trkpt lat="36.978688" lon="-121.907428"><ele>44.0</ele></trkpt>
      <trkpt lat="36.976986" lon="-121.905665"><ele>35.8</ele></trkpt>
-     <trkpt lat="36.976825" lon="-121.905431"><ele>34.5</ele></trkpt>
-     <trkpt lat="36.976477" lon="-121.904755"><ele>31.5</ele></trkpt>
+     <trkpt lat="36.976612" lon="-121.905050"><ele>34.0</ele></trkpt>
      <trkpt lat="36.976351" lon="-121.904353"><ele>27.8</ele></trkpt>
-     <trkpt lat="36.976299" lon="-121.904046"><ele>26.5</ele></trkpt>
-     <trkpt lat="36.976321" lon="-121.903646"><ele>25.0</ele></trkpt>
-     <trkpt lat="36.976413" lon="-121.903338"><ele>24.0</ele></trkpt>
-     <trkpt lat="36.976559" lon="-121.903076"><ele>24.2</ele></trkpt>
+     <trkpt lat="36.976298" lon="-121.903857"><ele>25.8</ele></trkpt>
+     <trkpt lat="36.976360" lon="-121.903483"><ele>24.5</ele></trkpt>
+     <trkpt lat="36.976499" lon="-121.903167"><ele>24.0</ele></trkpt>
      <trkpt lat="36.977031" lon="-121.902469"><ele>28.5</ele></trkpt>
      <trkpt lat="36.977128" lon="-121.902267"><ele>28.5</ele></trkpt>
-     <trkpt lat="36.977178" lon="-121.902052"><ele>28.0</ele></trkpt>
-     <trkpt lat="36.977213" lon="-121.901569"><ele>27.2</ele></trkpt>
-     <trkpt lat="36.977194" lon="-121.901044"><ele>29.5</ele></trkpt>
+     <trkpt lat="36.977205" lon="-121.901775"><ele>27.0</ele></trkpt>
+     <trkpt lat="36.977209" lon="-121.901153"><ele>29.2</ele></trkpt>
      <trkpt lat="36.977105" lon="-121.900687"><ele>30.0</ele></trkpt>
-     <trkpt lat="36.976869" lon="-121.900242"><ele>29.2</ele></trkpt>
-     <trkpt lat="36.977644" lon="-121.899563"><ele>33.8</ele></trkpt>
-     <trkpt lat="36.978388" lon="-121.899389"><ele>34.2</ele></trkpt>
-     <trkpt lat="36.978610" lon="-121.899285"><ele>35.2</ele></trkpt>
-     <trkpt lat="36.978711" lon="-121.899183"><ele>35.8</ele></trkpt>
-     <trkpt lat="36.979000" lon="-121.898732"><ele>36.5</ele></trkpt>
-     <trkpt lat="36.979259" lon="-121.898185"><ele>37.5</ele></trkpt>
-     <trkpt lat="36.979328" lon="-121.897703"><ele>40.2</ele></trkpt>
-     <trkpt lat="36.979217" lon="-121.896780"><ele>42.5</ele></trkpt>
-     <trkpt lat="36.978442" lon="-121.896955"><ele>36.2</ele></trkpt>
-     <trkpt lat="36.978034" lon="-121.897220"><ele>34.8</ele></trkpt>
-     <trkpt lat="36.977614" lon="-121.897316"><ele>34.5</ele></trkpt>
-     <trkpt lat="36.978034" lon="-121.897220"><ele>34.8</ele></trkpt>
-     <trkpt lat="36.978442" lon="-121.896955"><ele>36.2</ele></trkpt>
-     <trkpt lat="36.979217" lon="-121.896780"><ele>42.5</ele></trkpt>
-     <trkpt lat="36.979328" lon="-121.897703"><ele>40.2</ele></trkpt>
-     <trkpt lat="36.979259" lon="-121.898185"><ele>37.5</ele></trkpt>
-     <trkpt lat="36.979000" lon="-121.898732"><ele>36.5</ele></trkpt>
-     <trkpt lat="36.978610" lon="-121.899285"><ele>35.2</ele></trkpt>
-     <trkpt lat="36.978388" lon="-121.899389"><ele>34.2</ele></trkpt>
-     <trkpt lat="36.977644" lon="-121.899563"><ele>33.8</ele></trkpt>
-     <trkpt lat="36.976869" lon="-121.900242"><ele>29.2</ele></trkpt>
+     <trkpt lat="36.976948" lon="-121.900359"><ele>29.5</ele></trkpt>
      <trkpt lat="36.976230" lon="-121.899419"><ele>28.5</ele></trkpt>
      <trkpt lat="36.976073" lon="-121.899156"><ele>30.0</ele></trkpt>
-     <trkpt lat="36.975694" lon="-121.898030"><ele>31.0</ele></trkpt>
+     <trkpt lat="36.975668" lon="-121.897925"><ele>31.2</ele></trkpt>
      <trkpt lat="36.975620" lon="-121.897418"><ele>31.5</ele></trkpt>
      <trkpt lat="36.975642" lon="-121.896314"><ele>36.8</ele></trkpt>
      <trkpt lat="36.975694" lon="-121.895940"><ele>41.0</ele></trkpt>
@@ -4121,12 +3811,13 @@
      <trkpt lat="36.975878" lon="-121.895103"><ele>41.0</ele></trkpt>
      <trkpt lat="36.975839" lon="-121.894883"><ele>40.8</ele></trkpt>
      <trkpt lat="36.975546" lon="-121.894123"><ele>34.8</ele></trkpt>
-     <trkpt lat="36.975493" lon="-121.893852"><ele>34.5</ele></trkpt>
-     <trkpt lat="36.975683" lon="-121.890106"><ele>40.2</ele></trkpt>
+     <trkpt lat="36.975491" lon="-121.893754"><ele>34.2</ele></trkpt>
+     <trkpt lat="36.975681" lon="-121.890267"><ele>39.8</ele></trkpt>
      <trkpt lat="36.975668" lon="-121.888984"><ele>41.2</ele></trkpt>
-     <trkpt lat="36.975566" lon="-121.886792"><ele>44.8</ele></trkpt>
-     <trkpt lat="36.975612" lon="-121.886484"><ele>44.2</ele></trkpt>
-     <trkpt lat="36.975747" lon="-121.886139"><ele>43.8</ele></trkpt>
+     <trkpt lat="36.975563" lon="-121.886938"><ele>45.5</ele></trkpt>
+     <trkpt lat="36.975589" lon="-121.886598"><ele>44.2</ele></trkpt>
+     <trkpt lat="36.975690" lon="-121.886255"><ele>44.0</ele></trkpt>
+     <trkpt lat="36.975846" lon="-121.885988"><ele>43.2</ele></trkpt>
      <trkpt lat="36.976000" lon="-121.885837"><ele>42.5</ele></trkpt>
      <trkpt lat="36.976434" lon="-121.885579"><ele>42.0</ele></trkpt>
      <trkpt lat="36.976506" lon="-121.885411"><ele>42.5</ele></trkpt>
@@ -4293,64 +3984,41 @@
      <trkpt lat="36.845903" lon="-121.771151"><ele>52.2</ele></trkpt>
      <trkpt lat="36.839083" lon="-121.770995"><ele>39.2</ele></trkpt>
      <trkpt lat="36.831755" lon="-121.770999"><ele>11.8</ele></trkpt>
-     <trkpt lat="36.831085" lon="-121.771020"><ele>9.0</ele></trkpt>
-     <trkpt lat="36.830404" lon="-121.771185"><ele>7.8</ele></trkpt>
-     <trkpt lat="36.829801" lon="-121.771460"><ele>5.8</ele></trkpt>
+     <trkpt lat="36.830974" lon="-121.771037"><ele>8.5</ele></trkpt>
+     <trkpt lat="36.830238" lon="-121.771249"><ele>7.5</ele></trkpt>
      <trkpt lat="36.829432" lon="-121.771687"><ele>4.2</ele></trkpt>
      <trkpt lat="36.828762" lon="-121.772269"><ele>2.2</ele></trkpt>
      <trkpt lat="36.825669" lon="-121.775926"><ele>4.2</ele></trkpt>
-     <trkpt lat="36.824979" lon="-121.776809"><ele>2.8</ele></trkpt>
+     <trkpt lat="36.824749" lon="-121.777149"><ele>2.2</ele></trkpt>
      <trkpt lat="36.824332" lon="-121.777864"><ele>1.8</ele></trkpt>
      <trkpt lat="36.823798" lon="-121.778989"><ele>6.0</ele></trkpt>
      <trkpt lat="36.821879" lon="-121.783539"><ele>9.2</ele></trkpt>
      <trkpt lat="36.821692" lon="-121.783915"><ele>9.2</ele></trkpt>
      <trkpt lat="36.821369" lon="-121.784420"><ele>5.8</ele></trkpt>
      <trkpt lat="36.820919" lon="-121.784947"><ele>0.8</ele></trkpt>
-     <trkpt lat="36.820504" lon="-121.785317"><ele>1.2</ele></trkpt>
-     <trkpt lat="36.820198" lon="-121.785521"><ele>2.2</ele></trkpt>
+     <trkpt lat="36.820350" lon="-121.785426"><ele>1.8</ele></trkpt>
      <trkpt lat="36.819723" lon="-121.785758"><ele>2.2</ele></trkpt>
-     <trkpt lat="36.819241" lon="-121.785922"><ele>1.0</ele></trkpt>
+     <trkpt lat="36.819103" lon="-121.785953"><ele>1.2</ele></trkpt>
      <trkpt lat="36.818480" lon="-121.786013"><ele>2.5</ele></trkpt>
-     <trkpt lat="36.812476" lon="-121.785575"><ele>2.5</ele></trkpt>
-     <trkpt lat="36.811494" lon="-121.785385"><ele>-0.8</ele></trkpt>
-     <trkpt lat="36.808733" lon="-121.784237"><ele>0.0</ele></trkpt>
+     <trkpt lat="36.818009" lon="-121.785996"><ele>3.0</ele></trkpt>
+     <trkpt lat="36.812055" lon="-121.785520"><ele>0.8</ele></trkpt>
+     <trkpt lat="36.811242" lon="-121.785293"><ele>-0.8</ele></trkpt>
+     <trkpt lat="36.808879" lon="-121.784290"><ele>0.0</ele></trkpt>
+     <trkpt lat="36.808410" lon="-121.784136"><ele>0.0</ele></trkpt>
      <trkpt lat="36.807419" lon="-121.783918"><ele>4.5</ele></trkpt>
-     <trkpt lat="36.806463" lon="-121.783774"><ele>10.8</ele></trkpt>
-     <trkpt lat="36.805620" lon="-121.783733"><ele>17.2</ele></trkpt>
+     <trkpt lat="36.806102" lon="-121.783743"><ele>16.0</ele></trkpt>
+     <trkpt lat="36.805110" lon="-121.783747"><ele>11.5</ele></trkpt>
      <trkpt lat="36.803775" lon="-121.783846"><ele>7.0</ele></trkpt>
      <trkpt lat="36.803158" lon="-121.783840"><ele>6.0</ele></trkpt>
-     <trkpt lat="36.800383" lon="-121.783357"><ele>6.8</ele></trkpt>
-     <trkpt lat="36.800106" lon="-121.783469"><ele>6.2</ele></trkpt>
-     <trkpt lat="36.799971" lon="-121.783617"><ele>5.8</ele></trkpt>
-     <trkpt lat="36.799881" lon="-121.783799"><ele>5.2</ele></trkpt>
-     <trkpt lat="36.799847" lon="-121.784076"><ele>4.2</ele></trkpt>
-     <trkpt lat="36.799894" lon="-121.784815"><ele>2.5</ele></trkpt>
-     <trkpt lat="36.799828" lon="-121.785124"><ele>2.2</ele></trkpt>
-     <trkpt lat="36.799564" lon="-121.785448"><ele>2.0</ele></trkpt>
-     <trkpt lat="36.799088" lon="-121.785893"><ele>0.5</ele></trkpt>
-     <trkpt lat="36.800120" lon="-121.788014"><ele>0.8</ele></trkpt>
-     <trkpt lat="36.800271" lon="-121.788203"><ele>1.8</ele></trkpt>
-     <trkpt lat="36.800440" lon="-121.788272"><ele>2.2</ele></trkpt>
-     <trkpt lat="36.800730" lon="-121.788224"><ele>2.2</ele></trkpt>
-     <trkpt lat="36.803181" lon="-121.787003"><ele>1.8</ele></trkpt>
-     <trkpt lat="36.803580" lon="-121.786999"><ele>0.2</ele></trkpt>
-     <trkpt lat="36.803181" lon="-121.787003"><ele>1.8</ele></trkpt>
-     <trkpt lat="36.800730" lon="-121.788224"><ele>2.2</ele></trkpt>
-     <trkpt lat="36.800440" lon="-121.788272"><ele>2.2</ele></trkpt>
-     <trkpt lat="36.800271" lon="-121.788203"><ele>1.8</ele></trkpt>
-     <trkpt lat="36.800120" lon="-121.788014"><ele>0.8</ele></trkpt>
-     <trkpt lat="36.799088" lon="-121.785893"><ele>0.5</ele></trkpt>
-     <trkpt lat="36.797111" lon="-121.786235"><ele>0.0</ele></trkpt>
-     <trkpt lat="36.796883" lon="-121.786226"><ele>0.8</ele></trkpt>
-     <trkpt lat="36.796660" lon="-121.786159"><ele>1.2</ele></trkpt>
-     <trkpt lat="36.795568" lon="-121.785624"><ele>2.0</ele></trkpt>
-     <trkpt lat="36.791128" lon="-121.783776"><ele>4.5</ele></trkpt>
-     <trkpt lat="36.791073" lon="-121.783739"><ele>4.5</ele></trkpt>
+     <trkpt lat="36.800543" lon="-121.783362"><ele>6.8</ele></trkpt>
+     <trkpt lat="36.799285" lon="-121.783181"><ele>5.8</ele></trkpt>
+     <trkpt lat="36.798423" lon="-121.783215"><ele>3.5</ele></trkpt>
+     <trkpt lat="36.792190" lon="-121.783739"><ele>1.8</ele></trkpt>
      <trkpt lat="36.791015" lon="-121.783610"><ele>4.5</ele></trkpt>
      <trkpt lat="36.790464" lon="-121.783435"><ele>5.2</ele></trkpt>
-     <trkpt lat="36.783467" lon="-121.780513"><ele>1.2</ele></trkpt>
+     <trkpt lat="36.783226" lon="-121.780401"><ele>1.5</ele></trkpt>
      <trkpt lat="36.782782" lon="-121.780156"><ele>2.2</ele></trkpt>
-     <trkpt lat="36.782101" lon="-121.779619"><ele>3.2</ele></trkpt>
+     <trkpt lat="36.782418" lon="-121.779895"><ele>3.0</ele></trkpt>
      <trkpt lat="36.781499" lon="-121.779015"><ele>2.8</ele></trkpt>
      <trkpt lat="36.780399" lon="-121.777791"><ele>1.5</ele></trkpt>
      <trkpt lat="36.776956" lon="-121.773690"><ele>2.2</ele></trkpt>
@@ -4363,13 +4031,6 @@
      <trkpt lat="36.770627" lon="-121.764661"><ele>1.0</ele></trkpt>
      <trkpt lat="36.762600" lon="-121.753800"><ele>5.8</ele></trkpt>
      <trkpt lat="36.764082" lon="-121.752122"><ele>3.0</ele></trkpt>
-     <trkpt lat="36.763441" lon="-121.751259"><ele>6.2</ele></trkpt>
-     <trkpt lat="36.763500" lon="-121.751192"><ele>6.5</ele></trkpt>
-     <trkpt lat="36.764082" lon="-121.751977"><ele>3.2</ele></trkpt>
-     <trkpt lat="36.764188" lon="-121.751852"><ele>5.2</ele></trkpt>
-     <trkpt lat="36.764082" lon="-121.751977"><ele>3.2</ele></trkpt>
-     <trkpt lat="36.763500" lon="-121.751192"><ele>6.5</ele></trkpt>
-     <trkpt lat="36.763441" lon="-121.751259"><ele>6.2</ele></trkpt>
      <trkpt lat="36.763394" lon="-121.751196"><ele>6.5</ele></trkpt>
      <trkpt lat="36.761904" lon="-121.752869"><ele>6.0</ele></trkpt>
      <trkpt lat="36.760950" lon="-121.751577"><ele>8.2</ele></trkpt>
@@ -4445,11 +4106,6 @@
      <trkpt lat="36.689150" lon="-121.798604"><ele>0.5</ele></trkpt>
      <trkpt lat="36.688560" lon="-121.798948"><ele>-0.5</ele></trkpt>
      <trkpt lat="36.688077" lon="-121.799353"><ele>0.0</ele></trkpt>
-     <trkpt lat="36.684323" lon="-121.802901"><ele>6.5</ele></trkpt>
-     <trkpt lat="36.683962" lon="-121.802189"><ele>6.8</ele></trkpt>
-     <trkpt lat="36.684204" lon="-121.802016"><ele>7.0</ele></trkpt>
-     <trkpt lat="36.683962" lon="-121.802189"><ele>6.8</ele></trkpt>
-     <trkpt lat="36.684323" lon="-121.802901"><ele>6.5</ele></trkpt>
      <trkpt lat="36.683472" lon="-121.803704"><ele>9.8</ele></trkpt>
      <trkpt lat="36.683513" lon="-121.803812"><ele>9.8</ele></trkpt>
      <trkpt lat="36.683323" lon="-121.804039"><ele>10.0</ele></trkpt>
@@ -4661,34 +4317,33 @@
      <trkpt lat="36.574440" lon="-121.912089"><ele>172.8</ele></trkpt>
      <trkpt lat="36.574724" lon="-121.912370"><ele>168.8</ele></trkpt>
      <trkpt lat="36.575050" lon="-121.912593"><ele>166.5</ele></trkpt>
-     <trkpt lat="36.575368" lon="-121.912641"><ele>171.8</ele></trkpt>
-     <trkpt lat="36.575436" lon="-121.912737"><ele>172.5</ele></trkpt>
-     <trkpt lat="36.575445" lon="-121.912835"><ele>172.2</ele></trkpt>
-     <trkpt lat="36.575371" lon="-121.912974"><ele>170.8</ele></trkpt>
-     <trkpt lat="36.575118" lon="-121.913116"><ele>166.8</ele></trkpt>
+     <trkpt lat="36.575320" lon="-121.912621"><ele>171.0</ele></trkpt>
+     <trkpt lat="36.575409" lon="-121.912682"><ele>172.2</ele></trkpt>
+     <trkpt lat="36.575441" lon="-121.912754"><ele>172.5</ele></trkpt>
+     <trkpt lat="36.575424" lon="-121.912907"><ele>171.8</ele></trkpt>
+     <trkpt lat="36.575244" lon="-121.913072"><ele>168.8</ele></trkpt>
+     <trkpt lat="36.575033" lon="-121.913111"><ele>165.5</ele></trkpt>
      <trkpt lat="36.574687" lon="-121.912992"><ele>164.0</ele></trkpt>
      <trkpt lat="36.574509" lon="-121.913069"><ele>162.5</ele></trkpt>
      <trkpt lat="36.574174" lon="-121.913006"><ele>161.5</ele></trkpt>
      <trkpt lat="36.573347" lon="-121.913151"><ele>162.0</ele></trkpt>
      <trkpt lat="36.572985" lon="-121.913174"><ele>161.5</ele></trkpt>
      <trkpt lat="36.570906" lon="-121.912878"><ele>171.5</ele></trkpt>
-     <trkpt lat="36.568423" lon="-121.912686"><ele>185.0</ele></trkpt>
+     <trkpt lat="36.568690" lon="-121.912689"><ele>183.2</ele></trkpt>
      <trkpt lat="36.567768" lon="-121.912760"><ele>183.0</ele></trkpt>
      <trkpt lat="36.567138" lon="-121.912958"><ele>181.2</ele></trkpt>
      <trkpt lat="36.566551" lon="-121.913295"><ele>179.0</ele></trkpt>
      <trkpt lat="36.566308" lon="-121.913534"><ele>178.0</ele></trkpt>
-     <trkpt lat="36.566058" lon="-121.913960"><ele>176.0</ele></trkpt>
+     <trkpt lat="36.566098" lon="-121.913877"><ele>176.2</ele></trkpt>
      <trkpt lat="36.565865" lon="-121.914397"><ele>171.5</ele></trkpt>
-     <trkpt lat="36.565561" lon="-121.915357"><ele>161.8</ele></trkpt>
      <trkpt lat="36.565497" lon="-121.915622"><ele>158.5</ele></trkpt>
-     <trkpt lat="36.565475" lon="-121.916055"><ele>153.8</ele></trkpt>
-     <trkpt lat="36.565513" lon="-121.917295"><ele>145.2</ele></trkpt>
-     <trkpt lat="36.565491" lon="-121.917665"><ele>143.0</ele></trkpt>
-     <trkpt lat="36.565400" lon="-121.918069"><ele>139.8</ele></trkpt>
+     <trkpt lat="36.565475" lon="-121.916299"><ele>151.5</ele></trkpt>
+     <trkpt lat="36.565511" lon="-121.917501"><ele>144.2</ele></trkpt>
+     <trkpt lat="36.565454" lon="-121.917867"><ele>141.5</ele></trkpt>
      <trkpt lat="36.564925" lon="-121.919527"><ele>128.8</ele></trkpt>
      <trkpt lat="36.563997" lon="-121.918756"><ele>125.0</ele></trkpt>
      <trkpt lat="36.563775" lon="-121.918665"><ele>124.8</ele></trkpt>
-     <trkpt lat="36.563544" lon="-121.918658"><ele>124.8</ele></trkpt>
+     <trkpt lat="36.563468" lon="-121.918677"><ele>124.8</ele></trkpt>
      <trkpt lat="36.563185" lon="-121.918834"><ele>124.5</ele></trkpt>
      <trkpt lat="36.562507" lon="-121.919560"><ele>118.0</ele></trkpt>
      <trkpt lat="36.561910" lon="-121.919978"><ele>110.2</ele></trkpt>
@@ -4699,13 +4354,6 @@
      <trkpt lat="36.560311" lon="-121.920776"><ele>100.2</ele></trkpt>
      <trkpt lat="36.559667" lon="-121.921101"><ele>95.2</ele></trkpt>
      <trkpt lat="36.559061" lon="-121.921860"><ele>82.5</ele></trkpt>
-     <trkpt lat="36.555146" lon="-121.921834"><ele>71.5</ele></trkpt>
-     <trkpt lat="36.555134" lon="-121.924366"><ele>58.8</ele></trkpt>
-     <trkpt lat="36.555079" lon="-121.924440"><ele>57.5</ele></trkpt>
-     <trkpt lat="36.555085" lon="-121.926141"><ele>43.5</ele></trkpt>
-     <trkpt lat="36.555079" lon="-121.924440"><ele>57.5</ele></trkpt>
-     <trkpt lat="36.555033" lon="-121.924366"><ele>58.0</ele></trkpt>
-     <trkpt lat="36.555048" lon="-121.921835"><ele>71.0</ele></trkpt>
      <trkpt lat="36.546383" lon="-121.921804"><ele>43.0</ele></trkpt>
      <trkpt lat="36.546363" lon="-121.921017"><ele>43.8</ele></trkpt>
      <trkpt lat="36.545928" lon="-121.920654"><ele>41.5</ele></trkpt>
@@ -4730,138 +4378,33 @@
      <trkpt lat="36.540042" lon="-121.911356"><ele>5.2</ele></trkpt>
      <trkpt lat="36.539394" lon="-121.910195"><ele>0.5</ele></trkpt>
      <trkpt lat="36.538316" lon="-121.911065"><ele>2.8</ele></trkpt>
-     <trkpt lat="36.537001" lon="-121.911792"><ele>5.8</ele></trkpt>
-     <trkpt lat="36.536651" lon="-121.912071"><ele>5.5</ele></trkpt>
-     <trkpt lat="36.534851" lon="-121.913957"><ele>4.2</ele></trkpt>
+     <trkpt lat="36.537313" lon="-121.911591"><ele>5.8</ele></trkpt>
+     <trkpt lat="36.536774" lon="-121.911961"><ele>5.5</ele></trkpt>
      <trkpt lat="36.534368" lon="-121.914415"><ele>4.5</ele></trkpt>
      <trkpt lat="36.530799" lon="-121.917404"><ele>11.8</ele></trkpt>
      <trkpt lat="36.529471" lon="-121.918625"><ele>18.0</ele></trkpt>
-     <trkpt lat="36.528970" lon="-121.919199"><ele>26.0</ele></trkpt>
-     <trkpt lat="36.529456" lon="-121.919821"><ele>26.0</ele></trkpt>
-     <trkpt lat="36.531101" lon="-121.921237"><ele>24.5</ele></trkpt>
-     <trkpt lat="36.531404" lon="-121.921560"><ele>23.2</ele></trkpt>
-     <trkpt lat="36.532259" lon="-121.923047"><ele>28.0</ele></trkpt>
-     <trkpt lat="36.532446" lon="-121.923272"><ele>28.5</ele></trkpt>
-     <trkpt lat="36.533166" lon="-121.923931"><ele>22.2</ele></trkpt>
-     <trkpt lat="36.533434" lon="-121.924293"><ele>21.2</ele></trkpt>
-     <trkpt lat="36.533628" lon="-121.924707"><ele>19.2</ele></trkpt>
-     <trkpt lat="36.533644" lon="-121.925110"><ele>20.0</ele></trkpt>
-     <trkpt lat="36.534030" lon="-121.925208"><ele>15.5</ele></trkpt>
-     <trkpt lat="36.534322" lon="-121.925565"><ele>12.5</ele></trkpt>
-     <trkpt lat="36.534391" lon="-121.925487"><ele>11.2</ele></trkpt>
-     <trkpt lat="36.534500" lon="-121.925450"><ele>9.8</ele></trkpt>
-     <trkpt lat="36.534834" lon="-121.925608"><ele>6.0</ele></trkpt>
-     <trkpt lat="36.535013" lon="-121.925771"><ele>5.2</ele></trkpt>
-     <trkpt lat="36.535021" lon="-121.925913"><ele>6.0</ele></trkpt>
-     <trkpt lat="36.534940" lon="-121.926314"><ele>6.8</ele></trkpt>
-     <trkpt lat="36.534671" lon="-121.927162"><ele>4.2</ele></trkpt>
-     <trkpt lat="36.534636" lon="-121.927157"><ele>4.2</ele></trkpt>
-     <trkpt lat="36.534576" lon="-121.927348"><ele>2.8</ele></trkpt>
-     <trkpt lat="36.534569" lon="-121.927694"><ele>0.2</ele></trkpt>
-     <trkpt lat="36.534576" lon="-121.927348"><ele>2.8</ele></trkpt>
-     <trkpt lat="36.534636" lon="-121.927157"><ele>4.2</ele></trkpt>
-     <trkpt lat="36.534671" lon="-121.927162"><ele>4.2</ele></trkpt>
-     <trkpt lat="36.534940" lon="-121.926314"><ele>6.8</ele></trkpt>
-     <trkpt lat="36.535021" lon="-121.925913"><ele>6.0</ele></trkpt>
-     <trkpt lat="36.535013" lon="-121.925771"><ele>5.2</ele></trkpt>
-     <trkpt lat="36.534834" lon="-121.925608"><ele>6.0</ele></trkpt>
-     <trkpt lat="36.534500" lon="-121.925450"><ele>9.8</ele></trkpt>
-     <trkpt lat="36.534391" lon="-121.925487"><ele>11.2</ele></trkpt>
-     <trkpt lat="36.534322" lon="-121.925565"><ele>12.5</ele></trkpt>
-     <trkpt lat="36.534030" lon="-121.925208"><ele>15.5</ele></trkpt>
-     <trkpt lat="36.533644" lon="-121.925110"><ele>20.0</ele></trkpt>
-     <trkpt lat="36.533628" lon="-121.924707"><ele>19.2</ele></trkpt>
-     <trkpt lat="36.533434" lon="-121.924293"><ele>21.2</ele></trkpt>
-     <trkpt lat="36.533166" lon="-121.923931"><ele>22.2</ele></trkpt>
-     <trkpt lat="36.532446" lon="-121.923272"><ele>28.5</ele></trkpt>
-     <trkpt lat="36.532259" lon="-121.923047"><ele>28.0</ele></trkpt>
-     <trkpt lat="36.531404" lon="-121.921560"><ele>23.2</ele></trkpt>
-     <trkpt lat="36.531101" lon="-121.921237"><ele>24.5</ele></trkpt>
-     <trkpt lat="36.529456" lon="-121.919821"><ele>26.0</ele></trkpt>
-     <trkpt lat="36.528970" lon="-121.919199"><ele>26.0</ele></trkpt>
      <trkpt lat="36.527757" lon="-121.920570"><ele>39.0</ele></trkpt>
      <trkpt lat="36.522470" lon="-121.927117"><ele>1.2</ele></trkpt>
      <trkpt lat="36.521769" lon="-121.928146"><ele>4.2</ele></trkpt>
      <trkpt lat="36.521403" lon="-121.928797"><ele>9.5</ele></trkpt>
      <trkpt lat="36.519158" lon="-121.933310"><ele>21.0</ele></trkpt>
      <trkpt lat="36.518626" lon="-121.934154"><ele>23.5</ele></trkpt>
-     <trkpt lat="36.518300" lon="-121.934600"><ele>24.0</ele></trkpt>
-     <trkpt lat="36.517795" lon="-121.935199"><ele>27.2</ele></trkpt>
+     <trkpt lat="36.517975" lon="-121.935001"><ele>25.5</ele></trkpt>
      <trkpt lat="36.517118" lon="-121.935847"><ele>30.8</ele></trkpt>
      <trkpt lat="36.516022" lon="-121.936687"><ele>32.0</ele></trkpt>
-     <trkpt lat="36.515873" lon="-121.938295"><ele>31.5</ele></trkpt>
-     <trkpt lat="36.515920" lon="-121.938554"><ele>29.5</ele></trkpt>
-     <trkpt lat="36.516249" lon="-121.939592"><ele>24.5</ele></trkpt>
-     <trkpt lat="36.516507" lon="-121.940216"><ele>25.8</ele></trkpt>
-     <trkpt lat="36.516705" lon="-121.940842"><ele>28.5</ele></trkpt>
-     <trkpt lat="36.517215" lon="-121.942098"><ele>26.8</ele></trkpt>
-     <trkpt lat="36.517276" lon="-121.942423"><ele>27.5</ele></trkpt>
-     <trkpt lat="36.517178" lon="-121.944236"><ele>31.8</ele></trkpt>
-     <trkpt lat="36.517044" lon="-121.945167"><ele>32.8</ele></trkpt>
-     <trkpt lat="36.516986" lon="-121.945873"><ele>29.8</ele></trkpt>
-     <trkpt lat="36.517045" lon="-121.946021"><ele>30.5</ele></trkpt>
-     <trkpt lat="36.518083" lon="-121.947454"><ele>31.5</ele></trkpt>
-     <trkpt lat="36.518719" lon="-121.948429"><ele>26.5</ele></trkpt>
-     <trkpt lat="36.518817" lon="-121.948755"><ele>25.0</ele></trkpt>
-     <trkpt lat="36.518881" lon="-121.949340"><ele>21.2</ele></trkpt>
-     <trkpt lat="36.518838" lon="-121.949666"><ele>19.8</ele></trkpt>
-     <trkpt lat="36.518611" lon="-121.949770"><ele>19.2</ele></trkpt>
-     <trkpt lat="36.518122" lon="-121.949807"><ele>18.5</ele></trkpt>
-     <trkpt lat="36.517954" lon="-121.949766"><ele>17.8</ele></trkpt>
-     <trkpt lat="36.517862" lon="-121.949694"><ele>17.5</ele></trkpt>
-     <trkpt lat="36.517603" lon="-121.949078"><ele>17.0</ele></trkpt>
-     <trkpt lat="36.517414" lon="-121.948850"><ele>17.2</ele></trkpt>
-     <trkpt lat="36.517198" lon="-121.948720"><ele>15.8</ele></trkpt>
-     <trkpt lat="36.516588" lon="-121.948509"><ele>11.2</ele></trkpt>
-     <trkpt lat="36.514864" lon="-121.947334"><ele>4.5</ele></trkpt>
-     <trkpt lat="36.514548" lon="-121.946840"><ele>5.5</ele></trkpt>
-     <trkpt lat="36.514162" lon="-121.945734"><ele>4.2</ele></trkpt>
-     <trkpt lat="36.513963" lon="-121.945429"><ele>4.0</ele></trkpt>
-     <trkpt lat="36.513706" lon="-121.945185"><ele>3.5</ele></trkpt>
-     <trkpt lat="36.513632" lon="-121.944962"><ele>3.8</ele></trkpt>
-     <trkpt lat="36.513529" lon="-121.944198"><ele>3.5</ele></trkpt>
-     <trkpt lat="36.513366" lon="-121.943659"><ele>2.8</ele></trkpt>
-     <trkpt lat="36.513529" lon="-121.944198"><ele>3.5</ele></trkpt>
-     <trkpt lat="36.513632" lon="-121.944962"><ele>3.8</ele></trkpt>
-     <trkpt lat="36.513706" lon="-121.945185"><ele>3.5</ele></trkpt>
-     <trkpt lat="36.513963" lon="-121.945429"><ele>4.0</ele></trkpt>
-     <trkpt lat="36.514162" lon="-121.945734"><ele>4.2</ele></trkpt>
-     <trkpt lat="36.514548" lon="-121.946840"><ele>5.5</ele></trkpt>
-     <trkpt lat="36.514864" lon="-121.947334"><ele>4.5</ele></trkpt>
-     <trkpt lat="36.516188" lon="-121.948235"><ele>10.0</ele></trkpt>
-     <trkpt lat="36.516467" lon="-121.948191"><ele>13.0</ele></trkpt>
-     <trkpt lat="36.516909" lon="-121.948035"><ele>18.5</ele></trkpt>
-     <trkpt lat="36.517219" lon="-121.947866"><ele>23.2</ele></trkpt>
-     <trkpt lat="36.517359" lon="-121.947683"><ele>26.5</ele></trkpt>
-     <trkpt lat="36.517475" lon="-121.947407"><ele>30.2</ele></trkpt>
-     <trkpt lat="36.517530" lon="-121.947132"><ele>32.0</ele></trkpt>
-     <trkpt lat="36.517525" lon="-121.946827"><ele>34.0</ele></trkpt>
-     <trkpt lat="36.517472" lon="-121.946576"><ele>34.8</ele></trkpt>
-     <trkpt lat="36.517045" lon="-121.946021"><ele>30.5</ele></trkpt>
-     <trkpt lat="36.516986" lon="-121.945873"><ele>29.8</ele></trkpt>
-     <trkpt lat="36.517044" lon="-121.945167"><ele>32.8</ele></trkpt>
-     <trkpt lat="36.517178" lon="-121.944236"><ele>31.8</ele></trkpt>
-     <trkpt lat="36.517276" lon="-121.942423"><ele>27.5</ele></trkpt>
-     <trkpt lat="36.517215" lon="-121.942098"><ele>26.8</ele></trkpt>
-     <trkpt lat="36.516705" lon="-121.940842"><ele>28.5</ele></trkpt>
-     <trkpt lat="36.516507" lon="-121.940216"><ele>25.8</ele></trkpt>
-     <trkpt lat="36.516249" lon="-121.939592"><ele>24.5</ele></trkpt>
-     <trkpt lat="36.515920" lon="-121.938554"><ele>29.5</ele></trkpt>
-     <trkpt lat="36.515873" lon="-121.938295"><ele>31.5</ele></trkpt>
-     <trkpt lat="36.515970" lon="-121.937035"><ele>31.0</ele></trkpt>
-     <trkpt lat="36.515862" lon="-121.936780"><ele>32.5</ele></trkpt>
      <trkpt lat="36.515085" lon="-121.937228"><ele>34.0</ele></trkpt>
      <trkpt lat="36.513911" lon="-121.937707"><ele>38.0</ele></trkpt>
      <trkpt lat="36.513484" lon="-121.937832"><ele>37.8</ele></trkpt>
      <trkpt lat="36.512897" lon="-121.937949"><ele>37.0</ele></trkpt>
      <trkpt lat="36.511819" lon="-121.938049"><ele>38.2</ele></trkpt>
+     <trkpt lat="36.510742" lon="-121.938097"><ele>40.0</ele></trkpt>
      <trkpt lat="36.510278" lon="-121.938085"><ele>39.2</ele></trkpt>
+     <trkpt lat="36.510009" lon="-121.938015"><ele>39.5</ele></trkpt>
      <trkpt lat="36.509661" lon="-121.937877"><ele>41.5</ele></trkpt>
      <trkpt lat="36.509106" lon="-121.937504"><ele>45.0</ele></trkpt>
      <trkpt lat="36.508633" lon="-121.936998"><ele>42.8</ele></trkpt>
      <trkpt lat="36.508141" lon="-121.936279"><ele>42.5</ele></trkpt>
-     <trkpt lat="36.507817" lon="-121.936040"><ele>42.8</ele></trkpt>
-     <trkpt lat="36.507552" lon="-121.935954"><ele>41.8</ele></trkpt>
+     <trkpt lat="36.507727" lon="-121.935991"><ele>42.8</ele></trkpt>
      <trkpt lat="36.507273" lon="-121.935935"><ele>44.0</ele></trkpt>
      <trkpt lat="36.505937" lon="-121.936095"><ele>47.2</ele></trkpt>
      <trkpt lat="36.505683" lon="-121.936205"><ele>45.8</ele></trkpt>
@@ -4888,9 +4431,11 @@
      <trkpt lat="36.493248" lon="-121.937654"><ele>70.2</ele></trkpt>
      <trkpt lat="36.492927" lon="-121.937656"><ele>71.8</ele></trkpt>
      <trkpt lat="36.492499" lon="-121.937824"><ele>71.2</ele></trkpt>
-     <trkpt lat="36.491909" lon="-121.938169"><ele>70.2</ele></trkpt>
+     <trkpt lat="36.492004" lon="-121.938128"><ele>70.2</ele></trkpt>
+     <trkpt lat="36.491609" lon="-121.938249"><ele>70.8</ele></trkpt>
      <trkpt lat="36.491343" lon="-121.938284"><ele>68.8</ele></trkpt>
-     <trkpt lat="36.489976" lon="-121.938209"><ele>61.8</ele></trkpt>
+     <trkpt lat="36.490263" lon="-121.938243"><ele>63.0</ele></trkpt>
+     <trkpt lat="36.489694" lon="-121.938147"><ele>59.8</ele></trkpt>
      <trkpt lat="36.488397" lon="-121.937791"><ele>52.2</ele></trkpt>
      <trkpt lat="36.487815" lon="-121.937722"><ele>52.5</ele></trkpt>
      <trkpt lat="36.485322" lon="-121.937839"><ele>47.8</ele></trkpt>
@@ -4977,16 +4522,7 @@
      <trkpt lat="36.385990" lon="-121.900647"><ele>56.8</ele></trkpt>
      <trkpt lat="36.384691" lon="-121.900294"><ele>61.0</ele></trkpt>
      <trkpt lat="36.383918" lon="-121.900160"><ele>61.5</ele></trkpt>
-     <trkpt lat="36.383764" lon="-121.900567"><ele>54.8</ele></trkpt>
-     <trkpt lat="36.383645" lon="-121.900767"><ele>51.2</ele></trkpt>
-     <trkpt lat="36.383192" lon="-121.901233"><ele>38.5</ele></trkpt>
-     <trkpt lat="36.383287" lon="-121.901433"><ele>33.8</ele></trkpt>
-     <trkpt lat="36.383192" lon="-121.901233"><ele>38.5</ele></trkpt>
-     <trkpt lat="36.383645" lon="-121.900767"><ele>51.2</ele></trkpt>
-     <trkpt lat="36.383764" lon="-121.900567"><ele>54.8</ele></trkpt>
-     <trkpt lat="36.383918" lon="-121.900160"><ele>61.5</ele></trkpt>
      <trkpt lat="36.383241" lon="-121.900169"><ele>63.8</ele></trkpt>
-     <trkpt lat="36.382795" lon="-121.900234"><ele>60.0</ele></trkpt>
      <trkpt lat="36.382325" lon="-121.900351"><ele>54.8</ele></trkpt>
      <trkpt lat="36.381697" lon="-121.900602"><ele>43.0</ele></trkpt>
      <trkpt lat="36.380879" lon="-121.901063"><ele>38.2</ele></trkpt>
@@ -5007,11 +4543,6 @@
      <trkpt lat="36.373844" lon="-121.904973"><ele>71.2</ele></trkpt>
      <trkpt lat="36.373492" lon="-121.904836"><ele>76.0</ele></trkpt>
      <trkpt lat="36.373224" lon="-121.904562"><ele>77.5</ele></trkpt>
-     <trkpt lat="36.372779" lon="-121.903357"><ele>77.0</ele></trkpt>
-     <trkpt lat="36.372587" lon="-121.903149"><ele>70.0</ele></trkpt>
-     <trkpt lat="36.372461" lon="-121.902865"><ele>73.0</ele></trkpt>
-     <trkpt lat="36.372587" lon="-121.903149"><ele>70.0</ele></trkpt>
-     <trkpt lat="36.372779" lon="-121.903357"><ele>77.0</ele></trkpt>
      <trkpt lat="36.372502" lon="-121.902594"><ele>80.8</ele></trkpt>
      <trkpt lat="36.372397" lon="-121.902422"><ele>80.5</ele></trkpt>
      <trkpt lat="36.372183" lon="-121.902221"><ele>80.2</ele></trkpt>
@@ -5142,74 +4673,6 @@
      <trkpt lat="36.316147" lon="-121.891474"><ele>54.0</ele></trkpt>
      <trkpt lat="36.315639" lon="-121.891209"><ele>51.5</ele></trkpt>
      <trkpt lat="36.314830" lon="-121.890620"><ele>48.5</ele></trkpt>
-     <trkpt lat="36.309724" lon="-121.886101"><ele>45.2</ele></trkpt>
-     <trkpt lat="36.309534" lon="-121.886364"><ele>41.5</ele></trkpt>
-     <trkpt lat="36.309529" lon="-121.886586"><ele>40.0</ele></trkpt>
-     <trkpt lat="36.310050" lon="-121.887235"><ele>40.2</ele></trkpt>
-     <trkpt lat="36.310490" lon="-121.887711"><ele>41.8</ele></trkpt>
-     <trkpt lat="36.310692" lon="-121.888199"><ele>40.2</ele></trkpt>
-     <trkpt lat="36.310747" lon="-121.888499"><ele>38.8</ele></trkpt>
-     <trkpt lat="36.310746" lon="-121.888892"><ele>36.0</ele></trkpt>
-     <trkpt lat="36.310616" lon="-121.889414"><ele>32.0</ele></trkpt>
-     <trkpt lat="36.306638" lon="-121.897072"><ele>5.5</ele></trkpt>
-     <trkpt lat="36.306395" lon="-121.897362"><ele>6.2</ele></trkpt>
-     <trkpt lat="36.306088" lon="-121.897591"><ele>9.0</ele></trkpt>
-     <trkpt lat="36.305911" lon="-121.897626"><ele>10.5</ele></trkpt>
-     <trkpt lat="36.304944" lon="-121.897574"><ele>22.2</ele></trkpt>
-     <trkpt lat="36.304285" lon="-121.897915"><ele>31.5</ele></trkpt>
-     <trkpt lat="36.304169" lon="-121.898030"><ele>33.5</ele></trkpt>
-     <trkpt lat="36.303976" lon="-121.898348"><ele>37.8</ele></trkpt>
-     <trkpt lat="36.303693" lon="-121.899146"><ele>36.5</ele></trkpt>
-     <trkpt lat="36.303715" lon="-121.899311"><ele>34.2</ele></trkpt>
-     <trkpt lat="36.303948" lon="-121.899391"><ele>39.8</ele></trkpt>
-     <trkpt lat="36.304273" lon="-121.899291"><ele>53.8</ele></trkpt>
-     <trkpt lat="36.304506" lon="-121.899164"><ele>65.8</ele></trkpt>
-     <trkpt lat="36.304605" lon="-121.899181"><ele>68.5</ele></trkpt>
-     <trkpt lat="36.304770" lon="-121.899291"><ele>70.2</ele></trkpt>
-     <trkpt lat="36.305108" lon="-121.899857"><ele>60.2</ele></trkpt>
-     <trkpt lat="36.305242" lon="-121.900407"><ele>50.0</ele></trkpt>
-     <trkpt lat="36.305571" lon="-121.900536"><ele>55.2</ele></trkpt>
-     <trkpt lat="36.305744" lon="-121.900670"><ele>57.2</ele></trkpt>
-     <trkpt lat="36.305858" lon="-121.901129"><ele>49.2</ele></trkpt>
-     <trkpt lat="36.305992" lon="-121.901303"><ele>40.5</ele></trkpt>
-     <trkpt lat="36.306096" lon="-121.901550"><ele>29.2</ele></trkpt>
-     <trkpt lat="36.306226" lon="-121.901678"><ele>20.0</ele></trkpt>
-     <trkpt lat="36.306247" lon="-121.901655"><ele>19.5</ele></trkpt>
-     <trkpt lat="36.306226" lon="-121.901678"><ele>20.0</ele></trkpt>
-     <trkpt lat="36.306096" lon="-121.901550"><ele>29.2</ele></trkpt>
-     <trkpt lat="36.305992" lon="-121.901303"><ele>40.5</ele></trkpt>
-     <trkpt lat="36.305858" lon="-121.901129"><ele>49.2</ele></trkpt>
-     <trkpt lat="36.305744" lon="-121.900670"><ele>57.2</ele></trkpt>
-     <trkpt lat="36.305571" lon="-121.900536"><ele>55.2</ele></trkpt>
-     <trkpt lat="36.305242" lon="-121.900407"><ele>50.0</ele></trkpt>
-     <trkpt lat="36.305108" lon="-121.899857"><ele>60.2</ele></trkpt>
-     <trkpt lat="36.304770" lon="-121.899291"><ele>70.2</ele></trkpt>
-     <trkpt lat="36.304605" lon="-121.899181"><ele>68.5</ele></trkpt>
-     <trkpt lat="36.304506" lon="-121.899164"><ele>65.8</ele></trkpt>
-     <trkpt lat="36.304146" lon="-121.899339"><ele>48.0</ele></trkpt>
-     <trkpt lat="36.303897" lon="-121.899384"><ele>38.2</ele></trkpt>
-     <trkpt lat="36.303749" lon="-121.899336"><ele>34.8</ele></trkpt>
-     <trkpt lat="36.303690" lon="-121.899264"><ele>34.5</ele></trkpt>
-     <trkpt lat="36.303734" lon="-121.899004"><ele>36.5</ele></trkpt>
-     <trkpt lat="36.303976" lon="-121.898348"><ele>34.2</ele></trkpt>
-     <trkpt lat="36.304169" lon="-121.898030"><ele>30.2</ele></trkpt>
-     <trkpt lat="36.304285" lon="-121.897915"><ele>28.2</ele></trkpt>
-     <trkpt lat="36.304944" lon="-121.897574"><ele>19.2</ele></trkpt>
-     <trkpt lat="36.305911" lon="-121.897626"><ele>10.5</ele></trkpt>
-     <trkpt lat="36.306088" lon="-121.897591"><ele>9.0</ele></trkpt>
-     <trkpt lat="36.306395" lon="-121.897362"><ele>6.2</ele></trkpt>
-     <trkpt lat="36.306638" lon="-121.897072"><ele>5.5</ele></trkpt>
-     <trkpt lat="36.310616" lon="-121.889414"><ele>32.0</ele></trkpt>
-     <trkpt lat="36.310729" lon="-121.888998"><ele>35.2</ele></trkpt>
-     <trkpt lat="36.310751" lon="-121.888740"><ele>37.2</ele></trkpt>
-     <trkpt lat="36.310739" lon="-121.888411"><ele>39.2</ele></trkpt>
-     <trkpt lat="36.310647" lon="-121.888051"><ele>41.0</ele></trkpt>
-     <trkpt lat="36.310490" lon="-121.887711"><ele>41.8</ele></trkpt>
-     <trkpt lat="36.310387" lon="-121.887574"><ele>41.5</ele></trkpt>
-     <trkpt lat="36.310050" lon="-121.887235"><ele>40.2</ele></trkpt>
-     <trkpt lat="36.309529" lon="-121.886586"><ele>40.0</ele></trkpt>
-     <trkpt lat="36.309534" lon="-121.886364"><ele>41.5</ele></trkpt>
-     <trkpt lat="36.309724" lon="-121.886101"><ele>45.2</ele></trkpt>
      <trkpt lat="36.307034" lon="-121.883764"><ele>46.2</ele></trkpt>
      <trkpt lat="36.306634" lon="-121.883366"><ele>46.2</ele></trkpt>
      <trkpt lat="36.303213" lon="-121.880339"><ele>47.8</ele></trkpt>
@@ -5240,9 +4703,6 @@
      <trkpt lat="36.282525" lon="-121.834233"><ele>35.2</ele></trkpt>
      <trkpt lat="36.282209" lon="-121.833515"><ele>35.0</ele></trkpt>
      <trkpt lat="36.281661" lon="-121.832677"><ele>33.0</ele></trkpt>
-     <trkpt lat="36.280137" lon="-121.830620"><ele>35.5</ele></trkpt>
-     <trkpt lat="36.279624" lon="-121.830875"><ele>27.8</ele></trkpt>
-     <trkpt lat="36.280137" lon="-121.830620"><ele>35.5</ele></trkpt>
      <trkpt lat="36.276450" lon="-121.825691"><ele>40.2</ele></trkpt>
      <trkpt lat="36.276079" lon="-121.825107"><ele>38.8</ele></trkpt>
      <trkpt lat="36.275737" lon="-121.824248"><ele>37.2</ele></trkpt>
@@ -5289,11 +4749,11 @@
      <trkpt lat="36.264239" lon="-121.800780"><ele>75.0</ele></trkpt>
      <trkpt lat="36.264146" lon="-121.800303"><ele>78.5</ele></trkpt>
      <trkpt lat="36.264124" lon="-121.799772"><ele>82.5</ele></trkpt>
-     <trkpt lat="36.264328" lon="-121.796168"><ele>79.0</ele></trkpt>
+     <trkpt lat="36.264321" lon="-121.796406"><ele>78.5</ele></trkpt>
      <trkpt lat="36.264308" lon="-121.795928"><ele>77.8</ele></trkpt>
-     <trkpt lat="36.264232" lon="-121.795650"><ele>77.0</ele></trkpt>
      <trkpt lat="36.264041" lon="-121.795184"><ele>81.0</ele></trkpt>
-     <trkpt lat="36.263708" lon="-121.794784"><ele>86.5</ele></trkpt>
+     <trkpt lat="36.263898" lon="-121.794977"><ele>83.5</ele></trkpt>
+     <trkpt lat="36.263543" lon="-121.794647"><ele>88.0</ele></trkpt>
      <trkpt lat="36.263293" lon="-121.794487"><ele>88.5</ele></trkpt>
      <trkpt lat="36.261383" lon="-121.793483"><ele>83.5</ele></trkpt>
      <trkpt lat="36.261092" lon="-121.793216"><ele>82.5</ele></trkpt>
@@ -5314,49 +4774,6 @@
      <trkpt lat="36.254114" lon="-121.787562"><ele>77.5</ele></trkpt>
      <trkpt lat="36.253761" lon="-121.787439"><ele>83.2</ele></trkpt>
      <trkpt lat="36.253276" lon="-121.787343"><ele>90.0</ele></trkpt>
-     <trkpt lat="36.252815" lon="-121.787340"><ele>87.8</ele></trkpt>
-     <trkpt lat="36.252728" lon="-121.787023"><ele>94.2</ele></trkpt>
-     <trkpt lat="36.252617" lon="-121.786897"><ele>96.5</ele></trkpt>
-     <trkpt lat="36.251759" lon="-121.786587"><ele>97.5</ele></trkpt>
-     <trkpt lat="36.251629" lon="-121.786008"><ele>105.2</ele></trkpt>
-     <trkpt lat="36.251712" lon="-121.785824"><ele>108.8</ele></trkpt>
-     <trkpt lat="36.251425" lon="-121.785418"><ele>105.5</ele></trkpt>
-     <trkpt lat="36.251387" lon="-121.785173"><ele>106.0</ele></trkpt>
-     <trkpt lat="36.251477" lon="-121.784763"><ele>106.0</ele></trkpt>
-     <trkpt lat="36.251824" lon="-121.784425"><ele>108.5</ele></trkpt>
-     <trkpt lat="36.252115" lon="-121.784270"><ele>112.5</ele></trkpt>
-     <trkpt lat="36.252280" lon="-121.784096"><ele>116.0</ele></trkpt>
-     <trkpt lat="36.252335" lon="-121.783862"><ele>118.2</ele></trkpt>
-     <trkpt lat="36.252663" lon="-121.783320"><ele>130.2</ele></trkpt>
-     <trkpt lat="36.252869" lon="-121.782801"><ele>144.2</ele></trkpt>
-     <trkpt lat="36.252923" lon="-121.782951"><ele>143.5</ele></trkpt>
-     <trkpt lat="36.253113" lon="-121.782901"><ele>150.0</ele></trkpt>
-     <trkpt lat="36.253105" lon="-121.782783"><ele>152.0</ele></trkpt>
-     <trkpt lat="36.253227" lon="-121.782836"><ele>154.8</ele></trkpt>
-     <trkpt lat="36.253207" lon="-121.782742"><ele>156.0</ele></trkpt>
-     <trkpt lat="36.253348" lon="-121.782959"><ele>155.8</ele></trkpt>
-     <trkpt lat="36.253338" lon="-121.783029"><ele>154.2</ele></trkpt>
-     <trkpt lat="36.253348" lon="-121.782959"><ele>155.8</ele></trkpt>
-     <trkpt lat="36.253207" lon="-121.782742"><ele>156.0</ele></trkpt>
-     <trkpt lat="36.253227" lon="-121.782836"><ele>154.8</ele></trkpt>
-     <trkpt lat="36.253105" lon="-121.782783"><ele>152.0</ele></trkpt>
-     <trkpt lat="36.253113" lon="-121.782901"><ele>150.0</ele></trkpt>
-     <trkpt lat="36.252923" lon="-121.782951"><ele>143.5</ele></trkpt>
-     <trkpt lat="36.252869" lon="-121.782801"><ele>144.2</ele></trkpt>
-     <trkpt lat="36.252663" lon="-121.783320"><ele>130.2</ele></trkpt>
-     <trkpt lat="36.252335" lon="-121.783862"><ele>118.2</ele></trkpt>
-     <trkpt lat="36.252280" lon="-121.784096"><ele>116.0</ele></trkpt>
-     <trkpt lat="36.252115" lon="-121.784270"><ele>112.5</ele></trkpt>
-     <trkpt lat="36.251824" lon="-121.784425"><ele>108.5</ele></trkpt>
-     <trkpt lat="36.251477" lon="-121.784763"><ele>106.0</ele></trkpt>
-     <trkpt lat="36.251387" lon="-121.785173"><ele>106.0</ele></trkpt>
-     <trkpt lat="36.251425" lon="-121.785418"><ele>105.5</ele></trkpt>
-     <trkpt lat="36.251712" lon="-121.785824"><ele>108.8</ele></trkpt>
-     <trkpt lat="36.251629" lon="-121.786008"><ele>105.2</ele></trkpt>
-     <trkpt lat="36.251759" lon="-121.786587"><ele>97.5</ele></trkpt>
-     <trkpt lat="36.252617" lon="-121.786897"><ele>96.5</ele></trkpt>
-     <trkpt lat="36.252728" lon="-121.787023"><ele>94.2</ele></trkpt>
-     <trkpt lat="36.252815" lon="-121.787340"><ele>87.8</ele></trkpt>
      <trkpt lat="36.252191" lon="-121.787328"><ele>85.5</ele></trkpt>
      <trkpt lat="36.251588" lon="-121.787204"><ele>86.0</ele></trkpt>
      <trkpt lat="36.250766" lon="-121.786810"><ele>88.5</ele></trkpt>
@@ -5364,15 +4781,10 @@
      <trkpt lat="36.249622" lon="-121.785673"><ele>93.8</ele></trkpt>
      <trkpt lat="36.249224" lon="-121.784850"><ele>91.8</ele></trkpt>
      <trkpt lat="36.248692" lon="-121.783522"><ele>108.8</ele></trkpt>
-     <trkpt lat="36.248230" lon="-121.782644"><ele>105.8</ele></trkpt>
-     <trkpt lat="36.247908" lon="-121.782203"><ele>107.0</ele></trkpt>
-     <trkpt lat="36.247492" lon="-121.781839"><ele>106.5</ele></trkpt>
-     <trkpt lat="36.247626" lon="-121.781601"><ele>100.8</ele></trkpt>
-     <trkpt lat="36.247651" lon="-121.781340"><ele>99.2</ele></trkpt>
-     <trkpt lat="36.247626" lon="-121.781601"><ele>100.8</ele></trkpt>
-     <trkpt lat="36.247492" lon="-121.781839"><ele>106.5</ele></trkpt>
-     <trkpt lat="36.247360" lon="-121.781704"><ele>105.5</ele></trkpt>
-     <trkpt lat="36.247070" lon="-121.781566"><ele>109.0</ele></trkpt>
+     <trkpt lat="36.248428" lon="-121.783001"><ele>107.8</ele></trkpt>
+     <trkpt lat="36.248054" lon="-121.782368"><ele>106.0</ele></trkpt>
+     <trkpt lat="36.247755" lon="-121.782056"><ele>107.5</ele></trkpt>
+     <trkpt lat="36.247253" lon="-121.781641"><ele>106.5</ele></trkpt>
      <trkpt lat="36.244726" lon="-121.780767"><ele>131.5</ele></trkpt>
      <trkpt lat="36.244157" lon="-121.780402"><ele>135.2</ele></trkpt>
      <trkpt lat="36.243360" lon="-121.779568"><ele>147.0</ele></trkpt>
@@ -5410,31 +4822,23 @@
      <trkpt lat="36.225414" lon="-121.761270"><ele>272.2</ele></trkpt>
      <trkpt lat="36.225458" lon="-121.761062"><ele>272.2</ele></trkpt>
      <trkpt lat="36.225652" lon="-121.760564"><ele>278.0</ele></trkpt>
-     <trkpt lat="36.225680" lon="-121.760361"><ele>279.0</ele></trkpt>
-     <trkpt lat="36.225650" lon="-121.760150"><ele>277.5</ele></trkpt>
+     <trkpt lat="36.225674" lon="-121.760252"><ele>278.5</ele></trkpt>
      <trkpt lat="36.225554" lon="-121.759966"><ele>273.8</ele></trkpt>
      <trkpt lat="36.225155" lon="-121.759577"><ele>263.8</ele></trkpt>
      <trkpt lat="36.225018" lon="-121.759391"><ele>261.0</ele></trkpt>
      <trkpt lat="36.224898" lon="-121.759060"><ele>262.8</ele></trkpt>
      <trkpt lat="36.224818" lon="-121.758559"><ele>264.8</ele></trkpt>
-     <trkpt lat="36.224719" lon="-121.758346"><ele>264.8</ele></trkpt>
-     <trkpt lat="36.224572" lon="-121.758185"><ele>266.5</ele></trkpt>
+     <trkpt lat="36.224653" lon="-121.758260"><ele>265.8</ele></trkpt>
      <trkpt lat="36.224419" lon="-121.758105"><ele>266.8</ele></trkpt>
      <trkpt lat="36.224260" lon="-121.758081"><ele>265.8</ele></trkpt>
-     <trkpt lat="36.223938" lon="-121.758201"><ele>259.2</ele></trkpt>
-     <trkpt lat="36.223732" lon="-121.758388"><ele>254.0</ele></trkpt>
-     <trkpt lat="36.223201" lon="-121.759023"><ele>238.0</ele></trkpt>
-     <trkpt lat="36.222563" lon="-121.759426"><ele>234.8</ele></trkpt>
-     <trkpt lat="36.222435" lon="-121.759431"><ele>234.0</ele></trkpt>
-     <trkpt lat="36.221991" lon="-121.759180"><ele>225.0</ele></trkpt>
-     <trkpt lat="36.222435" lon="-121.759431"><ele>234.0</ele></trkpt>
-     <trkpt lat="36.222563" lon="-121.759426"><ele>234.8</ele></trkpt>
+     <trkpt lat="36.224099" lon="-121.758117"><ele>263.0</ele></trkpt>
+     <trkpt lat="36.223867" lon="-121.758255"><ele>257.5</ele></trkpt>
+     <trkpt lat="36.223264" lon="-121.758963"><ele>239.5</ele></trkpt>
      <trkpt lat="36.223070" lon="-121.759111"><ele>236.0</ele></trkpt>
      <trkpt lat="36.222873" lon="-121.759155"><ele>234.8</ele></trkpt>
-     <trkpt lat="36.222736" lon="-121.759125"><ele>234.5</ele></trkpt>
-     <trkpt lat="36.222543" lon="-121.758988"><ele>233.2</ele></trkpt>
-     <trkpt lat="36.222439" lon="-121.758825"><ele>230.5</ele></trkpt>
-     <trkpt lat="36.222380" lon="-121.758630"><ele>227.2</ele></trkpt>
+     <trkpt lat="36.222606" lon="-121.759048"><ele>234.0</ele></trkpt>
+     <trkpt lat="36.222487" lon="-121.758912"><ele>232.2</ele></trkpt>
+     <trkpt lat="36.222403" lon="-121.758737"><ele>228.8</ele></trkpt>
      <trkpt lat="36.222352" lon="-121.757796"><ele>222.0</ele></trkpt>
      <trkpt lat="36.222255" lon="-121.757442"><ele>218.5</ele></trkpt>
      <trkpt lat="36.222158" lon="-121.757244"><ele>218.5</ele></trkpt>
@@ -5612,12 +5016,12 @@
      <trkpt lat="36.178234" lon="-121.698683"><ele>136.8</ele></trkpt>
      <trkpt lat="36.178092" lon="-121.698631"><ele>135.2</ele></trkpt>
      <trkpt lat="36.177278" lon="-121.698644"><ele>108.0</ele></trkpt>
-     <trkpt lat="36.177004" lon="-121.698533"><ele>109.8</ele></trkpt>
-     <trkpt lat="36.176876" lon="-121.698410"><ele>114.2</ele></trkpt>
-     <trkpt lat="36.176794" lon="-121.698228"><ele>114.5</ele></trkpt>
-     <trkpt lat="36.176775" lon="-121.697908"><ele>107.2</ele></trkpt>
+     <trkpt lat="36.176937" lon="-121.698482"><ele>111.2</ele></trkpt>
+     <trkpt lat="36.176812" lon="-121.698285"><ele>116.0</ele></trkpt>
+     <trkpt lat="36.176768" lon="-121.697971"><ele>108.2</ele></trkpt>
+     <trkpt lat="36.176808" lon="-121.697793"><ele>106.8</ele></trkpt>
      <trkpt lat="36.177089" lon="-121.697182"><ele>114.0</ele></trkpt>
-     <trkpt lat="36.177170" lon="-121.696319"><ele>111.2</ele></trkpt>
+     <trkpt lat="36.177161" lon="-121.696509"><ele>110.0</ele></trkpt>
      <trkpt lat="36.177149" lon="-121.696108"><ele>109.8</ele></trkpt>
      <trkpt lat="36.176973" lon="-121.695654"><ele>96.0</ele></trkpt>
      <trkpt lat="36.176919" lon="-121.695400"><ele>92.5</ele></trkpt>
@@ -5665,15 +5069,13 @@
      <trkpt lat="36.168986" lon="-121.682309"><ele>133.2</ele></trkpt>
      <trkpt lat="36.168352" lon="-121.680272"><ele>135.2</ele></trkpt>
      <trkpt lat="36.168152" lon="-121.679220"><ele>131.2</ele></trkpt>
-     <trkpt lat="36.167900" lon="-121.678645"><ele>132.2</ele></trkpt>
+     <trkpt lat="36.168048" lon="-121.678926"><ele>132.5</ele></trkpt>
      <trkpt lat="36.167736" lon="-121.678397"><ele>130.2</ele></trkpt>
-     <trkpt lat="36.167517" lon="-121.678174"><ele>126.0</ele></trkpt>
      <trkpt lat="36.165624" lon="-121.676440"><ele>116.5</ele></trkpt>
      <trkpt lat="36.165111" lon="-121.675919"><ele>120.2</ele></trkpt>
      <trkpt lat="36.164005" lon="-121.674373"><ele>109.2</ele></trkpt>
      <trkpt lat="36.163752" lon="-121.674107"><ele>109.0</ele></trkpt>
      <trkpt lat="36.163489" lon="-121.673903"><ele>112.5</ele></trkpt>
-     <trkpt lat="36.163169" lon="-121.673767"><ele>110.0</ele></trkpt>
      <trkpt lat="36.162308" lon="-121.673498"><ele>97.5</ele></trkpt>
      <trkpt lat="36.162116" lon="-121.673387"><ele>97.8</ele></trkpt>
      <trkpt lat="36.161654" lon="-121.672942"><ele>103.5</ele></trkpt>
@@ -5685,145 +5087,13 @@
      <trkpt lat="36.159683" lon="-121.672115"><ele>76.8</ele></trkpt>
      <trkpt lat="36.159373" lon="-121.671351"><ele>81.5</ele></trkpt>
      <trkpt lat="36.159204" lon="-121.671029"><ele>82.0</ele></trkpt>
-     <trkpt lat="36.158926" lon="-121.670669"><ele>79.8</ele></trkpt>
-     <trkpt lat="36.158949" lon="-121.670382"><ele>79.2</ele></trkpt>
-     <trkpt lat="36.159018" lon="-121.670256"><ele>79.2</ele></trkpt>
-     <trkpt lat="36.159382" lon="-121.669963"><ele>86.8</ele></trkpt>
-     <trkpt lat="36.159667" lon="-121.669452"><ele>92.0</ele></trkpt>
-     <trkpt lat="36.159737" lon="-121.669220"><ele>90.2</ele></trkpt>
-     <trkpt lat="36.159751" lon="-121.668875"><ele>94.2</ele></trkpt>
-     <trkpt lat="36.159828" lon="-121.668786"><ele>95.2</ele></trkpt>
-     <trkpt lat="36.159987" lon="-121.668793"><ele>94.8</ele></trkpt>
-     <trkpt lat="36.160121" lon="-121.668731"><ele>98.5</ele></trkpt>
-     <trkpt lat="36.160571" lon="-121.668183"><ele>109.5</ele></trkpt>
-     <trkpt lat="36.160715" lon="-121.667896"><ele>112.8</ele></trkpt>
-     <trkpt lat="36.160908" lon="-121.667135"><ele>127.5</ele></trkpt>
-     <trkpt lat="36.160915" lon="-121.666948"><ele>134.5</ele></trkpt>
-     <trkpt lat="36.161208" lon="-121.666831"><ele>134.0</ele></trkpt>
-     <trkpt lat="36.161387" lon="-121.666653"><ele>134.8</ele></trkpt>
-     <trkpt lat="36.161465" lon="-121.666420"><ele>141.0</ele></trkpt>
-     <trkpt lat="36.161816" lon="-121.666298"><ele>142.8</ele></trkpt>
-     <trkpt lat="36.161743" lon="-121.666073"><ele>148.5</ele></trkpt>
-     <trkpt lat="36.161550" lon="-121.666105"><ele>149.8</ele></trkpt>
-     <trkpt lat="36.161542" lon="-121.666040"><ele>152.2</ele></trkpt>
-     <trkpt lat="36.161715" lon="-121.665820"><ele>156.5</ele></trkpt>
-     <trkpt lat="36.161726" lon="-121.665722"><ele>161.8</ele></trkpt>
-     <trkpt lat="36.161862" lon="-121.665609"><ele>167.0</ele></trkpt>
-     <trkpt lat="36.162026" lon="-121.665592"><ele>167.0</ele></trkpt>
-     <trkpt lat="36.162070" lon="-121.665526"><ele>169.5</ele></trkpt>
-     <trkpt lat="36.162141" lon="-121.665505"><ele>170.0</ele></trkpt>
-     <trkpt lat="36.162197" lon="-121.665391"><ele>174.2</ele></trkpt>
-     <trkpt lat="36.162170" lon="-121.665341"><ele>176.8</ele></trkpt>
-     <trkpt lat="36.162234" lon="-121.665289"><ele>178.2</ele></trkpt>
-     <trkpt lat="36.162302" lon="-121.665120"><ele>184.0</ele></trkpt>
-     <trkpt lat="36.162307" lon="-121.664950"><ele>191.2</ele></trkpt>
-     <trkpt lat="36.162465" lon="-121.664958"><ele>187.8</ele></trkpt>
-     <trkpt lat="36.162583" lon="-121.664687"><ele>201.2</ele></trkpt>
-     <trkpt lat="36.162792" lon="-121.664505"><ele>210.5</ele></trkpt>
-     <trkpt lat="36.162852" lon="-121.664344"><ele>217.8</ele></trkpt>
-     <trkpt lat="36.162764" lon="-121.664220"><ele>223.8</ele></trkpt>
-     <trkpt lat="36.162744" lon="-121.664121"><ele>227.8</ele></trkpt>
-     <trkpt lat="36.162780" lon="-121.664027"><ele>230.2</ele></trkpt>
-     <trkpt lat="36.162702" lon="-121.663878"><ele>235.5</ele></trkpt>
-     <trkpt lat="36.162722" lon="-121.663729"><ele>239.8</ele></trkpt>
-     <trkpt lat="36.162782" lon="-121.663707"><ele>239.5</ele></trkpt>
-     <trkpt lat="36.162792" lon="-121.663648"><ele>241.2</ele></trkpt>
-     <trkpt lat="36.162725" lon="-121.663541"><ele>245.2</ele></trkpt>
-     <trkpt lat="36.162759" lon="-121.663437"><ele>247.8</ele></trkpt>
-     <trkpt lat="36.162709" lon="-121.663281"><ele>253.0</ele></trkpt>
-     <trkpt lat="36.162818" lon="-121.663106"><ele>254.2</ele></trkpt>
-     <trkpt lat="36.163032" lon="-121.663135"><ele>249.2</ele></trkpt>
-     <trkpt lat="36.163393" lon="-121.663710"><ele>234.2</ele></trkpt>
-     <trkpt lat="36.163461" lon="-121.663871"><ele>233.2</ele></trkpt>
-     <trkpt lat="36.163529" lon="-121.664667"><ele>211.2</ele></trkpt>
-     <trkpt lat="36.163606" lon="-121.664775"><ele>209.8</ele></trkpt>
-     <trkpt lat="36.164202" lon="-121.664756"><ele>230.0</ele></trkpt>
-     <trkpt lat="36.164475" lon="-121.664885"><ele>235.8</ele></trkpt>
-     <trkpt lat="36.165570" lon="-121.665943"><ele>252.2</ele></trkpt>
-     <trkpt lat="36.165715" lon="-121.666439"><ele>252.2</ele></trkpt>
-     <trkpt lat="36.166533" lon="-121.665909"><ele>278.5</ele></trkpt>
-     <trkpt lat="36.167105" lon="-121.665718"><ele>293.8</ele></trkpt>
-     <trkpt lat="36.167880" lon="-121.665660"><ele>303.5</ele></trkpt>
-     <trkpt lat="36.168104" lon="-121.665732"><ele>303.0</ele></trkpt>
-     <trkpt lat="36.168702" lon="-121.665523"><ele>314.5</ele></trkpt>
-     <trkpt lat="36.168883" lon="-121.665310"><ele>320.8</ele></trkpt>
-     <trkpt lat="36.169037" lon="-121.664992"><ele>327.5</ele></trkpt>
-     <trkpt lat="36.169210" lon="-121.665016"><ele>328.2</ele></trkpt>
-     <trkpt lat="36.169660" lon="-121.664666"><ele>341.0</ele></trkpt>
-     <trkpt lat="36.169885" lon="-121.664602"><ele>343.2</ele></trkpt>
-     <trkpt lat="36.169988" lon="-121.664833"><ele>340.2</ele></trkpt>
-     <trkpt lat="36.170104" lon="-121.664912"><ele>341.5</ele></trkpt>
-     <trkpt lat="36.169988" lon="-121.664833"><ele>340.2</ele></trkpt>
-     <trkpt lat="36.169885" lon="-121.664602"><ele>343.2</ele></trkpt>
-     <trkpt lat="36.169660" lon="-121.664666"><ele>341.0</ele></trkpt>
-     <trkpt lat="36.169210" lon="-121.665016"><ele>328.2</ele></trkpt>
-     <trkpt lat="36.169037" lon="-121.664992"><ele>327.5</ele></trkpt>
-     <trkpt lat="36.168883" lon="-121.665310"><ele>320.8</ele></trkpt>
-     <trkpt lat="36.168702" lon="-121.665523"><ele>314.5</ele></trkpt>
-     <trkpt lat="36.168104" lon="-121.665732"><ele>303.0</ele></trkpt>
-     <trkpt lat="36.167880" lon="-121.665660"><ele>303.5</ele></trkpt>
-     <trkpt lat="36.167105" lon="-121.665718"><ele>293.8</ele></trkpt>
-     <trkpt lat="36.166533" lon="-121.665909"><ele>278.5</ele></trkpt>
-     <trkpt lat="36.165715" lon="-121.666439"><ele>252.2</ele></trkpt>
-     <trkpt lat="36.165570" lon="-121.665943"><ele>252.2</ele></trkpt>
-     <trkpt lat="36.164475" lon="-121.664885"><ele>235.8</ele></trkpt>
-     <trkpt lat="36.164202" lon="-121.664756"><ele>230.0</ele></trkpt>
-     <trkpt lat="36.163606" lon="-121.664775"><ele>209.8</ele></trkpt>
-     <trkpt lat="36.163529" lon="-121.664667"><ele>211.2</ele></trkpt>
-     <trkpt lat="36.163461" lon="-121.663871"><ele>233.2</ele></trkpt>
-     <trkpt lat="36.163393" lon="-121.663710"><ele>234.2</ele></trkpt>
-     <trkpt lat="36.163032" lon="-121.663135"><ele>249.2</ele></trkpt>
-     <trkpt lat="36.162818" lon="-121.663106"><ele>254.2</ele></trkpt>
-     <trkpt lat="36.162709" lon="-121.663281"><ele>253.0</ele></trkpt>
-     <trkpt lat="36.162759" lon="-121.663437"><ele>247.8</ele></trkpt>
-     <trkpt lat="36.162725" lon="-121.663541"><ele>245.2</ele></trkpt>
-     <trkpt lat="36.162792" lon="-121.663648"><ele>241.2</ele></trkpt>
-     <trkpt lat="36.162782" lon="-121.663707"><ele>239.5</ele></trkpt>
-     <trkpt lat="36.162722" lon="-121.663729"><ele>239.8</ele></trkpt>
-     <trkpt lat="36.162702" lon="-121.663878"><ele>235.5</ele></trkpt>
-     <trkpt lat="36.162780" lon="-121.664027"><ele>230.2</ele></trkpt>
-     <trkpt lat="36.162744" lon="-121.664121"><ele>227.8</ele></trkpt>
-     <trkpt lat="36.162764" lon="-121.664220"><ele>223.8</ele></trkpt>
-     <trkpt lat="36.162852" lon="-121.664344"><ele>217.8</ele></trkpt>
-     <trkpt lat="36.162792" lon="-121.664505"><ele>210.5</ele></trkpt>
-     <trkpt lat="36.162583" lon="-121.664687"><ele>201.2</ele></trkpt>
-     <trkpt lat="36.162465" lon="-121.664958"><ele>187.8</ele></trkpt>
-     <trkpt lat="36.162307" lon="-121.664950"><ele>191.2</ele></trkpt>
-     <trkpt lat="36.162302" lon="-121.665120"><ele>184.0</ele></trkpt>
-     <trkpt lat="36.162234" lon="-121.665289"><ele>178.2</ele></trkpt>
-     <trkpt lat="36.162170" lon="-121.665341"><ele>176.8</ele></trkpt>
-     <trkpt lat="36.162197" lon="-121.665391"><ele>174.2</ele></trkpt>
-     <trkpt lat="36.162141" lon="-121.665505"><ele>170.0</ele></trkpt>
-     <trkpt lat="36.162070" lon="-121.665526"><ele>169.5</ele></trkpt>
-     <trkpt lat="36.162026" lon="-121.665592"><ele>167.0</ele></trkpt>
-     <trkpt lat="36.161862" lon="-121.665609"><ele>167.0</ele></trkpt>
-     <trkpt lat="36.161726" lon="-121.665722"><ele>161.8</ele></trkpt>
-     <trkpt lat="36.161715" lon="-121.665820"><ele>156.5</ele></trkpt>
-     <trkpt lat="36.161542" lon="-121.666040"><ele>152.2</ele></trkpt>
-     <trkpt lat="36.161550" lon="-121.666105"><ele>149.8</ele></trkpt>
-     <trkpt lat="36.161743" lon="-121.666073"><ele>148.5</ele></trkpt>
-     <trkpt lat="36.161816" lon="-121.666298"><ele>142.8</ele></trkpt>
-     <trkpt lat="36.161465" lon="-121.666420"><ele>141.0</ele></trkpt>
-     <trkpt lat="36.161387" lon="-121.666653"><ele>134.8</ele></trkpt>
-     <trkpt lat="36.161208" lon="-121.666831"><ele>134.0</ele></trkpt>
-     <trkpt lat="36.160915" lon="-121.666948"><ele>134.5</ele></trkpt>
-     <trkpt lat="36.160908" lon="-121.667135"><ele>127.5</ele></trkpt>
-     <trkpt lat="36.160715" lon="-121.667896"><ele>112.8</ele></trkpt>
-     <trkpt lat="36.160571" lon="-121.668183"><ele>109.5</ele></trkpt>
-     <trkpt lat="36.160165" lon="-121.668687"><ele>99.8</ele></trkpt>
-     <trkpt lat="36.159987" lon="-121.668793"><ele>94.8</ele></trkpt>
-     <trkpt lat="36.159828" lon="-121.668786"><ele>95.2</ele></trkpt>
-     <trkpt lat="36.159751" lon="-121.668875"><ele>94.2</ele></trkpt>
-     <trkpt lat="36.159737" lon="-121.669220"><ele>90.2</ele></trkpt>
-     <trkpt lat="36.159667" lon="-121.669452"><ele>92.0</ele></trkpt>
-     <trkpt lat="36.159429" lon="-121.669927"><ele>88.5</ele></trkpt>
-     <trkpt lat="36.159018" lon="-121.670256"><ele>79.2</ele></trkpt>
-     <trkpt lat="36.158791" lon="-121.670559"><ele>77.2</ele></trkpt>
-     <trkpt lat="36.158564" lon="-121.670458"><ele>74.5</ele></trkpt>
+     <trkpt lat="36.159038" lon="-121.670782"><ele>82.5</ele></trkpt>
+     <trkpt lat="36.158695" lon="-121.670506"><ele>76.0</ele></trkpt>
      <trkpt lat="36.157982" lon="-121.670313"><ele>79.0</ele></trkpt>
      <trkpt lat="36.157175" lon="-121.670482"><ele>78.2</ele></trkpt>
      <trkpt lat="36.156984" lon="-121.670485"><ele>74.2</ele></trkpt>
      <trkpt lat="36.156564" lon="-121.670343"><ele>65.0</ele></trkpt>
+     <trkpt lat="36.156302" lon="-121.670136"><ele>57.0</ele></trkpt>
      <trkpt lat="36.156143" lon="-121.669957"><ele>53.8</ele></trkpt>
      <trkpt lat="36.155139" lon="-121.668407"><ele>54.5</ele></trkpt>
      <trkpt lat="36.154069" lon="-121.666535"><ele>58.5</ele></trkpt>
@@ -5850,27 +5120,11 @@
      <trkpt lat="36.134836" lon="-121.646692"><ele>101.8</ele></trkpt>
      <trkpt lat="36.132140" lon="-121.645163"><ele>94.8</ele></trkpt>
      <trkpt lat="36.129629" lon="-121.643568"><ele>81.0</ele></trkpt>
-     <trkpt lat="36.129054" lon="-121.643076"><ele>77.5</ele></trkpt>
-     <trkpt lat="36.128038" lon="-121.642056"><ele>69.8</ele></trkpt>
+     <trkpt lat="36.128425" lon="-121.642467"><ele>71.0</ele></trkpt>
      <trkpt lat="36.127633" lon="-121.641579"><ele>69.0</ele></trkpt>
      <trkpt lat="36.127065" lon="-121.640728"><ele>75.8</ele></trkpt>
      <trkpt lat="36.125704" lon="-121.638210"><ele>71.2</ele></trkpt>
-     <trkpt lat="36.125368" lon="-121.637688"><ele>69.8</ele></trkpt>
-     <trkpt lat="36.123837" lon="-121.635571"><ele>87.8</ele></trkpt>
-     <trkpt lat="36.123714" lon="-121.635748"><ele>76.5</ele></trkpt>
-     <trkpt lat="36.123821" lon="-121.636141"><ele>68.8</ele></trkpt>
-     <trkpt lat="36.124139" lon="-121.636707"><ele>59.8</ele></trkpt>
-     <trkpt lat="36.124267" lon="-121.637111"><ele>56.0</ele></trkpt>
-     <trkpt lat="36.124326" lon="-121.637501"><ele>49.0</ele></trkpt>
-     <trkpt lat="36.124479" lon="-121.637569"><ele>50.0</ele></trkpt>
-     <trkpt lat="36.124706" lon="-121.637856"><ele>47.8</ele></trkpt>
-     <trkpt lat="36.124479" lon="-121.637569"><ele>50.0</ele></trkpt>
-     <trkpt lat="36.124326" lon="-121.637501"><ele>49.0</ele></trkpt>
-     <trkpt lat="36.124267" lon="-121.637111"><ele>56.0</ele></trkpt>
-     <trkpt lat="36.124139" lon="-121.636707"><ele>59.8</ele></trkpt>
-     <trkpt lat="36.123821" lon="-121.636141"><ele>68.8</ele></trkpt>
-     <trkpt lat="36.123714" lon="-121.635748"><ele>76.5</ele></trkpt>
-     <trkpt lat="36.123837" lon="-121.635571"><ele>87.8</ele></trkpt>
+     <trkpt lat="36.125045" lon="-121.637218"><ele>70.0</ele></trkpt>
      <trkpt lat="36.122816" lon="-121.634171"><ele>84.8</ele></trkpt>
      <trkpt lat="36.121175" lon="-121.631381"><ele>118.8</ele></trkpt>
      <trkpt lat="36.120949" lon="-121.631049"><ele>123.2</ele></trkpt>
@@ -6006,7 +5260,7 @@
      <trkpt lat="36.026750" lon="-121.572992"><ele>87.8</ele></trkpt>
      <trkpt lat="36.026164" lon="-121.572689"><ele>85.0</ele></trkpt>
      <trkpt lat="36.025395" lon="-121.572131"><ele>79.2</ele></trkpt>
-     <trkpt lat="36.024491" lon="-121.571306"><ele>77.5</ele></trkpt>
+     <trkpt lat="36.024159" lon="-121.570960"><ele>78.0</ele></trkpt>
      <trkpt lat="36.023840" lon="-121.570554"><ele>76.8</ele></trkpt>
      <trkpt lat="36.023143" lon="-121.569430"><ele>74.2</ele></trkpt>
      <trkpt lat="36.021411" lon="-121.565567"><ele>73.8</ele></trkpt>

@@ -47,7 +47,7 @@ CACHE = os.path.join(HERE, ".cache")
 PROFILE_FILE = os.path.join(HERE, "velo_pch_road.brf")
 # The permissive twin, used ONLY for legs named in PERMISSIVE_LEGS.
 BRIDGE_PROFILE_FILE = os.path.join(HERE, "velo_pch_road_bridge.brf")
-PROFILE_CACHE_KEY = "velo_pch_road_v4"   # bump to invalidate the cache
+PROFILE_CACHE_KEY = "velo_pch_road_v5"   # bump to invalidate the cache
 os.makedirs(CACHE, exist_ok=True)
 
 # BRouter takes a limited number of via points per request; route in overlapping

@@ -22,7 +22,7 @@ Fields: name, lat, lon, cat, sym, desc
 CAMPING = [
     dict(name="Limekiln SP - NIGHT 1 (hike/bike $5)", lat=36.00998, lon=-121.51835,
          cat="camp", sym="Campground",
-         desc="THE NIGHT 1 TARGET. Reopened to camping 1 Apr 2026 after the Highway 1 "
+         desc="NIGHT 1 (if booking rather than camping wild). Reopened to camping 1 Apr 2026 after the Highway 1 "
               "slide closures. Hike/bike site $5/night; you must arrive on foot or by "
               "bike (no vehicle) and may stay a maximum of 2 consecutive nights. "
               "Fresh water, token hot showers ($1 / 5 min), toilets. Check-in 14:00, "
@@ -44,18 +44,18 @@ CAMPING = [
               "USFS, recreation.gov. Second fallback south of Limekiln. VERIFY water."),
     dict(name="Pfeiffer Big Sur SP - short-day fallback", lat=36.25331, lon=-121.78330,
          cat="camp", sym="Campground",
-         desc="In Big Sur Village, 55 km SHORT of Limekiln (day 1 becomes 282 km). "
+         desc="In Big Sur Village, ~41 km SHORT of Limekiln (day 1 becomes 256 km - see "
+              "pch_day1_alt_pfeiffer.gpx). "
               "The fallback if the light goes or the legs do. Full facilities, water, "
               "showers, and stores within walking distance. Also the sane place to stop "
               "rather than descend the Big Sur cliffs after dark."),
     dict(name="Andrew Molera SP (walk-in camping)", lat=36.27965, lon=-121.83095,
          cat="camp", sym="Campground",
-         desc="Walk-in sites 0.5 km from the car park, 22 km north of Limekiln's "
-              "latitude. Rougher than Pfeiffer, no showers. VERIFY it is open - Molera "
+         desc="Walk-in sites 0.5 km from the car park, north of Big Sur Village. Rougher than Pfeiffer, no showers. VERIFY it is open - Molera "
               "has had long closures."),
     dict(name="Refugio SB - NIGHT 2 (hike/bike)", lat=34.46243, lon=-120.04830,
          cat="camp", sym="Campground",
-         desc="THE NIGHT 2 TARGET. 10 Refugio Beach Road, Goleta CA 93117 - 20 miles "
+         desc="NIGHT 2 (if booking rather than camping wild). 10 Refugio Beach Road, Goleta CA 93117 - 20 miles "
               "west of Santa Barbara, off US-101 at Refugio Road. Hike-and-bike "
               "campsites confirmed; drinking water, restrooms, showers, outdoor "
               "showers, and a camp store on site. Open August 2026. "
@@ -67,8 +67,8 @@ CAMPING = [
          desc="Where CA-1 meets US-101 at the coast, under the railway trestle. "
               "Hike-and-bike campsites confirmed; drinking water, restrooms/showers, "
               "camp store. Open August 2026, reservable via ReserveCalifornia. "
-              "(805) 968-1033. Stops day 2 at 285 km instead of 303 km, at the cost of "
-              "a longer day 3. Known to be windy. SRC parks.ca.gov Gaviota page"),
+              "(805) 968-1033. Stops day 2 ~18 km earlier than Refugio, at the cost of a "
+              "longer day 3. Known to be windy. SRC parks.ca.gov Gaviota page"),
     dict(name="El Capitan SB - NIGHT 2 alt (3 km later)", lat=34.46000, lon=-120.02400,
          cat="camp", sym="Campground",
          desc="Third of the three Gaviota-coast hike/bike parks, 2.6 km east of "
@@ -77,11 +77,11 @@ CAMPING = [
               "current status and whether that extends to August."),
     dict(name="Morro Bay SP campground", lat=35.34277, lon=-120.82602,
          cat="camp", sym="Campground",
-         desc="Day 2 escape hatch at km 125 if the day falls apart early. Has a "
+         desc="Day 2 escape hatch a third of the way in, if the day falls apart early. Has a "
               "hike/bike site. Water, showers."),
     dict(name="Pismo SB - North Beach campground", lat=35.13054, lon=-120.63489,
          cat="camp", sym="Campground",
-         desc="Day 2 escape hatch at km ~176. Hike/bike site. Water, showers."),
+         desc="Day 2 escape hatch around halfway. Hike/bike site. Water, showers."),
     dict(name="Carpinteria SB campground", lat=34.39133, lon=-119.52147,
          cat="camp", sym="Campground",
          desc="Day 3 escape hatch, on the beach in town. Hike/bike site, water, "
@@ -95,28 +95,29 @@ LODGING = [
     dict(name="Lucia Lodge (10 rooms/cabins)", lat=36.02061, lon=-121.54926,
          cat="lodging", sym="Lodging",
          desc="3.6 km NORTH of Limekiln on the cliff - the indoor option closest to the "
-              "ideal stopping point, and the shortest day 1 of the indoor set "
-              "(323 km). Ten rooms/cabins only, so it books out. Restaurant on site."),
+              "ideal stopping point. Ten rooms/cabins only, so it books out. Restaurant "
+              "on site."),
     dict(name="Treebones Resort (yurts)", lat=35.88427, lon=-121.45533,
          cat="lodging", sym="Lodging",
-         desc="17.8 km south of Limekiln. Yurts with real beds. The plan notes a "
+         desc="South of Limekiln on day 2. Yurts with real beds. The plan notes a "
               "two-night minimum, which usually rules it out for a through-ride - "
               "VERIFY, they sometimes release single nights late."),
     dict(name="Gorda Springs Resort (cabins) + store + fuel", lat=35.87641, lon=-121.44614,
          cat="lodging", sym="Lodging",
-         desc="20.3 km south of Limekiln. Cabins, and one of only a handful of shops "
+         desc="Cabins, and one of only a handful of shops "
               "on this coast. Not bookable online in practice - the plan says call "
               "805-924-1825. VERIFY the number before relying on it."),
     dict(name="Ragged Point Inn (39 rooms) + market + fuel", lat=35.78072, lon=-121.33083,
          cat="lodging", sym="Lodging",
          desc="39 conventional rooms, restaurant, market and fuel at the south end of "
-              "the Big Sur cliffs - the most reliable indoor bed on the coast, but it "
-              "makes day 1 a 364 km ride. Last real services before San Simeon."),
+              "the Big Sur cliffs - the most reliable indoor bed on the coast, but as a "
+              "day-1 finish it makes for a ~333 km day. Last real services before "
+              "San Simeon."),
     dict(name="San Simeon Acres (motel strip)", lat=35.59235, lon=-121.12446,
          cat="lodging", sym="Lodging",
          desc="Ordinary motels in numbers, 10 km south of the Hearst Castle entrance. "
-              "The reliable fallback, but day 1 becomes 396 km - only if Limekiln, "
-              "Lucia and Ragged Point have all failed."),
+              "The reliable indoor fallback if everything north of here has failed, "
+              "but it turns day 1 into a ~365 km ride."),
 ]
 
 # ---------------------------------------------------------------------------
@@ -212,6 +213,21 @@ HAZARDS = [
               "Village, Santa Lucia Canyon Rd). Check QuickMap and the Vandenberg "
               "launch schedule for your date; there is no good detour - the inland "
               "alternative is US-101 via Santa Maria and Los Alamos."),
+    dict(name="INFO Wild camping - where it is actually legal here",
+         lat=36.02079, lon=-121.55050, cat="info", sym="Flag, Blue",
+         desc="If you are stopping where you like rather than booking: dispersed "
+              "camping on LOS PADRES NATIONAL FOREST land is allowed and needs no "
+              "permit. The catch is geography - the strip immediately along Highway 1 "
+              "through Big Sur is mostly state park or private ranch, where it is "
+              "prohibited; the National Forest land (Ventana and Silver Peak "
+              "Wilderness) is largely EAST of the highway and uphill, so it means "
+              "getting off CA-1 and climbing. CAMPFIRES ARE BANNED until 31 Jan 2027 "
+              "under a Forest Order effective 4 Jun 2026, across Los Padres including "
+              "Ventana and Silver Peak; a stove is fine with a free California "
+              "Campfire Permit. August is peak fire season and restrictions tighten at "
+              "short notice - check before you go. Position is nominal, it applies to "
+              "the whole Big Sur stretch. "
+              "SRC fs.usda.gov/r05/lospadres fire-use restrictions"),
     dict(name="HAZARD Big Sur - no cell signal, no bike shop, no exit",
          lat=36.15000, lon=-121.65000, cat="hazard", sym="Danger Area",
          desc="From Carmel to Cambria there is no bike shop, no hospital, no transit and "

@@ -34,47 +34,33 @@ STAGE1 = [
     ("426 Fell St, San Francisco (START)", 37.77585, -122.42500),
     ("Golden Gate Park, MLK Jr Dr",        37.76900, -122.48300),
     ("Great Highway at Lincoln Way",       37.76300, -122.51000),
-    ("Great Highway at Sloat Blvd",        37.73500, -122.50600),
+    # No Sloat point: the Great Highway ends there, and pinning the turn produced
+    # a 366 m out-and-back. Lincoln Way plus Lake Merced pin the exit fine.
     ("Lake Merced / Skyline Blvd",         37.72050, -122.49800),
     ("Sharp Park, Pacifica",               37.63600, -122.48800),
-    ("Pacifica (Rockaway Beach)",          37.59800, -122.49950),
     ("Devil's Slide Trail (N trailhead)",  37.58080, -122.51600),
-    ("Montara",                            37.54942, -122.49354),
     ("Half Moon Bay",                      37.46355, -122.42859),
-    ("San Gregorio State Beach",           37.32450, -122.40300),
-    # No via-point between here and Pigeon Point: CA-1 is the only road, and a
-    # point placed at the Pescadero Creek Rd junction snapped onto a dirt
-    # service track (+0.7 km, 322 m unpaved).
-    ("Pigeon Point Lighthouse",            37.18212, -122.39408),
-    ("Davenport",                          37.01542, -122.19071),
+    # San Mateo coast: CA-1 is the only road. No via-points between Half Moon Bay
+    # and Santa Cruz - San Gregorio, Pescadero, Pigeon Point and Davenport all
+    # snapped off the highway and cost 0.8-1.4 km of out-and-back each.
     ("Santa Cruz (downtown)",              36.97436, -122.02947),
     ("Capitola (Soquel Dr)",               36.97549, -121.95362),
     ("Aptos (Soquel Dr)",                  36.97760, -121.89750),
     ("San Andreas Rd",                     36.89300, -121.81100),
-    # Sunset State Beach removed: it is a spur off San Andreas Rd and cost
-    # 5.4 km out-and-back for nothing.
-    ("Moss Landing",                       36.80359, -121.78627),
     ("Castroville",                        36.76412, -121.75176),
     ("Marina",                             36.68440, -121.80217),
     ("Monterey Bay Coastal Trail",         36.60303, -121.86500),
-    # Monterey -> Carmel goes direct (9.9 km). Round the Monterey peninsula on
-    # 17-Mile Drive instead and it is 23.5 km: see the 17-Mile Drive variant.
-    ("Carmel-by-the-Sea (Ocean Ave)",      36.55508, -121.92614),
-    ("Carmel River State Beach",           36.53458, -121.92796),
-    ("Point Lobos State Reserve",          36.51473, -121.94279),
-    # No via-point at Garrapata: the geocoded park centroid sits 1.2 km inland
-    # at 540 m and dragged the line 6.8 km up Garrapata Canyon (+585 m climb).
-    ("Rocky Creek Bridge",                 36.38480, -121.90270),
+    # Pinned on CA-1 south of the village, NOT on Ocean Ave: Ocean Ave dead-ends
+    # at the beach, so a via-point there made the line run down it and back up
+    # (470 m of out-and-back).
+    ("Carmel (CA-1 at Rio Rd)",             36.54300, -121.92100),
+    # Carmel -> Limekiln is 78 km on which CA-1 is the ONLY road, so it gets almost
+    # no via-points. Point Sur, Point Lobos, Carmel River SB, Andrew Molera, Julia
+    # Pfeiffer Burns and Esalen all sit back from the highway behind gates, ranch
+    # roads or car parks; as via-points they each produced a 2-4 km out-and-back
+    # spur. They live in pch_pois.py as waypoints instead.
     ("Bixby Creek Bridge",                 36.37243, -121.90288),
-    ("Point Sur Lighthouse",               36.30637, -121.90172),
-    ("Andrew Molera State Park",           36.27965, -121.83095),
     ("Big Sur Village (River Inn)",        36.27064, -121.80849),
-    ("Pfeiffer Big Sur State Park",        36.25331, -121.78330),
-    ("Big Sur Station",                    36.24798, -121.78129),
-    ("Nepenthe",                           36.22181, -121.75966),
-    ("Julia Pfeiffer Burns SP (McWay)",    36.16997, -121.66539),
-    ("Esalen Institute",                   36.12481, -121.63774),
-    ("Lucia",                              36.02079, -121.55050),
     ("Limekiln State Park (NIGHT 1)",      36.00998, -121.51835),
 ]
 
@@ -90,35 +76,26 @@ STAGE1 = [
 #    has to permit bicycle-legal freeway shoulders.
 STAGE2 = [
     ("Limekiln State Park (START)",        36.00998, -121.51835),
-    ("Kirk Creek Campground",              35.98916, -121.49557),
-    ("Plaskett Creek / Sand Dollar",       35.91788, -121.46665),
-    ("Treebones Resort",                   35.88427, -121.45533),
     ("Gorda Springs",                      35.87641, -121.44614),
-    ("Ragged Point Inn",                   35.78072, -121.33083),
-    # No via-points at Piedras Blancas, the elephant seal vista or San Simeon
-    # Acres: CA-1 is the only road from Ragged Point to Cambria, and every one of
-    # those three snapped off the highway onto a bluff trail or a parking lot
-    # (1,964 m + 349 m + 2,590 m of dirt between them). They survive as POIs in
-    # pch_pois.py, snapped to the highway line.
-    ("Hearst Castle entrance",             35.64540, -121.18414),
+    # Gorda -> Cambria: CA-1 only. Kirk Creek, Plaskett Creek, Treebones, Ragged
+    # Point, Piedras Blancas, the elephant-seal vista and San Simeon Acres are all
+    # off-highway and were each costing a spur; they are waypoints now.
     ("Cambria",                            35.56414, -121.08111),
-    ("Harmony",                            35.50858, -121.02269),
-    ("Cayucos",                            35.43701, -120.88311),
     ("Morro Bay",                          35.36581, -120.84990),
-    ("Morro Bay State Park",               35.34277, -120.82602),
+    # Morro Bay -> SLO runs inland via Los Osos; CA-1 north of SLO is freeway.
     ("Los Osos",                           35.31072, -120.83235),
     ("Los Osos Valley Rd",                 35.27746, -120.71900),
     ("San Luis Obispo",                    35.28280, -120.65960),
-    ("Avila Beach Dr",                     35.17998, -120.73184),
+    # SLO -> Pismo pinned on Shell Beach Rd, because US-101 through Shell Beach is
+    # freeway. The Avila Beach Dr point sat 700 m down a dead end: 4.0 km spur.
     ("Shell Beach",                        35.15525, -120.67239),
-    ("Pismo Beach",                        35.14274, -120.64129),
-    ("Oceano",                             35.10531, -120.61689),
+    # Oceano removed: it added a 407 m stitch spur and 0.4 km for nothing;
+    # Shell Beach and Guadalupe already pin this stretch.
     ("Guadalupe",                          34.97164, -120.57184),
     ("Orcutt",                             34.86518, -120.44722),
-    ("Vandenberg Village",                 34.71165, -120.46068),
+    # Vandenberg Village removed: 1.6 km off CA-1, cost a 3.9 km spur.
     ("Lompoc",                             34.63915, -120.45790),
     ("Las Cruces (CA-1 / US-101)",         34.50804, -120.22904),
-    ("Gaviota State Park",                 34.47718, -120.22857),
     ("Refugio State Beach (NIGHT 2)",      34.46243, -120.04830),
 ]
 
@@ -129,28 +106,25 @@ STAGE2 = [
 # the Pacific Surfliner leave from, so the finish line is also the way home.
 STAGE3 = [
     ("Refugio State Beach (START)",        34.46243, -120.04830),
-    ("El Capitan State Beach",             34.46000, -120.02400),
-    # The two points below bracket the US-101 tagging gap west of Winchester
-    # Canyon. The leg between them is the only leg of the whole trip routed with
-    # the permissive profile (see PERMISSIVE_LEGS below and
-    # velo_pch_road_bridge.brf). Without them the router answers this 5 km
-    # coastal hop by crossing the Santa Ynez Mountains: 85 km and +1,491 m.
-    ("US-101 at Naples (Gaviota coast)",   34.44500, -119.95000),
-    ("US-101 Winchester Canyon off-ramp",  34.43840, -119.90500),
+    # These two bracket the US-101 tagging gap west of Winchester Canyon; the leg
+    # between them is the only one routed with the permissive profile.
+    # On the US-101 mainline, deliberately: the earlier point at Naples snapped
+    # onto a frontage road and cost a 1.5 km out-and-back at the profile-switch
+    # boundary. Moving it here removed the spur AND shortened the permissive leg
+    # from 7.9 km to 3.0 km.
+    ("US-101 mainline W of the gap",        34.43720, -119.92500),
+    ("US-101 Winchester Canyon off-ramp",  34.43790, -119.89400),
     ("Goleta",                             34.43583, -119.82764),
-    ("Goleta Beach County Park",           34.41656, -119.83280),
     ("Santa Barbara (Cabrillo Blvd)",      34.41259, -119.68874),
-    ("Carpinteria State Beach",            34.39133, -119.52147),
+    ("Carpinteria",                        34.39888, -119.51846),
     ("Rincon Point",                       34.37419, -119.47664),
-    ("La Conchita",                        34.36418, -119.44786),
-    ("Emma Wood State Beach",              34.28422, -119.32237),
+    # Emma Wood State Beach removed: 2.1 km off the line, cost a 4.4 km spur.
     ("Ventura (Amtrak / Harbor Blvd)",     34.27694, -119.29987),
     ("Port Hueneme",                       34.14776, -119.19516),
     ("Point Mugu Rock",                    34.09173, -119.06879),
-    ("Leo Carrillo State Park",            34.06098, -118.93281),
-    ("Zuma Beach",                         34.02144, -118.83103),
+    # Leo Carrillo (4.1 km spur) and Zuma Beach (2.4 km) removed: PCH is the only
+    # road along this coast and needs no help.
     ("Malibu",                             34.03559, -118.68942),
-    ("Will Rogers State Beach",            34.03331, -118.53195),
     ("Santa Monica Pier",                  34.00890, -118.49740),
     ("Culver City (Expo path)",            34.02110, -118.39650),
     ("Exposition Park / USC",              34.01800, -118.28600),
@@ -167,7 +141,7 @@ STAGE3 = [
 # reason next to it - every entry is a deliberate departure from "the audit
 # proves the line is legal".
 PERMISSIVE_LEGS = {
-    ("US-101 at Naples (Gaviota coast)", "US-101 Winchester Canyon off-ramp"):
+    ("US-101 mainline W of the gap", "US-101 Winchester Canyon off-ramp"):
         "OSM starts the US-101 bicycle=no run ~1 km west of the Winchester "
         "Canyon off-ramp, leaving no legal bicycle path from the Gaviota coast "
         "into Goleta. Cyclists ride this shoulder in practice (Adventure "
@@ -205,131 +179,28 @@ STAGES = [
 ]
 
 # ---------------------------------------------------------------------------
-# Variant stages - the alternatives the plan actually leaves open
+# Variant stages
 # ---------------------------------------------------------------------------
-# Day 1 can finish at four different places depending on what is bookable and
-# how the legs feel. Each is a full stage file so it can be loaded on its own.
-# `trim_to` = the label in STAGE1 to cut the shared prefix at; `extra` = the
-# points appended after it.
+# Deliberately just one. Earlier drafts shipped eight alternative overnight
+# endpoints (Lucia, Ragged Point, San Simeon, Gaviota, El Capitan, 17-Mile Drive,
+# an inland Devil's Slide bypass). With the destination fixed at Los Angeles and
+# the rider planning to stop where they feel like it rather than at a booked
+# campground, alternative *endpoints* are noise - the line is the same road either
+# way, and you can stop anywhere along it.
+#
+# What survives is the one variant that changes the shape of the day rather than
+# just its last kilometre: the short day 1, for when the light or the legs go.
 VARIANTS = [
     {
-        "id": "pch_day1_alt_inland_bypass",
-        "name": "Day 1 variant - inland bypass, no Devil's Slide Trail",
-        "desc": "Insurance against a locked gate. San Mateo County publishes an 08:00 "
-                "opening for the Devil's Slide Trail PARKING LOTS and does not publish "
-                "trail-access hours; a 05:00 departure reaches the trail around "
-                "06:30-07:00, and the Tom Lantos Tunnels are not a legal alternative. "
-                "This variant leaves the coast at Lake Merced and takes Skyline "
-                "Boulevard (CA-35) down the peninsula ridge to CA-92, then drops west "
-                "into Half Moon Bay, rejoining the main line there. More climbing and "
-                "no ocean for the first 60 km, but it cannot be gated shut.",
-        "replace_upto": "Half Moon Bay",
-        "head": [
-            ("426 Fell St, San Francisco (START)", 37.77585, -122.42500),
-            ("Golden Gate Park, MLK Jr Dr",        37.76900, -122.48300),
-            ("Lake Merced / Skyline Blvd",         37.72050, -122.49800),
-            ("Skyline Blvd (CA-35), San Bruno",    37.63000, -122.44000),
-            ("Skyline Blvd, Crystal Springs",      37.54000, -122.37000),
-            ("CA-35 / CA-92 junction",             37.51300, -122.34800),
-            ("CA-92 westbound summit",             37.49000, -122.39000),
-        ],
-    },
-    {
-        "id": "pch_day1_alt_17mile",
-        "name": "Day 1 variant - round the Monterey peninsula on 17-Mile Drive",
-        "desc": "Instead of cutting straight from Monterey to Carmel (9.9 km, with "
-                "0.5 km of bicycle-legal CA-1 freeway shoulder), swing around the "
-                "peninsula tip through Pacific Grove, Asilomar and 17-Mile Drive "
-                "(23.5 km). Bicycles are admitted to 17-Mile Drive free of charge. "
-                "Costs 13.6 km and ~170 m of climbing, and keeps you off the "
-                "expressway entirely. Worth it only if day 1 is going well.",
-        "trim_to": "Monterey Bay Coastal Trail",
-        "extra": [
-            ("Pacific Grove",                   36.62111, -121.91779),
-            ("Asilomar State Beach",            36.62409, -121.94009),
-            ("17-Mile Drive (Cypress Point)",   36.57900, -121.96600),
-            ("Carmel-by-the-Sea (Ocean Ave)",   36.55508, -121.92614),
-            ("Carmel River State Beach",        36.53458, -121.92796),
-            ("Point Lobos State Reserve",       36.51473, -121.94279),
-            ("Rocky Creek Bridge",              36.38480, -121.90270),
-            ("Bixby Creek Bridge",              36.37243, -121.90288),
-            ("Point Sur Lighthouse",            36.30637, -121.90172),
-            ("Andrew Molera State Park",        36.27965, -121.83095),
-            ("Big Sur Village (River Inn)",     36.27064, -121.80849),
-            ("Pfeiffer Big Sur State Park",     36.25331, -121.78330),
-            ("Big Sur Station",                 36.24798, -121.78129),
-            ("Nepenthe",                        36.22181, -121.75966),
-            ("Julia Pfeiffer Burns SP (McWay)", 36.16997, -121.66539),
-            ("Esalen Institute",                36.12481, -121.63774),
-            ("Lucia",                           36.02079, -121.55050),
-            ("Limekiln State Park (NIGHT 1)",   36.00998, -121.51835),
-        ],
-    },
-    {
         "id": "pch_day1_alt_pfeiffer",
-        "name": "Day 1 variant - finish early at Pfeiffer Big Sur (fallback)",
-        "desc": "The short fallback if Limekiln cannot be confirmed or the light "
-                "runs out: stop at Pfeiffer Big Sur State Park in Big Sur Village, "
-                "~55 km short of Limekiln. Leaves a longer day 2.",
-        "trim_to": "Big Sur Station",
+        "name": "Day 1 variant - stop early at Big Sur Village / Pfeiffer",
+        "desc": "Day 1 cut from 326 km to 282 km by stopping in Big Sur Village "
+                "instead of pressing on to Limekiln. Worth having loaded: it is "
+                "the decision point for whether you descend the Big Sur cliffs "
+                "in the dark, and the village is the last place with food, water "
+                "and a campground in one spot.",
+        "trim_to": "Big Sur Village (River Inn)",
         "extra": [("Pfeiffer Big Sur SP (NIGHT 1 alt)", 36.25331, -121.78330)],
-    },
-    {
-        "id": "pch_day1_alt_lucia",
-        "name": "Day 1 variant - finish at Lucia Lodge (indoor)",
-        "desc": "The indoor option nearest the ideal stopping point: Lucia Lodge, "
-                "10 rooms/cabins on the cliff, ~3 km north of Limekiln.",
-        "trim_to": "Esalen Institute",
-        "extra": [("Lucia Lodge (NIGHT 1 alt)", 36.02061, -121.54926)],
-    },
-    {
-        "id": "pch_day1_alt_raggedpoint",
-        "name": "Day 1 variant - finish at Ragged Point Inn (indoor)",
-        "desc": "The longer indoor option: 39 conventional rooms plus market and "
-                "fuel at the south end of the Big Sur cliffs. Pushes day 1 out by "
-                "~72 km beyond Limekiln and shortens day 2 to match.",
-        "trim_to": "Limekiln State Park (NIGHT 1)",
-        "extra": [
-            ("Kirk Creek Campground",            35.98916, -121.49557),
-            ("Plaskett Creek / Sand Dollar",     35.91788, -121.46665),
-            ("Gorda Springs",                    35.87641, -121.44614),
-            ("Ragged Point Inn (NIGHT 1 alt)",   35.78072, -121.33083),
-        ],
-    },
-    {
-        "id": "pch_day1_alt_sansimeon",
-        "name": "Day 1 variant - finish at San Simeon (indoor fallback)",
-        "desc": "The reliable-motels fallback, ~32 km south of Ragged Point. Only "
-                "worth it if Limekiln, Lucia and Ragged Point are all unavailable.",
-        "trim_to": "Limekiln State Park (NIGHT 1)",
-        "extra": [
-            ("Kirk Creek Campground",            35.98916, -121.49557),
-            ("Plaskett Creek / Sand Dollar",     35.91788, -121.46665),
-            ("Gorda Springs",                    35.87641, -121.44614),
-            ("Ragged Point Inn",                 35.78072, -121.33083),
-            ("Hearst Castle entrance",           35.64540, -121.18414),
-            # snapped to CA-1: the town-centre point lands on a dirt bluff trail
-            ("San Simeon Acres (NIGHT 1 alt)",   35.59235, -121.12446),
-        ],
-    },
-    {
-        "id": "pch_day2_alt_gaviota",
-        "name": "Day 2 variant - finish at Gaviota State Park instead of Refugio",
-        "desc": "Stop 16 km earlier at Gaviota State Park, right where CA-1 meets "
-                "US-101 at the coast. Shortest day 2; longest day 3.",
-        "trim_to": "Gaviota State Park",
-        "extra": [("Gaviota State Park (NIGHT 2 alt)", 34.47180, -120.22860)],
-        "base": "STAGE2",
-    },
-    {
-        "id": "pch_day2_alt_elcapitan",
-        "name": "Day 2 variant - finish at El Capitan State Beach",
-        "desc": "Push 3 km past Refugio to El Capitan State Beach - the third of "
-                "the three Santa Barbara-coast hike/bike parks, and the one with "
-                "the most services.",
-        "trim_to": "Refugio State Beach (NIGHT 2)",
-        "extra": [("El Capitan State Beach (NIGHT 2 alt)", 34.46000, -120.02400)],
-        "base": "STAGE2",
     },
 ]
 

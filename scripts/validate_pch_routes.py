@@ -17,6 +17,9 @@ it asserts the invariants that make this particular route safe to hand to a ride
   7. SURFACE: unpaved stays negligible (road bike).
   8. The master file's tracks reproduce the per-day files.
   9. The waypoint file parses and every waypoint has a name and a description.
+ 10. SPURS: no out-and-back detours - the failure a rider actually sees, where the
+     line runs into a cul-de-sac and reverses. Continuity checks miss these
+     entirely because the track never breaks.
 
 Exits non-zero if anything fails. Writes data/pch_validation.json.
 """
@@ -36,6 +39,13 @@ DATA_DIR = os.path.join(BASE, "data")
 NS = "{http://www.topografix.com/GPX/1/1}"
 
 MAX_POINT_GAP_M = 400     # build densifies to <=300 m, so this catches real breaks
+# Out-and-back spurs. These are what a rider actually notices: the line runs into
+# a cul-de-sac and reverses. They are invisible to a continuity check, because the
+# track stays continuous the whole way in and back out. An early draft of this
+# route carried 50 of them wasting 62 km, all caused by via-points that snapped
+# off the highway onto park entrances and beach car parks.
+MAX_SPUR_TOTAL_M = 1500   # per stage
+MAX_SPUR_SINGLE_M = 700
 MAX_SEAM_GAP_M = 50
 MAX_WAYPOINT_OFFSET_M = 2600
 MAX_UNPAVED_KM = 0.5
@@ -78,6 +88,44 @@ def track_len_km(pts):
     return sum(hav(pts[i], pts[i + 1]) for i in range(len(pts) - 1)) / 1000.0
 
 
+def find_spurs(pts, close_m=40.0, min_excursion_m=120.0):
+    """Places where the track returns to within close_m of an earlier point after
+    travelling at least min_excursion_m - i.e. it went somewhere and came back.
+
+    Grid-bucketed so this stays linear-ish on a few thousand points.
+    """
+    cum = [0.0]
+    for i in range(len(pts) - 1):
+        cum.append(cum[-1] + hav(pts[i], pts[i + 1]))
+    grid = {}
+    for idx, p in enumerate(pts):
+        grid.setdefault((round(p[0] * 2000), round(p[1] * 2000)), []).append(idx)
+    found = []
+    for idx, p in enumerate(pts):
+        key = (round(p[0] * 2000), round(p[1] * 2000))
+        cand = []
+        for da in (-1, 0, 1):
+            for db in (-1, 0, 1):
+                cand += grid.get((key[0] + da, key[1] + db), [])
+        for j in cand:
+            if j <= idx or cum[j] - cum[idx] < min_excursion_m:
+                continue
+            if hav(pts[idx], pts[j]) > close_m:
+                continue
+            if any(abs(idx - a) < 40 for a, _ in found):
+                continue
+            found.append((idx, j))
+            break
+    out = []
+    for idx, j in found:
+        reach = max(hav(pts[idx], q) for q in pts[idx:j + 1])
+        out.append({"at_km": round(cum[idx] / 1000, 2),
+                    "excursion_m": round(cum[j] - cum[idx]),
+                    "reach_m": round(reach),
+                    "lat": round(pts[idx][0], 5), "lon": round(pts[idx][1], 5)})
+    return out
+
+
 def main():
     problems = []
     report = {"files": [], "seams": [], "legality": {}, "ok": True}
@@ -90,7 +138,7 @@ def main():
     specs += [(v["id"], v["name"], variant_points(v), False) for v in VARIANTS]
 
     stage_pts = {}
-    print(f"{'file':34}{'XML':>5}{'pts':>7}{'km':>9}{'maxgap':>9}{'wp_off':>8}")
+    print(f"{'file':32}{'XML':>4}{'pts':>7}{'km':>8}{'maxgap':>8}{'wp_off':>7}{'spurs':>7}{'spur_m':>8}")
     for sid, name, corridor, is_main in specs:
         path = os.path.join(GPX_DIR, sid + ".gpx")
         entry = {"id": sid, "file": os.path.basename(path), "is_main_stage": is_main}
@@ -133,7 +181,18 @@ def main():
             if abs(claimed - km) / max(km, 1) > 0.02:
                 problems.append(f"{sid}: summary says {claimed} km, GPX measures {km:.1f} km")
 
+        sp = find_spurs(pts)
+        sp_total = sum(x["excursion_m"] for x in sp)
+        sp_max = max([x["excursion_m"] for x in sp], default=0)
+        if sp_total > MAX_SPUR_TOTAL_M:
+            problems.append(f"{sid}: {len(sp)} out-and-back spur(s) totalling "
+                            f"{sp_total} m (limit {MAX_SPUR_TOTAL_M})")
+        if sp_max > MAX_SPUR_SINGLE_M:
+            problems.append(f"{sid}: a single out-and-back spur of {sp_max} m "
+                            f"(limit {MAX_SPUR_SINGLE_M})")
+
         entry.update({"xml_valid": True, "n_points": len(pts),
+                      "spurs": sp, "spur_total_m": sp_total, "spur_max_m": sp_max,
                       "distance_km": round(km, 1),
                       "max_point_gap_m": round(maxgap, 1),
                       "worst_corridor_offset_m": round(worst_off),
@@ -141,7 +200,8 @@ def main():
                       "continuous": n_big == 0})
         report["files"].append(entry)
         stage_pts[sid] = pts
-        print(f"{sid:34}{'ok':>5}{len(pts):>7}{km:>9.1f}{maxgap:>9.0f}{worst_off:>8.0f}")
+        print(f"{sid:32}{'ok':>4}{len(pts):>7}{km:>8.1f}{maxgap:>8.0f}{worst_off:>7.0f}"
+              f"{len(sp):>7}{sp_total:>8}")
 
     # seams between the three riding days
     order = [s["id"] for s in STAGES]

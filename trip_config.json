@@ -45,7 +45,7 @@
       "source": "Mittelbuchen->Mainz by BRouter; Mainz->Andermatt official EuroVelo 15 GPX"
     },
     {
-      "name": "Rhône Cycle Route",
+      "name": "Rh\u00f4ne Cycle Route",
       "ev_code": "EV17",
       "start": "Andermatt (CH)",
       "end": "Port-Saint-Louis-du-Rhone (Med)",
@@ -133,54 +133,49 @@
     "finish": "LA Union Station (train home)",
     "planned_departure": "2026-08-05 or 2026-08-06",
     "totals": {
-      "distance_km": 858.6,
-      "ascent_m_filtered": 6800,
+      "distance_km": 782.4,
+      "ascent_m_filtered": 5648,
       "stages": 3,
-      "method": "BRouter velo_pch_road.brf on OpenStreetMap; one 391 m permissive-profile leg at the Winchester Canyon US-101 tagging gap; built 2026-08-04"
+      "method": "BRouter velo_pch_road.brf on OpenStreetMap (correctMisplacedViaPoints on); one 391 m permissive-profile leg at the Winchester Canyon US-101 tagging gap; rebuilt 2026-08-04 after removing 62 km of via-point out-and-back spurs"
     },
     "stages": [
       {
         "name": "Day 1 - San Francisco to Limekiln State Park",
         "gpx_file": "pch_day1_sf_limekiln.gpx",
-        "distance_km": 326.4,
-        "ascent_m": 3642,
-        "overnight": "Limekiln SP hike/bike site ($5)",
+        "distance_km": 297.2,
+        "ascent_m": 2889,
+        "overnight": "Limekiln SP, or wild",
         "status": "built",
-        "warning": "326 km, not the 280-290 km the plan assumed. Limekiln is reservation-only - there are no first-come, first-served sites."
+        "warning": "Rocky Creek Bridge one-way signal control at km 235, 24/7 through 31 Aug 2026, up to 15 min."
       },
       {
         "name": "Day 2 - Limekiln State Park to Refugio State Beach",
         "gpx_file": "pch_day2_limekiln_refugio.gpx",
-        "distance_km": 302.7,
-        "ascent_m": 2377,
-        "overnight": "Refugio SB hike/bike site",
-        "status": "built"
+        "distance_km": 279.5,
+        "ascent_m": 2148,
+        "overnight": "Refugio SB, or wild",
+        "status": "built",
+        "warning": "Thinnest resupply of the three days. Fill up in Lompoc at km 226 - the next 34 km over the Santa Rosa Hills has nothing."
       },
       {
         "name": "Day 3 - Refugio State Beach to LA Union Station",
         "gpx_file": "pch_day3_refugio_la.gpx",
-        "distance_km": 229.5,
-        "ascent_m": 781,
+        "distance_km": 205.7,
+        "ascent_m": 611,
         "overnight": "-",
-        "status": "built"
+        "status": "built",
+        "warning": "Last ~50 km runs through the Palisades Fire rebuild corridor on PCH: one lane each way, 25 mph."
       }
     ],
     "variants_built": [
-      "pch_day1_alt_inland_bypass.gpx (326.2 km - Devil's Slide Trail gate insurance)",
-      "pch_day1_alt_pfeiffer.gpx (282.1 km)",
-      "pch_day1_alt_lucia.gpx (322.9 km)",
-      "pch_day1_alt_17mile.gpx (340.0 km)",
-      "pch_day1_alt_raggedpoint.gpx (363.6 km)",
-      "pch_day1_alt_sansimeon.gpx (396.2 km)",
-      "pch_day2_alt_gaviota.gpx (284.8 km)",
-      "pch_day2_alt_elcapitan.gpx (305.3 km)"
+      "pch_day1_alt_pfeiffer.gpx (256.1 km - stop in Big Sur Village instead of pressing on)"
     ],
     "open_actions": [
-      "BOOK Limekiln on ReserveCalifornia 800-444-7275 - no walk-up sites exist",
-      "CALL San Mateo County Parks re Devil's Slide Trail access before 08:00; otherwise ride the inland bypass",
-      "CHECK Caltrans QuickMap on the morning - Rocky Creek Bridge one-way control runs 24/7 through 31 Aug 2026, up to 15 min delay",
-      "CALL (805) 968-1033 for the Refugio/Gaviota per-person hike-bike rate (not published; the $10/person figure is unverified)",
-      "BOOK the bicycle on the Coast Starlight out of LA Union Station - separate reservation, limited space"
+      "DECIDE camping: book Limekiln on ReserveCalifornia 800-444-7275 (no walk-up sites exist), OR camp wild - dispersed camping on Los Padres NF land is legal and permit-free, but campfires are banned until 31 Jan 2027 and the NF land is east of and above Highway 1",
+      "CHECK Caltrans QuickMap on the morning - Rocky Creek Bridge one-way control runs 24/7 through 31 Aug 2026",
+      "CHECK the Vandenberg launch schedule for your date - CA-1 past the base can close at a few hours' notice",
+      "BOOK the bicycle on the Coast Starlight out of LA Union Station - separate reservation, limited space",
+      "GET a free California Campfire Permit if carrying a stove"
     ]
   }
 }

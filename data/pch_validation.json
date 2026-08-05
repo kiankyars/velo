@@ -5,11 +5,57 @@
    "file": "pch_day1_sf_limekiln.gpx",
    "is_main_stage": true,
    "xml_valid": true,
-   "n_points": 3504,
-   "distance_km": 326.1,
+   "n_points": 2876,
+   "spurs": [
+    {
+     "at_km": 28.22,
+     "excursion_m": 141,
+     "reach_m": 40,
+     "lat": 37.60721,
+     "lon": -122.49831
+    },
+    {
+     "at_km": 135.99,
+     "excursion_m": 412,
+     "reach_m": 197,
+     "lat": 36.9738,
+     "lon": -121.95306
+    },
+    {
+     "at_km": 145.38,
+     "excursion_m": 128,
+     "reach_m": 69,
+     "lat": 36.97174,
+     "lon": -121.87214
+    },
+    {
+     "at_km": 197.09,
+     "excursion_m": 207,
+     "reach_m": 104,
+     "lat": 36.62481,
+     "lon": -121.84127
+    },
+    {
+     "at_km": 201.22,
+     "excursion_m": 163,
+     "reach_m": 73,
+     "lat": 36.60408,
+     "lon": -121.86425
+    },
+    {
+     "at_km": 252.0,
+     "excursion_m": 127,
+     "reach_m": 50,
+     "lat": 36.27085,
+     "lon": -121.80826
+    }
+   ],
+   "spur_total_m": 1178,
+   "spur_max_m": 412,
+   "distance_km": 297.0,
    "max_point_gap_m": 299.3,
-   "worst_corridor_offset_m": 203,
-   "worst_corridor_point": "Rocky Creek Bridge",
+   "worst_corridor_offset_m": 218,
+   "worst_corridor_point": "Aptos (Soquel Dr)",
    "continuous": true
   },
   {
@@ -17,11 +63,14 @@
    "file": "pch_day2_limekiln_refugio.gpx",
    "is_main_stage": true,
    "xml_valid": true,
-   "n_points": 2619,
-   "distance_km": 302.6,
+   "n_points": 2335,
+   "spurs": [],
+   "spur_total_m": 0,
+   "spur_max_m": 0,
+   "distance_km": 279.4,
    "max_point_gap_m": 298.4,
-   "worst_corridor_offset_m": 244,
-   "worst_corridor_point": "Cayucos",
+   "worst_corridor_offset_m": 771,
+   "worst_corridor_point": "Orcutt",
    "continuous": true
   },
   {
@@ -29,35 +78,29 @@
    "file": "pch_day3_refugio_la.gpx",
    "is_main_stage": true,
    "xml_valid": true,
-   "n_points": 1947,
-   "distance_km": 229.3,
-   "max_point_gap_m": 298.9,
+   "n_points": 1586,
+   "spurs": [
+    {
+     "at_km": 15.58,
+     "excursion_m": 622,
+     "reach_m": 272,
+     "lat": 34.43637,
+     "lon": -119.89666
+    },
+    {
+     "at_km": 155.82,
+     "excursion_m": 155,
+     "reach_m": 88,
+     "lat": 34.03606,
+     "lon": -118.69024
+    }
+   ],
+   "spur_total_m": 777,
+   "spur_max_m": 622,
+   "distance_km": 205.6,
+   "max_point_gap_m": 299.2,
    "worst_corridor_offset_m": 174,
    "worst_corridor_point": "Point Mugu Rock",
-   "continuous": true
-  },
-  {
-   "id": "pch_day1_alt_inland_bypass",
-   "file": "pch_day1_alt_inland_bypass.gpx",
-   "is_main_stage": false,
-   "xml_valid": true,
-   "n_points": 3484,
-   "distance_km": 326.0,
-   "max_point_gap_m": 299.3,
-   "worst_corridor_offset_m": 207,
-   "worst_corridor_point": "Lake Merced / Skyline Blvd",
-   "continuous": true
-  },
-  {
-   "id": "pch_day1_alt_17mile",
-   "file": "pch_day1_alt_17mile.gpx",
-   "is_main_stage": false,
-   "xml_valid": true,
-   "n_points": 3711,
-   "distance_km": 339.7,
-   "max_point_gap_m": 299.3,
-   "worst_corridor_offset_m": 203,
-   "worst_corridor_point": "Rocky Creek Bridge",
    "continuous": true
   },
   {
@@ -65,71 +108,57 @@
    "file": "pch_day1_alt_pfeiffer.gpx",
    "is_main_stage": false,
    "xml_valid": true,
-   "n_points": 2818,
-   "distance_km": 281.9,
+   "n_points": 2328,
+   "spurs": [
+    {
+     "at_km": 28.22,
+     "excursion_m": 141,
+     "reach_m": 40,
+     "lat": 37.60721,
+     "lon": -122.49831
+    },
+    {
+     "at_km": 135.99,
+     "excursion_m": 412,
+     "reach_m": 197,
+     "lat": 36.9738,
+     "lon": -121.95306
+    },
+    {
+     "at_km": 145.38,
+     "excursion_m": 128,
+     "reach_m": 69,
+     "lat": 36.97174,
+     "lon": -121.87214
+    },
+    {
+     "at_km": 197.09,
+     "excursion_m": 207,
+     "reach_m": 104,
+     "lat": 36.62481,
+     "lon": -121.84127
+    },
+    {
+     "at_km": 201.22,
+     "excursion_m": 163,
+     "reach_m": 73,
+     "lat": 36.60408,
+     "lon": -121.86425
+    },
+    {
+     "at_km": 252.0,
+     "excursion_m": 127,
+     "reach_m": 50,
+     "lat": 36.27085,
+     "lon": -121.80826
+    }
+   ],
+   "spur_total_m": 1178,
+   "spur_max_m": 412,
+   "distance_km": 255.9,
    "max_point_gap_m": 299.0,
-   "worst_corridor_offset_m": 203,
-   "worst_corridor_point": "Rocky Creek Bridge",
-   "continuous": true
-  },
-  {
-   "id": "pch_day1_alt_lucia",
-   "file": "pch_day1_alt_lucia.gpx",
-   "is_main_stage": false,
-   "xml_valid": true,
-   "n_points": 3459,
-   "distance_km": 322.6,
-   "max_point_gap_m": 299.3,
-   "worst_corridor_offset_m": 203,
-   "worst_corridor_point": "Rocky Creek Bridge",
-   "continuous": true
-  },
-  {
-   "id": "pch_day1_alt_raggedpoint",
-   "file": "pch_day1_alt_raggedpoint.gpx",
-   "is_main_stage": false,
-   "xml_valid": true,
-   "n_points": 4050,
-   "distance_km": 363.3,
-   "max_point_gap_m": 299.3,
-   "worst_corridor_offset_m": 203,
-   "worst_corridor_point": "Rocky Creek Bridge",
-   "continuous": true
-  },
-  {
-   "id": "pch_day1_alt_sansimeon",
-   "file": "pch_day1_alt_sansimeon.gpx",
-   "is_main_stage": false,
-   "xml_valid": true,
-   "n_points": 4317,
-   "distance_km": 395.9,
-   "max_point_gap_m": 299.3,
-   "worst_corridor_offset_m": 203,
-   "worst_corridor_point": "Rocky Creek Bridge",
-   "continuous": true
-  },
-  {
-   "id": "pch_day2_alt_gaviota",
-   "file": "pch_day2_alt_gaviota.gpx",
-   "is_main_stage": false,
-   "xml_valid": true,
-   "n_points": 2485,
-   "distance_km": 284.7,
-   "max_point_gap_m": 298.4,
-   "worst_corridor_offset_m": 244,
-   "worst_corridor_point": "Cayucos",
-   "continuous": true
-  },
-  {
-   "id": "pch_day2_alt_elcapitan",
-   "file": "pch_day2_alt_elcapitan.gpx",
-   "is_main_stage": false,
-   "xml_valid": true,
-   "n_points": 2669,
-   "distance_km": 305.2,
-   "max_point_gap_m": 298.4,
-   "worst_corridor_offset_m": 244,
-   "worst_corridor_point": "Cayucos",
+   "worst_corridor_offset_m": 218,
+   "worst_corridor_point": "Aptos (Soquel Dr)",
    "continuous": true
   }
  ],
@@ -151,7 +180,7 @@
   "bicycle_no_km_total": 0.391,
   "bicycle_no_allowance_km": 0.45,
   "motorway_not_bicycle_legal_km": 0.391,
-  "unpaved_km_total": 0.367,
+  "unpaved_km_total": 0.096,
   "bicycle_no_locations": [
    {
     "stage": "pch_day3_refugio_la",
@@ -166,10 +195,10 @@
  "ok": true,
  "master": {
   "tracks": 3,
-  "total_km": 858.0
+  "total_km": 782.0
  },
  "waypoints": {
-  "count": 945,
+  "count": 909,
   "without_name": 0,
   "without_desc": 0
  },
