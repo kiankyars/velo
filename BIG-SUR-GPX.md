@@ -1,0 +1,328 @@
+# 🛰️ San Francisco → Los Angeles by the coast — the built GPX
+
+The routing deliverable for the southbound Highway 1 run: **three continuous
+riding days**, San Francisco to Los Angeles via Big Sur, finishing at LA Union
+Station because that is where the train home leaves from.
+
+Built the same way as the Frankfurt loop in [ROUTE-GPX.md](./ROUTE-GPX.md) —
+BRouter on OpenStreetMap, every OSM way tag echoed back and audited, distances
+recomputed from the saved coordinates by a validator that does not trust the
+builder — with a purpose-built road-bike profile, because the stock trekking
+profile gets this coast badly wrong (see [below](#the-profile-and-why-the-stock-one-fails-here)).
+
+> **Total: `782.4 km`, `+5,648 m`, 3 stages.** Stages join to within **1.2 m**.
+> **Zero** unpaved metres on days 1 and 3, 48 m on day 2. **1,955 m** of
+> out-and-back across the whole route, largest single jog 622 m (down from 62 km). One documented
+> 391 m legal exception at Winchester Canyon.
+>
+> `python3 scripts/validate_pch_routes.py` → **ALL CHECKS PASS**.
+
+| # | File | From → To | Distance | Climb |
+|---|------|-----------|---------:|------:|
+| 1 | [`pch_day1_sf_limekiln.gpx`](./gpx/pch_day1_sf_limekiln.gpx) | 426 Fell St, SF → **Limekiln SP** | **297.2 km** | +2,889 m |
+| 2 | [`pch_day2_limekiln_refugio.gpx`](./gpx/pch_day2_limekiln_refugio.gpx) | Limekiln SP → **Refugio SB** | **279.5 km** | +2,148 m |
+| 3 | [`pch_day3_refugio_la.gpx`](./gpx/pch_day3_refugio_la.gpx) | Refugio SB → **LA Union Station** | **205.7 km** | +611 m |
+| | [`pch_sf_la_master.gpx`](./gpx/pch_sf_la_master.gpx) | all three in one file | **782.4 km** | +5,648 m |
+| | [`pch_day1_alt_pfeiffer.gpx`](./gpx/pch_day1_alt_pfeiffer.gpx) | short day 1, stop in Big Sur Village | 256.1 km | +2,151 m |
+| | [`pch_waypoints_essential.gpx`](./gpx/pch_waypoints_essential.gpx) | — | the readable waypoint set | — |
+| | [`pch_waypoints.gpx`](./gpx/pch_waypoints.gpx) | — | every harvested POI | — |
+| | `pch_day*_annotated.gpx` | per day | track **+ its own waypoints** | — |
+
+Climb figures are BRouter's noise-filtered ascent. The raw point-to-point SRTM
+sum is roughly double because it counts sampling noise on cliff faces as
+climbing; it is kept in `data/pch_route_summary.json` only for comparison.
+
+---
+
+## ⚠️ Correction to the previous version of this file
+
+**The earlier build was wrong, and it was wrong in a way that mattered.** It
+reported day 1 as 326.4 km and said the planning transcript's 280–290 km estimate
+was "about 40 km light."
+
+That 326 km was inflated by **my own routing defects**. Via-points placed on
+landmarks that sit *off* Highway 1 — Point Sur, Point Lobos, Carmel River State
+Beach, Emma Wood, Leo Carrillo, Zuma, Avila Beach, Vandenberg Village — made the
+router turn off the highway, run down an access road or into a car park, and come
+straight back out. Fifty of those spurs, **62 km of pure out-and-back**, spread
+across the three days. On a device it reads exactly as it sounds: the line runs
+into a cul-de-sac and reverses.
+
+With them removed the route is **782.4 km**, and **day 1 is 297.2 km** — so the
+transcript's 280–290 km estimate was roughly right, and my correction of it was
+not. The real remaining gap between the estimate and the measurement is about
+7–17 km, not 40.
+
+| | Day 1 | Day 2 | Day 3 | Total |
+|---|---:|---:|---:|---:|
+| Previous (with spurs) | 326.4 km | 302.7 km | 229.5 km | 858.6 km |
+| **Now** | **297.2 km** | **279.5 km** | **205.7 km** | **782.4 km** |
+
+The fix was two-part: **prune the corridor to genuine decision points** (Highway 1
+from Carmel to Limekiln is 78 km on which there is no other road, so it now gets
+two via-points instead of thirteen), and **turn on BRouter's
+`correctMisplacedViaPoints`**, which the stock profile leaves off and which exists
+precisely to discard "going back and forth on the same route" detours.
+
+There is now a **spur check in the validator** so this cannot come back quietly.
+Continuity checks are blind to it — the track never breaks, it just goes somewhere
+and returns.
+
+| | Spurs | Wasted |
+|---|---:|---:|
+| Before | 50 | 62,235 m |
+| After | 8 | **1,955 m** (largest single 622 m) |
+
+The survivors are small junction jogs of 100–620 m near Capitola, Seaside,
+Winchester Canyon and Malibu, at road layouts where passing a point, turning, and
+crossing back past it is what the road actually does.
+
+### Also corrected: Devil's Slide
+
+You were right. San Mateo County publishes hours for the **parking lots** only —
+*"Parking is open from sunrise to sunset year-round"* — and the trail regulations
+page lists fourteen rules without a single one restricting hours or mentioning a
+gate on the trail itself. There is **no published closure of the Devil's Slide
+Trail**, so a pre-dawn arrival is very likely fine; it is the car parks that shut,
+which does not affect a cyclist riding through.
+
+The earlier version overstated this as "may be gated shut" and shipped an inland
+Skyline/CA-92 bypass file for it. **That bypass file is deleted** — it was
+insurance against a problem that the sources do not actually support. Bicycles
+remain banned from the Tom Lantos Tunnels, so the route still uses the trail;
+that part was never in doubt.
+([hours](https://www.smcgov.org/parks/devils-slide-trail-hours),
+[regulations](https://www.smcgov.org/parks/devils-slide-trail-regulations))
+
+---
+
+## Fewer files, on purpose
+
+The previous version shipped eight alternative overnight endpoints (Lucia, Ragged
+Point, San Simeon, Gaviota, El Capitán, 17-Mile Drive, the inland bypass). With
+the destination fixed at Los Angeles and the plan being to stop where you feel
+like stopping rather than at a booked campground, alternative *endpoints* are
+noise — it is the same road either way and you can stop anywhere along it.
+
+One variant survives, because it changes the shape of a day rather than its last
+kilometre: **`pch_day1_alt_pfeiffer.gpx`**, day 1 cut to 256 km by stopping in
+Big Sur Village. That is the decision point for whether you descend the Big Sur
+cliffs in the dark, and the village has food, water and a campground in one place.
+
+## If you are camping wild rather than booking
+
+It changes the plan for the better in one respect: **the Limekiln reservation
+stops being a blocker.** California State Parks is explicit that Limekiln has
+*"no first-come, first-served campsites"*, so without a reservation the booked
+plan has no bed on night 1. Camping wild removes that dependency entirely.
+
+Two things worth knowing before you rely on it, both sourced:
+
+- **Dispersed camping on Los Padres National Forest land is allowed and needs no
+  permit.** That is the legal version of "stop wherever" on this coast. The catch
+  is geography: the strip immediately along Highway 1 through Big Sur is mostly
+  state park or private ranch, where it is prohibited. The National Forest land —
+  Ventana and Silver Peak Wilderness — is largely *east* of the highway and
+  uphill, so it means getting off Highway 1 and climbing.
+- **Campfires are banned outright until 31 January 2027.** A Forest Order
+  effective **4 June 2026** prohibits campfire use at backcountry camps across
+  Los Padres, including Ventana and Silver Peak. A **stove** is fine with a free
+  California Campfire Permit. August is peak fire season and restrictions tighten
+  further at short notice — check before you go.
+  ([Forest Service](https://www.fs.usda.gov/r05/lospadres/alerts/los-padres-fire-use-and-firearm-restrictions))
+
+The GPX does not change either way — the waypoint files still carry every
+campground, water tap and store, which is more useful when you are improvising a
+stop than when you have one booked.
+
+---
+
+## The profile, and why the stock one fails here
+
+Geometry comes from BRouter using [`scripts/velo_pch_road.brf`](./scripts/velo_pch_road.brf),
+a retuned copy of the stock `trekking` profile. Every change was forced by an
+actual wrong route observed while building:
+
+1. **Highway 1 *is* the cycle route.** Trekking charges 10.0 for a trunk road and
+   3.0 for a primary without a bike hint. CA-1 is variously trunk, primary and
+   secondary along its length, so those penalties push the line onto inland farm
+   roads. Here all three sit near 1.0, just above a cycleway so a parallel bike
+   path still wins in town.
+2. **No elevation avoidance.** With `consider_elevation` on, the cheapest way to
+   flatten San Francisco → Los Angeles is to abandon the coast for the Salinas
+   Valley.
+3. **Freeway in three tiers**, keyed on OSM's bicycle tag: `bicycle=no` excluded,
+   `bicycle=yes` 2.0, untagged 2.6. That middle tier is not optional — with
+   untagged freeway banned outright, the router answered the 5 km hop from El
+   Capitán to Goleta by crossing the Santa Ynez Mountains: 75 km, +1,504 m, over
+   a 695 m pass, with 5.3 km of unpaved track.
+4. **Pavement only.** Gravel, dirt, sand, grass and tracktype grade2+ penalised
+   hard, and the cycle-route bonus withheld from unpaved ways — otherwise a dirt
+   path tagged `lcn` gets a flat cost of 1.0 and beats the paved highway.
+5. **`correctMisplacedViaPoints = true`**, unlike stock. See the correction above.
+
+`bicycle=no` is **excluded outright**, not discounted. Stock trekking charges only
+4 when a bike-banned way still allows pedestrians ("you may push your bike"),
+which routed this trip through the Tom Lantos Tunnels. Making it merely expensive
+instead of forbidden immediately put 510 m of bike-banned trail inside Point Lobos
+into day 1 — hence the hard ban.
+
+> **A trap for whoever edits the profile next:** every tag *value* must exist in
+> BRouter's `lookups.dat`, or the profile is rejected at route time with a bare
+> **HTTP 500 and an empty body**. `chipseal`, `concrete:plates`, `concrete:lanes`,
+> `unhewn_cobblestone` and `woodchips` are **not** in it. `smoothness=very_good` is.
+>
+> And: bump `PROFILE_CACHE_KEY` in `build_pch_route.py` whenever a `.brf` changes,
+> or cached geometry from the old profile comes straight back at you.
+
+### The 391 m at Winchester Canyon
+
+OSM starts the US-101 `bicycle=no` run about 1 km west of the Winchester Canyon
+off-ramp (196 US-101 ways tagged `bicycle=no` between Gaviota and Ventura,
+westernmost at `34.4339,-119.9147`). Taken literally there is no legal bicycle
+path at all from the Gaviota coast into Goleta, and the router's answer is the
+85 km mountain crossing.
+
+So one leg — named in `pch_waypoints.PERMISSIVE_LEGS` — is routed with
+[`velo_pch_road_bridge.brf`](./scripts/velo_pch_road_bridge.brf), identical but for
+allowing `bicycle=no` at cost 8. It uses **391 m** of disputed freeway and saves
+77 km. It is the Adventure Cycling Pacific Coast alignment and riders use that
+shoulder; leave 101 at the Winchester Canyon off-ramp for Calle Real / Hollister
+Ave. Everywhere else the ban holds — US-101 genuinely is closed to bicycles from
+Santa Barbara to Ventura, and day 3 routes around it with zero bike-banned metres.
+
+---
+
+## Validation
+
+[`scripts/validate_pch_routes.py`](./scripts/validate_pch_routes.py) re-reads the
+saved GPX, re-parses the XML and recomputes distance from the coordinates.
+
+| Check | Result |
+|-------|--------|
+| XML well-formed, GPX 1.1, has trackpoints | ✅ all 4 stage files |
+| Continuity (largest single jump) | ✅ **299 m** — simplified to 2.5 m then re-densified to ≤ 300 m |
+| **Out-and-back spurs** | ✅ ≤ **1,178 m** per stage, largest single **622 m** |
+| Seam day 1 → 2 / day 2 → 3 | ✅ **1.2 m** / **0.0 m** |
+| Recomputed distance vs. build summary | ✅ within 2% |
+| Every corridor waypoint on its own track | ✅ worst offset 771 m (Orcutt town centre) |
+| Master reproduces the three per-day files | ✅ 3 tracks, 782.0 km |
+| `bicycle=no` | ✅ **0.391 km**, all of it the documented Winchester Canyon gap |
+| Freeway not marked bicycle-legal | ✅ the same 391 m, not additional |
+| Unpaved (worst stage) | ✅ **0.048 km** |
+| Ferries / steps | ✅ 0.0 km |
+
+Machine-readable: [`data/pch_route_summary.json`](./data/pch_route_summary.json)
+and [`data/pch_validation.json`](./data/pch_validation.json).
+
+### Bugs caught while building
+
+- **50 out-and-back spurs, 62 km** — the big one; see the correction above.
+- **Garrapata State Park** — geocoded centroid sits 1.2 km inland at 540 m; as a
+  via-point it dragged the line 6.8 km up Garrapata Canyon (+585 m).
+- **Piedras Blancas light station** — routing to it fails outright (`no track
+  found`): the headland access road is a disconnected private way in OSM.
+- **Three via-points snapped onto dirt** — Piedras Blancas (1,964 m), the elephant
+  seal vista car park (349 m), San Simeon Acres (2,590 m of `surface=dirt`).
+- **A cue-sheet scanner bug** that silently pinned every day-3 waypoint to km 2.8.
+
+Geocoders are hostile on this corridor, which is why
+[`scripts/pch_waypoints.py`](./scripts/pch_waypoints.py) carries explicit
+coordinates: *"Monterey, California"* resolves 10 km from the city, *"San Luis
+Obispo, California"* lands **41 km inland**, *"Harmony, California"* comes back
+**434 km away** in San Diego County, and every Amtrak query collapses onto
+Guadalupe.
+
+---
+
+## The climbs, measured from the route's own elevation profile
+
+Detected by walking the smoothed profile, not from memory — which is how the
+summit of Hurricane Point fell out at `36.3583,-121.9006` without being told it
+exists.
+
+| Day | km | Climb | Length | Gain | Summit |
+|-----|---:|-------|-------:|-----:|-------:|
+| 1 | 8.1 → 18.9 | out of San Francisco over the ridge | 10.85 km | +185 m | 191 m |
+| 1 | 29.9 → 32.2 | **Devil's Slide Trail** | 2.25 km | +141 m | 142 m |
+| 1 | 198.2 → 209.3 | Monterey Bay to Carmel | 11.12 km | +171 m | 183 m |
+| 1 | 233.7 → 236.5 | **Hurricane Point** (after Bixby Bridge) | 2.79 km | +130 m | 164 m |
+| 1 | 244.6 → 259.0 | **Grimes Point / Nepenthe** — day 1's biggest | 14.43 km | +255 m | 298 m |
+| 2 | 19.7 → 27.1 | south of Gorda toward Ragged Point | 7.42 km | +200 m | 243 m |
+| 2 | 29.7 → 32.4 | the **Ragged Point** climb | 2.69 km | +143 m | 244 m |
+| 2 | 207.8 → 213.8 | CA-1 out of the Santa Maria valley | 6.00 km | +193 m | 296 m |
+| 2 | 231.8 → 252.5 | **CA-1 over the Santa Rosa Hills** (Lompoc → Las Cruces) | 20.72 km | +272 m | 328 m |
+| 3 | — | nothing over 110 m all day | — | +611 m total | — |
+
+Gains are SRTM-derived. Treat gradients on the Big Sur cliffs with suspicion —
+SRTM's 30–90 m posting misreads a road cut into a cliff face.
+
+---
+
+## Water and food — where you actually run dry
+
+`harvest_pch_pois.py` queries Overpass with an `around` clause against the routed
+line, so everything returned is genuinely beside the road, then measures the
+longest run with no water and no shop, counting only POIs within 400 m.
+
+Day 2 is the one to carry food on. Its worst dry stretch is **43.0 km from
+km 179.9 — Guadalupe through the dunes to Lompoc** — and the next-worst is the
+climb out of Lompoc over the Santa Rosa Hills to Las Cruces, which reproduces from
+OSM data alone exactly what touring cyclists say about that road: *"there are very
+few opportunities for water or food between Lompoc and Santa Barbara. The rest stop
+at Gaviota is the best place to water up."* Fill up in **Guadalupe (km 180)** and
+again in **Lompoc (km 226)**.
+
+Big Sur is **not** day 1's problem — Big Sur Village, Big Sur Station, Nepenthe,
+Lucia and the campgrounds keep those gaps under 30 km. The San Mateo coast between
+Half Moon Bay and Santa Cruz is worse, because Pescadero and San Gregorio sit
+inland off the highway. Current figures per stage are in
+[`data/pch_pois.json`](./data/pch_pois.json).
+
+## Two live hazards worth knowing
+
+**PCH through Malibu is an active fire-rebuild corridor.** The last ~50 km of day 3
+runs through the Palisades Fire reconstruction. Caltrans District 7 has a
+rock-slope-protection and pavement rebuild near Ratner Beach due to finish **Fall
+2026**, and a second project covering about five miles from just south of the
+California Incline to Topanga Creek due **end of 2026**. After the fire, PCH
+reopened with **one lane each way at 25 mph**. The route leaves PCH at Santa
+Monica Pier and turns inland via Culver City, so the exposure is Malibu → Santa
+Monica only.
+([source](https://dot.ca.gov/caltrans-near-me/district-7/district-7-projects/pch-palisades-fire-repairs))
+
+**Vandenberg can close the road at short notice.** Launch operations close roads
+around the base — one case shut CA-246 between CA-1 and Mission Gate Road for five
+hours on 2 March 2026 for a launch that then scrubbed. That was CA-246, not this
+route's CA-1 line, but CA-1 has been closed here for base incidents and carries
+ongoing roadwork. The only detour is US-101 inland via Santa Maria.
+
+## Big Sur road status
+
+Highway 1 reopened through Regent's Slide on **14 January 2026**, ~90 days early,
+after an $82 million repair; Caltrans calls the slope stable and monitors it
+continuously. As of August 2026 there is **one-way, signal-controlled traffic at
+Rocky Creek Bridge, 24/7 through 31 August, delays to 15 minutes** — that is
+**km 234.8 of day 1**, and you will be stopped in it. Check
+[QuickMap](https://quickmap.dot.ca.gov) the morning you leave.
+([reopening](https://www.gov.ca.gov/2026/01/14/governor-newsom-announces-early-reopening-of-highway-1-through-big-sur/),
+[conditions](https://www.bigsurcalifornia.org/highway-1-conditions/))
+
+## Reproduce
+
+```bash
+python3 scripts/build_pch_route.py      # gpx/pch_*.gpx + data/pch_route_summary.json
+python3 scripts/harvest_pch_pois.py     # gpx/pch_waypoints*.gpx + data/pch_pois.json
+python3 scripts/validate_pch_routes.py  # data/pch_validation.json, non-zero exit on failure
+```
+
+BRouter and Overpass responses are cached under `scripts/.cache/`. Overpass's main
+instance times out almost always; the harvester falls through a mirror list.
+
+### Caveats
+
+- Geometry is OpenStreetMap via BRouter; tag auditing is only as good as OSM's
+  tagging, which is why the Winchester Canyon exception exists and is documented.
+- Live conditions were checked on **4 August 2026** and are perishable.
+- The per-person hike/bike rate at Refugio and Gaviota is not published on either
+  park page — phone **(805) 968-1033** if you end up wanting a legal site.

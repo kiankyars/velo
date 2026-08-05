@@ -1,6 +1,47 @@
-# 🚲 Velo Journey 2026 — the Frankfurt Loop
+# 🚲 Velo Journey 2026
 
-Planning hub for Kian's ultra-distance bike tour: a **loop out of Frankfurt** through Germany, Switzerland, France, Italy and Austria.
+Planning hub for Kian's ultra-distance riding. **Two trips live here now:**
+
+| Trip | When | Distance | Where it's documented |
+|------|------|---------:|----------------------|
+| 🇺🇸 **Southbound Highway 1 — San Francisco → Los Angeles** | **leaving 5–6 Aug 2026** | **782.4 km / 3 days** | ⭐ **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** |
+| 🇪🇺 The Frankfurt Loop | 21 Jun – 12 Jul 2026 | 4,172.7 km / ~22 days | [ROUTE-GPX.md](./ROUTE-GPX.md) |
+
+## 🇺🇸 The immediate one: SF → Big Sur → LA
+
+Three riding days down the coast to Los Angeles. Built, audited and validated —
+GPX in [`gpx/pch_*.gpx`](./gpx), full write-up in **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)**.
+
+| Day | From → To | Distance | Climb |
+|---|---|---:|---:|
+| 1 | 426 Fell St, SF → **Limekiln SP** | **297.2 km** | +2,889 m |
+| 2 | Limekiln SP → **Refugio SB** | **279.5 km** | +2,148 m |
+| 3 | Refugio SB → **LA Union Station** | **205.7 km** | +611 m |
+
+Plus one variant — `pch_day1_alt_pfeiffer.gpx`, day 1 cut to 256 km by stopping in
+Big Sur Village — and the waypoint files.
+
+**What the build found:**
+
+- **50 out-and-back spurs wasting 62 km** in the first draft, caused by via-points
+  placed on landmarks that sit off Highway 1 (Point Sur, Point Lobos, Emma Wood,
+  Leo Carrillo…). The router turned off the highway, ran down an access road and
+  came back out. Fixed, and now guarded by a spur check in the validator — this is
+  invisible to a continuity check because the track never breaks.
+- Consequently the earlier "day 1 is 326 km" figure was **wrong**; it is **297.2 km**,
+  so the original 280–290 km estimate was roughly right.
+- **Highway 1 is open** (reopened 14 Jan 2026) but there's a one-way signal control
+  at **Rocky Creek Bridge, 24/7 through 31 Aug**, up to 15 min, at km 235 of day 1.
+- **Limekiln has no first-come-first-served sites** — book it, or camp wild, which
+  removes the dependency entirely. Dispersed camping on Los Padres NF land is legal
+  and permit-free, but **campfires are banned until 31 Jan 2027** (stove OK with a
+  free permit).
+
+---
+
+## 🇪🇺 The Frankfurt Loop
+
+A **loop out of Frankfurt** through Germany, Switzerland, France, Italy and Austria.
 
 > **Ride window:** **21 Jun → 12–13 Jul 2026** (~22 days) · back in Frankfurt the night of **12 Jul** for your **uncle's 80th (13 Jul)**
 > **Flights (KLM):** SFO→YEG 13 Jun · remote work in Edmonton 13–20 Jun · **YEG→FRA 21 Jun** · **FRA→SFO 13–14 Jul**
@@ -21,6 +62,7 @@ Planning hub for Kian's ultra-distance bike tour: a **loop out of Frankfurt** th
 
 | File | What it covers |
 |------|----------------|
+| **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** | ⭐ **The SF → LA coast route.** Three riding days (782.4 km), the road-bike routing profile and why the stock one fails on this coast, the legality/surface/spur audit, the detected climbs, the water-and-food gaps, and the corrections the build forced on the plan. |
 | **[GEAR-FROM-VIDEOS.md](./GEAR-FROM-VIDEOS.md)** | ⭐ Asks #1 & #2 — the **verbatim gear list** from your parts video, your own stated regrets (no bibs/tights, bad gloves, leaky pump, broken saddle bag), and the **lessons distilled from all 7 transcripts**. |
 | **[CHECKLIST.md](./CHECKLIST.md)** | The **concise one-pager** to read before you leave. |
 | **[PACKING-LIST.md](./PACKING-LIST.md)** | Full checkbox packing list, merging your real video kit with trip essentials (German light law, EES, insurance, Alpine cold). |

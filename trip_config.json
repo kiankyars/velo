@@ -45,7 +45,7 @@
       "source": "Mittelbuchen->Mainz by BRouter; Mainz->Andermatt official EuroVelo 15 GPX"
     },
     {
-      "name": "Rhône Cycle Route",
+      "name": "Rh\u00f4ne Cycle Route",
       "ev_code": "EV17",
       "start": "Andermatt (CH)",
       "end": "Port-Saint-Louis-du-Rhone (Med)",
@@ -124,5 +124,58 @@
     "ascent_m": 42580,
     "segments": 5,
     "method": "Official EuroVelo GPX backbone (EV15/17/7/6) + BRouter connectors + bespoke EV8; no train/motorway/ferry; built 2026-06-23T21:22:53Z"
+  },
+  "california_coast_trip": {
+    "_note": "Separate from the Frankfurt loop on purpose. Kept out of `routes` so planner.py status/routes keeps reporting the Europe loop only.",
+    "trip_name": "Southbound Highway 1 - San Francisco to Los Angeles",
+    "style": "3 riding days, camping, road bike, ~05:00 starts",
+    "start": "426 Fell St, San Francisco",
+    "finish": "LA Union Station (train home)",
+    "planned_departure": "2026-08-05 or 2026-08-06",
+    "totals": {
+      "distance_km": 782.4,
+      "ascent_m_filtered": 5648,
+      "stages": 3,
+      "method": "BRouter velo_pch_road.brf on OpenStreetMap (correctMisplacedViaPoints on); one 391 m permissive-profile leg at the Winchester Canyon US-101 tagging gap; rebuilt 2026-08-04 after removing 62 km of via-point out-and-back spurs"
+    },
+    "stages": [
+      {
+        "name": "Day 1 - San Francisco to Limekiln State Park",
+        "gpx_file": "pch_day1_sf_limekiln.gpx",
+        "distance_km": 297.2,
+        "ascent_m": 2889,
+        "overnight": "Limekiln SP, or wild",
+        "status": "built",
+        "warning": "Rocky Creek Bridge one-way signal control at km 235, 24/7 through 31 Aug 2026, up to 15 min."
+      },
+      {
+        "name": "Day 2 - Limekiln State Park to Refugio State Beach",
+        "gpx_file": "pch_day2_limekiln_refugio.gpx",
+        "distance_km": 279.5,
+        "ascent_m": 2148,
+        "overnight": "Refugio SB, or wild",
+        "status": "built",
+        "warning": "Thinnest resupply of the three days. Fill up in Lompoc at km 226 - the next 34 km over the Santa Rosa Hills has nothing."
+      },
+      {
+        "name": "Day 3 - Refugio State Beach to LA Union Station",
+        "gpx_file": "pch_day3_refugio_la.gpx",
+        "distance_km": 205.7,
+        "ascent_m": 611,
+        "overnight": "-",
+        "status": "built",
+        "warning": "Last ~50 km runs through the Palisades Fire rebuild corridor on PCH: one lane each way, 25 mph."
+      }
+    ],
+    "variants_built": [
+      "pch_day1_alt_pfeiffer.gpx (256.1 km - stop in Big Sur Village instead of pressing on)"
+    ],
+    "open_actions": [
+      "DECIDE camping: book Limekiln on ReserveCalifornia 800-444-7275 (no walk-up sites exist), OR camp wild - dispersed camping on Los Padres NF land is legal and permit-free, but campfires are banned until 31 Jan 2027 and the NF land is east of and above Highway 1",
+      "CHECK Caltrans QuickMap on the morning - Rocky Creek Bridge one-way control runs 24/7 through 31 Aug 2026",
+      "CHECK the Vandenberg launch schedule for your date - CA-1 past the base can close at a few hours' notice",
+      "BOOK the bicycle on the Coast Starlight out of LA Union Station - separate reservation, limited space",
+      "GET a free California Campfire Permit if carrying a stove"
+    ]
   }
 }

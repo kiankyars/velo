@@ -1,0 +1,206 @@
+{
+ "files": [
+  {
+   "id": "pch_day1_sf_limekiln",
+   "file": "pch_day1_sf_limekiln.gpx",
+   "is_main_stage": true,
+   "xml_valid": true,
+   "n_points": 2876,
+   "spurs": [
+    {
+     "at_km": 28.22,
+     "excursion_m": 141,
+     "reach_m": 40,
+     "lat": 37.60721,
+     "lon": -122.49831
+    },
+    {
+     "at_km": 135.99,
+     "excursion_m": 412,
+     "reach_m": 197,
+     "lat": 36.9738,
+     "lon": -121.95306
+    },
+    {
+     "at_km": 145.38,
+     "excursion_m": 128,
+     "reach_m": 69,
+     "lat": 36.97174,
+     "lon": -121.87214
+    },
+    {
+     "at_km": 197.09,
+     "excursion_m": 207,
+     "reach_m": 104,
+     "lat": 36.62481,
+     "lon": -121.84127
+    },
+    {
+     "at_km": 201.22,
+     "excursion_m": 163,
+     "reach_m": 73,
+     "lat": 36.60408,
+     "lon": -121.86425
+    },
+    {
+     "at_km": 252.0,
+     "excursion_m": 127,
+     "reach_m": 50,
+     "lat": 36.27085,
+     "lon": -121.80826
+    }
+   ],
+   "spur_total_m": 1178,
+   "spur_max_m": 412,
+   "distance_km": 297.0,
+   "max_point_gap_m": 299.3,
+   "worst_corridor_offset_m": 218,
+   "worst_corridor_point": "Aptos (Soquel Dr)",
+   "continuous": true
+  },
+  {
+   "id": "pch_day2_limekiln_refugio",
+   "file": "pch_day2_limekiln_refugio.gpx",
+   "is_main_stage": true,
+   "xml_valid": true,
+   "n_points": 2335,
+   "spurs": [],
+   "spur_total_m": 0,
+   "spur_max_m": 0,
+   "distance_km": 279.4,
+   "max_point_gap_m": 298.4,
+   "worst_corridor_offset_m": 771,
+   "worst_corridor_point": "Orcutt",
+   "continuous": true
+  },
+  {
+   "id": "pch_day3_refugio_la",
+   "file": "pch_day3_refugio_la.gpx",
+   "is_main_stage": true,
+   "xml_valid": true,
+   "n_points": 1586,
+   "spurs": [
+    {
+     "at_km": 15.58,
+     "excursion_m": 622,
+     "reach_m": 272,
+     "lat": 34.43637,
+     "lon": -119.89666
+    },
+    {
+     "at_km": 155.82,
+     "excursion_m": 155,
+     "reach_m": 88,
+     "lat": 34.03606,
+     "lon": -118.69024
+    }
+   ],
+   "spur_total_m": 777,
+   "spur_max_m": 622,
+   "distance_km": 205.6,
+   "max_point_gap_m": 299.2,
+   "worst_corridor_offset_m": 174,
+   "worst_corridor_point": "Point Mugu Rock",
+   "continuous": true
+  },
+  {
+   "id": "pch_day1_alt_pfeiffer",
+   "file": "pch_day1_alt_pfeiffer.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 2328,
+   "spurs": [
+    {
+     "at_km": 28.22,
+     "excursion_m": 141,
+     "reach_m": 40,
+     "lat": 37.60721,
+     "lon": -122.49831
+    },
+    {
+     "at_km": 135.99,
+     "excursion_m": 412,
+     "reach_m": 197,
+     "lat": 36.9738,
+     "lon": -121.95306
+    },
+    {
+     "at_km": 145.38,
+     "excursion_m": 128,
+     "reach_m": 69,
+     "lat": 36.97174,
+     "lon": -121.87214
+    },
+    {
+     "at_km": 197.09,
+     "excursion_m": 207,
+     "reach_m": 104,
+     "lat": 36.62481,
+     "lon": -121.84127
+    },
+    {
+     "at_km": 201.22,
+     "excursion_m": 163,
+     "reach_m": 73,
+     "lat": 36.60408,
+     "lon": -121.86425
+    },
+    {
+     "at_km": 252.0,
+     "excursion_m": 127,
+     "reach_m": 50,
+     "lat": 36.27085,
+     "lon": -121.80826
+    }
+   ],
+   "spur_total_m": 1178,
+   "spur_max_m": 412,
+   "distance_km": 255.9,
+   "max_point_gap_m": 299.0,
+   "worst_corridor_offset_m": 218,
+   "worst_corridor_point": "Aptos (Soquel Dr)",
+   "continuous": true
+  }
+ ],
+ "seams": [
+  {
+   "from": "pch_day1_sf_limekiln",
+   "to": "pch_day2_limekiln_refugio",
+   "gap_m": 1.2,
+   "ok": true
+  },
+  {
+   "from": "pch_day2_limekiln_refugio",
+   "to": "pch_day3_refugio_la",
+   "gap_m": 0.0,
+   "ok": true
+  }
+ ],
+ "legality": {
+  "bicycle_no_km_total": 0.391,
+  "bicycle_no_allowance_km": 0.45,
+  "motorway_not_bicycle_legal_km": 0.391,
+  "unpaved_km_total": 0.096,
+  "bicycle_no_locations": [
+   {
+    "stage": "pch_day3_refugio_la",
+    "lat": 34.43319,
+    "lon": -119.91278,
+    "len_m": 391,
+    "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=no hgv=designated oneway=yes shoulder=yes"
+   }
+  ],
+  "note": "the 0.391 km of not-explicitly-legal freeway is the same metres as the documented bicycle=no exception, not additional"
+ },
+ "ok": true,
+ "master": {
+  "tracks": 3,
+  "total_km": 782.0
+ },
+ "waypoints": {
+  "count": 909,
+  "without_name": 0,
+  "without_desc": 0
+ },
+ "problems": []
+}

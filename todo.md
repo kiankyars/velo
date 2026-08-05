@@ -1,6 +1,26 @@
 # 📋 Trip Preparation Checklist
 
-This is the master list of tasks required before departure on **June 13, 2026** (Edmonton) and **June 21, 2026** (Europe).
+---
+
+## 🇺🇸 IMMEDIATE — Highway 1 south, leaving 5–6 Aug 2026
+
+Route is **built and validated**: 782.4 km over 3 days, GPX in `gpx/pch_*.gpx`,
+write-up in **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)**. What's left is not routing:
+
+- `[ ]` **DECIDE the camping question.** Two clean options, no middle ground:
+  - *Book it:* Limekiln on ReserveCalifornia, **800-444-7275**. California State Parks states *"There are no first-come, first-served campsites"*, so without a reservation the booked plan has no bed on night 1. Hike/bike is $5, check-in 14:00, max 2 nights, arrive on foot/bike only.
+  - *Camp wild:* removes the dependency entirely and lets you stop where you like. Dispersed camping on **Los Padres National Forest** land is allowed and needs no permit — but the strip along Highway 1 is mostly state park or private ranch where it is not, and the NF land (Ventana / Silver Peak) is east of and above the highway. **Campfires are banned until 31 Jan 2027** under a Forest Order effective 4 Jun 2026; a stove is fine with a free California Campfire Permit.
+- `[ ]` **Check [Caltrans QuickMap](https://quickmap.dot.ca.gov) the morning you leave.** Rocky Creek Bridge runs one-way signal control 24/7 through 31 Aug, delays to 15 min — at km 235 of day 1.
+- `[ ]` **Check the Vandenberg launch schedule** for your date — CA-1 past the base can close at a few hours' notice, and the only detour is US-101 inland.
+- `[ ]` **Book the bike on the train home.** Coast Starlight roll-on space out of LA Union Station is limited, sells out, and is a separate reservation from your seat.
+- `[ ]` **Get a free California Campfire Permit** if you are carrying a stove.
+- `[ ]` **Carry food on day 2.** It has roughly a third the on-road resupply of the other days. Fill up in Lompoc at km 226 — the next 34 km over the Santa Rosa Hills has nothing.
+- `[ ]` **Loaded shakedown ride** (20–30 km): confirm the bags don't foul braking or shifting before a 297 km day.
+- `[x]` **GPX built** — 3 stages (782.4 km) + 1 variant + waypoint files; legality, surface, continuity and out-and-back spurs all audited (`python3 scripts/validate_pch_routes.py` → ALL CHECKS PASS). The first draft carried 62 km of via-point spurs; those are gone and a spur check now guards against them.
+
+---
+
+## 🇪🇺 The Frankfurt Loop — departure **June 13, 2026** (Edmonton) / **June 21, 2026** (Europe)
 
 ---
 
