@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-07T20:12:21Z",
+ "generated_utc": "2026-08-07T22:16:56Z",
  "osm_source": "Overpass `around` against the routed line; radii per category in harvest_pch_pois.HARVEST",
  "stages": {
   "pch_day1_sf_limekiln": {
@@ -21777,7 +21777,7 @@
    "lon": -117.4634,
    "cat": "hazard",
    "sym": "Danger Area",
-   "desc": "27 km of coast between San Onofre and Oceanside is Marine Corps base with no public road. Two ways through, and they MEASURE THE SAME (36.1 km either way): (1) THROUGH THE BASE on the old highway and base bike path - quiet and pleasant, but needs a DBIDS Recreational Bicycle pass, obtainable IN PERSON ONLY at the Visitor Center by the Main Gate (Bldg 20255T), which is at the OCEANSIDE end - the far side from a southbound rider. Mon/Tue/Thu/Fri 07:30-15:30, Wed 07:45-15:30, valid one year. You cannot get one en route. The path also closes for military exercises. (2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and Oceanside (exits 62-54) - no pass, no gate, no business hours, but 27 km of freeway shoulder instead of 13 km of quiet road. The default GPX takes option 2. pch_day4_alt_pendleton.gpx takes option 1 if you have the pass. This waypoint is the base bicycle gate itself (tagged access=permit in OSM).",
+   "desc": "27 km of coast between San Onofre and Oceanside is Marine Corps base with no public road. Two ways through, and they MEASURE THE SAME (36.1 km either way): (1) THROUGH THE BASE on the old highway and base bike path - quiet and pleasant, but needs a DBIDS Recreational Bicycle pass, obtainable IN PERSON ONLY at the Visitor Center by the Main Gate (Bldg 20255T), which is at the OCEANSIDE end - the far side from a southbound rider. Mon/Tue/Thu/Fri 07:30-15:30, Wed 07:45-15:30, valid one year. You cannot get one en route. The path also closes for military exercises. (2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and Oceanside (exits 62-54) - no pass, no gate, no business hours, but 27 km of freeway shoulder instead of 13 km of quiet road. THE PASS IS NOT USABLE SOUTHBOUND, on three counts: it needs in-person biometrics (photo, fingerprint, background check) at the south end; the DBIDS bicycle route is defined Las Pulgas gate <-> Main gate so it does not cover the northern approach at all; and the publicly-rideable part north of the gate (Old Pacific Highway, access=permissive, and the Pacific Coast Bikeway, bicycle=yes) DEAD-ENDS southbound - the only link onto I-5 at Las Pulgas is 80 m of access=permit road. So option 2 is not a fallback, it is the only through line, and it is what the GPX rides. This waypoint is that 80 m gate.",
    "km": 133.2,
    "offset_m": 202,
    "ele_m": 22,

@@ -134,29 +134,6 @@
    "continuous": true
   },
   {
-   "id": "pch_day4_alt_pendleton",
-   "file": "pch_day4_alt_pendleton.gpx",
-   "is_main_stage": false,
-   "xml_valid": true,
-   "n_points": 1948,
-   "spurs": [
-    {
-     "at_km": 17.6,
-     "excursion_m": 215,
-     "reach_m": 115,
-     "lat": 33.93067,
-     "lon": -118.17655
-    }
-   ],
-   "spur_total_m": 215,
-   "spur_max_m": 215,
-   "distance_km": 218.0,
-   "max_point_gap_m": 297.0,
-   "worst_corridor_offset_m": 292,
-   "worst_corridor_point": "Huntington Beach Pier",
-   "continuous": true
-  },
-  {
    "id": "pch_day5_sd_border",
    "file": "pch_day5_sd_border.gpx",
    "is_main_stage": false,

@@ -11,9 +11,9 @@ about them from a map.
 **San Diego works, and it's the only extension that needs no new bookings — but
 it's the least scenic riding of the trip.** Note *scenic*, not badly built: it's
 an official signed route (US Bicycle Route 95) with a quarter of the day on
-separated bike path, and one 27 km hole where a Marine Corps base owns the coast. The Camp Pendleton problem, which is
-the thing that usually kills this extension, has a free legal solution that costs
-80 m of distance. If what you want is *more good riding* rather than a longer
+separated bike path, and one 27 km hole where a Marine Corps base owns the coast. The Camp Pendleton problem has exactly one solution — the Caltrans-permitted
+I-5 shoulder — and the base pass turns out to be a dead letter for a southbound
+rider (see below). If what you want is *more good riding* rather than a longer
 line on a map, **prepending the Sonoma/Mendocino coast beats it comfortably** —
 but it needs a bus with a bike space, which is a real ask two days out.
 
@@ -34,7 +34,6 @@ which is the same shape you already have — day 4 is *flatter* than day 3.
 ## The San Diego extension
 
 **Files:** [`pch_day4_la_sandiego.gpx`](./gpx/pch_day4_la_sandiego.gpx) ·
-[`pch_day4_alt_pendleton.gpx`](./gpx/pch_day4_alt_pendleton.gpx) ·
 [`pch_day5_sd_border.gpx`](./gpx/pch_day5_sd_border.gpx) ·
 [`pch_sf_sd_master.gpx`](./gpx/pch_sf_sd_master.gpx) (all four days in one file —
 the LA-only master is untouched, so loading the extension stays a decision)
@@ -97,64 +96,63 @@ What is genuinely true is the *aesthetic* judgement: Orange County beach cities
 are not Big Sur. That's a statement about scenery, not about whether anyone
 bothered to build a path.
 
-### Camp Pendleton: the crux, and why it isn't a blocker
+### Camp Pendleton: the crux, and why the pass is a dead letter
 
 27 km of the coast between San Onofre and Oceanside is Marine Corps base with no
-public road. This is the reason people abandon this extension. There are two ways
-through and **they measure the same to within 80 m**:
+public road. **This is the only genuine hole in the corridor, and there is exactly
+one way through it for you: the I-5 shoulder.** The base pass looked like an
+option; it isn't, on three separate counts.
 
-| | Distance | Freeway | Quiet road | Needs a pass? |
-|---|---:|---:|---:|---|
-| Through the base | 36.06 km | 12.2 km | 13 km | **Yes** |
-| I-5 shoulder (default) | 36.14 km | 27.2 km | — | No |
+**1. Getting the pass means being at the wrong end of the base.** The DBIDS
+Recreational Bicycle pass is issued **in person only**, with a photograph,
+fingerprint and criminal background check, at the Visitor Center — **20250
+Vandegrift Blvd, Oceanside**, **Mon–Fri 07:30–15:30**, valid one year. That is the
+**south** end. A southbound rider reaches the base at the north end. There is a
+[DBIDS pre-enrollment portal](https://dbids-global-enroll.dmdc.mil/), but it
+submits your details early; it does not replace the in-person biometric capture.
+([base access](https://www.pendleton.marines.mil/Staff/Principal-Staff/Security-and-Emergency-Services/Base-Access/))
 
-**Through the base** is the nicer ride — the old highway and the base bike path —
-but it requires a **DBIDS Recreational Bicycle pass**, and the catch is the
-geography of getting one: it's issued **in person only** at the Visitor Center
-(Bldg 20255T) by the Main Gate, **Mon/Tue/Thu/Fri 07:30–15:30, Wed 07:45–15:30**,
-valid a year. The Main Gate is at the **Oceanside end** — the far side from a
-southbound rider. You cannot get the pass on the day you need it. The path also
-closes for military exercises.
-([requirements](https://www.californiabikeattorney.com/blog/2019/8/12/cycling-through-camp-pendleton))
+**2. Even with the pass, it doesn't cover the direction you're coming from.** The
+bicycle route it grants is defined **Las Pulgas gate ↔ Main gate** — the *southern*
+half of the base. It does not include the San Onofre approach at all.
 
-**The I-5 shoulder** is explicitly permitted by Caltrans between Basilone Road
-and Oceanside (exits 62–54). No pass, no gate, no business hours. There's water,
-restrooms and vending at the Aliso Creek rest area partway. It's 27 km of freeway
-shoulder, which is the least pleasant riding of the whole trip, but it is legal
-and it is the same distance.
+**3. The publicly-rideable part north of the gate is a dead end.** This is the one
+that looked most promising, so it got tested rather than assumed. The old highway
+corridor through San Onofre Bluffs is genuinely open to you — Overpass shows **Old
+Pacific Highway** as `access=permissive, bicycle=yes` and the **Pacific Coast
+Bikeway** as `highway=cycleway, bicycle=yes, foot=yes`. No pass needed. But its
+only southern exit onto I-5 at Las Pulgas is **80 m of `access=permit` road**. A
+nogo-radius sweep over that link — 20, 35, 50, 80, 120, 200 m — produced **the full
+27 km of I-5 every single time**, meaning OSM has no alternative connection. So the
+bikeway is an out-and-back, not a through route.
+
+| Nogo radius over the 80 m gate | Route | Freeway | Bike path |
+|---:|---:|---:|---:|
+| none (gate open) | 30.05 km | 12.25 km | 5.08 km |
+| 20 m … 200 m (all identical) | 29.64 km | **27.16 km** | 0 km |
+
+**So: the I-5 shoulder is not a fallback, it is the route.** Caltrans permits
+bicycles between Basilone Road and Oceanside (exits 62–54); there is water,
+restrooms and vending at the Aliso Creek rest area partway. 27 km of freeway
+shoulder is the least pleasant riding on the whole trip, and it is also the only
+legal way a bicycle gets from Los Angeles to San Diego along the coast.
 ([route notes](https://visitoceanside.org/blog/bike-to-san-onofre-state-park/))
 
-The default GPX takes the I-5 line. Getting there needed one piece of machinery:
-the base's bicycle gate at `33.3002,-117.4634` is tagged `access=permit`, and
-**`permit` is not a value in BRouter's routing data at all** — the router
-literally cannot see that a pass is required, and left alone it routes you
-straight into the base. So `build_pch_route.py` now supports `nogos`, and a 200 m
-exclusion circle over that gate is what keeps the line out. `pch_day4_alt_pendleton.gpx`
-is the same day without the nogo, for if you do hold the pass.
+There *was* a `pch_day4_alt_pendleton.gpx` here. **It is deleted** — it depended on
+a gate you cannot get through, and keeping it invited riding 150 km into a day and
+finding out.
 
-The audit reports **0.40 km of freeway on day 4 that OSM does not explicitly mark
-bicycle-legal** — a 695 m on-ramp at Basilone Road. It sits inside the stretch
-Caltrans permits; it's simply untagged. Flagged rather than hidden.
+#### An audit limitation worth knowing about
 
-### What's genuinely worse about it
-
-- **Camping collapses.** Hiker/biker sites at **San Onofre, San Clemente and
-  South Carlsbad State Beaches have reportedly been eliminated**, leaving a
-  single site (#94) at **San Elijo** — first-come-first-served after 16:00,
-  vacate by 09:00, one night only, $10/person. (That elimination report is a
-  cyclist forum rather than a parks.ca.gov page — verify with the San Diego Coast
-  District.) Practical upshot: **ride LA→San Diego in one day.** It's 218 km and
-  +685 m; you have done harder. And wild camping in suburban Orange County is a
-  different proposition from dispersed camping on Los Padres National Forest land.
-- **The return is one transfer *more*, not fewer.** From San Diego it's Pacific
-  Surfliner to LA, then Coast Starlight north. The Surfliner half is easy —
-  **free bike reservations, 7 roll-on spaces per train** — but the Coast Starlight
-  leg (6 bikes in the baggage car) is the same bottleneck either way. The
-  offsetting argument: **San Diego airport is 5 km from Santa Fe Depot**, which is
-  not a thing you can say about LAX.
-- **Scenery has diminishing returns.** After Big Sur, the Gaviota coast and
-  Malibu, urban Southern California is the least memorable riding on the route.
-  Laguna, Torrey Pines and the Silver Strand are the good bits.
+BRouter's routing data **does not carry `permit` at all** — `permit` is not a value
+in its `lookups.dat`, so neither the profile nor the audit can see it. Overpass
+shows Camp Pendleton's **Stuart Mesa Road** and **Vandegrift Boulevard** tagged
+`bicycle=permit` across every one of their 17 and 19 ways; BRouter would route a
+bicycle onto them without complaint. The 80 m this audit *did* catch showed up only
+because that particular way spells it `access=permit`, which survives as raw text
+in the echoed tags. The audit now checks both spellings, but the honest position is
+that **permit restrictions on this route cannot be verified from BRouter output** —
+they were established from Overpass, by hand, and this is the note that says so.
 
 ### The border, if you're going to be there anyway
 

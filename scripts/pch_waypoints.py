@@ -155,9 +155,24 @@ STAGE3 = [
 #
 # The base bicycle gate at 33.3002,-117.4634 is tagged access=permit, and
 # `permit` is not a value in BRouter's lookups.dat - the router literally cannot
-# see that a pass is needed. So PENDLETON_GATE_NOGO below is applied to the
-# default stage to keep the line out of the base, and the through-the-base line
-# is offered as an explicit variant for anyone who has the pass.
+# see that a pass is needed, so PENDLETON_GATE_NOGO keeps the line out.
+#
+# There WAS a through-the-base variant here. It is deleted, because the pass turns
+# out to be unusable for a southbound rider on three counts:
+#   1. It needs in-person biometrics (photo, fingerprint, background check) at
+#      20250 Vandegrift Blvd, Oceanside - the SOUTH end, Mon-Fri 07:30-15:30. The
+#      DBIDS pre-enrollment portal submits data early but does not replace the
+#      in-person visit.
+#   2. The DBIDS bicycle route is defined Las Pulgas gate <-> Main gate, so the
+#      pass does not even cover the northern approach from San Onofre.
+#   3. The publicly-rideable part north of the gate - Old Pacific Highway
+#      (access=permissive, bicycle=yes) and the Pacific Coast Bikeway
+#      (highway=cycleway, bicycle=yes) - DEAD-ENDS southbound. The only link from
+#      that corridor onto I-5 at Las Pulgas is 80 m of access=permit road. A nogo
+#      radius sweep from 20 m to 200 m over that link produced the full 27 km of
+#      I-5 every single time, i.e. OSM has no alternative connection.
+# So the I-5 shoulder is not a fallback, it is the only through line without base
+# credentials - which is what the default stage rides.
 PENDLETON_GATE_NOGO = ((33.30020, -117.46340, 200),)
 
 STAGE4 = [
@@ -252,31 +267,6 @@ STAGES = [
 # What survives is the one variant that changes the shape of the day rather than
 # just its last kilometre: the short day 1, for when the light or the legs go.
 VARIANTS = [
-    {
-        "id": "pch_day4_alt_pendleton",
-        "name": "Day 4 variant - through Camp Pendleton (needs a DBIDS pass)",
-        "desc": "The same day but on the old highway and bike path THROUGH Camp "
-                "Pendleton instead of the I-5 shoulder: 13 km of quiet base road "
-                "rather than 27 km of freeway. Measures the same distance. Requires "
-                "a DBIDS Recreational Bicycle pass, in person only at the Visitor "
-                "Center by the Main Gate at the OCEANSIDE end, Mon/Tue/Thu/Fri "
-                "07:30-15:30 and Wed 07:45-15:30, valid one year. A southbound "
-                "rider cannot obtain one en route - get it beforehand or ride the "
-                "default I-5 line. The path also closes for military exercises.",
-        "trim_to": "San Clemente Pier",
-        "extra": [
-            ("Oceanside Pier",                    33.19427, -117.38444),
-            ("Carlsbad Village",                  33.16245, -117.35217),
-            ("Encinitas",                         33.03699, -117.29198),
-            ("Del Mar",                           32.95949, -117.26531),
-            ("Torrey Pines State Beach",          32.93140, -117.26041),
-            ("La Jolla Cove",                     32.85050, -117.27304),
-            ("Mission Beach",                     32.78259, -117.25249),
-            ("San Diego Santa Fe Depot (FINISH)", 32.71685, -117.16956),
-        ],
-        "base": "STAGE4",
-        # deliberately NO nogo: this is the through-the-base line
-    },
     {
         "id": "pch_day5_sd_border",
         "name": "Day 5 (optional) - San Diego to the Mexican border",

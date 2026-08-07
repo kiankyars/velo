@@ -332,9 +332,15 @@ EXTENSION = [
               "(2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and "
               "Oceanside (exits 62-54) - no pass, no gate, no business hours, but "
               "27 km of freeway shoulder instead of 13 km of quiet road. "
-              "The default GPX takes option 2. pch_day4_alt_pendleton.gpx takes "
-              "option 1 if you have the pass. This waypoint is the base bicycle gate "
-              "itself (tagged access=permit in OSM)."),
+              "THE PASS IS NOT USABLE SOUTHBOUND, on three counts: it needs in-person "
+              "biometrics (photo, fingerprint, background check) at the south end; the "
+              "DBIDS bicycle route is defined Las Pulgas gate <-> Main gate so it does "
+              "not cover the northern approach at all; and the publicly-rideable part "
+              "north of the gate (Old Pacific Highway, access=permissive, and the "
+              "Pacific Coast Bikeway, bicycle=yes) DEAD-ENDS southbound - the only link "
+              "onto I-5 at Las Pulgas is 80 m of access=permit road. So option 2 is not "
+              "a fallback, it is the only through line, and it is what the GPX rides. "
+              "This waypoint is that 80 m gate."),
     dict(name="INFO Aliso Creek rest area - water on the I-5 stretch",
          lat=33.31500, lon=-117.48200, cat="water", sym="Drinking Water",
          desc="On the I-5 bypass stretch through Camp Pendleton: water, restrooms and "

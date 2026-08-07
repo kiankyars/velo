@@ -47,7 +47,7 @@ CACHE = os.path.join(HERE, ".cache")
 PROFILE_FILE = os.path.join(HERE, "velo_pch_road.brf")
 # The permissive twin, used ONLY for legs named in PERMISSIVE_LEGS.
 BRIDGE_PROFILE_FILE = os.path.join(HERE, "velo_pch_road_bridge.brf")
-PROFILE_CACHE_KEY = "velo_pch_road_v5"   # bump to invalidate the cache
+PROFILE_CACHE_KEY = "velo_pch_road_v6"   # bump to invalidate the cache
 os.makedirs(CACHE, exist_ok=True)
 
 # BRouter takes a limited number of via points per request; route in overlapping
@@ -161,7 +161,13 @@ def audit_rows(msgs):
         bic = tag(wt, "bicycle")
         surf = tag(wt, "surface")
 
-        if "access=permit" in wt:
+        # Permit-gated ways. BOTH spellings matter and neither is visible to the
+        # router: `permit` is not a value in BRouter's lookups.dat, so a profile
+        # cannot exclude it. Camp Pendleton's Stuart Mesa Road and Vandegrift
+        # Boulevard are tagged bicycle=permit across every way; an earlier version
+        # of this audit only looked for access=permit and therefore reported 80 m
+        # where the real figure was far higher.
+        if "access=permit" in wt or "bicycle=permit" in wt:
             cats["permit"] += m
             hits["permit"].append([lat, lon, m, wt])
         if bic in ("no", "private"):

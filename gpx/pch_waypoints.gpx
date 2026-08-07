@@ -3,7 +3,7 @@
   <metadata>
     <name>SF -&gt; LA coast route: all waypoints</name>
     <desc>Camping, lodging, water, food, bike shops, hazards and rail bail-outs along the southbound Highway 1 route</desc>
-    <time>2026-08-07T20:12:21Z</time>
+    <time>2026-08-07T22:16:56Z</time>
   </metadata>
   <wpt lat="37.775729" lon="-122.411959">
     <ele>24.0</ele>
@@ -8282,7 +8282,7 @@
   <wpt lat="33.300200" lon="-117.463400">
     <ele>22.0</ele>
     <name>CRUX Camp Pendleton - the only real problem on day 4</name>
-    <desc>27 km of coast between San Onofre and Oceanside is Marine Corps base with no public road. Two ways through, and they MEASURE THE SAME (36.1 km either way): (1) THROUGH THE BASE on the old highway and base bike path - quiet and pleasant, but needs a DBIDS Recreational Bicycle pass, obtainable IN PERSON ONLY at the Visitor Center by the Main Gate (Bldg 20255T), which is at the OCEANSIDE end - the far side from a southbound rider. Mon/Tue/Thu/Fri 07:30-15:30, Wed 07:45-15:30, valid one year. You cannot get one en route. The path also closes for military exercises. (2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and Oceanside (exits 62-54) - no pass, no gate, no business hours, but 27 km of freeway shoulder instead of 13 km of quiet road. The default GPX takes option 2. pch_day4_alt_pendleton.gpx takes option 1 if you have the pass. This waypoint is the base bicycle gate itself (tagged access=permit in OSM).  [day4_la_sandiego km 133, 202 m off route]</desc>
+    <desc>27 km of coast between San Onofre and Oceanside is Marine Corps base with no public road. Two ways through, and they MEASURE THE SAME (36.1 km either way): (1) THROUGH THE BASE on the old highway and base bike path - quiet and pleasant, but needs a DBIDS Recreational Bicycle pass, obtainable IN PERSON ONLY at the Visitor Center by the Main Gate (Bldg 20255T), which is at the OCEANSIDE end - the far side from a southbound rider. Mon/Tue/Thu/Fri 07:30-15:30, Wed 07:45-15:30, valid one year. You cannot get one en route. The path also closes for military exercises. (2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and Oceanside (exits 62-54) - no pass, no gate, no business hours, but 27 km of freeway shoulder instead of 13 km of quiet road. THE PASS IS NOT USABLE SOUTHBOUND, on three counts: it needs in-person biometrics (photo, fingerprint, background check) at the south end; the DBIDS bicycle route is defined Las Pulgas gate &lt;-&gt; Main gate so it does not cover the northern approach at all; and the publicly-rideable part north of the gate (Old Pacific Highway, access=permissive, and the Pacific Coast Bikeway, bicycle=yes) DEAD-ENDS southbound - the only link onto I-5 at Las Pulgas is 80 m of access=permit road. So option 2 is not a fallback, it is the only through line, and it is what the GPX rides. This waypoint is that 80 m gate.  [day4_la_sandiego km 133, 202 m off route]</desc>
     <sym>Danger Area</sym>
     <type>hazard</type>
   </wpt>
