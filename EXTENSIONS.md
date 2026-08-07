@@ -9,7 +9,9 @@ about them from a map.
 ## Short version
 
 **San Diego works, and it's the only extension that needs no new bookings — but
-it's the weakest riding of the whole trip.** The Camp Pendleton problem, which is
+it's the least scenic riding of the trip.** Note *scenic*, not badly built: it's
+an official signed route (US Bicycle Route 95) with a quarter of the day on
+separated bike path, and one 27 km hole where a Marine Corps base owns the coast. The Camp Pendleton problem, which is
 the thing that usually kills this extension, has a free legal solution that costs
 80 m of distance. If what you want is *more good riding* rather than a longer
 line on a map, **prepending the Sonoma/Mendocino coast beats it comfortably** —
@@ -17,7 +19,7 @@ but it needs a bus with a bike space, which is a real ask two days out.
 
 | Extension | Distance | Climb | Verdict |
 |---|---:|---:|---|
-| **Day 4: LA → San Diego** | **218.2 km** | **+685 m** | ✅ Built. Easiest bolt-on, no bookings, completes the coast. Least interesting riding. |
+| **Day 4: LA → San Diego** | **218.2 km** | **+685 m** | ✅ Built. Easiest bolt-on, no bookings. Best *infrastructure* of the trip (USBR 95, 25% separated path); worst *scenery*. |
 | Day 5: San Diego → Mexican border | +26.0 km | +31 m | ✅ Built. Only worth it if you're already in San Diego. |
 | **Prepend: Leggett → SF** | **357.2 km** | **+4,301 m** | 🥇 Best riding by far, and tailwind-correct. Needs a Thruway bus with bike space. |
 | Prepend: Bodega Bay → SF | 114.8 km | +1,284 m | 🥈 Half a day, most of the quality, far easier logistics. |
@@ -58,6 +60,42 @@ longest stretch with no water and no shop is **15.6 km** — against 37.0, 43.0 
 | 2 Limekiln → Refugio | 180 | — | **43.0 km** |
 | 3 Refugio → LA | 303 | — | 20.3 km |
 | **4 LA → San Diego** | **463** | **38** | **15.6 km** |
+
+### To be clear: this corridor *is* properly built for cycling
+
+An earlier draft of this file said day 4 was the "least interesting riding," which
+reads as though the corridor is badly served. It isn't — those are two different
+claims and only the aesthetic one is true.
+
+LA → San Diego is **US Bicycle Route 95**, an official signed national route. OSM
+carries **195 bicycle route relations** in the corridor — 5 national, 13 regional,
+158 local — including the **Los Angeles River Greenway**, **Rio Hondo**, **San
+Gabriel River Greenway**, **Coyote Creek Bikeway**, **Santa Ana River bike path**,
+the **OC Loop** and the **California Coastal Trail**.
+
+| | Day 4 |
+|---|---:|
+| On a signed cycle network (icn/ncn/rcn/lcn) | **73.5%** (160.2 km) |
+| …excluding the Camp Pendleton freeway hop | **77.8%** of 190.9 km |
+| Separated bike path (`highway=cycleway`) | **54.6 km — 25% of the day** |
+| Car-free altogether (cycleway + path + pedestrian) | ~59 km |
+| Bike shops within 1.2 km of the line | **38** |
+| Longest stretch with no water and no shop | **15.6 km** — best of the four days |
+
+That 25% on separated path is **more dedicated infrastructure than any other day
+of this trip**, and the resupply density is the best of the four. The 73.5%
+network figure is the lowest of the four days only because the 27 km Pendleton
+freeway bypass is 12.5% of the day by itself; take that out and it sits at 77.8%,
+in line with days 1–3 (91.5 / 86.6 / 83.1%).
+
+**So the corridor has exactly one hole in it, and it is not a planning failure —
+it is a Marine Corps base.** 27 km where the coast is Camp Pendleton and there is
+no public road at all. No route design fixes that. Everything either side of it is
+about as purpose-built for a bicycle as American road cycling gets.
+
+What is genuinely true is the *aesthetic* judgement: Orange County beach cities
+are not Big Sur. That's a statement about scenery, not about whether anyone
+bothered to build a path.
 
 ### Camp Pendleton: the crux, and why it isn't a blocker
 
