@@ -133,6 +133,55 @@ STAGE3 = [
 ]
 
 # ---------------------------------------------------------------------------
+# Stage 4 (OPTIONAL EXTENSION) - Los Angeles to San Diego
+# ---------------------------------------------------------------------------
+# Out of Union Station on the Los Angeles River path to Long Beach, then the
+# Orange County beach-city coast, then the San Diego North County coast.
+#
+# THE CRUX IS CAMP PENDLETON. There is no public road along the coast between
+# San Onofre and Oceanside - the Marine Corps base occupies 27 km of it. Two ways
+# through, and they measure almost exactly the same:
+#
+#   * Through the base on the old highway and base bike path. Quiet and pleasant,
+#     but it requires a DBIDS Recreational Bicycle pass, obtainable IN PERSON ONLY
+#     at the Visitor Center by the Main Gate - which is at the OCEANSIDE end, i.e.
+#     the far side from a southbound rider. Mon/Tue/Thu/Fri 07:30-15:30,
+#     Wed 07:45-15:30. A southbound tourist cannot get one on the day.
+#   * The I-5 shoulder, which Caltrans explicitly permits between Basilone Road
+#     and Oceanside. No pass, no gate, no business hours. 27 km of freeway
+#     shoulder instead of 13 km of quiet base road.
+#
+# Measured: base route 36.06 km, I-5 route 36.14 km. The bypass is free.
+#
+# The base bicycle gate at 33.3002,-117.4634 is tagged access=permit, and
+# `permit` is not a value in BRouter's lookups.dat - the router literally cannot
+# see that a pass is needed. So PENDLETON_GATE_NOGO below is applied to the
+# default stage to keep the line out of the base, and the through-the-base line
+# is offered as an explicit variant for anyone who has the pass.
+PENDLETON_GATE_NOGO = ((33.30020, -117.46340, 200),)
+
+STAGE4 = [
+    ("LA Union Station (START)",            34.05606, -118.23590),
+    ("LA River path (Vernon)",              33.98500, -118.20500),
+    ("Long Beach (Shoreline)",              33.76076, -118.19019),
+    ("Seal Beach",                          33.74240, -118.10559),
+    ("Huntington Beach Pier",               33.65460, -118.00465),
+    ("Newport Beach Pier",                  33.60307, -117.88405),
+    ("Laguna Beach",                        33.54270, -117.78537),
+    ("Dana Point",                          33.46336, -117.70536),
+    ("San Clemente Pier",                   33.41961, -117.61974),
+    # No via-points across Camp Pendleton - the nogo does the work.
+    ("Oceanside Pier",                      33.19427, -117.38444),
+    ("Carlsbad Village",                    33.16245, -117.35217),
+    ("Encinitas",                           33.03699, -117.29198),
+    ("Del Mar",                             32.95949, -117.26531),
+    ("Torrey Pines State Beach",            32.93140, -117.26041),
+    ("La Jolla Cove",                       32.85050, -117.27304),
+    ("Mission Beach",                       32.78259, -117.25249),
+    ("San Diego Santa Fe Depot (FINISH)",   32.71685, -117.16956),
+]
+
+# ---------------------------------------------------------------------------
 # The one permissive leg
 # ---------------------------------------------------------------------------
 # Legs listed here are routed with velo_pch_road_bridge.brf instead of
@@ -176,6 +225,18 @@ STAGES = [
                 "across Los Angeles to Union Station and the train home.",
         "pts": STAGE3,
     },
+    {
+        "id": "pch_day4_la_sandiego",
+        "name": "Day 4 (OPTIONAL) - Los Angeles to San Diego",
+        "desc": "The optional extension. Out of Union Station on the Los Angeles "
+                "River path to Long Beach, the Orange County beach cities, then the "
+                "San Diego North County coast to Santa Fe Depot. Camp Pendleton is "
+                "bypassed on the Caltrans-permitted I-5 shoulder, so no base pass is "
+                "needed; see pch_day4_alt_pendleton.gpx for the through-the-base line.",
+        "pts": STAGE4,
+        "optional": True,
+        "nogos": PENDLETON_GATE_NOGO,
+    },
 ]
 
 # ---------------------------------------------------------------------------
@@ -192,6 +253,56 @@ STAGES = [
 # just its last kilometre: the short day 1, for when the light or the legs go.
 VARIANTS = [
     {
+        "id": "pch_day4_alt_pendleton",
+        "name": "Day 4 variant - through Camp Pendleton (needs a DBIDS pass)",
+        "desc": "The same day but on the old highway and bike path THROUGH Camp "
+                "Pendleton instead of the I-5 shoulder: 13 km of quiet base road "
+                "rather than 27 km of freeway. Measures the same distance. Requires "
+                "a DBIDS Recreational Bicycle pass, in person only at the Visitor "
+                "Center by the Main Gate at the OCEANSIDE end, Mon/Tue/Thu/Fri "
+                "07:30-15:30 and Wed 07:45-15:30, valid one year. A southbound "
+                "rider cannot obtain one en route - get it beforehand or ride the "
+                "default I-5 line. The path also closes for military exercises.",
+        "trim_to": "San Clemente Pier",
+        "extra": [
+            ("Oceanside Pier",                    33.19427, -117.38444),
+            ("Carlsbad Village",                  33.16245, -117.35217),
+            ("Encinitas",                         33.03699, -117.29198),
+            ("Del Mar",                           32.95949, -117.26531),
+            ("Torrey Pines State Beach",          32.93140, -117.26041),
+            ("La Jolla Cove",                     32.85050, -117.27304),
+            ("Mission Beach",                     32.78259, -117.25249),
+            ("San Diego Santa Fe Depot (FINISH)", 32.71685, -117.16956),
+        ],
+        "base": "STAGE4",
+        # deliberately NO nogo: this is the through-the-base line
+    },
+    {
+        "id": "pch_day5_sd_border",
+        "name": "Day 5 (optional) - San Diego to the Mexican border",
+        "desc": "The last 40 km of the Pacific Coast Bike Route: Santa Fe Depot "
+                "through Coronado and the Silver Strand to Imperial Beach and "
+                "Border Field State Park, where the route ends at the Mexican "
+                "border. Short, flat, and the only way to say you rode the whole "
+                "thing. Border Field's access road floods and closes - check "
+                "before committing to the last 3 km.",
+        "trim_to": "San Diego Santa Fe Depot (FINISH)",
+        "extra": [
+            # NO Coronado via-point. Bicycles cannot use the San Diego-Coronado
+            # Bridge, and with ferries disabled the router answered a Coronado
+            # waypoint by going round the bay, back up to Coronado and south again:
+            # 54 km with 49 km of out-and-back. Round the bay directly is 26.0 km
+            # and clean. The nicer line is the Coronado ferry from Broadway Pier
+            # then the Silver Strand bike path - 24.8 km including a 2.4 km ferry
+            # hop - but that adds a dependency on a boat, so it is a note, not the
+            # default. Ride to the ferry terminal if you want it.
+            ("Imperial Beach",               32.58389, -117.11305),
+            ("Border Field SP (MEXICO)",     32.55638, -117.09673),
+        ],
+        "base": "STAGE4",
+        "nogos": PENDLETON_GATE_NOGO,
+    },
+    {
         "id": "pch_day1_alt_pfeiffer",
         "name": "Day 1 variant - stop early at Big Sur Village / Pfeiffer",
         "desc": "Day 1 cut from 326 km to 282 km by stopping in Big Sur Village "
@@ -204,7 +315,8 @@ VARIANTS = [
     },
 ]
 
-BASES = {"STAGE1": STAGE1, "STAGE2": STAGE2, "STAGE3": STAGE3}
+BASES = {"STAGE1": STAGE1, "STAGE2": STAGE2, "STAGE3": STAGE3,
+         "STAGE4": STAGE4}
 
 
 def variant_points(v):

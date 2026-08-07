@@ -5,6 +5,7 @@ Planning hub for Kian's ultra-distance riding. **Two trips live here now:**
 | Trip | When | Distance | Where it's documented |
 |------|------|---------:|----------------------|
 | 🇺🇸 **Southbound Highway 1 — San Francisco → Los Angeles** | **leaving 5–6 Aug 2026** | **782.4 km / 3 days** | ⭐ **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** |
+| 🇺🇸 …optionally extended to **San Diego** | +1 day | **1,000.6 km / 4 days** | **[EXTENSIONS.md](./EXTENSIONS.md)** |
 | 🇪🇺 The Frankfurt Loop | 21 Jun – 12 Jul 2026 | 4,172.7 km / ~22 days | [ROUTE-GPX.md](./ROUTE-GPX.md) |
 
 ## 🇺🇸 The immediate one: SF → Big Sur → LA
@@ -19,7 +20,15 @@ GPX in [`gpx/pch_*.gpx`](./gpx), full write-up in **[BIG-SUR-GPX.md](./BIG-SUR-G
 | 3 | Refugio SB → **LA Union Station** | **205.7 km** | +611 m |
 
 Plus one variant — `pch_day1_alt_pfeiffer.gpx`, day 1 cut to 256 km by stopping in
-Big Sur Village — and the waypoint files.
+Big Sur Village — and the waypoint files (1,379 POIs).
+
+**Optional day 4 to San Diego is built and audited: 218.2 km, +685 m** — see
+**[EXTENSIONS.md](./EXTENSIONS.md)** for whether it's worth doing and what beats
+it. Short answer: it works, the Camp Pendleton problem has a free legal solution,
+it's the flattest and best-supplied day of the trip and the only extension needing
+no new bookings — but it's the least interesting riding. Prepending the
+Sonoma/Mendocino coast (Leggett → SF, 357.2 km / +4,301 m) is the better ride if
+you ever have the lead time to arrange a bus with a bike space.
 
 **What the build found:**
 
@@ -62,6 +71,7 @@ A **loop out of Frankfurt** through Germany, Switzerland, France, Italy and Aust
 
 | File | What it covers |
 |------|----------------|
+| **[EXTENSIONS.md](./EXTENSIONS.md)** | ⭐ **Should you extend to San Diego?** Every candidate extension routed and measured with the same profile and audit: the LA→San Diego day (and the Camp Pendleton crux, solved), the Mexican-border finish, prepending the Sonoma/Mendocino coast, and why looping home inland through the Central Valley in August is a heat-injury risk rather than a hard day. |
 | **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** | ⭐ **The SF → LA coast route.** Three riding days (782.4 km), the road-bike routing profile and why the stock one fails on this coast, the legality/surface/spur audit, the detected climbs, the water-and-food gaps, and the corrections the build forced on the plan. |
 | **[GEAR-FROM-VIDEOS.md](./GEAR-FROM-VIDEOS.md)** | ⭐ Asks #1 & #2 — the **verbatim gear list** from your parts video, your own stated regrets (no bibs/tights, bad gloves, leaky pump, broken saddle bag), and the **lessons distilled from all 7 transcripts**. |
 | **[CHECKLIST.md](./CHECKLIST.md)** | The **concise one-pager** to read before you leave. |

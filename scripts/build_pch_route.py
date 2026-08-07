@@ -78,21 +78,30 @@ def profile_id(bridge=False):
     return _PROFILE_IDS[path]
 
 
-def brouter(latlons, bridge=False):
+def brouter(latlons, bridge=False, nogos=()):
     """Route through the given (lat, lon) points with the PCH road profile.
 
     bridge=True selects the permissive twin profile; only legs named in
     pch_waypoints.PERMISSIVE_LEGS may use it.
+
+    nogos is a sequence of (lat, lon, radius_m) exclusion circles. Used where a
+    routing constraint cannot be expressed in the profile at all: the Camp
+    Pendleton bicycle gate is tagged access=permit, and `permit` is not in
+    BRouter's lookups.dat, so the router cannot see that it needs a pass. A small
+    nogo over the gate is the only way to keep the line out of the base.
     """
     lonlats = "|".join(f"{lon:.6f},{lat:.6f}" for lat, lon in latlons)
-    tag_key = PROFILE_CACHE_KEY + ("_bridge" if bridge else "")
+    nogo_s = "|".join(f"{lon:.6f},{lat:.6f},{r}" for lat, lon, r in nogos)
+    tag_key = PROFILE_CACHE_KEY + ("_bridge" if bridge else "") + ("|nogo:" + nogo_s if nogo_s else "")
     key = hashlib.md5((tag_key + "|" + lonlats).encode()).hexdigest()
     cf = os.path.join(CACHE, f"pch_{key}.json")
     if os.path.exists(cf):
         return json.load(open(cf))
-    url = "https://brouter.de/brouter?" + urllib.parse.urlencode({
-        "lonlats": lonlats, "profile": profile_id(bridge),
-        "alternativeidx": "0", "format": "geojson"})
+    q = {"lonlats": lonlats, "profile": profile_id(bridge),
+         "alternativeidx": "0", "format": "geojson"}
+    if nogo_s:
+        q["nogos"] = nogo_s
+    url = "https://brouter.de/brouter?" + urllib.parse.urlencode(q)
     last = None
     for attempt in range(5):
         try:
@@ -128,6 +137,7 @@ def audit_rows(msgs):
     cats = {
         "total": 0.0,
         "bicycle_no": 0.0,          # must be 0.0 - illegal
+        "permit": 0.0,              # access=permit: gated, needs a pass
         "motorway": 0.0,            # all freeway metres
         "motorway_legal": 0.0,      # freeway explicitly open to bikes
         "motorway_illegal": 0.0,    # freeway with no bicycle tag - must be 0.0
@@ -139,7 +149,8 @@ def audit_rows(msgs):
     UNPAVED = {"unpaved", "gravel", "fine_gravel", "compacted", "ground", "dirt",
                "earth", "mud", "sand", "grass", "grass_paver", "pebblestone",
                "rock", "stone", "cobblestone", "metal", "wood"}
-    hits = {"bicycle_no": [], "motorway": [], "unpaved": [], "tunnel": [], "ferry": []}
+    hits = {"bicycle_no": [], "motorway": [], "unpaved": [], "tunnel": [],
+            "ferry": [], "permit": []}
 
     for row in msgs[1:]:
         m = float(row[iDist])
@@ -150,6 +161,9 @@ def audit_rows(msgs):
         bic = tag(wt, "bicycle")
         surf = tag(wt, "surface")
 
+        if "access=permit" in wt:
+            cats["permit"] += m
+            hits["permit"].append([lat, lon, m, wt])
         if bic in ("no", "private"):
             cats["bicycle_no"] += m
             hits["bicycle_no"].append([lat, lon, m, wt])
@@ -304,7 +318,7 @@ def simplify(track, tol_m=SIMPLIFY_TOL_M):
     return [p for i, p in enumerate(track) if keep[i]]
 
 
-def build(points):
+def build(points, nogos=()):
     """Route through `points` (label, lat, lon), chunked, honouring PERMISSIVE_LEGS.
 
     The point list is first split into runs at every leg named in
@@ -333,7 +347,8 @@ def build(points):
         step = 1 if is_bridge else CHUNK
         while i < len(run_pts) - 1:
             chunk = run_pts[i:i + step + 1]
-            d = brouter([(lat, lon) for _, lat, lon in chunk], bridge=is_bridge)
+            d = brouter([(lat, lon) for _, lat, lon in chunk], bridge=is_bridge,
+                        nogos=nogos)
             a = analyze_brouter(d)
             seg = a["track"]
             if track and haversine((track[-1][0], track[-1][1]),
@@ -449,6 +464,7 @@ def report(label, cats, hits, dist_km, climb_m, npts, filt_m):
           f"({cats['motorway_legal']/1000:.2f} bicycle-legal, "
           f"{cats['motorway_illegal']/1000:.2f} NOT)")
     print(f"   legality: bicycle=no {cats['bicycle_no']/1000:.3f} km   "
+          f"access=permit {cats['permit']/1000:.3f} km   "
           f"ferry {cats['ferry']/1000:.2f}   steps {cats['steps']/1000:.3f}")
     print(f"   surface:  unpaved {cats['unpaved']/1000:.2f} km  "
           f"({100*cats['unpaved']/tot:.2f}%)   tunnel {cats['tunnel']/1000:.2f} km   "
@@ -467,15 +483,16 @@ def report(label, cats, hits, dist_km, climb_m, npts, filt_m):
 def main():
     only = sys.argv[1:] or None
     results = []
-    all_specs = [(s["id"], s["name"], s["desc"], s["pts"], True) for s in STAGES]
-    all_specs += [(v["id"], v["name"], v["desc"], variant_points(v), False)
-                  for v in VARIANTS]
+    all_specs = [(s["id"], s["name"], s["desc"], s["pts"], True, s.get("nogos", ()),
+                  s.get("optional", False)) for s in STAGES]
+    all_specs += [(v["id"], v["name"], v["desc"], variant_points(v), False,
+                   v.get("nogos", ()), False) for v in VARIANTS]
 
-    for sid, sname, sdesc, pts, is_main in all_specs:
+    for sid, sname, sdesc, pts, is_main, nogos, optional in all_specs:
         if only and sid not in only:
             continue
         print(f"\nRouting {sid} ({len(pts)} corridor points)...", flush=True)
-        track, msgs_all, legs, filt_m, bridged = build(pts)
+        track, msgs_all, legs, filt_m, bridged = build(pts, nogos=nogos)
         cats, hits = merge_audits(msgs_all)
         dist_km = haversine_total(track)
         climb_m = ascent(track)
@@ -486,6 +503,7 @@ def main():
         slim = densify(simplify(track), DENSIFY_MAX_M)
         results.append({
             "id": sid, "name": sname, "desc": sdesc, "is_main": is_main,
+            "optional": optional,
             "track": track, "slim": slim, "points": pts,
             "cats": cats, "hits": hits,
             "dist_km": dist_km, "climb_m": climb_m, "filt_m": filt_m,
@@ -498,21 +516,34 @@ def main():
         print(f"   wrote {out}: {len(slim)} pts, {os.path.getsize(out)/1e6:.2f} MB")
 
     mains = [r for r in results if r["is_main"]]
-    if len(mains) == 3:
+    core = [r for r in mains if not r.get("optional")]
+    # Two master files on purpose: the core three-day trip to Los Angeles, and the
+    # same plus the optional San Diego extension. Keeping them separate means
+    # loading the extension is a decision, not a surprise.
+    if len(core) == 3:
         master = os.path.join(GPX_DIR, "pch_sf_la_master.gpx")
-        write_gpx(master, [(r["name"], r["slim"]) for r in mains],
+        write_gpx(master, [(r["name"], r["slim"]) for r in core],
                   name="San Francisco -> Los Angeles by the coast (3 stages)",
                   desc="Southbound Highway 1: SF -> Limekiln SP -> Refugio SB -> LA Union Station")
-        print(f"\nwrote {master}: {sum(len(r['slim']) for r in mains)} pts, "
+        print(f"\nwrote {master}: {sum(len(r['slim']) for r in core)} pts, "
               f"{os.path.getsize(master)/1e6:.2f} MB")
-        # seam check
-        for i in range(len(mains) - 1):
-            g = haversine((mains[i]["track"][-1][0], mains[i]["track"][-1][1]),
-                          (mains[i + 1]["track"][0][0], mains[i + 1]["track"][0][1]))
-            print(f"seam {mains[i]['id']} -> {mains[i+1]['id']}: {g:.1f} m")
-        print(f"TOTAL {sum(r['dist_km'] for r in mains):.1f} km, "
-              f"+{sum(r['filt_m'] for r in mains):.0f} m filtered "
-              f"(+{sum(r['climb_m'] for r in mains):.0f} m raw SRTM)")
+        print(f"CORE TOTAL {sum(r['dist_km'] for r in core):.1f} km, "
+              f"+{sum(r['filt_m'] for r in core):.0f} m filtered")
+    if len(mains) > len(core) and len(mains) >= 4:
+        master = os.path.join(GPX_DIR, "pch_sf_sd_master.gpx")
+        write_gpx(master, [(r["name"], r["slim"]) for r in mains],
+                  name="San Francisco -> San Diego by the coast (4 stages)",
+                  desc="Southbound Highway 1 extended: SF -> Limekiln SP -> Refugio SB "
+                       "-> LA -> San Diego. Camp Pendleton bypassed on the "
+                       "Caltrans-permitted I-5 shoulder (no base pass needed).")
+        print(f"wrote {master}: {sum(len(r['slim']) for r in mains)} pts, "
+              f"{os.path.getsize(master)/1e6:.2f} MB")
+        print(f"EXTENDED TOTAL {sum(r['dist_km'] for r in mains):.1f} km, "
+              f"+{sum(r['filt_m'] for r in mains):.0f} m filtered")
+    for i in range(len(mains) - 1):
+        g = haversine((mains[i]["track"][-1][0], mains[i]["track"][-1][1]),
+                      (mains[i + 1]["track"][0][0], mains[i + 1]["track"][0][1]))
+        print(f"seam {mains[i]['id']} -> {mains[i+1]['id']}: {g:.1f} m")
 
     # Merge into any existing summary rather than replacing it, so building a
     # single stage (`build_pch_route.py pch_day3_refugio_la`) cannot silently
@@ -538,12 +569,14 @@ def main():
         summary["stages"].append({
             "id": r["id"], "name": r["name"], "desc": r["desc"],
             "is_main_stage": r["is_main"],
+            "optional_extension": r.get("optional", False),
             "distance_km": round(r["dist_km"], 1),
             "ascent_m_filtered": round(r["filt_m"]),
             "ascent_m_raw_srtm": round(r["climb_m"]),
             "points_raw": len(r["track"]), "points_saved": len(r["slim"]),
             "audit": {
                 "bicycle_no_km": round(c["bicycle_no"] / 1000, 3),
+                "access_permit_km": round(c["permit"] / 1000, 3),
                 "motorway_km": round(c["motorway"] / 1000, 3),
                 "motorway_bicycle_legal_km": round(c["motorway_legal"] / 1000, 3),
                 "motorway_not_legal_km": round(c["motorway_illegal"] / 1000, 3),

@@ -16,6 +16,7 @@ write-up in **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)**. What's left is not routing:
 - `[ ]` **Get a free California Campfire Permit** if you are carrying a stove.
 - `[ ]` **Carry food on day 2.** It has roughly a third the on-road resupply of the other days. Fill up in Lompoc at km 226 — the next 34 km over the Santa Rosa Hills has nothing.
 - `[ ]` **Loaded shakedown ride** (20–30 km): confirm the bags don't foul braking or shifting before a 297 km day.
+- `[ ]` **Decide about San Diego — but not now.** Day 4 is built and audited (218.2 km, +685 m) and needs no advance booking, so you can decide at Los Angeles once you know how your legs are. That flexibility is its main advantage. If you take it: ride it in ONE day (hiker/biker sites at San Onofre, San Clemente and South Carlsbad are reported eliminated), and use the default `pch_day4_la_sandiego.gpx` unless you already hold a Camp Pendleton DBIDS pass. Reasoning and the alternatives in **[EXTENSIONS.md](./EXTENSIONS.md)**.
 - `[x]` **GPX built** — 3 stages (782.4 km) + 1 variant + waypoint files; legality, surface, continuity and out-and-back spurs all audited (`python3 scripts/validate_pch_routes.py` → ALL CHECKS PASS). The first draft carried 62 km of via-point spurs; those are gone and a spur check now guards against them.
 
 ---

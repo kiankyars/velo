@@ -3,7 +3,7 @@
   <metadata>
     <name>SF -&gt; LA coast route: essential waypoints</name>
     <desc>Curated stops plus water, campgrounds and bike shops only - the readable subset for a bike computer</desc>
-    <time>2026-08-05T04:01:57Z</time>
+    <time>2026-08-07T20:12:21Z</time>
   </metadata>
   <wpt lat="37.777091" lon="-122.422326">
     <ele>24.0</ele>
@@ -1787,6 +1787,979 @@
     <ele>91.0</ele>
     <name>FINISH LA Union Station</name>
     <desc>800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.  [day3_refugio_la km 206]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
+  <wpt lat="34.055653" lon="-118.235553">
+    <ele>90.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13290101801)  [day4_la_sandiego km 0]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.056060" lon="-118.235900">
+    <ele>90.0</ele>
+    <name>FINISH LA Union Station</name>
+    <desc>800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.  [day4_la_sandiego km 0]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
+  <wpt lat="33.985000" lon="-118.205000">
+    <ele>50.0</ele>
+    <name>INFO LA River path - how you get out of Union Station</name>
+    <desc>Day 4 leaves downtown on the Los Angeles River path south to Long Beach, which is why the first 38 km are almost all Class I. Day 4 is 25% bike path overall (54.6 km of 218 km) - by far the most protected day of the whole trip.  [day4_la_sandiego km 10]</desc>
+    <sym>Bike Trail</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="33.769142" lon="-118.193246">
+    <ele>16.0</ele>
+    <name>Propel Electric Bikes</name>
+    <desc>OSM bike shop (node/6761015936); opening_hours=Mo-Sa 10:00-17:00; phone=+1 562 294-5353; website=https://propelbikes.com/  [day4_la_sandiego km 37]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.768109" lon="-118.194192">
+    <ele>18.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11009002167)  [day4_la_sandiego km 37]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.759583" lon="-118.191374">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11009080880)  [day4_la_sandiego km 39]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.762365" lon="-118.162875">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11917151002)  [day4_la_sandiego km 41]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.764572" lon="-118.151768">
+    <ele>10.0</ele>
+    <name>The Bicycle Stand</name>
+    <desc>OSM bike shop (node/11546928361); opening_hours=Mo-Sa 11:00-19:00; Su 11:00-18:00; phone=+1-562-279-4936; website=https://www.thebicyclestand.org/  [day4_la_sandiego km 42]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.755429" lon="-118.139383">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12148019690); access=yes; fee=no  [day4_la_sandiego km 44]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.753002" lon="-118.134222">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5636479723)  [day4_la_sandiego km 44]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.753279" lon="-118.132347">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11227630980)  [day4_la_sandiego km 45]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.757891" lon="-118.130214">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5636459335)  [day4_la_sandiego km 45]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.743577" lon="-118.103391">
+    <ele>8.0</ele>
+    <name>Main Street Cyclery</name>
+    <desc>OSM bike shop (node/8636543862); phone=+1-562-430-3903  [day4_la_sandiego km 49]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.686124" lon="-118.038672">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/676305532)  [day4_la_sandiego km 59]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.673400" lon="-118.024979">
+    <ele>11.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836050614)  [day4_la_sandiego km 61]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.666370" lon="-118.015185">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12159086536)  [day4_la_sandiego km 62]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.655749" lon="-118.001465">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836185285)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.655240" lon="-118.000756">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836185301)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.654069" lon="-117.998725">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115273)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.652637" lon="-117.996479">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115305)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.651365" lon="-117.994251">
+    <ele>1.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836148235)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.649809" lon="-117.991745">
+    <ele>1.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115351)  [day4_la_sandiego km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.648210" lon="-117.989306">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115373)  [day4_la_sandiego km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.647296" lon="-117.987563">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836165155)  [day4_la_sandiego km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.645630" lon="-117.984910">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836165100)  [day4_la_sandiego km 66]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.644295" lon="-117.982625">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836165087)  [day4_la_sandiego km 66]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.641497" lon="-117.977777">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836164805)  [day4_la_sandiego km 66]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.642840" lon="-117.980094">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836164840)  [day4_la_sandiego km 66]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.640093" lon="-117.975342">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836164768)  [day4_la_sandiego km 67]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.637197" lon="-117.969338">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115599)  [day4_la_sandiego km 67]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.635695" lon="-117.966174">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836164712)  [day4_la_sandiego km 68]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.633814" lon="-117.963060">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115748)  [day4_la_sandiego km 68]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.632908" lon="-117.961579">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115740)  [day4_la_sandiego km 68]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.627565" lon="-117.952997">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11310965522); access=yes; fee=no  [day4_la_sandiego km 69]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.627318" lon="-117.950382">
+    <ele>5.0</ele>
+    <name>(bike shop)</name>
+    <desc>OSM bike shop (node/696033726)  [day4_la_sandiego km 69]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.624909" lon="-117.939603">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4687911856)  [day4_la_sandiego km 70]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.623982" lon="-117.936975">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4687892366)  [day4_la_sandiego km 71]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.618621" lon="-117.928226">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10309031927)  [day4_la_sandiego km 72]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.608268" lon="-117.894927">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4070825975)  [day4_la_sandiego km 75]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.613342" lon="-117.891170">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681488); description=Back bay view park  [day4_la_sandiego km 76]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.600280" lon="-117.877820">
+    <ele>20.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681472); description=Begonia park  [day4_la_sandiego km 77]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.584980" lon="-117.854450">
+    <ele>44.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681465); description=Crystal cove north restrooms also (fountain in back)  [day4_la_sandiego km 80]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.570112" lon="-117.832852">
+    <ele>30.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/14005715468); access=yes; fee=no  [day4_la_sandiego km 83]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.565628" lon="-117.829419">
+    <ele>29.0</ele>
+    <name>Filtered water station</name>
+    <desc>OSM drinking water (node/14027092502); operator=Filtered water station  [day4_la_sandiego km 83]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.563378" lon="-117.821900">
+    <ele>19.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10921848544); access=yes  [day4_la_sandiego km 84]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.562395" lon="-117.819965">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3127209799)  [day4_la_sandiego km 84]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.561111" lon="-117.821139">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10921848548); access=yes  [day4_la_sandiego km 84]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.547097" lon="-117.803878">
+    <ele>36.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12945127286)  [day4_la_sandiego km 87]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.548361" lon="-117.793267">
+    <ele>28.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9845739446)  [day4_la_sandiego km 87]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.543815" lon="-117.790804">
+    <ele>24.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12920312624); access=yes; fee=no  [day4_la_sandiego km 88]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.542595" lon="-117.785990">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681446); description=Laguna Beach  [day4_la_sandiego km 88]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.542808" lon="-117.786601">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5436341638); description=Laguna Beach  [day4_la_sandiego km 88]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.544852" lon="-117.783089">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10921848540); access=yes  [day4_la_sandiego km 88]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.542185" lon="-117.783349">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10295608335)  [day4_la_sandiego km 89]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.515145" lon="-117.759685">
+    <ele>40.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12438051545); access=yes; fee=no  [day4_la_sandiego km 92]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.514779" lon="-117.759195">
+    <ele>40.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/14031693130); access=yes; fee=no  [day4_la_sandiego km 92]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.511208" lon="-117.751782">
+    <ele>11.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5436331914)  [day4_la_sandiego km 93]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.465689" lon="-117.705129">
+    <ele>68.0</ele>
+    <name>PCH Rides</name>
+    <desc>OSM bike shop (way/758881770); phone=+1-949-415-4724  [day4_la_sandiego km 100]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.466925" lon="-117.700785">
+    <ele>20.0</ele>
+    <name>Station Craft Brewery + Kitchen</name>
+    <desc>OSM bike shop (node/764082263); opening_hours=Su-Fr 11:00-21:00; Sa 10:00-21:00; phone=+1 949-264-8288; website=https://stationcraft.com/  [day4_la_sandiego km 101]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.460729" lon="-117.695169">
+    <ele>13.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4365624391)  [day4_la_sandiego km 102]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.460418" lon="-117.693751">
+    <ele>11.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4365623391)  [day4_la_sandiego km 102]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.462584" lon="-117.684478">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3746412408)  [day4_la_sandiego km 103]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.462292" lon="-117.680329">
+    <ele>9.0</ele>
+    <name>Doheny Beach Campground</name>
+    <desc>OSM campground (way/428961191)  [day4_la_sandiego km 103]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.436946" lon="-117.635643">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4375945133)  [day4_la_sandiego km 108]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.430415" lon="-117.631196">
+    <ele>19.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4375888515)  [day4_la_sandiego km 109]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.432533" lon="-117.624354">
+    <ele>42.0</ele>
+    <name>Jax Bicycle Center</name>
+    <desc>OSM bike shop (node/4392361451); phone=+1 949 492 5911  [day4_la_sandiego km 110]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.430213" lon="-117.619307">
+    <ele>43.0</ele>
+    <name>Blue Dog Ride</name>
+    <desc>OSM bike shop (way/413720789)  [day4_la_sandiego km 110]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.430425" lon="-117.618533">
+    <ele>50.0</ele>
+    <name>Webig Motor Company</name>
+    <desc>OSM bike shop (node/4046914064)  [day4_la_sandiego km 111]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.429882" lon="-117.615327">
+    <ele>50.0</ele>
+    <name>The Bike House</name>
+    <desc>OSM bike shop (node/8552674618); description=The Bike House has been offering top-quality bicycles, parts, and bike servcies since 2018. We are former cyclists who are committed to helping individuals obtain high-end bicycles at reasonable prices.; phone=+1-424-253-6097; website=https://www.thebikehouse.net/  [day4_la_sandiego km 111]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.418268" lon="-117.622642">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13878024410); fee=no  [day4_la_sandiego km 112]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.402257" lon="-117.601403">
+    <ele>44.0</ele>
+    <name>San Clemente State Park</name>
+    <desc>OSM campground (way/372926161); fee=yes  [day4_la_sandiego km 115]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.315000" lon="-117.482000">
+    <ele>44.0</ele>
+    <name>INFO Aliso Creek rest area - water on the I-5 stretch</name>
+    <desc>On the I-5 bypass stretch through Camp Pendleton: water, restrooms and vending machines. The only stop in 27 km of freeway shoulder. Position approximate.  [day4_la_sandiego km 131]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.300200" lon="-117.463400">
+    <ele>22.0</ele>
+    <name>CRUX Camp Pendleton - the only real problem on day 4</name>
+    <desc>27 km of coast between San Onofre and Oceanside is Marine Corps base with no public road. Two ways through, and they MEASURE THE SAME (36.1 km either way): (1) THROUGH THE BASE on the old highway and base bike path - quiet and pleasant, but needs a DBIDS Recreational Bicycle pass, obtainable IN PERSON ONLY at the Visitor Center by the Main Gate (Bldg 20255T), which is at the OCEANSIDE end - the far side from a southbound rider. Mon/Tue/Thu/Fri 07:30-15:30, Wed 07:45-15:30, valid one year. You cannot get one en route. The path also closes for military exercises. (2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and Oceanside (exits 62-54) - no pass, no gate, no business hours, but 27 km of freeway shoulder instead of 13 km of quiet road. The default GPX takes option 2. pch_day4_alt_pendleton.gpx takes option 1 if you have the pass. This waypoint is the base bicycle gate itself (tagged access=permit in OSM).  [day4_la_sandiego km 133]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="33.272144" lon="-117.444131">
+    <ele>25.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12437793425)  [day4_la_sandiego km 137]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.268631" lon="-117.436114">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2905196630)  [day4_la_sandiego km 137]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.203618" lon="-117.392183">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12349553098)  [day4_la_sandiego km 146]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.197933" lon="-117.387359">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12488568915)  [day4_la_sandiego km 147]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.197469" lon="-117.386978">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12488568917)  [day4_la_sandiego km 147]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.196193" lon="-117.385906">
+    <ele>14.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12488568913)  [day4_la_sandiego km 148]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.194337" lon="-117.382531">
+    <ele>9.0</ele>
+    <name>Oceanside E-Bikes</name>
+    <desc>OSM bike shop (node/13505027927)  [day4_la_sandiego km 148]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.193523" lon="-117.379523">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12487200915)  [day4_la_sandiego km 148]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.188044" lon="-117.373387">
+    <ele>9.0</ele>
+    <name>Alan's Bike Shop</name>
+    <desc>OSM bike shop (node/10834122099); opening_hours=Mo-Fr 10:00-18:00; Sa 10:00-17:00; Su 11:00-16:00; website=https://alansbikeshop.com/  [day4_la_sandiego km 149]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.187022" lon="-117.372379">
+    <ele>9.0</ele>
+    <name>Blue Dog Ride</name>
+    <desc>OSM bike shop (node/11794882964)  [day4_la_sandiego km 149]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.170493" lon="-117.357840">
+    <ele>10.0</ele>
+    <name>Playtri</name>
+    <desc>OSM bike shop (node/10832499808)  [day4_la_sandiego km 152]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.171261" lon="-117.358704">
+    <ele>11.0</ele>
+    <name>SoCal Bike</name>
+    <desc>OSM bike shop (node/10832522505)  [day4_la_sandiego km 152]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.161361" lon="-117.353822">
+    <ele>13.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11053307848); access=yes; fee=no  [day4_la_sandiego km 153]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.158491" lon="-117.353583">
+    <ele>19.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13706865318); fee=no  [day4_la_sandiego km 153]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.158625" lon="-117.350916">
+    <ele>18.0</ele>
+    <name>Pedego</name>
+    <desc>OSM bike shop (node/11504796730)  [day4_la_sandiego km 154]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.157376" lon="-117.352663">
+    <ele>18.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13706865489); fee=no  [day4_la_sandiego km 154]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.101953" lon="-117.318916">
+    <ele>19.0</ele>
+    <name>South Carlsbad State Beach Campground</name>
+    <desc>OSM campground (way/461760959); drinking_water=yes; shower=yes; toilets=yes  [day4_la_sandiego km 161]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.052471" lon="-117.296007">
+    <ele>24.0</ele>
+    <name>Cadence Cyclery</name>
+    <desc>OSM bike shop (node/13917884134); phone=+1-760-704-8426; website=https://cadencecycleryencinitas.com/  [day4_la_sandiego km 166]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.047153" lon="-117.293680">
+    <ele>20.0</ele>
+    <name>Ride Cyclery</name>
+    <desc>OSM bike shop (way/939131197); phone=+1 760 632 1500; website=https://www.ridecyclery.com/  [day4_la_sandiego km 167]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.043091" lon="-117.293707">
+    <ele>24.0</ele>
+    <name>Charlie Electric Bike</name>
+    <desc>OSM bike shop (node/12466187839)  [day4_la_sandiego km 168]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.039855" lon="-117.293305">
+    <ele>25.0</ele>
+    <name>Nytro Multisport</name>
+    <desc>OSM bike shop (node/596551698); website=https://nytro.com/  [day4_la_sandiego km 168]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.038729" lon="-117.293097">
+    <ele>26.0</ele>
+    <name>Trek</name>
+    <desc>OSM bike shop (node/12438146901); phone=+1 760-632-0006  [day4_la_sandiego km 168]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.021244" lon="-117.284161">
+    <ele>19.0</ele>
+    <name>San Elijo State Beach</name>
+    <desc>OSM campground (node/5275798526); website=http://www.parks.ca.gov/?page_id=662  [day4_la_sandiego km 170]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.020819" lon="-117.284209">
+    <ele>17.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12168890295)  [day4_la_sandiego km 170]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.019600" lon="-117.283441">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12168890290)  [day4_la_sandiego km 170]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.020000" lon="-117.283000">
+    <ele>12.0</ele>
+    <name>San Elijo SB - the ONLY hike/bike site left on the extension</name>
+    <desc>One single hike/bike site (#94), FIRST COME FIRST SERVED after 16:00, vacate by 09:00, ONE NIGHT ONLY, $10 per person. IMPORTANT: hiker/biker sites at San Onofre, San Clemente and South Carlsbad State Beaches have reportedly been ELIMINATED, so this is the only cheap legal bed on the LA-San Diego coast. VERIFY with San Diego Coast District before relying on it - the elimination report is a cyclist forum, not a parks.ca.gov page. Practical upshot: ride LA-San Diego in ONE day (218 km, +685 m, easily inside your range) rather than planning to camp partway. Position approximate.  [day4_la_sandiego km 170]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.018513" lon="-117.282824">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12168890291)  [day4_la_sandiego km 171]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.014692" lon="-117.280594">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12563917825)  [day4_la_sandiego km 171]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.997039" lon="-117.273230">
+    <ele>18.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8372407447); access=yes; fee=no  [day4_la_sandiego km 173]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.992999" lon="-117.271188">
+    <ele>18.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5680604298)  [day4_la_sandiego km 174]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.992522" lon="-117.272078">
+    <ele>18.0</ele>
+    <name>Epic Cycles</name>
+    <desc>OSM bike shop (node/596451093); phone=+1-858-280-7007  [day4_la_sandiego km 174]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.991356" lon="-117.271899">
+    <ele>20.0</ele>
+    <name>San Diego Electric Bike</name>
+    <desc>OSM bike shop (node/12462006785)  [day4_la_sandiego km 174]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.987307" lon="-117.270415">
+    <ele>21.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12476967518)  [day4_la_sandiego km 174]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.977963" lon="-117.269560">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13396529353)  [day4_la_sandiego km 175]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.966730" lon="-117.265969">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9382195129)  [day4_la_sandiego km 177]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.961645" lon="-117.267859">
+    <ele>32.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521556)  [day4_la_sandiego km 177]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.960186" lon="-117.267819">
+    <ele>34.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521455)  [day4_la_sandiego km 177]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.959313" lon="-117.267628">
+    <ele>35.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521830)  [day4_la_sandiego km 177]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.954962" lon="-117.264055">
+    <ele>44.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9921469997)  [day4_la_sandiego km 178]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.926918" lon="-117.259231">
+    <ele>6.0</ele>
+    <name>California State Parks</name>
+    <desc>OSM drinking water (node/11053298538); access=yes; fee=no; operator=California State Parks  [day4_la_sandiego km 181]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.921162" lon="-117.255460">
+    <ele>45.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1107112261)  [day4_la_sandiego km 182]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.923077" lon="-117.255401">
+    <ele>46.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10573226209)  [day4_la_sandiego km 182]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.919957" lon="-117.252956">
+    <ele>63.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11265485169)  [day4_la_sandiego km 182]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.894950" lon="-117.241390">
+    <ele>130.0</ele>
+    <name>Torrey Pines - the only climb on day 4</name>
+    <desc>4.84 km at 2.6% to 132 m, the single climb over 60 m on the whole 218 km day (which totals just +685 m). Detected from the route's own elevation profile. Torrey Pines Rd out of Del Mar; the coast road through the reserve is the scenic line.  [day4_la_sandiego km 185]</desc>
+    <sym>Summit</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="32.888726" lon="-117.240732">
+    <ele>122.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8853668403)  [day4_la_sandiego km 186]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.877663" lon="-117.242885">
+    <ele>124.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9382197537)  [day4_la_sandiego km 187]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.877045" lon="-117.239947">
+    <ele>124.0</ele>
+    <name>Campus Bike &amp; Skate</name>
+    <desc>OSM bike shop (node/1146834945); opening_hours=Mo-Fr 09:00-17:00  [day4_la_sandiego km 187]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.865720" lon="-117.250524">
+    <ele>36.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13650863505)  [day4_la_sandiego km 189]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.858699" lon="-117.256157">
+    <ele>13.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12387004924); access=yes; fee=no  [day4_la_sandiego km 190]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.850609" lon="-117.273302">
+    <ele>14.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6083887684); fee=no  [day4_la_sandiego km 193]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.850065" lon="-117.274626">
+    <ele>19.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5029542496)  [day4_la_sandiego km 193]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.802046" lon="-117.259250">
+    <ele>11.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6372300527)  [day4_la_sandiego km 200]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.797590" lon="-117.255957">
+    <ele>6.0</ele>
+    <name>Bicycle Discovery</name>
+    <desc>OSM bike shop (node/12077227369)  [day4_la_sandiego km 200]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.791467" lon="-117.244859">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1846933104)  [day4_la_sandiego km 204]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.790330" lon="-117.242311">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1930007576)  [day4_la_sandiego km 204]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.796994" lon="-117.213973">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12670620125)  [day4_la_sandiego km 207]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.777579" lon="-117.214809">
+    <ele>3.0</ele>
+    <name>Fiesta Island Youth Camp</name>
+    <desc>OSM campground (node/4427411972); fee=yes; operator=City of San Diego  [day4_la_sandiego km 210]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="32.772686" lon="-117.209341">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10727126178)  [day4_la_sandiego km 210]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.772069" lon="-117.209035">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12681396044); access=yes; fee=no  [day4_la_sandiego km 210]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.753657" lon="-117.196932">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13000112535)  [day4_la_sandiego km 213]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.744422" lon="-117.185211">
+    <ele>3.0</ele>
+    <name>Electric Bike Central</name>
+    <desc>OSM bike shop (node/7083530087); opening_hours=Tu-Sa 10:00-17:00; phone=+1-619-564-7028  [day4_la_sandiego km 215]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.726945" lon="-117.175643">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2946841673)  [day4_la_sandiego km 216]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.717773" lon="-117.169905">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9900927852)  [day4_la_sandiego km 218]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.716627" lon="-117.173231">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12085845231)  [day4_la_sandiego km 218]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.714900" lon="-117.172371">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13704736924)  [day4_la_sandiego km 218]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.716850" lon="-117.169560">
+    <ele>5.0</ele>
+    <name>BAILOUT/FINISH San Diego Santa Fe Depot</name>
+    <desc>1050 Kettner Blvd, downtown. Pacific Surfliner: FREE bike reservations, 7 bike spaces per train, roll-on. Getting home = Surfliner to LA, then Coast Starlight north (6 bikes in the baggage car, books out). Note this is one MORE transfer than finishing at LA Union Station, not fewer - but San Diego airport is 5 km from here, which LAX is not. Surfliner also runs SD all the way to San Luis Obispo.  [day4_la_sandiego km 218]</desc>
     <sym>Car</sym>
     <type>bailout</type>
   </wpt>

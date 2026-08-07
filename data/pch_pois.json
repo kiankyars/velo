@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-05T04:01:57Z",
+ "generated_utc": "2026-08-07T20:12:21Z",
  "osm_source": "Overpass `around` against the routed line; radii per category in harvest_pch_pois.HARVEST",
  "stages": {
   "pch_day1_sf_limekiln": {
@@ -8,7 +8,8 @@
    "curated_pois": 12,
    "resupply_points_on_road": 210,
    "longest_no_water_no_food_km": 37.0,
-   "that_gap_starts_at_km": 50.1
+   "that_gap_starts_at_km": 50.1,
+   "dropped_categories": []
   },
   "pch_day2_limekiln_refugio": {
    "distance_km": 279.5,
@@ -16,7 +17,8 @@
    "curated_pois": 21,
    "resupply_points_on_road": 70,
    "longest_no_water_no_food_km": 43.0,
-   "that_gap_starts_at_km": 179.9
+   "that_gap_starts_at_km": 179.9,
+   "dropped_categories": []
   },
   "pch_day3_refugio_la": {
    "distance_km": 205.7,
@@ -24,20 +26,30 @@
    "curated_pois": 11,
    "resupply_points_on_road": 167,
    "longest_no_water_no_food_km": 20.3,
-   "that_gap_starts_at_km": 103.2
+   "that_gap_starts_at_km": 103.2,
+   "dropped_categories": []
+  },
+  "pch_day4_la_sandiego": {
+   "distance_km": 218.2,
+   "osm_pois": 463,
+   "curated_pois": 7,
+   "resupply_points_on_road": 227,
+   "longest_no_water_no_food_km": 15.6,
+   "that_gap_starts_at_km": 115.1,
+   "dropped_categories": []
   }
  },
  "counts_by_category": {
-  "food": 354,
-  "toilet": 244,
-  "water": 124,
-  "camp": 80,
-  "bikeshop": 79,
-  "hazard": 7,
-  "info": 7,
+  "food": 488,
+  "toilet": 429,
+  "water": 226,
+  "bikeshop": 116,
+  "camp": 87,
+  "info": 9,
+  "hazard": 8,
+  "bailout": 6,
   "lodging": 5,
-  "services": 5,
-  "bailout": 4
+  "services": 5
  },
  "pois": [
   {
@@ -14568,6 +14580,7268 @@
    "offset_m": 297,
    "ele_m": 20,
    "stage": "pch_day3_refugio_la"
+  },
+  {
+   "osm": "node/6761015936",
+   "name": "Propel Electric Bikes",
+   "lat": 33.7691416,
+   "lon": -118.1932463,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Propel Electric Bikes",
+    "opening_hours": "Mo-Sa 10:00-17:00",
+    "phone": "+1 562 294-5353",
+    "website": "https://propelbikes.com/"
+   },
+   "km": 37.2,
+   "offset_m": 290,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11973906069",
+   "name": "Pedal Movement",
+   "lat": 33.768248,
+   "lon": -118.1905998,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Pedal Movement"
+   },
+   "km": 37.3,
+   "offset_m": 534,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11992783750",
+   "name": "(bike shop)",
+   "lat": 33.771616,
+   "lon": -118.1686788,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {},
+   "km": 40.9,
+   "offset_m": 906,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11546928361",
+   "name": "The Bicycle Stand",
+   "lat": 33.7645719,
+   "lon": -118.1517684,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "The Bicycle Stand",
+    "opening_hours": "Mo-Sa 11:00-19:00; Su 11:00-18:00",
+    "phone": "+1-562-279-4936",
+    "website": "https://www.thebicyclestand.org/"
+   },
+   "km": 42.4,
+   "offset_m": 471,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/8636543862",
+   "name": "Main Street Cyclery",
+   "lat": 33.7435772,
+   "lon": -118.1033912,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Main Street Cyclery",
+    "phone": "+1-562-430-3903"
+   },
+   "km": 49.0,
+   "offset_m": 112,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/954397305",
+   "name": "Jax Bicycle Center",
+   "lat": 33.6599336,
+   "lon": -117.9987442,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Jax Bicycle Center"
+   },
+   "km": 63.5,
+   "offset_m": 514,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/696033726",
+   "name": "(bike shop)",
+   "lat": 33.6273177,
+   "lon": -117.950382,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {},
+   "km": 69.4,
+   "offset_m": 102,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/6770856898",
+   "name": "Victory eBikes",
+   "lat": 33.614619,
+   "lon": -117.9316145,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "description": "Ebikes and Scooter Sales, Rentals, and Repairs",
+    "name": "Victory eBikes",
+    "website": "https://victoryebike.com/"
+   },
+   "km": 71.5,
+   "offset_m": 649,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10303152625",
+   "name": "Balboa Beach & Bicycle Boutique",
+   "lat": 33.6024361,
+   "lon": -117.9000015,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Balboa Beach & Bicycle Boutique"
+   },
+   "km": 75.0,
+   "offset_m": 1114,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/758881770",
+   "name": "PCH Rides",
+   "lat": 33.465689,
+   "lon": -117.7051285,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "PCH Rides",
+    "phone": "+1-949-415-4724"
+   },
+   "km": 99.8,
+   "offset_m": 246,
+   "ele_m": 68,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/764082263",
+   "name": "Station Craft Brewery + Kitchen",
+   "lat": 33.4669248,
+   "lon": -117.7007853,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Station Craft Brewery + Kitchen",
+    "opening_hours": "Su-Fr 11:00-21:00; Sa 10:00-21:00",
+    "phone": "+1 949-264-8288",
+    "website": "https://stationcraft.com/"
+   },
+   "km": 101.1,
+   "offset_m": 437,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1133883853",
+   "name": "OC Bikes",
+   "lat": 33.4677218,
+   "lon": -117.6966676,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "OC Bikes"
+   },
+   "km": 101.6,
+   "offset_m": 607,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4392361451",
+   "name": "Jax Bicycle Center",
+   "lat": 33.4325332,
+   "lon": -117.6243536,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Jax Bicycle Center",
+    "phone": "+1 949 492 5911"
+   },
+   "km": 110.0,
+   "offset_m": 311,
+   "ele_m": 42,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/413720789",
+   "name": "Blue Dog Ride",
+   "lat": 33.4302126,
+   "lon": -117.6193072,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Blue Dog Ride"
+   },
+   "km": 110.3,
+   "offset_m": 399,
+   "ele_m": 43,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4046914064",
+   "name": "Webig Motor Company",
+   "lat": 33.4304254,
+   "lon": -117.618533,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Webig Motor Company"
+   },
+   "km": 110.8,
+   "offset_m": 455,
+   "ele_m": 50,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/8552674618",
+   "name": "The Bike House",
+   "lat": 33.4298824,
+   "lon": -117.6153274,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "description": "The Bike House has been offering top-quality bicycles, parts, and bike servcies since 2018. We are former cyclists who are committed to helping individuals obtain high-end bicycles at reasonable prices.",
+    "name": "The Bike House",
+    "phone": "+1-424-253-6097",
+    "website": "https://www.thebikehouse.net/"
+   },
+   "km": 110.8,
+   "offset_m": 492,
+   "ele_m": 50,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13505027927",
+   "name": "Oceanside E-Bikes",
+   "lat": 33.1943372,
+   "lon": -117.3825309,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Oceanside E-Bikes"
+   },
+   "km": 147.9,
+   "offset_m": 66,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10834122099",
+   "name": "Alan's Bike Shop",
+   "lat": 33.1880439,
+   "lon": -117.3733868,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Alan's Bike Shop",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00; Su 11:00-16:00",
+    "website": "https://alansbikeshop.com/"
+   },
+   "km": 148.9,
+   "offset_m": 359,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11794882964",
+   "name": "Blue Dog Ride",
+   "lat": 33.1870215,
+   "lon": -117.3723792,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Blue Dog Ride"
+   },
+   "km": 149.1,
+   "offset_m": 377,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10832499808",
+   "name": "Playtri",
+   "lat": 33.1704926,
+   "lon": -117.3578403,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Playtri"
+   },
+   "km": 151.7,
+   "offset_m": 44,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10832522505",
+   "name": "SoCal Bike",
+   "lat": 33.1712611,
+   "lon": -117.3587036,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "SoCal Bike"
+   },
+   "km": 151.7,
+   "offset_m": 85,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11504796730",
+   "name": "Pedego",
+   "lat": 33.1586248,
+   "lon": -117.3509156,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Pedego"
+   },
+   "km": 153.5,
+   "offset_m": 40,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13917884134",
+   "name": "Cadence Cyclery",
+   "lat": 33.0524707,
+   "lon": -117.2960068,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Cadence Cyclery",
+    "phone": "+1-760-704-8426",
+    "website": "https://cadencecycleryencinitas.com/"
+   },
+   "km": 166.5,
+   "offset_m": 38,
+   "ele_m": 24,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/939131197",
+   "name": "Ride Cyclery",
+   "lat": 33.047153,
+   "lon": -117.2936802,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Ride Cyclery",
+    "phone": "+1 760 632 1500",
+    "website": "https://www.ridecyclery.com/"
+   },
+   "km": 167.2,
+   "offset_m": 44,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12466187839",
+   "name": "Charlie Electric Bike",
+   "lat": 33.0430913,
+   "lon": -117.2937069,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Charlie Electric Bike"
+   },
+   "km": 167.6,
+   "offset_m": 24,
+   "ele_m": 24,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/596551698",
+   "name": "Nytro Multisport",
+   "lat": 33.039855,
+   "lon": -117.293305,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Nytro Multisport",
+    "website": "https://nytro.com/"
+   },
+   "km": 168.0,
+   "offset_m": 27,
+   "ele_m": 25,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12438146901",
+   "name": "Trek",
+   "lat": 33.0387288,
+   "lon": -117.2930974,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Trek",
+    "phone": "+1 760-632-0006"
+   },
+   "km": 168.1,
+   "offset_m": 29,
+   "ele_m": 26,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/596451093",
+   "name": "Epic Cycles",
+   "lat": 32.9925216,
+   "lon": -117.2720779,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Epic Cycles",
+    "phone": "+1-858-280-7007"
+   },
+   "km": 173.7,
+   "offset_m": 21,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12462006785",
+   "name": "San Diego Electric Bike",
+   "lat": 32.9913564,
+   "lon": -117.2718992,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "San Diego Electric Bike"
+   },
+   "km": 173.8,
+   "offset_m": 28,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1146834945",
+   "name": "Campus Bike & Skate",
+   "lat": 32.8770451,
+   "lon": -117.2399473,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Campus Bike & Skate",
+    "opening_hours": "Mo-Fr 09:00-17:00"
+   },
+   "km": 187.4,
+   "offset_m": 368,
+   "ele_m": 124,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/31817077",
+   "name": "California Bicycle Inc.",
+   "lat": 32.8385849,
+   "lon": -117.2787436,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "California Bicycle Inc."
+   },
+   "km": 194.4,
+   "offset_m": 501,
+   "ele_m": 38,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12077227369",
+   "name": "Bicycle Discovery",
+   "lat": 32.7975898,
+   "lon": -117.2559572,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Bicycle Discovery"
+   },
+   "km": 200.2,
+   "offset_m": 107,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1417968149",
+   "name": "Peak Cycles",
+   "lat": 32.8060247,
+   "lon": -117.2213584,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Peak Cycles",
+    "opening_hours": "Mo-Sa 10:00-19:00",
+    "operator": "Peak Cycles",
+    "phone": "+1-858-352-6055"
+   },
+   "km": 206.3,
+   "offset_m": 861,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3524476345",
+   "name": "Bicycle Warehouse Pacific Beach",
+   "lat": 32.8082141,
+   "lon": -117.2161362,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Bicycle Warehouse Pacific Beach",
+    "opening_hours": "Tu-Sa 11:00-18:00",
+    "website": "https://bicyclewarehouse.com/"
+   },
+   "km": 206.6,
+   "offset_m": 1056,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/7083530087",
+   "name": "Electric Bike Central",
+   "lat": 32.7444222,
+   "lon": -117.185211,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Electric Bike Central",
+    "opening_hours": "Tu-Sa 10:00-17:00",
+    "phone": "+1-619-564-7028"
+   },
+   "km": 214.6,
+   "offset_m": 367,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12163759131",
+   "name": "Ride1Up",
+   "lat": 32.7312415,
+   "lon": -117.1609233,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "Ride1Up"
+   },
+   "km": 216.9,
+   "offset_m": 1017,
+   "ele_m": 15,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3267311859",
+   "name": "San Diego Bike Shop",
+   "lat": 32.7166031,
+   "lon": -117.1589181,
+   "cat": "bikeshop",
+   "sym": "Mine",
+   "kind": "bike shop",
+   "tags": {
+    "name": "San Diego Bike Shop",
+    "opening_hours": "Mo-Sa 09:30-18:00",
+    "phone": "+1-619-237-1245",
+    "website": "https://www.sdbikeshop.com/"
+   },
+   "km": 218.1,
+   "offset_m": 965,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/428961191",
+   "name": "Doheny Beach Campground",
+   "lat": 33.4622921,
+   "lon": -117.6803294,
+   "cat": "camp",
+   "sym": "Campground",
+   "kind": "campground",
+   "tags": {
+    "name": "Doheny Beach Campground"
+   },
+   "km": 103.2,
+   "offset_m": 39,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/372926161",
+   "name": "San Clemente State Park",
+   "lat": 33.4022575,
+   "lon": -117.6014033,
+   "cat": "camp",
+   "sym": "Campground",
+   "kind": "campground",
+   "tags": {
+    "fee": "yes",
+    "name": "San Clemente State Park"
+   },
+   "km": 115.2,
+   "offset_m": 370,
+   "ele_m": 44,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/58512402",
+   "name": "San Mateo Campground",
+   "lat": 33.4056823,
+   "lon": -117.5844888,
+   "cat": "camp",
+   "sym": "Campground",
+   "kind": "campground",
+   "tags": {
+    "name": "San Mateo Campground",
+    "phone": "+1 949 492 4872",
+    "website": "http://www.parks.ca.gov/?page_id=647"
+   },
+   "km": 115.5,
+   "offset_m": 1223,
+   "ele_m": 39,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/461760959",
+   "name": "South Carlsbad State Beach Campground",
+   "lat": 33.1019528,
+   "lon": -117.3189156,
+   "cat": "camp",
+   "sym": "Campground",
+   "kind": "campground",
+   "tags": {
+    "drinking_water": "yes",
+    "name": "South Carlsbad State Beach Campground",
+    "shower": "yes",
+    "toilets": "yes"
+   },
+   "km": 160.6,
+   "offset_m": 53,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5275798526",
+   "name": "San Elijo State Beach",
+   "lat": 33.0212438,
+   "lon": -117.2841606,
+   "cat": "camp",
+   "sym": "Campground",
+   "kind": "campground",
+   "tags": {
+    "name": "San Elijo State Beach",
+    "website": "http://www.parks.ca.gov/?page_id=662"
+   },
+   "km": 170.2,
+   "offset_m": 41,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4427411972",
+   "name": "Fiesta Island Youth Camp",
+   "lat": 32.7775794,
+   "lon": -117.2148087,
+   "cat": "camp",
+   "sym": "Campground",
+   "kind": "campground",
+   "tags": {
+    "fee": "yes",
+    "name": "Fiesta Island Youth Camp",
+    "operator": "City of San Diego"
+   },
+   "km": 209.5,
+   "offset_m": 481,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5695239157",
+   "name": "Family's Market",
+   "lat": 34.0585105,
+   "lon": -118.2390153,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Family's Market"
+   },
+   "km": 0.2,
+   "offset_m": 261,
+   "ele_m": 89,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9212776083",
+   "name": "(convenience)",
+   "lat": 34.0584832,
+   "lon": -118.2378642,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 0.2,
+   "offset_m": 177,
+   "ele_m": 90,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12912909730",
+   "name": "Shang Lee Poultry",
+   "lat": 34.0602278,
+   "lon": -118.2378802,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Shang Lee Poultry",
+    "phone": "+1-213-617-2635"
+   },
+   "km": 0.3,
+   "offset_m": 326,
+   "ele_m": 92,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12912966513",
+   "name": "Nam-Hoa Fish Market Inc",
+   "lat": 34.0604219,
+   "lon": -118.2386029,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Nam-Hoa Fish Market Inc"
+   },
+   "km": 0.3,
+   "offset_m": 383,
+   "ele_m": 92,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/428647715",
+   "name": "7-Eleven",
+   "lat": 34.0429963,
+   "lon": -118.2160899,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven"
+   },
+   "km": 2.9,
+   "offset_m": 326,
+   "ele_m": 93,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11849195199",
+   "name": "76",
+   "lat": 34.042801,
+   "lon": -118.2193063,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "76"
+   },
+   "km": 2.9,
+   "offset_m": 29,
+   "ele_m": 93,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11868168359",
+   "name": "7-Eleven",
+   "lat": 34.0362238,
+   "lon": -118.2190756,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 213-631-8758",
+    "website": "https://www.7-eleven.com/locations/ca/los-angeles/2189-whittier-blvd-38117"
+   },
+   "km": 3.6,
+   "offset_m": 19,
+   "ele_m": 102,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11826914113",
+   "name": "Rocket",
+   "lat": 34.0283646,
+   "lon": -118.2196931,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Rocket"
+   },
+   "km": 4.5,
+   "offset_m": 90,
+   "ele_m": 91,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/427499958",
+   "name": "Mobil",
+   "lat": 34.0283218,
+   "lon": -118.2188129,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Mobil"
+   },
+   "km": 4.5,
+   "offset_m": 171,
+   "ele_m": 91,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11870758259",
+   "name": "SC Fuel",
+   "lat": 34.0250166,
+   "lon": -118.220737,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "SC Fuel"
+   },
+   "km": 4.9,
+   "offset_m": 28,
+   "ele_m": 87,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11826914122",
+   "name": "Shell",
+   "lat": 34.0237957,
+   "lon": -118.2195202,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Shell"
+   },
+   "km": 5.1,
+   "offset_m": 36,
+   "ele_m": 83,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11873206687",
+   "name": "ampm",
+   "lat": 34.0232589,
+   "lon": -118.2184608,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "ampm"
+   },
+   "km": 5.2,
+   "offset_m": 42,
+   "ele_m": 82,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13948081960",
+   "name": "(convenience)",
+   "lat": 34.0201017,
+   "lon": -118.2109545,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 6.0,
+   "offset_m": 26,
+   "ele_m": 69,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11873206702",
+   "name": "Circle K",
+   "lat": 34.0185495,
+   "lon": -118.2061685,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Circle K",
+    "website": "https://www.circlek.com/store-locator/US/los-angeles/3360-e-olympic-blvd/2655910"
+   },
+   "km": 6.5,
+   "offset_m": 332,
+   "ele_m": 62,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11873331433",
+   "name": "Speedy Fuel",
+   "lat": 34.016651,
+   "lon": -118.2086744,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Speedy Fuel"
+   },
+   "km": 6.5,
+   "offset_m": 25,
+   "ele_m": 62,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455750446",
+   "name": "(convenience)",
+   "lat": 33.9758479,
+   "lon": -118.1984826,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 11.3,
+   "offset_m": 385,
+   "ele_m": 50,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/451189303",
+   "name": "Latino's Market #1",
+   "lat": 33.967445,
+   "lon": -118.1945389,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Latino's Market #1"
+   },
+   "km": 12.6,
+   "offset_m": 329,
+   "ele_m": 44,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11651200772",
+   "name": "Sprouts Farmers Market",
+   "lat": 33.9625524,
+   "lon": -118.1878324,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Sprouts Farmers Market",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "phone": "+1-213-259-2223",
+    "website": "https://www.sprouts.com/store/ca/cudahy/atlantic-avenue/"
+   },
+   "km": 13.4,
+   "offset_m": 364,
+   "ele_m": 38,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/451383058",
+   "name": "Walmart Supercenter",
+   "lat": 33.9548372,
+   "lon": -118.1876187,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Walmart Supercenter",
+    "opening_hours": "Mo-Su 06:00-23:00",
+    "operator": "Walmart",
+    "phone": "+1 323-282-4800",
+    "website": "https://www.walmart.com/store/3180-south-gate-ca"
+   },
+   "km": 14.2,
+   "offset_m": 258,
+   "ele_m": 38,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/14023510996",
+   "name": "Roche Fuel Stop",
+   "lat": 33.9557457,
+   "lon": -118.1843318,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Roche Fuel Stop",
+    "opening_hours": "Mo-Fr 05:00-19:00",
+    "phone": "+1-323-560-2040"
+   },
+   "km": 14.2,
+   "offset_m": 23,
+   "ele_m": 37,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1013282858",
+   "name": "Grace Liquor",
+   "lat": 33.9521609,
+   "lon": -118.1873448,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Grace Liquor"
+   },
+   "km": 14.6,
+   "offset_m": 365,
+   "ele_m": 36,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/451428403",
+   "name": "7-Eleven",
+   "lat": 33.952091,
+   "lon": -118.1827734,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 323-566-0722",
+    "website": "https://www.7-eleven.com/locations/ca/south-gate/8708-atlantic-blvd-18526"
+   },
+   "km": 14.7,
+   "offset_m": 44,
+   "ele_m": 36,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1013283125",
+   "name": "Toad's Liquor",
+   "lat": 33.9491751,
+   "lon": -118.1825792,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Toad's Liquor"
+   },
+   "km": 15.0,
+   "offset_m": 53,
+   "ele_m": 34,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/346769561",
+   "name": "Arco",
+   "lat": 33.9314489,
+   "lon": -118.1803527,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Arco"
+   },
+   "km": 17.8,
+   "offset_m": 346,
+   "ele_m": 30,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "relation/6691481",
+   "name": "(convenience)",
+   "lat": 33.8965286,
+   "lon": -118.1808264,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 21.9,
+   "offset_m": 437,
+   "ele_m": 26,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/701702692",
+   "name": "Valero",
+   "lat": 33.8809862,
+   "lon": -118.18615,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Valero",
+    "website": "https://locations.valero.com/en-us/LocationDetails/Index/6954-ATLANTIC-AVE/0000008315"
+   },
+   "km": 23.7,
+   "offset_m": 182,
+   "ele_m": 26,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/441231444",
+   "name": "Best Food Market",
+   "lat": 33.8547894,
+   "lon": -118.197157,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Best Food Market"
+   },
+   "km": 26.8,
+   "offset_m": 314,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/441263918",
+   "name": "Smart & Final",
+   "lat": 33.8460665,
+   "lon": -118.2062308,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Smart & Final"
+   },
+   "km": 27.9,
+   "offset_m": 334,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11967670254",
+   "name": "(convenience)",
+   "lat": 33.7824118,
+   "lon": -118.1992072,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 35.5,
+   "offset_m": 19,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4696775290",
+   "name": "Chevron",
+   "lat": 33.7820381,
+   "lon": -118.197973,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Chevron"
+   },
+   "km": 35.5,
+   "offset_m": 130,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/702449429",
+   "name": "76",
+   "lat": 33.7755663,
+   "lon": -118.198294,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "76",
+    "website": "https://www.76.com/station/U76-CF-UNITED-LLC-2650673-0000877637/"
+   },
+   "km": 36.3,
+   "offset_m": 103,
+   "ele_m": 15,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/702449431",
+   "name": "Supreme Liquor Jr. Market",
+   "lat": 33.7751477,
+   "lon": -118.197823,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Supreme Liquor Jr. Market"
+   },
+   "km": 36.5,
+   "offset_m": 114,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11967660175",
+   "name": "Chestnut Market",
+   "lat": 33.7764298,
+   "lon": -118.1962328,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Chestnut Market"
+   },
+   "km": 36.7,
+   "offset_m": 255,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11967676247",
+   "name": "Shop & Roll",
+   "lat": 33.7727909,
+   "lon": -118.1949218,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Shop & Roll"
+   },
+   "km": 36.8,
+   "offset_m": 134,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/666014667",
+   "name": "Vons",
+   "lat": 33.7689367,
+   "lon": -118.1843764,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Vons",
+    "opening_hours": "PH,Mo-Su 06:00-23:00",
+    "phone": "+1 562-491-1210",
+    "website": "https://local.vons.com/ca/long-beach/600-e-broadway.html"
+   },
+   "km": 39.6,
+   "offset_m": 526,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/6903407385",
+   "name": "7-Eleven",
+   "lat": 33.7668168,
+   "lon": -118.1825381,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven"
+   },
+   "km": 39.6,
+   "offset_m": 251,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11973837396",
+   "name": "Hi-lo",
+   "lat": 33.7664343,
+   "lon": -118.1841178,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Hi-lo"
+   },
+   "km": 39.6,
+   "offset_m": 271,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/238533714",
+   "name": "Vons",
+   "lat": 33.7597873,
+   "lon": -118.1471484,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Vons",
+    "opening_hours": "Mo-Su 06:00-24:00",
+    "phone": "+1 562-987-3122",
+    "website": "https://local.vons.com/ca/long-beach/3900-e-ocean-ave.html"
+   },
+   "km": 42.9,
+   "offset_m": 123,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4045898975",
+   "name": "ampm",
+   "lat": 33.7601821,
+   "lon": -118.1461635,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "ampm"
+   },
+   "km": 42.9,
+   "offset_m": 213,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/6900864014",
+   "name": "7-Eleven",
+   "lat": 33.7599002,
+   "lon": -118.1455232,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "opening_hours": "24/7",
+    "phone": "+1 562-439-6981",
+    "website": "https://www.7-eleven.com/locations/ca/long-beach/4003-east-ocean-blvd-26261"
+   },
+   "km": 43.0,
+   "offset_m": 229,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/385393293",
+   "name": "Ralphs",
+   "lat": 33.7609397,
+   "lon": -118.116158,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Ralphs",
+    "opening_hours": "Mo-Su 05:00-01:00",
+    "phone": "+1 562-795-7087",
+    "website": "https://www.ralphs.com/stores/grocery/ca/long-beach/marina-shopping-center/703/00178"
+   },
+   "km": 46.6,
+   "offset_m": 446,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/385393267",
+   "name": "Gelson's",
+   "lat": 33.758511,
+   "lon": -118.1127851,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Gelson's"
+   },
+   "km": 46.9,
+   "offset_m": 97,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4939202420",
+   "name": "Trader Joe's",
+   "lat": 33.7579178,
+   "lon": -118.1089144,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Trader Joe's",
+    "opening_hours": "Mo-Su 08:00-21:00",
+    "phone": "+1 562-596-4388",
+    "website": "https://locations.traderjoes.com/ca/long-beach/43/"
+   },
+   "km": 47.1,
+   "offset_m": 156,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13457286841",
+   "name": "Wild Fork",
+   "lat": 33.7581003,
+   "lon": -118.1098691,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Wild Fork"
+   },
+   "km": 47.1,
+   "offset_m": 99,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/743744300",
+   "name": "Whole Foods Market",
+   "lat": 33.757311,
+   "lon": -118.1111837,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Whole Foods Market",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "phone": "+1 562-598-8687",
+    "toilets": "yes",
+    "website": "https://www.wholefoodsmarket.com/stores/longbeach"
+   },
+   "km": 47.1,
+   "offset_m": 51,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/812821484",
+   "name": "Mobil",
+   "lat": 33.7577926,
+   "lon": -118.1105405,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Mobil"
+   },
+   "km": 47.1,
+   "offset_m": 31,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/129382778",
+   "name": "Pavilions",
+   "lat": 33.7439359,
+   "lon": -118.1000156,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Pavilions",
+    "website": "https://local.pavilions.com/ca/seal-beach/1101-pacific-coast-hwy.html"
+   },
+   "km": 49.2,
+   "offset_m": 371,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/878465542",
+   "name": "7-Eleven",
+   "lat": 33.7426559,
+   "lon": -118.0999939,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 562-598-0321",
+    "website": "https://www.7-eleven.com/locations/ca/seal-beach/1200-pacific-coast-hwy-21231"
+   },
+   "km": 49.4,
+   "offset_m": 277,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/300940606",
+   "name": "Chevron",
+   "lat": 33.7423831,
+   "lon": -118.099086,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Chevron"
+   },
+   "km": 49.4,
+   "offset_m": 319,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/705742848",
+   "name": "Dolphin Market",
+   "lat": 33.7371522,
+   "lon": -118.1010273,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Dolphin Market"
+   },
+   "km": 49.7,
+   "offset_m": 207,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/902487796",
+   "name": "Sunset Food Mart",
+   "lat": 33.7207894,
+   "lon": -118.0743184,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Sunset Food Mart"
+   },
+   "km": 53.5,
+   "offset_m": 50,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/708330326",
+   "name": "7-Eleven",
+   "lat": 33.716163,
+   "lon": -118.0688704,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 562-592-4942",
+    "website": "https://www.7-eleven.com/locations/ca/sunset-beach/16919-pacific-coast-hwy-26659"
+   },
+   "km": 54.2,
+   "offset_m": 56,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/880597663",
+   "name": "Circle K",
+   "lat": 33.7122062,
+   "lon": -118.0629232,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Circle K"
+   },
+   "km": 54.9,
+   "offset_m": 161,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/241452766",
+   "name": "7-Eleven",
+   "lat": 33.6594247,
+   "lon": -118.0044573,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "opening_hours": "24/7"
+   },
+   "km": 63.2,
+   "offset_m": 159,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/551512939",
+   "name": "A Market",
+   "lat": 33.6215793,
+   "lon": -117.9284224,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "A Market"
+   },
+   "km": 71.7,
+   "offset_m": 53,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/516916583",
+   "name": "Chevron",
+   "lat": 33.6158869,
+   "lon": -117.9004187,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Chevron"
+   },
+   "km": 74.4,
+   "offset_m": 25,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/129382229",
+   "name": "Pavilions",
+   "lat": 33.6113064,
+   "lon": -117.8926096,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Pavilions",
+    "opening_hours": "07:00-22:00",
+    "website": "https://local.pavilions.com/ca/newport-beach/1000-bayside-dr.html"
+   },
+   "km": 75.4,
+   "offset_m": 59,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9842727884",
+   "name": "Olive Oil and Beyond",
+   "lat": 33.606232,
+   "lon": -117.889651,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Olive Oil and Beyond"
+   },
+   "km": 76.1,
+   "offset_m": 419,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/222800791",
+   "name": "Mothers Market",
+   "lat": 33.5979259,
+   "lon": -117.8721017,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Mothers Market"
+   },
+   "km": 78.0,
+   "offset_m": 137,
+   "ele_m": 32,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/983798589",
+   "name": "76",
+   "lat": 33.5957545,
+   "lon": -117.8697981,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "76"
+   },
+   "km": 78.3,
+   "offset_m": 38,
+   "ele_m": 34,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4866729431",
+   "name": "Trader Joe's",
+   "lat": 33.5688054,
+   "lon": -117.8307333,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Trader Joe's",
+    "opening_hours": "Mo-Su 08:00-21:00",
+    "phone": "+1-949-494-7404",
+    "toilets": "yes",
+    "website": "https://locations.traderjoes.com/ca/newport-beach/125/"
+   },
+   "km": 83.1,
+   "offset_m": 154,
+   "ele_m": 33,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/129382037",
+   "name": "Pavilions",
+   "lat": 33.5464266,
+   "lon": -117.7935676,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Pavilions",
+    "toilets": "yes",
+    "website": "https://local.pavilions.com/ca/laguna-beach/600-n-pacific-coast-hwy.html"
+   },
+   "km": 87.5,
+   "offset_m": 65,
+   "ele_m": 25,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/220538013",
+   "name": "(convenience)",
+   "lat": 33.5431685,
+   "lon": -117.7854898,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 88.3,
+   "offset_m": 37,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/509111355",
+   "name": "Whole Foods Market",
+   "lat": 33.5438795,
+   "lon": -117.783833,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Whole Foods Market",
+    "opening_hours": "Mo-Su 08:00-21:00",
+    "phone": "+1 949-376-7888",
+    "website": "https://www.wholefoodsmarket.com/stores/lagunabeach"
+   },
+   "km": 88.4,
+   "offset_m": 181,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/220537629",
+   "name": "The Village Mart",
+   "lat": 33.542744,
+   "lon": -117.7847515,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "The Village Mart"
+   },
+   "km": 88.4,
+   "offset_m": 29,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/565840494",
+   "name": "(convenience)",
+   "lat": 33.5402139,
+   "lon": -117.7812791,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 88.8,
+   "offset_m": 36,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/565840496",
+   "name": "(convenience)",
+   "lat": 33.5395662,
+   "lon": -117.7808347,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 88.9,
+   "offset_m": 28,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/338348643",
+   "name": "Ralphs",
+   "lat": 33.5376266,
+   "lon": -117.7787526,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Ralphs",
+    "opening_hours": "Mo-Su 05:00-01:00",
+    "phone": "+1 949-497-6410",
+    "website": "https://www.ralphs.com/stores/grocery/ca/laguna-beach/laguna-beach/703/00004"
+   },
+   "km": 89.2,
+   "offset_m": 67,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13564506476",
+   "name": "(convenience)",
+   "lat": 33.5025438,
+   "lon": -117.7438366,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 94.3,
+   "offset_m": 55,
+   "ele_m": 42,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/500257419",
+   "name": "ExtraMile",
+   "lat": 33.4854839,
+   "lon": -117.72516,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "ExtraMile"
+   },
+   "km": 96.9,
+   "offset_m": 34,
+   "ele_m": 42,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/160335126",
+   "name": "Gelson's",
+   "lat": 33.4848755,
+   "lon": -117.7229849,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Gelson's",
+    "phone": "+1 949 488 8147"
+   },
+   "km": 97.1,
+   "offset_m": 126,
+   "ele_m": 37,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/758009231",
+   "name": "Ralphs",
+   "lat": 33.4665747,
+   "lon": -117.6960025,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Ralphs",
+    "opening_hours": "Mo-Su 06:00-01:00",
+    "phone": "+1 949-661-4145",
+    "website": "https://www.ralphs.com/stores/grocery/ca/dana-point/lantern-bay-village/703/00188"
+   },
+   "km": 101.6,
+   "offset_m": 475,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/401867411",
+   "name": "ampm",
+   "lat": 33.4647637,
+   "lon": -117.6848581,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "ampm"
+   },
+   "km": 102.7,
+   "offset_m": 79,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/556295550",
+   "name": "Berri Brothers",
+   "lat": 33.4416336,
+   "lon": -117.6446164,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Berri Brothers"
+   },
+   "km": 107.3,
+   "offset_m": 52,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/405337702",
+   "name": "7-Eleven",
+   "lat": 33.4325472,
+   "lon": -117.6316464,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 949-492-8488",
+    "website": "https://www.7-eleven.com/locations/ca/san-clemente/1802-n.-el-camino-real-16483"
+   },
+   "km": 108.9,
+   "offset_m": 29,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/404743644",
+   "name": "San Clemente Ranch Market",
+   "lat": 33.4303908,
+   "lon": -117.6216208,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "San Clemente Ranch Market",
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "phone": "+1 949 498 7872",
+    "website": "https://www.scranchmarket.com/"
+   },
+   "km": 110.2,
+   "offset_m": 263,
+   "ele_m": 44,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3936304835",
+   "name": "Pier Market",
+   "lat": 33.420082,
+   "lon": -117.6196509,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Pier Market"
+   },
+   "km": 111.7,
+   "offset_m": 12,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/292693283",
+   "name": "Ralphs",
+   "lat": 33.4228409,
+   "lon": -117.6086557,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Ralphs",
+    "opening_hours": "Mo-Su 06:00-01:00",
+    "phone": "+1 949-361-8729",
+    "website": "https://www.ralphs.com/stores/grocery/ca/san-clemente/s-san-clemente/703/00221"
+   },
+   "km": 112.5,
+   "offset_m": 480,
+   "ele_m": 51,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1782756512",
+   "name": "7-Eleven",
+   "lat": 33.4203752,
+   "lon": -117.608114,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 949-498-3120",
+    "website": "https://www.7-eleven.com/locations/ca/san-clemente/1118-s.-el-camino-real-13789"
+   },
+   "km": 112.9,
+   "offset_m": 294,
+   "ele_m": 54,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/166851950",
+   "name": "76",
+   "lat": 33.4203216,
+   "lon": -117.6073368,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "76",
+    "website": "https://www.76.com/station/U76-DBA-SAN-CLEMENTE-FUEL-CORP-0000892885/"
+   },
+   "km": 112.9,
+   "offset_m": 341,
+   "ele_m": 55,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/404164733",
+   "name": "Shell",
+   "lat": 33.4120684,
+   "lon": -117.60099,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Shell"
+   },
+   "km": 114.3,
+   "offset_m": 287,
+   "ele_m": 46,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/485034851",
+   "name": "(supermarket)",
+   "lat": 33.4051855,
+   "lon": -117.5973875,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "opening_hours": "07:00-21:00",
+    "phone": "+1-949-218-1906"
+   },
+   "km": 115.1,
+   "offset_m": 104,
+   "ele_m": 45,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/451117139",
+   "name": "Marine Corps Exchange",
+   "lat": 33.2240658,
+   "lon": -117.3952605,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Marine Corps Exchange"
+   },
+   "km": 143.9,
+   "offset_m": 85,
+   "ele_m": 22,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/451117140",
+   "name": "(fuel+shop)",
+   "lat": 33.223393,
+   "lon": -117.3956335,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {},
+   "km": 143.9,
+   "offset_m": 159,
+   "ele_m": 22,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/451095137",
+   "name": "Marine Corps Exchange",
+   "lat": 33.2241385,
+   "lon": -117.3922843,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Marine Corps Exchange"
+   },
+   "km": 144.1,
+   "offset_m": 135,
+   "ele_m": 25,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/404159214",
+   "name": "ExtraMile",
+   "lat": 33.2090374,
+   "lon": -117.3872396,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "ExtraMile"
+   },
+   "km": 145.7,
+   "offset_m": 92,
+   "ele_m": 21,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/596843405",
+   "name": "Mobil",
+   "lat": 33.2086198,
+   "lon": -117.388159,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Mobil"
+   },
+   "km": 145.8,
+   "offset_m": 46,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1113775606",
+   "name": "Pappy's Market",
+   "lat": 33.1985267,
+   "lon": -117.384437,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Pappy's Market",
+    "opening_hours": "08:00-00:00"
+   },
+   "km": 147.4,
+   "offset_m": 154,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13612012930",
+   "name": "Natty Bella Bridal Couture",
+   "lat": 33.1981148,
+   "lon": -117.3816738,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Natty Bella Bridal Couture",
+    "opening_hours": "Mo 11:00-16:00, We-Fr 11:00-17:00; Sa-Su 10:00-16:00",
+    "phone": "+1-760-847-1335",
+    "website": "https://nattybella.com"
+   },
+   "km": 147.5,
+   "offset_m": 347,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12487171138",
+   "name": "Wisconsin Market",
+   "lat": 33.1870141,
+   "lon": -117.3757997,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Wisconsin Market"
+   },
+   "km": 148.9,
+   "offset_m": 108,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/365328183",
+   "name": "7-Eleven",
+   "lat": 33.175353,
+   "lon": -117.362651,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 760-433-6505",
+    "website": "https://www.7-eleven.com/locations/ca/oceanside/1749-south-coast-hwy-26190"
+   },
+   "km": 150.9,
+   "offset_m": 183,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/405593194",
+   "name": "Circle K",
+   "lat": 33.1747998,
+   "lon": -117.3622512,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Circle K",
+    "website": "https://www.circlek.com/store-locator/US/oceanside/1801-s-coast-hwy/2655087"
+   },
+   "km": 150.9,
+   "offset_m": 176,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10832522607",
+   "name": "Liberty",
+   "lat": 33.1720632,
+   "lon": -117.3599167,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Liberty"
+   },
+   "km": 151.4,
+   "offset_m": 151,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4922485724",
+   "name": "7-Eleven",
+   "lat": 33.1567787,
+   "lon": -117.3501939,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven"
+   },
+   "km": 153.7,
+   "offset_m": 55,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/651473142",
+   "name": "Jacksons",
+   "lat": 33.1218035,
+   "lon": -117.3245153,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Jacksons",
+    "opening_hours": "05:00-22:00",
+    "phone": "+1 760-918-6716"
+   },
+   "km": 158.3,
+   "offset_m": 269,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/7848168023",
+   "name": "7-Eleven",
+   "lat": 33.0793791,
+   "lon": -117.3075338,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 760-944-9864",
+    "website": "https://www.7-eleven.com/locations/ca/encinitas/1766-n-coast-hwy-101-39526"
+   },
+   "km": 163.4,
+   "offset_m": 26,
+   "ele_m": 21,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/365327872",
+   "name": "7-Eleven",
+   "lat": 33.0649835,
+   "lon": -117.3016427,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven"
+   },
+   "km": 165.0,
+   "offset_m": 78,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/365328669",
+   "name": "7-Eleven",
+   "lat": 33.045791,
+   "lon": -117.294118,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 760-753-0615",
+    "website": "https://www.7-eleven.com/locations/ca/encinitas/105-west-d-st-18087"
+   },
+   "km": 167.3,
+   "offset_m": 27,
+   "ele_m": 24,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4629690759",
+   "name": "Seaside Market",
+   "lat": 33.0220057,
+   "lon": -117.2820777,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Seaside Market"
+   },
+   "km": 170.3,
+   "offset_m": 182,
+   "ele_m": 17,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4629692895",
+   "name": "7-Eleven",
+   "lat": 33.0194005,
+   "lon": -117.28135,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "7-Eleven"
+   },
+   "km": 170.5,
+   "offset_m": 112,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1912313370",
+   "name": "Market at Seventh College",
+   "lat": 32.8875979,
+   "lon": -117.242098,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Market at Seventh College"
+   },
+   "km": 186.2,
+   "offset_m": 151,
+   "ele_m": 118,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/8462604274",
+   "name": "Sixth Market",
+   "lat": 32.8800954,
+   "lon": -117.2421988,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Sixth Market"
+   },
+   "km": 187.1,
+   "offset_m": 184,
+   "ele_m": 125,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3384976129",
+   "name": "John's Place and Market",
+   "lat": 32.8784043,
+   "lon": -117.2424181,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "John's Place and Market"
+   },
+   "km": 187.3,
+   "offset_m": 168,
+   "ele_m": 124,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3384976134",
+   "name": "Roger's Place and Market",
+   "lat": 32.8745838,
+   "lon": -117.2422571,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Roger's Place and Market",
+    "opening_hours": "07:00-01:00"
+   },
+   "km": 187.6,
+   "offset_m": 176,
+   "ele_m": 125,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/365319764",
+   "name": "La Jolla Shores Market",
+   "lat": 32.853574,
+   "lon": -117.254215,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "La Jolla Shores Market"
+   },
+   "km": 190.8,
+   "offset_m": 39,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/31818272",
+   "name": "Mega Mart",
+   "lat": 32.8508675,
+   "lon": -117.2537124,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Mega Mart"
+   },
+   "km": 191.1,
+   "offset_m": 67,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9917587403",
+   "name": "Prospect Market",
+   "lat": 32.8481898,
+   "lon": -117.2740247,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Prospect Market",
+    "opening_hours": "24/7"
+   },
+   "km": 193.4,
+   "offset_m": 22,
+   "ele_m": 32,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/365319706",
+   "name": "Jonathans Of La Jolla",
+   "lat": 32.842531,
+   "lon": -117.274095,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Jonathans Of La Jolla"
+   },
+   "km": 194.1,
+   "offset_m": 34,
+   "ele_m": 32,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/132165905",
+   "name": "Pavilions",
+   "lat": 32.8417025,
+   "lon": -117.2735744,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Pavilions",
+    "website": "https://local.pavilions.com/ca/la-jolla/7544-girard-ave.html"
+   },
+   "km": 194.2,
+   "offset_m": 65,
+   "ele_m": 34,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/311067827",
+   "name": "Gelson's",
+   "lat": 32.8087225,
+   "lon": -117.2603637,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Gelson's"
+   },
+   "km": 198.7,
+   "offset_m": 149,
+   "ele_m": 28,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/365319366",
+   "name": "Ralphs",
+   "lat": 32.7942263,
+   "lon": -117.254304,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Ralphs",
+    "opening_hours": "Mo-Fr 09:00-21:00;Sa-Su 10:00-18:00",
+    "phone": "+1 858-273-2108",
+    "website": "https://www.ralphs.com/stores/grocery/ca/san-diego/pb-marketplace/703/00207"
+   },
+   "km": 200.6,
+   "offset_m": 164,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/365328268",
+   "name": "7-Eleven",
+   "lat": 32.7941989,
+   "lon": -117.2549988,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 858-483-7395",
+    "website": "https://www.7-eleven.com/locations/ca/san-diego/4340-mission-bvd-13609"
+   },
+   "km": 200.6,
+   "offset_m": 100,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/6407789699",
+   "name": "Little Sam\u2019s Market",
+   "lat": 32.7837292,
+   "lon": -117.2527663,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Little Sam\u2019s Market"
+   },
+   "km": 201.8,
+   "offset_m": 91,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1089697289",
+   "name": "7-Eleven",
+   "lat": 32.79748,
+   "lon": -117.2405599,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven"
+   },
+   "km": 204.4,
+   "offset_m": 414,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2429753714",
+   "name": "Stehly Farms Market",
+   "lat": 32.7714723,
+   "lon": -117.2016863,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Stehly Farms Market"
+   },
+   "km": 210.2,
+   "offset_m": 566,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9518750253",
+   "name": "A-Mart",
+   "lat": 32.7551789,
+   "lon": -117.199488,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "A-Mart",
+    "opening_hours": "Mo-Su,PH 05:00-21:00"
+   },
+   "km": 212.4,
+   "offset_m": 153,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2699557865",
+   "name": "Shell",
+   "lat": 32.7543034,
+   "lon": -117.20469,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Shell"
+   },
+   "km": 212.4,
+   "offset_m": 348,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3790907971",
+   "name": "7-Eleven",
+   "lat": 32.7449491,
+   "lon": -117.200168,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "opening_hours": "Mo-Su 00:00-24:00",
+    "phone": "+1 619-226-2249",
+    "website": "https://www.7-eleven.com/locations/ca/san-diego/2387-midway-dr-34235/"
+   },
+   "km": 213.4,
+   "offset_m": 331,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/31843199",
+   "name": "ampm",
+   "lat": 32.7485995,
+   "lon": -117.1933107,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "ampm"
+   },
+   "km": 213.6,
+   "offset_m": 390,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/31800414",
+   "name": "(convenience)",
+   "lat": 32.7482015,
+   "lon": -117.1927205,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {},
+   "km": 213.7,
+   "offset_m": 389,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/174508873",
+   "name": "NEX Gas Station",
+   "lat": 32.7430772,
+   "lon": -117.192308,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "NEX Gas Station"
+   },
+   "km": 214.1,
+   "offset_m": 86,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/565943380",
+   "name": "(fuel+shop)",
+   "lat": 32.7377327,
+   "lon": -117.1890454,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "access": "private"
+   },
+   "km": 214.6,
+   "offset_m": 465,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13118630701",
+   "name": "Ez Pz Propane",
+   "lat": 32.7408113,
+   "lon": -117.1809884,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Ez Pz Propane",
+    "website": "https://ezpzpropane.com/"
+   },
+   "km": 215.1,
+   "offset_m": 189,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1079855835",
+   "name": "Valero",
+   "lat": 32.7294846,
+   "lon": -117.1729839,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "Valero"
+   },
+   "km": 216.5,
+   "offset_m": 26,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/935161230",
+   "name": "Shell",
+   "lat": 32.729915,
+   "lon": -117.1735495,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Shell"
+   },
+   "km": 216.5,
+   "offset_m": 41,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/530764099",
+   "name": "Mona Lisa",
+   "lat": 32.726261,
+   "lon": -117.1691081,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Mona Lisa"
+   },
+   "km": 217.1,
+   "offset_m": 108,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/530764048",
+   "name": "7-Eleven",
+   "lat": 32.7255823,
+   "lon": -117.1688936,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 619-501-9278",
+    "website": "https://www.7-eleven.com/locations/ca/san-diego/600-w.-grape-33555"
+   },
+   "km": 217.2,
+   "offset_m": 101,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3632222231",
+   "name": "Mobil",
+   "lat": 32.7250687,
+   "lon": -117.171431,
+   "cat": "food",
+   "sym": "Gas Station",
+   "kind": "fuel+shop",
+   "tags": {
+    "name": "Mobil"
+   },
+   "km": 217.2,
+   "offset_m": 142,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/596095044",
+   "name": "Cash & Carry Italian Market",
+   "lat": 32.7237164,
+   "lon": -117.1682448,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "Cash & Carry Italian Market",
+    "opening_hours": "Mo-Su 09:00-21:30",
+    "operator": "Filippi's Pizza Grotto",
+    "phone": "+1-619-232-1346",
+    "website": "https://realcheesepizza.com/italian-market"
+   },
+   "km": 217.4,
+   "offset_m": 98,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3884002233",
+   "name": "The Market By Buon Appetito",
+   "lat": 32.7222755,
+   "lon": -117.1680298,
+   "cat": "food",
+   "sym": "Shopping Center",
+   "kind": "supermarket",
+   "tags": {
+    "name": "The Market By Buon Appetito"
+   },
+   "km": 217.6,
+   "offset_m": 111,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/339167460",
+   "name": "7-Eleven",
+   "lat": 32.7221378,
+   "lon": -117.169481,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 619-615-0779",
+    "website": "https://www.7-eleven.com/locations/ca/san-diego/1670-kettner-blvd-33458"
+   },
+   "km": 217.6,
+   "offset_m": 30,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5837049558",
+   "name": "West Cedar Market",
+   "lat": 32.7220944,
+   "lon": -117.1668427,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "West Cedar Market"
+   },
+   "km": 217.6,
+   "offset_m": 219,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/565513431",
+   "name": "7-Eleven",
+   "lat": 32.720787,
+   "lon": -117.166342,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 619-696-9517",
+    "website": "https://www.7-eleven.com/locations/ca/san-diego/1469-state-st-34184"
+   },
+   "km": 217.7,
+   "offset_m": 267,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2049031818",
+   "name": "7-Eleven",
+   "lat": 32.7165752,
+   "lon": -117.1681108,
+   "cat": "food",
+   "sym": "Convenience Store",
+   "kind": "convenience",
+   "tags": {
+    "name": "7-Eleven",
+    "phone": "+1 619-238-0251",
+    "website": "https://www.7-eleven.com/locations/ca/san-diego/555-west-c-st-ste-100-33569"
+   },
+   "km": 218.1,
+   "offset_m": 116,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/443287216",
+   "name": "(toilets)",
+   "lat": 34.0557222,
+   "lon": -118.2354826,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 0.0,
+   "offset_m": 52,
+   "ele_m": 90,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4578721477",
+   "name": "(toilets)",
+   "lat": 34.0575201,
+   "lon": -118.2375632,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 0.2,
+   "offset_m": 91,
+   "ele_m": 89,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11280617235",
+   "name": "(toilets)",
+   "lat": 34.055352,
+   "lon": -118.2332648,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 0.6,
+   "offset_m": 173,
+   "ele_m": 93,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2481931328",
+   "name": "(toilets)",
+   "lat": 34.0382098,
+   "lon": -118.2182502,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 3.4,
+   "offset_m": 111,
+   "ele_m": 96,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/483790563",
+   "name": "(toilets)",
+   "lat": 33.973438,
+   "lon": -118.2046811,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 11.5,
+   "offset_m": 175,
+   "ele_m": 46,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455769211",
+   "name": "(toilets)",
+   "lat": 33.925291,
+   "lon": -118.1753131,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 18.4,
+   "offset_m": 120,
+   "ele_m": 27,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9694318244",
+   "name": "(toilets)",
+   "lat": 33.7676947,
+   "lon": -118.194909,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 37.4,
+   "offset_m": 139,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13076722373",
+   "name": "(toilets)",
+   "lat": 33.7640805,
+   "lon": -118.1930144,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 38.0,
+   "offset_m": 72,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12148070007",
+   "name": "(toilets)",
+   "lat": 33.760576,
+   "lon": -118.1882946,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "private"
+   },
+   "km": 38.8,
+   "offset_m": 12,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/440270497",
+   "name": "Public",
+   "lat": 33.7641809,
+   "lon": -118.1753318,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no",
+    "operator": "Public"
+   },
+   "km": 40.3,
+   "offset_m": 22,
+   "ele_m": 21,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11917150992",
+   "name": "(toilets)",
+   "lat": 33.7623224,
+   "lon": -118.1628361,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 41.4,
+   "offset_m": 22,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12148019689",
+   "name": "(toilets)",
+   "lat": 33.7554106,
+   "lon": -118.1394404,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 43.8,
+   "offset_m": 24,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5636479722",
+   "name": "(toilets)",
+   "lat": 33.7529887,
+   "lon": -118.1341651,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 44.4,
+   "offset_m": 45,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1544373992",
+   "name": "(toilets)",
+   "lat": 33.7588656,
+   "lon": -118.1205396,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 46.1,
+   "offset_m": 273,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11952653278",
+   "name": "(toilets)",
+   "lat": 33.7558278,
+   "lon": -118.110715,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "destination",
+    "drinking_water": "yes"
+   },
+   "km": 47.2,
+   "offset_m": 120,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/950139885",
+   "name": "(toilets)",
+   "lat": 33.7204352,
+   "lon": -118.0743282,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 53.6,
+   "offset_m": 14,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/947819787",
+   "name": "(toilets)",
+   "lat": 33.7176788,
+   "lon": -118.0711991,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 54.0,
+   "offset_m": 20,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/947498326",
+   "name": "(toilets)",
+   "lat": 33.7147198,
+   "lon": -118.0678442,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 54.4,
+   "offset_m": 14,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/708330369",
+   "name": "(toilets)",
+   "lat": 33.7125661,
+   "lon": -118.0651911,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 54.8,
+   "offset_m": 29,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/880597662",
+   "name": "(toilets)",
+   "lat": 33.7111998,
+   "lon": -118.063924,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 55.0,
+   "offset_m": 21,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1233190257",
+   "name": "(toilets)",
+   "lat": 33.711211,
+   "lon": -118.0615757,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 55.0,
+   "offset_m": 204,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/878418872",
+   "name": "(toilets)",
+   "lat": 33.7091926,
+   "lon": -118.0616054,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 55.3,
+   "offset_m": 34,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/878418545",
+   "name": "(toilets)",
+   "lat": 33.7072397,
+   "lon": -118.0595621,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 55.6,
+   "offset_m": 19,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/878418546",
+   "name": "(toilets)",
+   "lat": 33.705324,
+   "lon": -118.0573562,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 55.9,
+   "offset_m": 24,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/878418547",
+   "name": "(toilets)",
+   "lat": 33.703183,
+   "lon": -118.0549611,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 56.2,
+   "offset_m": 20,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1137456248",
+   "name": "(toilets)",
+   "lat": 33.7014462,
+   "lon": -118.0531422,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 56.5,
+   "offset_m": 28,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/875337783",
+   "name": "(toilets)",
+   "lat": 33.6995158,
+   "lon": -118.0513361,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 56.7,
+   "offset_m": 34,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/875337506",
+   "name": "(toilets)",
+   "lat": 33.6977312,
+   "lon": -118.049652,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 57.0,
+   "offset_m": 27,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1225294660",
+   "name": "(toilets)",
+   "lat": 33.6953658,
+   "lon": -118.0466426,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "description": "Only available during tours or for use by staff."
+   },
+   "km": 57.4,
+   "offset_m": 101,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/875337503",
+   "name": "(toilets)",
+   "lat": 33.6940256,
+   "lon": -118.0462466,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 57.5,
+   "offset_m": 18,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/875337502",
+   "name": "(toilets)",
+   "lat": 33.6902681,
+   "lon": -118.0427262,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 58.0,
+   "offset_m": 15,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/676310522",
+   "name": "(toilets)",
+   "lat": 33.6882799,
+   "lon": -118.0407951,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 58.3,
+   "offset_m": 22,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/676305265",
+   "name": "(toilets)",
+   "lat": 33.6860566,
+   "lon": -118.0386915,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 58.7,
+   "offset_m": 29,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/676302241",
+   "name": "(toilets)",
+   "lat": 33.6839113,
+   "lon": -118.0366499,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 59.0,
+   "offset_m": 17,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1274731594",
+   "name": "(toilets)",
+   "lat": 33.6717366,
+   "lon": -118.0227659,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 60.8,
+   "offset_m": 7,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/401541507",
+   "name": "(toilets)",
+   "lat": 33.6672602,
+   "lon": -118.0165651,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 61.6,
+   "offset_m": 16,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/401541508",
+   "name": "(toilets)",
+   "lat": 33.6647938,
+   "lon": -118.013171,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 62.0,
+   "offset_m": 19,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/330741712",
+   "name": "(toilets)",
+   "lat": 33.6597778,
+   "lon": -118.0065709,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 62.9,
+   "offset_m": 11,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/69199673",
+   "name": "(toilets)",
+   "lat": 33.6572072,
+   "lon": -118.0032579,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 63.4,
+   "offset_m": 83,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709113",
+   "name": "(toilets)",
+   "lat": 33.6559576,
+   "lon": -118.0019057,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 63.5,
+   "offset_m": 38,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709130",
+   "name": "(toilets)",
+   "lat": 33.6542157,
+   "lon": -117.9985327,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 63.9,
+   "offset_m": 25,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709132",
+   "name": "(toilets)",
+   "lat": 33.6528943,
+   "lon": -117.9964953,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 64.1,
+   "offset_m": 19,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709117",
+   "name": "(toilets)",
+   "lat": 33.6514321,
+   "lon": -117.9940737,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 64.4,
+   "offset_m": 14,
+   "ele_m": 1,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709135",
+   "name": "(toilets)",
+   "lat": 33.6497115,
+   "lon": -117.9913199,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 64.7,
+   "offset_m": 28,
+   "ele_m": 1,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709126",
+   "name": "(toilets)",
+   "lat": 33.6482219,
+   "lon": -117.9890457,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 65.0,
+   "offset_m": 17,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709122",
+   "name": "(toilets)",
+   "lat": 33.6473616,
+   "lon": -117.9872433,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 65.2,
+   "offset_m": 19,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/206906162",
+   "name": "(toilets)",
+   "lat": 33.6458477,
+   "lon": -117.9848656,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 65.6,
+   "offset_m": 79,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709128",
+   "name": "(toilets)",
+   "lat": 33.6443928,
+   "lon": -117.9823746,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 65.8,
+   "offset_m": 68,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709138",
+   "name": "(toilets)",
+   "lat": 33.6430539,
+   "lon": -117.9800283,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 66.1,
+   "offset_m": 31,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/206906161",
+   "name": "(toilets)",
+   "lat": 33.6417189,
+   "lon": -117.9777359,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 66.1,
+   "offset_m": 234,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/206906163",
+   "name": "(toilets)",
+   "lat": 33.6402856,
+   "lon": -117.9752586,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 66.7,
+   "offset_m": 81,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709139",
+   "name": "(toilets)",
+   "lat": 33.6387201,
+   "lon": -117.9724175,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 66.9,
+   "offset_m": 24,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709115",
+   "name": "(toilets)",
+   "lat": 33.6373576,
+   "lon": -117.9691965,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 67.3,
+   "offset_m": 21,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709123",
+   "name": "(toilets)",
+   "lat": 33.6329496,
+   "lon": -117.9612348,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 68.2,
+   "offset_m": 25,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/188709127",
+   "name": "(toilets)",
+   "lat": 33.6281546,
+   "lon": -117.9528358,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 69.1,
+   "offset_m": 16,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/477387159",
+   "name": "(toilets)",
+   "lat": 33.6247381,
+   "lon": -117.9468245,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 69.8,
+   "offset_m": 43,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/469271414",
+   "name": "Public Restroom",
+   "lat": 33.6249609,
+   "lon": -117.9395644,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no",
+    "name": "Public Restroom"
+   },
+   "km": 70.3,
+   "offset_m": 189,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9287447541",
+   "name": "(toilets)",
+   "lat": 33.6214133,
+   "lon": -117.9375558,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 70.7,
+   "offset_m": 97,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/464649284",
+   "name": "(toilets)",
+   "lat": 33.5851367,
+   "lon": -117.8546266,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 80.2,
+   "offset_m": 156,
+   "ele_m": 44,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/464649283",
+   "name": "(toilets)",
+   "lat": 33.5824182,
+   "lon": -117.8518266,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 80.6,
+   "offset_m": 224,
+   "ele_m": 41,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/464649278",
+   "name": "(toilets)",
+   "lat": 33.5807528,
+   "lon": -117.8487627,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 80.9,
+   "offset_m": 174,
+   "ele_m": 40,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/468908745",
+   "name": "(toilets)",
+   "lat": 33.5791784,
+   "lon": -117.8456898,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 81.3,
+   "offset_m": 125,
+   "ele_m": 40,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1061175161",
+   "name": "(toilets)",
+   "lat": 33.5780083,
+   "lon": -117.8409875,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 81.7,
+   "offset_m": 58,
+   "ele_m": 30,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4597348791",
+   "name": "(toilets)",
+   "lat": 33.5744085,
+   "lon": -117.839918,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 82.1,
+   "offset_m": 50,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/464649275",
+   "name": "(toilets)",
+   "lat": 33.5749429,
+   "lon": -117.8404027,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 82.1,
+   "offset_m": 98,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/468908732",
+   "name": "(toilets)",
+   "lat": 33.5656996,
+   "lon": -117.8299996,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 83.4,
+   "offset_m": 90,
+   "ele_m": 29,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/170813682",
+   "name": "(toilets)",
+   "lat": 33.5655403,
+   "lon": -117.8286157,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 83.5,
+   "offset_m": 52,
+   "ele_m": 21,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10921848543",
+   "name": "(toilets)",
+   "lat": 33.5634157,
+   "lon": -117.8218968,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 84.1,
+   "offset_m": 218,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1767276679",
+   "name": "(toilets)",
+   "lat": 33.561042,
+   "lon": -117.821168,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 84.4,
+   "offset_m": 61,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4633619228",
+   "name": "(toilets)",
+   "lat": 33.5591482,
+   "lon": -117.8202504,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 84.6,
+   "offset_m": 35,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/543994153",
+   "name": "(toilets)",
+   "lat": 33.5539299,
+   "lon": -117.8074225,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 86.0,
+   "offset_m": 113,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/543994145",
+   "name": "Bathrooms",
+   "lat": 33.5515187,
+   "lon": -117.8073994,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "name": "Bathrooms"
+   },
+   "km": 86.1,
+   "offset_m": 136,
+   "ele_m": 23,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/190874345",
+   "name": "(toilets)",
+   "lat": 33.5467123,
+   "lon": -117.8012124,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 86.8,
+   "offset_m": 208,
+   "ele_m": 33,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/685948896",
+   "name": "(toilets)",
+   "lat": 33.5482879,
+   "lon": -117.793817,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 87.3,
+   "offset_m": 222,
+   "ele_m": 30,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/185324526",
+   "name": "(toilets)",
+   "lat": 33.5448801,
+   "lon": -117.7936951,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 87.6,
+   "offset_m": 96,
+   "ele_m": 27,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/185324524",
+   "name": "(toilets)",
+   "lat": 33.5438488,
+   "lon": -117.7907835,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 87.8,
+   "offset_m": 91,
+   "ele_m": 24,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5436341637",
+   "name": "(toilets)",
+   "lat": 33.5429493,
+   "lon": -117.7865898,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 88.3,
+   "offset_m": 46,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1053980576",
+   "name": "(toilets)",
+   "lat": 33.5428384,
+   "lon": -117.7834041,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 88.5,
+   "offset_m": 83,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9281616832",
+   "name": "(toilets)",
+   "lat": 33.5414919,
+   "lon": -117.78358,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 88.6,
+   "offset_m": 58,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9002499547",
+   "name": "(toilets)",
+   "lat": 33.5397533,
+   "lon": -117.7816556,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 88.9,
+   "offset_m": 24,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/222801871",
+   "name": "(toilets)",
+   "lat": 33.5112025,
+   "lon": -117.7517452,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 93.1,
+   "offset_m": 58,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/434939121",
+   "name": "(toilets)",
+   "lat": 33.4770502,
+   "lon": -117.7188491,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 98.1,
+   "offset_m": 105,
+   "ele_m": 46,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/434939123",
+   "name": "(toilets)",
+   "lat": 33.4690363,
+   "lon": -117.7149876,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 98.9,
+   "offset_m": 241,
+   "ele_m": 55,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1939271258",
+   "name": "(toilets)",
+   "lat": 33.4629872,
+   "lon": -117.704768,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 100.7,
+   "offset_m": 51,
+   "ele_m": 21,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/434939127",
+   "name": "(toilets)",
+   "lat": 33.4627463,
+   "lon": -117.7016555,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 101.0,
+   "offset_m": 28,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4365624491",
+   "name": "(toilets)",
+   "lat": 33.4612764,
+   "lon": -117.6953648,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 101.6,
+   "offset_m": 121,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1427894940",
+   "name": "(toilets)",
+   "lat": 33.4625054,
+   "lon": -117.6870293,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 102.4,
+   "offset_m": 134,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/414877045",
+   "name": "(toilets)",
+   "lat": 33.4626594,
+   "lon": -117.6845386,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "description": "San Juan Creek beach",
+    "drinking_water": "yes"
+   },
+   "km": 102.7,
+   "offset_m": 150,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/428961193",
+   "name": "(toilets)",
+   "lat": 33.4630746,
+   "lon": -117.6819003,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 103.0,
+   "offset_m": 34,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/428961195",
+   "name": "(toilets)",
+   "lat": 33.4628049,
+   "lon": -117.6811567,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 103.1,
+   "offset_m": 28,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/428961196",
+   "name": "(toilets)",
+   "lat": 33.4622253,
+   "lon": -117.6799328,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 103.2,
+   "offset_m": 22,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/428961194",
+   "name": "(toilets)",
+   "lat": 33.4618355,
+   "lon": -117.6792118,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 103.3,
+   "offset_m": 22,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/8307581201",
+   "name": "(toilets)",
+   "lat": 33.4546677,
+   "lon": -117.667445,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 104.7,
+   "offset_m": 88,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/439917241",
+   "name": "(toilets)",
+   "lat": 33.4369796,
+   "lon": -117.6356019,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 108.1,
+   "offset_m": 282,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/439917239",
+   "name": "(toilets)",
+   "lat": 33.4342098,
+   "lon": -117.6319018,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 109.0,
+   "offset_m": 212,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4075432845",
+   "name": "(toilets)",
+   "lat": 33.4307006,
+   "lon": -117.6315208,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 109.1,
+   "offset_m": 144,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/404743645",
+   "name": "(toilets)",
+   "lat": 33.4290956,
+   "lon": -117.6230389,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 110.2,
+   "offset_m": 70,
+   "ele_m": 44,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/403914967",
+   "name": "(toilets)",
+   "lat": 33.4218641,
+   "lon": -117.6219902,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 111.6,
+   "offset_m": 244,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/390112177",
+   "name": "(toilets)",
+   "lat": 33.419379,
+   "lon": -117.6197775,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 111.7,
+   "offset_m": 29,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/529814190",
+   "name": "(toilets)",
+   "lat": 33.4063317,
+   "lon": -117.5964306,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 115.0,
+   "offset_m": 242,
+   "ele_m": 45,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13050705073",
+   "name": "(toilets)",
+   "lat": 33.3757219,
+   "lon": -117.5651104,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 120.2,
+   "offset_m": 208,
+   "ele_m": 26,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414662",
+   "name": "(toilets)",
+   "lat": 33.3623546,
+   "lon": -117.5413123,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 122.5,
+   "offset_m": 448,
+   "ele_m": 48,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414663",
+   "name": "(toilets)",
+   "lat": 33.3595879,
+   "lon": -117.5372658,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 122.5,
+   "offset_m": 931,
+   "ele_m": 48,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414664",
+   "name": "(toilets)",
+   "lat": 33.3561953,
+   "lon": -117.5323488,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 124.4,
+   "offset_m": 422,
+   "ele_m": 56,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414665",
+   "name": "(toilets)",
+   "lat": 33.3526711,
+   "lon": -117.5274152,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 124.4,
+   "offset_m": 208,
+   "ele_m": 56,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414666",
+   "name": "(toilets)",
+   "lat": 33.3484974,
+   "lon": -117.522395,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 125.3,
+   "offset_m": 159,
+   "ele_m": 55,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414667",
+   "name": "(toilets)",
+   "lat": 33.3471197,
+   "lon": -117.5199597,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 125.5,
+   "offset_m": 130,
+   "ele_m": 56,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414668",
+   "name": "(toilets)",
+   "lat": 33.3440732,
+   "lon": -117.5148775,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 125.9,
+   "offset_m": 245,
+   "ele_m": 55,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414669",
+   "name": "(toilets)",
+   "lat": 33.3426016,
+   "lon": -117.5128636,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 126.7,
+   "offset_m": 328,
+   "ele_m": 55,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414670",
+   "name": "(toilets)",
+   "lat": 33.3414261,
+   "lon": -117.5112269,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 126.7,
+   "offset_m": 141,
+   "ele_m": 55,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414671",
+   "name": "(toilets)",
+   "lat": 33.3377863,
+   "lon": -117.5063068,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 127.6,
+   "offset_m": 419,
+   "ele_m": 52,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746414672",
+   "name": "(toilets)",
+   "lat": 33.3364062,
+   "lon": -117.5044407,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 127.6,
+   "offset_m": 198,
+   "ele_m": 52,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12437793413",
+   "name": "(toilets)",
+   "lat": 33.2719687,
+   "lon": -117.4440547,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 136.7,
+   "offset_m": 44,
+   "ele_m": 26,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/452489017",
+   "name": "(toilets)",
+   "lat": 33.2691837,
+   "lon": -117.4365961,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 137.2,
+   "offset_m": 285,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/452489018",
+   "name": "(toilets)",
+   "lat": 33.2685988,
+   "lon": -117.4360599,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 137.2,
+   "offset_m": 358,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/14038403438",
+   "name": "(toilets)",
+   "lat": 33.206456,
+   "lon": -117.3910578,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 146.1,
+   "offset_m": 115,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10297470747",
+   "name": "(toilets)",
+   "lat": 33.2051279,
+   "lon": -117.3890221,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 146.4,
+   "offset_m": 15,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10299572747",
+   "name": "(toilets)",
+   "lat": 33.2042864,
+   "lon": -117.3906489,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "private"
+   },
+   "km": 146.5,
+   "offset_m": 48,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12487171163",
+   "name": "(toilets)",
+   "lat": 33.2002971,
+   "lon": -117.3894146,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 147.0,
+   "offset_m": 131,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/719554077",
+   "name": "(toilets)",
+   "lat": 33.1959806,
+   "lon": -117.3857521,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 147.6,
+   "offset_m": 78,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/724804508",
+   "name": "(toilets)",
+   "lat": 33.1936779,
+   "lon": -117.3833085,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 147.9,
+   "offset_m": 35,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12487171190",
+   "name": "(toilets)",
+   "lat": 33.1935686,
+   "lon": -117.379562,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 148.1,
+   "offset_m": 243,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1208194021",
+   "name": "(toilets)",
+   "lat": 33.1929377,
+   "lon": -117.3790341,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "description": "Transit center restrooms. No private stalls offered for men's toilets."
+   },
+   "km": 148.2,
+   "offset_m": 250,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13505492044",
+   "name": "(toilets)",
+   "lat": 33.191116,
+   "lon": -117.3811778,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 148.3,
+   "offset_m": 33,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12487200902",
+   "name": "(toilets)",
+   "lat": 33.186267,
+   "lon": -117.3769819,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 148.9,
+   "offset_m": 28,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/463494351",
+   "name": "Frazee State Beach Restrooms",
+   "lat": 33.1544168,
+   "lon": -117.3508573,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no",
+    "name": "Frazee State Beach Restrooms",
+    "operator": "California State Parks & Rec"
+   },
+   "km": 154.0,
+   "offset_m": 23,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/463494331",
+   "name": "Tamarack State Beach Restrooms",
+   "lat": 33.1474167,
+   "lon": -117.3456387,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no",
+    "name": "Tamarack State Beach Restrooms",
+    "operator": "California State Parks & Rec",
+    "shower": "yes"
+   },
+   "km": 154.9,
+   "offset_m": 29,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/653049254",
+   "name": "(toilets)",
+   "lat": 33.1335377,
+   "lon": -117.3354598,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 156.7,
+   "offset_m": 59,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/830835342",
+   "name": "(toilets)",
+   "lat": 33.1140262,
+   "lon": -117.3242739,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 159.1,
+   "offset_m": 20,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/461760955",
+   "name": "(toilets)",
+   "lat": 33.1111184,
+   "lon": -117.3226354,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 159.6,
+   "offset_m": 49,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/461760953",
+   "name": "(toilets)",
+   "lat": 33.1090311,
+   "lon": -117.3217667,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 159.8,
+   "offset_m": 56,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/461760951",
+   "name": "(toilets)",
+   "lat": 33.1073072,
+   "lon": -117.3211392,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 160.0,
+   "offset_m": 76,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/965457820",
+   "name": "(toilets)",
+   "lat": 33.105168,
+   "lon": -117.3202526,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 160.3,
+   "offset_m": 65,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/965457821",
+   "name": "(toilets)",
+   "lat": 33.103771,
+   "lon": -117.3196311,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 160.5,
+   "offset_m": 115,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/965457822",
+   "name": "(toilets)",
+   "lat": 33.102521,
+   "lon": -117.3190881,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 160.5,
+   "offset_m": 63,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/908227117",
+   "name": "(toilets)",
+   "lat": 33.0995792,
+   "lon": -117.317896,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 160.9,
+   "offset_m": 55,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/965457823",
+   "name": "(toilets)",
+   "lat": 33.0978224,
+   "lon": -117.3170884,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 161.1,
+   "offset_m": 52,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/469792987",
+   "name": "(toilets)",
+   "lat": 33.0956442,
+   "lon": -117.3161518,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 161.4,
+   "offset_m": 28,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/461760935",
+   "name": "(toilets)",
+   "lat": 33.0932638,
+   "lon": -117.3152835,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 161.6,
+   "offset_m": 50,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/467786227",
+   "name": "(toilets)",
+   "lat": 33.0829801,
+   "lon": -117.3111864,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 162.8,
+   "offset_m": 129,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4654147577",
+   "name": "(toilets)",
+   "lat": 33.0345562,
+   "lon": -117.2916588,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 168.6,
+   "offset_m": 36,
+   "ele_m": 25,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/468549378",
+   "name": "(toilets)",
+   "lat": 33.0269739,
+   "lon": -117.2874729,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 169.5,
+   "offset_m": 52,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455701672",
+   "name": "(toilets)",
+   "lat": 33.0251477,
+   "lon": -117.2864008,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 169.8,
+   "offset_m": 53,
+   "ele_m": 16,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455701675",
+   "name": "(toilets)",
+   "lat": 33.0233109,
+   "lon": -117.2853109,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 170.0,
+   "offset_m": 23,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455701676",
+   "name": "(toilets)",
+   "lat": 33.0221764,
+   "lon": -117.2848413,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 170.1,
+   "offset_m": 46,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455701680",
+   "name": "(toilets)",
+   "lat": 33.0208522,
+   "lon": -117.2842017,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 170.3,
+   "offset_m": 54,
+   "ele_m": 17,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455701685",
+   "name": "(toilets)",
+   "lat": 33.0196427,
+   "lon": -117.283445,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 170.4,
+   "offset_m": 58,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/373069795",
+   "name": "(toilets)",
+   "lat": 33.0187032,
+   "lon": -117.2801443,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 170.6,
+   "offset_m": 185,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455701683",
+   "name": "(toilets)",
+   "lat": 33.0173074,
+   "lon": -117.2822045,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 170.6,
+   "offset_m": 94,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/455701684",
+   "name": "(toilets)",
+   "lat": 33.018543,
+   "lon": -117.2827904,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 170.6,
+   "offset_m": 51,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/373069611",
+   "name": "(toilets)",
+   "lat": 33.0147121,
+   "lon": -117.2806208,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 171.1,
+   "offset_m": 102,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/463345569",
+   "name": "(toilets)",
+   "lat": 33.0017701,
+   "lon": -117.2771941,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 172.5,
+   "offset_m": 29,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5680604300",
+   "name": "(toilets)",
+   "lat": 32.9930111,
+   "lon": -117.2712616,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 173.6,
+   "offset_m": 69,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1116644576",
+   "name": "(toilets)",
+   "lat": 32.991587,
+   "lon": -117.2738355,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 173.7,
+   "offset_m": 197,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13396445400",
+   "name": "(toilets)",
+   "lat": 32.9780235,
+   "lon": -117.2696044,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 175.3,
+   "offset_m": 28,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10155954643",
+   "name": "(toilets)",
+   "lat": 32.9694422,
+   "lon": -117.2689041,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 176.3,
+   "offset_m": 85,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9850961997",
+   "name": "(toilets)",
+   "lat": 32.9624117,
+   "lon": -117.26802,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 177.1,
+   "offset_m": 253,
+   "ele_m": 29,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2758595949",
+   "name": "(toilets)",
+   "lat": 32.9616144,
+   "lon": -117.2678731,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 177.2,
+   "offset_m": 237,
+   "ele_m": 32,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/221154809",
+   "name": "(toilets)",
+   "lat": 32.9348077,
+   "lon": -117.2600949,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 180.3,
+   "offset_m": 52,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1107182044",
+   "name": "(toilets)",
+   "lat": 32.9270223,
+   "lon": -117.259288,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 181.1,
+   "offset_m": 88,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/373116875",
+   "name": "(toilets)",
+   "lat": 32.9194944,
+   "lon": -117.2525555,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 182.4,
+   "offset_m": 325,
+   "ele_m": 86,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10266093965",
+   "name": "(toilets)",
+   "lat": 32.8859827,
+   "lon": -117.2427683,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 186.4,
+   "offset_m": 108,
+   "ele_m": 114,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3951175276",
+   "name": "(toilets)",
+   "lat": 32.8841043,
+   "lon": -117.2450832,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "customers",
+    "fee": "no"
+   },
+   "km": 186.6,
+   "offset_m": 104,
+   "ele_m": 114,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10825625415",
+   "name": "(toilets)",
+   "lat": 32.8807706,
+   "lon": -117.2428501,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 187.0,
+   "offset_m": 108,
+   "ele_m": 122,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13650670652",
+   "name": "(toilets)",
+   "lat": 32.8656696,
+   "lon": -117.2505241,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "customers"
+   },
+   "km": 189.4,
+   "offset_m": 162,
+   "ele_m": 36,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/961839843",
+   "name": "(toilets)",
+   "lat": 32.8586996,
+   "lon": -117.2560988,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 190.2,
+   "offset_m": 250,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5726118897",
+   "name": "(toilets)",
+   "lat": 32.850227,
+   "lon": -117.2734128,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 193.1,
+   "offset_m": 27,
+   "ele_m": 15,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13049140906",
+   "name": "(toilets)",
+   "lat": 32.805151,
+   "lon": -117.262024,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 198.9,
+   "offset_m": 245,
+   "ele_m": 28,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/680553360",
+   "name": "(toilets)",
+   "lat": 32.8020324,
+   "lon": -117.2592808,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 199.7,
+   "offset_m": 41,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/39507035",
+   "name": "(toilets)",
+   "lat": 32.7990263,
+   "lon": -117.2578661,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 200.0,
+   "offset_m": 10,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/39507067",
+   "name": "(toilets)",
+   "lat": 32.7944528,
+   "lon": -117.255893,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 200.6,
+   "offset_m": 15,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/990502371",
+   "name": "(toilets)",
+   "lat": 32.7907719,
+   "lon": -117.254418,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 201.0,
+   "offset_m": 74,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/990502741",
+   "name": "(toilets)",
+   "lat": 32.7836209,
+   "lon": -117.2493507,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 202.2,
+   "offset_m": 187,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/38076892",
+   "name": "(toilets)",
+   "lat": 32.7917689,
+   "lon": -117.2444481,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 203.8,
+   "offset_m": 134,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1236441553",
+   "name": "(toilets)",
+   "lat": 32.797075,
+   "lon": -117.2139465,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 206.9,
+   "offset_m": 204,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1236441552",
+   "name": "(toilets)",
+   "lat": 32.7923991,
+   "lon": -117.2092931,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 207.9,
+   "offset_m": 119,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1236441550",
+   "name": "(toilets)",
+   "lat": 32.7884613,
+   "lon": -117.208953,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 208.3,
+   "offset_m": 88,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1236441551",
+   "name": "(toilets)",
+   "lat": 32.7845505,
+   "lon": -117.208881,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 208.8,
+   "offset_m": 74,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/234376102",
+   "name": "(toilets)",
+   "lat": 32.7814963,
+   "lon": -117.211031,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 209.2,
+   "offset_m": 184,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12463362909",
+   "name": "(toilets)",
+   "lat": 32.7721089,
+   "lon": -117.2090891,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 210.1,
+   "offset_m": 110,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/288199464",
+   "name": "(toilets)",
+   "lat": 32.7547965,
+   "lon": -117.1980102,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 212.6,
+   "offset_m": 290,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/522460307",
+   "name": "(toilets)",
+   "lat": 32.7539832,
+   "lon": -117.1978729,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "yes",
+    "opening_hours": "Mo-Su 11:00-15:00"
+   },
+   "km": 212.6,
+   "offset_m": 278,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4349257211",
+   "name": "(toilets)",
+   "lat": 32.7376931,
+   "lon": -117.1845281,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 215.0,
+   "offset_m": 284,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "way/1011576071",
+   "name": "(toilets)",
+   "lat": 32.7210189,
+   "lon": -117.1718855,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {},
+   "km": 217.7,
+   "offset_m": 251,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4586369548",
+   "name": "(toilets)",
+   "lat": 32.7167462,
+   "lon": -117.169592,
+   "cat": "toilet",
+   "sym": "Restroom",
+   "kind": "toilets",
+   "tags": {
+    "access": "customers",
+    "fee": "no"
+   },
+   "km": 218.2,
+   "offset_m": 20,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13290101801",
+   "name": "(drinking water)",
+   "lat": 34.0556534,
+   "lon": -118.2355529,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 0.0,
+   "offset_m": 54,
+   "ele_m": 90,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11009002167",
+   "name": "(drinking water)",
+   "lat": 33.7681092,
+   "lon": -118.1941921,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 37.3,
+   "offset_m": 202,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11009080880",
+   "name": "(drinking water)",
+   "lat": 33.7595835,
+   "lon": -118.1913743,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 38.7,
+   "offset_m": 223,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11917151002",
+   "name": "(drinking water)",
+   "lat": 33.7623654,
+   "lon": -118.1628748,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 41.4,
+   "offset_m": 18,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12148019690",
+   "name": "(drinking water)",
+   "lat": 33.7554289,
+   "lon": -118.1393833,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 43.8,
+   "offset_m": 18,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5636479723",
+   "name": "(drinking water)",
+   "lat": 33.753002,
+   "lon": -118.1342216,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 44.4,
+   "offset_m": 44,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11227630980",
+   "name": "(drinking water)",
+   "lat": 33.7532789,
+   "lon": -118.1323468,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 44.6,
+   "offset_m": 8,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5636459335",
+   "name": "(drinking water)",
+   "lat": 33.7578911,
+   "lon": -118.1302141,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 45.2,
+   "offset_m": 29,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/676305532",
+   "name": "(drinking water)",
+   "lat": 33.686124,
+   "lon": -118.038672,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 58.6,
+   "offset_m": 35,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836050614",
+   "name": "(drinking water)",
+   "lat": 33.6733995,
+   "lon": -118.0249785,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 60.6,
+   "offset_m": 11,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12159086536",
+   "name": "(drinking water)",
+   "lat": 33.6663697,
+   "lon": -118.0151848,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 61.8,
+   "offset_m": 10,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836185285",
+   "name": "(drinking water)",
+   "lat": 33.6557486,
+   "lon": -118.001465,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 63.6,
+   "offset_m": 5,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836185301",
+   "name": "(drinking water)",
+   "lat": 33.6552397,
+   "lon": -118.0007565,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 63.7,
+   "offset_m": 7,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836115273",
+   "name": "(drinking water)",
+   "lat": 33.6540688,
+   "lon": -117.9987247,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 63.9,
+   "offset_m": 22,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836115305",
+   "name": "(drinking water)",
+   "lat": 33.6526369,
+   "lon": -117.9964793,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 64.1,
+   "offset_m": 28,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836148235",
+   "name": "(drinking water)",
+   "lat": 33.651365,
+   "lon": -117.9942514,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 64.4,
+   "offset_m": 5,
+   "ele_m": 1,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836115351",
+   "name": "(drinking water)",
+   "lat": 33.6498094,
+   "lon": -117.9917454,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 64.7,
+   "offset_m": 8,
+   "ele_m": 1,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836115373",
+   "name": "(drinking water)",
+   "lat": 33.64821,
+   "lon": -117.9893056,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 65.0,
+   "offset_m": 9,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836165155",
+   "name": "(drinking water)",
+   "lat": 33.6472963,
+   "lon": -117.9875628,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 65.2,
+   "offset_m": 16,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836165100",
+   "name": "(drinking water)",
+   "lat": 33.6456302,
+   "lon": -117.9849103,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 65.6,
+   "offset_m": 66,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836165087",
+   "name": "(drinking water)",
+   "lat": 33.6442955,
+   "lon": -117.9826247,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 65.8,
+   "offset_m": 79,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836164805",
+   "name": "(drinking water)",
+   "lat": 33.641497,
+   "lon": -117.9777765,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 66.1,
+   "offset_m": 245,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836164840",
+   "name": "(drinking water)",
+   "lat": 33.6428402,
+   "lon": -117.9800944,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 66.1,
+   "offset_m": 18,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836164768",
+   "name": "(drinking water)",
+   "lat": 33.6400928,
+   "lon": -117.9753422,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 66.7,
+   "offset_m": 74,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836115599",
+   "name": "(drinking water)",
+   "lat": 33.6371968,
+   "lon": -117.9693383,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 67.2,
+   "offset_m": 15,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836164712",
+   "name": "(drinking water)",
+   "lat": 33.6356946,
+   "lon": -117.9661742,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 67.6,
+   "offset_m": 13,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836115748",
+   "name": "(drinking water)",
+   "lat": 33.6338137,
+   "lon": -117.9630605,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 68.0,
+   "offset_m": 23,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11836115740",
+   "name": "(drinking water)",
+   "lat": 33.632908,
+   "lon": -117.961579,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 68.1,
+   "offset_m": 12,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11310965522",
+   "name": "(drinking water)",
+   "lat": 33.627565,
+   "lon": -117.9529971,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 69.1,
+   "offset_m": 70,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4687911856",
+   "name": "(drinking water)",
+   "lat": 33.6249086,
+   "lon": -117.9396034,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 70.3,
+   "offset_m": 182,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4687892366",
+   "name": "(drinking water)",
+   "lat": 33.623982,
+   "lon": -117.9369748,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 70.7,
+   "offset_m": 192,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10309031927",
+   "name": "(drinking water)",
+   "lat": 33.6186211,
+   "lon": -117.928226,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 71.5,
+   "offset_m": 202,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4070825975",
+   "name": "(drinking water)",
+   "lat": 33.6082684,
+   "lon": -117.8949267,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 75.4,
+   "offset_m": 336,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2351681488",
+   "name": "(drinking water)",
+   "lat": 33.613342,
+   "lon": -117.89117,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "description": "Back bay view park"
+   },
+   "km": 75.5,
+   "offset_m": 298,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2351681472",
+   "name": "(drinking water)",
+   "lat": 33.60028,
+   "lon": -117.87782,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "description": "Begonia park"
+   },
+   "km": 77.4,
+   "offset_m": 38,
+   "ele_m": 20,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2351681465",
+   "name": "(drinking water)",
+   "lat": 33.58498,
+   "lon": -117.85445,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "description": "Crystal cove north restrooms also (fountain in back)"
+   },
+   "km": 80.2,
+   "offset_m": 160,
+   "ele_m": 44,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/14005715468",
+   "name": "(drinking water)",
+   "lat": 33.5701122,
+   "lon": -117.8328522,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 82.9,
+   "offset_m": 138,
+   "ele_m": 30,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/14027092502",
+   "name": "Filtered water station",
+   "lat": 33.5656278,
+   "lon": -117.8294188,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "operator": "Filtered water station"
+   },
+   "km": 83.4,
+   "offset_m": 60,
+   "ele_m": 29,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10921848544",
+   "name": "(drinking water)",
+   "lat": 33.5633779,
+   "lon": -117.8219,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 84.1,
+   "offset_m": 215,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3127209799",
+   "name": "(drinking water)",
+   "lat": 33.5623949,
+   "lon": -117.8199646,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 84.3,
+   "offset_m": 248,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10921848548",
+   "name": "(drinking water)",
+   "lat": 33.5611109,
+   "lon": -117.8211392,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 84.4,
+   "offset_m": 69,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12945127286",
+   "name": "(drinking water)",
+   "lat": 33.5470974,
+   "lon": -117.8038784,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 86.6,
+   "offset_m": 269,
+   "ele_m": 36,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9845739446",
+   "name": "(drinking water)",
+   "lat": 33.548361,
+   "lon": -117.7932672,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 87.4,
+   "offset_m": 257,
+   "ele_m": 28,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12920312624",
+   "name": "(drinking water)",
+   "lat": 33.5438149,
+   "lon": -117.790804,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 87.8,
+   "offset_m": 95,
+   "ele_m": 24,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2351681446",
+   "name": "(drinking water)",
+   "lat": 33.5425947,
+   "lon": -117.7859901,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "description": "Laguna Beach"
+   },
+   "km": 88.3,
+   "offset_m": 41,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5436341638",
+   "name": "(drinking water)",
+   "lat": 33.5428082,
+   "lon": -117.7866005,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "description": "Laguna Beach"
+   },
+   "km": 88.3,
+   "offset_m": 52,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10921848540",
+   "name": "(drinking water)",
+   "lat": 33.544852,
+   "lon": -117.7830885,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes"
+   },
+   "km": 88.5,
+   "offset_m": 308,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10295608335",
+   "name": "(drinking water)",
+   "lat": 33.5421847,
+   "lon": -117.783349,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 88.6,
+   "offset_m": 13,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12438051545",
+   "name": "(drinking water)",
+   "lat": 33.5151449,
+   "lon": -117.7596846,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 92.3,
+   "offset_m": 248,
+   "ele_m": 40,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/14031693130",
+   "name": "(drinking water)",
+   "lat": 33.5147794,
+   "lon": -117.7591949,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 92.3,
+   "offset_m": 237,
+   "ele_m": 40,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5436331914",
+   "name": "(drinking water)",
+   "lat": 33.5112076,
+   "lon": -117.7517824,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 93.1,
+   "offset_m": 57,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4365624391",
+   "name": "(drinking water)",
+   "lat": 33.4607288,
+   "lon": -117.695169,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 101.6,
+   "offset_m": 185,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4365623391",
+   "name": "(drinking water)",
+   "lat": 33.460418,
+   "lon": -117.6937506,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 101.8,
+   "offset_m": 231,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/3746412408",
+   "name": "(drinking water)",
+   "lat": 33.4625835,
+   "lon": -117.6844784,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 102.7,
+   "offset_m": 159,
+   "ele_m": 8,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4375945133",
+   "name": "(drinking water)",
+   "lat": 33.4369455,
+   "lon": -117.6356434,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 108.1,
+   "offset_m": 278,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/4375888515",
+   "name": "(drinking water)",
+   "lat": 33.430415,
+   "lon": -117.6311957,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 109.1,
+   "offset_m": 159,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13878024410",
+   "name": "(drinking water)",
+   "lat": 33.4182678,
+   "lon": -117.6226424,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 111.7,
+   "offset_m": 309,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12437793425",
+   "name": "(drinking water)",
+   "lat": 33.2721441,
+   "lon": -117.4441311,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 136.7,
+   "offset_m": 32,
+   "ele_m": 25,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2905196630",
+   "name": "(drinking water)",
+   "lat": 33.2686314,
+   "lon": -117.4361144,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 137.2,
+   "offset_m": 352,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12349553098",
+   "name": "(drinking water)",
+   "lat": 33.2036184,
+   "lon": -117.3921827,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 146.5,
+   "offset_m": 192,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12488568915",
+   "name": "(drinking water)",
+   "lat": 33.1979332,
+   "lon": -117.3873592,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 147.3,
+   "offset_m": 111,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12488568917",
+   "name": "(drinking water)",
+   "lat": 33.1974693,
+   "lon": -117.3869781,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 147.3,
+   "offset_m": 118,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12488568913",
+   "name": "(drinking water)",
+   "lat": 33.196193,
+   "lon": -117.3859064,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 147.6,
+   "offset_m": 85,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12487200915",
+   "name": "(drinking water)",
+   "lat": 33.193523,
+   "lon": -117.3795232,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 148.1,
+   "offset_m": 243,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11053307848",
+   "name": "(drinking water)",
+   "lat": 33.1613613,
+   "lon": -117.353822,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 152.9,
+   "offset_m": 197,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13706865318",
+   "name": "(drinking water)",
+   "lat": 33.1584911,
+   "lon": -117.353583,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 153.4,
+   "offset_m": 176,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13706865489",
+   "name": "(drinking water)",
+   "lat": 33.1573759,
+   "lon": -117.3526626,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 153.6,
+   "offset_m": 175,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12168890295",
+   "name": "(drinking water)",
+   "lat": 33.0208187,
+   "lon": -117.2842089,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 170.3,
+   "offset_m": 57,
+   "ele_m": 17,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12168890290",
+   "name": "(drinking water)",
+   "lat": 33.0196,
+   "lon": -117.2834408,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 170.4,
+   "offset_m": 58,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12168890291",
+   "name": "(drinking water)",
+   "lat": 33.0185128,
+   "lon": -117.2828237,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 170.6,
+   "offset_m": 55,
+   "ele_m": 10,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12563917825",
+   "name": "(drinking water)",
+   "lat": 33.0146916,
+   "lon": -117.2805942,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 171.1,
+   "offset_m": 99,
+   "ele_m": 4,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/8372407447",
+   "name": "(drinking water)",
+   "lat": 32.9970393,
+   "lon": -117.2732305,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 173.2,
+   "offset_m": 27,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5680604298",
+   "name": "(drinking water)",
+   "lat": 32.9929988,
+   "lon": -117.2711878,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 173.6,
+   "offset_m": 76,
+   "ele_m": 18,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12476967518",
+   "name": "(drinking water)",
+   "lat": 32.9873072,
+   "lon": -117.270415,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 174.3,
+   "offset_m": 26,
+   "ele_m": 21,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13396529353",
+   "name": "(drinking water)",
+   "lat": 32.9779633,
+   "lon": -117.2695601,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 175.3,
+   "offset_m": 22,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9382195129",
+   "name": "(drinking water)",
+   "lat": 32.9667301,
+   "lon": -117.265969,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 176.6,
+   "offset_m": 42,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1314521556",
+   "name": "(drinking water)",
+   "lat": 32.9616453,
+   "lon": -117.2678592,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 177.2,
+   "offset_m": 236,
+   "ele_m": 32,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1314521455",
+   "name": "(drinking water)",
+   "lat": 32.9601858,
+   "lon": -117.2678187,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 177.4,
+   "offset_m": 227,
+   "ele_m": 34,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1314521830",
+   "name": "(drinking water)",
+   "lat": 32.9593128,
+   "lon": -117.2676279,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 177.4,
+   "offset_m": 216,
+   "ele_m": 35,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9921469997",
+   "name": "(drinking water)",
+   "lat": 32.9549615,
+   "lon": -117.2640545,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 177.9,
+   "offset_m": 53,
+   "ele_m": 44,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11053298538",
+   "name": "California State Parks",
+   "lat": 32.9269177,
+   "lon": -117.2592308,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no",
+    "operator": "California State Parks"
+   },
+   "km": 181.1,
+   "offset_m": 94,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1107112261",
+   "name": "(drinking water)",
+   "lat": 32.9211624,
+   "lon": -117.25546,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 181.7,
+   "offset_m": 354,
+   "ele_m": 45,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10573226209",
+   "name": "(drinking water)",
+   "lat": 32.9230767,
+   "lon": -117.2554011,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 181.7,
+   "offset_m": 173,
+   "ele_m": 46,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/11265485169",
+   "name": "(drinking water)",
+   "lat": 32.919957,
+   "lon": -117.2529559,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 182.2,
+   "offset_m": 339,
+   "ele_m": 63,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/8853668403",
+   "name": "(drinking water)",
+   "lat": 32.8887262,
+   "lon": -117.2407324,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 186.0,
+   "offset_m": 217,
+   "ele_m": 122,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9382197537",
+   "name": "(drinking water)",
+   "lat": 32.8776631,
+   "lon": -117.242885,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 187.3,
+   "offset_m": 104,
+   "ele_m": 124,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13650863505",
+   "name": "(drinking water)",
+   "lat": 32.8657196,
+   "lon": -117.2505243,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 189.4,
+   "offset_m": 162,
+   "ele_m": 36,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12387004924",
+   "name": "(drinking water)",
+   "lat": 32.8586987,
+   "lon": -117.2561573,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 190.2,
+   "offset_m": 256,
+   "ele_m": 13,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/6083887684",
+   "name": "(drinking water)",
+   "lat": 32.8506089,
+   "lon": -117.2733023,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "fee": "no"
+   },
+   "km": 193.1,
+   "offset_m": 63,
+   "ele_m": 14,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/5029542496",
+   "name": "(drinking water)",
+   "lat": 32.8500652,
+   "lon": -117.2746264,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 193.2,
+   "offset_m": 82,
+   "ele_m": 19,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/6372300527",
+   "name": "(drinking water)",
+   "lat": 32.8020457,
+   "lon": -117.25925,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 199.7,
+   "offset_m": 40,
+   "ele_m": 11,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1846933104",
+   "name": "(drinking water)",
+   "lat": 32.7914666,
+   "lon": -117.2448591,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 203.8,
+   "offset_m": 166,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/1930007576",
+   "name": "(drinking water)",
+   "lat": 32.7903301,
+   "lon": -117.2423113,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 204.0,
+   "offset_m": 339,
+   "ele_m": 9,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12670620125",
+   "name": "(drinking water)",
+   "lat": 32.7969941,
+   "lon": -117.2139727,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 206.9,
+   "offset_m": 213,
+   "ele_m": 6,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/10727126178",
+   "name": "(drinking water)",
+   "lat": 32.7726859,
+   "lon": -117.2093415,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 210.1,
+   "offset_m": 132,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12681396044",
+   "name": "(drinking water)",
+   "lat": 32.7720686,
+   "lon": -117.2090347,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {
+    "access": "yes",
+    "fee": "no"
+   },
+   "km": 210.1,
+   "offset_m": 106,
+   "ele_m": 3,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13000112535",
+   "name": "(drinking water)",
+   "lat": 32.7536574,
+   "lon": -117.1969324,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 212.7,
+   "offset_m": 359,
+   "ele_m": 2,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/2946841673",
+   "name": "(drinking water)",
+   "lat": 32.7269446,
+   "lon": -117.1756429,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 216.5,
+   "offset_m": 331,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/9900927852",
+   "name": "(drinking water)",
+   "lat": 32.7177725,
+   "lon": -117.1699047,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 218.1,
+   "offset_m": 62,
+   "ele_m": 7,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/12085845231",
+   "name": "(drinking water)",
+   "lat": 32.7166271,
+   "lon": -117.1732313,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 218.2,
+   "offset_m": 325,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "osm": "node/13704736924",
+   "name": "(drinking water)",
+   "lat": 32.7149005,
+   "lon": -117.1723713,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "kind": "drinking water",
+   "tags": {},
+   "km": 218.2,
+   "offset_m": 326,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "name": "FINISH LA Union Station",
+   "lat": 34.05606,
+   "lon": -118.2359,
+   "cat": "bailout",
+   "sym": "Car",
+   "desc": "800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.",
+   "km": 0.0,
+   "offset_m": 2,
+   "ele_m": 90,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "name": "CRUX Camp Pendleton - the only real problem on day 4",
+   "lat": 33.3002,
+   "lon": -117.4634,
+   "cat": "hazard",
+   "sym": "Danger Area",
+   "desc": "27 km of coast between San Onofre and Oceanside is Marine Corps base with no public road. Two ways through, and they MEASURE THE SAME (36.1 km either way): (1) THROUGH THE BASE on the old highway and base bike path - quiet and pleasant, but needs a DBIDS Recreational Bicycle pass, obtainable IN PERSON ONLY at the Visitor Center by the Main Gate (Bldg 20255T), which is at the OCEANSIDE end - the far side from a southbound rider. Mon/Tue/Thu/Fri 07:30-15:30, Wed 07:45-15:30, valid one year. You cannot get one en route. The path also closes for military exercises. (2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and Oceanside (exits 62-54) - no pass, no gate, no business hours, but 27 km of freeway shoulder instead of 13 km of quiet road. The default GPX takes option 2. pch_day4_alt_pendleton.gpx takes option 1 if you have the pass. This waypoint is the base bicycle gate itself (tagged access=permit in OSM).",
+   "km": 133.2,
+   "offset_m": 202,
+   "ele_m": 22,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "name": "INFO Aliso Creek rest area - water on the I-5 stretch",
+   "lat": 33.315,
+   "lon": -117.482,
+   "cat": "water",
+   "sym": "Drinking Water",
+   "desc": "On the I-5 bypass stretch through Camp Pendleton: water, restrooms and vending machines. The only stop in 27 km of freeway shoulder. Position approximate.",
+   "km": 130.7,
+   "offset_m": 17,
+   "ele_m": 44,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "name": "Torrey Pines - the only climb on day 4",
+   "lat": 32.89495,
+   "lon": -117.24139,
+   "cat": "info",
+   "sym": "Summit",
+   "desc": "4.84 km at 2.6% to 132 m, the single climb over 60 m on the whole 218 km day (which totals just +685 m). Detected from the route's own elevation profile. Torrey Pines Rd out of Del Mar; the coast road through the reserve is the scenic line.",
+   "km": 185.3,
+   "offset_m": 0,
+   "ele_m": 130,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "name": "San Elijo SB - the ONLY hike/bike site left on the extension",
+   "lat": 33.02,
+   "lon": -117.283,
+   "cat": "camp",
+   "sym": "Campground",
+   "desc": "One single hike/bike site (#94), FIRST COME FIRST SERVED after 16:00, vacate by 09:00, ONE NIGHT ONLY, $10 per person. IMPORTANT: hiker/biker sites at San Onofre, San Clemente and South Carlsbad State Beaches have reportedly been ELIMINATED, so this is the only cheap legal bed on the LA-San Diego coast. VERIFY with San Diego Coast District before relying on it - the elimination report is a cyclist forum, not a parks.ca.gov page. Practical upshot: ride LA-San Diego in ONE day (218 km, +685 m, easily inside your range) rather than planning to camp partway. Position approximate.",
+   "km": 170.4,
+   "offset_m": 39,
+   "ele_m": 12,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "name": "BAILOUT/FINISH San Diego Santa Fe Depot",
+   "lat": 32.71685,
+   "lon": -117.16956,
+   "cat": "bailout",
+   "sym": "Car",
+   "desc": "1050 Kettner Blvd, downtown. Pacific Surfliner: FREE bike reservations, 7 bike spaces per train, roll-on. Getting home = Surfliner to LA, then Coast Starlight north (6 bikes in the baggage car, books out). Note this is one MORE transfer than finishing at LA Union Station, not fewer - but San Diego airport is 5 km from here, which LAX is not. Surfliner also runs SD all the way to San Luis Obispo.",
+   "km": 218.2,
+   "offset_m": 20,
+   "ele_m": 5,
+   "stage": "pch_day4_la_sandiego"
+  },
+  {
+   "name": "INFO LA River path - how you get out of Union Station",
+   "lat": 33.985,
+   "lon": -118.205,
+   "cat": "info",
+   "sym": "Bike Trail",
+   "desc": "Day 4 leaves downtown on the Los Angeles River path south to Long Beach, which is why the first 38 km are almost all Class I. Day 4 is 25% bike path overall (54.6 km of 218 km) - by far the most protected day of the whole trip.",
+   "km": 10.3,
+   "offset_m": 219,
+   "ele_m": 50,
+   "stage": "pch_day4_la_sandiego"
   }
  ]
 }

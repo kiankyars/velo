@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-05T03:44:02Z",
+ "generated_utc": "2026-08-07T20:13:20Z",
  "profile": "velo_pch_road.brf (BRouter, processUnusedTags=true) on OpenStreetMap; PERMISSIVE_LEGS use velo_pch_road_bridge.brf",
  "simplify_tolerance_m": 2.5,
  "stages": [
@@ -8,6 +8,7 @@
    "name": "Day 1 - San Francisco to Limekiln State Park",
    "desc": "Out of San Francisco on the Great Highway, the Devil's Slide Trail around the bike-banned tunnels, the San Mateo coast to Santa Cruz, around Monterey Bay, 17-Mile Drive to Carmel, then the whole of Big Sur to the Limekiln hike/bike site two miles south of Lucia.",
    "is_main_stage": true,
+   "optional_extension": false,
    "distance_km": 297.2,
    "ascent_m_filtered": 2889,
    "ascent_m_raw_srtm": 5309,
@@ -15,6 +16,7 @@
    "points_saved": 2876,
    "audit": {
     "bicycle_no_km": 0.0,
+    "access_permit_km": 0.0,
     "motorway_km": 0.516,
     "motorway_bicycle_legal_km": 0.516,
     "motorway_not_legal_km": 0.0,
@@ -271,6 +273,7 @@
    "name": "Day 2 - Limekiln State Park to Refugio State Beach",
    "desc": "The southern Big Sur coast (Kirk Creek, Gorda, Ragged Point), the elephant seals at Piedras Blancas, Cambria and Morro Bay, inland to San Luis Obispo, down the dunes through Guadalupe to Lompoc, over the Santa Rosa Hills to Las Cruces and out to the Gaviota coast.",
    "is_main_stage": true,
+   "optional_extension": false,
    "distance_km": 279.5,
    "ascent_m_filtered": 2148,
    "ascent_m_raw_srtm": 4084,
@@ -278,6 +281,7 @@
    "points_saved": 2335,
    "audit": {
     "bicycle_no_km": 0.0,
+    "access_permit_km": 0.0,
     "motorway_km": 10.623,
     "motorway_bicycle_legal_km": 10.623,
     "motorway_not_legal_km": 0.0,
@@ -518,6 +522,7 @@
    "name": "Day 3 - Refugio State Beach to Los Angeles Union Station",
    "desc": "The Santa Barbara channel coast, the Rincon, Ventura and Oxnard, Point Mugu and the Malibu shoreline on PCH, Santa Monica, then east across Los Angeles to Union Station and the train home.",
    "is_main_stage": true,
+   "optional_extension": false,
    "distance_km": 205.7,
    "ascent_m_filtered": 611,
    "ascent_m_raw_srtm": 1767,
@@ -525,6 +530,7 @@
    "points_saved": 1586,
    "audit": {
     "bicycle_no_km": 0.391,
+    "access_permit_km": 0.0,
     "motorway_km": 7.525,
     "motorway_bicycle_legal_km": 7.134,
     "motorway_not_legal_km": 0.391,
@@ -760,10 +766,820 @@
    ]
   },
   {
+   "id": "pch_day4_la_sandiego",
+   "name": "Day 4 (OPTIONAL) - Los Angeles to San Diego",
+   "desc": "The optional extension. Out of Union Station on the Los Angeles River path to Long Beach, the Orange County beach cities, then the San Diego North County coast to Santa Fe Depot. Camp Pendleton is bypassed on the Caltrans-permitted I-5 shoulder, so no base pass is needed; see pch_day4_alt_pendleton.gpx for the through-the-base line.",
+   "is_main_stage": true,
+   "optional_extension": true,
+   "distance_km": 218.2,
+   "ascent_m_filtered": 685,
+   "ascent_m_raw_srtm": 1788,
+   "points_raw": 5396,
+   "points_saved": 1891,
+   "audit": {
+    "bicycle_no_km": 0.0,
+    "access_permit_km": 0.0,
+    "motorway_km": 27.191,
+    "motorway_bicycle_legal_km": 26.789,
+    "motorway_not_legal_km": 0.402,
+    "ferry_km": 0.0,
+    "steps_km": 0.0,
+    "unpaved_km": 0.0,
+    "unpaved_pct": 0.0,
+    "tunnel_km": 0.31,
+    "bridge_km": 5.226,
+    "on_cyclenetwork_pct": 73.5,
+    "road_mix_km": {
+     "trunk": 28.7,
+     "primary": 44.8,
+     "secondary": 31.5,
+     "tertiary": 21.6,
+     "residential": 2.0,
+     "cycleway": 54.6,
+     "path": 4.4,
+     "service": 2.0
+    }
+   },
+   "flagged": {
+    "motorway": [
+     {
+      "lat": 33.38476,
+      "lon": -117.58329,
+      "len_m": 695,
+      "tags": "highway=motorway_link surface=asphalt estimated_forest_class=3 estimated_noise_class=6 sidewalk=no oneway=yes"
+     },
+     {
+      "lat": 33.38145,
+      "lon": -117.57317,
+      "len_m": 357,
+      "tags": "highway=motorway estimated_noise_class=6 estimated_river_class=1 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.35436,
+      "lon": -117.52837,
+      "len_m": 5164,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.34597,
+      "lon": -117.51621,
+      "len_m": 1465,
+      "tags": "highway=motorway surface=concrete lit=yes estimated_noise_class=6 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.31823,
+      "lon": -117.48252,
+      "len_m": 5133,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.30142,
+      "lon": -117.46797,
+      "len_m": 2606,
+      "tags": "highway=motorway lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.29224,
+      "lon": -117.45765,
+      "len_m": 601,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=6 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.27595,
+      "lon": -117.44528,
+      "len_m": 2680,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.23593,
+      "lon": -117.40733,
+      "len_m": 5071,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 estimated_river_class=1 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.22525,
+      "lon": -117.39539,
+      "len_m": 1715,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 estimated_river_class=4 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.21348,
+      "lon": -117.38937,
+      "len_m": 1704,
+      "tags": "highway=motorway lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
+     }
+    ],
+    "tunnel": [
+     {
+      "lat": 34.05697,
+      "lon": -118.23319,
+      "len_m": 155,
+      "tags": "highway=primary estimated_noise_class=5 estimated_town_class=6 maxspeed=60 estimated_traffic_class=6 lanes=4 tunnel=yes route_bicycle_ncn=yes sidewalk:both=separate"
+     },
+     {
+      "lat": 33.76525,
+      "lon": -118.19649,
+      "len_m": 55,
+      "tags": "highway=secondary estimated_noise_class=6 estimated_town_class=4 estimated_traffic_class=6 lanes=1 tunnel=building_passage oneway=yes"
+     }
+    ]
+   },
+   "climbs": [
+    {
+     "start_km": 180.4,
+     "summit_km": 185.3,
+     "length_km": 4.84,
+     "gain_m": 127,
+     "avg_pct": 2.6,
+     "summit_ele_m": 132,
+     "summit_lat": 32.89495,
+     "summit_lon": -117.24139
+    }
+   ],
+   "permissive_legs_used": [],
+   "cue_sheet": [
+    {
+     "label": "LA Union Station (START)",
+     "km": 0.0,
+     "offset_m": 2,
+     "lat": 34.05606,
+     "lon": -118.2359,
+     "ele_m": 90
+    },
+    {
+     "label": "LA River path (Vernon)",
+     "km": 10.3,
+     "offset_m": 219,
+     "lat": 33.985,
+     "lon": -118.205,
+     "ele_m": 50
+    },
+    {
+     "label": "Long Beach (Shoreline)",
+     "km": 38.7,
+     "offset_m": 87,
+     "lat": 33.76076,
+     "lon": -118.19019,
+     "ele_m": 6
+    },
+    {
+     "label": "Seal Beach",
+     "km": 49.0,
+     "offset_m": 126,
+     "lat": 33.7424,
+     "lon": -118.10559,
+     "ele_m": 8
+    },
+    {
+     "label": "Huntington Beach Pier",
+     "km": 63.4,
+     "offset_m": 292,
+     "lat": 33.6546,
+     "lon": -118.00465,
+     "ele_m": 2
+    },
+    {
+     "label": "Newport Beach Pier",
+     "km": 76.8,
+     "offset_m": 112,
+     "lat": 33.60307,
+     "lon": -117.88405,
+     "ele_m": 10
+    },
+    {
+     "label": "Laguna Beach",
+     "km": 88.4,
+     "offset_m": 7,
+     "lat": 33.5427,
+     "lon": -117.78537,
+     "ele_m": 6
+    },
+    {
+     "label": "Dana Point",
+     "km": 100.6,
+     "offset_m": 0,
+     "lat": 33.46336,
+     "lon": -117.70536,
+     "ele_m": 20
+    },
+    {
+     "label": "San Clemente Pier",
+     "km": 111.7,
+     "offset_m": 3,
+     "lat": 33.41961,
+     "lon": -117.61974,
+     "ele_m": 12
+    },
+    {
+     "label": "Oceanside Pier",
+     "km": 147.8,
+     "offset_m": 84,
+     "lat": 33.19427,
+     "lon": -117.38444,
+     "ele_m": 10
+    },
+    {
+     "label": "Carlsbad Village",
+     "km": 152.9,
+     "offset_m": 1,
+     "lat": 33.16245,
+     "lon": -117.35217,
+     "ele_m": 13
+    },
+    {
+     "label": "Encinitas",
+     "km": 168.3,
+     "offset_m": 36,
+     "lat": 33.03699,
+     "lon": -117.29198,
+     "ele_m": 24
+    },
+    {
+     "label": "Del Mar",
+     "km": 177.5,
+     "offset_m": 1,
+     "lat": 32.95949,
+     "lon": -117.26531,
+     "ele_m": 35
+    },
+    {
+     "label": "Torrey Pines State Beach",
+     "km": 180.7,
+     "offset_m": 37,
+     "lat": 32.9314,
+     "lon": -117.26041,
+     "ele_m": 4
+    },
+    {
+     "label": "La Jolla Cove",
+     "km": 193.1,
+     "offset_m": 46,
+     "lat": 32.8505,
+     "lon": -117.27304,
+     "ele_m": 14
+    },
+    {
+     "label": "Mission Beach",
+     "km": 202.0,
+     "offset_m": 2,
+     "lat": 32.78259,
+     "lon": -117.25249,
+     "ele_m": 4
+    },
+    {
+     "label": "San Diego Santa Fe Depot (FINISH)",
+     "km": 218.2,
+     "offset_m": 20,
+     "lat": 32.71685,
+     "lon": -117.16956,
+     "ele_m": 5
+    }
+   ]
+  },
+  {
+   "id": "pch_day4_alt_pendleton",
+   "name": "Day 4 variant - through Camp Pendleton (needs a DBIDS pass)",
+   "desc": "The same day but on the old highway and bike path THROUGH Camp Pendleton instead of the I-5 shoulder: 13 km of quiet base road rather than 27 km of freeway. Measures the same distance. Requires a DBIDS Recreational Bicycle pass, in person only at the Visitor Center by the Main Gate at the OCEANSIDE end, Mon/Tue/Thu/Fri 07:30-15:30 and Wed 07:45-15:30, valid one year. A southbound rider cannot obtain one en route - get it beforehand or ride the default I-5 line. The path also closes for military exercises.",
+   "is_main_stage": false,
+   "optional_extension": false,
+   "distance_km": 218.1,
+   "ascent_m_filtered": 684,
+   "ascent_m_raw_srtm": 1822,
+   "points_raw": 5535,
+   "points_saved": 1948,
+   "audit": {
+    "bicycle_no_km": 0.0,
+    "access_permit_km": 0.08,
+    "motorway_km": 12.231,
+    "motorway_bicycle_legal_km": 12.231,
+    "motorway_not_legal_km": 0.0,
+    "ferry_km": 0.0,
+    "steps_km": 0.0,
+    "unpaved_km": 0.0,
+    "unpaved_pct": 0.0,
+    "tunnel_km": 0.31,
+    "bridge_km": 5.094,
+    "on_cyclenetwork_pct": 80.6,
+    "road_mix_km": {
+     "trunk": 28.7,
+     "primary": 44.8,
+     "secondary": 31.8,
+     "tertiary": 25.8,
+     "residential": 2.0,
+     "cycleway": 59.6,
+     "path": 4.4,
+     "service": 2.2
+    }
+   },
+   "flagged": {
+    "motorway": [
+     {
+      "lat": 33.29584,
+      "lon": -117.4612,
+      "len_m": 1061,
+      "tags": "highway=motorway_link estimated_noise_class=6 lanes=1 bicycle=yes sidewalk=no cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.27595,
+      "lon": -117.44528,
+      "len_m": 2680,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.23593,
+      "lon": -117.40733,
+      "len_m": 5071,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 estimated_river_class=1 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.22525,
+      "lon": -117.39539,
+      "len_m": 1715,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 estimated_river_class=4 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.21348,
+      "lon": -117.38937,
+      "len_m": 1704,
+      "tags": "highway=motorway lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
+     }
+    ],
+    "tunnel": [
+     {
+      "lat": 34.05697,
+      "lon": -118.23319,
+      "len_m": 155,
+      "tags": "highway=primary estimated_noise_class=5 estimated_town_class=6 maxspeed=60 estimated_traffic_class=6 lanes=4 tunnel=yes route_bicycle_ncn=yes sidewalk:both=separate"
+     },
+     {
+      "lat": 33.76525,
+      "lon": -118.19649,
+      "len_m": 55,
+      "tags": "highway=secondary estimated_noise_class=6 estimated_town_class=4 estimated_traffic_class=6 lanes=1 tunnel=building_passage oneway=yes"
+     }
+    ],
+    "permit": [
+     {
+      "lat": 33.30024,
+      "lon": -117.46344,
+      "len_m": 80,
+      "tags": "highway=unclassified estimated_noise_class=3 access=permit bicycle=yes route_bicycle_ncn=yes route_hiking_rwn=yes"
+     }
+    ]
+   },
+   "climbs": [
+    {
+     "start_km": 180.4,
+     "summit_km": 185.2,
+     "length_km": 4.84,
+     "gain_m": 127,
+     "avg_pct": 2.6,
+     "summit_ele_m": 132,
+     "summit_lat": 32.89495,
+     "summit_lon": -117.24139
+    }
+   ],
+   "permissive_legs_used": [],
+   "cue_sheet": [
+    {
+     "label": "LA Union Station (START)",
+     "km": 0.0,
+     "offset_m": 2,
+     "lat": 34.05606,
+     "lon": -118.2359,
+     "ele_m": 90
+    },
+    {
+     "label": "LA River path (Vernon)",
+     "km": 10.3,
+     "offset_m": 219,
+     "lat": 33.985,
+     "lon": -118.205,
+     "ele_m": 50
+    },
+    {
+     "label": "Long Beach (Shoreline)",
+     "km": 38.7,
+     "offset_m": 87,
+     "lat": 33.76076,
+     "lon": -118.19019,
+     "ele_m": 6
+    },
+    {
+     "label": "Seal Beach",
+     "km": 49.0,
+     "offset_m": 126,
+     "lat": 33.7424,
+     "lon": -118.10559,
+     "ele_m": 8
+    },
+    {
+     "label": "Huntington Beach Pier",
+     "km": 63.4,
+     "offset_m": 292,
+     "lat": 33.6546,
+     "lon": -118.00465,
+     "ele_m": 2
+    },
+    {
+     "label": "Newport Beach Pier",
+     "km": 76.8,
+     "offset_m": 112,
+     "lat": 33.60307,
+     "lon": -117.88405,
+     "ele_m": 10
+    },
+    {
+     "label": "Laguna Beach",
+     "km": 88.4,
+     "offset_m": 7,
+     "lat": 33.5427,
+     "lon": -117.78537,
+     "ele_m": 6
+    },
+    {
+     "label": "Dana Point",
+     "km": 100.6,
+     "offset_m": 0,
+     "lat": 33.46336,
+     "lon": -117.70536,
+     "ele_m": 20
+    },
+    {
+     "label": "San Clemente Pier",
+     "km": 111.7,
+     "offset_m": 3,
+     "lat": 33.41961,
+     "lon": -117.61974,
+     "ele_m": 12
+    },
+    {
+     "label": "Oceanside Pier",
+     "km": 147.7,
+     "offset_m": 84,
+     "lat": 33.19427,
+     "lon": -117.38444,
+     "ele_m": 10
+    },
+    {
+     "label": "Carlsbad Village",
+     "km": 152.8,
+     "offset_m": 1,
+     "lat": 33.16245,
+     "lon": -117.35217,
+     "ele_m": 13
+    },
+    {
+     "label": "Encinitas",
+     "km": 168.3,
+     "offset_m": 36,
+     "lat": 33.03699,
+     "lon": -117.29198,
+     "ele_m": 24
+    },
+    {
+     "label": "Del Mar",
+     "km": 177.4,
+     "offset_m": 1,
+     "lat": 32.95949,
+     "lon": -117.26531,
+     "ele_m": 35
+    },
+    {
+     "label": "Torrey Pines State Beach",
+     "km": 180.6,
+     "offset_m": 37,
+     "lat": 32.9314,
+     "lon": -117.26041,
+     "ele_m": 4
+    },
+    {
+     "label": "La Jolla Cove",
+     "km": 193.0,
+     "offset_m": 46,
+     "lat": 32.8505,
+     "lon": -117.27304,
+     "ele_m": 14
+    },
+    {
+     "label": "Mission Beach",
+     "km": 201.9,
+     "offset_m": 2,
+     "lat": 32.78259,
+     "lon": -117.25249,
+     "ele_m": 4
+    },
+    {
+     "label": "San Diego Santa Fe Depot (FINISH)",
+     "km": 218.1,
+     "offset_m": 20,
+     "lat": 32.71685,
+     "lon": -117.16956,
+     "ele_m": 5
+    }
+   ]
+  },
+  {
+   "id": "pch_day5_sd_border",
+   "name": "Day 5 (optional) - San Diego to the Mexican border",
+   "desc": "The last 40 km of the Pacific Coast Bike Route: Santa Fe Depot through Coronado and the Silver Strand to Imperial Beach and Border Field State Park, where the route ends at the Mexican border. Short, flat, and the only way to say you rode the whole thing. Border Field's access road floods and closes - check before committing to the last 3 km.",
+   "is_main_stage": false,
+   "optional_extension": false,
+   "distance_km": 244.3,
+   "ascent_m_filtered": 716,
+   "ascent_m_raw_srtm": 1972,
+   "points_raw": 6138,
+   "points_saved": 2111,
+   "audit": {
+    "bicycle_no_km": 0.0,
+    "access_permit_km": 0.0,
+    "motorway_km": 27.191,
+    "motorway_bicycle_legal_km": 26.789,
+    "motorway_not_legal_km": 0.402,
+    "ferry_km": 0.0,
+    "steps_km": 0.0,
+    "unpaved_km": 0.086,
+    "unpaved_pct": 0.035,
+    "tunnel_km": 0.347,
+    "bridge_km": 5.92,
+    "on_cyclenetwork_pct": 73.2,
+    "road_mix_km": {
+     "trunk": 31.2,
+     "primary": 51.1,
+     "secondary": 33.0,
+     "tertiary": 27.4,
+     "residential": 3.2,
+     "cycleway": 63.0,
+     "path": 4.7,
+     "service": 2.0
+    }
+   },
+   "flagged": {
+    "motorway": [
+     {
+      "lat": 33.38476,
+      "lon": -117.58329,
+      "len_m": 695,
+      "tags": "highway=motorway_link surface=asphalt estimated_forest_class=3 estimated_noise_class=6 sidewalk=no oneway=yes"
+     },
+     {
+      "lat": 33.38145,
+      "lon": -117.57317,
+      "len_m": 357,
+      "tags": "highway=motorway estimated_noise_class=6 estimated_river_class=1 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.35436,
+      "lon": -117.52837,
+      "len_m": 5164,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.34597,
+      "lon": -117.51621,
+      "len_m": 1465,
+      "tags": "highway=motorway surface=concrete lit=yes estimated_noise_class=6 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.31823,
+      "lon": -117.48252,
+      "len_m": 5133,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.30142,
+      "lon": -117.46797,
+      "len_m": 2606,
+      "tags": "highway=motorway lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated oneway=yes"
+     },
+     {
+      "lat": 33.29224,
+      "lon": -117.45765,
+      "len_m": 601,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=6 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.27595,
+      "lon": -117.44528,
+      "len_m": 2680,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.23593,
+      "lon": -117.40733,
+      "len_m": 5071,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 estimated_river_class=1 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.22525,
+      "lon": -117.39539,
+      "len_m": 1715,
+      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 estimated_river_class=4 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
+     },
+     {
+      "lat": 33.21348,
+      "lon": -117.38937,
+      "len_m": 1704,
+      "tags": "highway=motorway lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
+     }
+    ],
+    "unpaved": [
+     {
+      "lat": 32.55771,
+      "lon": -117.09574,
+      "len_m": 86,
+      "tags": "reversedirection=yes highway=path surface=unpaved estimated_forest_class=1 estimated_river_class=5"
+     }
+    ],
+    "tunnel": [
+     {
+      "lat": 34.05697,
+      "lon": -118.23319,
+      "len_m": 155,
+      "tags": "highway=primary estimated_noise_class=5 estimated_town_class=6 maxspeed=60 estimated_traffic_class=6 lanes=4 tunnel=yes route_bicycle_ncn=yes sidewalk:both=separate"
+     },
+     {
+      "lat": 33.76525,
+      "lon": -118.19649,
+      "len_m": 55,
+      "tags": "highway=secondary estimated_noise_class=6 estimated_town_class=4 estimated_traffic_class=6 lanes=1 tunnel=building_passage oneway=yes"
+     }
+    ]
+   },
+   "climbs": [
+    {
+     "start_km": 180.4,
+     "summit_km": 185.3,
+     "length_km": 4.84,
+     "gain_m": 127,
+     "avg_pct": 2.6,
+     "summit_ele_m": 132,
+     "summit_lat": 32.89495,
+     "summit_lon": -117.24139
+    }
+   ],
+   "permissive_legs_used": [],
+   "cue_sheet": [
+    {
+     "label": "LA Union Station (START)",
+     "km": 0.0,
+     "offset_m": 2,
+     "lat": 34.05606,
+     "lon": -118.2359,
+     "ele_m": 90
+    },
+    {
+     "label": "LA River path (Vernon)",
+     "km": 10.3,
+     "offset_m": 219,
+     "lat": 33.985,
+     "lon": -118.205,
+     "ele_m": 50
+    },
+    {
+     "label": "Long Beach (Shoreline)",
+     "km": 38.7,
+     "offset_m": 87,
+     "lat": 33.76076,
+     "lon": -118.19019,
+     "ele_m": 6
+    },
+    {
+     "label": "Seal Beach",
+     "km": 49.0,
+     "offset_m": 126,
+     "lat": 33.7424,
+     "lon": -118.10559,
+     "ele_m": 8
+    },
+    {
+     "label": "Huntington Beach Pier",
+     "km": 63.4,
+     "offset_m": 292,
+     "lat": 33.6546,
+     "lon": -118.00465,
+     "ele_m": 2
+    },
+    {
+     "label": "Newport Beach Pier",
+     "km": 76.8,
+     "offset_m": 112,
+     "lat": 33.60307,
+     "lon": -117.88405,
+     "ele_m": 10
+    },
+    {
+     "label": "Laguna Beach",
+     "km": 88.4,
+     "offset_m": 7,
+     "lat": 33.5427,
+     "lon": -117.78537,
+     "ele_m": 6
+    },
+    {
+     "label": "Dana Point",
+     "km": 100.6,
+     "offset_m": 0,
+     "lat": 33.46336,
+     "lon": -117.70536,
+     "ele_m": 20
+    },
+    {
+     "label": "San Clemente Pier",
+     "km": 111.7,
+     "offset_m": 3,
+     "lat": 33.41961,
+     "lon": -117.61974,
+     "ele_m": 12
+    },
+    {
+     "label": "Oceanside Pier",
+     "km": 147.8,
+     "offset_m": 84,
+     "lat": 33.19427,
+     "lon": -117.38444,
+     "ele_m": 10
+    },
+    {
+     "label": "Carlsbad Village",
+     "km": 152.9,
+     "offset_m": 1,
+     "lat": 33.16245,
+     "lon": -117.35217,
+     "ele_m": 13
+    },
+    {
+     "label": "Encinitas",
+     "km": 168.3,
+     "offset_m": 36,
+     "lat": 33.03699,
+     "lon": -117.29198,
+     "ele_m": 24
+    },
+    {
+     "label": "Del Mar",
+     "km": 177.5,
+     "offset_m": 1,
+     "lat": 32.95949,
+     "lon": -117.26531,
+     "ele_m": 35
+    },
+    {
+     "label": "Torrey Pines State Beach",
+     "km": 180.7,
+     "offset_m": 37,
+     "lat": 32.9314,
+     "lon": -117.26041,
+     "ele_m": 4
+    },
+    {
+     "label": "La Jolla Cove",
+     "km": 193.1,
+     "offset_m": 46,
+     "lat": 32.8505,
+     "lon": -117.27304,
+     "ele_m": 14
+    },
+    {
+     "label": "Mission Beach",
+     "km": 202.0,
+     "offset_m": 2,
+     "lat": 32.78259,
+     "lon": -117.25249,
+     "ele_m": 4
+    },
+    {
+     "label": "San Diego Santa Fe Depot (FINISH)",
+     "km": 218.2,
+     "offset_m": 20,
+     "lat": 32.71685,
+     "lon": -117.16956,
+     "ele_m": 5
+    },
+    {
+     "label": "Imperial Beach",
+     "km": 239.0,
+     "offset_m": 7,
+     "lat": 32.58389,
+     "lon": -117.11305,
+     "ele_m": 8
+    },
+    {
+     "label": "Border Field SP (MEXICO)",
+     "km": 244.3,
+     "offset_m": 57,
+     "lat": 32.55638,
+     "lon": -117.09673,
+     "ele_m": 6
+    }
+   ]
+  },
+  {
    "id": "pch_day1_alt_pfeiffer",
    "name": "Day 1 variant - stop early at Big Sur Village / Pfeiffer",
    "desc": "Day 1 cut from 326 km to 282 km by stopping in Big Sur Village instead of pressing on to Limekiln. Worth having loaded: it is the decision point for whether you descend the Big Sur cliffs in the dark, and the village is the last place with food, water and a campground in one spot.",
    "is_main_stage": false,
+   "optional_extension": false,
    "distance_km": 256.1,
    "ascent_m_filtered": 2151,
    "ascent_m_raw_srtm": 3978,
@@ -771,6 +1587,7 @@
    "points_saved": 2328,
    "audit": {
     "bicycle_no_km": 0.0,
+    "access_permit_km": 0.0,
     "motorway_km": 0.516,
     "motorway_bicycle_legal_km": 0.516,
     "motorway_not_legal_km": 0.0,
