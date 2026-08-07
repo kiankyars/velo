@@ -65,8 +65,12 @@ HARVEST = [
 SAMPLE_M = 1000.0      # spacing of the `around` polyline sent to Overpass
 
 
-def build_stage_track(pts):
-    """Re-route a stage (from cache) and return its track."""
+def build_stage_track(pts, nogos=()):
+    """Re-route a stage (from cache) and return its track.
+
+    nogos must match what build_pch_route.py used for the same stage, or the
+    harvested POI distances would be measured against a different line.
+    """
     runs, cur = [], [pts[0]]
     for i in range(len(pts) - 1):
         if (pts[i][0], pts[i + 1][0]) in PERMISSIVE_LEGS:
@@ -84,7 +88,8 @@ def build_stage_track(pts):
         i = 0
         while i < len(run_pts) - 1:
             chunk = run_pts[i:i + step + 1]
-            a = analyze_brouter(brouter([(la, lo) for _, la, lo in chunk], bridge=is_bridge))
+            a = analyze_brouter(brouter([(la, lo) for _, la, lo in chunk],
+                                        bridge=is_bridge, nogos=nogos))
             seg = a["track"]
             if track and haversine((track[-1][0], track[-1][1]),
                                    (seg[0][0], seg[0][1])) < 60:
@@ -134,13 +139,23 @@ def overpass(query):
     raise RuntimeError(f"all overpass mirrors failed: {last}")
 
 
-def harvest(track, label, filt, radius, sym, cat):
+def harvest(track, label, filt, radius, sym, cat, dropped=None):
+    """Harvest one category. A category that cannot be fetched is RECORDED as
+    dropped and skipped, rather than killing a 25-minute run - but it is never
+    dropped silently, because a missing category looks identical to "there is no
+    water on this stretch", which is exactly the wrong thing to believe."""
     poly = sample_along(track)
     around = ",".join(f"{p[0]:.5f},{p[1]:.5f}" for p in poly)
     q = (f'[out:json][timeout:240];'
          f'nwr{filt}(around:{radius},{around});'
          f'out center tags;')
-    d = overpass(q)
+    try:
+        d = overpass(q)
+    except RuntimeError as e:                                    # noqa: BLE001
+        print(f"    {label:18s} DROPPED - Overpass unavailable ({e})")
+        if dropped is not None:
+            dropped.append({"category": label, "radius_m": radius, "error": str(e)})
+        return []
     found = []
     for e in d.get("elements", []):
         c = e.get("center") or {"lat": e.get("lat"), "lon": e.get("lon")}
@@ -220,18 +235,19 @@ def main():
     per_stage = {}
     for stage in STAGES:
         print(f"\n{stage['id']}:", flush=True)
-        track = build_stage_track(stage["pts"])
+        track = build_stage_track(stage["pts"], nogos=stage.get("nogos", ()))
         km = cumdist(track)
         stage_km = km[-1]
 
         osm_rows = []
+        dropped = []
         if no_net:
             osm_rows = [r for r in cached.get("pois", [])
                         if r.get("stage") == stage["id"] and r.get("osm")]
             print(f"    reusing {len(osm_rows)} cached OSM rows")
         else:
             for label, filt, radius, sym, cat in HARVEST:
-                osm_rows += harvest(track, label, filt, radius, sym, cat)
+                osm_rows += harvest(track, label, filt, radius, sym, cat, dropped)
 
         osm_rows = annotate(osm_rows, track, km)
         osm_rows = [r for r in osm_rows if r["offset_m"] <= 1600]
@@ -250,7 +266,11 @@ def main():
             "resupply_points_on_road": n_supply,
             "longest_no_water_no_food_km": gap_km,
             "that_gap_starts_at_km": gap_at,
+            "dropped_categories": dropped,
         }
+        if dropped:
+            print(f"    WARNING: {len(dropped)} category/categories dropped for "
+                  f"{stage['id']}: {[d['category'] for d in dropped]}")
         print(f"    {len(osm_rows)} OSM + {len(cur_rows)} curated; "
               f"longest gap with no water/food: {gap_km} km from km {gap_at}")
 

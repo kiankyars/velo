@@ -176,6 +176,57 @@
       "CHECK the Vandenberg launch schedule for your date - CA-1 past the base can close at a few hours' notice",
       "BOOK the bicycle on the Coast Starlight out of LA Union Station - separate reservation, limited space",
       "GET a free California Campfire Permit if carrying a stove"
+    ],
+    "optional_extension": {
+      "_verdict": "Works and needs no new bookings; flattest and best-supplied day of the trip; least interesting riding. See EXTENSIONS.md.",
+      "name": "Day 4 - Los Angeles to San Diego",
+      "gpx_file": "pch_day4_la_sandiego.gpx",
+      "distance_km": 218.2,
+      "ascent_m": 685,
+      "extended_totals": {
+        "distance_km": 1000.6,
+        "ascent_m_filtered": 6333,
+        "stages": 4,
+        "master_gpx": "pch_sf_sd_master.gpx"
+      },
+      "crux": "Camp Pendleton. 27 km of coast is Marine Corps base. Through the base needs a DBIDS Recreational Bicycle pass, in person only at the Visitor Center by the Main Gate at the OCEANSIDE end, Mon/Tue/Thu/Fri 07:30-15:30 and Wed 07:45-15:30 - unobtainable en route southbound. The Caltrans-permitted I-5 shoulder (Basilone Rd to Oceanside, exits 62-54) bypasses it and measures the same: 36.14 km vs 36.06 km. Default GPX takes the I-5 line; pch_day4_alt_pendleton.gpx takes the base if you hold the pass.",
+      "camping_warning": "Hiker/biker sites at San Onofre, San Clemente and South Carlsbad State Beaches are reported ELIMINATED; only San Elijo #94 remains (FCFS after 16:00, vacate 09:00, one night, $10/person). Ride LA-San Diego in ONE day rather than planning to camp partway.",
+      "border_option": {
+        "gpx_file": "pch_day5_sd_border.gpx",
+        "adds_km": 26.0,
+        "note": "Santa Fe Depot to Border Field SP, the end of the Pacific Coast Bike Route. Bicycles cannot use the San Diego-Coronado Bridge: the GPX goes round the bay (26.0 km), or take the Coronado ferry from Broadway Pier and the Silver Strand (24.8 km incl. a 2.4 km boat)."
+      },
+      "return_home": "Pacific Surfliner from Santa Fe Depot (FREE bike reservation, 7 roll-on spaces) to LA, then Coast Starlight north (6 bikes, books out) - one transfer MORE than finishing at LA. Offset: San Diego airport is 5 km from the depot."
+    },
+    "alternatives_considered": [
+      {
+        "option": "Prepend Leggett -> San Francisco (Sonoma/Mendocino coast)",
+        "distance_km": 357.2,
+        "ascent_m": 4301,
+        "verdict": "BEST RIDING of any extension and tailwind-correct, but needs the Amtrak San Joaquins Thruway Bus Route 7 to Leggett with a bike space that is first-come-first-served, not reservable. Not realistic two days out.",
+        "built": false
+      },
+      {
+        "option": "Prepend Bodega Bay -> San Francisco",
+        "distance_km": 114.8,
+        "ascent_m": 1284,
+        "verdict": "Half a day, most of the quality, no bus needed.",
+        "built": false
+      },
+      {
+        "option": "Prepend Point Reyes -> San Francisco",
+        "distance_km": 67.0,
+        "ascent_m": 877,
+        "verdict": "Nearly free prologue / shakedown over the Golden Gate.",
+        "built": false
+      },
+      {
+        "option": "Loop home inland LA -> Central Valley -> SF",
+        "distance_km": 779.4,
+        "ascent_m": 3175,
+        "verdict": "NO. As long as the whole southbound trip, and Fresno was forecast an 11-day run of 103-108F (39-42C) for early Aug 2026 with NWS moderate-to-major heat risk. Heat-injury exposure, not a hard day.",
+        "built": false
+      }
     ]
   }
 }

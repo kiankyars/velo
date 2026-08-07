@@ -314,4 +314,78 @@ SERVICES = [
               "and drop back onto 101 if it is shut."),
 ]
 
-POIS = CAMPING + LODGING + HAZARDS + BAILOUTS + SERVICES
+# ---------------------------------------------------------------------------
+# The optional San Diego extension (day 4)
+# ---------------------------------------------------------------------------
+EXTENSION = [
+    dict(name="CRUX Camp Pendleton - the only real problem on day 4",
+         lat=33.30020, lon=-117.46340, cat="hazard", sym="Danger Area",
+         desc="27 km of coast between San Onofre and Oceanside is Marine Corps base "
+              "with no public road. Two ways through, and they MEASURE THE SAME "
+              "(36.1 km either way): "
+              "(1) THROUGH THE BASE on the old highway and base bike path - quiet and "
+              "pleasant, but needs a DBIDS Recreational Bicycle pass, obtainable IN "
+              "PERSON ONLY at the Visitor Center by the Main Gate (Bldg 20255T), which "
+              "is at the OCEANSIDE end - the far side from a southbound rider. "
+              "Mon/Tue/Thu/Fri 07:30-15:30, Wed 07:45-15:30, valid one year. You "
+              "cannot get one en route. The path also closes for military exercises. "
+              "(2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and "
+              "Oceanside (exits 62-54) - no pass, no gate, no business hours, but "
+              "27 km of freeway shoulder instead of 13 km of quiet road. "
+              "The default GPX takes option 2. pch_day4_alt_pendleton.gpx takes "
+              "option 1 if you have the pass. This waypoint is the base bicycle gate "
+              "itself (tagged access=permit in OSM)."),
+    dict(name="INFO Aliso Creek rest area - water on the I-5 stretch",
+         lat=33.31500, lon=-117.48200, cat="water", sym="Drinking Water",
+         desc="On the I-5 bypass stretch through Camp Pendleton: water, restrooms and "
+              "vending machines. The only stop in 27 km of freeway shoulder. Position "
+              "approximate."),
+    dict(name="Torrey Pines - the only climb on day 4",
+         lat=32.89495, lon=-117.24139, cat="info", sym="Summit",
+         desc="4.84 km at 2.6% to 132 m, the single climb over 60 m on the whole "
+              "218 km day (which totals just +685 m). Detected from the route's own "
+              "elevation profile. Torrey Pines Rd out of Del Mar; the coast road "
+              "through the reserve is the scenic line."),
+    dict(name="San Elijo SB - the ONLY hike/bike site left on the extension",
+         lat=33.02000, lon=-117.28300, cat="camp", sym="Campground",
+         desc="One single hike/bike site (#94), FIRST COME FIRST SERVED after 16:00, "
+              "vacate by 09:00, ONE NIGHT ONLY, $10 per person. "
+              "IMPORTANT: hiker/biker sites at San Onofre, San Clemente and South "
+              "Carlsbad State Beaches have reportedly been ELIMINATED, so this is the "
+              "only cheap legal bed on the LA-San Diego coast. VERIFY with San Diego "
+              "Coast District before relying on it - the elimination report is a "
+              "cyclist forum, not a parks.ca.gov page. Practical upshot: ride "
+              "LA-San Diego in ONE day (218 km, +685 m, easily inside your range) "
+              "rather than planning to camp partway. Position approximate."),
+    dict(name="BAILOUT/FINISH San Diego Santa Fe Depot", lat=32.71685, lon=-117.16956,
+         cat="bailout", sym="Car",
+         desc="1050 Kettner Blvd, downtown. Pacific Surfliner: FREE bike reservations, "
+              "7 bike spaces per train, roll-on. Getting home = Surfliner to LA, then "
+              "Coast Starlight north (6 bikes in the baggage car, books out). Note "
+              "this is one MORE transfer than finishing at LA Union Station, not "
+              "fewer - but San Diego airport is 5 km from here, which LAX is not. "
+              "Surfliner also runs SD all the way to San Luis Obispo."),
+    dict(name="INFO Coronado - bridge banned to bikes, take the ferry",
+         lat=32.69152, lon=-117.17669, cat="info", sym="Flag, Blue",
+         desc="If you ride the border extension: bicycles cannot use the San "
+              "Diego-Coronado Bridge. Options are the ferry from Broadway Pier "
+              "(bikes carried, small fare) and then the Silver Strand bike path - "
+              "24.8 km to the border and much the nicer ride - or round the bay "
+              "through National City and Chula Vista, 26.0 km, no boat needed. The "
+              "GPX takes the round-the-bay line because it has no dependency; ride "
+              "to the ferry terminal instead if you prefer the Strand."),
+    dict(name="Border Field SP - the end of the Pacific Coast Bike Route",
+         lat=32.55638, lon=-117.09673, cat="info", sym="Flag, Blue",
+         desc="Where the route meets the Mexican border at the ocean. 26 km past "
+              "Santa Fe Depot. The access road floods and closes regularly - check "
+              "before committing to the last 3 km, and be ready to turn round at "
+              "Imperial Beach."),
+    dict(name="INFO LA River path - how you get out of Union Station",
+         lat=33.98500, lon=-118.20500, cat="info", sym="Bike Trail",
+         desc="Day 4 leaves downtown on the Los Angeles River path south to Long "
+              "Beach, which is why the first 38 km are almost all Class I. Day 4 is "
+              "25% bike path overall (54.6 km of 218 km) - by far the most protected "
+              "day of the whole trip."),
+]
+
+POIS = CAMPING + LODGING + HAZARDS + BAILOUTS + SERVICES + EXTENSION

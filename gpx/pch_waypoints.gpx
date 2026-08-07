@@ -3,7 +3,7 @@
   <metadata>
     <name>SF -&gt; LA coast route: all waypoints</name>
     <desc>Camping, lodging, water, food, bike shops, hazards and rail bail-outs along the southbound Highway 1 route</desc>
-    <time>2026-08-05T04:01:57Z</time>
+    <time>2026-08-07T20:12:21Z</time>
   </metadata>
   <wpt lat="37.775729" lon="-122.411959">
     <ele>24.0</ele>
@@ -6365,6 +6365,3296 @@
     <ele>91.0</ele>
     <name>FINISH LA Union Station</name>
     <desc>800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.  [day3_refugio_la km 206]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
+  <wpt lat="34.055722" lon="-118.235483">
+    <ele>90.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/443287216); access=yes; fee=no  [day4_la_sandiego km 0]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="34.055653" lon="-118.235553">
+    <ele>90.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13290101801)  [day4_la_sandiego km 0]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.056060" lon="-118.235900">
+    <ele>90.0</ele>
+    <name>FINISH LA Union Station</name>
+    <desc>800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.  [day4_la_sandiego km 0]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
+  <wpt lat="34.058510" lon="-118.239015">
+    <ele>89.0</ele>
+    <name>Family's Market</name>
+    <desc>OSM convenience (node/5695239157)  [day4_la_sandiego km 0, 261 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.058483" lon="-118.237864">
+    <ele>90.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (node/9212776083)  [day4_la_sandiego km 0, 177 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.057520" lon="-118.237563">
+    <ele>89.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/4578721477); access=yes  [day4_la_sandiego km 0]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="34.060228" lon="-118.237880">
+    <ele>92.0</ele>
+    <name>Shang Lee Poultry</name>
+    <desc>OSM supermarket (node/12912909730); phone=+1-213-617-2635  [day4_la_sandiego km 0, 326 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.060422" lon="-118.238603">
+    <ele>92.0</ele>
+    <name>Nam-Hoa Fish Market Inc</name>
+    <desc>OSM supermarket (node/12912966513)  [day4_la_sandiego km 0, 383 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.055352" lon="-118.233265">
+    <ele>93.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/11280617235); access=yes  [day4_la_sandiego km 1, 173 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="34.042996" lon="-118.216090">
+    <ele>93.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (way/428647715)  [day4_la_sandiego km 3, 326 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.042801" lon="-118.219306">
+    <ele>93.0</ele>
+    <name>76</name>
+    <desc>OSM fuel+shop (node/11849195199)  [day4_la_sandiego km 3]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.038210" lon="-118.218250">
+    <ele>96.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/2481931328)  [day4_la_sandiego km 3]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="34.036224" lon="-118.219076">
+    <ele>102.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/11868168359); phone=+1 213-631-8758; website=https://www.7-eleven.com/locations/ca/los-angeles/2189-whittier-blvd-38117  [day4_la_sandiego km 4]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.028365" lon="-118.219693">
+    <ele>91.0</ele>
+    <name>Rocket</name>
+    <desc>OSM convenience (node/11826914113)  [day4_la_sandiego km 4]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.028322" lon="-118.218813">
+    <ele>91.0</ele>
+    <name>Mobil</name>
+    <desc>OSM fuel+shop (way/427499958)  [day4_la_sandiego km 4, 171 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.025017" lon="-118.220737">
+    <ele>87.0</ele>
+    <name>SC Fuel</name>
+    <desc>OSM fuel+shop (node/11870758259)  [day4_la_sandiego km 5]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.023796" lon="-118.219520">
+    <ele>83.0</ele>
+    <name>Shell</name>
+    <desc>OSM fuel+shop (node/11826914122)  [day4_la_sandiego km 5]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.023259" lon="-118.218461">
+    <ele>82.0</ele>
+    <name>ampm</name>
+    <desc>OSM convenience (node/11873206687)  [day4_la_sandiego km 5]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.020102" lon="-118.210954">
+    <ele>69.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (node/13948081960)  [day4_la_sandiego km 6]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.018549" lon="-118.206169">
+    <ele>62.0</ele>
+    <name>Circle K</name>
+    <desc>OSM convenience (node/11873206702); website=https://www.circlek.com/store-locator/US/los-angeles/3360-e-olympic-blvd/2655910  [day4_la_sandiego km 6, 332 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.016651" lon="-118.208674">
+    <ele>62.0</ele>
+    <name>Speedy Fuel</name>
+    <desc>OSM fuel+shop (node/11873331433)  [day4_la_sandiego km 6]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.985000" lon="-118.205000">
+    <ele>50.0</ele>
+    <name>INFO LA River path - how you get out of Union Station</name>
+    <desc>Day 4 leaves downtown on the Los Angeles River path south to Long Beach, which is why the first 38 km are almost all Class I. Day 4 is 25% bike path overall (54.6 km of 218 km) - by far the most protected day of the whole trip.  [day4_la_sandiego km 10, 219 m off route]</desc>
+    <sym>Bike Trail</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="33.975848" lon="-118.198483">
+    <ele>50.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (way/455750446)  [day4_la_sandiego km 11, 385 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.973438" lon="-118.204681">
+    <ele>46.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/483790563); access=yes  [day4_la_sandiego km 12, 175 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.967445" lon="-118.194539">
+    <ele>44.0</ele>
+    <name>Latino's Market #1</name>
+    <desc>OSM convenience (way/451189303)  [day4_la_sandiego km 13, 329 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.962552" lon="-118.187832">
+    <ele>38.0</ele>
+    <name>Sprouts Farmers Market</name>
+    <desc>OSM supermarket (node/11651200772); opening_hours=Mo-Su 07:00-22:00; phone=+1-213-259-2223; website=https://www.sprouts.com/store/ca/cudahy/atlantic-avenue/  [day4_la_sandiego km 13, 364 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.954837" lon="-118.187619">
+    <ele>38.0</ele>
+    <name>Walmart Supercenter</name>
+    <desc>OSM supermarket (way/451383058); opening_hours=Mo-Su 06:00-23:00; operator=Walmart; phone=+1 323-282-4800; website=https://www.walmart.com/store/3180-south-gate-ca  [day4_la_sandiego km 14, 258 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.955746" lon="-118.184332">
+    <ele>37.0</ele>
+    <name>Roche Fuel Stop</name>
+    <desc>OSM fuel+shop (node/14023510996); opening_hours=Mo-Fr 05:00-19:00; phone=+1-323-560-2040  [day4_la_sandiego km 14]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.952161" lon="-118.187345">
+    <ele>36.0</ele>
+    <name>Grace Liquor</name>
+    <desc>OSM convenience (node/1013282858)  [day4_la_sandiego km 15, 365 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.952091" lon="-118.182773">
+    <ele>36.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (way/451428403); phone=+1 323-566-0722; website=https://www.7-eleven.com/locations/ca/south-gate/8708-atlantic-blvd-18526  [day4_la_sandiego km 15]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.949175" lon="-118.182579">
+    <ele>34.0</ele>
+    <name>Toad's Liquor</name>
+    <desc>OSM convenience (node/1013283125)  [day4_la_sandiego km 15]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.931449" lon="-118.180353">
+    <ele>30.0</ele>
+    <name>Arco</name>
+    <desc>OSM fuel+shop (way/346769561)  [day4_la_sandiego km 18, 346 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.925291" lon="-118.175313">
+    <ele>27.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/455769211)  [day4_la_sandiego km 18]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.896529" lon="-118.180826">
+    <ele>26.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (relation/6691481)  [day4_la_sandiego km 22, 437 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.880986" lon="-118.186150">
+    <ele>26.0</ele>
+    <name>Valero</name>
+    <desc>OSM fuel+shop (node/701702692); website=https://locations.valero.com/en-us/LocationDetails/Index/6954-ATLANTIC-AVE/0000008315  [day4_la_sandiego km 24, 182 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.854789" lon="-118.197157">
+    <ele>13.0</ele>
+    <name>Best Food Market</name>
+    <desc>OSM supermarket (way/441231444)  [day4_la_sandiego km 27, 314 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.846066" lon="-118.206231">
+    <ele>13.0</ele>
+    <name>Smart &amp; Final</name>
+    <desc>OSM supermarket (way/441263918)  [day4_la_sandiego km 28, 334 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.782412" lon="-118.199207">
+    <ele>10.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (node/11967670254)  [day4_la_sandiego km 36]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.782038" lon="-118.197973">
+    <ele>11.0</ele>
+    <name>Chevron</name>
+    <desc>OSM fuel+shop (node/4696775290)  [day4_la_sandiego km 36]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.775566" lon="-118.198294">
+    <ele>15.0</ele>
+    <name>76</name>
+    <desc>OSM convenience (node/702449429); website=https://www.76.com/station/U76-CF-UNITED-LLC-2650673-0000877637/  [day4_la_sandiego km 36]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.775148" lon="-118.197823">
+    <ele>14.0</ele>
+    <name>Supreme Liquor Jr. Market</name>
+    <desc>OSM convenience (node/702449431)  [day4_la_sandiego km 36]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.776430" lon="-118.196233">
+    <ele>16.0</ele>
+    <name>Chestnut Market</name>
+    <desc>OSM convenience (node/11967660175)  [day4_la_sandiego km 37, 255 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.772791" lon="-118.194922">
+    <ele>14.0</ele>
+    <name>Shop &amp; Roll</name>
+    <desc>OSM convenience (node/11967676247)  [day4_la_sandiego km 37]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.769142" lon="-118.193246">
+    <ele>16.0</ele>
+    <name>Propel Electric Bikes</name>
+    <desc>OSM bike shop (node/6761015936); opening_hours=Mo-Sa 10:00-17:00; phone=+1 562 294-5353; website=https://propelbikes.com/  [day4_la_sandiego km 37, 290 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.768248" lon="-118.190600">
+    <ele>18.0</ele>
+    <name>Pedal Movement</name>
+    <desc>OSM bike shop (node/11973906069)  [day4_la_sandiego km 37, 534 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.768109" lon="-118.194192">
+    <ele>18.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11009002167)  [day4_la_sandiego km 37, 202 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.767695" lon="-118.194909">
+    <ele>20.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/9694318244)  [day4_la_sandiego km 37]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.764080" lon="-118.193014">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/13076722373); access=yes; fee=no  [day4_la_sandiego km 38]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.759583" lon="-118.191374">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11009080880)  [day4_la_sandiego km 39, 223 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.760576" lon="-118.188295">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/12148070007); access=private  [day4_la_sandiego km 39]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.768937" lon="-118.184376">
+    <ele>9.0</ele>
+    <name>Vons</name>
+    <desc>OSM supermarket (way/666014667); opening_hours=PH,Mo-Su 06:00-23:00; phone=+1 562-491-1210; website=https://local.vons.com/ca/long-beach/600-e-broadway.html  [day4_la_sandiego km 40, 526 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.766817" lon="-118.182538">
+    <ele>10.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/6903407385)  [day4_la_sandiego km 40, 251 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.766434" lon="-118.184118">
+    <ele>8.0</ele>
+    <name>Hi-lo</name>
+    <desc>OSM convenience (node/11973837396)  [day4_la_sandiego km 40, 271 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.764181" lon="-118.175332">
+    <ele>21.0</ele>
+    <name>Public</name>
+    <desc>OSM toilets (way/440270497); access=yes; fee=no; operator=Public  [day4_la_sandiego km 40]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.771616" lon="-118.168679">
+    <ele>8.0</ele>
+    <name>(bike shop)</name>
+    <desc>OSM bike shop (node/11992783750)  [day4_la_sandiego km 41, 906 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.762322" lon="-118.162836">
+    <ele>8.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/11917150992)  [day4_la_sandiego km 41]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.762365" lon="-118.162875">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11917151002)  [day4_la_sandiego km 41]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.764572" lon="-118.151768">
+    <ele>10.0</ele>
+    <name>The Bicycle Stand</name>
+    <desc>OSM bike shop (node/11546928361); opening_hours=Mo-Sa 11:00-19:00; Su 11:00-18:00; phone=+1-562-279-4936; website=https://www.thebicyclestand.org/  [day4_la_sandiego km 42, 471 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.759787" lon="-118.147148">
+    <ele>9.0</ele>
+    <name>Vons</name>
+    <desc>OSM supermarket (way/238533714); opening_hours=Mo-Su 06:00-24:00; phone=+1 562-987-3122; website=https://local.vons.com/ca/long-beach/3900-e-ocean-ave.html  [day4_la_sandiego km 43]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.760182" lon="-118.146164">
+    <ele>9.0</ele>
+    <name>ampm</name>
+    <desc>OSM convenience (node/4045898975)  [day4_la_sandiego km 43, 213 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.759900" lon="-118.145523">
+    <ele>8.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/6900864014); opening_hours=24/7; phone=+1 562-439-6981; website=https://www.7-eleven.com/locations/ca/long-beach/4003-east-ocean-blvd-26261  [day4_la_sandiego km 43, 229 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.755411" lon="-118.139440">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/12148019689); access=yes  [day4_la_sandiego km 44]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.755429" lon="-118.139383">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12148019690); access=yes; fee=no  [day4_la_sandiego km 44]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.752989" lon="-118.134165">
+    <ele>5.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/5636479722)  [day4_la_sandiego km 44]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.753002" lon="-118.134222">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5636479723)  [day4_la_sandiego km 44]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.753279" lon="-118.132347">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11227630980)  [day4_la_sandiego km 45]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.757891" lon="-118.130214">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5636459335)  [day4_la_sandiego km 45]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.758866" lon="-118.120540">
+    <ele>5.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/1544373992); access=yes  [day4_la_sandiego km 46, 273 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.760940" lon="-118.116158">
+    <ele>6.0</ele>
+    <name>Ralphs</name>
+    <desc>OSM supermarket (way/385393293); opening_hours=Mo-Su 05:00-01:00; phone=+1 562-795-7087; website=https://www.ralphs.com/stores/grocery/ca/long-beach/marina-shopping-center/703/00178  [day4_la_sandiego km 47, 446 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.758511" lon="-118.112785">
+    <ele>8.0</ele>
+    <name>Gelson's</name>
+    <desc>OSM supermarket (way/385393267)  [day4_la_sandiego km 47]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.757918" lon="-118.108914">
+    <ele>6.0</ele>
+    <name>Trader Joe's</name>
+    <desc>OSM supermarket (node/4939202420); opening_hours=Mo-Su 08:00-21:00; phone=+1 562-596-4388; website=https://locations.traderjoes.com/ca/long-beach/43/  [day4_la_sandiego km 47, 156 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.758100" lon="-118.109869">
+    <ele>6.0</ele>
+    <name>Wild Fork</name>
+    <desc>OSM supermarket (node/13457286841)  [day4_la_sandiego km 47]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.757311" lon="-118.111184">
+    <ele>6.0</ele>
+    <name>Whole Foods Market</name>
+    <desc>OSM supermarket (way/743744300); opening_hours=Mo-Su 07:00-22:00; phone=+1 562-598-8687; toilets=yes; website=https://www.wholefoodsmarket.com/stores/longbeach  [day4_la_sandiego km 47]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.757793" lon="-118.110540">
+    <ele>6.0</ele>
+    <name>Mobil</name>
+    <desc>OSM fuel+shop (way/812821484)  [day4_la_sandiego km 47]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.755828" lon="-118.110715">
+    <ele>7.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/11952653278); access=destination; drinking_water=yes  [day4_la_sandiego km 47]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.743577" lon="-118.103391">
+    <ele>8.0</ele>
+    <name>Main Street Cyclery</name>
+    <desc>OSM bike shop (node/8636543862); phone=+1-562-430-3903  [day4_la_sandiego km 49]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.743936" lon="-118.100016">
+    <ele>7.0</ele>
+    <name>Pavilions</name>
+    <desc>OSM supermarket (way/129382778); website=https://local.pavilions.com/ca/seal-beach/1101-pacific-coast-hwy.html  [day4_la_sandiego km 49, 371 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.742656" lon="-118.099994">
+    <ele>6.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (way/878465542); phone=+1 562-598-0321; website=https://www.7-eleven.com/locations/ca/seal-beach/1200-pacific-coast-hwy-21231  [day4_la_sandiego km 49, 277 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.742383" lon="-118.099086">
+    <ele>7.0</ele>
+    <name>Chevron</name>
+    <desc>OSM fuel+shop (node/300940606)  [day4_la_sandiego km 49, 319 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.737152" lon="-118.101027">
+    <ele>7.0</ele>
+    <name>Dolphin Market</name>
+    <desc>OSM convenience (node/705742848)  [day4_la_sandiego km 50, 207 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.720789" lon="-118.074318">
+    <ele>6.0</ele>
+    <name>Sunset Food Mart</name>
+    <desc>OSM convenience (way/902487796)  [day4_la_sandiego km 54]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.720435" lon="-118.074328">
+    <ele>5.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/950139885)  [day4_la_sandiego km 54]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.717679" lon="-118.071199">
+    <ele>5.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/947819787)  [day4_la_sandiego km 54]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.716163" lon="-118.068870">
+    <ele>3.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/708330326); phone=+1 562-592-4942; website=https://www.7-eleven.com/locations/ca/sunset-beach/16919-pacific-coast-hwy-26659  [day4_la_sandiego km 54]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.714720" lon="-118.067844">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/947498326); fee=no  [day4_la_sandiego km 54]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.712566" lon="-118.065191">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/708330369); fee=no  [day4_la_sandiego km 55]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.712206" lon="-118.062923">
+    <ele>2.0</ele>
+    <name>Circle K</name>
+    <desc>OSM convenience (way/880597663)  [day4_la_sandiego km 55, 161 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.711200" lon="-118.063924">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/880597662); fee=no  [day4_la_sandiego km 55]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.711211" lon="-118.061576">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1233190257)  [day4_la_sandiego km 55, 204 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.709193" lon="-118.061605">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/878418872)  [day4_la_sandiego km 55]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.707240" lon="-118.059562">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/878418545)  [day4_la_sandiego km 56]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.705324" lon="-118.057356">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/878418546)  [day4_la_sandiego km 56]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.703183" lon="-118.054961">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/878418547)  [day4_la_sandiego km 56]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.701446" lon="-118.053142">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1137456248)  [day4_la_sandiego km 56]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.699516" lon="-118.051336">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/875337783)  [day4_la_sandiego km 57]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.697731" lon="-118.049652">
+    <ele>5.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/875337506)  [day4_la_sandiego km 57]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.695366" lon="-118.046643">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1225294660); description=Only available during tours or for use by staff.  [day4_la_sandiego km 57]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.694026" lon="-118.046247">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/875337503)  [day4_la_sandiego km 58]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.690268" lon="-118.042726">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/875337502)  [day4_la_sandiego km 58]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.688280" lon="-118.040795">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/676310522)  [day4_la_sandiego km 58]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.686124" lon="-118.038672">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/676305532)  [day4_la_sandiego km 59]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.686057" lon="-118.038691">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/676305265)  [day4_la_sandiego km 59]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.683911" lon="-118.036650">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/676302241)  [day4_la_sandiego km 59]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.673400" lon="-118.024979">
+    <ele>11.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836050614)  [day4_la_sandiego km 61]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.671737" lon="-118.022766">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1274731594)  [day4_la_sandiego km 61]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.667260" lon="-118.016565">
+    <ele>7.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/401541507)  [day4_la_sandiego km 62]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.666370" lon="-118.015185">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12159086536)  [day4_la_sandiego km 62]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.664794" lon="-118.013171">
+    <ele>7.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/401541508)  [day4_la_sandiego km 62]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.659778" lon="-118.006571">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/330741712)  [day4_la_sandiego km 63]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.659425" lon="-118.004457">
+    <ele>2.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (way/241452766); opening_hours=24/7  [day4_la_sandiego km 63, 159 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.657207" lon="-118.003258">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/69199673)  [day4_la_sandiego km 63]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.659934" lon="-117.998744">
+    <ele>2.0</ele>
+    <name>Jax Bicycle Center</name>
+    <desc>OSM bike shop (way/954397305)  [day4_la_sandiego km 64, 514 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.655958" lon="-118.001906">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709113)  [day4_la_sandiego km 64]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.655749" lon="-118.001465">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836185285)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.655240" lon="-118.000756">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836185301)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.654216" lon="-117.998533">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709130)  [day4_la_sandiego km 64]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.654069" lon="-117.998725">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115273)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.652894" lon="-117.996495">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709132)  [day4_la_sandiego km 64]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.652637" lon="-117.996479">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115305)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.651432" lon="-117.994074">
+    <ele>1.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709117)  [day4_la_sandiego km 64]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.651365" lon="-117.994251">
+    <ele>1.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836148235)  [day4_la_sandiego km 64]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.649712" lon="-117.991320">
+    <ele>1.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709135)  [day4_la_sandiego km 65]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.649809" lon="-117.991745">
+    <ele>1.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115351)  [day4_la_sandiego km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.648222" lon="-117.989046">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709126)  [day4_la_sandiego km 65]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.648210" lon="-117.989306">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115373)  [day4_la_sandiego km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.647362" lon="-117.987243">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709122)  [day4_la_sandiego km 65]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.647296" lon="-117.987563">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836165155)  [day4_la_sandiego km 65]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.645848" lon="-117.984866">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/206906162)  [day4_la_sandiego km 66]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.645630" lon="-117.984910">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836165100)  [day4_la_sandiego km 66]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.644393" lon="-117.982375">
+    <ele>5.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709128)  [day4_la_sandiego km 66]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.644295" lon="-117.982625">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836165087)  [day4_la_sandiego km 66]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.643054" lon="-117.980028">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709138)  [day4_la_sandiego km 66]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.641719" lon="-117.977736">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/206906161)  [day4_la_sandiego km 66, 234 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.641497" lon="-117.977777">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836164805)  [day4_la_sandiego km 66, 245 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.642840" lon="-117.980094">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836164840)  [day4_la_sandiego km 66]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.640286" lon="-117.975259">
+    <ele>7.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/206906163)  [day4_la_sandiego km 67]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.640093" lon="-117.975342">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836164768)  [day4_la_sandiego km 67]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.638720" lon="-117.972418">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709139)  [day4_la_sandiego km 67]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.637197" lon="-117.969338">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115599)  [day4_la_sandiego km 67]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.637358" lon="-117.969196">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709115)  [day4_la_sandiego km 67]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.635695" lon="-117.966174">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836164712)  [day4_la_sandiego km 68]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.633814" lon="-117.963060">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115748)  [day4_la_sandiego km 68]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.632908" lon="-117.961579">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11836115740)  [day4_la_sandiego km 68]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.632950" lon="-117.961235">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709123)  [day4_la_sandiego km 68]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.628155" lon="-117.952836">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/188709127)  [day4_la_sandiego km 69]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.627565" lon="-117.952997">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11310965522); access=yes; fee=no  [day4_la_sandiego km 69]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.627318" lon="-117.950382">
+    <ele>5.0</ele>
+    <name>(bike shop)</name>
+    <desc>OSM bike shop (node/696033726)  [day4_la_sandiego km 69]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.624738" lon="-117.946825">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/477387159); fee=no  [day4_la_sandiego km 70]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.624961" lon="-117.939564">
+    <ele>6.0</ele>
+    <name>Public Restroom</name>
+    <desc>OSM toilets (way/469271414); access=yes; fee=no  [day4_la_sandiego km 70, 189 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.624909" lon="-117.939603">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4687911856)  [day4_la_sandiego km 70, 182 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.621413" lon="-117.937556">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/9287447541); access=yes  [day4_la_sandiego km 71]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.623982" lon="-117.936975">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4687892366)  [day4_la_sandiego km 71, 192 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.614619" lon="-117.931614">
+    <ele>4.0</ele>
+    <name>Victory eBikes</name>
+    <desc>OSM bike shop (node/6770856898); description=Ebikes and Scooter Sales, Rentals, and Repairs; website=https://victoryebike.com/  [day4_la_sandiego km 72, 649 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.618621" lon="-117.928226">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10309031927)  [day4_la_sandiego km 72, 202 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.621579" lon="-117.928422">
+    <ele>4.0</ele>
+    <name>A Market</name>
+    <desc>OSM convenience (way/551512939)  [day4_la_sandiego km 72]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.615887" lon="-117.900419">
+    <ele>4.0</ele>
+    <name>Chevron</name>
+    <desc>OSM convenience (way/516916583)  [day4_la_sandiego km 74]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.602436" lon="-117.900002">
+    <ele>7.0</ele>
+    <name>Balboa Beach &amp; Bicycle Boutique</name>
+    <desc>OSM bike shop (node/10303152625)  [day4_la_sandiego km 75, 1114 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.611306" lon="-117.892610">
+    <ele>10.0</ele>
+    <name>Pavilions</name>
+    <desc>OSM supermarket (way/129382229); opening_hours=07:00-22:00; website=https://local.pavilions.com/ca/newport-beach/1000-bayside-dr.html  [day4_la_sandiego km 75]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.608268" lon="-117.894927">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4070825975)  [day4_la_sandiego km 75, 336 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.613342" lon="-117.891170">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681488); description=Back bay view park  [day4_la_sandiego km 76, 298 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.606232" lon="-117.889651">
+    <ele>14.0</ele>
+    <name>Olive Oil and Beyond</name>
+    <desc>OSM supermarket (node/9842727884)  [day4_la_sandiego km 76, 419 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.600280" lon="-117.877820">
+    <ele>20.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681472); description=Begonia park  [day4_la_sandiego km 77]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.597926" lon="-117.872102">
+    <ele>32.0</ele>
+    <name>Mothers Market</name>
+    <desc>OSM supermarket (way/222800791)  [day4_la_sandiego km 78]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.595754" lon="-117.869798">
+    <ele>34.0</ele>
+    <name>76</name>
+    <desc>OSM fuel+shop (way/983798589)  [day4_la_sandiego km 78]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.585137" lon="-117.854627">
+    <ele>44.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/464649284)  [day4_la_sandiego km 80, 156 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.584980" lon="-117.854450">
+    <ele>44.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681465); description=Crystal cove north restrooms also (fountain in back)  [day4_la_sandiego km 80, 160 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.582418" lon="-117.851827">
+    <ele>41.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/464649283)  [day4_la_sandiego km 81, 224 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.580753" lon="-117.848763">
+    <ele>40.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/464649278)  [day4_la_sandiego km 81, 174 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.579178" lon="-117.845690">
+    <ele>40.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/468908745)  [day4_la_sandiego km 81]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.578008" lon="-117.840987">
+    <ele>30.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1061175161)  [day4_la_sandiego km 82]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.574408" lon="-117.839918">
+    <ele>16.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/4597348791)  [day4_la_sandiego km 82]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.574943" lon="-117.840403">
+    <ele>16.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/464649275)  [day4_la_sandiego km 82]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.570112" lon="-117.832852">
+    <ele>30.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/14005715468); access=yes; fee=no  [day4_la_sandiego km 83]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.568805" lon="-117.830733">
+    <ele>33.0</ele>
+    <name>Trader Joe's</name>
+    <desc>OSM supermarket (node/4866729431); opening_hours=Mo-Su 08:00-21:00; phone=+1-949-494-7404; toilets=yes; website=https://locations.traderjoes.com/ca/newport-beach/125/  [day4_la_sandiego km 83, 154 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.565700" lon="-117.830000">
+    <ele>29.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/468908732)  [day4_la_sandiego km 83]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.565628" lon="-117.829419">
+    <ele>29.0</ele>
+    <name>Filtered water station</name>
+    <desc>OSM drinking water (node/14027092502); operator=Filtered water station  [day4_la_sandiego km 83]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.565540" lon="-117.828616">
+    <ele>21.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/170813682); access=yes  [day4_la_sandiego km 84]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.563416" lon="-117.821897">
+    <ele>19.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/10921848543); access=yes  [day4_la_sandiego km 84, 218 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.563378" lon="-117.821900">
+    <ele>19.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10921848544); access=yes  [day4_la_sandiego km 84, 215 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.562395" lon="-117.819965">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3127209799)  [day4_la_sandiego km 84, 248 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.561042" lon="-117.821168">
+    <ele>9.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/1767276679)  [day4_la_sandiego km 84]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.561111" lon="-117.821139">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10921848548); access=yes  [day4_la_sandiego km 84]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.559148" lon="-117.820250">
+    <ele>13.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/4633619228)  [day4_la_sandiego km 85]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.553930" lon="-117.807423">
+    <ele>18.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/543994153)  [day4_la_sandiego km 86]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.551519" lon="-117.807399">
+    <ele>23.0</ele>
+    <name>Bathrooms</name>
+    <desc>OSM toilets (way/543994145)  [day4_la_sandiego km 86]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.547097" lon="-117.803878">
+    <ele>36.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12945127286)  [day4_la_sandiego km 87, 269 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.546712" lon="-117.801212">
+    <ele>33.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/190874345)  [day4_la_sandiego km 87, 208 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.548288" lon="-117.793817">
+    <ele>30.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/685948896)  [day4_la_sandiego km 87, 222 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.548361" lon="-117.793267">
+    <ele>28.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9845739446)  [day4_la_sandiego km 87, 257 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.546427" lon="-117.793568">
+    <ele>25.0</ele>
+    <name>Pavilions</name>
+    <desc>OSM supermarket (way/129382037); toilets=yes; website=https://local.pavilions.com/ca/laguna-beach/600-n-pacific-coast-hwy.html  [day4_la_sandiego km 88]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.544880" lon="-117.793695">
+    <ele>27.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/185324526)  [day4_la_sandiego km 88]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.543849" lon="-117.790784">
+    <ele>24.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/185324524)  [day4_la_sandiego km 88]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.543815" lon="-117.790804">
+    <ele>24.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12920312624); access=yes; fee=no  [day4_la_sandiego km 88]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.543169" lon="-117.785490">
+    <ele>7.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (way/220538013)  [day4_la_sandiego km 88]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.542949" lon="-117.786590">
+    <ele>9.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/5436341637); fee=no  [day4_la_sandiego km 88]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.542595" lon="-117.785990">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2351681446); description=Laguna Beach  [day4_la_sandiego km 88]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.542808" lon="-117.786601">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5436341638); description=Laguna Beach  [day4_la_sandiego km 88]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.543880" lon="-117.783833">
+    <ele>4.0</ele>
+    <name>Whole Foods Market</name>
+    <desc>OSM supermarket (way/509111355); opening_hours=Mo-Su 08:00-21:00; phone=+1 949-376-7888; website=https://www.wholefoodsmarket.com/stores/lagunabeach  [day4_la_sandiego km 88, 181 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.542744" lon="-117.784751">
+    <ele>4.0</ele>
+    <name>The Village Mart</name>
+    <desc>OSM convenience (way/220537629)  [day4_la_sandiego km 88]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.542838" lon="-117.783404">
+    <ele>9.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1053980576); access=yes; fee=no  [day4_la_sandiego km 88]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.544852" lon="-117.783089">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10921848540); access=yes  [day4_la_sandiego km 88, 308 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.541492" lon="-117.783580">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/9281616832); access=yes  [day4_la_sandiego km 89]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.542185" lon="-117.783349">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10295608335)  [day4_la_sandiego km 89]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.540214" lon="-117.781279">
+    <ele>4.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (way/565840494)  [day4_la_sandiego km 89]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.539566" lon="-117.780835">
+    <ele>11.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (way/565840496)  [day4_la_sandiego km 89]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.539753" lon="-117.781656">
+    <ele>7.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/9002499547); access=yes; fee=no  [day4_la_sandiego km 89]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.537627" lon="-117.778753">
+    <ele>20.0</ele>
+    <name>Ralphs</name>
+    <desc>OSM supermarket (way/338348643); opening_hours=Mo-Su 05:00-01:00; phone=+1 949-497-6410; website=https://www.ralphs.com/stores/grocery/ca/laguna-beach/laguna-beach/703/00004  [day4_la_sandiego km 89]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.515145" lon="-117.759685">
+    <ele>40.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12438051545); access=yes; fee=no  [day4_la_sandiego km 92, 248 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.514779" lon="-117.759195">
+    <ele>40.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/14031693130); access=yes; fee=no  [day4_la_sandiego km 92, 237 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.511203" lon="-117.751745">
+    <ele>11.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/222801871)  [day4_la_sandiego km 93]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.511208" lon="-117.751782">
+    <ele>11.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5436331914)  [day4_la_sandiego km 93]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.502544" lon="-117.743837">
+    <ele>42.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (node/13564506476)  [day4_la_sandiego km 94]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.485484" lon="-117.725160">
+    <ele>42.0</ele>
+    <name>ExtraMile</name>
+    <desc>OSM convenience (way/500257419)  [day4_la_sandiego km 97]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.484876" lon="-117.722985">
+    <ele>37.0</ele>
+    <name>Gelson's</name>
+    <desc>OSM supermarket (way/160335126); phone=+1 949 488 8147  [day4_la_sandiego km 97]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.477050" lon="-117.718849">
+    <ele>46.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/434939121)  [day4_la_sandiego km 98]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.469036" lon="-117.714988">
+    <ele>55.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/434939123)  [day4_la_sandiego km 99, 241 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.465689" lon="-117.705129">
+    <ele>68.0</ele>
+    <name>PCH Rides</name>
+    <desc>OSM bike shop (way/758881770); phone=+1-949-415-4724  [day4_la_sandiego km 100, 246 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.462987" lon="-117.704768">
+    <ele>21.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/1939271258)  [day4_la_sandiego km 101]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.462746" lon="-117.701656">
+    <ele>18.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/434939127)  [day4_la_sandiego km 101]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.466925" lon="-117.700785">
+    <ele>20.0</ele>
+    <name>Station Craft Brewery + Kitchen</name>
+    <desc>OSM bike shop (node/764082263); opening_hours=Su-Fr 11:00-21:00; Sa 10:00-21:00; phone=+1 949-264-8288; website=https://stationcraft.com/  [day4_la_sandiego km 101, 437 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.467722" lon="-117.696668">
+    <ele>13.0</ele>
+    <name>OC Bikes</name>
+    <desc>OSM bike shop (way/1133883853)  [day4_la_sandiego km 102, 607 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.466575" lon="-117.696003">
+    <ele>13.0</ele>
+    <name>Ralphs</name>
+    <desc>OSM supermarket (way/758009231); opening_hours=Mo-Su 06:00-01:00; phone=+1 949-661-4145; website=https://www.ralphs.com/stores/grocery/ca/dana-point/lantern-bay-village/703/00188  [day4_la_sandiego km 102, 475 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.461276" lon="-117.695365">
+    <ele>13.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/4365624491)  [day4_la_sandiego km 102]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.460729" lon="-117.695169">
+    <ele>13.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4365624391)  [day4_la_sandiego km 102, 185 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.460418" lon="-117.693751">
+    <ele>11.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4365623391)  [day4_la_sandiego km 102, 231 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.462505" lon="-117.687029">
+    <ele>11.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1427894940)  [day4_la_sandiego km 102]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.464764" lon="-117.684858">
+    <ele>8.0</ele>
+    <name>ampm</name>
+    <desc>OSM convenience (way/401867411)  [day4_la_sandiego km 103]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.462659" lon="-117.684539">
+    <ele>8.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/414877045); description=San Juan Creek beach; drinking_water=yes  [day4_la_sandiego km 103]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.462584" lon="-117.684478">
+    <ele>8.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/3746412408)  [day4_la_sandiego km 103, 159 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.463075" lon="-117.681900">
+    <ele>9.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/428961193)  [day4_la_sandiego km 103]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.462805" lon="-117.681157">
+    <ele>9.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/428961195)  [day4_la_sandiego km 103]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.462292" lon="-117.680329">
+    <ele>9.0</ele>
+    <name>Doheny Beach Campground</name>
+    <desc>OSM campground (way/428961191)  [day4_la_sandiego km 103]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.462225" lon="-117.679933">
+    <ele>8.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/428961196)  [day4_la_sandiego km 103]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.461835" lon="-117.679212">
+    <ele>7.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/428961194)  [day4_la_sandiego km 103]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.454668" lon="-117.667445">
+    <ele>14.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/8307581201); access=yes; fee=no  [day4_la_sandiego km 105]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.441634" lon="-117.644616">
+    <ele>9.0</ele>
+    <name>Berri Brothers</name>
+    <desc>OSM fuel+shop (way/556295550)  [day4_la_sandiego km 107]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.436980" lon="-117.635602">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/439917241)  [day4_la_sandiego km 108, 282 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.436946" lon="-117.635643">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4375945133)  [day4_la_sandiego km 108, 278 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.432547" lon="-117.631646">
+    <ele>12.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (way/405337702); phone=+1 949-492-8488; website=https://www.7-eleven.com/locations/ca/san-clemente/1802-n.-el-camino-real-16483  [day4_la_sandiego km 109]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.434210" lon="-117.631902">
+    <ele>13.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/439917239)  [day4_la_sandiego km 109, 212 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.430701" lon="-117.631521">
+    <ele>18.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/4075432845)  [day4_la_sandiego km 109]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.430415" lon="-117.631196">
+    <ele>19.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/4375888515)  [day4_la_sandiego km 109, 159 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.432533" lon="-117.624354">
+    <ele>42.0</ele>
+    <name>Jax Bicycle Center</name>
+    <desc>OSM bike shop (node/4392361451); phone=+1 949 492 5911  [day4_la_sandiego km 110, 311 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.430391" lon="-117.621621">
+    <ele>44.0</ele>
+    <name>San Clemente Ranch Market</name>
+    <desc>OSM convenience (way/404743644); opening_hours=Mo-Su 07:00-21:00; phone=+1 949 498 7872; website=https://www.scranchmarket.com/  [day4_la_sandiego km 110, 263 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.429096" lon="-117.623039">
+    <ele>44.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/404743645)  [day4_la_sandiego km 110]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.430213" lon="-117.619307">
+    <ele>43.0</ele>
+    <name>Blue Dog Ride</name>
+    <desc>OSM bike shop (way/413720789)  [day4_la_sandiego km 110, 399 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.430425" lon="-117.618533">
+    <ele>50.0</ele>
+    <name>Webig Motor Company</name>
+    <desc>OSM bike shop (node/4046914064)  [day4_la_sandiego km 111, 455 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.429882" lon="-117.615327">
+    <ele>50.0</ele>
+    <name>The Bike House</name>
+    <desc>OSM bike shop (node/8552674618); description=The Bike House has been offering top-quality bicycles, parts, and bike servcies since 2018. We are former cyclists who are committed to helping individuals obtain high-end bicycles at reasonable prices.; phone=+1-424-253-6097; website=https://www.thebikehouse.net/  [day4_la_sandiego km 111, 492 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.421864" lon="-117.621990">
+    <ele>16.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/403914967)  [day4_la_sandiego km 112, 244 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.420082" lon="-117.619651">
+    <ele>14.0</ele>
+    <name>Pier Market</name>
+    <desc>OSM convenience (node/3936304835)  [day4_la_sandiego km 112]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.419379" lon="-117.619777">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/390112177)  [day4_la_sandiego km 112]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.418268" lon="-117.622642">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13878024410); fee=no  [day4_la_sandiego km 112, 309 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.422841" lon="-117.608656">
+    <ele>51.0</ele>
+    <name>Ralphs</name>
+    <desc>OSM supermarket (way/292693283); opening_hours=Mo-Su 06:00-01:00; phone=+1 949-361-8729; website=https://www.ralphs.com/stores/grocery/ca/san-clemente/s-san-clemente/703/00221  [day4_la_sandiego km 112, 480 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.420375" lon="-117.608114">
+    <ele>54.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/1782756512); phone=+1 949-498-3120; website=https://www.7-eleven.com/locations/ca/san-clemente/1118-s.-el-camino-real-13789  [day4_la_sandiego km 113, 294 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.420322" lon="-117.607337">
+    <ele>55.0</ele>
+    <name>76</name>
+    <desc>OSM fuel+shop (way/166851950); website=https://www.76.com/station/U76-DBA-SAN-CLEMENTE-FUEL-CORP-0000892885/  [day4_la_sandiego km 113, 341 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.412068" lon="-117.600990">
+    <ele>46.0</ele>
+    <name>Shell</name>
+    <desc>OSM convenience (way/404164733)  [day4_la_sandiego km 114, 287 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.406332" lon="-117.596431">
+    <ele>45.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/529814190)  [day4_la_sandiego km 115, 242 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.405186" lon="-117.597387">
+    <ele>45.0</ele>
+    <name>(supermarket)</name>
+    <desc>OSM supermarket (way/485034851); opening_hours=07:00-21:00; phone=+1-949-218-1906  [day4_la_sandiego km 115]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.402257" lon="-117.601403">
+    <ele>44.0</ele>
+    <name>San Clemente State Park</name>
+    <desc>OSM campground (way/372926161); fee=yes  [day4_la_sandiego km 115, 370 m off route]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.405682" lon="-117.584489">
+    <ele>39.0</ele>
+    <name>San Mateo Campground</name>
+    <desc>OSM campground (way/58512402); phone=+1 949 492 4872; website=http://www.parks.ca.gov/?page_id=647  [day4_la_sandiego km 116, 1223 m off route]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.375722" lon="-117.565110">
+    <ele>26.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/13050705073); access=yes  [day4_la_sandiego km 120, 208 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.362355" lon="-117.541312">
+    <ele>48.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414662); fee=no  [day4_la_sandiego km 122, 448 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.359588" lon="-117.537266">
+    <ele>48.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414663); fee=no  [day4_la_sandiego km 122, 931 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.356195" lon="-117.532349">
+    <ele>56.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414664); fee=no  [day4_la_sandiego km 124, 422 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.352671" lon="-117.527415">
+    <ele>56.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414665); fee=no  [day4_la_sandiego km 124, 208 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.348497" lon="-117.522395">
+    <ele>55.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414666); fee=no  [day4_la_sandiego km 125, 159 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.347120" lon="-117.519960">
+    <ele>56.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414667); fee=no  [day4_la_sandiego km 126]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.344073" lon="-117.514877">
+    <ele>55.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414668)  [day4_la_sandiego km 126, 245 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.342602" lon="-117.512864">
+    <ele>55.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414669)  [day4_la_sandiego km 127, 328 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.341426" lon="-117.511227">
+    <ele>55.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414670)  [day4_la_sandiego km 127]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.337786" lon="-117.506307">
+    <ele>52.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414671)  [day4_la_sandiego km 128, 419 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.336406" lon="-117.504441">
+    <ele>52.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3746414672)  [day4_la_sandiego km 128, 198 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.315000" lon="-117.482000">
+    <ele>44.0</ele>
+    <name>INFO Aliso Creek rest area - water on the I-5 stretch</name>
+    <desc>On the I-5 bypass stretch through Camp Pendleton: water, restrooms and vending machines. The only stop in 27 km of freeway shoulder. Position approximate.  [day4_la_sandiego km 131]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.300200" lon="-117.463400">
+    <ele>22.0</ele>
+    <name>CRUX Camp Pendleton - the only real problem on day 4</name>
+    <desc>27 km of coast between San Onofre and Oceanside is Marine Corps base with no public road. Two ways through, and they MEASURE THE SAME (36.1 km either way): (1) THROUGH THE BASE on the old highway and base bike path - quiet and pleasant, but needs a DBIDS Recreational Bicycle pass, obtainable IN PERSON ONLY at the Visitor Center by the Main Gate (Bldg 20255T), which is at the OCEANSIDE end - the far side from a southbound rider. Mon/Tue/Thu/Fri 07:30-15:30, Wed 07:45-15:30, valid one year. You cannot get one en route. The path also closes for military exercises. (2) THE I-5 SHOULDER, which Caltrans permits between Basilone Road and Oceanside (exits 62-54) - no pass, no gate, no business hours, but 27 km of freeway shoulder instead of 13 km of quiet road. The default GPX takes option 2. pch_day4_alt_pendleton.gpx takes option 1 if you have the pass. This waypoint is the base bicycle gate itself (tagged access=permit in OSM).  [day4_la_sandiego km 133, 202 m off route]</desc>
+    <sym>Danger Area</sym>
+    <type>hazard</type>
+  </wpt>
+  <wpt lat="33.271969" lon="-117.444055">
+    <ele>26.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/12437793413)  [day4_la_sandiego km 137]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.272144" lon="-117.444131">
+    <ele>25.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12437793425)  [day4_la_sandiego km 137]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.269184" lon="-117.436596">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/452489017); access=yes; fee=no  [day4_la_sandiego km 137, 285 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.268599" lon="-117.436060">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/452489018); access=yes; fee=no  [day4_la_sandiego km 137, 358 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.268631" lon="-117.436114">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2905196630)  [day4_la_sandiego km 137, 352 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.224066" lon="-117.395261">
+    <ele>22.0</ele>
+    <name>Marine Corps Exchange</name>
+    <desc>OSM convenience (way/451117139)  [day4_la_sandiego km 144]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.223393" lon="-117.395634">
+    <ele>22.0</ele>
+    <name>(fuel+shop)</name>
+    <desc>OSM fuel+shop (way/451117140)  [day4_la_sandiego km 144, 159 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.224139" lon="-117.392284">
+    <ele>25.0</ele>
+    <name>Marine Corps Exchange</name>
+    <desc>OSM fuel+shop (way/451095137)  [day4_la_sandiego km 144]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.209037" lon="-117.387240">
+    <ele>21.0</ele>
+    <name>ExtraMile</name>
+    <desc>OSM convenience (way/404159214)  [day4_la_sandiego km 146]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.208620" lon="-117.388159">
+    <ele>19.0</ele>
+    <name>Mobil</name>
+    <desc>OSM fuel+shop (node/596843405)  [day4_la_sandiego km 146]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.206456" lon="-117.391058">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/14038403438)  [day4_la_sandiego km 146]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.205128" lon="-117.389022">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/10297470747)  [day4_la_sandiego km 146]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.204286" lon="-117.390649">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/10299572747); access=private  [day4_la_sandiego km 146]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.203618" lon="-117.392183">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12349553098)  [day4_la_sandiego km 146, 192 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.200297" lon="-117.389415">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/12487171163)  [day4_la_sandiego km 147]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.197933" lon="-117.387359">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12488568915)  [day4_la_sandiego km 147]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.197469" lon="-117.386978">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12488568917)  [day4_la_sandiego km 147]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.198527" lon="-117.384437">
+    <ele>14.0</ele>
+    <name>Pappy's Market</name>
+    <desc>OSM supermarket (way/1113775606); opening_hours=08:00-00:00  [day4_la_sandiego km 147, 154 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.198115" lon="-117.381674">
+    <ele>14.0</ele>
+    <name>Natty Bella Bridal Couture</name>
+    <desc>OSM supermarket (node/13612012930); opening_hours=Mo 11:00-16:00, We-Fr 11:00-17:00; Sa-Su 10:00-16:00; phone=+1-760-847-1335; website=https://nattybella.com  [day4_la_sandiego km 148, 347 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.195981" lon="-117.385752">
+    <ele>13.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/719554077); access=yes  [day4_la_sandiego km 148]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.196193" lon="-117.385906">
+    <ele>14.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12488568913)  [day4_la_sandiego km 148]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.194337" lon="-117.382531">
+    <ele>9.0</ele>
+    <name>Oceanside E-Bikes</name>
+    <desc>OSM bike shop (node/13505027927)  [day4_la_sandiego km 148]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.193678" lon="-117.383308">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/724804508); access=yes; fee=no  [day4_la_sandiego km 148]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.193569" lon="-117.379562">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/12487171190)  [day4_la_sandiego km 148, 243 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.193523" lon="-117.379523">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12487200915)  [day4_la_sandiego km 148, 243 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.192938" lon="-117.379034">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/1208194021); description=Transit center restrooms. No private stalls offered for men's toilets.  [day4_la_sandiego km 148, 250 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.191116" lon="-117.381178">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/13505492044); access=yes  [day4_la_sandiego km 148]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.188044" lon="-117.373387">
+    <ele>9.0</ele>
+    <name>Alan's Bike Shop</name>
+    <desc>OSM bike shop (node/10834122099); opening_hours=Mo-Fr 10:00-18:00; Sa 10:00-17:00; Su 11:00-16:00; website=https://alansbikeshop.com/  [day4_la_sandiego km 149, 359 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.187014" lon="-117.375800">
+    <ele>9.0</ele>
+    <name>Wisconsin Market</name>
+    <desc>OSM convenience (node/12487171138)  [day4_la_sandiego km 149]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.186267" lon="-117.376982">
+    <ele>9.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/12487200902)  [day4_la_sandiego km 149]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.187022" lon="-117.372379">
+    <ele>9.0</ele>
+    <name>Blue Dog Ride</name>
+    <desc>OSM bike shop (node/11794882964)  [day4_la_sandiego km 149, 377 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.175353" lon="-117.362651">
+    <ele>14.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/365328183); phone=+1 760-433-6505; website=https://www.7-eleven.com/locations/ca/oceanside/1749-south-coast-hwy-26190  [day4_la_sandiego km 151, 183 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.174800" lon="-117.362251">
+    <ele>14.0</ele>
+    <name>Circle K</name>
+    <desc>OSM fuel+shop (way/405593194); website=https://www.circlek.com/store-locator/US/oceanside/1801-s-coast-hwy/2655087  [day4_la_sandiego km 151, 176 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.172063" lon="-117.359917">
+    <ele>14.0</ele>
+    <name>Liberty</name>
+    <desc>OSM fuel+shop (node/10832522607)  [day4_la_sandiego km 151, 151 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.170493" lon="-117.357840">
+    <ele>10.0</ele>
+    <name>Playtri</name>
+    <desc>OSM bike shop (node/10832499808)  [day4_la_sandiego km 152]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.171261" lon="-117.358704">
+    <ele>11.0</ele>
+    <name>SoCal Bike</name>
+    <desc>OSM bike shop (node/10832522505)  [day4_la_sandiego km 152]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.161361" lon="-117.353822">
+    <ele>13.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11053307848); access=yes; fee=no  [day4_la_sandiego km 153, 197 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.158491" lon="-117.353583">
+    <ele>19.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13706865318); fee=no  [day4_la_sandiego km 153, 176 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.158625" lon="-117.350916">
+    <ele>18.0</ele>
+    <name>Pedego</name>
+    <desc>OSM bike shop (node/11504796730)  [day4_la_sandiego km 154]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.157376" lon="-117.352663">
+    <ele>18.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13706865489); fee=no  [day4_la_sandiego km 154, 175 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.156779" lon="-117.350194">
+    <ele>18.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/4922485724)  [day4_la_sandiego km 154]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.154417" lon="-117.350857">
+    <ele>14.0</ele>
+    <name>Frazee State Beach Restrooms</name>
+    <desc>OSM toilets (way/463494351); access=yes; fee=no; operator=California State Parks &amp; Rec  [day4_la_sandiego km 154]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.147417" lon="-117.345639">
+    <ele>12.0</ele>
+    <name>Tamarack State Beach Restrooms</name>
+    <desc>OSM toilets (way/463494331); fee=no; operator=California State Parks &amp; Rec; shower=yes  [day4_la_sandiego km 155]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.133538" lon="-117.335460">
+    <ele>14.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/653049254)  [day4_la_sandiego km 157]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.121803" lon="-117.324515">
+    <ele>13.0</ele>
+    <name>Jacksons</name>
+    <desc>OSM convenience (way/651473142); opening_hours=05:00-22:00; phone=+1 760-918-6716  [day4_la_sandiego km 158, 269 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.114026" lon="-117.324274">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/830835342); fee=no  [day4_la_sandiego km 159]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.111118" lon="-117.322635">
+    <ele>20.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/461760955)  [day4_la_sandiego km 160]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.109031" lon="-117.321767">
+    <ele>18.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/461760953)  [day4_la_sandiego km 160]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.107307" lon="-117.321139">
+    <ele>19.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/461760951)  [day4_la_sandiego km 160]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.105168" lon="-117.320253">
+    <ele>19.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/965457820)  [day4_la_sandiego km 160]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.103771" lon="-117.319631">
+    <ele>20.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/965457821)  [day4_la_sandiego km 160]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.102521" lon="-117.319088">
+    <ele>20.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/965457822)  [day4_la_sandiego km 160]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.101953" lon="-117.318916">
+    <ele>19.0</ele>
+    <name>South Carlsbad State Beach Campground</name>
+    <desc>OSM campground (way/461760959); drinking_water=yes; shower=yes; toilets=yes  [day4_la_sandiego km 161]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.099579" lon="-117.317896">
+    <ele>16.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/908227117)  [day4_la_sandiego km 161]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.097822" lon="-117.317088">
+    <ele>14.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/965457823)  [day4_la_sandiego km 161]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.095644" lon="-117.316152">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/469792987)  [day4_la_sandiego km 161]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.093264" lon="-117.315284">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/461760935)  [day4_la_sandiego km 162]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.082980" lon="-117.311186">
+    <ele>11.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/467786227)  [day4_la_sandiego km 163]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.079379" lon="-117.307534">
+    <ele>21.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/7848168023); phone=+1 760-944-9864; website=https://www.7-eleven.com/locations/ca/encinitas/1766-n-coast-hwy-101-39526  [day4_la_sandiego km 163]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.064983" lon="-117.301643">
+    <ele>20.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/365327872)  [day4_la_sandiego km 165]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.052471" lon="-117.296007">
+    <ele>24.0</ele>
+    <name>Cadence Cyclery</name>
+    <desc>OSM bike shop (node/13917884134); phone=+1-760-704-8426; website=https://cadencecycleryencinitas.com/  [day4_la_sandiego km 166]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.047153" lon="-117.293680">
+    <ele>20.0</ele>
+    <name>Ride Cyclery</name>
+    <desc>OSM bike shop (way/939131197); phone=+1 760 632 1500; website=https://www.ridecyclery.com/  [day4_la_sandiego km 167]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.045791" lon="-117.294118">
+    <ele>24.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/365328669); phone=+1 760-753-0615; website=https://www.7-eleven.com/locations/ca/encinitas/105-west-d-st-18087  [day4_la_sandiego km 167]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.043091" lon="-117.293707">
+    <ele>24.0</ele>
+    <name>Charlie Electric Bike</name>
+    <desc>OSM bike shop (node/12466187839)  [day4_la_sandiego km 168]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.039855" lon="-117.293305">
+    <ele>25.0</ele>
+    <name>Nytro Multisport</name>
+    <desc>OSM bike shop (node/596551698); website=https://nytro.com/  [day4_la_sandiego km 168]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.038729" lon="-117.293097">
+    <ele>26.0</ele>
+    <name>Trek</name>
+    <desc>OSM bike shop (node/12438146901); phone=+1 760-632-0006  [day4_la_sandiego km 168]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="33.034556" lon="-117.291659">
+    <ele>25.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/4654147577)  [day4_la_sandiego km 169]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.026974" lon="-117.287473">
+    <ele>16.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/468549378); access=yes  [day4_la_sandiego km 170]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.025148" lon="-117.286401">
+    <ele>16.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/455701672)  [day4_la_sandiego km 170]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.023311" lon="-117.285311">
+    <ele>20.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/455701675)  [day4_la_sandiego km 170]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.022176" lon="-117.284841">
+    <ele>18.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/455701676)  [day4_la_sandiego km 170]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.021244" lon="-117.284161">
+    <ele>19.0</ele>
+    <name>San Elijo State Beach</name>
+    <desc>OSM campground (node/5275798526); website=http://www.parks.ca.gov/?page_id=662  [day4_la_sandiego km 170]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.022006" lon="-117.282078">
+    <ele>17.0</ele>
+    <name>Seaside Market</name>
+    <desc>OSM supermarket (node/4629690759)  [day4_la_sandiego km 170, 182 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.020852" lon="-117.284202">
+    <ele>17.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/455701680)  [day4_la_sandiego km 170]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.020819" lon="-117.284209">
+    <ele>17.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12168890295)  [day4_la_sandiego km 170]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.019643" lon="-117.283445">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/455701685)  [day4_la_sandiego km 170]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.019600" lon="-117.283441">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12168890290)  [day4_la_sandiego km 170]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.020000" lon="-117.283000">
+    <ele>12.0</ele>
+    <name>San Elijo SB - the ONLY hike/bike site left on the extension</name>
+    <desc>One single hike/bike site (#94), FIRST COME FIRST SERVED after 16:00, vacate by 09:00, ONE NIGHT ONLY, $10 per person. IMPORTANT: hiker/biker sites at San Onofre, San Clemente and South Carlsbad State Beaches have reportedly been ELIMINATED, so this is the only cheap legal bed on the LA-San Diego coast. VERIFY with San Diego Coast District before relying on it - the elimination report is a cyclist forum, not a parks.ca.gov page. Practical upshot: ride LA-San Diego in ONE day (218 km, +685 m, easily inside your range) rather than planning to camp partway. Position approximate.  [day4_la_sandiego km 170]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="33.019401" lon="-117.281350">
+    <ele>12.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM fuel+shop (node/4629692895)  [day4_la_sandiego km 170]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="33.018703" lon="-117.280144">
+    <ele>8.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/373069795)  [day4_la_sandiego km 171, 185 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.017307" lon="-117.282205">
+    <ele>8.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/455701683)  [day4_la_sandiego km 171]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.018543" lon="-117.282790">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/455701684)  [day4_la_sandiego km 171]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.018513" lon="-117.282824">
+    <ele>10.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12168890291)  [day4_la_sandiego km 171]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.014712" lon="-117.280621">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/373069611)  [day4_la_sandiego km 171]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="33.014692" lon="-117.280594">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12563917825)  [day4_la_sandiego km 171]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="33.001770" lon="-117.277194">
+    <ele>14.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/463345569); fee=no  [day4_la_sandiego km 172]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.997039" lon="-117.273230">
+    <ele>18.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8372407447); access=yes; fee=no  [day4_la_sandiego km 173]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.993011" lon="-117.271262">
+    <ele>18.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/5680604300)  [day4_la_sandiego km 174]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.992999" lon="-117.271188">
+    <ele>18.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5680604298)  [day4_la_sandiego km 174]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.992522" lon="-117.272078">
+    <ele>18.0</ele>
+    <name>Epic Cycles</name>
+    <desc>OSM bike shop (node/596451093); phone=+1-858-280-7007  [day4_la_sandiego km 174]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.991587" lon="-117.273836">
+    <ele>19.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1116644576)  [day4_la_sandiego km 174, 197 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.991356" lon="-117.271899">
+    <ele>20.0</ele>
+    <name>San Diego Electric Bike</name>
+    <desc>OSM bike shop (node/12462006785)  [day4_la_sandiego km 174]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.987307" lon="-117.270415">
+    <ele>21.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12476967518)  [day4_la_sandiego km 174]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.978023" lon="-117.269604">
+    <ele>12.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/13396445400)  [day4_la_sandiego km 175]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.977963" lon="-117.269560">
+    <ele>12.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13396529353)  [day4_la_sandiego km 175]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.969442" lon="-117.268904">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/10155954643)  [day4_la_sandiego km 176]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.966730" lon="-117.265969">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9382195129)  [day4_la_sandiego km 177]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.962412" lon="-117.268020">
+    <ele>29.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/9850961997); access=yes; fee=no  [day4_la_sandiego km 177, 253 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.961614" lon="-117.267873">
+    <ele>32.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/2758595949); fee=no  [day4_la_sandiego km 177, 237 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.961645" lon="-117.267859">
+    <ele>32.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521556)  [day4_la_sandiego km 177, 236 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.960186" lon="-117.267819">
+    <ele>34.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521455)  [day4_la_sandiego km 177, 227 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.959313" lon="-117.267628">
+    <ele>35.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521830)  [day4_la_sandiego km 177, 216 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.954962" lon="-117.264055">
+    <ele>44.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9921469997)  [day4_la_sandiego km 178]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.934808" lon="-117.260095">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/221154809)  [day4_la_sandiego km 180]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.927022" lon="-117.259288">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/1107182044); fee=no  [day4_la_sandiego km 181]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.926918" lon="-117.259231">
+    <ele>6.0</ele>
+    <name>California State Parks</name>
+    <desc>OSM drinking water (node/11053298538); access=yes; fee=no; operator=California State Parks  [day4_la_sandiego km 181]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.921162" lon="-117.255460">
+    <ele>45.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1107112261)  [day4_la_sandiego km 182, 354 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.923077" lon="-117.255401">
+    <ele>46.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10573226209)  [day4_la_sandiego km 182, 173 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.919957" lon="-117.252956">
+    <ele>63.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/11265485169)  [day4_la_sandiego km 182, 339 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.919494" lon="-117.252555">
+    <ele>86.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/373116875); fee=no  [day4_la_sandiego km 182, 325 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.894950" lon="-117.241390">
+    <ele>130.0</ele>
+    <name>Torrey Pines - the only climb on day 4</name>
+    <desc>4.84 km at 2.6% to 132 m, the single climb over 60 m on the whole 218 km day (which totals just +685 m). Detected from the route's own elevation profile. Torrey Pines Rd out of Del Mar; the coast road through the reserve is the scenic line.  [day4_la_sandiego km 185]</desc>
+    <sym>Summit</sym>
+    <type>info</type>
+  </wpt>
+  <wpt lat="32.888726" lon="-117.240732">
+    <ele>122.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/8853668403)  [day4_la_sandiego km 186, 217 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.887598" lon="-117.242098">
+    <ele>118.0</ele>
+    <name>Market at Seventh College</name>
+    <desc>OSM supermarket (node/1912313370)  [day4_la_sandiego km 186, 151 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.885983" lon="-117.242768">
+    <ele>114.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/10266093965)  [day4_la_sandiego km 186]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.884104" lon="-117.245083">
+    <ele>114.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/3951175276); access=customers; fee=no  [day4_la_sandiego km 187]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.880771" lon="-117.242850">
+    <ele>122.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/10825625415)  [day4_la_sandiego km 187]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.880095" lon="-117.242199">
+    <ele>125.0</ele>
+    <name>Sixth Market</name>
+    <desc>OSM convenience (node/8462604274)  [day4_la_sandiego km 187, 184 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.878404" lon="-117.242418">
+    <ele>124.0</ele>
+    <name>John's Place and Market</name>
+    <desc>OSM convenience (node/3384976129)  [day4_la_sandiego km 187, 168 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.877663" lon="-117.242885">
+    <ele>124.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9382197537)  [day4_la_sandiego km 187]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.877045" lon="-117.239947">
+    <ele>124.0</ele>
+    <name>Campus Bike &amp; Skate</name>
+    <desc>OSM bike shop (node/1146834945); opening_hours=Mo-Fr 09:00-17:00  [day4_la_sandiego km 187, 368 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.874584" lon="-117.242257">
+    <ele>125.0</ele>
+    <name>Roger's Place and Market</name>
+    <desc>OSM convenience (node/3384976134); opening_hours=07:00-01:00  [day4_la_sandiego km 188, 176 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.865670" lon="-117.250524">
+    <ele>36.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/13650670652); access=customers  [day4_la_sandiego km 189, 162 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.865720" lon="-117.250524">
+    <ele>36.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13650863505)  [day4_la_sandiego km 189, 162 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.858700" lon="-117.256099">
+    <ele>13.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/961839843); access=yes; fee=no  [day4_la_sandiego km 190, 250 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.858699" lon="-117.256157">
+    <ele>13.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12387004924); access=yes; fee=no  [day4_la_sandiego km 190, 256 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.853574" lon="-117.254215">
+    <ele>12.0</ele>
+    <name>La Jolla Shores Market</name>
+    <desc>OSM supermarket (node/365319764)  [day4_la_sandiego km 191]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.850867" lon="-117.253712">
+    <ele>18.0</ele>
+    <name>Mega Mart</name>
+    <desc>OSM convenience (way/31818272)  [day4_la_sandiego km 191]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.850227" lon="-117.273413">
+    <ele>15.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/5726118897); access=yes  [day4_la_sandiego km 193]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.850609" lon="-117.273302">
+    <ele>14.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6083887684); fee=no  [day4_la_sandiego km 193]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.850065" lon="-117.274626">
+    <ele>19.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/5029542496)  [day4_la_sandiego km 193]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.848190" lon="-117.274025">
+    <ele>32.0</ele>
+    <name>Prospect Market</name>
+    <desc>OSM convenience (node/9917587403); opening_hours=24/7  [day4_la_sandiego km 193]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.842531" lon="-117.274095">
+    <ele>32.0</ele>
+    <name>Jonathans Of La Jolla</name>
+    <desc>OSM supermarket (node/365319706)  [day4_la_sandiego km 194]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.841702" lon="-117.273574">
+    <ele>34.0</ele>
+    <name>Pavilions</name>
+    <desc>OSM supermarket (way/132165905); website=https://local.pavilions.com/ca/la-jolla/7544-girard-ave.html  [day4_la_sandiego km 194]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.838585" lon="-117.278744">
+    <ele>38.0</ele>
+    <name>California Bicycle Inc.</name>
+    <desc>OSM bike shop (way/31817077)  [day4_la_sandiego km 194, 501 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.808723" lon="-117.260364">
+    <ele>28.0</ele>
+    <name>Gelson's</name>
+    <desc>OSM supermarket (way/311067827)  [day4_la_sandiego km 199]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.805151" lon="-117.262024">
+    <ele>28.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/13049140906); access=yes  [day4_la_sandiego km 199, 245 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.802032" lon="-117.259281">
+    <ele>11.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/680553360)  [day4_la_sandiego km 200]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.802046" lon="-117.259250">
+    <ele>11.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/6372300527)  [day4_la_sandiego km 200]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.799026" lon="-117.257866">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/39507035); fee=no  [day4_la_sandiego km 200]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.797590" lon="-117.255957">
+    <ele>6.0</ele>
+    <name>Bicycle Discovery</name>
+    <desc>OSM bike shop (node/12077227369)  [day4_la_sandiego km 200]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.794226" lon="-117.254304">
+    <ele>4.0</ele>
+    <name>Ralphs</name>
+    <desc>OSM supermarket (node/365319366); opening_hours=Mo-Fr 09:00-21:00;Sa-Su 10:00-18:00; phone=+1 858-273-2108; website=https://www.ralphs.com/stores/grocery/ca/san-diego/pb-marketplace/703/00207  [day4_la_sandiego km 201, 164 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.794199" lon="-117.254999">
+    <ele>4.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/365328268); phone=+1 858-483-7395; website=https://www.7-eleven.com/locations/ca/san-diego/4340-mission-bvd-13609  [day4_la_sandiego km 201]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.794453" lon="-117.255893">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/39507067)  [day4_la_sandiego km 201]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.790772" lon="-117.254418">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/990502371)  [day4_la_sandiego km 201]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.783729" lon="-117.252766">
+    <ele>3.0</ele>
+    <name>Little Sam’s Market</name>
+    <desc>OSM convenience (node/6407789699)  [day4_la_sandiego km 202]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.783621" lon="-117.249351">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/990502741)  [day4_la_sandiego km 202, 187 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.791769" lon="-117.244448">
+    <ele>7.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/38076892)  [day4_la_sandiego km 204]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.791467" lon="-117.244859">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1846933104)  [day4_la_sandiego km 204, 166 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.790330" lon="-117.242311">
+    <ele>9.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1930007576)  [day4_la_sandiego km 204, 339 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.797480" lon="-117.240560">
+    <ele>16.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (way/1089697289)  [day4_la_sandiego km 204, 414 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.806025" lon="-117.221358">
+    <ele>2.0</ele>
+    <name>Peak Cycles</name>
+    <desc>OSM bike shop (way/1417968149); opening_hours=Mo-Sa 10:00-19:00; operator=Peak Cycles; phone=+1-858-352-6055  [day4_la_sandiego km 206, 861 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.808214" lon="-117.216136">
+    <ele>4.0</ele>
+    <name>Bicycle Warehouse Pacific Beach</name>
+    <desc>OSM bike shop (node/3524476345); opening_hours=Tu-Sa 11:00-18:00; website=https://bicyclewarehouse.com/  [day4_la_sandiego km 207, 1056 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.797075" lon="-117.213947">
+    <ele>6.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1236441553); access=yes  [day4_la_sandiego km 207, 204 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.796994" lon="-117.213973">
+    <ele>6.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12670620125)  [day4_la_sandiego km 207, 213 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.792399" lon="-117.209293">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1236441552); access=yes  [day4_la_sandiego km 208]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.788461" lon="-117.208953">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1236441550); access=yes  [day4_la_sandiego km 208]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.784551" lon="-117.208881">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1236441551); access=yes  [day4_la_sandiego km 209]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.781496" lon="-117.211031">
+    <ele>2.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/234376102)  [day4_la_sandiego km 209, 184 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.777579" lon="-117.214809">
+    <ele>3.0</ele>
+    <name>Fiesta Island Youth Camp</name>
+    <desc>OSM campground (node/4427411972); fee=yes; operator=City of San Diego  [day4_la_sandiego km 210, 481 m off route]</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="32.772109" lon="-117.209089">
+    <ele>3.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/12463362909); access=yes  [day4_la_sandiego km 210]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.772686" lon="-117.209341">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10727126178)  [day4_la_sandiego km 210]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.772069" lon="-117.209035">
+    <ele>3.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12681396044); access=yes; fee=no  [day4_la_sandiego km 210]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.771472" lon="-117.201686">
+    <ele>2.0</ele>
+    <name>Stehly Farms Market</name>
+    <desc>OSM supermarket (node/2429753714)  [day4_la_sandiego km 210, 566 m off route]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.755179" lon="-117.199488">
+    <ele>4.0</ele>
+    <name>A-Mart</name>
+    <desc>OSM convenience (node/9518750253); opening_hours=Mo-Su,PH 05:00-21:00  [day4_la_sandiego km 212, 153 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.754303" lon="-117.204690">
+    <ele>4.0</ele>
+    <name>Shell</name>
+    <desc>OSM fuel+shop (node/2699557865)  [day4_la_sandiego km 212, 348 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.754796" lon="-117.198010">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/288199464); access=yes; fee=no  [day4_la_sandiego km 213, 290 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.753983" lon="-117.197873">
+    <ele>4.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/522460307); access=yes; opening_hours=Mo-Su 11:00-15:00  [day4_la_sandiego km 213, 278 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.753657" lon="-117.196932">
+    <ele>2.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13000112535)  [day4_la_sandiego km 213, 359 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.744949" lon="-117.200168">
+    <ele>4.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/3790907971); opening_hours=Mo-Su 00:00-24:00; phone=+1 619-226-2249; website=https://www.7-eleven.com/locations/ca/san-diego/2387-midway-dr-34235/  [day4_la_sandiego km 213, 331 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.748599" lon="-117.193311">
+    <ele>6.0</ele>
+    <name>ampm</name>
+    <desc>OSM convenience (way/31843199)  [day4_la_sandiego km 214, 390 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.748202" lon="-117.192720">
+    <ele>6.0</ele>
+    <name>(convenience)</name>
+    <desc>OSM convenience (way/31800414)  [day4_la_sandiego km 214, 389 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.743077" lon="-117.192308">
+    <ele>5.0</ele>
+    <name>NEX Gas Station</name>
+    <desc>OSM fuel+shop (way/174508873)  [day4_la_sandiego km 214]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.744422" lon="-117.185211">
+    <ele>3.0</ele>
+    <name>Electric Bike Central</name>
+    <desc>OSM bike shop (node/7083530087); opening_hours=Tu-Sa 10:00-17:00; phone=+1-619-564-7028  [day4_la_sandiego km 215, 367 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.737733" lon="-117.189045">
+    <ele>3.0</ele>
+    <name>(fuel+shop)</name>
+    <desc>OSM fuel+shop (way/565943380); access=private  [day4_la_sandiego km 215, 465 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.737693" lon="-117.184528">
+    <ele>10.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/4349257211)  [day4_la_sandiego km 215, 284 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.740811" lon="-117.180988">
+    <ele>5.0</ele>
+    <name>Ez Pz Propane</name>
+    <desc>OSM fuel+shop (node/13118630701); website=https://ezpzpropane.com/  [day4_la_sandiego km 215, 189 m off route]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.729485" lon="-117.172984">
+    <ele>7.0</ele>
+    <name>Valero</name>
+    <desc>OSM convenience (way/1079855835)  [day4_la_sandiego km 216]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.729915" lon="-117.173549">
+    <ele>8.0</ele>
+    <name>Shell</name>
+    <desc>OSM fuel+shop (way/935161230)  [day4_la_sandiego km 216]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.726945" lon="-117.175643">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/2946841673)  [day4_la_sandiego km 216, 331 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.731242" lon="-117.160923">
+    <ele>15.0</ele>
+    <name>Ride1Up</name>
+    <desc>OSM bike shop (node/12163759131)  [day4_la_sandiego km 217, 1017 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.726261" lon="-117.169108">
+    <ele>12.0</ele>
+    <name>Mona Lisa</name>
+    <desc>OSM supermarket (node/530764099)  [day4_la_sandiego km 217]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.725582" lon="-117.168894">
+    <ele>12.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/530764048); phone=+1 619-501-9278; website=https://www.7-eleven.com/locations/ca/san-diego/600-w.-grape-33555  [day4_la_sandiego km 217]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.725069" lon="-117.171431">
+    <ele>12.0</ele>
+    <name>Mobil</name>
+    <desc>OSM fuel+shop (node/3632222231)  [day4_la_sandiego km 217]</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.723716" lon="-117.168245">
+    <ele>13.0</ele>
+    <name>Cash &amp; Carry Italian Market</name>
+    <desc>OSM supermarket (node/596095044); opening_hours=Mo-Su 09:00-21:30; operator=Filippi's Pizza Grotto; phone=+1-619-232-1346; website=https://realcheesepizza.com/italian-market  [day4_la_sandiego km 217]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.722276" lon="-117.168030">
+    <ele>9.0</ele>
+    <name>The Market By Buon Appetito</name>
+    <desc>OSM supermarket (node/3884002233)  [day4_la_sandiego km 218]</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.722138" lon="-117.169481">
+    <ele>9.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/339167460); phone=+1 619-615-0779; website=https://www.7-eleven.com/locations/ca/san-diego/1670-kettner-blvd-33458  [day4_la_sandiego km 218]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.722094" lon="-117.166843">
+    <ele>9.0</ele>
+    <name>West Cedar Market</name>
+    <desc>OSM convenience (node/5837049558)  [day4_la_sandiego km 218, 219 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.720787" lon="-117.166342">
+    <ele>9.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/565513431); phone=+1 619-696-9517; website=https://www.7-eleven.com/locations/ca/san-diego/1469-state-st-34184  [day4_la_sandiego km 218, 267 m off route]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.721019" lon="-117.171886">
+    <ele>9.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (way/1011576071)  [day4_la_sandiego km 218, 251 m off route]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.716603" lon="-117.158918">
+    <ele>7.0</ele>
+    <name>San Diego Bike Shop</name>
+    <desc>OSM bike shop (node/3267311859); opening_hours=Mo-Sa 09:30-18:00; phone=+1-619-237-1245; website=https://www.sdbikeshop.com/  [day4_la_sandiego km 218, 965 m off route]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="32.716575" lon="-117.168111">
+    <ele>7.0</ele>
+    <name>7-Eleven</name>
+    <desc>OSM convenience (node/2049031818); phone=+1 619-238-0251; website=https://www.7-eleven.com/locations/ca/san-diego/555-west-c-st-ste-100-33569  [day4_la_sandiego km 218]</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="32.717773" lon="-117.169905">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/9900927852)  [day4_la_sandiego km 218]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.716746" lon="-117.169592">
+    <ele>5.0</ele>
+    <name>(toilets)</name>
+    <desc>OSM toilets (node/4586369548); access=customers; fee=no  [day4_la_sandiego km 218]</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="32.716627" lon="-117.173231">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/12085845231)  [day4_la_sandiego km 218, 325 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.714900" lon="-117.172371">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13704736924)  [day4_la_sandiego km 218, 326 m off route]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="32.716850" lon="-117.169560">
+    <ele>5.0</ele>
+    <name>BAILOUT/FINISH San Diego Santa Fe Depot</name>
+    <desc>1050 Kettner Blvd, downtown. Pacific Surfliner: FREE bike reservations, 7 bike spaces per train, roll-on. Getting home = Surfliner to LA, then Coast Starlight north (6 bikes in the baggage car, books out). Note this is one MORE transfer than finishing at LA Union Station, not fewer - but San Diego airport is 5 km from here, which LAX is not. Surfliner also runs SD all the way to San Luis Obispo.  [day4_la_sandiego km 218]</desc>
     <sym>Car</sym>
     <type>bailout</type>
   </wpt>
