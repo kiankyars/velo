@@ -260,18 +260,66 @@ reporting the sleeping bag got wet *with the entry fully open*.
 | Closed-cell foam pad (Z Lite Sol) | ~$50 | 285–400 g | +R 2.0, and **immune to moisture**. Only worth it if the mattress is uninsulated — see below. |
 | SOL Escape Bivy with Hood | $86.50 | 207 g | Air-permeable, not a membrane: 0.67 CFM vs 0.5 CFM for eVent on the bench. But 1,336 mm hydrostatic head — water-*resistant*, and it leaks under a knee or elbow. |
 
-**The unmeasured variable that outweighs all of them: the sleeping pad.** ISO 23537
-rates bags with the manikin on an **R-4.8 pad** (clause 5.1.6), so Comfort 56 °F /
-Limit 49 °F already *assume* good ground insulation. An uninsulated air mattress is
-**R 0–1**, and the reported penalty is **15–20 °F of effective rating** — three to
-ten times the gap being argued over above. Ground conduction is 25–40% of a supine
-sleeper's heat loss. If the mattress is uninsulated, the bag is not the binding
-constraint at Limekiln and **Refugio at 61–65 °F stops being safe either**.
+#### The pad: a Klymit Static V, and it is the binding constraint
 
-Note also what a pad *cannot* do: since the rating was measured on R-4.8, a pad can
-only **restore** the bag to 56/49 °F — never push it past. At 50–54 °F closing the
-gap requires insulation added *on top* of that baseline, which means clothing or a
-liner.
+The pad is a **Klymit Static V — R 1.3**, ASTM F3340-18 (Klymit's EU page labels the
+original pad's 1.3 as ASTM explicitly), 530 g, $49.95. The non-insulated model.
+
+ISO 23537-1:2022 **clause 5.1.4 ("Artificial ground")** specifies the manikin lying on
+a mattress of Rct = 0.85 ± 0.06 m²K/W — **R 4.8** — so Comfort 56 °F / Limit 49 °F
+already *assume* good ground insulation. The bag checks out exactly against the
+standard: ISO Table 1 at Rc(1) = 0.620 m²K/W gives 13.3 °C / 9.7 °C, matching Marmot's
+published 56.1 °F / 49.6 °F to a tenth of a degree.
+
+**Correction to an earlier figure here: the penalty is 5–7 °F, not 15–20 °F.** The
+15–20 °F number is real and it is REI's own measurement — but it was taken on a
+**Magma 15** (ISO Limit 16 °F), and the penalty scales with how warm the bag is,
+because a thin bag already loses most of its heat upward. Calibrated against REI's
+four published points (RMS 0.29 °F, and the model reproduces their 17 °F on the Magma
+independently):
+
+| Bag ISO Limit | R 4.8 → R 1.3 penalty |
+|---|---:|
+| **49 °F (NanoWave 45)** | **+5.8 °F** |
+| 30 °F | +11.3 °F |
+| 16 °F (Magma 15) | +16.3 °F |
+| 0 °F | +22.8 °F |
+
+So on the Static V the effective figures become roughly **Comfort 61–63 °F, Limit
+55–58 °F** (the wider end allows for saturated soil, which conducts far better than
+the lab's plywood-over-air-cavity: effective ground R swings from 2.55 dry duff to
+0.72 saturated, worth ~4.5 °F in this bag).
+
+| Site | Effective Comfort / Limit | Forecast lows | Verdict |
+|---|---|---|---|
+| **Limekiln** | 63 / 58 °F | 50–54 °F | **4–8 °F below limit — this is the night that breaks** |
+| Pfeiffer, in the open | 66 / 60 °F | 56–62 °F | marginal (clear sky costs ~6 °F radiatively) |
+| **Pfeiffer, under canopy** | **60 / 54 °F** | **56–62 °F** | **works — the best spot on the route** |
+| Refugio | 63 / 58 °F | 61–65 °F | at/above limit, near comfort — acceptable |
+
+Two things fall out that aren't obvious. **Fog is thermally helpful**: a clear sky
+costs a tentless sleeper ~6 °F of radiative loss, and fog or canopy cuts that to ~0.
+Pfeiffer is the dry site but the *clear* one, so sleeping **under trees at Pfeiffer**
+gets the dry airmass *and* blocks the sky — better than either site in the open.
+And measured coastal August soil is **warmer** than the nocturnal air minimum
+(Bodega Bay 60.6 °F at 5 cm against a 52.5 °F air min), which trims the penalty.
+
+**The fix, and one trap.** Stacked pad R-values **are** additive — Therm-a-Rest and
+NEMO both state it explicitly for this exact configuration ("layering that Z-Lite
+under your inflatable pad will boost your overall R-Value by 2.0"), and the
+second-order error is under 0.5 °F. Static V + Z Lite Sol ≈ **R 3.3**, which moves
+Limekiln from Comfort 63 / Limit 58 to **58 / 52** — recovering 5–6 °F and turning the
+worst night from *cold* into *break-even*.
+
+**The trap is coverage, not conductance.** Area-weighted, a torso-length pad at 47%
+coverage yields **R 1.96, not R 3.3 — 41% short of nominal.** Buy full length. Note
+also the real weights: the full-length Z Lite Sol is **397–415 g**, not 300 g; 283 g
+buys only the 130 cm torso version. And a **$15 half-inch blue foam roll (~R 1.4,
+~320 g) captures roughly 85% of the benefit** of the $50 pad.
+
+What a pad *cannot* do: since the rating was measured on R 4.8, a pad can only
+**restore** the bag toward 56/49 °F — never past it. R 3.3 is still 31% short of the
+rated baseline.
 
 Failing all of it, sleep under a **solid roof**
 (picnic shelter, restroom eave, the lee of a building) — **not** under the redwoods,
