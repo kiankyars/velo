@@ -1,11 +1,11 @@
 {
- "generated_utc": "2026-08-07T22:16:56Z",
+ "generated_utc": "2026-08-08T17:07:44Z",
  "osm_source": "Overpass `around` against the routed line; radii per category in harvest_pch_pois.HARVEST",
  "stages": {
   "pch_day1_sf_limekiln": {
    "distance_km": 297.2,
    "osm_pois": 382,
-   "curated_pois": 12,
+   "curated_pois": 14,
    "resupply_points_on_road": 210,
    "longest_no_water_no_food_km": 37.0,
    "that_gap_starts_at_km": 50.1,
@@ -14,7 +14,7 @@
   "pch_day2_limekiln_refugio": {
    "distance_km": 279.5,
    "osm_pois": 180,
-   "curated_pois": 21,
+   "curated_pois": 22,
    "resupply_points_on_road": 70,
    "longest_no_water_no_food_km": 43.0,
    "that_gap_starts_at_km": 179.9,
@@ -45,8 +45,8 @@
   "water": 226,
   "bikeshop": 116,
   "camp": 87,
-  "info": 9,
-  "hazard": 8,
+  "info": 11,
+  "hazard": 9,
   "bailout": 6,
   "lodging": 5,
   "services": 5
@@ -6346,15 +6346,39 @@
    "stage": "pch_day1_sf_limekiln"
   },
   {
-   "name": "HAZARD Big Sur - no cell signal, no bike shop, no exit",
+   "name": "HAZARD Big Sur - 73 km with NO cell signal starts here",
+   "lat": 36.22181,
+   "lon": -121.75966,
+   "cat": "hazard",
+   "sym": "Danger Area",
+   "desc": "LAST RELIABLE SIGNAL, at Nepenthe (~km 260 of day 1). No carrier has service south of here; Deetjen's has none from any provider; there is nothing at all for long stretches between Big Sur Village and Lucia. Signal returns around Ragged Point / San Simeon, ~km 36 of day 2 - so roughly 73 KM OFFLINE, and Limekiln (km 297) is in the middle of it. Verizon and AT&T have towers south of the Big Sur valley at the top of the grade, and AT&T has one at Point Sur that needs line of sight. Load the GPX and offline maps BEFORE you leave; you cannot check road status, a campground or the weather from in here. Tell someone your expected arrival - a missed check-in is the only alarm that works. Know your phone's satellite messaging (iPhone 14+ Emergency SOS via satellite) before you need it.",
+   "km": 260.1,
+   "offset_m": 101,
+   "ele_m": 232,
+   "stage": "pch_day1_sf_limekiln"
+  },
+  {
+   "name": "HAZARD Big Sur - no bike shop, no hospital, no transit",
    "lat": 36.15,
    "lon": -121.65,
    "cat": "hazard",
    "sym": "Danger Area",
-   "desc": "From Carmel to Cambria there is no bike shop, no hospital, no transit and long stretches with no cell signal. A destroyed rear wheel here is a hitch-hike, not a phone call. Carry: 2 tubes, patches, a boot, a spare quick-link, a derailleur hanger, and enough water for 60 km.",
+   "desc": "From Carmel to Cambria there is no bike shop, no hospital and no transit. A destroyed rear wheel here is a hitch-hike, not a phone call. Carry: 2 tubes, patches, a boot, a spare quick-link, a derailleur hanger, and enough water for 60 km.",
    "km": 274.8,
    "offset_m": 784,
    "ele_m": 96,
+   "stage": "pch_day1_sf_limekiln"
+  },
+  {
+   "name": "FOG Limekiln - fog every night, 0-3 mph wind, no-tent warning",
+   "lat": 36.00998,
+   "lon": -121.51835,
+   "cat": "info",
+   "sym": "Flag, Blue",
+   "desc": "NWS forecast for the ride window: lows 54/53/51/50 F with 'Areas of fog' EVERY night between 9pm and 5am, and wind of only 0-3 mph. Dead calm plus fog is the worst case for condensation - nothing moves the moisture away - and Limekiln sits in a redwood canyon where canopy drip is heavier still. Sleeping without a tent here means a wet bag by morning and a damp start to a 280 km day 2. A bivy or waterproof bag cover (200-350 g) fixes it. CONTRAST: Pfeiffer Big Sur up the valley is forecast MOSTLY CLEAR at 56-62 F - inland of the marine layer, so warmer AND drier. If you are sleeping out, the valley is the better bet than the coast. SRC api.weather.gov point forecasts",
+   "km": 297.2,
+   "offset_m": 3,
+   "ele_m": 30,
    "stage": "pch_day1_sf_limekiln"
   },
   {
@@ -9460,6 +9484,18 @@
    "km": 217.9,
    "offset_m": 2064,
    "ele_m": 132,
+   "stage": "pch_day2_limekiln_refugio"
+  },
+  {
+   "name": "FOG Limekiln - fog every night, 0-3 mph wind, no-tent warning",
+   "lat": 36.00998,
+   "lon": -121.51835,
+   "cat": "info",
+   "sym": "Flag, Blue",
+   "desc": "NWS forecast for the ride window: lows 54/53/51/50 F with 'Areas of fog' EVERY night between 9pm and 5am, and wind of only 0-3 mph. Dead calm plus fog is the worst case for condensation - nothing moves the moisture away - and Limekiln sits in a redwood canyon where canopy drip is heavier still. Sleeping without a tent here means a wet bag by morning and a damp start to a 280 km day 2. A bivy or waterproof bag cover (200-350 g) fixes it. CONTRAST: Pfeiffer Big Sur up the valley is forecast MOSTLY CLEAR at 56-62 F - inland of the marine layer, so warmer AND drier. If you are sleeping out, the valley is the better bet than the coast. SRC api.weather.gov point forecasts",
+   "km": 0.0,
+   "offset_m": 3,
+   "ele_m": 30,
    "stage": "pch_day2_limekiln_refugio"
   },
   {

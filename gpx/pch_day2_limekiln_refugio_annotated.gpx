@@ -3,7 +3,7 @@
   <metadata>
     <name>Day 2 - Limekiln State Park to Refugio State Beach (with waypoints)</name>
     <desc>The southern Big Sur coast (Kirk Creek, Gorda, Ragged Point), the elephant seals at Piedras Blancas, Cambria and Morro Bay, inland to San Luis Obispo, down the dunes through Guadalupe to Lompoc, over the Santa Rosa Hills to Las Cruces and out to the Gaviota coast.</desc>
-    <time>2026-08-07T22:16:52Z</time>
+    <time>2026-08-08T17:07:40Z</time>
   </metadata>
   <wpt lat="36.010023" lon="-121.518095">
     <ele>36.0</ele>
@@ -32,6 +32,13 @@
     <desc>NIGHT 1 (if booking rather than camping wild). Reopened to camping 1 Apr 2026 after the Highway 1 slide closures. Hike/bike site $5/night; you must arrive on foot or by bike (no vehicle) and may stay a maximum of 2 consecutive nights. Fresh water, token hot showers ($1 / 5 min), toilets. Check-in 14:00, check-out 12:00. Sites 1-29 (Beach 1-12, Redwood 13-29). CRITICAL: California State Parks states 'Reservations are strongly encouraged for all campsites. There are no first-come, first-served campsites.' Do NOT plan to walk up. ReserveCalifornia 800-444-7275. SRC parks.ca.gov/?page_id=31154</desc>
     <sym>Campground</sym>
     <type>camp</type>
+  </wpt>
+  <wpt lat="36.009980" lon="-121.518350">
+    <ele>30.0</ele>
+    <name>0km FOG Limekiln - fog every night, 0-3 mph wind, no-tent warning</name>
+    <desc>NWS forecast for the ride window: lows 54/53/51/50 F with 'Areas of fog' EVERY night between 9pm and 5am, and wind of only 0-3 mph. Dead calm plus fog is the worst case for condensation - nothing moves the moisture away - and Limekiln sits in a redwood canyon where canopy drip is heavier still. Sleeping without a tent here means a wet bag by morning and a damp start to a 280 km day 2. A bivy or waterproof bag cover (200-350 g) fixes it. CONTRAST: Pfeiffer Big Sur up the valley is forecast MOSTLY CLEAR at 56-62 F - inland of the marine layer, so warmer AND drier. If you are sleeping out, the valley is the better bet than the coast. SRC api.weather.gov point forecasts</desc>
+    <sym>Flag, Blue</sym>
+    <type>info</type>
   </wpt>
   <wpt lat="36.009276" lon="-121.518805">
     <ele>24.0</ele>

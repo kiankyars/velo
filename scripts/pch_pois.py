@@ -228,12 +228,39 @@ HAZARDS = [
               "short notice - check before you go. Position is nominal, it applies to "
               "the whole Big Sur stretch. "
               "SRC fs.usda.gov/r05/lospadres fire-use restrictions"),
-    dict(name="HAZARD Big Sur - no cell signal, no bike shop, no exit",
+    dict(name="HAZARD Big Sur - 73 km with NO cell signal starts here",
+         lat=36.22181, lon=-121.75966, cat="hazard", sym="Danger Area",
+         desc="LAST RELIABLE SIGNAL, at Nepenthe (~km 260 of day 1). No carrier has "
+              "service south of here; Deetjen's has none from any provider; there is "
+              "nothing at all for long stretches between Big Sur Village and Lucia. "
+              "Signal returns around Ragged Point / San Simeon, ~km 36 of day 2 - so "
+              "roughly 73 KM OFFLINE, and Limekiln (km 297) is in the middle of it. "
+              "Verizon and AT&T have towers south of the Big Sur valley at the top of "
+              "the grade, and AT&T has one at Point Sur that needs line of sight. "
+              "Load the GPX and offline maps BEFORE you leave; you cannot check road "
+              "status, a campground or the weather from in here. Tell someone your "
+              "expected arrival - a missed check-in is the only alarm that works. Know "
+              "your phone's satellite messaging (iPhone 14+ Emergency SOS via "
+              "satellite) before you need it."),
+    dict(name="HAZARD Big Sur - no bike shop, no hospital, no transit",
          lat=36.15000, lon=-121.65000, cat="hazard", sym="Danger Area",
-         desc="From Carmel to Cambria there is no bike shop, no hospital, no transit and "
-              "long stretches with no cell signal. A destroyed rear wheel here is a "
-              "hitch-hike, not a phone call. Carry: 2 tubes, patches, a boot, a spare "
-              "quick-link, a derailleur hanger, and enough water for 60 km."),
+         desc="From Carmel to Cambria there is no bike shop, no hospital and no "
+              "transit. A destroyed rear wheel here is a hitch-hike, not a phone call. "
+              "Carry: 2 tubes, patches, a boot, a spare quick-link, a derailleur "
+              "hanger, and enough water for 60 km."),
+    dict(name="FOG Limekiln - fog every night, 0-3 mph wind, no-tent warning",
+         lat=36.00998, lon=-121.51835, cat="info", sym="Flag, Blue",
+         desc="NWS forecast for the ride window: lows 54/53/51/50 F with 'Areas of "
+              "fog' EVERY night between 9pm and 5am, and wind of only 0-3 mph. Dead "
+              "calm plus fog is the worst case for condensation - nothing moves the "
+              "moisture away - and Limekiln sits in a redwood canyon where canopy drip "
+              "is heavier still. Sleeping without a tent here means a wet bag by "
+              "morning and a damp start to a 280 km day 2. A bivy or waterproof bag "
+              "cover (200-350 g) fixes it. "
+              "CONTRAST: Pfeiffer Big Sur up the valley is forecast MOSTLY CLEAR at "
+              "56-62 F - inland of the marine layer, so warmer AND drier. If you are "
+              "sleeping out, the valley is the better bet than the coast. "
+              "SRC api.weather.gov point forecasts"),
 ]
 
 # ---------------------------------------------------------------------------

@@ -135,6 +135,83 @@ The GPX does not change either way — the waypoint files still carry every
 campground, water tap and store, which is more useful when you are improvising a
 stop than when you have one booked.
 
+### Sleeping bag and no tent: the temperature is fine, the fog is the problem
+
+NWS point forecasts for the actual places you'd sleep, pulled for the ride window:
+
+| Where | Overnight lows | Sky | Wind |
+|---|---|---|---|
+| **Limekiln (night 1)** | **54 / 53 / 51 / 50 °F** | **"Areas of fog" every night, 9pm–5am** | 0–3 mph NW |
+| Gorda | 60 / 60 / 58 / 57 °F | partly–mostly cloudy | 1–8 mph NW |
+| **Pfeiffer Big Sur (valley)** | **62 / 60 / 58 / 56 °F** | **mostly clear** | 0–5 mph NW |
+| Refugio (night 2) | 62 / 61 / 61 / 62 °F | patchy fog after 5am | 0–5 mph |
+
+**A 45 °F bag is enough on temperature.** The coldest night on the list is 50 °F at
+Limekiln, so there's 5–9 °F of margin — *provided* 45 °F is the bag's **comfort**
+rating. If that number is the EN/ISO **limit** rating, comfort is more like 55 °F
+and Limekiln's 50–51 °F nights would be genuinely cold. Worth checking which figure
+is printed on it.
+
+**The no-tent decision is not a temperature question, it's a condensation one.**
+Limekiln forecasts fog on every night of the window, with wind of 0–3 mph. Dead
+calm plus fog is the worst possible combination for dew: there's no air movement to
+carry the moisture away. August is peak marine-layer season on this coast — fog
+most mornings and again each evening — and Limekiln sits in a **redwood canyon**,
+where canopy drip is heavier than open fog. Cowboy camping there means a wet bag by
+morning, and wet down loses most of its loft. You'd then start a 280 km day 2 with
+a damp bag and nowhere to dry it.
+
+Cheapest fix by far: **a bivy sack or a waterproof/DWR bag cover, 200–350 g.** For
+this plan that is the highest-value single item you could add — more than any
+weight you'd save by leaving the tent. Failing that, sleep under something (picnic
+shelter, dense canopy, the lee of a building), and prefer a synthetic or
+hydrophobic-down bag over untreated down. Put a groundsheet under the pad; dew
+comes from below too.
+
+**One forecast detail worth acting on:** Pfeiffer Big Sur in the valley is
+**mostly clear at 56–62 °F** while Limekiln on the coast is **fogged in at
+50–54 °F**. The Big Sur valley sits inland of the marine layer, so it is both
+warmer *and* drier. If you are sleeping without a tent, that is a real argument for
+the shorter day 1 (`pch_day1_alt_pfeiffer.gpx`) rather than pushing to the coast.
+
+And the honest point in favour of your plan: **no tent is better for camping wild.**
+Low profile, nothing visible from the road, and you can be packed and moving in two
+minutes.
+
+### Cell coverage: about 73 km of nothing, with your campsite in the middle
+
+Big Sur is a genuine dead zone, not a weak-signal zone. **No carrier has service
+south of Nepenthe**; Deetjen's has none from any provider; there are long stretches
+with nothing at all between Big Sur Village and Lucia. Verizon and AT&T have towers
+south of the Big Sur valley at the top of the grade, and AT&T has one at Point Sur
+that only works with line of sight to it.
+
+In route terms:
+
+| | |
+|---|---|
+| Last reliable signal | **~km 260 of day 1** (Nepenthe) |
+| Signal returns | **~km 36 of day 2** (Ragged Point / San Simeon) |
+| Offline stretch | **≈ 73 km** |
+| Where you sleep | **km 297 of day 1 — inside it** |
+
+Everything else on the route is fine: days 3 and 4 are urban or suburban end to
+end. So this is one specific 73 km window, and it happens to contain the night.
+
+What to do about it:
+
+- **Load the GPX and offline maps before you leave.** Do not plan to fetch anything
+  on the road — you cannot check the Caltrans traffic control, a campground, or a
+  weather update from inside that stretch.
+- **Tell someone your plan and your expected arrival**, because a missed check-in is
+  the only alarm that will work.
+- **Know your phone's satellite messaging before you need it.** iPhone 14 and later
+  support Emergency SOS via satellite, and recent iOS versions add Messages via
+  satellite; a dedicated satellite messenger is the belt-and-braces version. Big
+  Sur is exactly the terrain those were built for.
+- The waypoint files already carry every water tap, store and campground in that
+  window, which is the point of having them on the device rather than in a browser.
+
 ---
 
 ## The profile, and why the stock one fails here
