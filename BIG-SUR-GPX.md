@@ -135,7 +135,7 @@ The GPX does not change either way — the waypoint files still carry every
 campground, water tap and store, which is more useful when you are improvising a
 stop than when you have one booked.
 
-### Sleeping bag and no tent: the temperature is fine, the fog is the problem
+### Sleeping bag and no tent: the bag is 2–6 °F short at Limekiln, and the air is saturated
 
 NWS point forecasts for the actual places you'd sleep, pulled for the ride window:
 
@@ -146,20 +146,54 @@ NWS point forecasts for the actual places you'd sleep, pulled for the ride windo
 | **Pfeiffer Big Sur (valley)** | **62 / 60 / 58 / 56 °F** | **mostly clear** | 0–5 mph NW |
 | Refugio (night 2) | 62 / 61 / 61 / 62 °F | patchy fog after 5am | 0–5 mph |
 
-**A 45 °F bag is enough on temperature.** The coldest night on the list is 50 °F at
-Limekiln, so there's 5–9 °F of margin — *provided* 45 °F is the bag's **comfort**
-rating. If that number is the EN/ISO **limit** rating, comfort is more like 55 °F
-and Limekiln's 50–51 °F nights would be genuinely cold. Worth checking which figure
-is printed on it.
+#### ⚠️ Correction: the bag does *not* have temperature margin here
 
-**The no-tent decision is not a temperature question, it's a condensation one.**
-Limekiln forecasts fog on every night of the window, with wind of 0–3 mph. Dead
-calm plus fog is the worst possible combination for dew: there's no air movement to
-carry the moisture away. August is peak marine-layer season on this coast — fog
-most mornings and again each evening — and Limekiln sits in a **redwood canyon**,
-where canopy drip is heavier than open fog. Cowboy camping there means a wet bag by
-morning, and wet down loses most of its loft. You'd then start a 280 km day 2 with
-a damp bag and nowhere to dry it.
+An earlier version of this section said a 45 °F bag "is enough on temperature" with
+"5–9 °F of margin," conditional on 45 °F being the **comfort** rating. **The
+condition failed.** The bag is a **[Marmot NanoWave 45](https://www.rei.com/product/146503/marmot-nanowave-45-sleeping-bag-mens)**,
+and REI publishes its tested ratings as **EN/ISO Comfort 56 °F, Lower Limit 49 °F** —
+so even the "45" on the label is optimistic against the bag's own test.
+
+| Site | Forecast lows | vs Comfort 56 °F | vs Limit 49 °F |
+|---|---|---|---|
+| **Limekiln** | 54 / 53 / 51 / 50 °F | **2–6 °F below** | 1–5 °F above |
+| Pfeiffer Big Sur | 62 / 60 / 58 / 56 °F | at or above | fine |
+| Refugio | 62 / 61 / 61 / 62 °F | 5–6 °F above | fine |
+
+EN/ISO 23537's **Lower Limit** is not a comfort figure: it's the temperature at which
+a standard adult male sleeping *curled up* is on the edge of shivering. Limekiln's
+coldest forecast night, 50 °F, is **1 °F above that**. So the margin isn't 5–9 °F in
+hand — it's 2–6 °F short of comfortable, three nights out of four.
+
+Two things follow. **Limekiln is the only site with a temperature problem** — Pfeiffer
+and Refugio are both at or above the comfort rating. And the *bag* is one of the
+strongest arguments for Pfeiffer that exists, independent of the fog.
+
+#### The condensation problem, separately
+
+Measured by dewpoint spread rather than by the word "fog"
+(`python3 scripts/check_camp_dewpoint.py`):
+
+| Site | Temp | Dewpoint | **Spread** | RH | Verdict |
+|---|---:|---:|---:|---:|---|
+| **Limekiln** | 53–56 °F | 53–56 °F | **0–2 °F** | 93–99% | **saturated** |
+| **Refugio** | 61–65 °F | 61–65 °F | **0–3 °F** | 91–100% | **saturated** |
+| **Pfeiffer** | 61–68 °F | 44–52 °F | **11–21 °F** | 48–68% | **dry** |
+
+A bag radiating to the night sky sits 1–3 °F *below* air temperature, so at a 0 °F
+spread deposition isn't a risk, it's the forecast. Note that **Refugio is saturated
+too** — its forecast text reads only "Patchy fog after 5am," but the grid data says
+RH 99–100%. The planned itinerary is **two consecutive saturation nights with no
+dry-out between them**, which is the case where moisture compounds.
+
+Limekiln also sits in a **redwood canyon**, and coast redwoods strip fog into drip —
+under the canopy is wetter than open ground, not drier.
+
+**The bag being synthetic (Marmot Spirafil polyester) helps a great deal here.**
+Synthetic fill keeps most of its loft damp and dries far faster than down, so a damp
+morning is an inconvenience rather than a lost night. That is the one piece of good
+news in this section — but it interacts badly with the rating problem above: a bag
+already 2–6 °F short of comfort has nothing spare to give up to dampness.
 
 Cheapest fix by far: **a bivy sack or a waterproof/DWR bag cover, 200–350 g.** For
 this plan that is the highest-value single item you could add — more than any
@@ -169,11 +203,14 @@ which is the opposite of shelter here: coast redwoods strip fog into drip and ar
 wetter beneath than open ground. Prefer a synthetic or hydrophobic-down bag over
 untreated down. Put a groundsheet under the pad; dew comes from below too.
 
-**One forecast detail worth acting on:** Pfeiffer Big Sur in the valley is
-**mostly clear at 56–62 °F** while Limekiln on the coast is **fogged in at
-50–54 °F**. The Big Sur valley sits inland of the marine layer, so it is both
-warmer *and* drier. If you are sleeping without a tent, that is a real argument for
-the shorter day 1 (`pch_day1_alt_pfeiffer.gpx`) rather than pushing to the coast.
+**The forecast detail that decides this:** Pfeiffer Big Sur in the valley is
+**mostly clear at 56–62 °F with a dewpoint spread of 11–21 °F**, while Limekiln on
+the coast is **fogged in at 50–54 °F with a spread of 0–2 °F**. The Big Sur valley
+sits inland of the marine layer — that's not marginally better, it's a different
+airmass. **It is the only night on the itinerary where the bag is at its comfort
+rating *and* the air is not at saturation.** Both problems in this section, solved by
+one decision, for 41 km off day 1 (`pch_day1_alt_pfeiffer.gpx`, 256 km instead of
+297 km) and no purchase at all.
 
 And the honest point in favour of your plan: **no tent is better for camping wild.**
 Low profile, nothing visible from the road, and you can be packed and moving in two
