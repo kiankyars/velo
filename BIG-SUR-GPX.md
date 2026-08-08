@@ -163,10 +163,11 @@ a damp bag and nowhere to dry it.
 
 Cheapest fix by far: **a bivy sack or a waterproof/DWR bag cover, 200–350 g.** For
 this plan that is the highest-value single item you could add — more than any
-weight you'd save by leaving the tent. Failing that, sleep under something (picnic
-shelter, dense canopy, the lee of a building), and prefer a synthetic or
-hydrophobic-down bag over untreated down. Put a groundsheet under the pad; dew
-comes from below too.
+weight you'd save by leaving the tent. Failing that, sleep under a **solid roof**
+(picnic shelter, restroom eave, the lee of a building) — **not** under the redwoods,
+which is the opposite of shelter here: coast redwoods strip fog into drip and are
+wetter beneath than open ground. Prefer a synthetic or hydrophobic-down bag over
+untreated down. Put a groundsheet under the pad; dew comes from below too.
 
 **One forecast detail worth acting on:** Pfeiffer Big Sur in the valley is
 **mostly clear at 56–62 °F** while Limekiln on the coast is **fogged in at

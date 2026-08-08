@@ -1,0 +1,455 @@
+{
+ "generated_utc": "2026-08-08T17:27:08Z",
+ "source": "api.weather.gov forecastGridData (dewpoint + RH) and forecast (fog wording)",
+ "method": "temperature minus dewpoint at the overnight minimum; a bag radiating to the sky sits 1-3 F below air temperature",
+ "sites": [
+  {
+   "name": "Limekiln SP (night 1, planned)",
+   "lat": 36.00998,
+   "lon": -121.51835,
+   "note": "Redwood canyon, ~200 m from the surf. Inside the marine layer.",
+   "forecast_text": [
+    "Areas Of Fog"
+   ],
+   "min_spread_f": 0.0,
+   "verdict": "SATURATED",
+   "overnight_samples": [
+    {
+     "local": "Sat 2026-08-08 03:00",
+     "temp_f": 55.0,
+     "dewpoint_f": 54.0,
+     "spread_f": 1.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Sat 2026-08-08 05:00",
+     "temp_f": 53.0,
+     "dewpoint_f": 53.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Sat 2026-08-08 23:00",
+     "temp_f": 57.0,
+     "dewpoint_f": 56.0,
+     "spread_f": 1.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Sun 2026-08-09 01:00",
+     "temp_f": 56.0,
+     "dewpoint_f": 55.0,
+     "spread_f": 1.0,
+     "rh_pct": 98
+    },
+    {
+     "local": "Sun 2026-08-09 03:00",
+     "temp_f": 56.0,
+     "dewpoint_f": 54.0,
+     "spread_f": 2.0,
+     "rh_pct": 96
+    },
+    {
+     "local": "Sun 2026-08-09 05:00",
+     "temp_f": 55.0,
+     "dewpoint_f": 53.0,
+     "spread_f": 2.0,
+     "rh_pct": 93
+    },
+    {
+     "local": "Sun 2026-08-09 23:00",
+     "temp_f": 56.0,
+     "dewpoint_f": 56.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Mon 2026-08-10 01:00",
+     "temp_f": 56.0,
+     "dewpoint_f": 56.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Mon 2026-08-10 03:00",
+     "temp_f": 56.0,
+     "dewpoint_f": 56.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Mon 2026-08-10 05:00",
+     "temp_f": 55.0,
+     "dewpoint_f": 55.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Mon 2026-08-10 23:00",
+     "temp_f": 55.0,
+     "dewpoint_f": 55.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Tue 2026-08-11 01:00",
+     "temp_f": 55.0,
+     "dewpoint_f": 54.0,
+     "spread_f": 1.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Tue 2026-08-11 03:00",
+     "temp_f": 54.0,
+     "dewpoint_f": 54.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Tue 2026-08-11 05:00",
+     "temp_f": 53.0,
+     "dewpoint_f": 53.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Tue 2026-08-11 23:00",
+     "temp_f": 54.0,
+     "dewpoint_f": 54.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Wed 2026-08-12 01:00",
+     "temp_f": 54.0,
+     "dewpoint_f": 54.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Wed 2026-08-12 03:00",
+     "temp_f": 54.0,
+     "dewpoint_f": 53.0,
+     "spread_f": 1.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Wed 2026-08-12 05:00",
+     "temp_f": 53.0,
+     "dewpoint_f": 52.0,
+     "spread_f": 1.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Wed 2026-08-12 23:00",
+     "temp_f": 54.0,
+     "dewpoint_f": 54.0,
+     "spread_f": 0.0,
+     "rh_pct": null
+    }
+   ]
+  },
+  {
+   "name": "Pfeiffer Big Sur SP (night 1, alt)",
+   "lat": 36.25331,
+   "lon": -121.7833,
+   "note": "Big Sur River valley, ridge between it and the ocean. Above/inland of the marine layer.",
+   "forecast_text": [
+    "Mostly Clear",
+    "Partly Cloudy"
+   ],
+   "min_spread_f": 3.0,
+   "verdict": "marginal",
+   "overnight_samples": [
+    {
+     "local": "Sat 2026-08-08 03:00",
+     "temp_f": 63.0,
+     "dewpoint_f": 48.0,
+     "spread_f": 15.0,
+     "rh_pct": 57
+    },
+    {
+     "local": "Sat 2026-08-08 05:00",
+     "temp_f": 61.0,
+     "dewpoint_f": 46.0,
+     "spread_f": 15.0,
+     "rh_pct": 56
+    },
+    {
+     "local": "Sat 2026-08-08 23:00",
+     "temp_f": 67.0,
+     "dewpoint_f": 50.0,
+     "spread_f": 17.0,
+     "rh_pct": 54
+    },
+    {
+     "local": "Sun 2026-08-09 01:00",
+     "temp_f": 68.0,
+     "dewpoint_f": 48.0,
+     "spread_f": 20.0,
+     "rh_pct": 50
+    },
+    {
+     "local": "Sun 2026-08-09 03:00",
+     "temp_f": 67.0,
+     "dewpoint_f": 46.0,
+     "spread_f": 21.0,
+     "rh_pct": 48
+    },
+    {
+     "local": "Sun 2026-08-09 05:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 44.0,
+     "spread_f": 20.0,
+     "rh_pct": 49
+    },
+    {
+     "local": "Sun 2026-08-09 23:00",
+     "temp_f": 69.0,
+     "dewpoint_f": 51.0,
+     "spread_f": 18.0,
+     "rh_pct": 52
+    },
+    {
+     "local": "Mon 2026-08-10 01:00",
+     "temp_f": 67.0,
+     "dewpoint_f": 50.0,
+     "spread_f": 17.0,
+     "rh_pct": 54
+    },
+    {
+     "local": "Mon 2026-08-10 03:00",
+     "temp_f": 65.0,
+     "dewpoint_f": 50.0,
+     "spread_f": 15.0,
+     "rh_pct": 57
+    },
+    {
+     "local": "Mon 2026-08-10 05:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 49.0,
+     "spread_f": 15.0,
+     "rh_pct": 60
+    },
+    {
+     "local": "Mon 2026-08-10 23:00",
+     "temp_f": 65.0,
+     "dewpoint_f": 52.0,
+     "spread_f": 13.0,
+     "rh_pct": 63
+    },
+    {
+     "local": "Tue 2026-08-11 01:00",
+     "temp_f": 63.0,
+     "dewpoint_f": 51.0,
+     "spread_f": 12.0,
+     "rh_pct": 65
+    },
+    {
+     "local": "Tue 2026-08-11 03:00",
+     "temp_f": 62.0,
+     "dewpoint_f": 51.0,
+     "spread_f": 11.0,
+     "rh_pct": 67
+    },
+    {
+     "local": "Tue 2026-08-11 05:00",
+     "temp_f": 61.0,
+     "dewpoint_f": 50.0,
+     "spread_f": 11.0,
+     "rh_pct": 68
+    },
+    {
+     "local": "Tue 2026-08-11 23:00",
+     "temp_f": 62.0,
+     "dewpoint_f": 55.0,
+     "spread_f": 7.0,
+     "rh_pct": 80
+    },
+    {
+     "local": "Wed 2026-08-12 01:00",
+     "temp_f": 60.0,
+     "dewpoint_f": 54.0,
+     "spread_f": 6.0,
+     "rh_pct": 79
+    },
+    {
+     "local": "Wed 2026-08-12 03:00",
+     "temp_f": 59.0,
+     "dewpoint_f": 53.0,
+     "spread_f": 6.0,
+     "rh_pct": 79
+    },
+    {
+     "local": "Wed 2026-08-12 05:00",
+     "temp_f": 58.0,
+     "dewpoint_f": 52.0,
+     "spread_f": 6.0,
+     "rh_pct": 79
+    },
+    {
+     "local": "Wed 2026-08-12 23:00",
+     "temp_f": 60.0,
+     "dewpoint_f": 57.0,
+     "spread_f": 3.0,
+     "rh_pct": 90
+    }
+   ]
+  },
+  {
+   "name": "Refugio SB (night 2, planned)",
+   "lat": 34.46243,
+   "lon": -120.0483,
+   "note": "On the Gaviota coast shoreline, south-facing into the Santa Barbara Channel.",
+   "forecast_text": [
+    "Partly Cloudy then Patchy Fog",
+    "Mostly Cloudy",
+    "Partly Cloudy"
+   ],
+   "min_spread_f": 0.0,
+   "verdict": "SATURATED",
+   "overnight_samples": [
+    {
+     "local": "Sat 2026-08-08 01:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 61.0,
+     "spread_f": 3.0,
+     "rh_pct": 91
+    },
+    {
+     "local": "Sat 2026-08-08 03:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 62.0,
+     "spread_f": 2.0,
+     "rh_pct": 94
+    },
+    {
+     "local": "Sat 2026-08-08 05:00",
+     "temp_f": 62.0,
+     "dewpoint_f": 61.0,
+     "spread_f": 1.0,
+     "rh_pct": 97
+    },
+    {
+     "local": "Sat 2026-08-08 23:00",
+     "temp_f": 72.0,
+     "dewpoint_f": 65.0,
+     "spread_f": 7.0,
+     "rh_pct": 79
+    },
+    {
+     "local": "Sun 2026-08-09 01:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 62.0,
+     "spread_f": 2.0,
+     "rh_pct": 92
+    },
+    {
+     "local": "Sun 2026-08-09 03:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 63.0,
+     "spread_f": 1.0,
+     "rh_pct": 97
+    },
+    {
+     "local": "Sun 2026-08-09 05:00",
+     "temp_f": 62.0,
+     "dewpoint_f": 61.0,
+     "spread_f": 1.0,
+     "rh_pct": 98
+    },
+    {
+     "local": "Sun 2026-08-09 23:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 64.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Mon 2026-08-10 01:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 64.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Mon 2026-08-10 03:00",
+     "temp_f": 65.0,
+     "dewpoint_f": 65.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Mon 2026-08-10 05:00",
+     "temp_f": 65.0,
+     "dewpoint_f": 65.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Mon 2026-08-10 23:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 64.0,
+     "spread_f": 0.0,
+     "rh_pct": 100
+    },
+    {
+     "local": "Tue 2026-08-11 01:00",
+     "temp_f": 63.0,
+     "dewpoint_f": 63.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Tue 2026-08-11 03:00",
+     "temp_f": 62.0,
+     "dewpoint_f": 62.0,
+     "spread_f": 0.0,
+     "rh_pct": 99
+    },
+    {
+     "local": "Tue 2026-08-11 05:00",
+     "temp_f": 61.0,
+     "dewpoint_f": 61.0,
+     "spread_f": 0.0,
+     "rh_pct": 100
+    },
+    {
+     "local": "Tue 2026-08-11 23:00",
+     "temp_f": 68.0,
+     "dewpoint_f": 64.0,
+     "spread_f": 4.0,
+     "rh_pct": 87
+    },
+    {
+     "local": "Wed 2026-08-12 01:00",
+     "temp_f": 65.0,
+     "dewpoint_f": 64.0,
+     "spread_f": 1.0,
+     "rh_pct": 96
+    },
+    {
+     "local": "Wed 2026-08-12 03:00",
+     "temp_f": 63.0,
+     "dewpoint_f": 63.0,
+     "spread_f": 0.0,
+     "rh_pct": 100
+    },
+    {
+     "local": "Wed 2026-08-12 05:00",
+     "temp_f": 63.0,
+     "dewpoint_f": 63.0,
+     "spread_f": 0.0,
+     "rh_pct": 100
+    },
+    {
+     "local": "Wed 2026-08-12 23:00",
+     "temp_f": 64.0,
+     "dewpoint_f": 63.0,
+     "spread_f": 1.0,
+     "rh_pct": 97
+    }
+   ]
+  }
+ ]
+}
