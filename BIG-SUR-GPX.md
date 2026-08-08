@@ -160,10 +160,17 @@ so even the "45" on the label is optimistic against the bag's own test.
 | Pfeiffer Big Sur | 62 / 60 / 58 / 56 °F | at or above | fine |
 | Refugio | 62 / 61 / 61 / 62 °F | 5–6 °F above | fine |
 
-EN/ISO 23537's **Lower Limit** is not a comfort figure: it's the temperature at which
-a standard adult male sleeping *curled up* is on the edge of shivering. Limekiln's
-coldest forecast night, 50 °F, is **1 °F above that**. So the margin isn't 5–9 °F in
-hand — it's 2–6 °F short of comfortable, three nights out of four.
+EN/ISO 23537's two figures are referenced to different sleepers: **Comfort** to a
+standard woman lying relaxed, **Lower Limit** to a standard man lying *curled up* on
+the edge of shivering. For a male sleeper the Limit is the conventionally applicable
+number — which puts Limekiln's 50–54 °F **inside** the bag's rated band, 1–5 °F above
+the Limit and 2–6 °F below Comfort.
+
+So the honest verdict is **marginal, not inadequate**: a cool night at the bottom
+edge of the bag's range, not an unusable bag. What decides whether it's merely cool or
+genuinely cold is **the sleeping pad**, not the bag — see below. But the earlier claim
+of "5–9 °F of margin" was wrong in the wrong direction, and the damp penalty below eats
+what margin there is.
 
 Two things follow. **Limekiln is the only site with a temperature problem** — Pfeiffer
 and Refugio are both at or above the comfort rating. And the *bag* is one of the
@@ -189,28 +196,117 @@ dry-out between them**, which is the case where moisture compounds.
 Limekiln also sits in a **redwood canyon**, and coast redwoods strip fog into drip —
 under the canopy is wetter than open ground, not drier.
 
-**The bag being synthetic (Marmot Spirafil polyester) helps a great deal here.**
-Synthetic fill keeps most of its loft damp and dries far faster than down, so a damp
-morning is an inconvenience rather than a lost night. That is the one piece of good
-news in this section — but it interacts badly with the rating problem above: a bag
-already 2–6 °F short of comfort has nothing spare to give up to dampness.
+**The bag being synthetic (Marmot Spirafil polyester) is worth about 10–13 °F here —
+but for a different reason than the marketing gives.** "Synthetic is warm when wet"
+does not survive measurement; the one independent controlled test concludes synthetic
+"will **not** keep you warm when it is wet — perhaps when it is **damp**." Water
+conducts heat **23× better than air** (0.6 vs 0.026 W/m·K), so liquid in the loft is a
+thermal short circuit whatever the polymer.
 
-Cheapest fix by far: **a bivy sack or a waterproof/DWR bag cover, 200–350 g.** For
-this plan that is the highest-value single item you could add — more than any
-weight you'd save by leaving the tent. Failing that, sleep under a **solid roof**
+The mechanism that actually matters in saturated air is **moisture regain from humid
+air**, and there the gap is enormous:
+
+| Fill | Regain at 95% RH | Insulation lost |
+|---|---:|---:|
+| Polyester (his) | **0.4%** | ~0% |
+| Untreated down | **11.0%** | **−33% R** |
+
+Down's thermal conductivity rises 0.032 → 0.048 W/m·°C from humid air *alone*, and its
+compression modulus collapses 280 → 117 Pa, so it physically cannot re-loft while
+damp. In a down bag this trip's air would raise the effective lower limit from 49 °F to
+roughly **62 °F** — a ~13 °F penalty before a single drop landed. **That penalty
+essentially doesn't happen to a polyester fill.** He accidentally owns the right bag.
+
+The residual damp penalty for polyester is smaller but real — estimated **3–8 °F**,
+which is enough to matter given the margin above:
+
+| Site | Dry margin vs 49 °F limit | After a 3–8 °F damp penalty |
+|---|---|---|
+| **Limekiln** | +1 to +5 °F | **−2 to −7 °F (below limit)** |
+| Refugio | +12 to +16 °F | +4 to +13 °F (absorbed) |
+
+So Limekiln is where damp and cold compound, and Refugio is where they don't.
+
+#### What to actually do about it — the bivy is *not* the answer
+
+An earlier version of this doc called a bivy "the highest-value single item you could
+add." **Three findings say otherwise**, and they point somewhere cheaper.
+
+**1. A bivy's warmth comes from blocking wind and sky radiation — and Limekiln has
+neither channel open.** The quoted 4–10 °F gain is not a fabric property; it comes
+from stopping convective loss to moving air and radiative loss to open sky. Limekiln
+is **0–3 mph under fog under a redwood canopy** — both loss paths are already largely
+closed, so you get the bottom of that range, not the top. The tidy match between "a
+few °F short" and "bivies add 5–10 °F" is coincidence.
+
+**2. Saturated air is exactly where a waterproof-breathable membrane stops working.**
+A membrane moves vapour down a vapour-pressure gradient. At a **0–2 °F spread and
+93–99% RH there is no gradient**, and the shell sits at or below the dewpoint. So a
+bivy in this airmass can dampen the bag as readily as it protects it — the two
+effects fight rather than add.
+
+**3. Almost none of them are buyable in time.** REI's entire bivy category is six
+SKUs, and five are **pre-order at ~30 days**. Only the Black Diamond Spotlight
+($209.73, 669 g, REI Outlet closeout, zero reviews) is in stock. The Outdoor Research
+Helium UL is the **worst-reviewed item in the category at 3.3/5**, with an owner
+reporting the sleeping bag got wet *with the entry fully open*.
+
+**The better buys, in order:**
+
+| Item | Price | Weight | What it does |
+|---|---:|---:|---|
+| **Clothing you already carry** | **$0** | **0 g** | **~10 °F.** Sleep in the cycling layers. Beats everything below. |
+| Sea to Summit Reactor liner (Midweight / Fleece) | $75–95 | 210–420 g | Claimed +10/+15 °F, realistically less — but it adds insulation *inside* the bag and creates **no condensation surface**. In stock. |
+| Closed-cell foam pad (Z Lite Sol) | ~$50 | 285–400 g | +R 2.0, and **immune to moisture**. Only worth it if the mattress is uninsulated — see below. |
+| SOL Escape Bivy with Hood | $86.50 | 207 g | Air-permeable, not a membrane: 0.67 CFM vs 0.5 CFM for eVent on the bench. But 1,336 mm hydrostatic head — water-*resistant*, and it leaks under a knee or elbow. |
+
+**The unmeasured variable that outweighs all of them: the sleeping pad.** ISO 23537
+rates bags with the manikin on an **R-4.8 pad** (clause 5.1.6), so Comfort 56 °F /
+Limit 49 °F already *assume* good ground insulation. An uninsulated air mattress is
+**R 0–1**, and the reported penalty is **15–20 °F of effective rating** — three to
+ten times the gap being argued over above. Ground conduction is 25–40% of a supine
+sleeper's heat loss. If the mattress is uninsulated, the bag is not the binding
+constraint at Limekiln and **Refugio at 61–65 °F stops being safe either**.
+
+Note also what a pad *cannot* do: since the rating was measured on R-4.8, a pad can
+only **restore** the bag to 56/49 °F — never push it past. At 50–54 °F closing the
+gap requires insulation added *on top* of that baseline, which means clothing or a
+liner.
+
+Failing all of it, sleep under a **solid roof**
 (picnic shelter, restroom eave, the lee of a building) — **not** under the redwoods,
 which is the opposite of shelter here: coast redwoods strip fog into drip and are
 wetter beneath than open ground. Prefer a synthetic or hydrophobic-down bag over
 untreated down. Put a groundsheet under the pad; dew comes from below too.
 
-**The forecast detail that decides this:** Pfeiffer Big Sur in the valley is
-**mostly clear at 56–62 °F with a dewpoint spread of 11–21 °F**, while Limekiln on
-the coast is **fogged in at 50–54 °F with a spread of 0–2 °F**. The Big Sur valley
-sits inland of the marine layer — that's not marginally better, it's a different
-airmass. **It is the only night on the itinerary where the bag is at its comfort
-rating *and* the air is not at saturation.** Both problems in this section, solved by
-one decision, for 41 km off day 1 (`pch_day1_alt_pfeiffer.gpx`, 256 km instead of
-297 km) and no purchase at all.
+#### ⚠️ Second correction: Pfeiffer is a trade, not a free fix
+
+Pfeiffer Big Sur in the valley is **mostly clear at 56–62 °F with a dewpoint spread
+of 11–21 °F**, while Limekiln is **fogged in at 50–54 °F with a spread of 0–2 °F** —
+a different airmass, not a marginal improvement, and the only night on the itinerary
+where the bag is at its comfort rating *and* the air isn't saturated.
+
+An earlier version of this doc then said that costs "41 km off day 1." **That was
+wrong, and it was wrong on arithmetic that was already in this repo.** Pfeiffer sits
+at **km 255.2 of the day-1 track, 363 m off the line, 41.8 km *short* of Limekiln** —
+it is 27 km of latitude *north* of Limekiln, a waypoint on the way, not a destination
+off to one side. The 41.8 km is **deferred to day 2, not saved:**
+
+| Pairing | Day 1 | Day 2 | Day 2 climb |
+|---|---:|---:|---:|
+| Limekiln (standard) | 297.0 km / +2,889 m | **279.4 km** | +2,148 m |
+| Pfeiffer (variant) | 255.9 km / +2,151 m | **322.4 km** | **+2,945 m** |
+
+That pushes day 2 **over the 300 km/day ceiling**, and the deferred kilometres are
+the Big Sur south coast — the section this doc documents as a **73 km cell dead zone
+with no bail-out**, which the Pfeiffer pairing moves into the *first* hour of day 2
+instead of the last hour of day 1.
+
+The variant was also incomplete: there was no day-2-from-Pfeiffer file, so the option
+could not be costed. There is now — **`pch_day2_pfeiffer_refugio.gpx`, 322.4 km,
++2,945 m**, audited clean (0 km `bicycle=no`, 0% unpaved, all freeway
+bicycle-legal). Take Pfeiffer for the dry night if you want it, but take it knowing
+it buys a 322 km day 2, and load both files.
 
 And the honest point in favour of your plan: **no tent is better for camping wild.**
 Low profile, nothing visible from the road, and you can be packed and moving in two

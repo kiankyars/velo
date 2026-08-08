@@ -227,6 +227,36 @@
    "worst_corridor_offset_m": 218,
    "worst_corridor_point": "Aptos (Soquel Dr)",
    "continuous": true
+  },
+  {
+   "id": "pch_day2_pfeiffer_refugio",
+   "file": "pch_day2_pfeiffer_refugio.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 2919,
+   "spurs": [
+    {
+     "at_km": 42.17,
+     "excursion_m": 449,
+     "reach_m": 139,
+     "lat": 36.00889,
+     "lon": -121.51863
+    },
+    {
+     "at_km": 193.83,
+     "excursion_m": 501,
+     "reach_m": 250,
+     "lat": 35.1572,
+     "lon": -120.67101
+    }
+   ],
+   "spur_total_m": 950,
+   "spur_max_m": 501,
+   "distance_km": 322.3,
+   "max_point_gap_m": 299.3,
+   "worst_corridor_offset_m": 771,
+   "worst_corridor_point": "Orcutt",
+   "continuous": true
   }
  ],
  "seams": [

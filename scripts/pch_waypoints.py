@@ -295,13 +295,40 @@ VARIANTS = [
     {
         "id": "pch_day1_alt_pfeiffer",
         "name": "Day 1 variant - stop early at Big Sur Village / Pfeiffer",
-        "desc": "Day 1 cut from 326 km to 282 km by stopping in Big Sur Village "
+        "desc": "Day 1 cut from 297 km to 256 km by stopping in Big Sur Village "
                 "instead of pressing on to Limekiln. Worth having loaded: it is "
                 "the decision point for whether you descend the Big Sur cliffs "
                 "in the dark, and the village is the last place with food, water "
-                "and a campground in one spot.",
+                "and a campground in one spot. Pfeiffer is also the only night on "
+                "the itinerary where the air is not at saturation (dewpoint spread "
+                "11-21 F against 0-2 F at Limekiln) - see check_camp_dewpoint.py. "
+                "BUT THE 41.8 KM IS NOT SAVED, IT IS DEFERRED: Pfeiffer sits at km "
+                "255.2 of the day-1 track, 41.8 km SHORT of Limekiln, on the same "
+                "line. Pair this with pch_day2_pfeiffer_refugio (321.2 km) - do "
+                "not pair it with the standard day 2, which starts at Limekiln.",
         "trim_to": "Big Sur Village (River Inn)",
         "extra": [("Pfeiffer Big Sur SP (NIGHT 1 alt)", 36.25331, -121.78330)],
+    },
+    {
+        "id": "pch_day2_pfeiffer_refugio",
+        "name": "Day 2 variant - Pfeiffer Big Sur to Refugio (pairs with the alt day 1)",
+        "desc": "The other half of the Pfeiffer variant, and the reason that "
+                "variant is a trade rather than a saving. Stopping at Pfeiffer "
+                "leaves 41.8 km of the day-1 track unridden, and it lands here: "
+                "this stage is 321.2 km against the standard day 2's 279.4 km, and "
+                "the deferred kilometres carry roughly 738 m of the Big Sur south "
+                "coast's climbing. It also front-loads the 73 km cell dead zone "
+                "(Nepenthe to Ragged Point) into the first hour of the day instead "
+                "of the last hour of the previous one. Built so the Pfeiffer option "
+                "can be costed honestly instead of assumed free.",
+        "base": "STAGE2",
+        "replace_upto": "Gorda Springs",
+        "head": [
+            ("Pfeiffer Big Sur SP (START)",     36.25331, -121.78330),
+            # Pass-through, not a stop: this is the same CA-1 line the standard
+            # day 1 covers, so it re-uses the cached legs either way.
+            ("Limekiln State Park",             36.00998, -121.51835),
+        ],
     },
 ]
 

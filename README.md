@@ -19,8 +19,12 @@ GPX in [`gpx/pch_*.gpx`](./gpx), full write-up in **[BIG-SUR-GPX.md](./BIG-SUR-G
 | 2 | Limekiln SP → **Refugio SB** | **279.5 km** | +2,148 m |
 | 3 | Refugio SB → **LA Union Station** | **205.7 km** | +611 m |
 
-Plus one variant — `pch_day1_alt_pfeiffer.gpx`, day 1 cut to 256 km by stopping in
-Big Sur Village — and the waypoint files (1,379 POIs).
+Plus two Pfeiffer-variant files and the waypoint files (1,382 POIs). Note the
+variant is a **trade, not a saving**: Pfeiffer sits 41.8 km *short* of Limekiln on the
+same line, so `pch_day1_alt_pfeiffer.gpx` (255.9 km) defers that distance onto
+`pch_day2_pfeiffer_refugio.gpx` (**322.4 km / +2,945 m** against 279.4 km / +2,148 m
+from Limekiln). It buys the only night on the route where the air isn't at saturation;
+it costs a 322 km day 2.
 
 **Optional day 4 to San Diego is built and audited: 218.2 km, +685 m** — see
 **[EXTENSIONS.md](./EXTENSIONS.md)** for whether it's worth doing and what beats

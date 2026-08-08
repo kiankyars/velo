@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-07T22:16:18Z",
+ "generated_utc": "2026-08-08T18:30:12Z",
  "profile": "velo_pch_road.brf (BRouter, processUnusedTags=true) on OpenStreetMap; PERMISSIVE_LEGS use velo_pch_road_bridge.brf",
  "simplify_tolerance_m": 2.5,
  "stages": [
@@ -1334,7 +1334,7 @@
   {
    "id": "pch_day1_alt_pfeiffer",
    "name": "Day 1 variant - stop early at Big Sur Village / Pfeiffer",
-   "desc": "Day 1 cut from 326 km to 282 km by stopping in Big Sur Village instead of pressing on to Limekiln. Worth having loaded: it is the decision point for whether you descend the Big Sur cliffs in the dark, and the village is the last place with food, water and a campground in one spot.",
+   "desc": "Day 1 cut from 297 km to 256 km by stopping in Big Sur Village instead of pressing on to Limekiln. Worth having loaded: it is the decision point for whether you descend the Big Sur cliffs in the dark, and the village is the last place with food, water and a campground in one spot. Pfeiffer is also the only night on the itinerary where the air is not at saturation (dewpoint spread 11-21 F against 0-2 F at Limekiln) - see check_camp_dewpoint.py. BUT THE 41.8 KM IS NOT SAVED, IT IS DEFERRED: Pfeiffer sits at km 255.2 of the day-1 track, 41.8 km SHORT of Limekiln, on the same line. Pair this with pch_day2_pfeiffer_refugio (321.2 km) - do not pair it with the standard day 2, which starts at Limekiln.",
    "is_main_stage": false,
    "optional_extension": false,
    "distance_km": 256.1,
@@ -1583,6 +1583,283 @@
      "lat": 36.25331,
      "lon": -121.7833,
      "ele_m": 154
+    }
+   ]
+  },
+  {
+   "id": "pch_day2_pfeiffer_refugio",
+   "name": "Day 2 variant - Pfeiffer Big Sur to Refugio (pairs with the alt day 1)",
+   "desc": "The other half of the Pfeiffer variant, and the reason that variant is a trade rather than a saving. Stopping at Pfeiffer leaves 41.8 km of the day-1 track unridden, and it lands here: this stage is 321.2 km against the standard day 2's 279.4 km, and the deferred kilometres carry roughly 738 m of the Big Sur south coast's climbing. It also front-loads the 73 km cell dead zone (Nepenthe to Ragged Point) into the first hour of the day instead of the last hour of the previous one. Built so the Pfeiffer option can be costed honestly instead of assumed free.",
+   "is_main_stage": false,
+   "optional_extension": false,
+   "distance_km": 322.4,
+   "ascent_m_filtered": 2945,
+   "ascent_m_raw_srtm": 5503,
+   "points_raw": 5863,
+   "points_saved": 2919,
+   "audit": {
+    "bicycle_no_km": 0.0,
+    "access_permit_km": 0.0,
+    "motorway_km": 10.623,
+    "motorway_bicycle_legal_km": 10.623,
+    "motorway_not_legal_km": 0.0,
+    "ferry_km": 0.0,
+    "steps_km": 0.0,
+    "unpaved_km": 0.0,
+    "unpaved_pct": 0.0,
+    "tunnel_km": 0.0,
+    "bridge_km": 5.51,
+    "on_cyclenetwork_pct": 88.0,
+    "road_mix_km": {
+     "trunk": 52.3,
+     "primary": 179.9,
+     "secondary": 35.8,
+     "tertiary": 30.0,
+     "residential": 7.9,
+     "cycleway": 3.8,
+     "path": 0.3,
+     "service": 1.4
+    }
+   },
+   "flagged": {
+    "motorway": [
+     {
+      "lat": 35.43954,
+      "lon": -120.88851,
+      "len_m": 642,
+      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 estimated_river_class=2 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
+     },
+     {
+      "lat": 35.39202,
+      "lon": -120.85993,
+      "len_m": 1270,
+      "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes shoulder=both route_bicycle_ncn=yes"
+     },
+     {
+      "lat": 35.38074,
+      "lon": -120.85608,
+      "len_m": 321,
+      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
+     },
+     {
+      "lat": 34.81351,
+      "lon": -120.44889,
+      "len_m": 4341,
+      "tags": "highway=motorway surface=asphalt estimated_noise_class=5 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
+     },
+     {
+      "lat": 34.46545,
+      "lon": -120.06982,
+      "len_m": 4049,
+      "tags": "highway=motorway estimated_forest_class=1 estimated_noise_class=5 estimated_river_class=1 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
+     }
+    ]
+   },
+   "climbs": [
+    {
+     "start_km": 0.9,
+     "summit_km": 4.3,
+     "length_km": 3.37,
+     "gain_m": 209,
+     "avg_pct": 6.2,
+     "summit_ele_m": 298,
+     "summit_lat": 36.22836,
+     "summit_lon": -121.76474
+    },
+    {
+     "start_km": 37.4,
+     "summit_km": 39.7,
+     "length_km": 2.33,
+     "gain_m": 76,
+     "avg_pct": 3.3,
+     "summit_ele_m": 149,
+     "summit_lat": 36.0202,
+     "summit_lon": -121.54153
+    },
+    {
+     "start_km": 62.2,
+     "summit_km": 69.6,
+     "length_km": 7.42,
+     "gain_m": 200,
+     "avg_pct": 2.7,
+     "summit_ele_m": 243,
+     "summit_lat": 35.82294,
+     "summit_lon": -121.37836
+    },
+    {
+     "start_km": 72.1,
+     "summit_km": 74.8,
+     "length_km": 2.69,
+     "gain_m": 143,
+     "avg_pct": 5.3,
+     "summit_ele_m": 244,
+     "summit_lat": 35.8041,
+     "summit_lon": -121.3496
+    },
+    {
+     "start_km": 87.8,
+     "summit_km": 117.4,
+     "length_km": 29.57,
+     "gain_m": 82,
+     "avg_pct": 0.3,
+     "summit_ele_m": 89,
+     "summit_lat": 35.55816,
+     "summit_lon": -121.07692
+    },
+    {
+     "start_km": 163.4,
+     "summit_km": 173.6,
+     "length_km": 10.25,
+     "gain_m": 80,
+     "avg_pct": 0.8,
+     "summit_ele_m": 94,
+     "summit_lat": 35.29401,
+     "summit_lon": -120.68619
+    },
+    {
+     "start_km": 217.9,
+     "summit_km": 244.6,
+     "length_km": 26.64,
+     "gain_m": 146,
+     "avg_pct": 0.5,
+     "summit_ele_m": 169,
+     "summit_lat": 34.8224,
+     "summit_lon": -120.45015
+    },
+    {
+     "start_km": 250.7,
+     "summit_km": 256.7,
+     "length_km": 6.0,
+     "gain_m": 193,
+     "avg_pct": 3.2,
+     "summit_ele_m": 296,
+     "summit_lat": 34.73238,
+     "summit_lon": -120.44056
+    },
+    {
+     "start_km": 274.7,
+     "summit_km": 295.4,
+     "length_km": 20.72,
+     "gain_m": 272,
+     "avg_pct": 1.3,
+     "summit_ele_m": 328,
+     "summit_lat": 34.52194,
+     "summit_lon": -120.27332
+    }
+   ],
+   "permissive_legs_used": [],
+   "cue_sheet": [
+    {
+     "label": "Pfeiffer Big Sur SP (START)",
+     "km": 0.0,
+     "offset_m": 24,
+     "lat": 36.25331,
+     "lon": -121.7833,
+     "ele_m": 154
+    },
+    {
+     "label": "Limekiln State Park",
+     "km": 42.5,
+     "offset_m": 3,
+     "lat": 36.00998,
+     "lon": -121.51835,
+     "ele_m": 30
+    },
+    {
+     "label": "Gorda Springs",
+     "km": 60.1,
+     "offset_m": 15,
+     "lat": 35.87641,
+     "lon": -121.44614,
+     "ele_m": 107
+    },
+    {
+     "label": "Cambria",
+     "km": 116.3,
+     "offset_m": 33,
+     "lat": 35.56414,
+     "lon": -121.08111,
+     "ele_m": 22
+    },
+    {
+     "label": "Morro Bay",
+     "km": 149.3,
+     "offset_m": 11,
+     "lat": 35.36581,
+     "lon": -120.8499,
+     "ele_m": 21
+    },
+    {
+     "label": "Los Osos",
+     "km": 158.7,
+     "offset_m": 24,
+     "lat": 35.31072,
+     "lon": -120.83235,
+     "ele_m": 42
+    },
+    {
+     "label": "Los Osos Valley Rd",
+     "km": 169.9,
+     "offset_m": 200,
+     "lat": 35.27746,
+     "lon": -120.719,
+     "ele_m": 45
+    },
+    {
+     "label": "San Luis Obispo",
+     "km": 176.8,
+     "offset_m": 41,
+     "lat": 35.2828,
+     "lon": -120.6596,
+     "ele_m": 74
+    },
+    {
+     "label": "Shell Beach",
+     "km": 194.2,
+     "offset_m": 2,
+     "lat": 35.15525,
+     "lon": -120.67239,
+     "ele_m": 16
+    },
+    {
+     "label": "Guadalupe",
+     "km": 222.3,
+     "offset_m": 45,
+     "lat": 34.97164,
+     "lon": -120.57184,
+     "ele_m": 28
+    },
+    {
+     "label": "Orcutt",
+     "km": 240.2,
+     "offset_m": 771,
+     "lat": 34.86518,
+     "lon": -120.44722,
+     "ele_m": 95
+    },
+    {
+     "label": "Lompoc",
+     "km": 268.6,
+     "offset_m": 5,
+     "lat": 34.63915,
+     "lon": -120.4579,
+     "ele_m": 33
+    },
+    {
+     "label": "Las Cruces (CA-1 / US-101)",
+     "km": 299.9,
+     "offset_m": 8,
+     "lat": 34.50804,
+     "lon": -120.22904,
+     "ele_m": 107
+    },
+    {
+     "label": "Refugio State Beach (NIGHT 2)",
+     "km": 322.4,
+     "offset_m": 22,
+     "lat": 34.46243,
+     "lon": -120.0483,
+     "ele_m": 11
     }
    ]
   },

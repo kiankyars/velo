@@ -2,8 +2,8 @@
 <gpx version="1.1" creator="velo-build_pch_route" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Day 1 variant - stop early at Big Sur Village / Pfeiffer</name>
-    <desc>Day 1 cut from 326 km to 282 km by stopping in Big Sur Village instead of pressing on to Limekiln. Worth having loaded: it is the decision point for whether you descend the Big Sur cliffs in the dark, and the village is the last place with food, water and a campground in one spot.</desc>
-    <time>2026-08-07T22:16:18Z</time>
+    <desc>Day 1 cut from 297 km to 256 km by stopping in Big Sur Village instead of pressing on to Limekiln. Worth having loaded: it is the decision point for whether you descend the Big Sur cliffs in the dark, and the village is the last place with food, water and a campground in one spot. Pfeiffer is also the only night on the itinerary where the air is not at saturation (dewpoint spread 11-21 F against 0-2 F at Limekiln) - see check_camp_dewpoint.py. BUT THE 41.8 KM IS NOT SAVED, IT IS DEFERRED: Pfeiffer sits at km 255.2 of the day-1 track, 41.8 km SHORT of Limekiln, on the same line. Pair this with pch_day2_pfeiffer_refugio (321.2 km) - do not pair it with the standard day 2, which starts at Limekiln.</desc>
+    <time>2026-08-08T18:30:06Z</time>
   </metadata>
   <trk>
     <name>Day 1 variant - stop early at Big Sur Village / Pfeiffer</name>
