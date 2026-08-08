@@ -214,6 +214,93 @@ What to do about it:
 
 ---
 
+## ⚠️ There is an official route, and I should have started from it
+
+**US Bicycle Route 95 is AASHTO-designated the length of California — Crescent
+City to the Mexican border** — and Adventure Cycling publishes the USBRS digital
+maps for free ([advcy.link/causbr](https://www.adventurecycling.org/routes-and-maps/adventure-cycling-route-network/pacific-coast/)).
+OSM carries it as nine `route=bicycle, network=ncn, ref=95` relations.
+
+This repo's own method, written down in [ROUTE-GPX.md](./ROUTE-GPX.md), is: use the
+official GPX as the backbone and reserve BRouter for the connectors that aren't part
+of any signed route. That is exactly how the Frankfurt loop was built — EV15, EV17,
+EV7 and EV6 come from the official EuroVelo files. **I did not check for an official
+backbone before building this one.** That was a process miss, not a judgement call.
+
+[`scripts/validate_usbr95_alignment.py`](./scripts/validate_usbr95_alignment.py)
+now fetches USBR 95 and measures the built route against it, so the official line
+is a permanent reference rather than something to rediscover.
+
+### How much difference did it make? Less than you'd fear
+
+| Stage | within 100 m | 250 m | 500 m | median offset |
+|---|---:|---:|---:|---:|
+| Day 1 SF → Limekiln | **83.0%** | 86.9% | 88.7% | **0 m** |
+| Day 2 Limekiln → Refugio | **83.4%** | 87.5% | 89.9% | **0 m** |
+| Day 3 Refugio → LA | **75.0%** | 80.6% | 86.0% | **0 m** |
+| Day 4 LA → San Diego | **64.5%** | 71.0% | 77.2% | **0 m** |
+
+Measured against 107,508 official reference nodes. It's largely the same road,
+which is what you'd expect on a coast where Highway 1 is often the only option.
+
+### Every divergence over 1.5 km, and why
+
+Three of them are deliberate and would not be fixed by using the official file,
+because USBR 95 doesn't know where you live or which train you're catching:
+
+| Stage | km | Length | What it is |
+|---|---|---:|---|
+| 1 | 0 → 3 | 3.0 km | **Your front door.** USBR 95 doesn't start at 426 Fell St. |
+| 3 | 179 → 206 | 26.8 km | **Santa Monica → LA Union Station.** Deliberate: the train home. USBR 95 stays coastal. |
+| 4 | 0 → 30 | 30.4 km | **Union Station → Long Beach** on the LA River path. USBR 95's LA section starts in Santa Monica. |
+
+The rest are genuine alignment differences worth knowing about:
+
+| Stage | km | Length | Where | Official route does |
+|---|---|---:|---|---|
+| 1 | 146 → 166 | 19.3 km | Pajaro Valley | a different crossing than my San Andreas Rd line |
+| 1 | 125 → 135 | 10.5 km | Santa Cruz | the coastal side rather than Mission St / Soquel Dr |
+| 2 | 205 → 228 | 21 km | Vandenberg / Lompoc | a different line through the base's edge |
+| **3** | **15 → 28** | **12.9 km** | **Goleta** | **the Obern Trail — see below** |
+| **4** | **133 → 145** | **12.0 km** | **Camp Pendleton** | **goes through the base — see below** |
+| 4 | 203 → 218 | 15.2 km | into downtown San Diego | a different approach to Santa Fe Depot |
+
+### Two things the official route taught me
+
+**1. Goleta: the Obern Trail.** USBR 95 routes through Goleta on the **Obern
+Trail** — 586 mapped nodes of `highway=cycleway, bicycle=designated` — plus
+Hollister Ave, Calle Real and the Modoc Road Multiuse Path. My line uses the
+arterials instead. Routed both:
+
+| | Distance | Separated path |
+|---|---:|---:|
+| My line (Winchester → Goleta → Santa Barbara) | 21.93 km | 0 km |
+| Via the Obern Trail | **25.22 km** | **9.11 km** |
+
+**+3.3 km buys 9.1 km off the arterials.** For a 200 km day that's a real trade in
+either direction — the trail is safer, a shared-use path along a slough is slower.
+Not forced into the GPX; noted so it's your call.
+
+Also worth recording: the official designated route itself includes a short run of
+`El Camino Real [motorway] bicycle=no` at Goleta. **The national route makes the
+same compromise I did** with the 391 m Winchester Canyon exception, which is mild
+vindication that the exception reflects the road rather than a routing error.
+
+**2. Camp Pendleton — and a correction.** USBR 95 goes **through the base**, on
+**Old Pacific Highway** (`bicycle=yes`) and the **Pacific Coast Bikeway**
+(`highway=cycleway, bicycle=yes`), continuing into Oceanside on North Pacific
+Street and Harbor Drive.
+
+So an earlier claim in [EXTENSIONS.md](./EXTENSIONS.md) was **wrong**: I wrote that
+the bikeway "dead-ends southbound." It doesn't — it runs right through to Oceanside,
+and a national route is designated along it. What's true is narrower: **it is
+gated**, and has needed a DBIDS pass since 1 October 2018. BRouter can't route it
+without passing the 80 m `access=permit` link, which is what produced the dead-end
+impression. The I-5 bypass remains the correct pass-free line; the reasoning for it
+was right, the description of the alternative was not.
+
+---
+
 ## The profile, and why the stock one fails here
 
 Geometry comes from BRouter using [`scripts/velo_pch_road.brf`](./scripts/velo_pch_road.brf),

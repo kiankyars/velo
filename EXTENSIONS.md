@@ -116,15 +116,20 @@ submits your details early; it does not replace the in-person biometric capture.
 bicycle route it grants is defined **Las Pulgas gate ↔ Main gate** — the *southern*
 half of the base. It does not include the San Onofre approach at all.
 
-**3. The publicly-rideable part north of the gate is a dead end.** This is the one
-that looked most promising, so it got tested rather than assumed. The old highway
-corridor through San Onofre Bluffs is genuinely open to you — Overpass shows **Old
-Pacific Highway** as `access=permissive, bicycle=yes` and the **Pacific Coast
-Bikeway** as `highway=cycleway, bicycle=yes, foot=yes`. No pass needed. But its
-only southern exit onto I-5 at Las Pulgas is **80 m of `access=permit` road**. A
-nogo-radius sweep over that link — 20, 35, 50, 80, 120, 200 m — produced **the full
-27 km of I-5 every single time**, meaning OSM has no alternative connection. So the
-bikeway is an out-and-back, not a through route.
+**3. The corridor north of the gate is rideable, but you cannot get past the gate
+without credentials.** *(Corrected — an earlier version of this file called it a
+dead end, which is wrong.)* The old highway through San Onofre Bluffs is genuinely
+open: Overpass shows **Old Pacific Highway** as `access=permissive, bicycle=yes` and
+the **Pacific Coast Bikeway** as `highway=cycleway, bicycle=yes, foot=yes`. And it
+does **not** dead-end — **US Bicycle Route 95 is designated straight along it**,
+continuing into Oceanside on North Pacific Street and Harbor Drive. It is a
+through route, and a national one.
+
+What stops you is the gate, not the geography. Its only southern link onto I-5 at
+Las Pulgas is **80 m of `access=permit` road**, and base access has required a
+DBIDS pass since 1 October 2018. A nogo-radius sweep over that link — 20, 35, 50,
+80, 120, 200 m — produced **the full 27 km of I-5 every single time**, because
+BRouter has no legal way past it.
 
 | Nogo radius over the 80 m gate | Route | Freeway | Bike path |
 |---:|---:|---:|---:|

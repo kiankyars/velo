@@ -30,6 +30,16 @@ no new bookings — but it's the least interesting riding. Prepending the
 Sonoma/Mendocino coast (Leggett → SF, 357.2 km / +4,301 m) is the better ride if
 you ever have the lead time to arrange a bus with a bike space.
 
+**This road has an official route, and it should have been the starting point.**
+**US Bicycle Route 95** is AASHTO-designated the length of California (Crescent City
+→ Mexican border) and Adventure Cycling publishes the USBRS maps free. This repo's
+own method — official GPX as backbone, BRouter for connectors, as the Frankfurt loop
+does with EuroVelo — says to start there, and I didn't check. Measured after the
+fact against 107,508 official nodes, the built line sits within 100 m of USBR 95 for
+**83.0% of day 1, 83.4% of day 2, 75.0% of day 3, 64.5% of day 4, median offset 0 m**
+— largely the same road, as you'd expect where Highway 1 is the only option. The
+comparison is now permanent: `python3 scripts/validate_usbr95_alignment.py`.
+
 **What the build found:**
 
 - **50 out-and-back spurs wasting 62 km** in the first draft, caused by via-points
@@ -45,6 +55,12 @@ you ever have the lead time to arrange a bus with a bike space.
   removes the dependency entirely. Dispersed camping on Los Padres NF land is legal
   and permit-free, but **campfires are banned until 31 Jan 2027** (stove OK with a
   free permit).
+- **Two things the official route taught the build:** USBR 95 crosses Goleta on the
+  **Obern Trail** (+3.3 km for 9.1 km of separated path instead of arterials — an
+  open choice on day 3), and it goes **through Camp Pendleton**, which corrects an
+  earlier claim here that the Pacific Coast Bikeway dead-ends southbound. It doesn't
+  — it's **gated** (DBIDS pass since 1 Oct 2018). The I-5 bypass is still the right
+  pass-free line.
 
 ---
 

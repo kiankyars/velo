@@ -1,0 +1,306 @@
+{
+ "generated_utc": "2026-08-08T17:15:11Z",
+ "reference": "OSM route=bicycle network=ncn ref=95 (US Bicycle Route 95, AASHTO-designated: Crescent City to the Mexican border). Adventure Cycling publishes the USBRS digital maps free at advcy.link/causbr.",
+ "relations": [
+  12882462,
+  12891023,
+  12891024,
+  12922709,
+  13134577,
+  17463928,
+  17655189,
+  17655190,
+  17684812
+ ],
+ "proposed_relations": [
+  13134577
+ ],
+ "reference_nodes": 107508,
+ "no_match_reported_as_m": 2000.0,
+ "stages": [
+  {
+   "id": "pch_day1_sf_limekiln",
+   "points": 2876,
+   "within_100m_pct": 83.0,
+   "within_250m_pct": 86.9,
+   "within_500m_pct": 88.7,
+   "within_1000m_pct": 90.0,
+   "median_offset_m": 0,
+   "divergences_over_min_km": [
+    {
+     "from_km": 146.3,
+     "to_km": 165.6,
+     "length_km": 19.3,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      36.96793,
+      -121.8706
+     ],
+     "end": [
+      36.8538,
+      -121.77398
+     ]
+    },
+    {
+     "from_km": 124.9,
+     "to_km": 135.4,
+     "length_km": 10.5,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      36.95898,
+      -122.05225
+     ],
+     "end": [
+      36.97374,
+      -121.95538
+     ]
+    },
+    {
+     "from_km": 0.0,
+     "to_km": 3.0,
+     "length_km": 3.0,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      37.77568,
+      -122.42497
+     ],
+     "end": [
+      37.77117,
+      -122.45821
+     ]
+    },
+    {
+     "from_km": 40.0,
+     "to_km": 42.6,
+     "length_km": 2.7,
+     "max_offset_m": 701,
+     "beyond_search_radius": false,
+     "start": [
+      37.52203,
+      -122.50788
+     ],
+     "end": [
+      37.50697,
+      -122.48423
+     ]
+    },
+    {
+     "from_km": 138.7,
+     "to_km": 141.3,
+     "length_km": 2.6,
+     "max_offset_m": 663,
+     "beyond_search_radius": false,
+     "start": [
+      36.98368,
+      -121.93318
+     ],
+     "end": [
+      36.97821,
+      -121.91016
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pch_day2_limekiln_refugio",
+   "points": 2335,
+   "within_100m_pct": 83.4,
+   "within_250m_pct": 87.5,
+   "within_500m_pct": 89.9,
+   "within_1000m_pct": 91.6,
+   "median_offset_m": 0,
+   "divergences_over_min_km": [
+    {
+     "from_km": 204.7,
+     "to_km": 221.4,
+     "length_km": 16.7,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      34.79606,
+      -120.44046
+     ],
+     "end": [
+      34.67408,
+      -120.45729
+     ]
+    },
+    {
+     "from_km": 223.4,
+     "to_km": 227.5,
+     "length_km": 4.1,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      34.65619,
+      -120.45767
+     ],
+     "end": [
+      34.64208,
+      -120.44027
+     ]
+    },
+    {
+     "from_km": 72.8,
+     "to_km": 74.8,
+     "length_km": 1.9,
+     "max_offset_m": 967,
+     "beyond_search_radius": false,
+     "start": [
+      35.56287,
+      -121.09202
+     ],
+     "end": [
+      35.55817,
+      -121.07775
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pch_day3_refugio_la",
+   "points": 1586,
+   "within_100m_pct": 75.0,
+   "within_250m_pct": 80.6,
+   "within_500m_pct": 86.0,
+   "within_1000m_pct": 88.1,
+   "median_offset_m": 0,
+   "divergences_over_min_km": [
+    {
+     "from_km": 178.8,
+     "to_km": 205.6,
+     "length_km": 26.8,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      33.99621,
+      -118.47782
+     ],
+     "end": [
+      34.05604,
+      -118.23591
+     ]
+    },
+    {
+     "from_km": 14.8,
+     "to_km": 27.7,
+     "length_km": 12.9,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      34.43531,
+      -119.9042
+     ],
+     "end": [
+      34.43827,
+      -119.78002
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pch_day4_la_sandiego",
+   "points": 1891,
+   "within_100m_pct": 64.5,
+   "within_250m_pct": 71.0,
+   "within_500m_pct": 77.2,
+   "within_1000m_pct": 79.7,
+   "median_offset_m": 0,
+   "divergences_over_min_km": [
+    {
+     "from_km": 0.0,
+     "to_km": 30.4,
+     "length_km": 30.4,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      34.05604,
+      -118.23591
+     ],
+     "end": [
+      33.82322,
+      -118.20479
+     ]
+    },
+    {
+     "from_km": 202.9,
+     "to_km": 218.1,
+     "length_km": 15.2,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      32.78997,
+      -117.25132
+     ],
+     "end": [
+      32.71685,
+      -117.16977
+     ]
+    },
+    {
+     "from_km": 133.3,
+     "to_km": 145.4,
+     "length_km": 12.0,
+     "max_offset_m": null,
+     "beyond_search_radius": true,
+     "start": [
+      33.29726,
+      -117.46292
+     ],
+     "end": [
+      33.21153,
+      -117.38872
+     ]
+    },
+    {
+     "from_km": 34.6,
+     "to_km": 37.7,
+     "length_km": 3.0,
+     "max_offset_m": 795,
+     "beyond_search_radius": false,
+     "start": [
+      33.78987,
+      -118.19937
+     ],
+     "end": [
+      33.76512,
+      -118.19658
+     ]
+    },
+    {
+     "from_km": 193.8,
+     "to_km": 196.6,
+     "length_km": 2.8,
+     "max_offset_m": 731,
+     "beyond_search_radius": false,
+     "start": [
+      32.84414,
+      -117.275
+     ],
+     "end": [
+      32.82139,
+      -117.27426
+     ]
+    },
+    {
+     "from_km": 76.0,
+     "to_km": 77.8,
+     "length_km": 1.8,
+     "max_offset_m": 651,
+     "beyond_search_radius": false,
+     "start": [
+      33.60872,
+      -117.88626
+     ],
+     "end": [
+      33.59768,
+      -117.8743
+     ]
+    }
+   ]
+  }
+ ]
+}
