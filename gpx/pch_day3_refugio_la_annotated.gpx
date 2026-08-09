@@ -3,7 +3,7 @@
   <metadata>
     <name>Day 3 - Refugio State Beach to Los Angeles Union Station (with waypoints)</name>
     <desc>The Santa Barbara channel coast, the Rincon, Ventura and Oxnard, Point Mugu and the Malibu shoreline on PCH, Santa Monica, then east across Los Angeles to Union Station and the train home.</desc>
-    <time>2026-08-08T17:07:42Z</time>
+    <time>2026-08-09T02:04:22Z</time>
   </metadata>
   <wpt lat="34.462430" lon="-120.048300">
     <ele>12.0</ele>
@@ -124,6 +124,13 @@
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="34.434821" lon="-119.820113">
+    <ele>6.0</ele>
+    <name>23km Bicycle Bob's</name>
+    <desc>OSM bike shop (node/6504582690)</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
   <wpt lat="34.435644" lon="-119.828728">
     <ele>6.0</ele>
     <name>23km Velo Pro Cyclery</name>
@@ -131,2074 +138,2039 @@
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
-  <wpt lat="34.436097" lon="-119.828203">
-    <ele>6.0</ele>
-    <name>23km Family Discount</name>
-    <desc>OSM convenience (node/13524411444)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.436170" lon="-119.826945">
-    <ele>8.0</ele>
-    <name>23km 7-Eleven</name>
-    <desc>OSM convenience (node/11899731859); phone=+1 805-964-5681; website=https://www.7-eleven.com/locations/ca/goleta/5810-hollister-18823</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.440795" lon="-119.826197">
-    <ele>9.0</ele>
-    <name>23km Albertsons</name>
-    <desc>OSM supermarket (node/1348747767); opening_hours=Mo-Su 06:00-23:00; phone=+1-805-964-2318; website=https://local.albertsons.com/ca/goleta/5801-calle-real.html</desc>
-    <sym>Shopping Center</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.435968" lon="-119.825872">
-    <ele>10.0</ele>
-    <name>23km La Chapala Market</name>
-    <desc>OSM convenience (node/13602848472)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.440742" lon="-119.825020">
-    <ele>9.0</ele>
-    <name>24km Trader Joe's</name>
-    <desc>OSM supermarket (node/1348747780); opening_hours=08:00-21:00; phone=+1 805-692-2234; toilets=yes; website=https://locations.traderjoes.com/ca/goleta/110/</desc>
-    <sym>Shopping Center</sym>
-    <type>food</type>
-  </wpt>
   <wpt lat="34.435430" lon="-119.825446">
-    <ele>9.0</ele>
-    <name>24km Santa Cruz Market</name>
+    <ele>6.0</ele>
+    <name>23km Santa Cruz Market</name>
     <desc>OSM supermarket (node/6070201013); opening_hours=07:00-21:00; phone=+1-805-967-9510; website=https://santacruzmarkets.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="34.435989" lon="-119.822055">
-    <ele>14.0</ele>
-    <name>24km Food Mart</name>
-    <desc>OSM convenience (node/13512505332)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.434821" lon="-119.820113">
-    <ele>14.0</ele>
-    <name>24km Bicycle Bob's</name>
-    <desc>OSM bike shop (node/6504582690)</desc>
-    <sym>Mine</sym>
-    <type>bikeshop</type>
-  </wpt>
-  <wpt lat="34.436210" lon="-119.815728">
-    <ele>16.0</ele>
-    <name>24km (toilets)</name>
-    <desc>OSM toilets (node/6035834053)</desc>
+  <wpt lat="34.425019" lon="-119.836488">
+    <ele>3.0</ele>
+    <name>25km (toilets)</name>
+    <desc>OSM toilets (node/9749849031); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="34.435602" lon="-119.809542">
-    <ele>18.0</ele>
-    <name>25km Choi's Oriental Market</name>
-    <desc>OSM convenience (node/12213415525); opening_hours=Mo-Sa 11:00-19:30; phone=+1-805-683-1892; reservation=no</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
+  <wpt lat="34.424652" lon="-119.836447">
+    <ele>4.0</ele>
+    <name>25km (drinking water)</name>
+    <desc>OSM drinking water (node/10028525822)</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
   </wpt>
-  <wpt lat="34.435910" lon="-119.803846">
-    <ele>19.0</ele>
-    <name>26km Ralphs</name>
-    <desc>OSM supermarket (node/648508441); opening_hours=Mo-Su 05:00-01:00; phone=+1-805-692-0022; toilets=yes; website=https://www.ralphs.com/stores/grocery/ca/goleta/goleta/703/00010</desc>
-    <sym>Shopping Center</sym>
-    <type>food</type>
+  <wpt lat="34.416634" lon="-119.833612">
+    <ele>4.0</ele>
+    <name>26km (toilets)</name>
+    <desc>OSM toilets (node/1672878338)</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
   </wpt>
-  <wpt lat="34.436721" lon="-119.803473">
-    <ele>18.0</ele>
-    <name>26km Lassens Natural Foods &amp; Vitamins</name>
-    <desc>OSM supermarket (node/1469734576); opening_hours=Mo-Sa 09:00-19:00; Su off; phone=+1-805-683-7696; website=https://www.lassens.com/stores/lassens-santa-barbara/</desc>
-    <sym>Shopping Center</sym>
-    <type>food</type>
+  <wpt lat="34.417075" lon="-119.830511">
+    <ele>5.0</ele>
+    <name>26km (toilets)</name>
+    <desc>OSM toilets (node/1672878321)</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
   </wpt>
-  <wpt lat="34.434542" lon="-119.801959">
-    <ele>18.0</ele>
-    <name>26km Shell</name>
-    <desc>OSM fuel+shop (node/13324824828); opening_hours=24/7; operator=Shell; phone=+1-805-967-9765; website=https://find.shell.com/us/fuel/10007125-5097-hollister-avenue</desc>
-    <sym>Gas Station</sym>
-    <type>food</type>
+  <wpt lat="34.417068" lon="-119.830464">
+    <ele>5.0</ele>
+    <name>26km (drinking water)</name>
+    <desc>OSM drinking water (node/13111056362); access=yes; fee=no</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
   </wpt>
-  <wpt lat="34.437757" lon="-119.790559">
-    <ele>16.0</ele>
-    <name>27km Vons</name>
-    <desc>OSM supermarket (way/131525336); opening_hours=Mo-Su 06:00-23:00; phone=+1-805-681-7474; website=https://local.vons.com/ca/goleta/163-s-turnpike-rd.html</desc>
-    <sym>Shopping Center</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.436057" lon="-119.789933">
-    <ele>15.0</ele>
-    <name>27km Mobil Mart</name>
-    <desc>OSM convenience (node/14021376945)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
+  <wpt lat="34.425705" lon="-119.816026">
+    <ele>6.0</ele>
+    <name>28km (toilets)</name>
+    <desc>OSM toilets (node/7802130539)</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
   </wpt>
   <wpt lat="34.440270" lon="-119.770757">
-    <ele>33.0</ele>
-    <name>29km European Deli &amp; Market</name>
+    <ele>30.0</ele>
+    <name>32km European Deli &amp; Market</name>
     <desc>OSM convenience (node/13324824822)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.440023" lon="-119.758485">
-    <ele>49.0</ele>
-    <name>30km Speedway</name>
+    <ele>50.0</ele>
+    <name>34km Speedway</name>
     <desc>OSM convenience (node/13930433377)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.439133" lon="-119.752984">
     <ele>58.0</ele>
-    <name>30km Smart &amp; Final</name>
+    <name>34km Smart &amp; Final</name>
     <desc>OSM supermarket (node/6979706262); opening_hours=06:00-22:00; phone=+1 805-967-5685; website=https://www.smartandfinal.com/sm/planning/rsid/914</desc>
-    <sym>Shopping Center</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.438466" lon="-119.749483">
-    <ele>60.0</ele>
-    <name>30km Bristol Farms</name>
-    <desc>OSM supermarket (node/13513312506); opening_hours=07:00-22:00; phone=+1 805-738-7700; website=https://www.bristolfarms.com/stores/la-cumbre</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.438119" lon="-119.750986">
     <ele>61.0</ele>
-    <name>30km Conservmart</name>
+    <name>34km Conservmart</name>
     <desc>OSM convenience (way/234048884)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="34.438466" lon="-119.749483">
+    <ele>61.0</ele>
+    <name>34km Bristol Farms</name>
+    <desc>OSM supermarket (node/13513312506); opening_hours=07:00-22:00; phone=+1 805-738-7700; website=https://www.bristolfarms.com/stores/la-cumbre</desc>
+    <sym>Shopping Center</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.438513" lon="-119.750286">
+    <ele>61.0</ele>
+    <name>34km Chevron</name>
+    <desc>OSM fuel+shop (node/2423520572); opening_hours=24/7; phone=+1 805-682-8033; website=https://www.chevronwithtechron.com/en_us/home/gas-station-near-me.html?/station/115-S-LA-CUMBRE-RD-SANTA-BARBARA-CA-931055102-id93443</desc>
+    <sym>Gas Station</sym>
+    <type>food</type>
+  </wpt>
   <wpt lat="34.439741" lon="-119.744314">
-    <ele>58.0</ele>
-    <name>31km Velo Pro Cyclery</name>
+    <ele>60.0</ele>
+    <name>34km Velo Pro Cyclery</name>
     <desc>OSM bike shop (node/5867407116); opening_hours=Mo-Sa 10:00-18:00; Su 11:00-16:00; phone=+1 805-963-7775; website=https://www.velopro.com/about/santa-barbara-pg141.htm</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.427062" lon="-119.734212">
     <ele>50.0</ele>
-    <name>32km Point Market</name>
+    <name>36km Point Market</name>
     <desc>OSM convenience (node/13323325463); phone=+1 805-387-6031; website=https://www.pointmarkets.com/</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.426460" lon="-119.719708">
     <ele>36.0</ele>
-    <name>34km Mobil Mart</name>
+    <name>38km Mobil Mart</name>
     <desc>OSM convenience (node/13927809625)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.418760" lon="-119.716466">
     <ele>31.0</ele>
-    <name>35km Foodland Market</name>
+    <name>39km Foodland Market</name>
     <desc>OSM supermarket (node/8023541085)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.422988" lon="-119.711487">
     <ele>30.0</ele>
-    <name>35km La Bamba Market</name>
+    <name>39km La Bamba Market</name>
     <desc>OSM convenience (node/14001897088)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.424996" lon="-119.707021">
     <ele>26.0</ele>
-    <name>35km Electric Bikes of Santa Barbara</name>
+    <name>39km Electric Bikes of Santa Barbara</name>
     <desc>OSM bike shop (node/13375261307); opening_hours=Mo,Su off; Tu-Sa 12:00-17:00; website=https://electricbikesofsantabarbara.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.420962" lon="-119.706857">
     <ele>24.0</ele>
-    <name>35km Red Sand Market</name>
+    <name>39km Red Sand Market</name>
     <desc>OSM convenience (way/234853491); opening_hours=Mo-Th 07:00-22:00, Fr 07:00-23:00, Sa 08:00-23:00, Su 08:00-22:00</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="34.420013" lon="-119.704223">
+  <wpt lat="34.419226" lon="-119.704610">
     <ele>17.0</ele>
-    <name>36km Ralphs</name>
-    <desc>OSM supermarket (way/234946362); opening_hours=05:00-01:00; PH off; phone=+1-805-564-7000; website=https://www.ralphs.com/stores/grocery/ca/santa-barbara/santa-barbara/703/00680</desc>
+    <name>40km Tino's Italian Grocery</name>
+    <desc>OSM supermarket (node/8884016492); opening_hours=Mo-Sa 09:00-17:00; Su,PH off; phone=+1 805-966-6041; website=https://www.tinositaliangrocery.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="34.419226" lon="-119.704610">
+  <wpt lat="34.420013" lon="-119.704223">
     <ele>17.0</ele>
-    <name>36km Tino's Italian Grocery</name>
-    <desc>OSM supermarket (node/8884016492); opening_hours=Mo-Sa 09:00-17:00; Su,PH off; phone=+1 805-966-6041; website=https://www.tinositaliangrocery.com/</desc>
+    <name>40km Ralphs</name>
+    <desc>OSM supermarket (way/234946362); opening_hours=05:00-01:00; PH off; phone=+1-805-564-7000; website=https://www.ralphs.com/stores/grocery/ca/santa-barbara/santa-barbara/703/00680</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.417554" lon="-119.706551">
     <ele>17.0</ele>
-    <name>36km Speedway</name>
+    <name>40km Speedway</name>
     <desc>OSM convenience (node/13969132989)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.418140" lon="-119.705279">
     <ele>17.0</ele>
-    <name>36km Santa Barbara Gas</name>
+    <name>40km Santa Barbara Gas</name>
     <desc>OSM fuel+shop (node/4890848232)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.419071" lon="-119.702371">
     <ele>16.0</ele>
-    <name>36km Fastrack Bicycles</name>
+    <name>40km Fastrack Bicycles</name>
     <desc>OSM bike shop (node/14028177385); opening_hours=Mo-Sa 12:00-17:00; Su off; phone=+1 805-884-0210; website=https://www.fastrackbicycles.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.413055" lon="-119.706049">
     <ele>16.0</ele>
-    <name>36km Guadalajara Market</name>
+    <name>40km Guadalajara Market</name>
     <desc>OSM convenience (node/14013483832)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.415467" lon="-119.701671">
     <ele>15.0</ele>
-    <name>36km The Little Corner Store</name>
+    <name>40km The Little Corner Store</name>
     <desc>OSM convenience (node/13969136840)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="34.418128" lon="-119.697553">
+  <wpt lat="34.417913" lon="-119.697332">
     <ele>14.0</ele>
-    <name>36km Cuso's Bikes</name>
-    <desc>OSM bike shop (node/11360821313); phone=+1-585-690-2898; website=https://cusosbikes.com/</desc>
+    <name>40km Cuso's Bikes</name>
+    <desc>OSM bike shop (node/14074924133); phone=+1 585-690-2898; website=https://cusosbikes.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.414507" lon="-119.697773">
     <ele>11.0</ele>
-    <name>36km Brownie's Market</name>
+    <name>40km Brownie's Market</name>
     <desc>OSM convenience (node/14062843645)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.411247" lon="-119.697321">
     <ele>9.0</ele>
-    <name>37km Santa Cruz Market</name>
+    <name>41km Santa Cruz Market</name>
     <desc>OSM supermarket (way/505832843); opening_hours=07:30-21:00; website=https://santacruzmarkets.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.411356" lon="-119.696512">
     <ele>8.0</ele>
-    <name>37km Mercado El Rey</name>
+    <name>41km Mercado El Rey</name>
     <desc>OSM supermarket (node/14027350303)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.410763" lon="-119.696978">
     <ele>8.0</ele>
-    <name>37km 7-Eleven</name>
+    <name>41km 7-Eleven</name>
     <desc>OSM convenience (node/13518346913); opening_hours=24/7; phone=+1 805-962-5364; website=https://www.7-eleven.com/locations/ca/santa-barbara/331-west-montecito-18822</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.410212" lon="-119.697466">
     <ele>8.0</ele>
-    <name>37km Rocket</name>
+    <name>41km Rocket</name>
     <desc>OSM convenience (node/13518346915); opening_hours=24/7; website=https://rocketstores.com/station/site-219-401-w-montecito-st-santa-barbara/</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.408681" lon="-119.697211">
     <ele>6.0</ele>
-    <name>37km (drinking water)</name>
+    <name>41km (drinking water)</name>
     <desc>OSM drinking water (node/14029239873)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="34.407193" lon="-119.692996">
-    <ele>7.0</ele>
-    <name>37km (drinking water)</name>
-    <desc>OSM drinking water (node/11360617758); access=yes</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.407842" lon="-119.692591">
     <ele>5.0</ele>
-    <name>37km Harbor Snack Shack</name>
+    <name>41km Harbor Snack Shack</name>
     <desc>OSM convenience (node/4362555827); opening_hours=09:00-18:00</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.413650" lon="-119.692800">
     <ele>6.0</ele>
-    <name>38km BAILOUT Santa Barbara Amtrak</name>
+    <name>42km BAILOUT Santa Barbara Amtrak</name>
     <desc>209 State Street, right on the day-3 line at km ~95. Surfliner roll-on bikes; Coast Starlight also stops.</desc>
     <sym>Car</sym>
     <type>bailout</type>
   </wpt>
   <wpt lat="34.412149" lon="-119.688792">
     <ele>6.0</ele>
-    <name>38km City of Santa Barbara</name>
+    <name>42km City of Santa Barbara</name>
     <desc>OSM toilets (way/242894944); fee=no; operator=City of Santa Barbara</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.410211" lon="-119.685557">
     <ele>6.0</ele>
-    <name>38km (drinking water)</name>
+    <name>42km (drinking water)</name>
     <desc>OSM drinking water (node/5735648023); access=yes</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.416633" lon="-119.690687">
     <ele>6.0</ele>
-    <name>38km Rad Power Bikes</name>
+    <name>42km Rad Power Bikes</name>
     <desc>OSM bike shop (node/13513466515); opening_hours=Mo-Tu off; We-Su 11:00-18:00; phone=+1 805-468-8440; website=https://www.radpowerbikes.com/pages/locations-santa-barbara-california</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.422113" lon="-119.689399">
     <ele>6.0</ele>
-    <name>38km Bici Centro</name>
+    <name>42km Bici Centro</name>
     <desc>OSM bike shop (node/2525947688); opening_hours=Mo,Su off; Tu-Fr 11:30-17:30; Sa 12:00-16:00; phone=+1-805-617-3255; website=https://movesbcounty.org/community-bike-shops-bici-centro/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.414332" lon="-119.687186">
     <ele>6.0</ele>
-    <name>38km (toilets)</name>
+    <name>42km (toilets)</name>
     <desc>OSM toilets (node/9083217344); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.421949" lon="-119.687481">
     <ele>6.0</ele>
-    <name>38km e-Bikery</name>
+    <name>42km e-Bikery</name>
     <desc>OSM bike shop (node/13875448786); opening_hours=Mo off; Tu-Sa 10:00-17:30; Su 11:00-16:00; phone=+1-805-869-2574; website=https://e-bikery.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.415300" lon="-119.679221">
     <ele>6.0</ele>
-    <name>39km (toilets)</name>
+    <name>43km (toilets)</name>
     <desc>OSM toilets (way/1272671053); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.419246" lon="-119.678630">
     <ele>6.0</ele>
-    <name>39km Cal Coast Adventures</name>
+    <name>43km Cal Coast Adventures</name>
     <desc>OSM bike shop (way/623254254); phone=+1-805-628-2444; website=https://www.calcoastadventures.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.418522" lon="-119.673729">
     <ele>6.0</ele>
-    <name>40km Tri-County Produce</name>
+    <name>44km Tri-County Produce</name>
     <desc>OSM supermarket (node/8429627211); phone=+1-805-965-4558; website=https://tcpsb.com</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.416906" lon="-119.669299">
     <ele>6.0</ele>
-    <name>40km (toilets)</name>
+    <name>44km (toilets)</name>
     <desc>OSM toilets (node/9522468668); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.416992" lon="-119.668628">
     <ele>6.0</ele>
-    <name>40km (toilets)</name>
+    <name>44km (toilets)</name>
     <desc>OSM toilets (node/9522458853); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.420097" lon="-119.664235">
     <ele>10.0</ele>
-    <name>41km (toilets)</name>
+    <name>44km (toilets)</name>
     <desc>OSM toilets (way/1060926011); access=customers</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
+  <wpt lat="34.422632" lon="-119.651706">
+    <ele>18.0</ele>
+    <name>46km (toilets)</name>
+    <desc>OSM toilets (node/12626305361); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.422706" lon="-119.651074">
     <ele>18.0</ele>
-    <name>42km Pavilions</name>
+    <name>46km Pavilions</name>
     <desc>OSM supermarket (node/13513466540); opening_hours=06:00-22:00; operator=Albertsons Companies Inc; phone=+1-805-969-2112; website=https://local.pavilions.com/ca/montecito/1040-coast-village-rd.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="34.422632" lon="-119.651706">
-    <ele>18.0</ele>
-    <name>42km (toilets)</name>
-    <desc>OSM toilets (node/12626305361); access=yes</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
   <wpt lat="34.421134" lon="-119.648103">
     <ele>21.0</ele>
-    <name>42km The Point Market</name>
+    <name>46km The Point Market</name>
     <desc>OSM convenience (node/13969188984)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.420057" lon="-119.625401">
     <ele>12.0</ele>
-    <name>44km (toilets)</name>
+    <name>48km (toilets)</name>
     <desc>OSM toilets (node/12923671601)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.420492" lon="-119.602949">
     <ele>32.0</ele>
-    <name>46km (toilets)</name>
+    <name>50km (toilets)</name>
     <desc>OSM toilets (way/666978251)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.421452" lon="-119.600625">
     <ele>28.0</ele>
-    <name>47km Point Market</name>
+    <name>51km Point Market</name>
     <desc>OSM convenience (way/519780307)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.406245" lon="-119.536887">
     <ele>6.0</ele>
-    <name>53km Kim's Market</name>
+    <name>57km Kim's Market</name>
     <desc>OSM convenience (way/911730670)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.405042" lon="-119.530711">
     <ele>7.0</ele>
-    <name>54km (convenience)</name>
+    <name>58km (convenience)</name>
     <desc>OSM convenience (way/1112645039)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="34.404972" lon="-119.529757">
+  <wpt lat="34.405223" lon="-119.529679">
     <ele>10.0</ele>
-    <name>54km 7-Eleven</name>
-    <desc>OSM fuel+shop (node/9740362516)</desc>
+    <name>58km 7-Eleven</name>
+    <desc>OSM convenience (node/6070311202)</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.404600" lon="-119.529931">
+    <ele>9.0</ele>
+    <name>58km 76</name>
+    <desc>OSM fuel+shop (node/9740416925); website=https://www.76.com/station/U76-CARPINTERIA-CAR-CARE-INC-0000800599/</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.398752" lon="-119.519559">
     <ele>8.0</ele>
-    <name>55km (toilets)</name>
+    <name>59km (toilets)</name>
     <desc>OSM toilets (node/9740416922); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="34.393616" lon="-119.522134">
-    <ele>13.0</ele>
-    <name>55km Carpinteria State Beach: Anacapa</name>
-    <desc>OSM campground (way/785039448); access=customers; fee=yes; operator=California State Parks</desc>
-    <sym>Campground</sym>
-    <type>camp</type>
-  </wpt>
   <wpt lat="34.397248" lon="-119.518798">
     <ele>12.0</ele>
-    <name>55km Smart &amp; Final</name>
+    <name>59km Smart &amp; Final</name>
     <desc>OSM supermarket (way/128850078); opening_hours=Mo-Su 06:00-22:00; toilets=yes; website=https://locations.smartandfinal.com/ca/carpinteria/915/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.398068" lon="-119.517782">
     <ele>12.0</ele>
-    <name>55km Snack Shop</name>
+    <name>59km Snack Shop</name>
     <desc>OSM convenience (node/9740416919)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.392984" lon="-119.521706">
     <ele>14.0</ele>
-    <name>55km Hike Bike Campsite</name>
+    <name>59km Hike Bike Campsite</name>
     <desc>OSM campground (node/11033882657); drinking_water=yes; fee=yes; operator=Carpinteria State Beach; shower=yes; toilets=yes</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
-  <wpt lat="34.391763" lon="-119.520302">
-    <ele>14.0</ele>
-    <name>56km Carpinteria State Beach: Santa Cruz</name>
-    <desc>OSM campground (way/785503650); access=customers; fee=yes; operator=California State Parks</desc>
+  <wpt lat="34.393616" lon="-119.522134">
+    <ele>13.0</ele>
+    <name>59km Carpinteria State Beach: Anacapa</name>
+    <desc>OSM campground (way/785039448); access=customers; fee=yes; operator=California State Parks</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.391330" lon="-119.521470">
     <ele>12.0</ele>
-    <name>56km Carpinteria SB campground</name>
+    <name>60km Carpinteria SB campground</name>
     <desc>Day 3 escape hatch, on the beach in town. Hike/bike site, water, showers, and food a block away.</desc>
+    <sym>Campground</sym>
+    <type>camp</type>
+  </wpt>
+  <wpt lat="34.391763" lon="-119.520302">
+    <ele>14.0</ele>
+    <name>60km Carpinteria State Beach: Santa Cruz</name>
+    <desc>OSM campground (way/785503650); access=customers; fee=yes; operator=California State Parks</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.396250" lon="-119.512238">
     <ele>14.0</ele>
-    <name>56km Arco</name>
+    <name>60km Arco</name>
     <desc>OSM fuel+shop (node/7742205395)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.394906" lon="-119.511997">
     <ele>14.0</ele>
-    <name>56km Albertsons</name>
+    <name>60km Albertsons</name>
     <desc>OSM supermarket (node/775205719); phone=+1 805-684-4815; website=https://local.albertsons.com/ca/carpinteria/1018-casitas-pass-rd.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.389826" lon="-119.506119">
     <ele>20.0</ele>
-    <name>57km (toilets)</name>
+    <name>61km (toilets)</name>
     <desc>OSM toilets (way/1497178532)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.400000" lon="-119.500000">
     <ele>20.0</ele>
-    <name>57km INFO US-101 closed to bikes, Santa Barbara -&gt; Ventura</name>
+    <name>61km INFO US-101 closed to bikes, Santa Barbara -&gt; Ventura</name>
     <desc>US-101 between Santa Barbara and Ventura is closed to bicycles, which is why day 3 runs on city streets, county roads and the ocean-side bike paths through Carpinteria and the Rincon instead. The route obeys this: the audit shows zero bike-banned metres on this stretch.</desc>
     <sym>Flag, Blue</sym>
     <type>info</type>
   </wpt>
   <wpt lat="34.385858" lon="-119.495503">
     <ele>40.0</ele>
-    <name>58km (toilets)</name>
+    <name>62km (toilets)</name>
     <desc>OSM toilets (way/781655547); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.376503" lon="-119.479751">
     <ele>22.0</ele>
-    <name>60km (toilets)</name>
+    <name>64km (toilets)</name>
     <desc>OSM toilets (way/781482560); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.345569" lon="-119.419424">
     <ele>8.0</ele>
-    <name>67km (toilets)</name>
+    <name>71km (toilets)</name>
     <desc>OSM toilets (node/8588079787)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.345545" lon="-119.419258">
     <ele>8.0</ele>
-    <name>67km (drinking water)</name>
+    <name>71km (drinking water)</name>
     <desc>OSM drinking water (node/8588079786)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.338040" lon="-119.411428">
     <ele>7.0</ele>
-    <name>68km (toilets)</name>
+    <name>72km (toilets)</name>
     <desc>OSM toilets (way/367547696)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.338024" lon="-119.411445">
     <ele>7.0</ele>
-    <name>68km (drinking water)</name>
+    <name>72km (drinking water)</name>
     <desc>OSM drinking water (node/13710038667)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.285061" lon="-119.324588">
     <ele>16.0</ele>
-    <name>79km state beach RV on the water</name>
+    <name>83km state beach RV on the water</name>
     <desc>OSM campground (node/5897045785)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.280777" lon="-119.315841">
     <ele>6.0</ele>
-    <name>79km Hike/Bike Campsite</name>
+    <name>83km Hike/Bike Campsite</name>
     <desc>OSM campground (node/11034019506); fee=yes; operator=Emma Wood State Beach</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.281569" lon="-119.316564">
     <ele>6.0</ele>
-    <name>79km (drinking water)</name>
+    <name>83km (drinking water)</name>
     <desc>OSM drinking water (node/12964375060); access=yes</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.280337" lon="-119.314721">
     <ele>9.0</ele>
-    <name>80km (toilets)</name>
+    <name>84km (toilets)</name>
     <desc>OSM toilets (way/600935218)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.280140" lon="-119.313932">
     <ele>9.0</ele>
-    <name>80km (drinking water)</name>
+    <name>84km (drinking water)</name>
     <desc>OSM drinking water (node/12964375059); access=yes</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.281748" lon="-119.304440">
     <ele>10.0</ele>
-    <name>81km Ventura Bike Depot, Inc.</name>
+    <name>84km Ventura Bike Depot, Inc.</name>
     <desc>OSM bike shop (node/5675838921); opening_hours=Mo-Su 09:00-17:00; operator=Shelley Sund; website=https://www.venturabikedepot.com</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.287170" lon="-119.298903">
     <ele>8.0</ele>
-    <name>81km Ventura Bike HUB</name>
+    <name>85km Ventura Bike HUB</name>
     <desc>OSM bike shop (node/5675838925); operator=BikeVentura</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.282391" lon="-119.302350">
     <ele>8.0</ele>
-    <name>81km Vons</name>
+    <name>85km Vons</name>
     <desc>OSM supermarket (way/133789073); opening_hours=Mo-Su 06:00-22:00; phone=+1 805-653-6874; website=https://local.vons.com/ca/ventura/115-w-main-st.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="34.276940" lon="-119.299870">
-    <ele>8.0</ele>
-    <name>82km BAILOUT Ventura Amtrak</name>
-    <desc>Harbor Boulevard, on the day-3 line. Surfliner.</desc>
-    <sym>Car</sym>
-    <type>bailout</type>
-  </wpt>
   <wpt lat="34.280098" lon="-119.298355">
     <ele>8.0</ele>
-    <name>82km (toilets)</name>
+    <name>86km (toilets)</name>
     <desc>OSM toilets (way/780705392); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.274688" lon="-119.297974">
     <ele>8.0</ele>
-    <name>82km (drinking water)</name>
+    <name>86km (drinking water)</name>
     <desc>OSM drinking water (node/12865540199); access=yes</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
+  <wpt lat="34.276940" lon="-119.299870">
+    <ele>6.0</ele>
+    <name>86km BAILOUT Ventura Amtrak</name>
+    <desc>Harbor Boulevard, on the day-3 line. Surfliner.</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
+  </wpt>
   <wpt lat="34.278500" lon="-119.294377">
     <ele>10.0</ele>
-    <name>82km Valero</name>
+    <name>86km Valero</name>
     <desc>OSM convenience (node/902740201)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.280689" lon="-119.294118">
     <ele>11.0</ele>
-    <name>82km Coastal E-Bike Co Llc</name>
+    <name>86km Coastal E-Bike Co Llc</name>
     <desc>OSM bike shop (node/13483168911); phone=+1-805-901-5508</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.278641" lon="-119.292815">
     <ele>11.0</ele>
-    <name>82km Chevron</name>
+    <name>86km Chevron</name>
     <desc>OSM convenience (way/76597257)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.276218" lon="-119.292684">
     <ele>9.0</ele>
-    <name>82km (toilets)</name>
+    <name>87km (toilets)</name>
     <desc>OSM toilets (way/548254701); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.276051" lon="-119.292108">
     <ele>8.0</ele>
-    <name>82km (drinking water)</name>
+    <name>87km (drinking water)</name>
     <desc>OSM drinking water (node/6828760757)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.275716" lon="-119.290577">
     <ele>9.0</ele>
-    <name>82km (toilets)</name>
+    <name>87km (toilets)</name>
     <desc>OSM toilets (way/548254702); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.275748" lon="-119.290615">
     <ele>9.0</ele>
-    <name>82km (drinking water)</name>
+    <name>87km (drinking water)</name>
     <desc>OSM drinking water (node/11367042934)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
+  <wpt lat="34.278495" lon="-119.287288">
+    <ele>7.0</ele>
+    <name>87km Kwiki Mart</name>
+    <desc>OSM convenience (node/902353384); opening_hours=Mo-Su 07:30-10:00</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
   <wpt lat="34.274302" lon="-119.287057">
     <ele>7.0</ele>
-    <name>83km (toilets)</name>
+    <name>87km (toilets)</name>
     <desc>OSM toilets (way/548254696); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.270316" lon="-119.279500">
     <ele>7.0</ele>
-    <name>84km (toilets)</name>
+    <name>88km (toilets)</name>
     <desc>OSM toilets (way/548254694); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.270340" lon="-119.279397">
     <ele>7.0</ele>
-    <name>84km (drinking water)</name>
+    <name>88km (drinking water)</name>
     <desc>OSM drinking water (node/13030719910); fee=no; opening_hours=24/7; seasonal=no</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
+  <wpt lat="34.268802" lon="-119.278137">
+    <ele>7.0</ele>
+    <name>88km (toilets)</name>
+    <desc>OSM toilets (way/548254693); access=yes; fee=no</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
   <wpt lat="34.279035" lon="-119.273693">
     <ele>7.0</ele>
-    <name>84km Drive-Side Cyclery</name>
+    <name>88km Drive-Side Cyclery</name>
     <desc>OSM bike shop (node/7948819173)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.269459" lon="-119.276922">
     <ele>7.0</ele>
-    <name>84km (drinking water)</name>
+    <name>88km (drinking water)</name>
     <desc>OSM drinking water (node/13030696395); fee=no; opening_hours=24/7; seasonal=no</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.275795" lon="-119.264251">
     <ele>7.0</ele>
-    <name>84km Open Air Bicycle Ventura</name>
+    <name>88km Open Air Bicycle Ventura</name>
     <desc>OSM bike shop (node/5675838220); operator=Jon Avery</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.267660" lon="-119.273433">
     <ele>6.0</ele>
-    <name>84km (convenience)</name>
+    <name>89km (convenience)</name>
     <desc>OSM convenience (node/13571497721)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.266946" lon="-119.272979">
     <ele>6.0</ele>
-    <name>84km (convenience)</name>
+    <name>89km (convenience)</name>
     <desc>OSM convenience (node/13571497723)</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.264280" lon="-119.270689">
+    <ele>8.0</ele>
+    <name>89km EasyMart</name>
+    <desc>OSM convenience (node/452816020)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.263364" lon="-119.270345">
     <ele>8.0</ele>
-    <name>85km Matt's Cycling Center</name>
+    <name>89km Matt's Cycling Center</name>
     <desc>OSM bike shop (node/5675838922)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
-  <wpt lat="34.264280" lon="-119.270689">
-    <ele>8.0</ele>
-    <name>85km EasyMart</name>
-    <desc>OSM convenience (node/452816020)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
   <wpt lat="34.263015" lon="-119.270141">
     <ele>8.0</ele>
-    <name>85km Vons</name>
+    <name>89km Vons</name>
     <desc>OSM supermarket (node/13529974973); phone=+1 805-642-6761; website=https://local.vons.com/ca/ventura/2433-harbor-blvd.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.183346" lon="-119.236184">
     <ele>5.0</ele>
-    <name>95km (drinking water)</name>
+    <name>99km (drinking water)</name>
     <desc>OSM drinking water (node/13030710882); fee=no; opening_hours=24/7; seasonal=no</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.177043" lon="-119.216236">
     <ele>7.0</ele>
-    <name>97km Ralphs</name>
+    <name>101km Ralphs</name>
     <desc>OSM supermarket (node/433110819); opening_hours=Mo-Su 06:00-01:00; phone=+1 805-984-2005; website=https://www.ralphs.com/stores/grocery/ca/port-hueneme/mandalay-village-marketplace/703/00062</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.177552" lon="-119.195504">
     <ele>10.0</ele>
-    <name>99km (fuel+shop)</name>
+    <name>103km (fuel+shop)</name>
     <desc>OSM fuel+shop (way/1495671966)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.167893" lon="-119.197840">
     <ele>10.0</ele>
-    <name>100km Navy Exchange Autoport</name>
+    <name>104km Navy Exchange Autoport</name>
     <desc>OSM fuel+shop (way/1305304104)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.156026" lon="-119.194573">
     <ele>8.0</ele>
-    <name>101km Grocery Outlet</name>
+    <name>105km Grocery Outlet</name>
     <desc>OSM supermarket (node/13194313170); opening_hours=Mo-Su 07:00-22:00; phone=+1 805-850-6001; website=https://www.groceryoutlet.com/circulars/storeid/541</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.148004" lon="-119.182687">
     <ele>7.0</ele>
-    <name>103km J&amp;K Food Mart</name>
+    <name>108km J&amp;K Food Mart</name>
     <desc>OSM convenience (node/1572256459)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.086069" lon="-119.037122">
     <ele>12.0</ele>
-    <name>121km (toilets)</name>
+    <name>125km (toilets)</name>
     <desc>OSM toilets (node/13570962429); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.085701" lon="-119.034997">
     <ele>8.0</ele>
-    <name>121km (campground)</name>
+    <name>125km (campground)</name>
     <desc>OSM campground (way/536536616)</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.080681" lon="-119.030668">
     <ele>9.0</ele>
-    <name>122km (toilets)</name>
+    <name>126km (toilets)</name>
     <desc>OSM toilets (node/13570962427)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.079848" lon="-119.029141">
     <ele>8.0</ele>
-    <name>122km (toilets)</name>
+    <name>126km (toilets)</name>
     <desc>OSM toilets (node/13570962428)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.078958" lon="-119.027718">
     <ele>8.0</ele>
-    <name>122km (toilets)</name>
+    <name>126km (toilets)</name>
     <desc>OSM toilets (node/13570962425)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.073325" lon="-119.015706">
     <ele>17.0</ele>
-    <name>123km Hike and Bike Campsites</name>
+    <name>128km Hike and Bike Campsites</name>
     <desc>OSM campground (way/1188279115); fee=yes; operator=Sycamore Canyon Campground</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.073574" lon="-119.014978">
     <ele>8.0</ele>
-    <name>123km Sycamore Canyon Campground</name>
+    <name>128km Sycamore Canyon Campground</name>
     <desc>OSM campground (way/75622199); phone=+1-310-457-8144; website=https://www.parks.ca.gov/?page_id=630</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.071771" lon="-119.014605">
     <ele>7.0</ele>
-    <name>124km (toilets)</name>
+    <name>128km (toilets)</name>
     <desc>OSM toilets (way/807664989)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.073021" lon="-119.014840">
     <ele>7.0</ele>
-    <name>124km (toilets)</name>
+    <name>128km (toilets)</name>
     <desc>OSM toilets (way/807664993)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.073026" lon="-119.014777">
     <ele>7.0</ele>
-    <name>124km (drinking water)</name>
+    <name>128km (drinking water)</name>
     <desc>OSM drinking water (node/9594971358)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.070706" lon="-119.013193">
     <ele>8.0</ele>
-    <name>124km (drinking water)</name>
+    <name>128km (drinking water)</name>
     <desc>OSM drinking water (node/9594973757)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.053300" lon="-118.962272">
     <ele>12.0</ele>
-    <name>129km (toilets)</name>
+    <name>133km (toilets)</name>
     <desc>OSM toilets (way/1295546129)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.044631" lon="-118.939710">
     <ele>23.0</ele>
-    <name>131km California State Parks and Recreation</name>
+    <name>136km California State Parks and Recreation</name>
     <desc>OSM toilets (way/549012685); access=yes; fee=no; operator=California State Parks and Recreation</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.045600" lon="-118.934314">
     <ele>6.0</ele>
-    <name>132km California State Parks and Recreation</name>
+    <name>136km California State Parks and Recreation</name>
     <desc>OSM toilets (node/3744549886); access=yes; operator=California State Parks and Recreation</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.046525" lon="-118.933790">
     <ele>6.0</ele>
-    <name>132km (drinking water)</name>
+    <name>136km (drinking water)</name>
     <desc>OSM drinking water (node/9592536712)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.050783" lon="-118.933910">
     <ele>13.0</ele>
-    <name>132km (campground)</name>
+    <name>136km (campground)</name>
     <desc>OSM campground (way/135247154); description=urban land</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.031665" lon="-118.843763">
     <ele>10.0</ele>
-    <name>140km Chevron</name>
+    <name>145km Chevron</name>
     <desc>OSM convenience (way/460155448)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.031185" lon="-118.842561">
     <ele>8.0</ele>
-    <name>140km Vintage Grocers</name>
+    <name>145km Vintage Grocers</name>
     <desc>OSM supermarket (node/8493180398)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.027694" lon="-118.839151">
     <ele>11.0</ele>
-    <name>141km (toilets)</name>
+    <name>145km (toilets)</name>
     <desc>OSM toilets (way/38340945)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.020673" lon="-118.828820">
     <ele>12.0</ele>
-    <name>142km (toilets)</name>
+    <name>147km (toilets)</name>
     <desc>OSM toilets (way/38340940)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.016641" lon="-118.823430">
     <ele>14.0</ele>
-    <name>143km (toilets)</name>
+    <name>147km (toilets)</name>
     <desc>OSM toilets (way/38340934)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.016574" lon="-118.823384">
     <ele>14.0</ele>
-    <name>143km (drinking water)</name>
+    <name>147km (drinking water)</name>
     <desc>OSM drinking water (node/10278639982)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.015870" lon="-118.820339">
     <ele>11.0</ele>
-    <name>143km (toilets)</name>
+    <name>148km (toilets)</name>
     <desc>OSM toilets (way/38340933)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.015817" lon="-118.820284">
     <ele>11.0</ele>
-    <name>143km (drinking water)</name>
+    <name>148km (drinking water)</name>
     <desc>OSM drinking water (node/10278640927)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.013792" lon="-118.819797">
     <ele>13.0</ele>
-    <name>143km (drinking water)</name>
+    <name>148km (drinking water)</name>
     <desc>OSM drinking water (node/10278648238)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.017158" lon="-118.819055">
     <ele>12.0</ele>
-    <name>143km Malibu Ranch Market</name>
+    <name>148km Malibu Ranch Market</name>
     <desc>OSM convenience (node/884226019)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.020950" lon="-118.810330">
     <ele>58.0</ele>
-    <name>144km Pavilions</name>
+    <name>149km Pavilions</name>
     <desc>OSM supermarket (way/129382109); website=https://local.pavilions.com/ca/malibu/29211-heathercliff-rd.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.021775" lon="-118.808997">
     <ele>64.0</ele>
-    <name>144km Arco</name>
+    <name>149km Arco</name>
     <desc>OSM fuel+shop (way/264776292)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.020349" lon="-118.800928">
     <ele>54.0</ele>
-    <name>145km (toilets)</name>
+    <name>150km (toilets)</name>
     <desc>OSM toilets (way/1287095598)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.025989" lon="-118.780136">
     <ele>44.0</ele>
-    <name>147km (toilets)</name>
+    <name>152km (toilets)</name>
     <desc>OSM toilets (node/8515669850); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.032131" lon="-118.746679">
     <ele>25.0</ele>
-    <name>150km (toilets)</name>
+    <name>155km (toilets)</name>
     <desc>OSM toilets (way/929528923)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.032091" lon="-118.746624">
     <ele>25.0</ele>
-    <name>150km (drinking water)</name>
+    <name>155km (drinking water)</name>
     <desc>OSM drinking water (node/8620553177)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.033240" lon="-118.743919">
     <ele>21.0</ele>
-    <name>151km 76</name>
+    <name>155km 76</name>
     <desc>OSM fuel+shop (way/459101521); website=https://www.76.com/station/U76-DELAILLA-INC-0000860645/</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.034394" lon="-118.738603">
     <ele>16.0</ele>
-    <name>151km (convenience)</name>
+    <name>156km (convenience)</name>
     <desc>OSM convenience (way/1277881059)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.033364" lon="-118.737954">
     <ele>16.0</ele>
-    <name>151km (toilets)</name>
+    <name>156km (toilets)</name>
     <desc>OSM toilets (node/8515804850)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.035078" lon="-118.737528">
     <ele>16.0</ele>
-    <name>151km (toilets)</name>
+    <name>156km (toilets)</name>
     <desc>OSM toilets (way/459101508)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.033941" lon="-118.735396">
     <ele>12.0</ele>
-    <name>152km (toilets)</name>
+    <name>156km (toilets)</name>
     <desc>OSM toilets (way/459101505)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.033248" lon="-118.733685">
     <ele>8.0</ele>
-    <name>152km (toilets)</name>
+    <name>156km (toilets)</name>
     <desc>OSM toilets (node/8515804849)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.033841" lon="-118.703851">
     <ele>65.0</ele>
-    <name>154km (toilets)</name>
+    <name>159km (toilets)</name>
     <desc>OSM toilets (node/257170546)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.034146" lon="-118.694993">
     <ele>16.0</ele>
-    <name>155km Ralphs</name>
+    <name>160km Ralphs</name>
     <desc>OSM supermarket (node/5220492627); opening_hours=24/7; phone=+1 310-456-2917; website=https://www.ralphs.com/stores/grocery/ca/malibu/malibu-bay-colony/703/00731</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.034380" lon="-118.690648">
     <ele>8.0</ele>
-    <name>156km Chevron</name>
+    <name>160km Chevron</name>
     <desc>OSM fuel+shop (way/264116322)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
-  <wpt lat="34.037561" lon="-118.686495">
-    <ele>8.0</ele>
-    <name>156km (toilets)</name>
-    <desc>OSM toilets (node/9856612224)</desc>
-    <sym>Restroom</sym>
-    <type>toilet</type>
-  </wpt>
   <wpt lat="34.038491" lon="-118.686421">
     <ele>8.0</ele>
-    <name>156km Whole Foods Market</name>
+    <name>161km Whole Foods Market</name>
     <desc>OSM supermarket (way/1074623234); opening_hours=Mo-Su 08:00-21:00; phone=+1 424-425-7351; website=https://www.wholefoodsmarket.com/stores/malibu</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="34.037561" lon="-118.686495">
+    <ele>8.0</ele>
+    <name>161km (toilets)</name>
+    <desc>OSM toilets (node/9856612224)</desc>
+    <sym>Restroom</sym>
+    <type>toilet</type>
+  </wpt>
   <wpt lat="34.034611" lon="-118.684774">
     <ele>8.0</ele>
-    <name>157km Shell</name>
+    <name>161km Shell</name>
     <desc>OSM fuel+shop (node/4903112325)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.037259" lon="-118.676548">
     <ele>13.0</ele>
-    <name>158km (toilets)</name>
+    <name>162km (toilets)</name>
     <desc>OSM toilets (node/2697835673)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.035581" lon="-118.675599">
     <ele>14.0</ele>
-    <name>158km (toilets)</name>
+    <name>162km (toilets)</name>
     <desc>OSM toilets (node/11339655602); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.037354" lon="-118.637486">
     <ele>11.0</ele>
-    <name>161km Country Liquor</name>
+    <name>166km Country Liquor</name>
     <desc>OSM convenience (node/880566869)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.037000" lon="-118.600000">
     <ele>20.0</ele>
-    <name>165km HAZARD PCH Malibu-&gt;Santa Monica - active fire-rebuild corridor</name>
+    <name>169km HAZARD PCH Malibu-&gt;Santa Monica - active fire-rebuild corridor</name>
     <desc>The last ~25 km of day 3 runs through the Palisades Fire reconstruction corridor. Caltrans D7 has a rock-slope-protection and pavement rebuild near Ratner Beach due to finish FALL 2026, and a second project covering about five miles from just south of the California Incline to Topanga Creek due END OF 2026 - both still live in August 2026. After the fire, PCH reopened with ONE LANE each way at 25 mph. Expect no shoulder, construction traffic and coned lanes exactly where you are most tired. The route leaves PCH at Santa Monica Pier and goes inland via Culver City, so the exposure is Malibu to Santa Monica only. If it looks bad, quit at Oxnard or Ventura Amtrak and take the Surfliner in. Position approximate - the corridor is long. SRC Caltrans D7 PCH Palisades Fire Repairs project pages</desc>
     <sym>Danger Area</sym>
     <type>hazard</type>
   </wpt>
-  <wpt lat="34.040536" lon="-118.578998">
-    <ele>16.0</ele>
-    <name>167km 7-Eleven</name>
-    <desc>OSM fuel+shop (way/414610417)</desc>
-    <sym>Gas Station</sym>
+  <wpt lat="34.040519" lon="-118.578769">
+    <ele>18.0</ele>
+    <name>171km 7-Eleven</name>
+    <desc>OSM convenience (way/414610676)</desc>
+    <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.038895" lon="-118.555815">
     <ele>10.0</ele>
-    <name>169km Chevron</name>
+    <name>173km Chevron</name>
     <desc>OSM convenience (node/620048249)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.038913" lon="-118.554753">
     <ele>9.0</ele>
-    <name>169km 76</name>
+    <name>174km 76</name>
     <desc>OSM fuel+shop (node/620048250); website=https://www.76.com/station/U76-PACIFIC-WEST-GENERAL-STORE-INC-0000821555/</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.039288" lon="-118.553984">
     <ele>12.0</ele>
-    <name>169km Vons</name>
+    <name>174km Vons</name>
     <desc>OSM supermarket (way/414642692); opening_hours=Mo-Su 06:00-23:00; phone=+1 310-454-2502; website=https://local.vons.com/ca/pacific-palisades/17380-sunset-blvd.html</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.039179" lon="-118.551240">
     <ele>17.0</ele>
-    <name>170km (toilets)</name>
+    <name>174km (toilets)</name>
     <desc>OSM toilets (node/11833675529); access=permissive</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.037790" lon="-118.540420">
     <ele>12.0</ele>
-    <name>171km (toilets)</name>
+    <name>175km (toilets)</name>
     <desc>OSM toilets (way/414640830)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.037823" lon="-118.540524">
     <ele>12.0</ele>
-    <name>171km (drinking water)</name>
+    <name>175km (drinking water)</name>
     <desc>OSM drinking water (node/1314521372)</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.037034" lon="-118.533957">
+    <ele>13.0</ele>
+    <name>175km (drinking water)</name>
+    <desc>OSM drinking water (node/1314521515)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.035730" lon="-118.536633">
     <ele>9.0</ele>
-    <name>171km (toilets)</name>
+    <name>175km (toilets)</name>
     <desc>OSM toilets (way/414641364)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="34.037034" lon="-118.533957">
-    <ele>13.0</ele>
-    <name>171km (drinking water)</name>
-    <desc>OSM drinking water (node/1314521515)</desc>
+  <wpt lat="34.035644" lon="-118.536581">
+    <ele>9.0</ele>
+    <name>175km (drinking water)</name>
+    <desc>OSM drinking water (node/1314521886)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
-  <wpt lat="34.035644" lon="-118.536581">
-    <ele>9.0</ele>
-    <name>171km (drinking water)</name>
-    <desc>OSM drinking water (node/1314521886)</desc>
+  <wpt lat="34.031758" lon="-118.527712">
+    <ele>8.0</ele>
+    <name>176km (drinking water)</name>
+    <desc>OSM drinking water (node/1314521412); access=yes</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.031768" lon="-118.527599">
     <ele>8.0</ele>
-    <name>172km (toilets)</name>
+    <name>176km (toilets)</name>
     <desc>OSM toilets (way/1080692978); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="34.031758" lon="-118.527712">
-    <ele>8.0</ele>
-    <name>172km (drinking water)</name>
-    <desc>OSM drinking water (node/1314521412); access=yes</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
   <wpt lat="34.027667" lon="-118.518001">
     <ele>6.0</ele>
-    <name>173km ExtraMile</name>
+    <name>177km ExtraMile</name>
     <desc>OSM convenience (way/420440488)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.026297" lon="-118.514311">
     <ele>10.0</ele>
-    <name>174km (toilets)</name>
+    <name>178km (toilets)</name>
     <desc>OSM toilets (way/422268476); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.026305" lon="-118.514186">
     <ele>10.0</ele>
-    <name>174km (drinking water)</name>
+    <name>178km (drinking water)</name>
     <desc>OSM drinking water (node/4200821729)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="34.024760" lon="-118.511332">
-    <ele>7.0</ele>
-    <name>174km (drinking water)</name>
-    <desc>OSM drinking water (node/1314521508)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.025575" lon="-118.512812">
     <ele>7.0</ele>
-    <name>174km (drinking water)</name>
+    <name>178km (drinking water)</name>
     <desc>OSM drinking water (node/1314521910)</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.024760" lon="-118.511332">
+    <ele>7.0</ele>
+    <name>178km (drinking water)</name>
+    <desc>OSM drinking water (node/1314521508)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.023563" lon="-118.509636">
     <ele>6.0</ele>
-    <name>174km (drinking water)</name>
+    <name>178km (drinking water)</name>
     <desc>OSM drinking water (node/1314521793)</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.022813" lon="-118.508595">
+    <ele>8.0</ele>
+    <name>178km (drinking water)</name>
+    <desc>OSM drinking water (node/1314521919)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.020833" lon="-118.508665">
     <ele>6.0</ele>
-    <name>174km (toilets)</name>
+    <name>178km (toilets)</name>
     <desc>OSM toilets (node/9888151922)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="34.022813" lon="-118.508595">
-    <ele>8.0</ele>
-    <name>174km (drinking water)</name>
-    <desc>OSM drinking water (node/1314521919)</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
   <wpt lat="34.020757" lon="-118.506348">
     <ele>4.0</ele>
-    <name>174km (toilets)</name>
+    <name>179km (toilets)</name>
     <desc>OSM toilets (way/440292201)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.020797" lon="-118.506231">
     <ele>4.0</ele>
-    <name>174km (drinking water)</name>
+    <name>179km (drinking water)</name>
     <desc>OSM drinking water (node/820017741)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.020313" lon="-118.505553">
     <ele>2.0</ele>
-    <name>175km Water Fountain</name>
+    <name>179km Water Fountain</name>
     <desc>OSM drinking water (node/1314521603)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.019240" lon="-118.504285">
     <ele>1.0</ele>
-    <name>175km (drinking water)</name>
+    <name>179km (drinking water)</name>
     <desc>OSM drinking water (node/1314521783)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.017007" lon="-118.504153">
     <ele>2.0</ele>
-    <name>175km (toilets)</name>
+    <name>179km (toilets)</name>
     <desc>OSM toilets (way/440292229)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.017623" lon="-118.502484">
     <ele>9.0</ele>
-    <name>175km (toilets)</name>
+    <name>179km (toilets)</name>
     <desc>OSM toilets (node/10926926206); opening_hours=24/7</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.017537" lon="-118.502515">
     <ele>9.0</ele>
-    <name>175km (drinking water)</name>
+    <name>179km (drinking water)</name>
     <desc>OSM drinking water (node/12072605589)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.015388" lon="-118.500868">
     <ele>9.0</ele>
-    <name>175km (bike shop)</name>
+    <name>179km (bike shop)</name>
     <desc>OSM bike shop (node/2970866825)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.014794" lon="-118.501436">
     <ele>10.0</ele>
-    <name>175km (toilets)</name>
+    <name>179km (toilets)</name>
     <desc>OSM toilets (way/336889660)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.015369" lon="-118.499780">
     <ele>9.0</ele>
-    <name>175km (drinking water)</name>
+    <name>180km (drinking water)</name>
     <desc>OSM drinking water (node/1314521497)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
-  <wpt lat="34.014799" lon="-118.493573">
-    <ele>9.0</ele>
-    <name>176km Santa Monica Bike Center: Satellite Location</name>
-    <desc>OSM bike shop (node/2976424585); phone=+1-310-656-8500</desc>
+  <wpt lat="34.012497" lon="-118.493886">
+    <ele>8.0</ele>
+    <name>180km Santa Monica Bike Center</name>
+    <desc>OSM bike shop (node/2976424584); phone=+1-310-656-8500</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
-  <wpt lat="34.012497" lon="-118.493886">
-    <ele>8.0</ele>
-    <name>176km Santa Monica Bike Center</name>
-    <desc>OSM bike shop (node/2976424584); phone=+1-310-656-8500</desc>
+  <wpt lat="34.014799" lon="-118.493573">
+    <ele>9.0</ele>
+    <name>180km Santa Monica Bike Center: Satellite Location</name>
+    <desc>OSM bike shop (node/2976424585); phone=+1-310-656-8500</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.011617" lon="-118.495480">
     <ele>6.0</ele>
-    <name>176km (drinking water)</name>
+    <name>180km (drinking water)</name>
     <desc>OSM drinking water (node/8822456612)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.008336" lon="-118.498170">
     <ele>6.0</ele>
-    <name>176km (toilets)</name>
+    <name>180km (toilets)</name>
     <desc>OSM toilets (node/6950107746); fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.009335" lon="-118.497142">
     <ele>8.0</ele>
-    <name>176km (toilets)</name>
+    <name>180km (toilets)</name>
     <desc>OSM toilets (way/351951681); fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.009972" lon="-118.495468">
     <ele>8.0</ele>
-    <name>176km (drinking water)</name>
+    <name>180km (drinking water)</name>
     <desc>OSM drinking water (node/3439778859)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.009100" lon="-118.497100">
     <ele>8.0</ele>
-    <name>176km INFO Santa Monica Pier - 190 m of timber decking</name>
+    <name>180km INFO Santa Monica Pier - 190 m of timber decking</name>
     <desc>The only 'unpaved' metres on day 3 are the pier's wooden boards. Harmless, but it is where the audit's 0.22 km of non-asphalt comes from. Slippery when wet.</desc>
     <sym>Flag, Blue</sym>
     <type>info</type>
   </wpt>
   <wpt lat="34.008796" lon="-118.494608">
     <ele>8.0</ele>
-    <name>176km (toilets)</name>
+    <name>180km (toilets)</name>
     <desc>OSM toilets (way/336889654)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.007241" lon="-118.492835">
     <ele>10.0</ele>
-    <name>177km (toilets)</name>
+    <name>181km (toilets)</name>
     <desc>OSM toilets (way/336889658)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.005886" lon="-118.491438">
     <ele>6.0</ele>
-    <name>177km (drinking water)</name>
+    <name>181km (drinking water)</name>
     <desc>OSM drinking water (node/1314521590)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.004619" lon="-118.490953">
     <ele>6.0</ele>
-    <name>177km (toilets)</name>
+    <name>181km (toilets)</name>
     <desc>OSM toilets (way/973365283); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.010015" lon="-118.480474">
     <ele>7.0</ele>
-    <name>177km Bicycle Ambulance</name>
+    <name>181km Bicycle Ambulance</name>
     <desc>OSM bike shop (node/2948712913); opening_hours=Mo-Fr 09:00-18:00; Sa 09:00-21:00; Su 09:00-18:00; phone=+1-310-395-5026</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.005790" lon="-118.487321">
     <ele>7.0</ele>
-    <name>177km L &amp; K Food Market</name>
+    <name>181km L &amp; K Food Market</name>
     <desc>OSM convenience (node/10938996338)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.005183" lon="-118.486770">
     <ele>7.0</ele>
-    <name>177km (drinking water)</name>
+    <name>181km (drinking water)</name>
     <desc>OSM drinking water (node/1314521582)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.004132" lon="-118.485998">
     <ele>8.0</ele>
-    <name>177km The Bike Shop</name>
+    <name>181km The Bike Shop</name>
     <desc>OSM bike shop (node/2948712922); opening_hours=Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00; phone=+1-310-581-8014</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.003888" lon="-118.485211">
     <ele>10.0</ele>
-    <name>178km Giant</name>
+    <name>182km Giant</name>
     <desc>OSM bike shop (node/9157356062)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="33.999322" lon="-118.486135">
     <ele>6.0</ele>
-    <name>178km (toilets)</name>
+    <name>182km (toilets)</name>
     <desc>OSM toilets (way/902822352)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="33.997683" lon="-118.484593">
     <ele>0.0</ele>
-    <name>178km (toilets)</name>
+    <name>182km (toilets)</name>
     <desc>OSM toilets (way/902822350)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="33.994937" lon="-118.481519">
     <ele>8.0</ele>
-    <name>178km (toilets)</name>
+    <name>183km (toilets)</name>
     <desc>OSM toilets (way/1125754311); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.003162" lon="-118.471733">
     <ele>14.0</ele>
-    <name>179km Veloworkx</name>
+    <name>183km Veloworkx</name>
     <desc>OSM bike shop (node/2970866824); phone=+1-310-584-9797</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.002731" lon="-118.470260">
     <ele>14.0</ele>
-    <name>179km Rack Attack</name>
+    <name>183km Rack Attack</name>
     <desc>OSM bike shop (node/13022132668)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="33.989713" lon="-118.472124">
     <ele>5.0</ele>
-    <name>180km Solé Bicycles</name>
+    <name>184km Solé Bicycles</name>
     <desc>OSM bike shop (node/12731868501); website=https://www.solebicycles.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="33.989350" lon="-118.472311">
     <ele>5.0</ele>
-    <name>180km Trading Post Liquor</name>
+    <name>184km Trading Post Liquor</name>
     <desc>OSM convenience (node/4281801224); opening_hours=Su-We 08:00-22:00; Th-Sa 08:00-23:00</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="33.989728" lon="-118.462203">
     <ele>6.0</ele>
-    <name>181km Erewhon</name>
+    <name>185km Erewhon</name>
     <desc>OSM supermarket (node/4278753909); opening_hours=Mo-Su 07:00-23:00; phone=+1 310 362 3062; toilets=yes; website=https://www.erewhonmarket.com/</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="33.995861" lon="-118.456091">
     <ele>10.0</ele>
-    <name>182km Luft Los Angeles</name>
+    <name>186km Luft Los Angeles</name>
     <desc>OSM bike shop (node/9341799273); description=We created Luft to bring together people who embrace individual style and want to grow cycling culture beyond the bike. Our Resident brands are bigger names that primarily live online. We give you the chance to see, touch, and try on and NOW sell all of; opening_hours=Mo-Su 10:00-18:00; phone=+1-310-392-5838; website=https://www.luftlosangeles.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="33.994057" lon="-118.451973">
     <ele>10.0</ele>
-    <name>182km Chevron</name>
+    <name>186km Chevron</name>
     <desc>OSM fuel+shop (node/3790707996)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="33.993104" lon="-118.450231">
     <ele>13.0</ele>
-    <name>182km Helens Cycles</name>
+    <name>186km Helens Cycles</name>
     <desc>OSM bike shop (way/414479934); opening_hours=Mo-Fr 10:00-19:00; Sa 09:00-18:00; Su 11:00-17:00; phone=+1-310-306-7843</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="33.999149" lon="-118.442076">
     <ele>16.0</ele>
-    <name>183km re grocery</name>
+    <name>187km re grocery</name>
     <desc>OSM convenience (node/11345417059); opening_hours=Mo-Su 09:00-19:00; phone=+1 310-439-2894; website=https://regrocery.co</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="33.999527" lon="-118.441314">
     <ele>17.0</ele>
-    <name>183km Mario's Brothers</name>
+    <name>187km Mario's Brothers</name>
     <desc>OSM convenience (node/9198640952)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.002873" lon="-118.434088">
-    <ele>23.0</ele>
-    <name>184km Mar Vista Ranch Market</name>
-    <desc>OSM convenience (node/8756227828)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.003952" lon="-118.434083">
     <ele>24.0</ele>
-    <name>184km 7-Eleven</name>
+    <name>188km 7-Eleven</name>
     <desc>OSM convenience (node/5354859521); phone=+1 310-398-4711; website=https://www.7-eleven.com/locations/ca/los-angeles/12403-venice-blvd-39095</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.002873" lon="-118.434088">
+    <ele>23.0</ele>
+    <name>188km Mar Vista Ranch Market</name>
+    <desc>OSM convenience (node/8756227828)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.004598" lon="-118.432326">
     <ele>27.0</ele>
-    <name>184km Bikerowave Co-op</name>
+    <name>188km Bikerowave Co-op</name>
     <desc>OSM bike shop (node/1629231487); opening_hours=Mo-Th 18:30-22:00; Fr off; Sa 11:00-17:00; Su 11:00-14:00; phone=+1 310 230 5236; website=https://bikerowave.org/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.005105" lon="-118.433525">
     <ele>27.0</ele>
-    <name>184km Mitsuwa Marketplace</name>
+    <name>188km Mitsuwa Marketplace</name>
     <desc>OSM supermarket (node/1629231484); opening_hours=Mo-Su 09:00-21:00</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.004334" lon="-118.431744">
     <ele>26.0</ele>
-    <name>184km Sunny Cycles</name>
+    <name>188km Sunny Cycles</name>
     <desc>OSM bike shop (node/1629231486); phone=+1-310-313-6300; website=https://sunnycyclesla.com</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.004543" lon="-118.431465">
     <ele>26.0</ele>
-    <name>184km Fatty Mart</name>
+    <name>188km Fatty Mart</name>
     <desc>OSM convenience (node/10943490944); opening_hours=Mo-Fr 11:00-20:00; Sa,Su 10:00-20:00; website=https://www.fattymart.com/</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.008208" lon="-118.424706">
     <ele>28.0</ele>
-    <name>185km Quick Pick</name>
+    <name>189km Quick Pick</name>
     <desc>OSM convenience (node/8328997919)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.011076" lon="-118.419920">
     <ele>26.0</ele>
-    <name>185km Olimpia Store</name>
+    <name>189km Olimpia Store</name>
     <desc>OSM convenience (node/8423626442)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.011294" lon="-118.419102">
     <ele>24.0</ele>
-    <name>185km (convenience)</name>
+    <name>189km (convenience)</name>
     <desc>OSM convenience (node/8423626443)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.005261" lon="-118.411225">
     <ele>23.0</ele>
-    <name>186km Bikes and Books</name>
+    <name>190km Bikes and Books</name>
     <desc>OSM bike shop (node/8462756064)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.007348" lon="-118.413407">
     <ele>23.0</ele>
-    <name>186km Wheel World</name>
+    <name>190km Wheel World</name>
     <desc>OSM bike shop (way/439267364); website=https://www.wheelworld.com</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.012266" lon="-118.417610">
     <ele>23.0</ele>
-    <name>186km Shell</name>
+    <name>190km Shell</name>
     <desc>OSM convenience (node/8328976096)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.013406" lon="-118.417131">
     <ele>22.0</ele>
-    <name>186km 7-Eleven</name>
+    <name>190km 7-Eleven</name>
     <desc>OSM convenience (node/4075193947); phone=+1 310-397-1522; website=https://www.7-eleven.com/locations/ca/los-angeles/11143-venice-blvd-18820</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.015732" lon="-118.412938">
     <ele>26.0</ele>
-    <name>186km El Camaguey</name>
+    <name>190km El Camaguey</name>
     <desc>OSM convenience (node/8301071307)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.016821" lon="-118.410871">
     <ele>27.0</ele>
-    <name>186km A&amp;S Market</name>
+    <name>190km A&amp;S Market</name>
     <desc>OSM convenience (node/8423626454)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.017638" lon="-118.409501">
-    <ele>30.0</ele>
-    <name>186km West LA International Market</name>
-    <desc>OSM convenience (node/8388434496)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.016822" lon="-118.409439">
     <ele>28.0</ele>
-    <name>186km Supermercado Brazil</name>
+    <name>190km Supermercado Brazil</name>
     <desc>OSM convenience (node/8462756086)</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
+  <wpt lat="34.017638" lon="-118.409501">
+    <ele>30.0</ele>
+    <name>191km West LA International Market</name>
+    <desc>OSM convenience (node/8388434496)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.017300" lon="-118.407692">
     <ele>30.0</ele>
-    <name>187km Ralphs</name>
+    <name>191km Ralphs</name>
     <desc>OSM supermarket (node/276595352); opening_hours=Mo-Su 06:00-02:00; phone=+1 310-558-4027; website=https://www.ralphs.com/stores/grocery/ca/culver-city/westside-walk/703/00086</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.021124" lon="-118.404253">
     <ele>31.0</ele>
-    <name>187km The Bike Shop California</name>
+    <name>191km The Bike Shop California</name>
     <desc>OSM bike shop (node/3960923721)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.020144" lon="-118.403450">
     <ele>31.0</ele>
-    <name>187km 7-Eleven</name>
+    <name>191km 7-Eleven</name>
     <desc>OSM convenience (node/3960923712); phone=+1 310-202-6604; website=https://www.7-eleven.com/locations/ca/culver-city/10356-venice-blvd-21479</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.017555" lon="-118.400708">
     <ele>31.0</ele>
-    <name>187km Sony Pictures Studio Commissary</name>
+    <name>191km Sony Pictures Studio Commissary</name>
     <desc>OSM convenience (node/8439467185)</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.021089" lon="-118.401926">
-    <ele>32.0</ele>
-    <name>187km Asia Foods</name>
-    <desc>OSM convenience (node/9156805945)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.022152" lon="-118.401799">
     <ele>33.0</ele>
-    <name>187km Smart &amp; Final Extra!</name>
+    <name>191km Smart &amp; Final Extra!</name>
     <desc>OSM supermarket (way/314518855)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="34.021089" lon="-118.401926">
+    <ele>32.0</ele>
+    <name>191km Asia Foods</name>
+    <desc>OSM convenience (node/9156805945)</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
   <wpt lat="34.023507" lon="-118.399125">
     <ele>35.0</ele>
-    <name>188km Bahay Natin</name>
+    <name>192km Bahay Natin</name>
     <desc>OSM convenience (node/3961992383); opening_hours=Mo-Su 10:00-18:30</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.020430" lon="-118.397733">
     <ele>36.0</ele>
-    <name>188km (toilets)</name>
+    <name>192km (toilets)</name>
     <desc>OSM toilets (node/13226833408); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.020463" lon="-118.397706">
     <ele>36.0</ele>
-    <name>188km (drinking water)</name>
+    <name>192km (drinking water)</name>
     <desc>OSM drinking water (node/13374557642)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.024812" lon="-118.393348">
     <ele>36.0</ele>
-    <name>188km Erewhon</name>
+    <name>192km Erewhon</name>
     <desc>OSM supermarket (node/11468464941)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.030209" lon="-118.381315">
     <ele>30.0</ele>
-    <name>190km Wombi</name>
+    <name>194km Wombi</name>
     <desc>OSM bike shop (node/13101588461); opening_hours=Tu-Sa 09:30-17:30; phone=+1 213-377-6675; website=https://wombi.us/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.027075" lon="-118.372607">
     <ele>37.0</ele>
-    <name>190km Whole Foods Market</name>
+    <name>195km Whole Foods Market</name>
     <desc>OSM supermarket (node/9998875410); opening_hours=Mo-Su 07:00-22:00; operator=Whole Foods Market; phone=+1 424-434-7960; website=https://www.wholefoodsmarket.com/stores/culvercity</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.021876" lon="-118.371860">
     <ele>34.0</ele>
-    <name>190km 7-Eleven</name>
+    <name>195km 7-Eleven</name>
     <desc>OSM convenience (node/2687983138); phone=+1 323-937-2304; website=https://www.7-eleven.com/locations/ca/los-angeles/5791-rodeo-rd-25330</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.022703" lon="-118.354606">
     <ele>34.0</ele>
-    <name>192km Superior Grocers</name>
+    <name>196km Superior Grocers</name>
     <desc>OSM supermarket (node/10032550300)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.020445" lon="-118.354735">
     <ele>34.0</ele>
-    <name>192km Ralphs</name>
+    <name>196km Ralphs</name>
     <desc>OSM supermarket (node/10032550302); opening_hours=Mo-Su 06:00-24:00; phone=+1 323-292-0633; website=https://www.ralphs.com/stores/grocery/ca/los-angeles/rodeo-labrea/703/00283</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.021711" lon="-118.335514">
     <ele>38.0</ele>
-    <name>194km Shell</name>
+    <name>198km Shell</name>
     <desc>OSM fuel+shop (node/10744608466)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.017155" lon="-118.308744">
     <ele>48.0</ele>
-    <name>196km Food Mart</name>
+    <name>201km Food Mart</name>
     <desc>OSM convenience (node/3800035750)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.018009" lon="-118.308685">
     <ele>48.0</ele>
-    <name>196km 76</name>
+    <name>201km 76</name>
     <desc>OSM fuel+shop (node/3390316852); website=https://www.76.com/station/U76-SANG-HAN-ENTERPRISE-INC-0000802599/</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.022826" lon="-118.292091">
     <ele>55.0</ele>
-    <name>198km Smart &amp; Final</name>
+    <name>202km Smart &amp; Final</name>
     <desc>OSM supermarket (node/11144812568); opening_hours=Mo-Su 06:00-22:00</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.017806" lon="-118.292047">
     <ele>55.0</ele>
-    <name>198km ampm</name>
+    <name>202km ampm</name>
     <desc>OSM convenience (way/407408873)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.017035" lon="-118.290296">
     <ele>56.0</ele>
-    <name>198km (toilets)</name>
+    <name>202km (toilets)</name>
     <desc>OSM toilets (node/1869501825)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.019075" lon="-118.287008">
     <ele>64.0</ele>
-    <name>198km (drinking water)</name>
+    <name>203km (drinking water)</name>
     <desc>OSM drinking water (node/4547472581)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.024334" lon="-118.284897">
     <ele>66.0</ele>
-    <name>199km Sole's Bicycles</name>
+    <name>203km Sole's Bicycles</name>
     <desc>OSM bike shop (node/6047197531)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.025127" lon="-118.278784">
     <ele>65.0</ele>
-    <name>200km Cal Mart Beer &amp; Wine Food Store</name>
+    <name>204km Cal Mart Beer &amp; Wine Food Store</name>
     <desc>OSM supermarket (node/6045067406); opening_hours=06:00-12:00</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.026182" lon="-118.272161">
     <ele>66.0</ele>
-    <name>200km 7-Eleven</name>
+    <name>205km 7-Eleven</name>
     <desc>OSM convenience (way/407074723); phone=+1 213-748-3257; website=https://www.7-eleven.com/locations/ca/los-angeles/240-w-adams-37046</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.033994" lon="-118.264874">
     <ele>73.0</ele>
-    <name>202km Just Ride LA</name>
+    <name>206km Just Ride LA</name>
     <desc>OSM bike shop (node/2956626162); opening_hours=Mo-Sa 10:00-19:00;Su 11:00-18:00; phone=+1 213 745 6783; website=https://www.justridela.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.033641" lon="-118.262080">
     <ele>72.0</ele>
-    <name>202km Chevron</name>
+    <name>206km Chevron</name>
     <desc>OSM fuel+shop (node/3854179745)</desc>
     <sym>Gas Station</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.042105" lon="-118.256066">
     <ele>90.0</ele>
-    <name>203km Broadway Market</name>
+    <name>207km Broadway Market</name>
     <desc>OSM convenience (node/3905714571)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.045878" lon="-118.257670">
     <ele>84.0</ele>
-    <name>203km Whole Foods Market</name>
+    <name>207km Whole Foods Market</name>
     <desc>OSM supermarket (node/3967578956); opening_hours=Mo-Su 07:00-22:00; phone=+1 213-873-4745; website=https://www.wholefoodsmarket.com/stores/downtownlosangeles</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.042433" lon="-118.253404">
     <ele>86.0</ele>
-    <name>203km El Maestro Bicycle Shop</name>
+    <name>208km El Maestro Bicycle Shop</name>
     <desc>OSM bike shop (node/4098463772)</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.043612" lon="-118.254169">
     <ele>86.0</ele>
-    <name>203km Chapman Market</name>
+    <name>208km Chapman Market</name>
     <desc>OSM convenience (node/3905774489); phone=+1 213 4894080</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.041474" lon="-118.252090">
     <ele>86.0</ele>
-    <name>203km Carmen's Snack Shop</name>
+    <name>208km Carmen's Snack Shop</name>
     <desc>OSM convenience (node/4209682055)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.042395" lon="-118.250478">
     <ele>91.0</ele>
-    <name>204km Santee Court Market</name>
+    <name>208km Santee Court Market</name>
     <desc>OSM convenience (node/4096326965)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.042620" lon="-118.249241">
     <ele>92.0</ele>
-    <name>204km New Downtown Cafe &amp; Market</name>
+    <name>208km New Downtown Cafe &amp; Market</name>
     <desc>OSM convenience (node/4209682192)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.046156" lon="-118.251478">
     <ele>95.0</ele>
-    <name>204km 6th Street Market</name>
+    <name>208km 6th Street Market</name>
     <desc>OSM convenience (node/4885688168)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.044411" lon="-118.248980">
     <ele>95.0</ele>
-    <name>204km Big Apple Store</name>
+    <name>208km Big Apple Store</name>
     <desc>OSM convenience (node/14052497482); opening_hours=Mo-Su 07:30-23:00</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.048074" lon="-118.251005">
     <ele>94.0</ele>
-    <name>204km Trimana</name>
+    <name>208km Trimana</name>
     <desc>OSM convenience (node/2163606665)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.045909" lon="-118.247479">
     <ele>94.0</ele>
-    <name>204km (toilets)</name>
+    <name>208km (toilets)</name>
     <desc>OSM toilets (node/4080234179); description=Located on sidwalk</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.048932" lon="-118.250170">
     <ele>100.0</ele>
-    <name>204km DTLA Bikes</name>
+    <name>208km DTLA Bikes</name>
     <desc>OSM bike shop (node/2163540658); website=https://dtlabikes.com/</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.048801" lon="-118.244867">
     <ele>94.0</ele>
-    <name>204km Medrano's Gift Shop &amp; Mini Mart</name>
+    <name>208km Medrano's Gift Shop &amp; Mini Mart</name>
     <desc>OSM convenience (node/13807070452); opening_hours=Mo-Su 08:00-20:00</desc>
-    <sym>Convenience Store</sym>
-    <type>food</type>
-  </wpt>
-  <wpt lat="34.049946" lon="-118.243090">
-    <ele>93.0</ele>
-    <name>204km 7 Eleven</name>
-    <desc>OSM convenience (node/12579526701)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.050931" lon="-118.246021">
     <ele>90.0</ele>
-    <name>204km (toilets)</name>
+    <name>209km (toilets)</name>
     <desc>OSM toilets (node/9080663842)</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.050217" lon="-118.242290">
     <ele>93.0</ele>
-    <name>205km Marukai Market</name>
+    <name>209km Marukai Market</name>
     <desc>OSM supermarket (node/4269938708); opening_hours=Mo-Th,Su 08:00-21:00; Fr-Sa 08:00-22:00; phone=+1 213-893-7200; website=https://www.marukai.com/pages/little-tokyo</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.048798" lon="-118.240170">
     <ele>93.0</ele>
-    <name>205km Nijiya Market</name>
+    <name>209km Nijiya Market</name>
     <desc>OSM supermarket (node/4946318822); opening_hours=09:00-21:00</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
+  <wpt lat="34.049946" lon="-118.243090">
+    <ele>93.0</ele>
+    <name>209km 7 Eleven</name>
+    <desc>OSM convenience (node/12579526701)</desc>
+    <sym>Convenience Store</sym>
+    <type>food</type>
+  </wpt>
   <wpt lat="34.053941" lon="-118.243912">
     <ele>100.0</ele>
-    <name>205km (toilets)</name>
+    <name>209km (toilets)</name>
     <desc>OSM toilets (way/262726265); access=yes; description=This bathroom is inside Grand Park</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
-  <wpt lat="34.055500" lon="-118.244951">
+  <wpt lat="34.053731" lon="-118.241642">
     <ele>101.0</ele>
-    <name>205km (drinking water)</name>
-    <desc>OSM drinking water (node/10908676619); access=yes; fee=no</desc>
+    <name>209km (drinking water)</name>
+    <desc>OSM drinking water (node/5572327427)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
-  <wpt lat="34.053731" lon="-118.241642">
+  <wpt lat="34.055500" lon="-118.244951">
     <ele>101.0</ele>
-    <name>205km (drinking water)</name>
-    <desc>OSM drinking water (node/5572327427)</desc>
+    <name>209km (drinking water)</name>
+    <desc>OSM drinking water (node/10908676619); access=yes; fee=no</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.060228" lon="-118.237880">
     <ele>90.0</ele>
-    <name>206km Shang Lee Poultry</name>
+    <name>210km Shang Lee Poultry</name>
     <desc>OSM supermarket (node/12912909730); phone=+1-213-617-2635</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.060422" lon="-118.238603">
     <ele>90.0</ele>
-    <name>206km Nam-Hoa Fish Market Inc</name>
+    <name>210km Nam-Hoa Fish Market Inc</name>
     <desc>OSM supermarket (node/12912966513)</desc>
     <sym>Shopping Center</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.058510" lon="-118.239015">
     <ele>90.0</ele>
-    <name>206km Family's Market</name>
+    <name>210km Family's Market</name>
     <desc>OSM convenience (node/5695239157)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.058483" lon="-118.237864">
     <ele>90.0</ele>
-    <name>206km (convenience)</name>
+    <name>210km (convenience)</name>
     <desc>OSM convenience (node/9212776083)</desc>
     <sym>Convenience Store</sym>
     <type>food</type>
   </wpt>
   <wpt lat="34.057520" lon="-118.237563">
     <ele>90.0</ele>
-    <name>206km (toilets)</name>
+    <name>210km (toilets)</name>
     <desc>OSM toilets (node/4578721477); access=yes</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.055722" lon="-118.235483">
     <ele>91.0</ele>
-    <name>206km (toilets)</name>
+    <name>210km (toilets)</name>
     <desc>OSM toilets (way/443287216); access=yes; fee=no</desc>
     <sym>Restroom</sym>
     <type>toilet</type>
   </wpt>
   <wpt lat="34.055653" lon="-118.235553">
     <ele>91.0</ele>
-    <name>206km (drinking water)</name>
+    <name>210km (drinking water)</name>
     <desc>OSM drinking water (node/13290101801)</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.056060" lon="-118.235900">
     <ele>91.0</ele>
-    <name>206km FINISH LA Union Station</name>
+    <name>210km FINISH LA Union Station</name>
     <desc>800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.</desc>
     <sym>Car</sym>
     <type>bailout</type>
@@ -2299,8 +2271,8 @@
      <trkpt lat="34.431978" lon="-119.906049"><ele>35.0</ele></trkpt>
      <trkpt lat="34.433973" lon="-119.905303"><ele>34.8</ele></trkpt>
      <trkpt lat="34.434452" lon="-119.905036"><ele>34.5</ele></trkpt>
-     <trkpt lat="34.435003" lon="-119.904569"><ele>34.5</ele></trkpt>
-     <trkpt lat="34.435310" lon="-119.904201"><ele>35.2</ele></trkpt>
+     <trkpt lat="34.434806" lon="-119.904759"><ele>33.8</ele></trkpt>
+     <trkpt lat="34.435164" lon="-119.904392"><ele>34.8</ele></trkpt>
      <trkpt lat="34.435620" lon="-119.903714"><ele>36.2</ele></trkpt>
      <trkpt lat="34.437056" lon="-119.900845"><ele>44.2</ele></trkpt>
      <trkpt lat="34.436777" lon="-119.900592"><ele>43.5</ele></trkpt>
@@ -2321,7 +2293,8 @@
      <trkpt lat="34.436120" lon="-119.896367"><ele>45.0</ele></trkpt>
      <trkpt lat="34.433127" lon="-119.893404"><ele>36.2</ele></trkpt>
      <trkpt lat="34.432978" lon="-119.893218"><ele>36.0</ele></trkpt>
-     <trkpt lat="34.432866" lon="-119.892918"><ele>36.8</ele></trkpt>
+     <trkpt lat="34.432899" lon="-119.893040"><ele>36.2</ele></trkpt>
+     <trkpt lat="34.432844" lon="-119.892787"><ele>37.0</ele></trkpt>
      <trkpt lat="34.432841" lon="-119.891590"><ele>39.0</ele></trkpt>
      <trkpt lat="34.432726" lon="-119.890811"><ele>40.2</ele></trkpt>
      <trkpt lat="34.432772" lon="-119.889150"><ele>37.5</ele></trkpt>
@@ -2342,79 +2315,176 @@
      <trkpt lat="34.430210" lon="-119.868073"><ele>14.2</ele></trkpt>
      <trkpt lat="34.430208" lon="-119.867253"><ele>14.2</ele></trkpt>
      <trkpt lat="34.430161" lon="-119.866854"><ele>14.5</ele></trkpt>
-     <trkpt lat="34.430185" lon="-119.864474"><ele>12.2</ele></trkpt>
      <trkpt lat="34.430262" lon="-119.860543"><ele>8.8</ele></trkpt>
      <trkpt lat="34.430318" lon="-119.859759"><ele>8.0</ele></trkpt>
      <trkpt lat="34.430573" lon="-119.857499"><ele>7.5</ele></trkpt>
      <trkpt lat="34.430938" lon="-119.850989"><ele>4.8</ele></trkpt>
      <trkpt lat="34.431071" lon="-119.849201"><ele>6.0</ele></trkpt>
      <trkpt lat="34.432248" lon="-119.843360"><ele>5.2</ele></trkpt>
+     <trkpt lat="34.434255" lon="-119.835335"><ele>7.0</ele></trkpt>
      <trkpt lat="34.434608" lon="-119.834012"><ele>5.5</ele></trkpt>
      <trkpt lat="34.434759" lon="-119.833601"><ele>4.8</ele></trkpt>
-     <trkpt lat="34.435920" lon="-119.831136"><ele>6.8</ele></trkpt>
+     <trkpt lat="34.435963" lon="-119.831026"><ele>6.5</ele></trkpt>
      <trkpt lat="34.436038" lon="-119.830684"><ele>6.5</ele></trkpt>
      <trkpt lat="34.435974" lon="-119.829495"><ele>6.8</ele></trkpt>
      <trkpt lat="34.436014" lon="-119.829325"><ele>6.2</ele></trkpt>
-     <trkpt lat="34.435621" lon="-119.822893"><ele>12.0</ele></trkpt>
-     <trkpt lat="34.435576" lon="-119.822796"><ele>12.2</ele></trkpt>
-     <trkpt lat="34.435552" lon="-119.822256"><ele>13.5</ele></trkpt>
-     <trkpt lat="34.435567" lon="-119.821684"><ele>15.2</ele></trkpt>
-     <trkpt lat="34.435684" lon="-119.820567"><ele>13.0</ele></trkpt>
-     <trkpt lat="34.435665" lon="-119.819789"><ele>14.2</ele></trkpt>
-     <trkpt lat="34.435557" lon="-119.818918"><ele>15.2</ele></trkpt>
-     <trkpt lat="34.435352" lon="-119.818565"><ele>16.5</ele></trkpt>
-     <trkpt lat="34.435291" lon="-119.817596"><ele>17.0</ele></trkpt>
-     <trkpt lat="34.435227" lon="-119.817354"><ele>17.0</ele></trkpt>
-     <trkpt lat="34.435117" lon="-119.817175"><ele>16.8</ele></trkpt>
-     <trkpt lat="34.435223" lon="-119.816690"><ele>17.0</ele></trkpt>
-     <trkpt lat="34.434910" lon="-119.809161"><ele>15.0</ele></trkpt>
-     <trkpt lat="34.434923" lon="-119.807435"><ele>18.8</ele></trkpt>
-     <trkpt lat="34.434879" lon="-119.806752"><ele>19.5</ele></trkpt>
-     <trkpt lat="34.434750" lon="-119.799440"><ele>19.0</ele></trkpt>
-     <trkpt lat="34.434800" lon="-119.798678"><ele>21.0</ele></trkpt>
-     <trkpt lat="34.435408" lon="-119.795237"><ele>19.0</ele></trkpt>
-     <trkpt lat="34.437020" lon="-119.786784"><ele>15.2</ele></trkpt>
-     <trkpt lat="34.437944" lon="-119.781737"><ele>17.0</ele></trkpt>
-     <trkpt lat="34.438270" lon="-119.780018"><ele>16.8</ele></trkpt>
-     <trkpt lat="34.438366" lon="-119.779837"><ele>17.5</ele></trkpt>
-     <trkpt lat="34.438546" lon="-119.778903"><ele>20.5</ele></trkpt>
-     <trkpt lat="34.438831" lon="-119.777352"><ele>26.0</ele></trkpt>
-     <trkpt lat="34.438866" lon="-119.776973"><ele>28.0</ele></trkpt>
-     <trkpt lat="34.438930" lon="-119.776798"><ele>29.2</ele></trkpt>
-     <trkpt lat="34.439867" lon="-119.771591"><ele>33.8</ele></trkpt>
-     <trkpt lat="34.439924" lon="-119.771012"><ele>32.5</ele></trkpt>
-     <trkpt lat="34.440126" lon="-119.770034"><ele>35.2</ele></trkpt>
-     <trkpt lat="34.439944" lon="-119.769828"><ele>35.2</ele></trkpt>
-     <trkpt lat="34.438772" lon="-119.767855"><ele>36.8</ele></trkpt>
-     <trkpt lat="34.438028" lon="-119.766264"><ele>36.0</ele></trkpt>
-     <trkpt lat="34.437766" lon="-119.765470"><ele>37.5</ele></trkpt>
-     <trkpt lat="34.437443" lon="-119.763062"><ele>39.2</ele></trkpt>
-     <trkpt lat="34.437194" lon="-119.761579"><ele>40.8</ele></trkpt>
-     <trkpt lat="34.437085" lon="-119.760572"><ele>45.8</ele></trkpt>
-     <trkpt lat="34.436792" lon="-119.754090"><ele>59.2</ele></trkpt>
-     <trkpt lat="34.436650" lon="-119.753427"><ele>57.5</ele></trkpt>
-     <trkpt lat="34.436485" lon="-119.752934"><ele>59.5</ele></trkpt>
-     <trkpt lat="34.436303" lon="-119.752514"><ele>60.8</ele></trkpt>
-     <trkpt lat="34.436109" lon="-119.752194"><ele>60.5</ele></trkpt>
-     <trkpt lat="34.435019" lon="-119.750607"><ele>58.5</ele></trkpt>
-     <trkpt lat="34.434504" lon="-119.749974"><ele>58.2</ele></trkpt>
-     <trkpt lat="34.432754" lon="-119.748050"><ele>52.0</ele></trkpt>
-     <trkpt lat="34.432222" lon="-119.747283"><ele>51.8</ele></trkpt>
-     <trkpt lat="34.430212" lon="-119.743977"><ele>47.0</ele></trkpt>
-     <trkpt lat="34.429362" lon="-119.742303"><ele>52.5</ele></trkpt>
-     <trkpt lat="34.428643" lon="-119.740686"><ele>51.8</ele></trkpt>
-     <trkpt lat="34.428382" lon="-119.740200"><ele>49.0</ele></trkpt>
-     <trkpt lat="34.427014" lon="-119.738255"><ele>44.5</ele></trkpt>
-     <trkpt lat="34.426739" lon="-119.737722"><ele>43.8</ele></trkpt>
-     <trkpt lat="34.426579" lon="-119.737248"><ele>43.2</ele></trkpt>
-     <trkpt lat="34.426466" lon="-119.736593"><ele>43.5</ele></trkpt>
-     <trkpt lat="34.426434" lon="-119.735442"><ele>48.8</ele></trkpt>
-     <trkpt lat="34.426338" lon="-119.735120"><ele>49.5</ele></trkpt>
-     <trkpt lat="34.425971" lon="-119.734660"><ele>49.0</ele></trkpt>
-     <trkpt lat="34.425785" lon="-119.734220"><ele>47.2</ele></trkpt>
+     <trkpt lat="34.436076" lon="-119.829512"><ele>6.8</ele></trkpt>
+     <trkpt lat="34.436139" lon="-119.830747"><ele>6.8</ele></trkpt>
+     <trkpt lat="34.436038" lon="-119.830684"><ele>6.5</ele></trkpt>
+     <trkpt lat="34.435029" lon="-119.830639"><ele>5.2</ele></trkpt>
+     <trkpt lat="34.432415" lon="-119.830627"><ele>5.0</ele></trkpt>
+     <trkpt lat="34.430914" lon="-119.830684"><ele>5.0</ele></trkpt>
+     <trkpt lat="34.427718" lon="-119.830666"><ele>4.8</ele></trkpt>
+     <trkpt lat="34.427288" lon="-119.830586"><ele>5.0</ele></trkpt>
+     <trkpt lat="34.426913" lon="-119.830369"><ele>4.5</ele></trkpt>
+     <trkpt lat="34.426788" lon="-119.830362"><ele>4.2</ele></trkpt>
+     <trkpt lat="34.426718" lon="-119.830429"><ele>4.0</ele></trkpt>
+     <trkpt lat="34.426455" lon="-119.831034"><ele>3.0</ele></trkpt>
+     <trkpt lat="34.425798" lon="-119.832680"><ele>4.0</ele></trkpt>
+     <trkpt lat="34.425556" lon="-119.833386"><ele>3.0</ele></trkpt>
+     <trkpt lat="34.425505" lon="-119.833649"><ele>3.0</ele></trkpt>
+     <trkpt lat="34.425526" lon="-119.835110"><ele>3.0</ele></trkpt>
+     <trkpt lat="34.425440" lon="-119.835272"><ele>3.0</ele></trkpt>
+     <trkpt lat="34.425320" lon="-119.835321"><ele>3.0</ele></trkpt>
+     <trkpt lat="34.423877" lon="-119.835233"><ele>6.0</ele></trkpt>
+     <trkpt lat="34.419610" lon="-119.835226"><ele>4.2</ele></trkpt>
+     <trkpt lat="34.419128" lon="-119.835198"><ele>2.5</ele></trkpt>
+     <trkpt lat="34.418981" lon="-119.835151"><ele>2.5</ele></trkpt>
+     <trkpt lat="34.418711" lon="-119.834962"><ele>2.5</ele></trkpt>
+     <trkpt lat="34.418551" lon="-119.834721"><ele>3.0</ele></trkpt>
+     <trkpt lat="34.417925" lon="-119.832751"><ele>3.8</ele></trkpt>
+     <trkpt lat="34.417922" lon="-119.832429"><ele>4.0</ele></trkpt>
+     <trkpt lat="34.418070" lon="-119.831773"><ele>4.2</ele></trkpt>
+     <trkpt lat="34.418025" lon="-119.831584"><ele>4.2</ele></trkpt>
+     <trkpt lat="34.418060" lon="-119.831352"><ele>4.5</ele></trkpt>
+     <trkpt lat="34.418017" lon="-119.831026"><ele>5.0</ele></trkpt>
+     <trkpt lat="34.418149" lon="-119.830688"><ele>5.0</ele></trkpt>
+     <trkpt lat="34.418262" lon="-119.830520"><ele>4.8</ele></trkpt>
+     <trkpt lat="34.418544" lon="-119.830336"><ele>4.0</ele></trkpt>
+     <trkpt lat="34.418804" lon="-119.830309"><ele>3.8</ele></trkpt>
+     <trkpt lat="34.419189" lon="-119.830462"><ele>3.5</ele></trkpt>
+     <trkpt lat="34.419507" lon="-119.830828"><ele>3.5</ele></trkpt>
+     <trkpt lat="34.419680" lon="-119.830837"><ele>3.2</ele></trkpt>
+     <trkpt lat="34.421009" lon="-119.829379"><ele>3.8</ele></trkpt>
+     <trkpt lat="34.421328" lon="-119.828863"><ele>3.2</ele></trkpt>
+     <trkpt lat="34.422784" lon="-119.827674"><ele>1.0</ele></trkpt>
+     <trkpt lat="34.422873" lon="-119.827547"><ele>1.0</ele></trkpt>
+     <trkpt lat="34.422897" lon="-119.827460"><ele>1.0</ele></trkpt>
+     <trkpt lat="34.422866" lon="-119.827280"><ele>1.2</ele></trkpt>
+     <trkpt lat="34.422650" lon="-119.826850"><ele>1.2</ele></trkpt>
+     <trkpt lat="34.422523" lon="-119.826441"><ele>1.8</ele></trkpt>
+     <trkpt lat="34.422475" lon="-119.825811"><ele>4.0</ele></trkpt>
+     <trkpt lat="34.422546" lon="-119.825366"><ele>4.5</ele></trkpt>
+     <trkpt lat="34.423361" lon="-119.821957"><ele>6.2</ele></trkpt>
+     <trkpt lat="34.423385" lon="-119.821141"><ele>5.8</ele></trkpt>
+     <trkpt lat="34.423564" lon="-119.819804"><ele>4.8</ele></trkpt>
+     <trkpt lat="34.423612" lon="-119.815965"><ele>6.2</ele></trkpt>
+     <trkpt lat="34.423644" lon="-119.815493"><ele>6.5</ele></trkpt>
+     <trkpt lat="34.423752" lon="-119.814850"><ele>7.0</ele></trkpt>
+     <trkpt lat="34.423904" lon="-119.814311"><ele>7.2</ele></trkpt>
+     <trkpt lat="34.424223" lon="-119.813322"><ele>7.0</ele></trkpt>
+     <trkpt lat="34.424876" lon="-119.811531"><ele>7.2</ele></trkpt>
+     <trkpt lat="34.425040" lon="-119.811320"><ele>7.5</ele></trkpt>
+     <trkpt lat="34.425282" lon="-119.811194"><ele>8.0</ele></trkpt>
+     <trkpt lat="34.425378" lon="-119.810908"><ele>8.0</ele></trkpt>
+     <trkpt lat="34.425408" lon="-119.810433"><ele>8.2</ele></trkpt>
+     <trkpt lat="34.425173" lon="-119.809960"><ele>9.2</ele></trkpt>
+     <trkpt lat="34.425138" lon="-119.809788"><ele>9.0</ele></trkpt>
+     <trkpt lat="34.425274" lon="-119.807336"><ele>10.2</ele></trkpt>
+     <trkpt lat="34.425322" lon="-119.806994"><ele>10.8</ele></trkpt>
+     <trkpt lat="34.425541" lon="-119.806145"><ele>11.0</ele></trkpt>
+     <trkpt lat="34.426007" lon="-119.802243"><ele>11.8</ele></trkpt>
+     <trkpt lat="34.426237" lon="-119.801062"><ele>13.0</ele></trkpt>
+     <trkpt lat="34.426281" lon="-119.800689"><ele>13.0</ele></trkpt>
+     <trkpt lat="34.426291" lon="-119.798649"><ele>14.5</ele></trkpt>
+     <trkpt lat="34.426387" lon="-119.798027"><ele>14.2</ele></trkpt>
+     <trkpt lat="34.426577" lon="-119.797494"><ele>13.0</ele></trkpt>
+     <trkpt lat="34.427787" lon="-119.795277"><ele>12.2</ele></trkpt>
+     <trkpt lat="34.429816" lon="-119.791820"><ele>14.8</ele></trkpt>
+     <trkpt lat="34.429974" lon="-119.791383"><ele>15.2</ele></trkpt>
+     <trkpt lat="34.430233" lon="-119.790167"><ele>16.2</ele></trkpt>
+     <trkpt lat="34.430422" lon="-119.789614"><ele>15.8</ele></trkpt>
+     <trkpt lat="34.430548" lon="-119.788531"><ele>14.8</ele></trkpt>
+     <trkpt lat="34.430181" lon="-119.788264"><ele>18.2</ele></trkpt>
+     <trkpt lat="34.430162" lon="-119.788142"><ele>18.8</ele></trkpt>
+     <trkpt lat="34.430290" lon="-119.787843"><ele>18.5</ele></trkpt>
+     <trkpt lat="34.430511" lon="-119.787058"><ele>16.5</ele></trkpt>
+     <trkpt lat="34.430592" lon="-119.786467"><ele>14.2</ele></trkpt>
+     <trkpt lat="34.430762" lon="-119.786134"><ele>11.8</ele></trkpt>
+     <trkpt lat="34.431419" lon="-119.785470"><ele>12.2</ele></trkpt>
+     <trkpt lat="34.431981" lon="-119.784560"><ele>13.8</ele></trkpt>
+     <trkpt lat="34.432076" lon="-119.784279"><ele>15.2</ele></trkpt>
+     <trkpt lat="34.432252" lon="-119.784129"><ele>16.0</ele></trkpt>
+     <trkpt lat="34.432412" lon="-119.783825"><ele>15.8</ele></trkpt>
+     <trkpt lat="34.432629" lon="-119.783567"><ele>15.2</ele></trkpt>
+     <trkpt lat="34.432826" lon="-119.783170"><ele>15.5</ele></trkpt>
+     <trkpt lat="34.432995" lon="-119.782974"><ele>16.0</ele></trkpt>
+     <trkpt lat="34.433190" lon="-119.782609"><ele>16.2</ele></trkpt>
+     <trkpt lat="34.433389" lon="-119.782339"><ele>16.2</ele></trkpt>
+     <trkpt lat="34.433649" lon="-119.781597"><ele>17.0</ele></trkpt>
+     <trkpt lat="34.433539" lon="-119.780275"><ele>19.5</ele></trkpt>
+     <trkpt lat="34.433767" lon="-119.780118"><ele>20.0</ele></trkpt>
+     <trkpt lat="34.435592" lon="-119.780008"><ele>18.5</ele></trkpt>
+     <trkpt lat="34.435522" lon="-119.776108"><ele>22.8</ele></trkpt>
+     <trkpt lat="34.435701" lon="-119.775709"><ele>23.0</ele></trkpt>
+     <trkpt lat="34.436301" lon="-119.775069"><ele>24.5</ele></trkpt>
+     <trkpt lat="34.436399" lon="-119.774832"><ele>25.0</ele></trkpt>
+     <trkpt lat="34.436413" lon="-119.774691"><ele>25.0</ele></trkpt>
+     <trkpt lat="34.436367" lon="-119.774454"><ele>24.8</ele></trkpt>
+     <trkpt lat="34.436413" lon="-119.773903"><ele>25.2</ele></trkpt>
+     <trkpt lat="34.436377" lon="-119.773641"><ele>25.8</ele></trkpt>
+     <trkpt lat="34.436307" lon="-119.771133"><ele>29.8</ele></trkpt>
+     <trkpt lat="34.436245" lon="-119.771110"><ele>29.8</ele></trkpt>
+     <trkpt lat="34.436241" lon="-119.771021"><ele>29.5</ele></trkpt>
+     <trkpt lat="34.436535" lon="-119.770220"><ele>30.0</ele></trkpt>
+     <trkpt lat="34.436995" lon="-119.768296"><ele>32.0</ele></trkpt>
+     <trkpt lat="34.436989" lon="-119.767961"><ele>34.0</ele></trkpt>
+     <trkpt lat="34.437234" lon="-119.767708"><ele>33.8</ele></trkpt>
+     <trkpt lat="34.438113" lon="-119.766596"><ele>35.5</ele></trkpt>
+     <trkpt lat="34.437932" lon="-119.766158"><ele>36.2</ele></trkpt>
+     <trkpt lat="34.437676" lon="-119.765306"><ele>37.8</ele></trkpt>
+     <trkpt lat="34.437430" lon="-119.763434"><ele>38.8</ele></trkpt>
+     <trkpt lat="34.437002" lon="-119.760755"><ele>44.8</ele></trkpt>
+     <trkpt lat="34.436910" lon="-119.759688"><ele>49.8</ele></trkpt>
+     <trkpt lat="34.436783" lon="-119.755156"><ele>58.5</ele></trkpt>
+     <trkpt lat="34.436702" lon="-119.753966"><ele>59.0</ele></trkpt>
+     <trkpt lat="34.436553" lon="-119.753275"><ele>58.2</ele></trkpt>
+     <trkpt lat="34.436296" lon="-119.752648"><ele>60.8</ele></trkpt>
+     <trkpt lat="34.436024" lon="-119.752202"><ele>60.8</ele></trkpt>
+     <trkpt lat="34.435787" lon="-119.751918"><ele>60.2</ele></trkpt>
+     <trkpt lat="34.435111" lon="-119.750832"><ele>59.8</ele></trkpt>
+     <trkpt lat="34.434377" lon="-119.749910"><ele>58.8</ele></trkpt>
+     <trkpt lat="34.433365" lon="-119.748791"><ele>53.5</ele></trkpt>
+     <trkpt lat="34.432716" lon="-119.748145"><ele>52.2</ele></trkpt>
+     <trkpt lat="34.432310" lon="-119.747610"><ele>51.8</ele></trkpt>
+     <trkpt lat="34.430228" lon="-119.744233"><ele>47.0</ele></trkpt>
+     <trkpt lat="34.429251" lon="-119.742321"><ele>52.8</ele></trkpt>
+     <trkpt lat="34.428700" lon="-119.741078"><ele>53.5</ele></trkpt>
+     <trkpt lat="34.428274" lon="-119.740216"><ele>48.8</ele></trkpt>
+     <trkpt lat="34.427950" lon="-119.739719"><ele>47.0</ele></trkpt>
+     <trkpt lat="34.427028" lon="-119.738480"><ele>44.8</ele></trkpt>
+     <trkpt lat="34.426783" lon="-119.738079"><ele>44.8</ele></trkpt>
+     <trkpt lat="34.426643" lon="-119.737792"><ele>44.0</ele></trkpt>
+     <trkpt lat="34.426436" lon="-119.737119"><ele>43.0</ele></trkpt>
+     <trkpt lat="34.426359" lon="-119.736611"><ele>42.2</ele></trkpt>
+     <trkpt lat="34.426315" lon="-119.735891"><ele>47.5</ele></trkpt>
+     <trkpt lat="34.426243" lon="-119.735816"><ele>48.0</ele></trkpt>
+     <trkpt lat="34.426139" lon="-119.735873"><ele>47.5</ele></trkpt>
+     <trkpt lat="34.426046" lon="-119.735845"><ele>47.8</ele></trkpt>
+     <trkpt lat="34.426206" lon="-119.735577"><ele>48.5</ele></trkpt>
+     <trkpt lat="34.426175" lon="-119.735294"><ele>49.2</ele></trkpt>
+     <trkpt lat="34.426270" lon="-119.735010"><ele>49.8</ele></trkpt>
+     <trkpt lat="34.425972" lon="-119.734662"><ele>49.0</ele></trkpt>
+     <trkpt lat="34.425866" lon="-119.734460"><ele>48.0</ele></trkpt>
+     <trkpt lat="34.425668" lon="-119.733741"><ele>46.2</ele></trkpt>
      <trkpt lat="34.424794" lon="-119.729832"><ele>39.8</ele></trkpt>
+     <trkpt lat="34.424656" lon="-119.728314"><ele>41.5</ele></trkpt>
      <trkpt lat="34.424629" lon="-119.727771"><ele>40.2</ele></trkpt>
-     <trkpt lat="34.425008" lon="-119.724161"><ele>37.8</ele></trkpt>
+     <trkpt lat="34.424712" lon="-119.727047"><ele>40.0</ele></trkpt>
+     <trkpt lat="34.424697" lon="-119.726871"><ele>40.0</ele></trkpt>
+     <trkpt lat="34.424734" lon="-119.726751"><ele>40.2</ele></trkpt>
+     <trkpt lat="34.424994" lon="-119.724175"><ele>37.8</ele></trkpt>
+     <trkpt lat="34.424804" lon="-119.723778"><ele>37.0</ele></trkpt>
      <trkpt lat="34.423816" lon="-119.722022"><ele>36.0</ele></trkpt>
      <trkpt lat="34.426540" lon="-119.719123"><ele>35.5</ele></trkpt>
      <trkpt lat="34.412923" lon="-119.700515"><ele>12.0</ele></trkpt>
@@ -2784,7 +2854,13 @@
      <trkpt lat="34.276920" lon="-119.303795"><ele>7.2</ele></trkpt>
      <trkpt lat="34.276930" lon="-119.300854"><ele>5.8</ele></trkpt>
      <trkpt lat="34.276865" lon="-119.300756"><ele>5.8</ele></trkpt>
-     <trkpt lat="34.276895" lon="-119.293256"><ele>12.5</ele></trkpt>
+     <trkpt lat="34.276876" lon="-119.297815"><ele>7.5</ele></trkpt>
+     <trkpt lat="34.276948" lon="-119.297820"><ele>7.8</ele></trkpt>
+     <trkpt lat="34.276958" lon="-119.298034"><ele>8.0</ele></trkpt>
+     <trkpt lat="34.276926" lon="-119.299871"><ele>6.2</ele></trkpt>
+     <trkpt lat="34.276958" lon="-119.298034"><ele>8.0</ele></trkpt>
+     <trkpt lat="34.276948" lon="-119.297820"><ele>7.8</ele></trkpt>
+     <trkpt lat="34.276876" lon="-119.297815"><ele>7.5</ele></trkpt>
      <trkpt lat="34.276872" lon="-119.292530"><ele>9.2</ele></trkpt>
      <trkpt lat="34.276659" lon="-119.292089"><ele>8.8</ele></trkpt>
      <trkpt lat="34.276600" lon="-119.291887"><ele>8.5</ele></trkpt>
@@ -3167,15 +3243,6 @@
      <trkpt lat="34.035145" lon="-118.695797"><ele>25.0</ele></trkpt>
      <trkpt lat="34.034621" lon="-118.691157"><ele>8.0</ele></trkpt>
      <trkpt lat="34.035780" lon="-118.691563"><ele>7.8</ele></trkpt>
-     <trkpt lat="34.036063" lon="-118.690236"><ele>7.0</ele></trkpt>
-     <trkpt lat="34.035925" lon="-118.690184"><ele>6.5</ele></trkpt>
-     <trkpt lat="34.035902" lon="-118.690015"><ele>6.2</ele></trkpt>
-     <trkpt lat="34.035751" lon="-118.689898"><ele>6.2</ele></trkpt>
-     <trkpt lat="34.035489" lon="-118.689579"><ele>7.2</ele></trkpt>
-     <trkpt lat="34.035751" lon="-118.689898"><ele>6.2</ele></trkpt>
-     <trkpt lat="34.035902" lon="-118.690015"><ele>6.2</ele></trkpt>
-     <trkpt lat="34.035925" lon="-118.690184"><ele>6.5</ele></trkpt>
-     <trkpt lat="34.036063" lon="-118.690236"><ele>7.0</ele></trkpt>
      <trkpt lat="34.036717" lon="-118.687098"><ele>7.8</ele></trkpt>
      <trkpt lat="34.036880" lon="-118.685610"><ele>8.8</ele></trkpt>
      <trkpt lat="34.036308" lon="-118.685510"><ele>8.5</ele></trkpt>

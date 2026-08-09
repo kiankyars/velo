@@ -115,6 +115,23 @@ STAGE3 = [
     ("US-101 mainline W of the gap",        34.43720, -119.92500),
     ("US-101 Winchester Canyon off-ramp",  34.43790, -119.89400),
     ("Goleta",                             34.43583, -119.82764),
+    # Goleta -> Santa Barbara on the OBERN TRAIL and the MODOC ROAD MULTIUSE PATH
+    # rather than Hollister Ave and the other arterials. This is what the official
+    # USBR 95 does here, and it is the one place on the route where the designated
+    # national route is plainly safer than what the router picked on its own:
+    # +4.3 km on the day buys +9.5 km of highway=cycleway, bicycle=designated and
+    # takes 5.4 km off secondary arterials, for zero extra climb.
+    # Coordinates lifted from OSM way geometry, not guessed, so the router lands on
+    # the cycleway instead of the arterial running parallel to it.
+    # Two honest caveats: parts of the Obern boardwalk are surface=wood, which is
+    # slick when damp and you reach it early on a foggy morning; and a shared-use
+    # path with pedestrians and dogs is slower than an arterial. The arterial line
+    # is kept as pch_day3_alt_arterials if you want it back.
+    # This has NOTHING to do with the 391 m bicycle=no exception, which is at km 13.7
+    # in Winchester Canyon, ~9 km WEST of where this path starts. Nothing avoids that.
+    ("Obern Trail (Goleta Beach end)",     34.41798, -119.83163),
+    ("Obern Trail (Atascadero Creek)",     34.43377, -119.78148),
+    ("Modoc Road Multiuse Path (E end)",   34.42624, -119.73582),
     ("Santa Barbara (Cabrillo Blvd)",      34.41259, -119.68874),
     ("Carpinteria",                        34.39888, -119.51846),
     ("Rincon Point",                       34.37419, -119.47664),
@@ -308,6 +325,27 @@ VARIANTS = [
                 "not pair it with the standard day 2, which starts at Limekiln.",
         "trim_to": "Big Sur Village (River Inn)",
         "extra": [("Pfeiffer Big Sur SP (NIGHT 1 alt)", 36.25331, -121.78330)],
+    },
+    {
+        "id": "pch_day3_alt_arterials",
+        "name": "Day 3 variant - Goleta on the arterials instead of the Obern Trail",
+        "desc": "The old default, kept for the case where you want the faster line. "
+                "Hollister Ave and the other Goleta arterials instead of the Obern "
+                "Trail: 205.7 km against 209.9 km, so it saves 4.3 km, but it gives up "
+                "9.5 km of separated bike path and puts 5.4 km back onto secondary "
+                "arterials. The official USBR 95 uses the path, which is why the path "
+                "is now the default. Take this one if the boardwalk is wet (parts are "
+                "surface=wood) or if you are chasing a train and the shared-use path "
+                "traffic would cost you more than the arterial risk.",
+        "base": "STAGE3",
+        "replace_upto": "Carpinteria",
+        "head": [
+            ("Refugio State Beach (START)",       34.46243, -120.04830),
+            ("US-101 mainline W of the gap",      34.43720, -119.92500),
+            ("US-101 Winchester Canyon off-ramp", 34.43790, -119.89400),
+            ("Goleta",                            34.43583, -119.82764),
+            ("Santa Barbara (Cabrillo Blvd)",     34.41259, -119.68874),
+        ],
     },
     {
         "id": "pch_day2_pfeiffer_refugio",

@@ -566,9 +566,17 @@ def main():
                           "OpenStreetMap; PERMISSIVE_LEGS use velo_pch_road_bridge.brf")
     summary["simplify_tolerance_m"] = SIMPLIFY_TOL_M
     summary["densify_max_spacing_m"] = DENSIFY_MAX_M
+    # Keep stages this run did not rebuild, so a single-stage rebuild does not throw
+    # away the others - but drop any whose GPX no longer exists. Without that second
+    # test a retired variant lingers in the summary forever, and the validator then
+    # reports audit findings (e.g. a documented bicycle=no exception) against a stage
+    # that has no file. That happened when pch_day3_alt_obern was folded into the
+    # day-3 default.
     rebuilt = {r["id"] for r in results}
-    summary["stages"] = [s for s in summary.get("stages", [])
-                         if s.get("id") not in rebuilt]
+    summary["stages"] = [
+        s for s in summary.get("stages", [])
+        if s.get("id") not in rebuilt
+        and os.path.exists(os.path.join(GPX_DIR, str(s.get("id")) + ".gpx"))]
     for r in results:
         c = r["cats"]
         tot = c["total"] or 1.0

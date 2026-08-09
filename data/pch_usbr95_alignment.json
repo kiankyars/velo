@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-08T17:15:11Z",
+ "generated_utc": "2026-08-09T02:05:24Z",
  "reference": "OSM route=bicycle network=ncn ref=95 (US Bicycle Route 95, AASHTO-designated: Crescent City to the Mexican border). Adventure Cycling publishes the USBRS digital maps free at advcy.link/causbr.",
  "relations": [
   12882462,
@@ -162,16 +162,16 @@
   },
   {
    "id": "pch_day3_refugio_la",
-   "points": 1586,
-   "within_100m_pct": 75.0,
-   "within_250m_pct": 80.6,
-   "within_500m_pct": 86.0,
-   "within_1000m_pct": 88.1,
+   "points": 1677,
+   "within_100m_pct": 77.2,
+   "within_250m_pct": 82.6,
+   "within_500m_pct": 87.2,
+   "within_1000m_pct": 89.4,
    "median_offset_m": 0,
    "divergences_over_min_km": [
     {
-     "from_km": 178.8,
-     "to_km": 205.6,
+     "from_km": 182.9,
+     "to_km": 209.8,
      "length_km": 26.8,
      "max_offset_m": null,
      "beyond_search_radius": true,
@@ -186,17 +186,17 @@
     },
     {
      "from_km": 14.8,
-     "to_km": 27.7,
-     "length_km": 12.9,
+     "to_km": 25.4,
+     "length_km": 10.6,
      "max_offset_m": null,
      "beyond_search_radius": true,
      "start": [
-      34.43531,
-      -119.9042
+      34.43562,
+      -119.90371
      ],
      "end": [
-      34.43827,
-      -119.78002
+      34.41961,
+      -119.83523
      ]
     }
    ]

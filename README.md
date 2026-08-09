@@ -4,8 +4,8 @@ Planning hub for Kian's ultra-distance riding. **Two trips live here now:**
 
 | Trip | When | Distance | Where it's documented |
 |------|------|---------:|----------------------|
-| 🇺🇸 **Southbound Highway 1 — San Francisco → Los Angeles** | **leaving 5–6 Aug 2026** | **782.4 km / 3 days** | ⭐ **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** |
-| 🇺🇸 …optionally extended to **San Diego** | +1 day | **1,000.6 km / 4 days** | **[EXTENSIONS.md](./EXTENSIONS.md)** |
+| 🇺🇸 **Southbound Highway 1 — San Francisco → Los Angeles** | **leaving 5–6 Aug 2026** | **786.6 km / 3 days** | ⭐ **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** |
+| 🇺🇸 …optionally extended to **San Diego** | +1 day | **1,004.8 km / 4 days** | **[EXTENSIONS.md](./EXTENSIONS.md)** |
 | 🇪🇺 The Frankfurt Loop | 21 Jun – 12 Jul 2026 | 4,172.7 km / ~22 days | [ROUTE-GPX.md](./ROUTE-GPX.md) |
 
 ## 🇺🇸 The immediate one: SF → Big Sur → LA
@@ -17,9 +17,9 @@ GPX in [`gpx/pch_*.gpx`](./gpx), full write-up in **[BIG-SUR-GPX.md](./BIG-SUR-G
 |---|---|---:|---:|
 | 1 | 426 Fell St, SF → **Limekiln SP** | **297.2 km** | +2,889 m |
 | 2 | Limekiln SP → **Refugio SB** | **279.5 km** | +2,148 m |
-| 3 | Refugio SB → **LA Union Station** | **205.7 km** | +611 m |
+| 3 | Refugio SB → **LA Union Station** | **209.9 km** | +611 m |
 
-Plus two Pfeiffer-variant files and the waypoint files (1,382 POIs). Note the
+Plus two Pfeiffer-variant files and the waypoint files (1,378 POIs). Note the
 variant is a **trade, not a saving**: Pfeiffer sits 41.8 km *short* of Limekiln on the
 same line, so `pch_day1_alt_pfeiffer.gpx` (255.9 km) defers that distance onto
 `pch_day2_pfeiffer_refugio.gpx` (**322.4 km / +2,945 m** against 279.4 km / +2,148 m
@@ -40,7 +40,7 @@ you ever have the lead time to arrange a bus with a bike space.
 own method — official GPX as backbone, BRouter for connectors, as the Frankfurt loop
 does with EuroVelo — says to start there, and I didn't check. Measured after the
 fact against 107,508 official nodes, the built line sits within 100 m of USBR 95 for
-**83.0% of day 1, 83.4% of day 2, 75.0% of day 3, 64.5% of day 4, median offset 0 m**
+**83.0% of day 1, 83.4% of day 2, 77.2% of day 3, 64.5% of day 4, median offset 0 m**
 — largely the same road, as you'd expect where Highway 1 is the only option. The
 comparison is now permanent: `python3 scripts/validate_usbr95_alignment.py`.
 
@@ -70,8 +70,12 @@ comparison is now permanent: `python3 scripts/validate_usbr95_alignment.py`.
   Both camp nights measured at a **0–3 °F dewpoint spread** with
   `scripts/check_camp_dewpoint.py`.
 - **Two things the official route taught the build:** USBR 95 crosses Goleta on the
-  **Obern Trail** (+3.3 km for 9.1 km of separated path instead of arterials — an
-  open choice on day 3), and it goes **through Camp Pendleton**, which corrects an
+  **Obern Trail**, and day 3 now does too — **+4.3 km buys +9.5 km of separated bike
+  path** and takes 5.4 km off the arterials for zero extra climb, which is why day 3
+  went from 205.7 to 209.9 km. (The old line is kept as `pch_day3_alt_arterials.gpx`.)
+  Note this is a *different* place from the 391 m `bicycle=no` exception at km 13.7 in
+  Winchester Canyon, which nothing avoids — the official route clips it too. And USBR 95
+  goes **through Camp Pendleton**, which corrects an
   earlier claim here that the Pacific Coast Bikeway dead-ends southbound. It doesn't
   — it's **gated** (DBIDS pass since 1 Oct 2018). The I-5 bypass is still the right
   pass-free line.
@@ -102,7 +106,7 @@ A **loop out of Frankfurt** through Germany, Switzerland, France, Italy and Aust
 | File | What it covers |
 |------|----------------|
 | **[EXTENSIONS.md](./EXTENSIONS.md)** | ⭐ **Should you extend to San Diego?** Every candidate extension routed and measured with the same profile and audit: the LA→San Diego day (and the Camp Pendleton crux, solved), the Mexican-border finish, prepending the Sonoma/Mendocino coast, and why looping home inland through the Central Valley in August is a heat-injury risk rather than a hard day. |
-| **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** | ⭐ **The SF → LA coast route.** Three riding days (782.4 km), the road-bike routing profile and why the stock one fails on this coast, the legality/surface/spur audit, the detected climbs, the water-and-food gaps, the alignment against the official **USBR 95**, the **tent-less sleeping analysis** (bag and pad ratings against measured dewpoint spreads, what to buy and what not to, and whether you can just flap the dew off in the morning), the **73 km cell dead zone**, and the corrections the build forced on the plan. |
+| **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** | ⭐ **The SF → LA coast route.** Three riding days (786.6 km), the road-bike routing profile and why the stock one fails on this coast, the legality/surface/spur audit, the detected climbs, the water-and-food gaps, the alignment against the official **USBR 95**, the **tent-less sleeping analysis** (bag and pad ratings against measured dewpoint spreads, what to buy and what not to, and whether you can just flap the dew off in the morning), the **73 km cell dead zone**, and the corrections the build forced on the plan. |
 | **[GEAR-FROM-VIDEOS.md](./GEAR-FROM-VIDEOS.md)** | ⭐ Asks #1 & #2 — the **verbatim gear list** from your parts video, your own stated regrets (no bibs/tights, bad gloves, leaky pump, broken saddle bag), and the **lessons distilled from all 7 transcripts**. |
 | **[CHECKLIST.md](./CHECKLIST.md)** | The **concise one-pager** to read before you leave. |
 | **[PACKING-LIST.md](./PACKING-LIST.md)** | Full checkbox packing list, merging your real video kit with trip essentials (German light law, EES, insurance, Alpine cold). |

@@ -78,7 +78,7 @@
    "file": "pch_day3_refugio_la.gpx",
    "is_main_stage": true,
    "xml_valid": true,
-   "n_points": 1586,
+   "n_points": 1677,
    "spurs": [
     {
      "at_km": 15.58,
@@ -88,16 +88,23 @@
      "lon": -119.89666
     },
     {
-     "at_km": 155.82,
-     "excursion_m": 155,
-     "reach_m": 88,
-     "lat": 34.03606,
-     "lon": -118.69024
+     "at_km": 22.96,
+     "excursion_m": 290,
+     "reach_m": 156,
+     "lat": 34.43596,
+     "lon": -119.83103
+    },
+    {
+     "at_km": 85.59,
+     "excursion_m": 365,
+     "reach_m": 189,
+     "lat": 34.27688,
+     "lon": -119.29781
     }
    ],
-   "spur_total_m": 777,
+   "spur_total_m": 1277,
    "spur_max_m": 622,
-   "distance_km": 205.6,
+   "distance_km": 209.8,
    "max_point_gap_m": 299.2,
    "worst_corridor_offset_m": 174,
    "worst_corridor_point": "Point Mugu Rock",
@@ -229,6 +236,36 @@
    "continuous": true
   },
   {
+   "id": "pch_day3_alt_arterials",
+   "file": "pch_day3_alt_arterials.gpx",
+   "is_main_stage": false,
+   "xml_valid": true,
+   "n_points": 1586,
+   "spurs": [
+    {
+     "at_km": 15.58,
+     "excursion_m": 622,
+     "reach_m": 272,
+     "lat": 34.43637,
+     "lon": -119.89666
+    },
+    {
+     "at_km": 155.82,
+     "excursion_m": 155,
+     "reach_m": 88,
+     "lat": 34.03606,
+     "lon": -118.69024
+    }
+   ],
+   "spur_total_m": 777,
+   "spur_max_m": 622,
+   "distance_km": 205.6,
+   "max_point_gap_m": 299.2,
+   "worst_corridor_offset_m": 174,
+   "worst_corridor_point": "Point Mugu Rock",
+   "continuous": true
+  },
+  {
    "id": "pch_day2_pfeiffer_refugio",
    "file": "pch_day2_pfeiffer_refugio.gpx",
    "is_main_stage": false,
@@ -280,14 +317,21 @@
   }
  ],
  "legality": {
-  "bicycle_no_km_total": 0.391,
+  "bicycle_no_km_total": 0.782,
   "bicycle_no_allowance_km": 0.45,
-  "motorway_not_bicycle_legal_km": 1.195,
+  "motorway_not_bicycle_legal_km": 1.586,
   "untagged_freeway_allowance_km": 0.5,
-  "unpaved_km_total": 0.182,
+  "unpaved_km_total": 0.188,
   "bicycle_no_locations": [
    {
     "stage": "pch_day3_refugio_la",
+    "lat": 34.43319,
+    "lon": -119.91278,
+    "len_m": 391,
+    "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=no hgv=designated oneway=yes shoulder=yes"
+   },
+   {
+    "stage": "pch_day3_alt_arterials",
     "lat": 34.43319,
     "lon": -119.91278,
     "len_m": 391,
@@ -299,15 +343,15 @@
  "master": {
   "pch_sf_la_master.gpx": {
    "tracks": 3,
-   "total_km": 782.0
+   "total_km": 786.2
   },
   "pch_sf_sd_master.gpx": {
    "tracks": 4,
-   "total_km": 1000.1
+   "total_km": 1004.2
   }
  },
  "waypoints": {
-  "count": 1382,
+  "count": 1378,
   "without_name": 0,
   "without_desc": 0
  },

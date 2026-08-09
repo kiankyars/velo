@@ -3,7 +3,7 @@
   <metadata>
     <name>SF -&gt; LA coast route: essential waypoints</name>
     <desc>Curated stops plus water, campgrounds and bike shops only - the readable subset for a bike computer</desc>
-    <time>2026-08-08T17:07:44Z</time>
+    <time>2026-08-09T02:04:24Z</time>
   </metadata>
   <wpt lat="37.777091" lon="-122.422326">
     <ele>24.0</ele>
@@ -1279,535 +1279,535 @@
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
-  <wpt lat="34.434821" lon="-119.820113">
-    <ele>14.0</ele>
-    <name>Bicycle Bob's</name>
-    <desc>OSM bike shop (node/6504582690)  [day3_refugio_la km 24]</desc>
-    <sym>Mine</sym>
-    <type>bikeshop</type>
+  <wpt lat="34.424652" lon="-119.836447">
+    <ele>4.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10028525822)  [day3_refugio_la km 25]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.417068" lon="-119.830464">
+    <ele>5.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/13111056362); access=yes; fee=no  [day3_refugio_la km 26]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
   </wpt>
   <wpt lat="34.419071" lon="-119.702371">
     <ele>16.0</ele>
     <name>Fastrack Bicycles</name>
-    <desc>OSM bike shop (node/14028177385); opening_hours=Mo-Sa 12:00-17:00; Su off; phone=+1 805-884-0210; website=https://www.fastrackbicycles.com/  [day3_refugio_la km 36]</desc>
+    <desc>OSM bike shop (node/14028177385); opening_hours=Mo-Sa 12:00-17:00; Su off; phone=+1 805-884-0210; website=https://www.fastrackbicycles.com/  [day3_refugio_la km 40]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.408681" lon="-119.697211">
     <ele>6.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/14029239873)  [day3_refugio_la km 37]</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="34.407193" lon="-119.692996">
-    <ele>7.0</ele>
-    <name>(drinking water)</name>
-    <desc>OSM drinking water (node/11360617758); access=yes  [day3_refugio_la km 37]</desc>
+    <desc>OSM drinking water (node/14029239873)  [day3_refugio_la km 41]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.413650" lon="-119.692800">
     <ele>6.0</ele>
     <name>BAILOUT Santa Barbara Amtrak</name>
-    <desc>209 State Street, right on the day-3 line at km ~95. Surfliner roll-on bikes; Coast Starlight also stops.  [day3_refugio_la km 38]</desc>
+    <desc>209 State Street, right on the day-3 line at km ~95. Surfliner roll-on bikes; Coast Starlight also stops.  [day3_refugio_la km 42]</desc>
     <sym>Car</sym>
     <type>bailout</type>
   </wpt>
   <wpt lat="34.410211" lon="-119.685557">
     <ele>6.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/5735648023); access=yes  [day3_refugio_la km 38]</desc>
+    <desc>OSM drinking water (node/5735648023); access=yes  [day3_refugio_la km 42]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.416633" lon="-119.690687">
     <ele>6.0</ele>
     <name>Rad Power Bikes</name>
-    <desc>OSM bike shop (node/13513466515); opening_hours=Mo-Tu off; We-Su 11:00-18:00; phone=+1 805-468-8440; website=https://www.radpowerbikes.com/pages/locations-santa-barbara-california  [day3_refugio_la km 38]</desc>
+    <desc>OSM bike shop (node/13513466515); opening_hours=Mo-Tu off; We-Su 11:00-18:00; phone=+1 805-468-8440; website=https://www.radpowerbikes.com/pages/locations-santa-barbara-california  [day3_refugio_la km 42]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.419246" lon="-119.678630">
     <ele>6.0</ele>
     <name>Cal Coast Adventures</name>
-    <desc>OSM bike shop (way/623254254); phone=+1-805-628-2444; website=https://www.calcoastadventures.com/  [day3_refugio_la km 39]</desc>
+    <desc>OSM bike shop (way/623254254); phone=+1-805-628-2444; website=https://www.calcoastadventures.com/  [day3_refugio_la km 43]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.391330" lon="-119.521470">
     <ele>12.0</ele>
     <name>Carpinteria SB campground</name>
-    <desc>Day 3 escape hatch, on the beach in town. Hike/bike site, water, showers, and food a block away.  [day3_refugio_la km 56]</desc>
+    <desc>Day 3 escape hatch, on the beach in town. Hike/bike site, water, showers, and food a block away.  [day3_refugio_la km 60]</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.400000" lon="-119.500000">
     <ele>20.0</ele>
     <name>INFO US-101 closed to bikes, Santa Barbara -&gt; Ventura</name>
-    <desc>US-101 between Santa Barbara and Ventura is closed to bicycles, which is why day 3 runs on city streets, county roads and the ocean-side bike paths through Carpinteria and the Rincon instead. The route obeys this: the audit shows zero bike-banned metres on this stretch.  [day3_refugio_la km 57]</desc>
+    <desc>US-101 between Santa Barbara and Ventura is closed to bicycles, which is why day 3 runs on city streets, county roads and the ocean-side bike paths through Carpinteria and the Rincon instead. The route obeys this: the audit shows zero bike-banned metres on this stretch.  [day3_refugio_la km 61]</desc>
     <sym>Flag, Blue</sym>
     <type>info</type>
   </wpt>
   <wpt lat="34.345545" lon="-119.419258">
     <ele>8.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/8588079786)  [day3_refugio_la km 67]</desc>
+    <desc>OSM drinking water (node/8588079786)  [day3_refugio_la km 71]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.338024" lon="-119.411445">
     <ele>7.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/13710038667)  [day3_refugio_la km 68]</desc>
+    <desc>OSM drinking water (node/13710038667)  [day3_refugio_la km 72]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.285061" lon="-119.324588">
     <ele>16.0</ele>
     <name>state beach RV on the water</name>
-    <desc>OSM campground (node/5897045785)  [day3_refugio_la km 79]</desc>
+    <desc>OSM campground (node/5897045785)  [day3_refugio_la km 83]</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.280777" lon="-119.315841">
     <ele>6.0</ele>
     <name>Hike/Bike Campsite</name>
-    <desc>OSM campground (node/11034019506); fee=yes; operator=Emma Wood State Beach  [day3_refugio_la km 79]</desc>
+    <desc>OSM campground (node/11034019506); fee=yes; operator=Emma Wood State Beach  [day3_refugio_la km 83]</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.281569" lon="-119.316564">
     <ele>6.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/12964375060); access=yes  [day3_refugio_la km 79]</desc>
+    <desc>OSM drinking water (node/12964375060); access=yes  [day3_refugio_la km 83]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.280140" lon="-119.313932">
     <ele>9.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/12964375059); access=yes  [day3_refugio_la km 80]</desc>
+    <desc>OSM drinking water (node/12964375059); access=yes  [day3_refugio_la km 84]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.281748" lon="-119.304440">
     <ele>10.0</ele>
     <name>Ventura Bike Depot, Inc.</name>
-    <desc>OSM bike shop (node/5675838921); opening_hours=Mo-Su 09:00-17:00; operator=Shelley Sund; website=https://www.venturabikedepot.com  [day3_refugio_la km 81]</desc>
+    <desc>OSM bike shop (node/5675838921); opening_hours=Mo-Su 09:00-17:00; operator=Shelley Sund; website=https://www.venturabikedepot.com  [day3_refugio_la km 84]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
-  </wpt>
-  <wpt lat="34.276940" lon="-119.299870">
-    <ele>8.0</ele>
-    <name>BAILOUT Ventura Amtrak</name>
-    <desc>Harbor Boulevard, on the day-3 line. Surfliner.  [day3_refugio_la km 82]</desc>
-    <sym>Car</sym>
-    <type>bailout</type>
   </wpt>
   <wpt lat="34.274688" lon="-119.297974">
     <ele>8.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/12865540199); access=yes  [day3_refugio_la km 82]</desc>
+    <desc>OSM drinking water (node/12865540199); access=yes  [day3_refugio_la km 86]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
+  </wpt>
+  <wpt lat="34.276940" lon="-119.299870">
+    <ele>6.0</ele>
+    <name>BAILOUT Ventura Amtrak</name>
+    <desc>Harbor Boulevard, on the day-3 line. Surfliner.  [day3_refugio_la km 86]</desc>
+    <sym>Car</sym>
+    <type>bailout</type>
   </wpt>
   <wpt lat="34.280689" lon="-119.294118">
     <ele>11.0</ele>
     <name>Coastal E-Bike Co Llc</name>
-    <desc>OSM bike shop (node/13483168911); phone=+1-805-901-5508  [day3_refugio_la km 82]</desc>
+    <desc>OSM bike shop (node/13483168911); phone=+1-805-901-5508  [day3_refugio_la km 86]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.276051" lon="-119.292108">
     <ele>8.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/6828760757)  [day3_refugio_la km 82]</desc>
+    <desc>OSM drinking water (node/6828760757)  [day3_refugio_la km 87]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.275748" lon="-119.290615">
     <ele>9.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/11367042934)  [day3_refugio_la km 82]</desc>
+    <desc>OSM drinking water (node/11367042934)  [day3_refugio_la km 87]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.270340" lon="-119.279397">
     <ele>7.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/13030719910); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 84]</desc>
+    <desc>OSM drinking water (node/13030719910); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 88]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.269459" lon="-119.276922">
     <ele>7.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/13030696395); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 84]</desc>
+    <desc>OSM drinking water (node/13030696395); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 88]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.263364" lon="-119.270345">
     <ele>8.0</ele>
     <name>Matt's Cycling Center</name>
-    <desc>OSM bike shop (node/5675838922)  [day3_refugio_la km 85]</desc>
+    <desc>OSM bike shop (node/5675838922)  [day3_refugio_la km 89]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.183346" lon="-119.236184">
     <ele>5.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/13030710882); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 95]</desc>
+    <desc>OSM drinking water (node/13030710882); fee=no; opening_hours=24/7; seasonal=no  [day3_refugio_la km 99]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.085701" lon="-119.034997">
     <ele>8.0</ele>
     <name>(campground)</name>
-    <desc>OSM campground (way/536536616)  [day3_refugio_la km 121]</desc>
+    <desc>OSM campground (way/536536616)  [day3_refugio_la km 125]</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.073325" lon="-119.015706">
     <ele>17.0</ele>
     <name>Hike and Bike Campsites</name>
-    <desc>OSM campground (way/1188279115); fee=yes; operator=Sycamore Canyon Campground  [day3_refugio_la km 123]</desc>
+    <desc>OSM campground (way/1188279115); fee=yes; operator=Sycamore Canyon Campground  [day3_refugio_la km 128]</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.073574" lon="-119.014978">
     <ele>8.0</ele>
     <name>Sycamore Canyon Campground</name>
-    <desc>OSM campground (way/75622199); phone=+1-310-457-8144; website=https://www.parks.ca.gov/?page_id=630  [day3_refugio_la km 123]</desc>
+    <desc>OSM campground (way/75622199); phone=+1-310-457-8144; website=https://www.parks.ca.gov/?page_id=630  [day3_refugio_la km 128]</desc>
     <sym>Campground</sym>
     <type>camp</type>
   </wpt>
   <wpt lat="34.073026" lon="-119.014777">
     <ele>7.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/9594971358)  [day3_refugio_la km 124]</desc>
+    <desc>OSM drinking water (node/9594971358)  [day3_refugio_la km 128]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.070706" lon="-119.013193">
     <ele>8.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/9594973757)  [day3_refugio_la km 124]</desc>
+    <desc>OSM drinking water (node/9594973757)  [day3_refugio_la km 128]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.046525" lon="-118.933790">
     <ele>6.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/9592536712)  [day3_refugio_la km 132]</desc>
+    <desc>OSM drinking water (node/9592536712)  [day3_refugio_la km 136]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.016574" lon="-118.823384">
     <ele>14.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/10278639982)  [day3_refugio_la km 143]</desc>
+    <desc>OSM drinking water (node/10278639982)  [day3_refugio_la km 147]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.015817" lon="-118.820284">
     <ele>11.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/10278640927)  [day3_refugio_la km 143]</desc>
+    <desc>OSM drinking water (node/10278640927)  [day3_refugio_la km 148]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.013792" lon="-118.819797">
     <ele>13.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/10278648238)  [day3_refugio_la km 143]</desc>
+    <desc>OSM drinking water (node/10278648238)  [day3_refugio_la km 148]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.032091" lon="-118.746624">
     <ele>25.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/8620553177)  [day3_refugio_la km 150]</desc>
+    <desc>OSM drinking water (node/8620553177)  [day3_refugio_la km 155]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.037000" lon="-118.600000">
     <ele>20.0</ele>
     <name>HAZARD PCH Malibu-&gt;Santa Monica - active fire-rebuild corridor</name>
-    <desc>The last ~25 km of day 3 runs through the Palisades Fire reconstruction corridor. Caltrans D7 has a rock-slope-protection and pavement rebuild near Ratner Beach due to finish FALL 2026, and a second project covering about five miles from just south of the California Incline to Topanga Creek due END OF 2026 - both still live in August 2026. After the fire, PCH reopened with ONE LANE each way at 25 mph. Expect no shoulder, construction traffic and coned lanes exactly where you are most tired. The route leaves PCH at Santa Monica Pier and goes inland via Culver City, so the exposure is Malibu to Santa Monica only. If it looks bad, quit at Oxnard or Ventura Amtrak and take the Surfliner in. Position approximate - the corridor is long. SRC Caltrans D7 PCH Palisades Fire Repairs project pages  [day3_refugio_la km 165]</desc>
+    <desc>The last ~25 km of day 3 runs through the Palisades Fire reconstruction corridor. Caltrans D7 has a rock-slope-protection and pavement rebuild near Ratner Beach due to finish FALL 2026, and a second project covering about five miles from just south of the California Incline to Topanga Creek due END OF 2026 - both still live in August 2026. After the fire, PCH reopened with ONE LANE each way at 25 mph. Expect no shoulder, construction traffic and coned lanes exactly where you are most tired. The route leaves PCH at Santa Monica Pier and goes inland via Culver City, so the exposure is Malibu to Santa Monica only. If it looks bad, quit at Oxnard or Ventura Amtrak and take the Surfliner in. Position approximate - the corridor is long. SRC Caltrans D7 PCH Palisades Fire Repairs project pages  [day3_refugio_la km 169]</desc>
     <sym>Danger Area</sym>
     <type>hazard</type>
   </wpt>
   <wpt lat="34.037823" lon="-118.540524">
     <ele>12.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521372)  [day3_refugio_la km 171]</desc>
+    <desc>OSM drinking water (node/1314521372)  [day3_refugio_la km 175]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.037034" lon="-118.533957">
     <ele>13.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521515)  [day3_refugio_la km 171]</desc>
+    <desc>OSM drinking water (node/1314521515)  [day3_refugio_la km 175]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.035644" lon="-118.536581">
     <ele>9.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521886)  [day3_refugio_la km 171]</desc>
+    <desc>OSM drinking water (node/1314521886)  [day3_refugio_la km 175]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.031758" lon="-118.527712">
     <ele>8.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521412); access=yes  [day3_refugio_la km 172]</desc>
+    <desc>OSM drinking water (node/1314521412); access=yes  [day3_refugio_la km 176]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.026305" lon="-118.514186">
     <ele>10.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/4200821729)  [day3_refugio_la km 174]</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
-  </wpt>
-  <wpt lat="34.024760" lon="-118.511332">
-    <ele>7.0</ele>
-    <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521508)  [day3_refugio_la km 174]</desc>
+    <desc>OSM drinking water (node/4200821729)  [day3_refugio_la km 178]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.025575" lon="-118.512812">
     <ele>7.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521910)  [day3_refugio_la km 174]</desc>
+    <desc>OSM drinking water (node/1314521910)  [day3_refugio_la km 178]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.024760" lon="-118.511332">
+    <ele>7.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/1314521508)  [day3_refugio_la km 178]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.023563" lon="-118.509636">
     <ele>6.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521793)  [day3_refugio_la km 174]</desc>
+    <desc>OSM drinking water (node/1314521793)  [day3_refugio_la km 178]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.022813" lon="-118.508595">
     <ele>8.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521919)  [day3_refugio_la km 174]</desc>
+    <desc>OSM drinking water (node/1314521919)  [day3_refugio_la km 178]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.020797" lon="-118.506231">
     <ele>4.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/820017741)  [day3_refugio_la km 174]</desc>
+    <desc>OSM drinking water (node/820017741)  [day3_refugio_la km 179]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.020313" lon="-118.505553">
     <ele>2.0</ele>
     <name>Water Fountain</name>
-    <desc>OSM drinking water (node/1314521603)  [day3_refugio_la km 175]</desc>
+    <desc>OSM drinking water (node/1314521603)  [day3_refugio_la km 179]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.019240" lon="-118.504285">
     <ele>1.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521783)  [day3_refugio_la km 175]</desc>
+    <desc>OSM drinking water (node/1314521783)  [day3_refugio_la km 179]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.017537" lon="-118.502515">
     <ele>9.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/12072605589)  [day3_refugio_la km 175]</desc>
+    <desc>OSM drinking water (node/12072605589)  [day3_refugio_la km 179]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.015388" lon="-118.500868">
     <ele>9.0</ele>
     <name>(bike shop)</name>
-    <desc>OSM bike shop (node/2970866825)  [day3_refugio_la km 175]</desc>
+    <desc>OSM bike shop (node/2970866825)  [day3_refugio_la km 179]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.015369" lon="-118.499780">
     <ele>9.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521497)  [day3_refugio_la km 175]</desc>
+    <desc>OSM drinking water (node/1314521497)  [day3_refugio_la km 180]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
-  </wpt>
-  <wpt lat="34.014799" lon="-118.493573">
-    <ele>9.0</ele>
-    <name>Santa Monica Bike Center: Satellite Location</name>
-    <desc>OSM bike shop (node/2976424585); phone=+1-310-656-8500  [day3_refugio_la km 176]</desc>
-    <sym>Mine</sym>
-    <type>bikeshop</type>
   </wpt>
   <wpt lat="34.012497" lon="-118.493886">
     <ele>8.0</ele>
     <name>Santa Monica Bike Center</name>
-    <desc>OSM bike shop (node/2976424584); phone=+1-310-656-8500  [day3_refugio_la km 176]</desc>
+    <desc>OSM bike shop (node/2976424584); phone=+1-310-656-8500  [day3_refugio_la km 180]</desc>
+    <sym>Mine</sym>
+    <type>bikeshop</type>
+  </wpt>
+  <wpt lat="34.014799" lon="-118.493573">
+    <ele>9.0</ele>
+    <name>Santa Monica Bike Center: Satellite Location</name>
+    <desc>OSM bike shop (node/2976424585); phone=+1-310-656-8500  [day3_refugio_la km 180]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.011617" lon="-118.495480">
     <ele>6.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/8822456612)  [day3_refugio_la km 176]</desc>
+    <desc>OSM drinking water (node/8822456612)  [day3_refugio_la km 180]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.009972" lon="-118.495468">
     <ele>8.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/3439778859)  [day3_refugio_la km 176]</desc>
+    <desc>OSM drinking water (node/3439778859)  [day3_refugio_la km 180]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.009100" lon="-118.497100">
     <ele>8.0</ele>
     <name>INFO Santa Monica Pier - 190 m of timber decking</name>
-    <desc>The only 'unpaved' metres on day 3 are the pier's wooden boards. Harmless, but it is where the audit's 0.22 km of non-asphalt comes from. Slippery when wet.  [day3_refugio_la km 176]</desc>
+    <desc>The only 'unpaved' metres on day 3 are the pier's wooden boards. Harmless, but it is where the audit's 0.22 km of non-asphalt comes from. Slippery when wet.  [day3_refugio_la km 180]</desc>
     <sym>Flag, Blue</sym>
     <type>info</type>
   </wpt>
   <wpt lat="34.005886" lon="-118.491438">
     <ele>6.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521590)  [day3_refugio_la km 177]</desc>
+    <desc>OSM drinking water (node/1314521590)  [day3_refugio_la km 181]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.005183" lon="-118.486770">
     <ele>7.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/1314521582)  [day3_refugio_la km 177]</desc>
+    <desc>OSM drinking water (node/1314521582)  [day3_refugio_la km 181]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.004132" lon="-118.485998">
     <ele>8.0</ele>
     <name>The Bike Shop</name>
-    <desc>OSM bike shop (node/2948712922); opening_hours=Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00; phone=+1-310-581-8014  [day3_refugio_la km 177]</desc>
+    <desc>OSM bike shop (node/2948712922); opening_hours=Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00; phone=+1-310-581-8014  [day3_refugio_la km 181]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.003888" lon="-118.485211">
     <ele>10.0</ele>
     <name>Giant</name>
-    <desc>OSM bike shop (node/9157356062)  [day3_refugio_la km 178]</desc>
+    <desc>OSM bike shop (node/9157356062)  [day3_refugio_la km 182]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="33.989713" lon="-118.472124">
     <ele>5.0</ele>
     <name>Solé Bicycles</name>
-    <desc>OSM bike shop (node/12731868501); website=https://www.solebicycles.com/  [day3_refugio_la km 180]</desc>
+    <desc>OSM bike shop (node/12731868501); website=https://www.solebicycles.com/  [day3_refugio_la km 184]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="33.995861" lon="-118.456091">
     <ele>10.0</ele>
     <name>Luft Los Angeles</name>
-    <desc>OSM bike shop (node/9341799273); description=We created Luft to bring together people who embrace individual style and want to grow cycling culture beyond the bike. Our Resident brands are bigger names that primarily live online. We give you the chance to see, touch, and try on and NOW sell all of; opening_hours=Mo-Su 10:00-18:00; phone=+1-310-392-5838; website=https://www.luftlosangeles.com/  [day3_refugio_la km 182]</desc>
+    <desc>OSM bike shop (node/9341799273); description=We created Luft to bring together people who embrace individual style and want to grow cycling culture beyond the bike. Our Resident brands are bigger names that primarily live online. We give you the chance to see, touch, and try on and NOW sell all of; opening_hours=Mo-Su 10:00-18:00; phone=+1-310-392-5838; website=https://www.luftlosangeles.com/  [day3_refugio_la km 186]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="33.993104" lon="-118.450231">
     <ele>13.0</ele>
     <name>Helens Cycles</name>
-    <desc>OSM bike shop (way/414479934); opening_hours=Mo-Fr 10:00-19:00; Sa 09:00-18:00; Su 11:00-17:00; phone=+1-310-306-7843  [day3_refugio_la km 182]</desc>
+    <desc>OSM bike shop (way/414479934); opening_hours=Mo-Fr 10:00-19:00; Sa 09:00-18:00; Su 11:00-17:00; phone=+1-310-306-7843  [day3_refugio_la km 186]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.004598" lon="-118.432326">
     <ele>27.0</ele>
     <name>Bikerowave Co-op</name>
-    <desc>OSM bike shop (node/1629231487); opening_hours=Mo-Th 18:30-22:00; Fr off; Sa 11:00-17:00; Su 11:00-14:00; phone=+1 310 230 5236; website=https://bikerowave.org/  [day3_refugio_la km 184]</desc>
+    <desc>OSM bike shop (node/1629231487); opening_hours=Mo-Th 18:30-22:00; Fr off; Sa 11:00-17:00; Su 11:00-14:00; phone=+1 310 230 5236; website=https://bikerowave.org/  [day3_refugio_la km 188]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.004334" lon="-118.431744">
     <ele>26.0</ele>
     <name>Sunny Cycles</name>
-    <desc>OSM bike shop (node/1629231486); phone=+1-310-313-6300; website=https://sunnycyclesla.com  [day3_refugio_la km 184]</desc>
+    <desc>OSM bike shop (node/1629231486); phone=+1-310-313-6300; website=https://sunnycyclesla.com  [day3_refugio_la km 188]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.021124" lon="-118.404253">
     <ele>31.0</ele>
     <name>The Bike Shop California</name>
-    <desc>OSM bike shop (node/3960923721)  [day3_refugio_la km 187]</desc>
+    <desc>OSM bike shop (node/3960923721)  [day3_refugio_la km 191]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.020463" lon="-118.397706">
     <ele>36.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/13374557642)  [day3_refugio_la km 188]</desc>
+    <desc>OSM drinking water (node/13374557642)  [day3_refugio_la km 192]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.019075" lon="-118.287008">
     <ele>64.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/4547472581)  [day3_refugio_la km 198]</desc>
+    <desc>OSM drinking water (node/4547472581)  [day3_refugio_la km 203]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.033994" lon="-118.264874">
     <ele>73.0</ele>
     <name>Just Ride LA</name>
-    <desc>OSM bike shop (node/2956626162); opening_hours=Mo-Sa 10:00-19:00;Su 11:00-18:00; phone=+1 213 745 6783; website=https://www.justridela.com/  [day3_refugio_la km 202]</desc>
+    <desc>OSM bike shop (node/2956626162); opening_hours=Mo-Sa 10:00-19:00;Su 11:00-18:00; phone=+1 213 745 6783; website=https://www.justridela.com/  [day3_refugio_la km 206]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.042433" lon="-118.253404">
     <ele>86.0</ele>
     <name>El Maestro Bicycle Shop</name>
-    <desc>OSM bike shop (node/4098463772)  [day3_refugio_la km 203]</desc>
+    <desc>OSM bike shop (node/4098463772)  [day3_refugio_la km 208]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
   </wpt>
   <wpt lat="34.048932" lon="-118.250170">
     <ele>100.0</ele>
     <name>DTLA Bikes</name>
-    <desc>OSM bike shop (node/2163540658); website=https://dtlabikes.com/  [day3_refugio_la km 204]</desc>
+    <desc>OSM bike shop (node/2163540658); website=https://dtlabikes.com/  [day3_refugio_la km 208]</desc>
     <sym>Mine</sym>
     <type>bikeshop</type>
-  </wpt>
-  <wpt lat="34.055500" lon="-118.244951">
-    <ele>101.0</ele>
-    <name>(drinking water)</name>
-    <desc>OSM drinking water (node/10908676619); access=yes; fee=no  [day3_refugio_la km 205]</desc>
-    <sym>Drinking Water</sym>
-    <type>water</type>
   </wpt>
   <wpt lat="34.053731" lon="-118.241642">
     <ele>101.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/5572327427)  [day3_refugio_la km 205]</desc>
+    <desc>OSM drinking water (node/5572327427)  [day3_refugio_la km 209]</desc>
+    <sym>Drinking Water</sym>
+    <type>water</type>
+  </wpt>
+  <wpt lat="34.055500" lon="-118.244951">
+    <ele>101.0</ele>
+    <name>(drinking water)</name>
+    <desc>OSM drinking water (node/10908676619); access=yes; fee=no  [day3_refugio_la km 209]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.055653" lon="-118.235553">
     <ele>91.0</ele>
     <name>(drinking water)</name>
-    <desc>OSM drinking water (node/13290101801)  [day3_refugio_la km 206]</desc>
+    <desc>OSM drinking water (node/13290101801)  [day3_refugio_la km 210]</desc>
     <sym>Drinking Water</sym>
     <type>water</type>
   </wpt>
   <wpt lat="34.056060" lon="-118.235900">
     <ele>91.0</ele>
     <name>FINISH LA Union Station</name>
-    <desc>800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.  [day3_refugio_la km 206]</desc>
+    <desc>800 North Alameda Street. The finish, chosen because it is also the way home: Coast Starlight north to Oakland/Emeryville, or Surfliner + Thruway. Coast Starlight roll-on bike space is limited and sells out - book the bike the moment you know your date.  [day3_refugio_la km 210]</desc>
     <sym>Car</sym>
     <type>bailout</type>
   </wpt>

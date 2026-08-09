@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-08-08T18:30:12Z",
+ "generated_utc": "2026-08-09T02:02:54Z",
  "profile": "velo_pch_road.brf (BRouter, processUnusedTags=true) on OpenStreetMap; PERMISSIVE_LEGS use velo_pch_road_bridge.brf",
  "simplify_tolerance_m": 2.5,
  "stages": [
@@ -523,11 +523,11 @@
    "desc": "The Santa Barbara channel coast, the Rincon, Ventura and Oxnard, Point Mugu and the Malibu shoreline on PCH, Santa Monica, then east across Los Angeles to Union Station and the train home.",
    "is_main_stage": true,
    "optional_extension": false,
-   "distance_km": 205.7,
+   "distance_km": 209.9,
    "ascent_m_filtered": 611,
-   "ascent_m_raw_srtm": 1767,
-   "points_raw": 4793,
-   "points_saved": 1586,
+   "ascent_m_raw_srtm": 1781,
+   "points_raw": 4967,
+   "points_saved": 1677,
    "audit": {
     "bicycle_no_km": 0.391,
     "access_permit_km": 0.0,
@@ -536,19 +536,19 @@
     "motorway_not_legal_km": 0.391,
     "ferry_km": 0.0,
     "steps_km": 0.0,
-    "unpaved_km": 0.0,
-    "unpaved_pct": 0.0,
+    "unpaved_km": 0.102,
+    "unpaved_pct": 0.049,
     "tunnel_km": 0.095,
-    "bridge_km": 2.74,
-    "on_cyclenetwork_pct": 83.1,
+    "bridge_km": 2.909,
+    "on_cyclenetwork_pct": 83.2,
     "road_mix_km": {
      "trunk": 60.9,
      "primary": 22.9,
-     "secondary": 59.5,
-     "tertiary": 23.2,
-     "residential": 3.7,
-     "cycleway": 23.7,
-     "path": 1.1,
+     "secondary": 54.1,
+     "tertiary": 22.1,
+     "residential": 4.7,
+     "cycleway": 33.2,
+     "path": 1.3,
      "service": 1.2
     }
    },
@@ -605,6 +605,7 @@
       "tags": "highway=motorway_link surface=asphalt estimated_forest_class=2 estimated_noise_class=6 maxspeed=100 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
      }
     ],
+    "unpaved": [],
     "tunnel": [
      {
       "lat": 34.00922,
@@ -616,8 +617,8 @@
    },
    "climbs": [
     {
-     "start_km": 169.3,
-     "summit_km": 204.9,
+     "start_km": 173.4,
+     "summit_km": 209.1,
      "length_km": 35.65,
      "gain_m": 91,
      "avg_pct": 0.3,
@@ -661,15 +662,39 @@
     },
     {
      "label": "Goleta",
-     "km": 23.3,
-     "offset_m": 18,
+     "km": 23.1,
+     "offset_m": 156,
      "lat": 34.43583,
      "lon": -119.82764,
-     "ele_m": 7
+     "ele_m": 6
+    },
+    {
+     "label": "Obern Trail (Goleta Beach end)",
+     "km": 25.9,
+     "offset_m": 7,
+     "lat": 34.41798,
+     "lon": -119.83163,
+     "ele_m": 4
+    },
+    {
+     "label": "Obern Trail (Atascadero Creek)",
+     "km": 31.2,
+     "offset_m": 14,
+     "lat": 34.43377,
+     "lon": -119.78148,
+     "ele_m": 17
+    },
+    {
+     "label": "Modoc Road Multiuse Path (E end)",
+     "km": 36.2,
+     "offset_m": 0,
+     "lat": 34.42624,
+     "lon": -119.73582,
+     "ele_m": 48
     },
     {
      "label": "Santa Barbara (Cabrillo Blvd)",
-     "km": 37.9,
+     "km": 41.8,
      "offset_m": 17,
      "lat": 34.41259,
      "lon": -119.68874,
@@ -677,7 +702,7 @@
     },
     {
      "label": "Carpinteria",
-     "km": 55.2,
+     "km": 59.1,
      "offset_m": 10,
      "lat": 34.39888,
      "lon": -119.51846,
@@ -685,7 +710,7 @@
     },
     {
      "label": "Rincon Point",
-     "km": 60.0,
+     "km": 64.0,
      "offset_m": 101,
      "lat": 34.37419,
      "lon": -119.47664,
@@ -693,15 +718,15 @@
     },
     {
      "label": "Ventura (Amtrak / Harbor Blvd)",
-     "km": 81.5,
-     "offset_m": 23,
+     "km": 85.8,
+     "offset_m": 2,
      "lat": 34.27694,
      "lon": -119.29987,
-     "ele_m": 8
+     "ele_m": 6
     },
     {
      "label": "Port Hueneme",
-     "km": 102.1,
+     "km": 106.4,
      "offset_m": 5,
      "lat": 34.14776,
      "lon": -119.19516,
@@ -709,7 +734,7 @@
     },
     {
      "label": "Point Mugu Rock",
-     "km": 117.8,
+     "km": 122.1,
      "offset_m": 175,
      "lat": 34.09173,
      "lon": -119.06879,
@@ -717,15 +742,15 @@
     },
     {
      "label": "Malibu",
-     "km": 156.0,
-     "offset_m": 18,
+     "km": 160.3,
+     "offset_m": 75,
      "lat": 34.03559,
      "lon": -118.68942,
      "ele_m": 7
     },
     {
      "label": "Santa Monica Pier",
-     "km": 176.2,
+     "km": 180.4,
      "offset_m": 110,
      "lat": 34.0089,
      "lon": -118.4974,
@@ -733,7 +758,7 @@
     },
     {
      "label": "Culver City (Expo path)",
-     "km": 187.9,
+     "km": 192.1,
      "offset_m": 3,
      "lat": 34.0211,
      "lon": -118.3965,
@@ -741,7 +766,7 @@
     },
     {
      "label": "Exposition Park / USC",
-     "km": 198.5,
+     "km": 202.7,
      "offset_m": 3,
      "lat": 34.018,
      "lon": -118.286,
@@ -749,7 +774,7 @@
     },
     {
      "label": "Downtown Los Angeles",
-     "km": 203.7,
+     "km": 207.9,
      "offset_m": 24,
      "lat": 34.045,
      "lon": -118.25,
@@ -757,7 +782,7 @@
     },
     {
      "label": "LA Union Station (FINISH)",
-     "km": 205.7,
+     "km": 209.9,
      "offset_m": 2,
      "lat": 34.05606,
      "lon": -118.2359,
@@ -1587,6 +1612,254 @@
    ]
   },
   {
+   "id": "pch_day3_alt_arterials",
+   "name": "Day 3 variant - Goleta on the arterials instead of the Obern Trail",
+   "desc": "The old default, kept for the case where you want the faster line. Hollister Ave and the other Goleta arterials instead of the Obern Trail: 205.7 km against 209.9 km, so it saves 4.3 km, but it gives up 9.5 km of separated bike path and puts 5.4 km back onto secondary arterials. The official USBR 95 uses the path, which is why the path is now the default. Take this one if the boardwalk is wet (parts are surface=wood) or if you are chasing a train and the shared-use path traffic would cost you more than the arterial risk.",
+   "is_main_stage": false,
+   "optional_extension": false,
+   "distance_km": 205.7,
+   "ascent_m_filtered": 611,
+   "ascent_m_raw_srtm": 1767,
+   "points_raw": 4793,
+   "points_saved": 1586,
+   "audit": {
+    "bicycle_no_km": 0.391,
+    "access_permit_km": 0.0,
+    "motorway_km": 7.525,
+    "motorway_bicycle_legal_km": 7.134,
+    "motorway_not_legal_km": 0.391,
+    "ferry_km": 0.0,
+    "steps_km": 0.0,
+    "unpaved_km": 0.0,
+    "unpaved_pct": 0.0,
+    "tunnel_km": 0.095,
+    "bridge_km": 2.74,
+    "on_cyclenetwork_pct": 83.1,
+    "road_mix_km": {
+     "trunk": 60.9,
+     "primary": 22.9,
+     "secondary": 59.5,
+     "tertiary": 23.2,
+     "residential": 3.7,
+     "cycleway": 23.7,
+     "path": 1.1,
+     "service": 1.2
+    }
+   },
+   "flagged": {
+    "bicycle_no": [
+     {
+      "lat": 34.43319,
+      "lon": -119.91278,
+      "len_m": 391,
+      "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=no hgv=designated oneway=yes shoulder=yes"
+     }
+    ],
+    "motorway": [
+     {
+      "lat": 34.46258,
+      "lon": -120.01767,
+      "len_m": 357,
+      "tags": "highway=motorway_link estimated_noise_class=6 estimated_river_class=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
+     },
+     {
+      "lat": 34.46086,
+      "lon": -120.00396,
+      "len_m": 1685,
+      "tags": "highway=motorway estimated_noise_class=6 estimated_river_class=2 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
+     },
+     {
+      "lat": 34.4582,
+      "lon": -119.98726,
+      "len_m": 1190,
+      "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes shoulder=yes route_bicycle_ncn=yes route_hiking_rwn=yes"
+     },
+     {
+      "lat": 34.45606,
+      "lon": -119.97307,
+      "len_m": 1287,
+      "tags": "highway=motorway estimated_noise_class=5 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes shoulder=yes route_bicycle_ncn=yes route_hiking_rwn=yes"
+     },
+     {
+      "lat": 34.43319,
+      "lon": -119.91278,
+      "len_m": 1033,
+      "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=no hgv=designated oneway=yes shoulder=yes"
+     },
+     {
+      "lat": 34.38044,
+      "lon": -119.48208,
+      "len_m": 1168,
+      "tags": "highway=motorway_link surface=asphalt lit=yes estimated_noise_class=6 lanes=1 bicycle=yes oneway=yes cycleway:right=unknown route_bicycle_ncn=yes route_hiking_rwn=yes"
+     },
+     {
+      "lat": 34.11559,
+      "lon": -119.08482,
+      "len_m": 805,
+      "tags": "highway=motorway_link surface=asphalt estimated_forest_class=2 estimated_noise_class=6 maxspeed=100 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
+     }
+    ],
+    "tunnel": [
+     {
+      "lat": 34.00922,
+      "lon": -118.49627,
+      "len_m": 95,
+      "tags": "highway=cycleway surface=concrete estimated_forest_class=4 foot=no bicycle=designated tunnel=yes oneway=no route_bicycle_ncn=yes"
+     }
+    ]
+   },
+   "climbs": [
+    {
+     "start_km": 169.3,
+     "summit_km": 204.9,
+     "length_km": 35.65,
+     "gain_m": 91,
+     "avg_pct": 0.3,
+     "summit_ele_m": 101,
+     "summit_lat": 34.05371,
+     "summit_lon": -118.2421
+    }
+   ],
+   "permissive_legs_used": [
+    {
+     "from": "US-101 mainline W of the gap",
+     "to": "US-101 Winchester Canyon off-ramp",
+     "km": 3.36,
+     "reason": "OSM starts the US-101 bicycle=no run ~1 km west of the Winchester Canyon off-ramp, leaving no legal bicycle path from the Gaviota coast into Goleta. Cyclists ride this shoulder in practice (Adventure Cycling Pacific Coast alignment). Hazard: narrow southbound bridge near the Baron Ranch trailhead."
+    }
+   ],
+   "cue_sheet": [
+    {
+     "label": "Refugio State Beach (START)",
+     "km": 0.0,
+     "offset_m": 22,
+     "lat": 34.46243,
+     "lon": -120.0483,
+     "ele_m": 12
+    },
+    {
+     "label": "US-101 mainline W of the gap",
+     "km": 12.6,
+     "offset_m": 49,
+     "lat": 34.4372,
+     "lon": -119.925,
+     "ele_m": 33
+    },
+    {
+     "label": "US-101 Winchester Canyon off-ramp",
+     "km": 15.9,
+     "offset_m": 51,
+     "lat": 34.4379,
+     "lon": -119.894,
+     "ele_m": 46
+    },
+    {
+     "label": "Goleta",
+     "km": 23.3,
+     "offset_m": 18,
+     "lat": 34.43583,
+     "lon": -119.82764,
+     "ele_m": 7
+    },
+    {
+     "label": "Santa Barbara (Cabrillo Blvd)",
+     "km": 37.9,
+     "offset_m": 17,
+     "lat": 34.41259,
+     "lon": -119.68874,
+     "ele_m": 6
+    },
+    {
+     "label": "Carpinteria",
+     "km": 55.2,
+     "offset_m": 10,
+     "lat": 34.39888,
+     "lon": -119.51846,
+     "ele_m": 9
+    },
+    {
+     "label": "Rincon Point",
+     "km": 60.0,
+     "offset_m": 101,
+     "lat": 34.37419,
+     "lon": -119.47664,
+     "ele_m": 11
+    },
+    {
+     "label": "Ventura (Amtrak / Harbor Blvd)",
+     "km": 81.5,
+     "offset_m": 23,
+     "lat": 34.27694,
+     "lon": -119.29987,
+     "ele_m": 8
+    },
+    {
+     "label": "Port Hueneme",
+     "km": 102.1,
+     "offset_m": 5,
+     "lat": 34.14776,
+     "lon": -119.19516,
+     "ele_m": 7
+    },
+    {
+     "label": "Point Mugu Rock",
+     "km": 117.8,
+     "offset_m": 175,
+     "lat": 34.09173,
+     "lon": -119.06879,
+     "ele_m": 10
+    },
+    {
+     "label": "Malibu",
+     "km": 156.0,
+     "offset_m": 18,
+     "lat": 34.03559,
+     "lon": -118.68942,
+     "ele_m": 7
+    },
+    {
+     "label": "Santa Monica Pier",
+     "km": 176.2,
+     "offset_m": 110,
+     "lat": 34.0089,
+     "lon": -118.4974,
+     "ele_m": 8
+    },
+    {
+     "label": "Culver City (Expo path)",
+     "km": 187.9,
+     "offset_m": 3,
+     "lat": 34.0211,
+     "lon": -118.3965,
+     "ele_m": 34
+    },
+    {
+     "label": "Exposition Park / USC",
+     "km": 198.5,
+     "offset_m": 3,
+     "lat": 34.018,
+     "lon": -118.286,
+     "ele_m": 65
+    },
+    {
+     "label": "Downtown Los Angeles",
+     "km": 203.7,
+     "offset_m": 24,
+     "lat": 34.045,
+     "lon": -118.25,
+     "ele_m": 95
+    },
+    {
+     "label": "LA Union Station (FINISH)",
+     "km": 205.7,
+     "offset_m": 2,
+     "lat": 34.05606,
+     "lon": -118.2359,
+     "ele_m": 91
+    }
+   ]
+  },
+  {
    "id": "pch_day2_pfeiffer_refugio",
    "name": "Day 2 variant - Pfeiffer Big Sur to Refugio (pairs with the alt day 1)",
    "desc": "The other half of the Pfeiffer variant, and the reason that variant is a trade rather than a saving. Stopping at Pfeiffer leaves 41.8 km of the day-1 track unridden, and it lands here: this stage is 321.2 km against the standard day 2's 279.4 km, and the deferred kilometres carry roughly 738 m of the Big Sur south coast's climbing. It also front-loads the 73 km cell dead zone (Nepenthe to Ragged Point) into the first hour of the day instead of the last hour of the previous one. Built so the Pfeiffer option can be costed honestly instead of assumed free.",
@@ -1860,3375 +2133,6 @@
      "lat": 34.46243,
      "lon": -120.0483,
      "ele_m": 11
-    }
-   ]
-  },
-  {
-   "id": "pch_day4_alt_pendleton",
-   "name": "Day 4 variant - through Camp Pendleton (needs a DBIDS pass)",
-   "desc": "The same day but on the old highway and bike path THROUGH Camp Pendleton instead of the I-5 shoulder: 13 km of quiet base road rather than 27 km of freeway. Measures the same distance. Requires a DBIDS Recreational Bicycle pass, in person only at the Visitor Center by the Main Gate at the OCEANSIDE end, Mon/Tue/Thu/Fri 07:30-15:30 and Wed 07:45-15:30, valid one year. A southbound rider cannot obtain one en route - get it beforehand or ride the default I-5 line. The path also closes for military exercises.",
-   "is_main_stage": false,
-   "optional_extension": false,
-   "distance_km": 218.1,
-   "ascent_m_filtered": 684,
-   "ascent_m_raw_srtm": 1822,
-   "points_raw": 5535,
-   "points_saved": 1948,
-   "audit": {
-    "bicycle_no_km": 0.0,
-    "access_permit_km": 0.08,
-    "motorway_km": 12.231,
-    "motorway_bicycle_legal_km": 12.231,
-    "motorway_not_legal_km": 0.0,
-    "ferry_km": 0.0,
-    "steps_km": 0.0,
-    "unpaved_km": 0.0,
-    "unpaved_pct": 0.0,
-    "tunnel_km": 0.31,
-    "bridge_km": 5.094,
-    "on_cyclenetwork_pct": 80.6,
-    "road_mix_km": {
-     "trunk": 28.7,
-     "primary": 44.8,
-     "secondary": 31.8,
-     "tertiary": 25.8,
-     "residential": 2.0,
-     "cycleway": 59.6,
-     "path": 4.4,
-     "service": 2.2
-    }
-   },
-   "flagged": {
-    "motorway": [
-     {
-      "lat": 33.29584,
-      "lon": -117.4612,
-      "len_m": 1061,
-      "tags": "highway=motorway_link estimated_noise_class=6 lanes=1 bicycle=yes sidewalk=no cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
-     },
-     {
-      "lat": 33.27595,
-      "lon": -117.44528,
-      "len_m": 2680,
-      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
-     },
-     {
-      "lat": 33.23593,
-      "lon": -117.40733,
-      "len_m": 5071,
-      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 estimated_river_class=1 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
-     },
-     {
-      "lat": 33.22525,
-      "lon": -117.39539,
-      "len_m": 1715,
-      "tags": "highway=motorway surface=concrete lit=no estimated_noise_class=5 estimated_river_class=4 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes route_bicycle_lcn=yes"
-     },
-     {
-      "lat": 33.21348,
-      "lon": -117.38937,
-      "len_m": 1704,
-      "tags": "highway=motorway lit=no estimated_noise_class=5 maxspeed=100 lanes=4 bicycle=yes hgv=designated cycleway=shoulder oneway=yes shoulder=right route_bicycle_lcn=yes"
-     }
-    ],
-    "tunnel": [
-     {
-      "lat": 34.05697,
-      "lon": -118.23319,
-      "len_m": 155,
-      "tags": "highway=primary estimated_noise_class=5 estimated_town_class=6 maxspeed=60 estimated_traffic_class=6 lanes=4 tunnel=yes route_bicycle_ncn=yes sidewalk:both=separate"
-     },
-     {
-      "lat": 33.76525,
-      "lon": -118.19649,
-      "len_m": 55,
-      "tags": "highway=secondary estimated_noise_class=6 estimated_town_class=4 estimated_traffic_class=6 lanes=1 tunnel=building_passage oneway=yes"
-     }
-    ],
-    "permit": [
-     {
-      "lat": 33.30024,
-      "lon": -117.46344,
-      "len_m": 80,
-      "tags": "highway=unclassified estimated_noise_class=3 access=permit bicycle=yes route_bicycle_ncn=yes route_hiking_rwn=yes"
-     }
-    ]
-   },
-   "climbs": [
-    {
-     "start_km": 180.4,
-     "summit_km": 185.2,
-     "length_km": 4.84,
-     "gain_m": 127,
-     "avg_pct": 2.6,
-     "summit_ele_m": 132,
-     "summit_lat": 32.89495,
-     "summit_lon": -117.24139
-    }
-   ],
-   "permissive_legs_used": [],
-   "cue_sheet": [
-    {
-     "label": "LA Union Station (START)",
-     "km": 0.0,
-     "offset_m": 2,
-     "lat": 34.05606,
-     "lon": -118.2359,
-     "ele_m": 90
-    },
-    {
-     "label": "LA River path (Vernon)",
-     "km": 10.3,
-     "offset_m": 219,
-     "lat": 33.985,
-     "lon": -118.205,
-     "ele_m": 50
-    },
-    {
-     "label": "Long Beach (Shoreline)",
-     "km": 38.7,
-     "offset_m": 87,
-     "lat": 33.76076,
-     "lon": -118.19019,
-     "ele_m": 6
-    },
-    {
-     "label": "Seal Beach",
-     "km": 49.0,
-     "offset_m": 126,
-     "lat": 33.7424,
-     "lon": -118.10559,
-     "ele_m": 8
-    },
-    {
-     "label": "Huntington Beach Pier",
-     "km": 63.4,
-     "offset_m": 292,
-     "lat": 33.6546,
-     "lon": -118.00465,
-     "ele_m": 2
-    },
-    {
-     "label": "Newport Beach Pier",
-     "km": 76.8,
-     "offset_m": 112,
-     "lat": 33.60307,
-     "lon": -117.88405,
-     "ele_m": 10
-    },
-    {
-     "label": "Laguna Beach",
-     "km": 88.4,
-     "offset_m": 7,
-     "lat": 33.5427,
-     "lon": -117.78537,
-     "ele_m": 6
-    },
-    {
-     "label": "Dana Point",
-     "km": 100.6,
-     "offset_m": 0,
-     "lat": 33.46336,
-     "lon": -117.70536,
-     "ele_m": 20
-    },
-    {
-     "label": "San Clemente Pier",
-     "km": 111.7,
-     "offset_m": 3,
-     "lat": 33.41961,
-     "lon": -117.61974,
-     "ele_m": 12
-    },
-    {
-     "label": "Oceanside Pier",
-     "km": 147.7,
-     "offset_m": 84,
-     "lat": 33.19427,
-     "lon": -117.38444,
-     "ele_m": 10
-    },
-    {
-     "label": "Carlsbad Village",
-     "km": 152.8,
-     "offset_m": 1,
-     "lat": 33.16245,
-     "lon": -117.35217,
-     "ele_m": 13
-    },
-    {
-     "label": "Encinitas",
-     "km": 168.3,
-     "offset_m": 36,
-     "lat": 33.03699,
-     "lon": -117.29198,
-     "ele_m": 24
-    },
-    {
-     "label": "Del Mar",
-     "km": 177.4,
-     "offset_m": 1,
-     "lat": 32.95949,
-     "lon": -117.26531,
-     "ele_m": 35
-    },
-    {
-     "label": "Torrey Pines State Beach",
-     "km": 180.6,
-     "offset_m": 37,
-     "lat": 32.9314,
-     "lon": -117.26041,
-     "ele_m": 4
-    },
-    {
-     "label": "La Jolla Cove",
-     "km": 193.0,
-     "offset_m": 46,
-     "lat": 32.8505,
-     "lon": -117.27304,
-     "ele_m": 14
-    },
-    {
-     "label": "Mission Beach",
-     "km": 201.9,
-     "offset_m": 2,
-     "lat": 32.78259,
-     "lon": -117.25249,
-     "ele_m": 4
-    },
-    {
-     "label": "San Diego Santa Fe Depot (FINISH)",
-     "km": 218.1,
-     "offset_m": 20,
-     "lat": 32.71685,
-     "lon": -117.16956,
-     "ele_m": 5
-    }
-   ]
-  },
-  {
-   "id": "pch_day1_alt_inland_bypass",
-   "name": "Day 1 variant - inland bypass, no Devil's Slide Trail",
-   "desc": "Insurance against a locked gate. San Mateo County publishes an 08:00 opening for the Devil's Slide Trail PARKING LOTS and does not publish trail-access hours; a 05:00 departure reaches the trail around 06:30-07:00, and the Tom Lantos Tunnels are not a legal alternative. This variant leaves the coast at Lake Merced and takes Skyline Boulevard (CA-35) down the peninsula ridge to CA-92, then drops west into Half Moon Bay, rejoining the main line there. More climbing and no ocean for the first 60 km, but it cannot be gated shut.",
-   "is_main_stage": false,
-   "distance_km": 326.2,
-   "ascent_m_filtered": 3745,
-   "ascent_m_raw_srtm": 6553,
-   "points_raw": 7769,
-   "points_saved": 3484,
-   "audit": {
-    "bicycle_no_km": 0.0,
-    "motorway_km": 0.516,
-    "motorway_bicycle_legal_km": 0.516,
-    "motorway_not_legal_km": 0.0,
-    "ferry_km": 0.0,
-    "steps_km": 0.0,
-    "unpaved_km": 0.0,
-    "unpaved_pct": 0.0,
-    "tunnel_km": 0.0,
-    "bridge_km": 5.374,
-    "on_cyclenetwork_pct": 76.1,
-    "road_mix_km": {
-     "trunk": 81.1,
-     "primary": 113.8,
-     "secondary": 37.8,
-     "tertiary": 16.8,
-     "residential": 14.4,
-     "cycleway": 28.2,
-     "path": 10.9,
-     "service": 11.0
-    }
-   },
-   "flagged": {
-    "motorway": [
-     {
-      "lat": 36.57443,
-      "lon": -121.91306,
-      "len_m": 516,
-      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
-     }
-    ]
-   },
-   "climbs": [
-    {
-     "start_km": 10.8,
-     "summit_km": 16.5,
-     "length_km": 5.68,
-     "gain_m": 127,
-     "avg_pct": 2.2,
-     "summit_ele_m": 142,
-     "summit_lat": 37.68545,
-     "summit_lon": -122.48974
-    },
-    {
-     "start_km": 25.1,
-     "summit_km": 28.3,
-     "length_km": 3.27,
-     "gain_m": 100,
-     "avg_pct": 3.1,
-     "summit_ele_m": 160,
-     "summit_lat": 37.61164,
-     "summit_lon": -122.43585
-    },
-    {
-     "start_km": 43.5,
-     "summit_km": 46.6,
-     "length_km": 3.11,
-     "gain_m": 180,
-     "avg_pct": 5.8,
-     "summit_ele_m": 266,
-     "summit_lat": 37.49522,
-     "summit_lon": -122.36952
-    },
-    {
-     "start_km": 67.8,
-     "summit_km": 69.8,
-     "length_km": 2.02,
-     "gain_m": 109,
-     "avg_pct": 5.4,
-     "summit_ele_m": 136,
-     "summit_lat": 37.34049,
-     "summit_lon": -122.39496
-    },
-    {
-     "start_km": 209.6,
-     "summit_km": 220.7,
-     "length_km": 11.12,
-     "gain_m": 171,
-     "avg_pct": 1.5,
-     "summit_ele_m": 183,
-     "summit_lat": 36.56777,
-     "summit_lon": -121.91276
-    },
-    {
-     "start_km": 252.3,
-     "summit_km": 255.2,
-     "length_km": 2.9,
-     "gain_m": 130,
-     "avg_pct": 4.5,
-     "summit_ele_m": 164,
-     "summit_lat": 36.35825,
-     "summit_lon": -121.90056
-    },
-    {
-     "start_km": 265.0,
-     "summit_km": 278.9,
-     "length_km": 13.85,
-     "gain_m": 147,
-     "avg_pct": 1.1,
-     "summit_ele_m": 155,
-     "summit_lat": 36.25334,
-     "summit_lon": -121.78303
-    },
-    {
-     "start_km": 279.8,
-     "summit_km": 283.3,
-     "length_km": 3.47,
-     "gain_m": 209,
-     "avg_pct": 6.0,
-     "summit_ele_m": 298,
-     "summit_lat": 36.22836,
-     "summit_lon": -121.76474
-    },
-    {
-     "start_km": 297.4,
-     "summit_km": 298.4,
-     "length_km": 1.03,
-     "gain_m": 168,
-     "avg_pct": 16.3,
-     "summit_ele_m": 248,
-     "summit_lat": 36.16282,
-     "summit_lon": -121.66311
-    },
-    {
-     "start_km": 298.6,
-     "summit_km": 299.5,
-     "length_km": 0.87,
-     "gain_m": 113,
-     "avg_pct": 13.0,
-     "summit_ele_m": 339,
-     "summit_lat": 36.1701,
-     "summit_lon": -121.66491
-    },
-    {
-     "start_km": 306.9,
-     "summit_km": 307.8,
-     "length_km": 0.93,
-     "gain_m": 80,
-     "avg_pct": 8.6,
-     "summit_ele_m": 130,
-     "summit_lat": 36.11965,
-     "summit_lon": -121.63033
-    },
-    {
-     "start_km": 321.1,
-     "summit_km": 323.5,
-     "length_km": 2.33,
-     "gain_m": 76,
-     "avg_pct": 3.3,
-     "summit_ele_m": 149,
-     "summit_lat": 36.0202,
-     "summit_lon": -121.54153
-    }
-   ],
-   "permissive_legs_used": [],
-   "cue_sheet": [
-    {
-     "label": "426 Fell St, San Francisco (START)",
-     "km": 0.0,
-     "offset_m": 19,
-     "lat": 37.77585,
-     "lon": -122.425,
-     "ele_m": 24
-    },
-    {
-     "label": "Golden Gate Park, MLK Jr Dr",
-     "km": 5.5,
-     "offset_m": 1,
-     "lat": 37.769,
-     "lon": -122.483,
-     "ele_m": 63
-    },
-    {
-     "label": "Lake Merced / Skyline Blvd",
-     "km": 12.4,
-     "offset_m": 207,
-     "lat": 37.7205,
-     "lon": -122.498,
-     "ele_m": 19
-    },
-    {
-     "label": "Skyline Blvd (CA-35), San Bruno",
-     "km": 25.5,
-     "offset_m": 8,
-     "lat": 37.63,
-     "lon": -122.44,
-     "ele_m": 120
-    },
-    {
-     "label": "Skyline Blvd, Crystal Springs",
-     "km": 39.2,
-     "offset_m": 125,
-     "lat": 37.54,
-     "lon": -122.37,
-     "ele_m": 154
-    },
-    {
-     "label": "CA-35 / CA-92 junction",
-     "km": 43.2,
-     "offset_m": 92,
-     "lat": 37.513,
-     "lon": -122.348,
-     "ele_m": 107
-    },
-    {
-     "label": "CA-92 westbound summit",
-     "km": 50.0,
-     "offset_m": 12,
-     "lat": 37.49,
-     "lon": -122.39,
-     "ele_m": 66
-    },
-    {
-     "label": "Half Moon Bay",
-     "km": 55.1,
-     "offset_m": 2,
-     "lat": 37.46355,
-     "lon": -122.42859,
-     "ele_m": 21
-    },
-    {
-     "label": "San Gregorio State Beach",
-     "km": 72.7,
-     "offset_m": 13,
-     "lat": 37.3245,
-     "lon": -122.403,
-     "ele_m": 22
-    },
-    {
-     "label": "Pigeon Point Lighthouse",
-     "km": 89.7,
-     "offset_m": 9,
-     "lat": 37.18212,
-     "lon": -122.39408,
-     "ele_m": 11
-    },
-    {
-     "label": "Davenport",
-     "km": 117.8,
-     "offset_m": 81,
-     "lat": 37.01542,
-     "lon": -122.19071,
-     "ele_m": 17
-    },
-    {
-     "label": "Santa Cruz (downtown)",
-     "km": 136.3,
-     "offset_m": 28,
-     "lat": 36.97436,
-     "lon": -122.02947,
-     "ele_m": 7
-    },
-    {
-     "label": "Capitola (Soquel Dr)",
-     "km": 144.4,
-     "offset_m": 8,
-     "lat": 36.97549,
-     "lon": -121.95362,
-     "ele_m": 9
-    },
-    {
-     "label": "Aptos (Soquel Dr)",
-     "km": 151.4,
-     "offset_m": 16,
-     "lat": 36.9776,
-     "lon": -121.8975,
-     "ele_m": 34
-    },
-    {
-     "label": "San Andreas Rd",
-     "km": 166.8,
-     "offset_m": 41,
-     "lat": 36.893,
-     "lon": -121.811,
-     "ele_m": 16
-    },
-    {
-     "label": "Moss Landing",
-     "km": 182.9,
-     "offset_m": 65,
-     "lat": 36.80359,
-     "lon": -121.78627,
-     "ele_m": 0
-    },
-    {
-     "label": "Castroville",
-     "km": 189.2,
-     "offset_m": 11,
-     "lat": 36.76412,
-     "lon": -121.75176,
-     "ele_m": 5
-    },
-    {
-     "label": "Marina",
-     "km": 200.6,
-     "offset_m": 26,
-     "lat": 36.6844,
-     "lon": -121.80217,
-     "ele_m": 7
-    },
-    {
-     "label": "Monterey Bay Coastal Trail",
-     "km": 213.1,
-     "offset_m": 0,
-     "lat": 36.60303,
-     "lon": -121.865,
-     "ele_m": 4
-    },
-    {
-     "label": "Carmel-by-the-Sea (Ocean Ave)",
-     "km": 223.0,
-     "offset_m": 0,
-     "lat": 36.55508,
-     "lon": -121.92614,
-     "ele_m": 44
-    },
-    {
-     "label": "Carmel River State Beach",
-     "km": 228.3,
-     "offset_m": 24,
-     "lat": 36.53458,
-     "lon": -121.92796,
-     "ele_m": 0
-    },
-    {
-     "label": "Point Lobos State Reserve",
-     "km": 233.8,
-     "offset_m": 170,
-     "lat": 36.51473,
-     "lon": -121.94279,
-     "ele_m": 3
-    },
-    {
-     "label": "Rocky Creek Bridge",
-     "km": 251.7,
-     "offset_m": 203,
-     "lat": 36.3848,
-     "lon": -121.9027,
-     "ele_m": 34
-    },
-    {
-     "label": "Bixby Creek Bridge",
-     "km": 253.3,
-     "offset_m": 4,
-     "lat": 36.37243,
-     "lon": -121.90288,
-     "ele_m": 73
-    },
-    {
-     "label": "Point Sur Lighthouse",
-     "km": 264.3,
-     "offset_m": 15,
-     "lat": 36.30637,
-     "lon": -121.90172,
-     "ele_m": 20
-    },
-    {
-     "label": "Andrew Molera State Park",
-     "km": 272.5,
-     "offset_m": 7,
-     "lat": 36.27965,
-     "lon": -121.83095,
-     "ele_m": 28
-    },
-    {
-     "label": "Big Sur Village (River Inn)",
-     "km": 275.1,
-     "offset_m": 14,
-     "lat": 36.27064,
-     "lon": -121.80849,
-     "ele_m": 48
-    },
-    {
-     "label": "Pfeiffer Big Sur State Park",
-     "km": 278.9,
-     "offset_m": 24,
-     "lat": 36.25331,
-     "lon": -121.7833,
-     "ele_m": 154
-    },
-    {
-     "label": "Big Sur Station",
-     "km": 280.4,
-     "offset_m": 37,
-     "lat": 36.24798,
-     "lon": -121.78129,
-     "ele_m": 99
-    },
-    {
-     "label": "Nepenthe",
-     "km": 284.4,
-     "offset_m": 48,
-     "lat": 36.22181,
-     "lon": -121.75966,
-     "ele_m": 225
-    },
-    {
-     "label": "Julia Pfeiffer Burns SP (McWay)",
-     "km": 299.5,
-     "offset_m": 45,
-     "lat": 36.16997,
-     "lon": -121.66539,
-     "ele_m": 342
-    },
-    {
-     "label": "Esalen Institute",
-     "km": 306.9,
-     "offset_m": 16,
-     "lat": 36.12481,
-     "lon": -121.63774,
-     "ele_m": 48
-    },
-    {
-     "label": "Lucia",
-     "km": 322.6,
-     "offset_m": 21,
-     "lat": 36.02079,
-     "lon": -121.5505,
-     "ele_m": 124
-    },
-    {
-     "label": "Limekiln State Park (NIGHT 1)",
-     "km": 326.2,
-     "offset_m": 3,
-     "lat": 36.00998,
-     "lon": -121.51835,
-     "ele_m": 30
-    }
-   ]
-  },
-  {
-   "id": "pch_day1_alt_17mile",
-   "name": "Day 1 variant - round the Monterey peninsula on 17-Mile Drive",
-   "desc": "Instead of cutting straight from Monterey to Carmel (9.9 km, with 0.5 km of bicycle-legal CA-1 freeway shoulder), swing around the peninsula tip through Pacific Grove, Asilomar and 17-Mile Drive (23.5 km). Bicycles are admitted to 17-Mile Drive free of charge. Costs 13.6 km and ~170 m of climbing, and keeps you off the expressway entirely. Worth it only if day 1 is going well.",
-   "is_main_stage": false,
-   "distance_km": 340.0,
-   "ascent_m_filtered": 3663,
-   "ascent_m_raw_srtm": 6594,
-   "points_raw": 8382,
-   "points_saved": 3711,
-   "audit": {
-    "bicycle_no_km": 0.0,
-    "motorway_km": 0.0,
-    "motorway_bicycle_legal_km": 0.0,
-    "motorway_not_legal_km": 0.0,
-    "ferry_km": 0.0,
-    "steps_km": 0.0,
-    "unpaved_km": 0.0,
-    "unpaved_pct": 0.0,
-    "tunnel_km": 0.0,
-    "bridge_km": 5.126,
-    "on_cyclenetwork_pct": 78.9,
-    "road_mix_km": {
-     "trunk": 94.9,
-     "primary": 97.1,
-     "secondary": 38.3,
-     "tertiary": 17.7,
-     "residential": 19.8,
-     "cycleway": 31.9,
-     "path": 15.1,
-     "service": 13.4
-    }
-   },
-   "flagged": {},
-   "climbs": [
-    {
-     "start_km": 8.1,
-     "summit_km": 19.6,
-     "length_km": 11.52,
-     "gain_m": 185,
-     "avg_pct": 1.6,
-     "summit_ele_m": 191,
-     "summit_lat": 37.67115,
-     "summit_lon": -122.48856
-    },
-    {
-     "start_km": 30.1,
-     "summit_km": 33.3,
-     "length_km": 3.19,
-     "gain_m": 137,
-     "avg_pct": 4.3,
-     "summit_ele_m": 142,
-     "summit_lat": 37.58511,
-     "summit_lon": -122.51435
-    },
-    {
-     "start_km": 37.9,
-     "summit_km": 40.8,
-     "length_km": 2.98,
-     "gain_m": 107,
-     "avg_pct": 3.6,
-     "summit_ele_m": 118,
-     "summit_lat": 37.54942,
-     "summit_lon": -122.49563
-    },
-    {
-     "start_km": 67.9,
-     "summit_km": 69.9,
-     "length_km": 2.02,
-     "gain_m": 109,
-     "avg_pct": 5.4,
-     "summit_ele_m": 136,
-     "summit_lat": 37.34049,
-     "summit_lon": -122.39496
-    },
-    {
-     "start_km": 266.0,
-     "summit_km": 268.9,
-     "length_km": 2.9,
-     "gain_m": 130,
-     "avg_pct": 4.5,
-     "summit_ele_m": 164,
-     "summit_lat": 36.35825,
-     "summit_lon": -121.90056
-    },
-    {
-     "start_km": 278.8,
-     "summit_km": 292.6,
-     "length_km": 13.85,
-     "gain_m": 147,
-     "avg_pct": 1.1,
-     "summit_ele_m": 155,
-     "summit_lat": 36.25334,
-     "summit_lon": -121.78303
-    },
-    {
-     "start_km": 293.5,
-     "summit_km": 297.0,
-     "length_km": 3.47,
-     "gain_m": 209,
-     "avg_pct": 6.0,
-     "summit_ele_m": 298,
-     "summit_lat": 36.22836,
-     "summit_lon": -121.76474
-    },
-    {
-     "start_km": 311.2,
-     "summit_km": 312.2,
-     "length_km": 1.03,
-     "gain_m": 168,
-     "avg_pct": 16.3,
-     "summit_ele_m": 248,
-     "summit_lat": 36.16282,
-     "summit_lon": -121.66311
-    },
-    {
-     "start_km": 312.4,
-     "summit_km": 313.2,
-     "length_km": 0.87,
-     "gain_m": 113,
-     "avg_pct": 13.0,
-     "summit_ele_m": 339,
-     "summit_lat": 36.1701,
-     "summit_lon": -121.66491
-    },
-    {
-     "start_km": 320.6,
-     "summit_km": 321.6,
-     "length_km": 0.93,
-     "gain_m": 80,
-     "avg_pct": 8.6,
-     "summit_ele_m": 130,
-     "summit_lat": 36.11965,
-     "summit_lon": -121.63033
-    },
-    {
-     "start_km": 334.9,
-     "summit_km": 337.2,
-     "length_km": 2.33,
-     "gain_m": 76,
-     "avg_pct": 3.3,
-     "summit_ele_m": 149,
-     "summit_lat": 36.0202,
-     "summit_lon": -121.54153
-    }
-   ],
-   "permissive_legs_used": [],
-   "cue_sheet": [
-    {
-     "label": "426 Fell St, San Francisco (START)",
-     "km": 0.0,
-     "offset_m": 19,
-     "lat": 37.77585,
-     "lon": -122.425,
-     "ele_m": 24
-    },
-    {
-     "label": "Golden Gate Park, MLK Jr Dr",
-     "km": 5.5,
-     "offset_m": 1,
-     "lat": 37.769,
-     "lon": -122.483,
-     "ele_m": 63
-    },
-    {
-     "label": "Great Highway at Lincoln Way",
-     "km": 8.2,
-     "offset_m": 1,
-     "lat": 37.763,
-     "lon": -122.51,
-     "ele_m": 8
-    },
-    {
-     "label": "Great Highway at Sloat Blvd",
-     "km": 11.5,
-     "offset_m": 16,
-     "lat": 37.735,
-     "lon": -122.506,
-     "ele_m": 6
-    },
-    {
-     "label": "Lake Merced / Skyline Blvd",
-     "km": 13.8,
-     "offset_m": 190,
-     "lat": 37.7205,
-     "lon": -122.498,
-     "ele_m": 18
-    },
-    {
-     "label": "Sharp Park, Pacifica",
-     "km": 24.3,
-     "offset_m": 12,
-     "lat": 37.636,
-     "lon": -122.488,
-     "ele_m": 34
-    },
-    {
-     "label": "Pacifica (Rockaway Beach)",
-     "km": 30.3,
-     "offset_m": 23,
-     "lat": 37.598,
-     "lon": -122.4995,
-     "ele_m": 4
-    },
-    {
-     "label": "Devil's Slide Trail (N trailhead)",
-     "km": 33.8,
-     "offset_m": 2,
-     "lat": 37.5808,
-     "lon": -122.516,
-     "ele_m": 111
-    },
-    {
-     "label": "Montara",
-     "km": 40.8,
-     "offset_m": 184,
-     "lat": 37.54942,
-     "lon": -122.49354,
-     "ele_m": 122
-    },
-    {
-     "label": "Half Moon Bay",
-     "km": 55.2,
-     "offset_m": 2,
-     "lat": 37.46355,
-     "lon": -122.42859,
-     "ele_m": 21
-    },
-    {
-     "label": "San Gregorio State Beach",
-     "km": 72.8,
-     "offset_m": 13,
-     "lat": 37.3245,
-     "lon": -122.403,
-     "ele_m": 22
-    },
-    {
-     "label": "Pigeon Point Lighthouse",
-     "km": 89.8,
-     "offset_m": 9,
-     "lat": 37.18212,
-     "lon": -122.39408,
-     "ele_m": 11
-    },
-    {
-     "label": "Davenport",
-     "km": 117.9,
-     "offset_m": 81,
-     "lat": 37.01542,
-     "lon": -122.19071,
-     "ele_m": 17
-    },
-    {
-     "label": "Santa Cruz (downtown)",
-     "km": 136.5,
-     "offset_m": 28,
-     "lat": 36.97436,
-     "lon": -122.02947,
-     "ele_m": 7
-    },
-    {
-     "label": "Capitola (Soquel Dr)",
-     "km": 144.6,
-     "offset_m": 8,
-     "lat": 36.97549,
-     "lon": -121.95362,
-     "ele_m": 9
-    },
-    {
-     "label": "Aptos (Soquel Dr)",
-     "km": 151.5,
-     "offset_m": 16,
-     "lat": 36.9776,
-     "lon": -121.8975,
-     "ele_m": 34
-    },
-    {
-     "label": "San Andreas Rd",
-     "km": 166.9,
-     "offset_m": 41,
-     "lat": 36.893,
-     "lon": -121.811,
-     "ele_m": 16
-    },
-    {
-     "label": "Moss Landing",
-     "km": 183.1,
-     "offset_m": 65,
-     "lat": 36.80359,
-     "lon": -121.78627,
-     "ele_m": 0
-    },
-    {
-     "label": "Castroville",
-     "km": 189.3,
-     "offset_m": 11,
-     "lat": 36.76412,
-     "lon": -121.75176,
-     "ele_m": 5
-    },
-    {
-     "label": "Marina",
-     "km": 200.7,
-     "offset_m": 26,
-     "lat": 36.6844,
-     "lon": -121.80217,
-     "ele_m": 7
-    },
-    {
-     "label": "Monterey Bay Coastal Trail",
-     "km": 213.3,
-     "offset_m": 0,
-     "lat": 36.60303,
-     "lon": -121.865,
-     "ele_m": 4
-    },
-    {
-     "label": "Pacific Grove",
-     "km": 219.5,
-     "offset_m": 3,
-     "lat": 36.62111,
-     "lon": -121.91779,
-     "ele_m": 30
-    },
-    {
-     "label": "Asilomar State Beach",
-     "km": 221.9,
-     "offset_m": 8,
-     "lat": 36.62409,
-     "lon": -121.94009,
-     "ele_m": 2
-    },
-    {
-     "label": "17-Mile Drive (Cypress Point)",
-     "km": 230.9,
-     "offset_m": 47,
-     "lat": 36.579,
-     "lon": -121.966,
-     "ele_m": 10
-    },
-    {
-     "label": "Carmel-by-the-Sea (Ocean Ave)",
-     "km": 236.8,
-     "offset_m": 0,
-     "lat": 36.55508,
-     "lon": -121.92614,
-     "ele_m": 44
-    },
-    {
-     "label": "Carmel River State Beach",
-     "km": 242.1,
-     "offset_m": 24,
-     "lat": 36.53458,
-     "lon": -121.92796,
-     "ele_m": 0
-    },
-    {
-     "label": "Point Lobos State Reserve",
-     "km": 247.5,
-     "offset_m": 170,
-     "lat": 36.51473,
-     "lon": -121.94279,
-     "ele_m": 3
-    },
-    {
-     "label": "Rocky Creek Bridge",
-     "km": 265.4,
-     "offset_m": 203,
-     "lat": 36.3848,
-     "lon": -121.9027,
-     "ele_m": 34
-    },
-    {
-     "label": "Bixby Creek Bridge",
-     "km": 267.1,
-     "offset_m": 4,
-     "lat": 36.37243,
-     "lon": -121.90288,
-     "ele_m": 73
-    },
-    {
-     "label": "Point Sur Lighthouse",
-     "km": 278.0,
-     "offset_m": 15,
-     "lat": 36.30637,
-     "lon": -121.90172,
-     "ele_m": 20
-    },
-    {
-     "label": "Andrew Molera State Park",
-     "km": 286.3,
-     "offset_m": 7,
-     "lat": 36.27965,
-     "lon": -121.83095,
-     "ele_m": 28
-    },
-    {
-     "label": "Big Sur Village (River Inn)",
-     "km": 288.8,
-     "offset_m": 14,
-     "lat": 36.27064,
-     "lon": -121.80849,
-     "ele_m": 48
-    },
-    {
-     "label": "Pfeiffer Big Sur State Park",
-     "km": 292.6,
-     "offset_m": 24,
-     "lat": 36.25331,
-     "lon": -121.7833,
-     "ele_m": 154
-    },
-    {
-     "label": "Big Sur Station",
-     "km": 294.2,
-     "offset_m": 37,
-     "lat": 36.24798,
-     "lon": -121.78129,
-     "ele_m": 99
-    },
-    {
-     "label": "Nepenthe",
-     "km": 298.1,
-     "offset_m": 48,
-     "lat": 36.22181,
-     "lon": -121.75966,
-     "ele_m": 225
-    },
-    {
-     "label": "Julia Pfeiffer Burns SP (McWay)",
-     "km": 313.2,
-     "offset_m": 45,
-     "lat": 36.16997,
-     "lon": -121.66539,
-     "ele_m": 342
-    },
-    {
-     "label": "Esalen Institute",
-     "km": 320.6,
-     "offset_m": 16,
-     "lat": 36.12481,
-     "lon": -121.63774,
-     "ele_m": 48
-    },
-    {
-     "label": "Lucia",
-     "km": 336.4,
-     "offset_m": 21,
-     "lat": 36.02079,
-     "lon": -121.5505,
-     "ele_m": 124
-    },
-    {
-     "label": "Limekiln State Park (NIGHT 1)",
-     "km": 340.0,
-     "offset_m": 3,
-     "lat": 36.00998,
-     "lon": -121.51835,
-     "ele_m": 30
-    }
-   ]
-  },
-  {
-   "id": "pch_day1_alt_lucia",
-   "name": "Day 1 variant - finish at Lucia Lodge (indoor)",
-   "desc": "The indoor option nearest the ideal stopping point: Lucia Lodge, 10 rooms/cabins on the cliff, ~3 km north of Limekiln.",
-   "is_main_stage": false,
-   "distance_km": 322.9,
-   "ascent_m_filtered": 3592,
-   "ascent_m_raw_srtm": 6350,
-   "points_raw": 7718,
-   "points_saved": 3459,
-   "audit": {
-    "bicycle_no_km": 0.0,
-    "motorway_km": 0.516,
-    "motorway_bicycle_legal_km": 0.516,
-    "motorway_not_legal_km": 0.0,
-    "ferry_km": 0.0,
-    "steps_km": 0.0,
-    "unpaved_km": 0.0,
-    "unpaved_pct": 0.0,
-    "tunnel_km": 0.0,
-    "bridge_km": 4.777,
-    "on_cyclenetwork_pct": 82.0,
-    "road_mix_km": {
-     "trunk": 95.2,
-     "primary": 94.7,
-     "secondary": 31.3,
-     "tertiary": 17.1,
-     "residential": 12.2,
-     "cycleway": 30.2,
-     "path": 15.8,
-     "service": 13.2
-    }
-   },
-   "flagged": {
-    "motorway": [
-     {
-      "lat": 36.57443,
-      "lon": -121.91306,
-      "len_m": 516,
-      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
-     }
-    ]
-   },
-   "climbs": [
-    {
-     "start_km": 8.1,
-     "summit_km": 19.6,
-     "length_km": 11.52,
-     "gain_m": 185,
-     "avg_pct": 1.6,
-     "summit_ele_m": 191,
-     "summit_lat": 37.67115,
-     "summit_lon": -122.48856
-    },
-    {
-     "start_km": 30.1,
-     "summit_km": 33.3,
-     "length_km": 3.19,
-     "gain_m": 137,
-     "avg_pct": 4.3,
-     "summit_ele_m": 142,
-     "summit_lat": 37.58511,
-     "summit_lon": -122.51435
-    },
-    {
-     "start_km": 37.9,
-     "summit_km": 40.8,
-     "length_km": 2.98,
-     "gain_m": 107,
-     "avg_pct": 3.6,
-     "summit_ele_m": 118,
-     "summit_lat": 37.54942,
-     "summit_lon": -122.49563
-    },
-    {
-     "start_km": 67.9,
-     "summit_km": 69.9,
-     "length_km": 2.02,
-     "gain_m": 109,
-     "avg_pct": 5.4,
-     "summit_ele_m": 136,
-     "summit_lat": 37.34049,
-     "summit_lon": -122.39496
-    },
-    {
-     "start_km": 209.7,
-     "summit_km": 220.8,
-     "length_km": 11.12,
-     "gain_m": 171,
-     "avg_pct": 1.5,
-     "summit_ele_m": 183,
-     "summit_lat": 36.56777,
-     "summit_lon": -121.91276
-    },
-    {
-     "start_km": 252.4,
-     "summit_km": 255.3,
-     "length_km": 2.9,
-     "gain_m": 130,
-     "avg_pct": 4.5,
-     "summit_ele_m": 164,
-     "summit_lat": 36.35825,
-     "summit_lon": -121.90056
-    },
-    {
-     "start_km": 265.2,
-     "summit_km": 279.0,
-     "length_km": 13.85,
-     "gain_m": 147,
-     "avg_pct": 1.1,
-     "summit_ele_m": 155,
-     "summit_lat": 36.25334,
-     "summit_lon": -121.78303
-    },
-    {
-     "start_km": 279.9,
-     "summit_km": 283.4,
-     "length_km": 3.47,
-     "gain_m": 209,
-     "avg_pct": 6.0,
-     "summit_ele_m": 298,
-     "summit_lat": 36.22836,
-     "summit_lon": -121.76474
-    },
-    {
-     "start_km": 297.6,
-     "summit_km": 298.6,
-     "length_km": 1.03,
-     "gain_m": 168,
-     "avg_pct": 16.3,
-     "summit_ele_m": 248,
-     "summit_lat": 36.16282,
-     "summit_lon": -121.66311
-    },
-    {
-     "start_km": 298.8,
-     "summit_km": 299.6,
-     "length_km": 0.87,
-     "gain_m": 113,
-     "avg_pct": 13.0,
-     "summit_ele_m": 339,
-     "summit_lat": 36.1701,
-     "summit_lon": -121.66491
-    },
-    {
-     "start_km": 307.0,
-     "summit_km": 308.0,
-     "length_km": 0.93,
-     "gain_m": 80,
-     "avg_pct": 8.6,
-     "summit_ele_m": 130,
-     "summit_lat": 36.11965,
-     "summit_lon": -121.63033
-    }
-   ],
-   "permissive_legs_used": [],
-   "cue_sheet": [
-    {
-     "label": "426 Fell St, San Francisco (START)",
-     "km": 0.0,
-     "offset_m": 19,
-     "lat": 37.77585,
-     "lon": -122.425,
-     "ele_m": 24
-    },
-    {
-     "label": "Golden Gate Park, MLK Jr Dr",
-     "km": 5.5,
-     "offset_m": 1,
-     "lat": 37.769,
-     "lon": -122.483,
-     "ele_m": 63
-    },
-    {
-     "label": "Great Highway at Lincoln Way",
-     "km": 8.2,
-     "offset_m": 1,
-     "lat": 37.763,
-     "lon": -122.51,
-     "ele_m": 8
-    },
-    {
-     "label": "Great Highway at Sloat Blvd",
-     "km": 11.5,
-     "offset_m": 16,
-     "lat": 37.735,
-     "lon": -122.506,
-     "ele_m": 6
-    },
-    {
-     "label": "Lake Merced / Skyline Blvd",
-     "km": 13.8,
-     "offset_m": 190,
-     "lat": 37.7205,
-     "lon": -122.498,
-     "ele_m": 18
-    },
-    {
-     "label": "Sharp Park, Pacifica",
-     "km": 24.3,
-     "offset_m": 12,
-     "lat": 37.636,
-     "lon": -122.488,
-     "ele_m": 34
-    },
-    {
-     "label": "Pacifica (Rockaway Beach)",
-     "km": 30.3,
-     "offset_m": 23,
-     "lat": 37.598,
-     "lon": -122.4995,
-     "ele_m": 4
-    },
-    {
-     "label": "Devil's Slide Trail (N trailhead)",
-     "km": 33.8,
-     "offset_m": 2,
-     "lat": 37.5808,
-     "lon": -122.516,
-     "ele_m": 111
-    },
-    {
-     "label": "Montara",
-     "km": 40.8,
-     "offset_m": 184,
-     "lat": 37.54942,
-     "lon": -122.49354,
-     "ele_m": 122
-    },
-    {
-     "label": "Half Moon Bay",
-     "km": 55.2,
-     "offset_m": 2,
-     "lat": 37.46355,
-     "lon": -122.42859,
-     "ele_m": 21
-    },
-    {
-     "label": "San Gregorio State Beach",
-     "km": 72.8,
-     "offset_m": 13,
-     "lat": 37.3245,
-     "lon": -122.403,
-     "ele_m": 22
-    },
-    {
-     "label": "Pigeon Point Lighthouse",
-     "km": 89.8,
-     "offset_m": 9,
-     "lat": 37.18212,
-     "lon": -122.39408,
-     "ele_m": 11
-    },
-    {
-     "label": "Davenport",
-     "km": 117.9,
-     "offset_m": 81,
-     "lat": 37.01542,
-     "lon": -122.19071,
-     "ele_m": 17
-    },
-    {
-     "label": "Santa Cruz (downtown)",
-     "km": 136.5,
-     "offset_m": 28,
-     "lat": 36.97436,
-     "lon": -122.02947,
-     "ele_m": 7
-    },
-    {
-     "label": "Capitola (Soquel Dr)",
-     "km": 144.6,
-     "offset_m": 8,
-     "lat": 36.97549,
-     "lon": -121.95362,
-     "ele_m": 9
-    },
-    {
-     "label": "Aptos (Soquel Dr)",
-     "km": 151.5,
-     "offset_m": 16,
-     "lat": 36.9776,
-     "lon": -121.8975,
-     "ele_m": 34
-    },
-    {
-     "label": "San Andreas Rd",
-     "km": 166.9,
-     "offset_m": 41,
-     "lat": 36.893,
-     "lon": -121.811,
-     "ele_m": 16
-    },
-    {
-     "label": "Moss Landing",
-     "km": 183.1,
-     "offset_m": 65,
-     "lat": 36.80359,
-     "lon": -121.78627,
-     "ele_m": 0
-    },
-    {
-     "label": "Castroville",
-     "km": 189.3,
-     "offset_m": 11,
-     "lat": 36.76412,
-     "lon": -121.75176,
-     "ele_m": 5
-    },
-    {
-     "label": "Marina",
-     "km": 200.7,
-     "offset_m": 26,
-     "lat": 36.6844,
-     "lon": -121.80217,
-     "ele_m": 7
-    },
-    {
-     "label": "Monterey Bay Coastal Trail",
-     "km": 213.3,
-     "offset_m": 0,
-     "lat": 36.60303,
-     "lon": -121.865,
-     "ele_m": 4
-    },
-    {
-     "label": "Carmel-by-the-Sea (Ocean Ave)",
-     "km": 223.2,
-     "offset_m": 0,
-     "lat": 36.55508,
-     "lon": -121.92614,
-     "ele_m": 44
-    },
-    {
-     "label": "Carmel River State Beach",
-     "km": 228.5,
-     "offset_m": 24,
-     "lat": 36.53458,
-     "lon": -121.92796,
-     "ele_m": 0
-    },
-    {
-     "label": "Point Lobos State Reserve",
-     "km": 233.9,
-     "offset_m": 170,
-     "lat": 36.51473,
-     "lon": -121.94279,
-     "ele_m": 3
-    },
-    {
-     "label": "Rocky Creek Bridge",
-     "km": 251.8,
-     "offset_m": 203,
-     "lat": 36.3848,
-     "lon": -121.9027,
-     "ele_m": 34
-    },
-    {
-     "label": "Bixby Creek Bridge",
-     "km": 253.5,
-     "offset_m": 4,
-     "lat": 36.37243,
-     "lon": -121.90288,
-     "ele_m": 73
-    },
-    {
-     "label": "Point Sur Lighthouse",
-     "km": 264.4,
-     "offset_m": 15,
-     "lat": 36.30637,
-     "lon": -121.90172,
-     "ele_m": 20
-    },
-    {
-     "label": "Andrew Molera State Park",
-     "km": 272.7,
-     "offset_m": 7,
-     "lat": 36.27965,
-     "lon": -121.83095,
-     "ele_m": 28
-    },
-    {
-     "label": "Big Sur Village (River Inn)",
-     "km": 275.2,
-     "offset_m": 14,
-     "lat": 36.27064,
-     "lon": -121.80849,
-     "ele_m": 48
-    },
-    {
-     "label": "Pfeiffer Big Sur State Park",
-     "km": 279.0,
-     "offset_m": 24,
-     "lat": 36.25331,
-     "lon": -121.7833,
-     "ele_m": 154
-    },
-    {
-     "label": "Big Sur Station",
-     "km": 280.6,
-     "offset_m": 37,
-     "lat": 36.24798,
-     "lon": -121.78129,
-     "ele_m": 99
-    },
-    {
-     "label": "Nepenthe",
-     "km": 284.5,
-     "offset_m": 48,
-     "lat": 36.22181,
-     "lon": -121.75966,
-     "ele_m": 225
-    },
-    {
-     "label": "Julia Pfeiffer Burns SP (McWay)",
-     "km": 299.6,
-     "offset_m": 45,
-     "lat": 36.16997,
-     "lon": -121.66539,
-     "ele_m": 342
-    },
-    {
-     "label": "Esalen Institute",
-     "km": 307.0,
-     "offset_m": 16,
-     "lat": 36.12481,
-     "lon": -121.63774,
-     "ele_m": 48
-    },
-    {
-     "label": "Lucia Lodge (NIGHT 1 alt)",
-     "km": 322.9,
-     "offset_m": 24,
-     "lat": 36.02061,
-     "lon": -121.54926,
-     "ele_m": 124
-    }
-   ]
-  },
-  {
-   "id": "pch_day1_alt_raggedpoint",
-   "name": "Day 1 variant - finish at Ragged Point Inn (indoor)",
-   "desc": "The longer indoor option: 39 conventional rooms plus market and fuel at the south end of the Big Sur cliffs. Pushes day 1 out by ~72 km beyond Limekiln and shortens day 2 to match.",
-   "is_main_stage": false,
-   "distance_km": 363.6,
-   "ascent_m_filtered": 4399,
-   "ascent_m_raw_srtm": 7741,
-   "points_raw": 8783,
-   "points_saved": 4050,
-   "audit": {
-    "bicycle_no_km": 0.0,
-    "motorway_km": 0.516,
-    "motorway_bicycle_legal_km": 0.516,
-    "motorway_not_legal_km": 0.0,
-    "ferry_km": 0.0,
-    "steps_km": 0.0,
-    "unpaved_km": 0.0,
-    "unpaved_pct": 0.0,
-    "tunnel_km": 0.0,
-    "bridge_km": 5.795,
-    "on_cyclenetwork_pct": 83.6,
-    "road_mix_km": {
-     "trunk": 95.2,
-     "primary": 134.0,
-     "secondary": 31.3,
-     "tertiary": 17.1,
-     "residential": 12.2,
-     "cycleway": 30.2,
-     "path": 15.9,
-     "service": 14.6
-    }
-   },
-   "flagged": {
-    "motorway": [
-     {
-      "lat": 36.57443,
-      "lon": -121.91306,
-      "len_m": 516,
-      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
-     }
-    ]
-   },
-   "climbs": [
-    {
-     "start_km": 8.1,
-     "summit_km": 19.6,
-     "length_km": 11.52,
-     "gain_m": 185,
-     "avg_pct": 1.6,
-     "summit_ele_m": 191,
-     "summit_lat": 37.67115,
-     "summit_lon": -122.48856
-    },
-    {
-     "start_km": 30.1,
-     "summit_km": 33.3,
-     "length_km": 3.19,
-     "gain_m": 137,
-     "avg_pct": 4.3,
-     "summit_ele_m": 142,
-     "summit_lat": 37.58511,
-     "summit_lon": -122.51435
-    },
-    {
-     "start_km": 37.9,
-     "summit_km": 40.8,
-     "length_km": 2.98,
-     "gain_m": 107,
-     "avg_pct": 3.6,
-     "summit_ele_m": 118,
-     "summit_lat": 37.54942,
-     "summit_lon": -122.49563
-    },
-    {
-     "start_km": 67.9,
-     "summit_km": 69.9,
-     "length_km": 2.02,
-     "gain_m": 109,
-     "avg_pct": 5.4,
-     "summit_ele_m": 136,
-     "summit_lat": 37.34049,
-     "summit_lon": -122.39496
-    },
-    {
-     "start_km": 209.7,
-     "summit_km": 220.8,
-     "length_km": 11.12,
-     "gain_m": 171,
-     "avg_pct": 1.5,
-     "summit_ele_m": 183,
-     "summit_lat": 36.56777,
-     "summit_lon": -121.91276
-    },
-    {
-     "start_km": 252.4,
-     "summit_km": 255.3,
-     "length_km": 2.9,
-     "gain_m": 130,
-     "avg_pct": 4.5,
-     "summit_ele_m": 164,
-     "summit_lat": 36.35825,
-     "summit_lon": -121.90056
-    },
-    {
-     "start_km": 265.2,
-     "summit_km": 279.0,
-     "length_km": 13.85,
-     "gain_m": 147,
-     "avg_pct": 1.1,
-     "summit_ele_m": 155,
-     "summit_lat": 36.25334,
-     "summit_lon": -121.78303
-    },
-    {
-     "start_km": 279.9,
-     "summit_km": 283.4,
-     "length_km": 3.47,
-     "gain_m": 209,
-     "avg_pct": 6.0,
-     "summit_ele_m": 298,
-     "summit_lat": 36.22836,
-     "summit_lon": -121.76474
-    },
-    {
-     "start_km": 297.6,
-     "summit_km": 298.6,
-     "length_km": 1.03,
-     "gain_m": 168,
-     "avg_pct": 16.3,
-     "summit_ele_m": 248,
-     "summit_lat": 36.16282,
-     "summit_lon": -121.66311
-    },
-    {
-     "start_km": 298.8,
-     "summit_km": 299.6,
-     "length_km": 0.87,
-     "gain_m": 113,
-     "avg_pct": 13.0,
-     "summit_ele_m": 339,
-     "summit_lat": 36.1701,
-     "summit_lon": -121.66491
-    },
-    {
-     "start_km": 307.0,
-     "summit_km": 308.0,
-     "length_km": 0.93,
-     "gain_m": 80,
-     "avg_pct": 8.6,
-     "summit_ele_m": 130,
-     "summit_lat": 36.11965,
-     "summit_lon": -121.63033
-    },
-    {
-     "start_km": 321.3,
-     "summit_km": 323.6,
-     "length_km": 2.33,
-     "gain_m": 76,
-     "avg_pct": 3.3,
-     "summit_ele_m": 149,
-     "summit_lat": 36.0202,
-     "summit_lon": -121.54153
-    },
-    {
-     "start_km": 346.9,
-     "summit_km": 354.3,
-     "length_km": 7.42,
-     "gain_m": 200,
-     "avg_pct": 2.7,
-     "summit_ele_m": 243,
-     "summit_lat": 35.82294,
-     "summit_lon": -121.37836
-    },
-    {
-     "start_km": 356.8,
-     "summit_km": 359.5,
-     "length_km": 2.69,
-     "gain_m": 143,
-     "avg_pct": 5.3,
-     "summit_ele_m": 244,
-     "summit_lat": 35.8041,
-     "summit_lon": -121.3496
-    }
-   ],
-   "permissive_legs_used": [],
-   "cue_sheet": [
-    {
-     "label": "426 Fell St, San Francisco (START)",
-     "km": 0.0,
-     "offset_m": 19,
-     "lat": 37.77585,
-     "lon": -122.425,
-     "ele_m": 24
-    },
-    {
-     "label": "Golden Gate Park, MLK Jr Dr",
-     "km": 5.5,
-     "offset_m": 1,
-     "lat": 37.769,
-     "lon": -122.483,
-     "ele_m": 63
-    },
-    {
-     "label": "Great Highway at Lincoln Way",
-     "km": 8.2,
-     "offset_m": 1,
-     "lat": 37.763,
-     "lon": -122.51,
-     "ele_m": 8
-    },
-    {
-     "label": "Great Highway at Sloat Blvd",
-     "km": 11.5,
-     "offset_m": 16,
-     "lat": 37.735,
-     "lon": -122.506,
-     "ele_m": 6
-    },
-    {
-     "label": "Lake Merced / Skyline Blvd",
-     "km": 13.8,
-     "offset_m": 190,
-     "lat": 37.7205,
-     "lon": -122.498,
-     "ele_m": 18
-    },
-    {
-     "label": "Sharp Park, Pacifica",
-     "km": 24.3,
-     "offset_m": 12,
-     "lat": 37.636,
-     "lon": -122.488,
-     "ele_m": 34
-    },
-    {
-     "label": "Pacifica (Rockaway Beach)",
-     "km": 30.3,
-     "offset_m": 23,
-     "lat": 37.598,
-     "lon": -122.4995,
-     "ele_m": 4
-    },
-    {
-     "label": "Devil's Slide Trail (N trailhead)",
-     "km": 33.8,
-     "offset_m": 2,
-     "lat": 37.5808,
-     "lon": -122.516,
-     "ele_m": 111
-    },
-    {
-     "label": "Montara",
-     "km": 40.8,
-     "offset_m": 184,
-     "lat": 37.54942,
-     "lon": -122.49354,
-     "ele_m": 122
-    },
-    {
-     "label": "Half Moon Bay",
-     "km": 55.2,
-     "offset_m": 2,
-     "lat": 37.46355,
-     "lon": -122.42859,
-     "ele_m": 21
-    },
-    {
-     "label": "San Gregorio State Beach",
-     "km": 72.8,
-     "offset_m": 13,
-     "lat": 37.3245,
-     "lon": -122.403,
-     "ele_m": 22
-    },
-    {
-     "label": "Pigeon Point Lighthouse",
-     "km": 89.8,
-     "offset_m": 9,
-     "lat": 37.18212,
-     "lon": -122.39408,
-     "ele_m": 11
-    },
-    {
-     "label": "Davenport",
-     "km": 117.9,
-     "offset_m": 81,
-     "lat": 37.01542,
-     "lon": -122.19071,
-     "ele_m": 17
-    },
-    {
-     "label": "Santa Cruz (downtown)",
-     "km": 136.5,
-     "offset_m": 28,
-     "lat": 36.97436,
-     "lon": -122.02947,
-     "ele_m": 7
-    },
-    {
-     "label": "Capitola (Soquel Dr)",
-     "km": 144.6,
-     "offset_m": 8,
-     "lat": 36.97549,
-     "lon": -121.95362,
-     "ele_m": 9
-    },
-    {
-     "label": "Aptos (Soquel Dr)",
-     "km": 151.5,
-     "offset_m": 16,
-     "lat": 36.9776,
-     "lon": -121.8975,
-     "ele_m": 34
-    },
-    {
-     "label": "San Andreas Rd",
-     "km": 166.9,
-     "offset_m": 41,
-     "lat": 36.893,
-     "lon": -121.811,
-     "ele_m": 16
-    },
-    {
-     "label": "Moss Landing",
-     "km": 183.1,
-     "offset_m": 65,
-     "lat": 36.80359,
-     "lon": -121.78627,
-     "ele_m": 0
-    },
-    {
-     "label": "Castroville",
-     "km": 189.3,
-     "offset_m": 11,
-     "lat": 36.76412,
-     "lon": -121.75176,
-     "ele_m": 5
-    },
-    {
-     "label": "Marina",
-     "km": 200.7,
-     "offset_m": 26,
-     "lat": 36.6844,
-     "lon": -121.80217,
-     "ele_m": 7
-    },
-    {
-     "label": "Monterey Bay Coastal Trail",
-     "km": 213.3,
-     "offset_m": 0,
-     "lat": 36.60303,
-     "lon": -121.865,
-     "ele_m": 4
-    },
-    {
-     "label": "Carmel-by-the-Sea (Ocean Ave)",
-     "km": 223.2,
-     "offset_m": 0,
-     "lat": 36.55508,
-     "lon": -121.92614,
-     "ele_m": 44
-    },
-    {
-     "label": "Carmel River State Beach",
-     "km": 228.5,
-     "offset_m": 24,
-     "lat": 36.53458,
-     "lon": -121.92796,
-     "ele_m": 0
-    },
-    {
-     "label": "Point Lobos State Reserve",
-     "km": 233.9,
-     "offset_m": 170,
-     "lat": 36.51473,
-     "lon": -121.94279,
-     "ele_m": 3
-    },
-    {
-     "label": "Rocky Creek Bridge",
-     "km": 251.8,
-     "offset_m": 203,
-     "lat": 36.3848,
-     "lon": -121.9027,
-     "ele_m": 34
-    },
-    {
-     "label": "Bixby Creek Bridge",
-     "km": 253.5,
-     "offset_m": 4,
-     "lat": 36.37243,
-     "lon": -121.90288,
-     "ele_m": 73
-    },
-    {
-     "label": "Point Sur Lighthouse",
-     "km": 264.4,
-     "offset_m": 15,
-     "lat": 36.30637,
-     "lon": -121.90172,
-     "ele_m": 20
-    },
-    {
-     "label": "Andrew Molera State Park",
-     "km": 272.7,
-     "offset_m": 7,
-     "lat": 36.27965,
-     "lon": -121.83095,
-     "ele_m": 28
-    },
-    {
-     "label": "Big Sur Village (River Inn)",
-     "km": 275.2,
-     "offset_m": 14,
-     "lat": 36.27064,
-     "lon": -121.80849,
-     "ele_m": 48
-    },
-    {
-     "label": "Pfeiffer Big Sur State Park",
-     "km": 279.0,
-     "offset_m": 24,
-     "lat": 36.25331,
-     "lon": -121.7833,
-     "ele_m": 154
-    },
-    {
-     "label": "Big Sur Station",
-     "km": 280.6,
-     "offset_m": 37,
-     "lat": 36.24798,
-     "lon": -121.78129,
-     "ele_m": 99
-    },
-    {
-     "label": "Nepenthe",
-     "km": 284.5,
-     "offset_m": 48,
-     "lat": 36.22181,
-     "lon": -121.75966,
-     "ele_m": 225
-    },
-    {
-     "label": "Julia Pfeiffer Burns SP (McWay)",
-     "km": 299.6,
-     "offset_m": 45,
-     "lat": 36.16997,
-     "lon": -121.66539,
-     "ele_m": 342
-    },
-    {
-     "label": "Esalen Institute",
-     "km": 307.0,
-     "offset_m": 16,
-     "lat": 36.12481,
-     "lon": -121.63774,
-     "ele_m": 48
-    },
-    {
-     "label": "Lucia",
-     "km": 322.8,
-     "offset_m": 21,
-     "lat": 36.02079,
-     "lon": -121.5505,
-     "ele_m": 124
-    },
-    {
-     "label": "Limekiln State Park (NIGHT 1)",
-     "km": 326.4,
-     "offset_m": 3,
-     "lat": 36.00998,
-     "lon": -121.51835,
-     "ele_m": 30
-    },
-    {
-     "label": "Kirk Creek Campground",
-     "km": 329.8,
-     "offset_m": 0,
-     "lat": 35.98916,
-     "lon": -121.49557,
-     "ele_m": 46
-    },
-    {
-     "label": "Plaskett Creek / Sand Dollar",
-     "km": 338.8,
-     "offset_m": 19,
-     "lat": 35.91788,
-     "lon": -121.46665,
-     "ele_m": 74
-    },
-    {
-     "label": "Gorda Springs",
-     "km": 344.8,
-     "offset_m": 15,
-     "lat": 35.87641,
-     "lon": -121.44614,
-     "ele_m": 107
-    },
-    {
-     "label": "Ragged Point Inn (NIGHT 1 alt)",
-     "km": 363.6,
-     "offset_m": 3,
-     "lat": 35.78072,
-     "lon": -121.33083,
-     "ele_m": 89
-    }
-   ]
-  },
-  {
-   "id": "pch_day1_alt_sansimeon",
-   "name": "Day 1 variant - finish at San Simeon (indoor fallback)",
-   "desc": "The reliable-motels fallback, ~32 km south of Ragged Point. Only worth it if Limekiln, Lucia and Ragged Point are all unavailable.",
-   "is_main_stage": false,
-   "distance_km": 396.2,
-   "ascent_m_filtered": 4498,
-   "ascent_m_raw_srtm": 8067,
-   "points_raw": 9282,
-   "points_saved": 4317,
-   "audit": {
-    "bicycle_no_km": 0.0,
-    "motorway_km": 0.516,
-    "motorway_bicycle_legal_km": 0.516,
-    "motorway_not_legal_km": 0.0,
-    "ferry_km": 0.0,
-    "steps_km": 0.0,
-    "unpaved_km": 0.0,
-    "unpaved_pct": 0.0,
-    "tunnel_km": 0.0,
-    "bridge_km": 6.819,
-    "on_cyclenetwork_pct": 84.8,
-    "road_mix_km": {
-     "trunk": 95.2,
-     "primary": 166.0,
-     "secondary": 31.3,
-     "tertiary": 17.1,
-     "residential": 12.2,
-     "cycleway": 30.2,
-     "path": 15.9,
-     "service": 15.1
-    }
-   },
-   "flagged": {
-    "motorway": [
-     {
-      "lat": 36.57443,
-      "lon": -121.91306,
-      "len_m": 516,
-      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
-     }
-    ]
-   },
-   "climbs": [
-    {
-     "start_km": 8.1,
-     "summit_km": 19.6,
-     "length_km": 11.52,
-     "gain_m": 185,
-     "avg_pct": 1.6,
-     "summit_ele_m": 191,
-     "summit_lat": 37.67115,
-     "summit_lon": -122.48856
-    },
-    {
-     "start_km": 30.1,
-     "summit_km": 33.3,
-     "length_km": 3.19,
-     "gain_m": 137,
-     "avg_pct": 4.3,
-     "summit_ele_m": 142,
-     "summit_lat": 37.58511,
-     "summit_lon": -122.51435
-    },
-    {
-     "start_km": 37.9,
-     "summit_km": 40.8,
-     "length_km": 2.98,
-     "gain_m": 107,
-     "avg_pct": 3.6,
-     "summit_ele_m": 118,
-     "summit_lat": 37.54942,
-     "summit_lon": -122.49563
-    },
-    {
-     "start_km": 67.9,
-     "summit_km": 69.9,
-     "length_km": 2.02,
-     "gain_m": 109,
-     "avg_pct": 5.4,
-     "summit_ele_m": 136,
-     "summit_lat": 37.34049,
-     "summit_lon": -122.39496
-    },
-    {
-     "start_km": 209.7,
-     "summit_km": 220.8,
-     "length_km": 11.12,
-     "gain_m": 171,
-     "avg_pct": 1.5,
-     "summit_ele_m": 183,
-     "summit_lat": 36.56777,
-     "summit_lon": -121.91276
-    },
-    {
-     "start_km": 252.4,
-     "summit_km": 255.3,
-     "length_km": 2.9,
-     "gain_m": 130,
-     "avg_pct": 4.5,
-     "summit_ele_m": 164,
-     "summit_lat": 36.35825,
-     "summit_lon": -121.90056
-    },
-    {
-     "start_km": 265.2,
-     "summit_km": 279.0,
-     "length_km": 13.85,
-     "gain_m": 147,
-     "avg_pct": 1.1,
-     "summit_ele_m": 155,
-     "summit_lat": 36.25334,
-     "summit_lon": -121.78303
-    },
-    {
-     "start_km": 279.9,
-     "summit_km": 283.4,
-     "length_km": 3.47,
-     "gain_m": 209,
-     "avg_pct": 6.0,
-     "summit_ele_m": 298,
-     "summit_lat": 36.22836,
-     "summit_lon": -121.76474
-    },
-    {
-     "start_km": 297.6,
-     "summit_km": 298.6,
-     "length_km": 1.03,
-     "gain_m": 168,
-     "avg_pct": 16.3,
-     "summit_ele_m": 248,
-     "summit_lat": 36.16282,
-     "summit_lon": -121.66311
-    },
-    {
-     "start_km": 298.8,
-     "summit_km": 299.6,
-     "length_km": 0.87,
-     "gain_m": 113,
-     "avg_pct": 13.0,
-     "summit_ele_m": 339,
-     "summit_lat": 36.1701,
-     "summit_lon": -121.66491
-    },
-    {
-     "start_km": 307.0,
-     "summit_km": 308.0,
-     "length_km": 0.93,
-     "gain_m": 80,
-     "avg_pct": 8.6,
-     "summit_ele_m": 130,
-     "summit_lat": 36.11965,
-     "summit_lon": -121.63033
-    },
-    {
-     "start_km": 321.3,
-     "summit_km": 323.6,
-     "length_km": 2.33,
-     "gain_m": 76,
-     "avg_pct": 3.3,
-     "summit_ele_m": 149,
-     "summit_lat": 36.0202,
-     "summit_lon": -121.54153
-    },
-    {
-     "start_km": 346.9,
-     "summit_km": 354.3,
-     "length_km": 7.42,
-     "gain_m": 200,
-     "avg_pct": 2.7,
-     "summit_ele_m": 243,
-     "summit_lat": 35.82294,
-     "summit_lon": -121.37836
-    },
-    {
-     "start_km": 356.8,
-     "summit_km": 359.5,
-     "length_km": 2.69,
-     "gain_m": 143,
-     "avg_pct": 5.3,
-     "summit_ele_m": 244,
-     "summit_lat": 35.8041,
-     "summit_lon": -121.3496
-    }
-   ],
-   "permissive_legs_used": [],
-   "cue_sheet": [
-    {
-     "label": "426 Fell St, San Francisco (START)",
-     "km": 0.0,
-     "offset_m": 19,
-     "lat": 37.77585,
-     "lon": -122.425,
-     "ele_m": 24
-    },
-    {
-     "label": "Golden Gate Park, MLK Jr Dr",
-     "km": 5.5,
-     "offset_m": 1,
-     "lat": 37.769,
-     "lon": -122.483,
-     "ele_m": 63
-    },
-    {
-     "label": "Great Highway at Lincoln Way",
-     "km": 8.2,
-     "offset_m": 1,
-     "lat": 37.763,
-     "lon": -122.51,
-     "ele_m": 8
-    },
-    {
-     "label": "Great Highway at Sloat Blvd",
-     "km": 11.5,
-     "offset_m": 16,
-     "lat": 37.735,
-     "lon": -122.506,
-     "ele_m": 6
-    },
-    {
-     "label": "Lake Merced / Skyline Blvd",
-     "km": 13.8,
-     "offset_m": 190,
-     "lat": 37.7205,
-     "lon": -122.498,
-     "ele_m": 18
-    },
-    {
-     "label": "Sharp Park, Pacifica",
-     "km": 24.3,
-     "offset_m": 12,
-     "lat": 37.636,
-     "lon": -122.488,
-     "ele_m": 34
-    },
-    {
-     "label": "Pacifica (Rockaway Beach)",
-     "km": 30.3,
-     "offset_m": 23,
-     "lat": 37.598,
-     "lon": -122.4995,
-     "ele_m": 4
-    },
-    {
-     "label": "Devil's Slide Trail (N trailhead)",
-     "km": 33.8,
-     "offset_m": 2,
-     "lat": 37.5808,
-     "lon": -122.516,
-     "ele_m": 111
-    },
-    {
-     "label": "Montara",
-     "km": 40.8,
-     "offset_m": 184,
-     "lat": 37.54942,
-     "lon": -122.49354,
-     "ele_m": 122
-    },
-    {
-     "label": "Half Moon Bay",
-     "km": 55.2,
-     "offset_m": 2,
-     "lat": 37.46355,
-     "lon": -122.42859,
-     "ele_m": 21
-    },
-    {
-     "label": "San Gregorio State Beach",
-     "km": 72.8,
-     "offset_m": 13,
-     "lat": 37.3245,
-     "lon": -122.403,
-     "ele_m": 22
-    },
-    {
-     "label": "Pigeon Point Lighthouse",
-     "km": 89.8,
-     "offset_m": 9,
-     "lat": 37.18212,
-     "lon": -122.39408,
-     "ele_m": 11
-    },
-    {
-     "label": "Davenport",
-     "km": 117.9,
-     "offset_m": 81,
-     "lat": 37.01542,
-     "lon": -122.19071,
-     "ele_m": 17
-    },
-    {
-     "label": "Santa Cruz (downtown)",
-     "km": 136.5,
-     "offset_m": 28,
-     "lat": 36.97436,
-     "lon": -122.02947,
-     "ele_m": 7
-    },
-    {
-     "label": "Capitola (Soquel Dr)",
-     "km": 144.6,
-     "offset_m": 8,
-     "lat": 36.97549,
-     "lon": -121.95362,
-     "ele_m": 9
-    },
-    {
-     "label": "Aptos (Soquel Dr)",
-     "km": 151.5,
-     "offset_m": 16,
-     "lat": 36.9776,
-     "lon": -121.8975,
-     "ele_m": 34
-    },
-    {
-     "label": "San Andreas Rd",
-     "km": 166.9,
-     "offset_m": 41,
-     "lat": 36.893,
-     "lon": -121.811,
-     "ele_m": 16
-    },
-    {
-     "label": "Moss Landing",
-     "km": 183.1,
-     "offset_m": 65,
-     "lat": 36.80359,
-     "lon": -121.78627,
-     "ele_m": 0
-    },
-    {
-     "label": "Castroville",
-     "km": 189.3,
-     "offset_m": 11,
-     "lat": 36.76412,
-     "lon": -121.75176,
-     "ele_m": 5
-    },
-    {
-     "label": "Marina",
-     "km": 200.7,
-     "offset_m": 26,
-     "lat": 36.6844,
-     "lon": -121.80217,
-     "ele_m": 7
-    },
-    {
-     "label": "Monterey Bay Coastal Trail",
-     "km": 213.3,
-     "offset_m": 0,
-     "lat": 36.60303,
-     "lon": -121.865,
-     "ele_m": 4
-    },
-    {
-     "label": "Carmel-by-the-Sea (Ocean Ave)",
-     "km": 223.2,
-     "offset_m": 0,
-     "lat": 36.55508,
-     "lon": -121.92614,
-     "ele_m": 44
-    },
-    {
-     "label": "Carmel River State Beach",
-     "km": 228.5,
-     "offset_m": 24,
-     "lat": 36.53458,
-     "lon": -121.92796,
-     "ele_m": 0
-    },
-    {
-     "label": "Point Lobos State Reserve",
-     "km": 233.9,
-     "offset_m": 170,
-     "lat": 36.51473,
-     "lon": -121.94279,
-     "ele_m": 3
-    },
-    {
-     "label": "Rocky Creek Bridge",
-     "km": 251.8,
-     "offset_m": 203,
-     "lat": 36.3848,
-     "lon": -121.9027,
-     "ele_m": 34
-    },
-    {
-     "label": "Bixby Creek Bridge",
-     "km": 253.5,
-     "offset_m": 4,
-     "lat": 36.37243,
-     "lon": -121.90288,
-     "ele_m": 73
-    },
-    {
-     "label": "Point Sur Lighthouse",
-     "km": 264.4,
-     "offset_m": 15,
-     "lat": 36.30637,
-     "lon": -121.90172,
-     "ele_m": 20
-    },
-    {
-     "label": "Andrew Molera State Park",
-     "km": 272.7,
-     "offset_m": 7,
-     "lat": 36.27965,
-     "lon": -121.83095,
-     "ele_m": 28
-    },
-    {
-     "label": "Big Sur Village (River Inn)",
-     "km": 275.2,
-     "offset_m": 14,
-     "lat": 36.27064,
-     "lon": -121.80849,
-     "ele_m": 48
-    },
-    {
-     "label": "Pfeiffer Big Sur State Park",
-     "km": 279.0,
-     "offset_m": 24,
-     "lat": 36.25331,
-     "lon": -121.7833,
-     "ele_m": 154
-    },
-    {
-     "label": "Big Sur Station",
-     "km": 280.6,
-     "offset_m": 37,
-     "lat": 36.24798,
-     "lon": -121.78129,
-     "ele_m": 99
-    },
-    {
-     "label": "Nepenthe",
-     "km": 284.5,
-     "offset_m": 48,
-     "lat": 36.22181,
-     "lon": -121.75966,
-     "ele_m": 225
-    },
-    {
-     "label": "Julia Pfeiffer Burns SP (McWay)",
-     "km": 299.6,
-     "offset_m": 45,
-     "lat": 36.16997,
-     "lon": -121.66539,
-     "ele_m": 342
-    },
-    {
-     "label": "Esalen Institute",
-     "km": 307.0,
-     "offset_m": 16,
-     "lat": 36.12481,
-     "lon": -121.63774,
-     "ele_m": 48
-    },
-    {
-     "label": "Lucia",
-     "km": 322.8,
-     "offset_m": 21,
-     "lat": 36.02079,
-     "lon": -121.5505,
-     "ele_m": 124
-    },
-    {
-     "label": "Limekiln State Park (NIGHT 1)",
-     "km": 326.4,
-     "offset_m": 3,
-     "lat": 36.00998,
-     "lon": -121.51835,
-     "ele_m": 30
-    },
-    {
-     "label": "Kirk Creek Campground",
-     "km": 329.8,
-     "offset_m": 0,
-     "lat": 35.98916,
-     "lon": -121.49557,
-     "ele_m": 46
-    },
-    {
-     "label": "Plaskett Creek / Sand Dollar",
-     "km": 338.8,
-     "offset_m": 19,
-     "lat": 35.91788,
-     "lon": -121.46665,
-     "ele_m": 74
-    },
-    {
-     "label": "Gorda Springs",
-     "km": 344.8,
-     "offset_m": 15,
-     "lat": 35.87641,
-     "lon": -121.44614,
-     "ele_m": 107
-    },
-    {
-     "label": "Ragged Point Inn",
-     "km": 363.6,
-     "offset_m": 3,
-     "lat": 35.78072,
-     "lon": -121.33083,
-     "ele_m": 89
-    },
-    {
-     "label": "Hearst Castle entrance",
-     "km": 387.8,
-     "offset_m": 0,
-     "lat": 35.6454,
-     "lon": -121.18414,
-     "ele_m": 24
-    },
-    {
-     "label": "San Simeon Acres (NIGHT 1 alt)",
-     "km": 396.2,
-     "offset_m": 0,
-     "lat": 35.59235,
-     "lon": -121.12446,
-     "ele_m": 8
-    }
-   ]
-  },
-  {
-   "id": "pch_day2_alt_gaviota",
-   "name": "Day 2 variant - finish at Gaviota State Park instead of Refugio",
-   "desc": "Stop 16 km earlier at Gaviota State Park, right where CA-1 meets US-101 at the coast. Shortest day 2; longest day 3.",
-   "is_main_stage": false,
-   "distance_km": 284.8,
-   "ascent_m_filtered": 2296,
-   "ascent_m_raw_srtm": 4279,
-   "points_raw": 5230,
-   "points_saved": 2485,
-   "audit": {
-    "bicycle_no_km": 0.0,
-    "motorway_km": 15.72,
-    "motorway_bicycle_legal_km": 15.72,
-    "motorway_not_legal_km": 0.0,
-    "ferry_km": 0.0,
-    "steps_km": 0.0,
-    "unpaved_km": 0.048,
-    "unpaved_pct": 0.017,
-    "tunnel_km": 0.0,
-    "bridge_km": 3.402,
-    "on_cyclenetwork_pct": 85.8,
-    "road_mix_km": {
-     "trunk": 52.8,
-     "primary": 132.7,
-     "secondary": 44.1,
-     "tertiary": 20.3,
-     "residential": 11.9,
-     "cycleway": 1.8,
-     "path": 0.2,
-     "service": 4.7
-    }
-   },
-   "flagged": {
-    "motorway": [
-     {
-      "lat": 35.43954,
-      "lon": -120.88851,
-      "len_m": 642,
-      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 estimated_river_class=2 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 35.39202,
-      "lon": -120.85993,
-      "len_m": 1270,
-      "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes shoulder=both route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 35.38074,
-      "lon": -120.85608,
-      "len_m": 321,
-      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 34.81351,
-      "lon": -120.44889,
-      "len_m": 4341,
-      "tags": "highway=motorway surface=asphalt estimated_noise_class=5 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 34.70107,
-      "lon": -120.47124,
-      "len_m": 7160,
-      "tags": "highway=motorway surface=asphalt estimated_noise_class=6 maxspeed=100 lanes=2 foot=yes bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 34.68301,
-      "lon": -120.4594,
-      "len_m": 1986,
-      "tags": "highway=motorway surface=asphalt estimated_noise_class=6 maxspeed=100 lanes=2 foot=yes bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
-     }
-    ],
-    "unpaved": []
-   },
-   "climbs": [
-    {
-     "start_km": 15.9,
-     "summit_km": 17.4,
-     "length_km": 1.53,
-     "gain_m": 82,
-     "avg_pct": 5.4,
-     "summit_ele_m": 126,
-     "summit_lat": 35.88568,
-     "summit_lon": -121.45468
-    },
-    {
-     "start_km": 22.4,
-     "summit_km": 29.8,
-     "length_km": 7.42,
-     "gain_m": 200,
-     "avg_pct": 2.7,
-     "summit_ele_m": 243,
-     "summit_lat": 35.82294,
-     "summit_lon": -121.37836
-    },
-    {
-     "start_km": 32.4,
-     "summit_km": 35.1,
-     "length_km": 2.69,
-     "gain_m": 143,
-     "avg_pct": 5.3,
-     "summit_ele_m": 244,
-     "summit_lat": 35.8041,
-     "summit_lon": -121.3496
-    },
-    {
-     "start_km": 48.4,
-     "summit_km": 78.4,
-     "length_km": 29.98,
-     "gain_m": 82,
-     "avg_pct": 0.3,
-     "summit_ele_m": 89,
-     "summit_lat": 35.55816,
-     "summit_lon": -121.07692
-    },
-    {
-     "start_km": 125.8,
-     "summit_km": 136.5,
-     "length_km": 10.69,
-     "gain_m": 80,
-     "avg_pct": 0.7,
-     "summit_ele_m": 94,
-     "summit_lat": 35.29401,
-     "summit_lon": -120.68619
-    },
-    {
-     "start_km": 188.3,
-     "summit_km": 216.9,
-     "length_km": 28.6,
-     "gain_m": 146,
-     "avg_pct": 0.5,
-     "summit_ele_m": 169,
-     "summit_lat": 34.8224,
-     "summit_lon": -120.45015
-    },
-    {
-     "start_km": 224.5,
-     "summit_km": 227.4,
-     "length_km": 2.95,
-     "gain_m": 112,
-     "avg_pct": 3.8,
-     "summit_ele_m": 186,
-     "summit_lat": 34.76716,
-     "summit_lon": -120.5123
-    },
-    {
-     "start_km": 254.8,
-     "summit_km": 275.5,
-     "length_km": 20.72,
-     "gain_m": 272,
-     "avg_pct": 1.3,
-     "summit_ele_m": 328,
-     "summit_lat": 34.52194,
-     "summit_lon": -120.27332
-    }
-   ],
-   "permissive_legs_used": [],
-   "cue_sheet": [
-    {
-     "label": "Limekiln State Park (START)",
-     "km": 0.0,
-     "offset_m": 3,
-     "lat": 36.00998,
-     "lon": -121.51835,
-     "ele_m": 30
-    },
-    {
-     "label": "Kirk Creek Campground",
-     "km": 3.5,
-     "offset_m": 0,
-     "lat": 35.98916,
-     "lon": -121.49557,
-     "ele_m": 46
-    },
-    {
-     "label": "Plaskett Creek / Sand Dollar",
-     "km": 12.5,
-     "offset_m": 19,
-     "lat": 35.91788,
-     "lon": -121.46665,
-     "ele_m": 74
-    },
-    {
-     "label": "Treebones Resort",
-     "km": 17.8,
-     "offset_m": 15,
-     "lat": 35.88427,
-     "lon": -121.45533,
-     "ele_m": 121
-    },
-    {
-     "label": "Gorda Springs",
-     "km": 20.3,
-     "offset_m": 15,
-     "lat": 35.87641,
-     "lon": -121.44614,
-     "ele_m": 107
-    },
-    {
-     "label": "Ragged Point Inn",
-     "km": 39.1,
-     "offset_m": 3,
-     "lat": 35.78072,
-     "lon": -121.33083,
-     "ele_m": 89
-    },
-    {
-     "label": "Hearst Castle entrance",
-     "km": 63.3,
-     "offset_m": 0,
-     "lat": 35.6454,
-     "lon": -121.18414,
-     "ele_m": 24
-    },
-    {
-     "label": "Cambria",
-     "km": 77.3,
-     "offset_m": 33,
-     "lat": 35.56414,
-     "lon": -121.08111,
-     "ele_m": 22
-    },
-    {
-     "label": "Harmony",
-     "km": 86.3,
-     "offset_m": 14,
-     "lat": 35.50858,
-     "lon": -121.02269,
-     "ele_m": 62
-    },
-    {
-     "label": "Cayucos",
-     "km": 102.8,
-     "offset_m": 244,
-     "lat": 35.43701,
-     "lon": -120.88311,
-     "ele_m": 20
-    },
-    {
-     "label": "Morro Bay",
-     "km": 111.7,
-     "offset_m": 1,
-     "lat": 35.36581,
-     "lon": -120.8499,
-     "ele_m": 20
-    },
-    {
-     "label": "Morro Bay State Park",
-     "km": 116.4,
-     "offset_m": 95,
-     "lat": 35.34277,
-     "lon": -120.82602,
-     "ele_m": 9
-    },
-    {
-     "label": "Los Osos",
-     "km": 121.2,
-     "offset_m": 24,
-     "lat": 35.31072,
-     "lon": -120.83235,
-     "ele_m": 42
-    },
-    {
-     "label": "Los Osos Valley Rd",
-     "km": 132.5,
-     "offset_m": 2,
-     "lat": 35.27746,
-     "lon": -120.719,
-     "ele_m": 53
-    },
-    {
-     "label": "San Luis Obispo",
-     "km": 139.7,
-     "offset_m": 1,
-     "lat": 35.2828,
-     "lon": -120.6596,
-     "ele_m": 73
-    },
-    {
-     "label": "Avila Beach Dr",
-     "km": 155.4,
-     "offset_m": 8,
-     "lat": 35.17998,
-     "lon": -120.73184,
-     "ele_m": 22
-    },
-    {
-     "label": "Shell Beach",
-     "km": 163.7,
-     "offset_m": 2,
-     "lat": 35.15525,
-     "lon": -120.67239,
-     "ele_m": 16
-    },
-    {
-     "label": "Pismo Beach",
-     "km": 167.2,
-     "offset_m": 2,
-     "lat": 35.14274,
-     "lon": -120.64129,
-     "ele_m": 20
-    },
-    {
-     "label": "Oceano",
-     "km": 172.8,
-     "offset_m": 2,
-     "lat": 35.10531,
-     "lon": -120.61689,
-     "ele_m": 16
-    },
-    {
-     "label": "Guadalupe",
-     "km": 192.8,
-     "offset_m": 25,
-     "lat": 34.97164,
-     "lon": -120.57184,
-     "ele_m": 28
-    },
-    {
-     "label": "Orcutt",
-     "km": 211.2,
-     "offset_m": 3,
-     "lat": 34.86518,
-     "lon": -120.44722,
-     "ele_m": 101
-    },
-    {
-     "label": "Vandenberg Village",
-     "km": 239.2,
-     "offset_m": 39,
-     "lat": 34.71165,
-     "lon": -120.46068,
-     "ele_m": 121
-    },
-    {
-     "label": "Lompoc",
-     "km": 248.7,
-     "offset_m": 5,
-     "lat": 34.63915,
-     "lon": -120.4579,
-     "ele_m": 33
-    },
-    {
-     "label": "Las Cruces (CA-1 / US-101)",
-     "km": 280.0,
-     "offset_m": 8,
-     "lat": 34.50804,
-     "lon": -120.22904,
-     "ele_m": 107
-    },
-    {
-     "label": "Gaviota State Park",
-     "km": 284.2,
-     "offset_m": 0,
-     "lat": 34.47718,
-     "lon": -120.22857,
-     "ele_m": 14
-    },
-    {
-     "label": "Gaviota State Park (NIGHT 2 alt)",
-     "km": 284.8,
-     "offset_m": 19,
-     "lat": 34.4718,
-     "lon": -120.2286,
-     "ele_m": 8
-    }
-   ]
-  },
-  {
-   "id": "pch_day2_alt_elcapitan",
-   "name": "Day 2 variant - finish at El Capitan State Beach",
-   "desc": "Push 3 km past Refugio to El Capitan State Beach - the third of the three Santa Barbara-coast hike/bike parks, and the one with the most services.",
-   "is_main_stage": false,
-   "distance_km": 305.3,
-   "ascent_m_filtered": 2398,
-   "ascent_m_raw_srtm": 4546,
-   "points_raw": 5503,
-   "points_saved": 2669,
-   "audit": {
-    "bicycle_no_km": 0.0,
-    "motorway_km": 19.769,
-    "motorway_bicycle_legal_km": 19.769,
-    "motorway_not_legal_km": 0.0,
-    "ferry_km": 0.0,
-    "steps_km": 0.0,
-    "unpaved_km": 0.048,
-    "unpaved_pct": 0.016,
-    "tunnel_km": 0.0,
-    "bridge_km": 3.593,
-    "on_cyclenetwork_pct": 85.3,
-    "road_mix_km": {
-     "trunk": 64.5,
-     "primary": 132.7,
-     "secondary": 44.1,
-     "tertiary": 20.3,
-     "residential": 11.9,
-     "cycleway": 6.2,
-     "path": 0.2,
-     "service": 5.3
-    }
-   },
-   "flagged": {
-    "motorway": [
-     {
-      "lat": 35.43954,
-      "lon": -120.88851,
-      "len_m": 642,
-      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 estimated_river_class=2 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 35.39202,
-      "lon": -120.85993,
-      "len_m": 1270,
-      "tags": "highway=motorway estimated_noise_class=6 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes shoulder=both route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 35.38074,
-      "lon": -120.85608,
-      "len_m": 321,
-      "tags": "highway=motorway_link surface=asphalt estimated_noise_class=6 lanes=1 bicycle=yes oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 34.81351,
-      "lon": -120.44889,
-      "len_m": 4341,
-      "tags": "highway=motorway surface=asphalt estimated_noise_class=5 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 34.70107,
-      "lon": -120.47124,
-      "len_m": 7160,
-      "tags": "highway=motorway surface=asphalt estimated_noise_class=6 maxspeed=100 lanes=2 foot=yes bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 34.68301,
-      "lon": -120.4594,
-      "len_m": 1986,
-      "tags": "highway=motorway surface=asphalt estimated_noise_class=6 maxspeed=100 lanes=2 foot=yes bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
-     },
-     {
-      "lat": 34.46545,
-      "lon": -120.06982,
-      "len_m": 4049,
-      "tags": "highway=motorway estimated_forest_class=1 estimated_noise_class=5 estimated_river_class=1 maxspeed=100 lanes=2 bicycle=yes hgv=designated oneway=yes route_bicycle_ncn=yes"
-     }
-    ],
-    "unpaved": []
-   },
-   "climbs": [
-    {
-     "start_km": 15.9,
-     "summit_km": 17.4,
-     "length_km": 1.53,
-     "gain_m": 82,
-     "avg_pct": 5.4,
-     "summit_ele_m": 126,
-     "summit_lat": 35.88568,
-     "summit_lon": -121.45468
-    },
-    {
-     "start_km": 22.4,
-     "summit_km": 29.8,
-     "length_km": 7.42,
-     "gain_m": 200,
-     "avg_pct": 2.7,
-     "summit_ele_m": 243,
-     "summit_lat": 35.82294,
-     "summit_lon": -121.37836
-    },
-    {
-     "start_km": 32.4,
-     "summit_km": 35.1,
-     "length_km": 2.69,
-     "gain_m": 143,
-     "avg_pct": 5.3,
-     "summit_ele_m": 244,
-     "summit_lat": 35.8041,
-     "summit_lon": -121.3496
-    },
-    {
-     "start_km": 48.4,
-     "summit_km": 78.4,
-     "length_km": 29.98,
-     "gain_m": 82,
-     "avg_pct": 0.3,
-     "summit_ele_m": 89,
-     "summit_lat": 35.55816,
-     "summit_lon": -121.07692
-    },
-    {
-     "start_km": 125.8,
-     "summit_km": 136.5,
-     "length_km": 10.69,
-     "gain_m": 80,
-     "avg_pct": 0.7,
-     "summit_ele_m": 94,
-     "summit_lat": 35.29401,
-     "summit_lon": -120.68619
-    },
-    {
-     "start_km": 188.3,
-     "summit_km": 216.9,
-     "length_km": 28.6,
-     "gain_m": 146,
-     "avg_pct": 0.5,
-     "summit_ele_m": 169,
-     "summit_lat": 34.8224,
-     "summit_lon": -120.45015
-    },
-    {
-     "start_km": 224.5,
-     "summit_km": 227.4,
-     "length_km": 2.95,
-     "gain_m": 112,
-     "avg_pct": 3.8,
-     "summit_ele_m": 186,
-     "summit_lat": 34.76716,
-     "summit_lon": -120.5123
-    },
-    {
-     "start_km": 254.8,
-     "summit_km": 275.5,
-     "length_km": 20.72,
-     "gain_m": 272,
-     "avg_pct": 1.3,
-     "summit_ele_m": 328,
-     "summit_lat": 34.52194,
-     "summit_lon": -120.27332
-    }
-   ],
-   "permissive_legs_used": [],
-   "cue_sheet": [
-    {
-     "label": "Limekiln State Park (START)",
-     "km": 0.0,
-     "offset_m": 3,
-     "lat": 36.00998,
-     "lon": -121.51835,
-     "ele_m": 30
-    },
-    {
-     "label": "Kirk Creek Campground",
-     "km": 3.5,
-     "offset_m": 0,
-     "lat": 35.98916,
-     "lon": -121.49557,
-     "ele_m": 46
-    },
-    {
-     "label": "Plaskett Creek / Sand Dollar",
-     "km": 12.5,
-     "offset_m": 19,
-     "lat": 35.91788,
-     "lon": -121.46665,
-     "ele_m": 74
-    },
-    {
-     "label": "Treebones Resort",
-     "km": 17.8,
-     "offset_m": 15,
-     "lat": 35.88427,
-     "lon": -121.45533,
-     "ele_m": 121
-    },
-    {
-     "label": "Gorda Springs",
-     "km": 20.3,
-     "offset_m": 15,
-     "lat": 35.87641,
-     "lon": -121.44614,
-     "ele_m": 107
-    },
-    {
-     "label": "Ragged Point Inn",
-     "km": 39.1,
-     "offset_m": 3,
-     "lat": 35.78072,
-     "lon": -121.33083,
-     "ele_m": 89
-    },
-    {
-     "label": "Hearst Castle entrance",
-     "km": 63.3,
-     "offset_m": 0,
-     "lat": 35.6454,
-     "lon": -121.18414,
-     "ele_m": 24
-    },
-    {
-     "label": "Cambria",
-     "km": 77.3,
-     "offset_m": 33,
-     "lat": 35.56414,
-     "lon": -121.08111,
-     "ele_m": 22
-    },
-    {
-     "label": "Harmony",
-     "km": 86.3,
-     "offset_m": 14,
-     "lat": 35.50858,
-     "lon": -121.02269,
-     "ele_m": 62
-    },
-    {
-     "label": "Cayucos",
-     "km": 102.8,
-     "offset_m": 244,
-     "lat": 35.43701,
-     "lon": -120.88311,
-     "ele_m": 20
-    },
-    {
-     "label": "Morro Bay",
-     "km": 111.7,
-     "offset_m": 1,
-     "lat": 35.36581,
-     "lon": -120.8499,
-     "ele_m": 20
-    },
-    {
-     "label": "Morro Bay State Park",
-     "km": 116.4,
-     "offset_m": 95,
-     "lat": 35.34277,
-     "lon": -120.82602,
-     "ele_m": 9
-    },
-    {
-     "label": "Los Osos",
-     "km": 121.2,
-     "offset_m": 24,
-     "lat": 35.31072,
-     "lon": -120.83235,
-     "ele_m": 42
-    },
-    {
-     "label": "Los Osos Valley Rd",
-     "km": 132.5,
-     "offset_m": 2,
-     "lat": 35.27746,
-     "lon": -120.719,
-     "ele_m": 53
-    },
-    {
-     "label": "San Luis Obispo",
-     "km": 139.7,
-     "offset_m": 1,
-     "lat": 35.2828,
-     "lon": -120.6596,
-     "ele_m": 73
-    },
-    {
-     "label": "Avila Beach Dr",
-     "km": 155.4,
-     "offset_m": 8,
-     "lat": 35.17998,
-     "lon": -120.73184,
-     "ele_m": 22
-    },
-    {
-     "label": "Shell Beach",
-     "km": 163.7,
-     "offset_m": 2,
-     "lat": 35.15525,
-     "lon": -120.67239,
-     "ele_m": 16
-    },
-    {
-     "label": "Pismo Beach",
-     "km": 167.2,
-     "offset_m": 2,
-     "lat": 35.14274,
-     "lon": -120.64129,
-     "ele_m": 20
-    },
-    {
-     "label": "Oceano",
-     "km": 172.8,
-     "offset_m": 2,
-     "lat": 35.10531,
-     "lon": -120.61689,
-     "ele_m": 16
-    },
-    {
-     "label": "Guadalupe",
-     "km": 192.8,
-     "offset_m": 25,
-     "lat": 34.97164,
-     "lon": -120.57184,
-     "ele_m": 28
-    },
-    {
-     "label": "Orcutt",
-     "km": 211.2,
-     "offset_m": 3,
-     "lat": 34.86518,
-     "lon": -120.44722,
-     "ele_m": 101
-    },
-    {
-     "label": "Vandenberg Village",
-     "km": 239.2,
-     "offset_m": 39,
-     "lat": 34.71165,
-     "lon": -120.46068,
-     "ele_m": 121
-    },
-    {
-     "label": "Lompoc",
-     "km": 248.7,
-     "offset_m": 5,
-     "lat": 34.63915,
-     "lon": -120.4579,
-     "ele_m": 33
-    },
-    {
-     "label": "Las Cruces (CA-1 / US-101)",
-     "km": 280.0,
-     "offset_m": 8,
-     "lat": 34.50804,
-     "lon": -120.22904,
-     "ele_m": 107
-    },
-    {
-     "label": "Gaviota State Park",
-     "km": 284.2,
-     "offset_m": 0,
-     "lat": 34.47718,
-     "lon": -120.22857,
-     "ele_m": 14
-    },
-    {
-     "label": "Refugio State Beach (NIGHT 2)",
-     "km": 302.7,
-     "offset_m": 22,
-     "lat": 34.46243,
-     "lon": -120.0483,
-     "ele_m": 11
-    },
-    {
-     "label": "El Capitan State Beach (NIGHT 2 alt)",
-     "km": 305.3,
-     "offset_m": 9,
-     "lat": 34.46,
-     "lon": -120.024,
-     "ele_m": 17
     }
    ]
   }

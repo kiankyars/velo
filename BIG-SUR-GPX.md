@@ -10,8 +10,8 @@ recomputed from the saved coordinates by a validator that does not trust the
 builder — with a purpose-built road-bike profile, because the stock trekking
 profile gets this coast badly wrong (see [below](#the-profile-and-why-the-stock-one-fails-here)).
 
-> **Total: `782.4 km`, `+5,648 m`, 3 stages.** Stages join to within **1.2 m**.
-> **Zero** unpaved metres on days 1 and 3, 48 m on day 2. **1,955 m** of
+> **Total: `786.6 km`, `+5,648 m`, 3 stages.** Stages join to within **1.2 m**.
+> Unpaved: **zero** on day 1, 48 m on day 2, 102 m on day 3 (Obern Trail connectors). **1,955 m** of
 > out-and-back across the whole route, largest single jog 622 m (down from 62 km). One documented
 > 391 m legal exception at Winchester Canyon.
 >
@@ -21,9 +21,11 @@ profile gets this coast badly wrong (see [below](#the-profile-and-why-the-stock-
 |---|------|-----------|---------:|------:|
 | 1 | [`pch_day1_sf_limekiln.gpx`](./gpx/pch_day1_sf_limekiln.gpx) | 426 Fell St, SF → **Limekiln SP** | **297.2 km** | +2,889 m |
 | 2 | [`pch_day2_limekiln_refugio.gpx`](./gpx/pch_day2_limekiln_refugio.gpx) | Limekiln SP → **Refugio SB** | **279.5 km** | +2,148 m |
-| 3 | [`pch_day3_refugio_la.gpx`](./gpx/pch_day3_refugio_la.gpx) | Refugio SB → **LA Union Station** | **205.7 km** | +611 m |
-| | [`pch_sf_la_master.gpx`](./gpx/pch_sf_la_master.gpx) | all three in one file | **782.4 km** | +5,648 m |
-| | [`pch_day1_alt_pfeiffer.gpx`](./gpx/pch_day1_alt_pfeiffer.gpx) | short day 1, stop in Big Sur Village | 256.1 km | +2,151 m |
+| 3 | [`pch_day3_refugio_la.gpx`](./gpx/pch_day3_refugio_la.gpx) | Refugio SB → **LA Union Station** | **209.9 km** | +611 m |
+| | [`pch_sf_la_master.gpx`](./gpx/pch_sf_la_master.gpx) | all three in one file | **786.6 km** | +5,648 m |
+| | [`pch_day1_alt_pfeiffer.gpx`](./gpx/pch_day1_alt_pfeiffer.gpx) | short day 1, stop in Big Sur Village | 255.9 km | +2,151 m |
+| | [`pch_day2_pfeiffer_refugio.gpx`](./gpx/pch_day2_pfeiffer_refugio.gpx) | the other half of the Pfeiffer pairing | 322.4 km | +2,945 m |
+| | [`pch_day3_alt_arterials.gpx`](./gpx/pch_day3_alt_arterials.gpx) | day 3 on the Goleta arterials, skipping the Obern Trail | 205.7 km | +611 m |
 | | [`pch_waypoints_essential.gpx`](./gpx/pch_waypoints_essential.gpx) | — | the readable waypoint set | — |
 | | [`pch_waypoints.gpx`](./gpx/pch_waypoints.gpx) | — | every harvested POI | — |
 | | `pch_day*_annotated.gpx` | per day | track **+ its own waypoints** | — |
@@ -48,7 +50,7 @@ straight back out. Fifty of those spurs, **62 km of pure out-and-back**, spread
 across the three days. On a device it reads exactly as it sounds: the line runs
 into a cul-de-sac and reverses.
 
-With them removed the route is **782.4 km**, and **day 1 is 297.2 km** — so the
+With them removed the route is **786.6 km**, and **day 1 is 297.2 km** — so the
 transcript's 280–290 km estimate was roughly right, and my correction of it was
 not. The real remaining gap between the estimate and the measurement is about
 7–17 km, not 40.
@@ -56,7 +58,7 @@ not. The real remaining gap between the estimate and the measurement is about
 | | Day 1 | Day 2 | Day 3 | Total |
 |---|---:|---:|---:|---:|
 | Previous (with spurs) | 326.4 km | 302.7 km | 229.5 km | 858.6 km |
-| **Now** | **297.2 km** | **279.5 km** | **205.7 km** | **782.4 km** |
+| **Now** | **297.2 km** | **279.5 km** | **209.9 km** | **786.6 km** |
 
 The fix was two-part: **prune the corridor to genuine decision points** (Highway 1
 from Carmel to Limekiln is 78 km on which there is no other road, so it now gets
@@ -467,7 +469,7 @@ is a permanent reference rather than something to rediscover.
 |---|---:|---:|---:|---:|
 | Day 1 SF → Limekiln | **83.0%** | 86.9% | 88.7% | **0 m** |
 | Day 2 Limekiln → Refugio | **83.4%** | 87.5% | 89.9% | **0 m** |
-| Day 3 Refugio → LA | **75.0%** | 80.6% | 86.0% | **0 m** |
+| Day 3 Refugio → LA | **77.2%** | 82.6% | 87.2% | **0 m** |
 | Day 4 LA → San Diego | **64.5%** | 71.0% | 77.2% | **0 m** |
 
 Measured against 107,508 official reference nodes. It's largely the same road,
@@ -497,24 +499,42 @@ The rest are genuine alignment differences worth knowing about:
 
 ### Two things the official route taught me
 
-**1. Goleta: the Obern Trail.** USBR 95 routes through Goleta on the **Obern
-Trail** — 586 mapped nodes of `highway=cycleway, bicycle=designated` — plus
-Hollister Ave, Calle Real and the Modoc Road Multiuse Path. My line uses the
-arterials instead. Routed both:
+**1. Goleta: the Obern Trail — now the default.** ✅ *Adopted.*
 
-| | Distance | Separated path |
-|---|---:|---:|
-| My line (Winchester → Goleta → Santa Barbara) | 21.93 km | 0 km |
-| Via the Obern Trail | **25.22 km** | **9.11 km** |
+Two separate things happen near Goleta, and an earlier version of this file put them
+in the same paragraph, which made them read as one. They are **9 km apart** and
+unrelated:
 
-**+3.3 km buys 9.1 km off the arterials.** For a 200 km day that's a real trade in
-either direction — the trail is safer, a shared-use path along a slough is slower.
-Not forced into the GPX; noted so it's your call.
+| | Where | What | Fixed by the Obern Trail? |
+|---|---|---|---|
+| **The 391 m `bicycle=no`** | **km 13.7**, Winchester Canyon, **west** of Goleta | US-101 shoulder where OSM says bikes are banned | **No** — the trail starts 9 km further east |
+| **The arterials** | **km 22.6 → 32.6**, **east** of Goleta | Hollister Ave etc. where a bike path exists alongside | **Yes** — that's the whole point |
 
-Also worth recording: the official designated route itself includes a short run of
-`El Camino Real [motorway] bicycle=no` at Goleta. **The national route makes the
-same compromise I did** with the 391 m Winchester Canyon exception, which is mild
-vindication that the exception reflects the road rather than a routing error.
+**On the second one, the official route is simply safer than what my router picked,
+so the route now follows it.** USBR 95 crosses Goleta on the **Obern Trail** and the
+**Modoc Road Multiuse Path** — all `highway=cycleway, bicycle=designated`, asphalt
+with some wood boardwalk. Measured across the whole day:
+
+| Day 3 | Distance | Separated path | Secondary arterials | Climb |
+|---|---:|---:|---:|---:|
+| Arterials (old default) | 205.7 km | 23.7 km | 59.5 km | +611 m |
+| **Obern Trail (now default)** | **209.9 km** | **33.2 km** | **54.1 km** | **+611 m** |
+
+**+4.3 km buys +9.5 km of separated bike path and takes 5.4 km off the arterials,
+for zero extra climb.** On a 210 km day that is 2% more distance. The old line is
+kept as [`pch_day3_alt_arterials.gpx`](./gpx/pch_day3_alt_arterials.gpx).
+
+Two honest caveats for the path: parts of the Obern boardwalk are `surface=wood`,
+which is slick when damp, and you reach it early on a foggy morning; and a shared-use
+path with pedestrians and dogs is slower than an arterial. If you are chasing a train,
+take the arterial file.
+
+**On the first one — the 391 m — the news is that it is unavoidable, not that it is
+fine.** The official designated route *itself* includes a short run of
+`El Camino Real [motorway] bicycle=no` at Goleta. So the national route makes the same
+compromise, which means the 391 m reflects the road rather than a routing error — a
+nogo sweep at 20/35/50/80/120/200 m confirmed the only alternative costs **77 km**.
+The Obern Trail does not help there and nothing does.
 
 **2. Camp Pendleton — and a correction.** USBR 95 goes **through the base**, on
 **Old Pacific Highway** (`bicycle=yes`) and the **Pacific Coast Bikeway**

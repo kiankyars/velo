@@ -26,7 +26,7 @@ but it needs a bus with a bike space, which is a real ask two days out.
 | Prepend: Point Reyes → SF | 67.0 km | +877 m | 👍 Nearly free prologue, genuinely good coast. |
 | Loop home inland (LA → SF) | 779.4 km | +3,175 m | ❌ **No.** See below — this is a heat-injury risk, not a hard day. |
 
-Adding day 4 makes the trip **1,000.6 km over 4 days** (297 / 279 / 206 / 218),
+Adding day 4 makes the trip **1,004.8 km over 4 days** (297 / 279 / 206 / 218),
 which is the same shape you already have — day 4 is *flatter* than day 3.
 
 ---
