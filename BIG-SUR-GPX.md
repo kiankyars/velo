@@ -327,6 +327,54 @@ which is the opposite of shelter here: coast redwoods strip fog into drip and ar
 wetter beneath than open ground. Prefer a synthetic or hydrophobic-down bag over
 untreated down. Put a groundsheet under the pad; dew comes from below too.
 
+#### "Can't I just flap the water off in the morning and pack it up?"
+
+Partly. It's worth the 30 seconds, and it is **not** the whole answer. Three
+physically different kinds of water end up in the bag, and flapping only reaches one:
+
+| Where the water is | Can flapping remove it? |
+|---|---|
+| **(a)** Beaded on the outer shell, DWR intact | **Yes** — flicks off cleanly |
+| **(b)** Wetted *into* the shell fabric after hours in saturated air | No — flapping redistributes it |
+| **(c)** Condensed **inside the baffles**, from your own overnight vapour hitting its dew point near the cold outer shell | No — it's behind a layer of fabric |
+
+Quantified for one night in this airmass:
+
+| | Amount |
+|---|---:|
+| Total overnight weight gain | **150–300 g** (≈350 g worst case) |
+| External dew deposition (shell area 2.46 m², ~1.23 m² sky-exposed) | 25–320 g, mean ~172 g |
+| Your own body moisture entering the bag | 80–120 g/night, ~50–100 g retained |
+| **Removable by flapping** | **30–80 g** |
+
+So flapping recovers roughly **a quarter** of what the night puts in. The rest needs
+evaporation, and evaporation is exactly what this forecast switches off:
+
+| Drying 200 g of water | Time |
+|---|---:|
+| Lashed on the bike, dry moving air (20 km/h, 20 °C, 50% RH) | **~21 min** |
+| Sitting in the marine layer (15 °C, 95% RH) | **~4.7 h** |
+| At 99–100% RH — Limekiln and Refugio overnight | **effectively never** |
+
+A 13× airmass ratio. That is why the mid-day inland stretch matters and the campsite
+morning does not: **open the bag out in direct sun at a stop around San Luis Obispo /
+Santa Maria for 30–45 minutes.** Opened and lofted for half an hour beats eight hours
+strapped to a rack compressed, because compressed insulation in moving air dries from
+the outside in.
+
+Rack-drying through **Lompoc (day 2, km 226: 74–82 °F, spread 10–22 °F, RH 47–72%)**
+does work on the *shell* — but km 226 of 279 is 81% through the day, roughly
+16:00–18:00, and you then arrive at Refugio where the spread is 0 °F again. You'd be
+re-wetting what you just dried.
+
+**Packing it damp is fine for a day.** Mould needs 24–48 h on damp surfaces (EPA), as
+fast as 8–12 h on soiled wet textiles in warm humid air — so a damp bag stuffed at
+07:00 and unpacked at 19:00 is not at risk. Three consecutive damp days without a
+real dry-out is where it turns.
+
+**The working sequence:** flap off the beads → pack → open it out in the sun at a
+mid-day stop → and don't count on the campsite morning for anything.
+
 #### ⚠️ Second correction: Pfeiffer is a trade, not a free fix
 
 Pfeiffer Big Sur in the valley is **mostly clear at 56–62 °F with a dewpoint spread

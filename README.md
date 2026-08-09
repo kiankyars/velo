@@ -59,6 +59,16 @@ comparison is now permanent: `python3 scripts/validate_usbr95_alignment.py`.
   removes the dependency entirely. Dispersed camping on Los Padres NF land is legal
   and permit-free, but **campfires are banned until 31 Jan 2027** (stove OK with a
   free permit).
+- **The sleeping system, not the route, is the open risk.** Sleeping out with no tent
+  on a **Marmot NanoWave 45** (ISO Comfort 56 °F / Limit 49 °F — the "45" is optimistic
+  against its own test) and a **Klymit Static V (R 1.3)**, where the bag was rated on
+  an **R 4.8** pad. Effective: Comfort ~63 °F / Limit ~58 °F. **Limekiln's 50–54 °F is
+  4–8 °F below that** — the only night on the route that genuinely fails; Refugio at
+  61–65 °F is fine. Fix is a **full-length closed-cell foam pad** stacked underneath
+  (R 3.3, recovers 5–6 °F; a $15 blue foam roll gets ~85% of it). **Not** a bivy, whose
+  warmth comes from blocking wind and sky radiation — both already absent at Limekiln.
+  Both camp nights measured at a **0–3 °F dewpoint spread** with
+  `scripts/check_camp_dewpoint.py`.
 - **Two things the official route taught the build:** USBR 95 crosses Goleta on the
   **Obern Trail** (+3.3 km for 9.1 km of separated path instead of arterials — an
   open choice on day 3), and it goes **through Camp Pendleton**, which corrects an
@@ -92,7 +102,7 @@ A **loop out of Frankfurt** through Germany, Switzerland, France, Italy and Aust
 | File | What it covers |
 |------|----------------|
 | **[EXTENSIONS.md](./EXTENSIONS.md)** | ⭐ **Should you extend to San Diego?** Every candidate extension routed and measured with the same profile and audit: the LA→San Diego day (and the Camp Pendleton crux, solved), the Mexican-border finish, prepending the Sonoma/Mendocino coast, and why looping home inland through the Central Valley in August is a heat-injury risk rather than a hard day. |
-| **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** | ⭐ **The SF → LA coast route.** Three riding days (782.4 km), the road-bike routing profile and why the stock one fails on this coast, the legality/surface/spur audit, the detected climbs, the water-and-food gaps, and the corrections the build forced on the plan. |
+| **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** | ⭐ **The SF → LA coast route.** Three riding days (782.4 km), the road-bike routing profile and why the stock one fails on this coast, the legality/surface/spur audit, the detected climbs, the water-and-food gaps, the alignment against the official **USBR 95**, the **tent-less sleeping analysis** (bag and pad ratings against measured dewpoint spreads, what to buy and what not to, and whether you can just flap the dew off in the morning), the **73 km cell dead zone**, and the corrections the build forced on the plan. |
 | **[GEAR-FROM-VIDEOS.md](./GEAR-FROM-VIDEOS.md)** | ⭐ Asks #1 & #2 — the **verbatim gear list** from your parts video, your own stated regrets (no bibs/tights, bad gloves, leaky pump, broken saddle bag), and the **lessons distilled from all 7 transcripts**. |
 | **[CHECKLIST.md](./CHECKLIST.md)** | The **concise one-pager** to read before you leave. |
 | **[PACKING-LIST.md](./PACKING-LIST.md)** | Full checkbox packing list, merging your real video kit with trip essentials (German light law, EES, insurance, Alpine cold). |
