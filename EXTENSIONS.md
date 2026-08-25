@@ -1,10 +1,8 @@
-# 🧭 Extending the trip — San Diego, and what beats it
+# 🧭 Extending the trip — the north coast and San Diego
 
-You asked whether pushing on to San Diego is a good idea, or whether something
-else is better. This is the answer with the routing actually done, because
-"is it a good idea" turns on numbers that are easy to guess wrong: I built every
-candidate with the same profile and audit as the main route rather than reasoning
-about them from a map.
+This compares the built San Diego extension with the separate north-coast trip.
+The north line now comes from the direction-specific official USBR 95 tracks,
+not an inland routing-engine alternative or a Highway 101 shortcut.
 
 ## Short version
 
@@ -14,19 +12,19 @@ an official signed route (US Bicycle Route 95) with a quarter of the day on
 separated bike path, and one 27 km hole where a Marine Corps base owns the coast. The Camp Pendleton problem has exactly one solution — the Caltrans-permitted
 I-5 shoulder — and the base pass turns out to be a dead letter for a southbound
 rider (see below). If what you want is *more good riding* rather than a longer
-line on a map, **prepending the Sonoma/Mendocino coast beats it comfortably** —
-but it needs a bus with a bike space, which is a real ask two days out.
+line on a map, **riding the Sonoma/Mendocino coast first beats it comfortably**.
+That is now a separate SF↔Leggett out-and-back, not a bus-assisted prepend.
 
 | Extension | Distance | Climb | Verdict |
 |---|---:|---:|---|
 | **Day 4: LA → San Diego** | **218.2 km** | **+685 m** | ✅ Built. Easiest bolt-on, no bookings. Best *infrastructure* of the trip (USBR 95, 25% separated path); worst *scenery*. |
 | Day 5: San Diego → Mexican border | +26.0 km | +31 m | ✅ Built. Only worth it if you're already in San Diego. |
-| **Prepend: Leggett → SF** | **357.2 km** | **+4,301 m** | 🥇 Best riding by far, and tailwind-correct. Needs a Thruway bus with bike space. |
+| **Separate trip: SF ↔ Leggett** | **705.17 km + home connector** | Not re-audited | 🥇 Official USBR 95 tracks on Marin roads/paths and CA-1. No US-101 before the Leggett junction; no bus dependency. |
 | Prepend: Bodega Bay → SF | 114.8 km | +1,284 m | 🥈 Half a day, most of the quality, far easier logistics. |
 | Prepend: Point Reyes → SF | 67.0 km | +877 m | 👍 Nearly free prologue, genuinely good coast. |
 | Loop home inland (LA → SF) | 779.4 km | +3,175 m | ❌ **No.** See below — this is a heat-injury risk, not a hard day. |
 
-Adding day 4 makes the trip **1,004.8 km over 4 days** (297 / 279 / 206 / 218),
+Adding day 4 makes the trip **1,004.8 km over 4 days** (297 / 279 / 210 / 218),
 which is the same shape you already have — day 4 is *flatter* than day 3.
 
 ---
@@ -179,26 +177,39 @@ at Imperial Beach.
 
 ---
 
-## What beats it: prepend the Sonoma/Mendocino coast
+## What beats it: ride the Sonoma/Mendocino coast first
 
-**Leggett → San Francisco: 357.2 km, +4,301 m** — measured with the same
-profile: 0 unpaved, 0 bike-banned metres.
+Use the official USBR 95 direction-specific tracks:
+
+- [North-Central northbound](https://ridewithgps.com/routes/46362440): Golden
+  Gate Bridge south portal → CA-1/US-101 junction at Leggett, **352.77 km**.
+- [North-Central southbound](https://ridewithgps.com/routes/46641093): the
+  return subset is **352.40 km**.
+- Exact official-track round trip: **705.17 km**, before the connector between
+  426 Fell and the bridge.
+
+The linked [official USBR 95
+collection](https://ridewithgps.com/collections/11043144) currently contains the
+southbound North-Central file but omits its direction-matched northbound partner,
+which is why both direct links are recorded here.
 
 This is the stretch that people who have ridden the whole Pacific Coast route
 remember: the Lost Coast approaches, Leggett Hill, the Mendocino headlands, the
 Sonoma coast cliffs through Jenner and Bodega. It is Big Sur–grade riding, and
 unlike San Diego it is **more** of what you're already going for rather than less.
-It's also **tailwind-correct** — you ride it southbound, into your existing trip,
-rather than fighting the prevailing north-westerly.
+The outbound uses Marin local roads and paths, joins CA-1 at Point Reyes Station,
+and remains on CA-1 to Leggett. It contains **zero US-101 before the endpoint**.
+The strict turnaround is the **CA-1/US-101 junction**: the official route turns
+onto US-101 there, and Standish-Hickey's cyclist campground is another 1.5 mi /
+2.5 km north on US-101. [Caltrans confirms](https://dot.ca.gov/caltrans-near-me/district-1/d1-popular-links/d1-bicycle-tourism)
+that the Pacific Coast Bike Route uses US-101 north of Leggett and Route 1 south
+of it.
 
-**The logistics are the whole question.** You have to get north with the bike
-first. The **Amtrak San Joaquins Thruway Bus Route 7** serves Humboldt County to
-Martinez and **stops at Leggett**, plus Willits, Ukiah and Laytonville. Bikes are
-carried in the luggage bay **subject to space, first-come-first-served** — not a
-reservation. Two days before departure, that is a real risk: turning up at a bus
-with no bike space strands you.
-([MTA connections](https://mendocinotransit.org/connections/) ·
-[Amtrak Thruway](https://www.amtrak.com/california-thruway-buses-reach-hot-vacation-spots))
+This is an official-track reference, not a repo-local north GPX. The earlier
+**357.2 km / +4,301 m** figure came from a prior southbound routing-engine
+concept that was never saved; do not use it as the northbound route. Campground
+route-km, fees, access rules and no-101 exclusions are in
+**[HIKER-BIKER-CAMPSITES.md](./HIKER-BIKER-CAMPSITES.md)**.
 
 **Cheaper versions of the same idea**, both of which you can ride to from home
 with no bus at all:
@@ -226,30 +237,21 @@ no shade and no bail-out for 200 km stretches.
 
 ---
 
-## My call
+## Status after the north-coast ride
 
-**Given that you leave in a day or two: take San Diego.** It's the only option
-that needs no new booking, it's a genuine 1-day add at a distance you're already
-riding, the Pendleton problem is solved for free, and it gives you an airport 5 km
-from the finish line. Ride it in one day; don't plan on camping between LA and
-San Diego, because the hiker/biker sites there are largely gone.
+On 12–13 August 2026, the north-first ride reached the Manchester area rather
+than Leggett: 229.729 km northbound and 227.927 km home, **457.656 km total**.
+That completed a two-day north-coast out-and-back, not the full 705.17 km
+SF↔Leggett reference. See [the ride analysis](./NORTH-COAST-RIDE-2026-08-12.md).
 
-**If you had another week of lead time, I'd tell you to skip it and prepend
-Leggett → SF instead.** 357 km of the best coast on the west side of the
-continent beats 218 km of Orange County, and it points the same direction as the
-rest of your trip. The only thing standing in the way is a bus with an
-unreserved bike space.
-
-**Cheap middle path:** ride **Point Reyes → SF** (67 km) as a shakedown prologue
-the day before you leave, then do the core three days, then decide about San
-Diego when you actually get to Los Angeles and know how your legs are. Nothing
-about the extension has to be committed in advance — that is its real advantage.
+The Los Angeles trip remains planned, with its departure date now TBD. San
+Diego remains a decision for after Los Angeles; the built GPX remains available
+if the extra day still makes sense.
 
 ---
 
-*All distances measured from the built GPX by
-[`scripts/validate_pch_routes.py`](./scripts/validate_pch_routes.py), not
-estimated. Alternatives were routed with the same profile to make the comparison
-like-for-like; the ones that are not built as files
-(Leggett/Bodega/Point Reyes/inland) were routed and measured but not saved,
-because they are a decision, not a plan. Live conditions checked 4 August 2026.*
+*Built south-route distances are measured by
+[`scripts/validate_pch_routes.py`](./scripts/validate_pch_routes.py). The
+SF↔Leggett values are measured directly from the official Ride with GPS tracks;
+no north GPX is stored in this repository yet. Campground facts and north-route
+references were checked 11 August 2026.*

@@ -1,14 +1,16 @@
 # 🚲 Velo Journey 2026
 
-Planning hub for Kian's ultra-distance riding. **Two trips live here now:**
+Planning and ride-analysis hub for Kian's ultra-distance riding.
 
 | Trip | When | Distance | Where it's documented |
 |------|------|---------:|----------------------|
-| 🇺🇸 **Southbound Highway 1 — San Francisco → Los Angeles** | **leaving 5–6 Aug 2026** | **786.6 km / 3 days** | ⭐ **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** |
+| 🇺🇸 **North coast out-and-back — SF ↔ Manchester area** | **12–13 Aug 2026 — completed** | **457.656 km / 2 days** | ⭐ **[Ride analysis](./NORTH-COAST-RIDE-2026-08-12.md)** / [campground reference](./HIKER-BIKER-CAMPSITES.md) |
+| 🇺🇸 **Full USBR 95 north-coast reference — SF ↔ Leggett** | **future option** | **705.17 km official-track round trip + home connector** | [EXTENSIONS.md](./EXTENSIONS.md) |
+| 🇺🇸 **Southbound Highway 1 — San Francisco → Los Angeles** | **planned — date TBD** | **786.6 km / 3 days** | ⭐ **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** |
 | 🇺🇸 …optionally extended to **San Diego** | +1 day | **1,004.8 km / 4 days** | **[EXTENSIONS.md](./EXTENSIONS.md)** |
 | 🇪🇺 The Frankfurt Loop | 21 Jun – 12 Jul 2026 | 4,172.7 km / ~22 days | [ROUTE-GPX.md](./ROUTE-GPX.md) |
 
-## 🇺🇸 The immediate one: SF → Big Sur → LA
+## 🇺🇸 The planned southbound trip: SF → Big Sur → LA
 
 Three riding days down the coast to Los Angeles. Built, audited and validated —
 GPX in [`gpx/pch_*.gpx`](./gpx), full write-up in **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)**.
@@ -30,13 +32,20 @@ it costs a 322 km day 2.
 **[EXTENSIONS.md](./EXTENSIONS.md)** for whether it's worth doing and what beats
 it. Short answer: it works, the Camp Pendleton problem has a free legal solution,
 it's the flattest and best-supplied day of the trip and the only extension needing
-no new bookings — but it's the least interesting riding. Prepending the
-Sonoma/Mendocino coast (Leggett → SF, 357.2 km / +4,301 m) is the better ride if
-you ever have the lead time to arrange a bus with a bike space.
+no new bookings — but it's the least interesting riding. The 12–13 August
+north-coast ride instead reached the Manchester area and returned:
+**457.656 km in two days**. It did not reach Leggett. The full official-track
+reference remains **352.77 km northbound + 352.40 km southbound = 705.17 km**,
+before the home connector. It stays off US-101 through the strict Leggett
+junction endpoint; see the campsite reference for that boundary.
 
 **This road has an official route, and it should have been the starting point.**
-**US Bicycle Route 95** is AASHTO-designated the length of California (Crescent City
-→ Mexican border) and Adventure Cycling publishes the USBRS maps free. This repo's
+**US Bicycle Route 95** is AASHTO-designated the length of California (Oregon
+state line → Mexican border) and Adventure Cycling publishes the USBRS maps free.
+The official [Ride with GPS collection](https://ridewithgps.com/collections/11043144)
+contains the North-Central southbound file; the matching official
+[northbound file](https://ridewithgps.com/routes/46362440) currently sits outside
+that collection. This repo's
 own method — official GPX as backbone, BRouter for connectors, as the Frankfurt loop
 does with EuroVelo — says to start there, and I didn't check. Measured after the
 fact against 107,508 official nodes, the built line sits within 100 m of USBR 95 for
@@ -55,10 +64,12 @@ comparison is now permanent: `python3 scripts/validate_usbr95_alignment.py`.
   so the original 280–290 km estimate was roughly right.
 - **Highway 1 is open** (reopened 14 Jan 2026) but there's a one-way signal control
   at **Rocky Creek Bridge, 24/7 through 31 Aug**, up to 15 min, at km 235 of day 1.
-- **Limekiln has no first-come-first-served sites** — book it, or camp wild, which
-  removes the dependency entirely. Dispersed camping on Los Padres NF land is legal
-  and permit-free, but **campfires are banned until 31 Jan 2027** (stove OK with a
-  free permit).
+- **Limekiln has no first-come-first-served sites** — book a legal overnight or
+  confirm another designated/authorized site. Tentless roadside sleep is still
+  camping and is not a loophole. Dispersed camping applies only on verified-open
+  Los Padres NF land, not Highway 1 right-of-way, state-park or private land; live
+  fire and closure orders can remove even that option. **Campfires are banned
+  until 31 Jan 2027** (stove only where current rules allow, with a free permit).
 - **The sleeping system, not the route, is the open risk.** Sleeping out with no tent
   on a **Marmot NanoWave 45** (ISO Comfort 56 °F / Limit 49 °F — the "45" is optimistic
   against its own test) and a **Klymit Static V (R 1.3)**, where the bag was rated on
@@ -105,7 +116,9 @@ A **loop out of Frankfurt** through Germany, Switzerland, France, Italy and Aust
 
 | File | What it covers |
 |------|----------------|
-| **[EXTENSIONS.md](./EXTENSIONS.md)** | ⭐ **Should you extend to San Diego?** Every candidate extension routed and measured with the same profile and audit: the LA→San Diego day (and the Camp Pendleton crux, solved), the Mexican-border finish, prepending the Sonoma/Mendocino coast, and why looping home inland through the Central Valley in August is a heat-injury risk rather than a hard day. |
+| **[NORTH-COAST-RIDE-2026-08-12.md](./NORTH-COAST-RIDE-2026-08-12.md)** | ⭐ **Completed-ride analysis.** Polar performance phases, fast-finish audit, matched return-course comparison, HR load, exact-route HRRR wind reconstruction, fueling interpretation, recovery context and data limitations for the 457.656 km SF↔Manchester-area ride. |
+| **[HIKER-BIKER-CAMPSITES.md](./HIKER-BIKER-CAMPSITES.md)** | ⭐ **North/south campground quick reference.** Every campsite in the supplied list checked against its current operator page, corrected fees and booking rules, official USBR 95 route-km, live Big Sur closures, and the exact Leggett no-US-101 boundary. |
+| **[EXTENSIONS.md](./EXTENSIONS.md)** | ⭐ **North coast or San Diego?** The official USBR 95 SF↔Leggett figures and no-US-101 boundary, the built LA→San Diego day (and Camp Pendleton crux), the Mexican-border finish, and why looping home inland through the Central Valley in August is a heat-injury risk rather than a hard day. |
 | **[BIG-SUR-GPX.md](./BIG-SUR-GPX.md)** | ⭐ **The SF → LA coast route.** Three riding days (786.6 km), the road-bike routing profile and why the stock one fails on this coast, the legality/surface/spur audit, the detected climbs, the water-and-food gaps, the alignment against the official **USBR 95**, the **tent-less sleeping analysis** (bag and pad ratings against measured dewpoint spreads, what to buy and what not to, and whether you can just flap the dew off in the morning), the **73 km cell dead zone**, and the corrections the build forced on the plan. |
 | **[GEAR-FROM-VIDEOS.md](./GEAR-FROM-VIDEOS.md)** | ⭐ Asks #1 & #2 — the **verbatim gear list** from your parts video, your own stated regrets (no bibs/tights, bad gloves, leaky pump, broken saddle bag), and the **lessons distilled from all 7 transcripts**. |
 | **[CHECKLIST.md](./CHECKLIST.md)** | The **concise one-pager** to read before you leave. |
@@ -150,4 +163,4 @@ A **loop out of Frankfurt** through Germany, Switzerland, France, Italy and Aust
 
 ---
 
-*Last updated: 2026-06-22. Earlier drafts in git history assumed an Amsterdam arrival / leisure pace before `trip_config.json` + the transcripts landed — corrected to the real Frankfurt Loop.*
+*Last updated: 2026-08-14. Earlier drafts in git history assumed an Amsterdam arrival / leisure pace before `trip_config.json` + the transcripts landed — corrected to the real Frankfurt Loop.*

@@ -125,18 +125,59 @@
     "segments": 5,
     "method": "Official EuroVelo GPX backbone (EV15/17/7/6) + BRouter connectors + bespoke EV8; no train/motorway/ferry; built 2026-06-23T21:22:53Z"
   },
+  "completed_rides": [
+    {
+      "id": "north-coast-2026-08-12",
+      "name": "North Coast out-and-back - San Francisco to Manchester area",
+      "status": "completed",
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-13",
+      "distance_km": 457.656,
+      "polar_recorded_duration_s": 83295.281,
+      "days": [
+        {
+          "date": "2026-08-12",
+          "direction": "northbound",
+          "polar_exercise_id": "0G4aG4Ye",
+          "distance_km": 229.729,
+          "polar_recorded_duration_s": 41011.029,
+          "average_hr_bpm": 114,
+          "maximum_hr_bpm": 163,
+          "polar_exercise_calories_kcal": 5511,
+          "polar_cardio_load": 432.626
+        },
+        {
+          "date": "2026-08-13",
+          "direction": "southbound",
+          "polar_exercise_id": "y1DBXDj3",
+          "distance_km": 227.927,
+          "polar_recorded_duration_s": 42284.252,
+          "average_hr_bpm": 106,
+          "maximum_hr_bpm": 160,
+          "polar_exercise_calories_kcal": 5011,
+          "polar_cardio_load": 344.107
+        }
+      ],
+      "relationship_to_plan": "Partial execution of the official SF-Leggett reference; Leggett was not reached.",
+      "route_basis": "Actual Polar GPS followed the north-coast corridor to the Manchester area and back; exact USBR 95 alignment was not re-audited for this record.",
+      "fueling_self_report": "Day 1 included about 2,500 kcal of almonds, many bananas and substantial other food. Day 2 in-ride intake was worse, followed by a very large meal after returning. Quantities and timing are incomplete.",
+      "report": "NORTH-COAST-RIDE-2026-08-12.md"
+    }
+  ],
   "california_coast_trip": {
     "_note": "Separate from the Frankfurt loop on purpose. Kept out of `routes` so planner.py status/routes keeps reporting the Europe loop only.",
     "trip_name": "Southbound Highway 1 - San Francisco to Los Angeles",
+    "status": "planned",
     "style": "3 riding days, camping, road bike, ~05:00 starts",
     "start": "426 Fell St, San Francisco",
     "finish": "LA Union Station (train home)",
-    "planned_departure": "2026-08-05 or 2026-08-06",
+    "planned_departure": null,
+    "planned_departure_note": "Date TBD. All weather, fire, road, campground and train checks must be refreshed for the new date.",
     "totals": {
-      "distance_km": 782.4,
+      "distance_km": 786.6,
       "ascent_m_filtered": 5648,
       "stages": 3,
-      "method": "BRouter velo_pch_road.brf on OpenStreetMap (correctMisplacedViaPoints on); one 391 m permissive-profile leg at the Winchester Canyon US-101 tagging gap; rebuilt 2026-08-04 after removing 62 km of via-point out-and-back spurs"
+      "method": "BRouter velo_pch_road.brf on OpenStreetMap (correctMisplacedViaPoints on); one 391 m permissive-profile leg at the Winchester Canyon US-101 tagging gap; rebuilt 2026-08-09 with the Obern Trail day-3 alignment"
     },
     "stages": [
       {
@@ -160,7 +201,7 @@
       {
         "name": "Day 3 - Refugio State Beach to LA Union Station",
         "gpx_file": "pch_day3_refugio_la.gpx",
-        "distance_km": 205.7,
+        "distance_km": 209.9,
         "ascent_m": 611,
         "overnight": "-",
         "status": "built",
@@ -168,10 +209,12 @@
       }
     ],
     "variants_built": [
-      "pch_day1_alt_pfeiffer.gpx (256.1 km - stop in Big Sur Village instead of pressing on)"
+      "pch_day1_alt_pfeiffer.gpx",
+      "pch_day2_pfeiffer_refugio.gpx",
+      "pch_day3_alt_arterials.gpx"
     ],
     "open_actions": [
-      "DECIDE camping: book Limekiln on ReserveCalifornia 800-444-7275 (no walk-up sites exist), OR camp wild - dispersed camping on Los Padres NF land is legal and permit-free, but campfires are banned until 31 Jan 2027 and the NF land is east of and above Highway 1",
+      "CONFIRM a legal overnight for the new date: recheck Limekiln reopening/inventory and alternatives. Tentless roadside sleep is still camping; dispersed camping applies only on verified-open Los Padres NF land, not Highway 1 right-of-way, state-park or private land, and current fire/forest orders control.",
       "CHECK Caltrans QuickMap on the morning - Rocky Creek Bridge one-way control runs 24/7 through 31 Aug 2026",
       "CHECK the Vandenberg launch schedule for your date - CA-1 past the base can close at a few hours' notice",
       "BOOK the bicycle on the Coast Starlight out of LA Union Station - separate reservation, limited space",
@@ -184,7 +227,7 @@
       "distance_km": 218.2,
       "ascent_m": 685,
       "extended_totals": {
-        "distance_km": 1000.6,
+        "distance_km": 1004.8,
         "ascent_m_filtered": 6333,
         "stages": 4,
         "master_gpx": "pch_sf_sd_master.gpx"
@@ -200,10 +243,17 @@
     },
     "alternatives_considered": [
       {
-        "option": "Prepend Leggett -> San Francisco (Sonoma/Mendocino coast)",
-        "distance_km": 357.2,
-        "ascent_m": 4301,
-        "verdict": "BEST RIDING of any extension and tailwind-correct, but needs the Amtrak San Joaquins Thruway Bus Route 7 to Leggett with a bike space that is first-come-first-served, not reservable. Not realistic two days out.",
+        "option": "Full San Francisco <-> Leggett route reference",
+        "distance_km": 705.169,
+        "northbound_distance_km": 352.769,
+        "southbound_distance_km": 352.4,
+        "distance_basis": "Official direction-specific USBR 95 Ride with GPS tracks, Golden Gate Bridge south portal to the CA-1/US-101 junction at Leggett; excludes the connector to 426 Fell St",
+        "official_northbound_route": "https://ridewithgps.com/routes/46362440",
+        "official_southbound_route": "https://ridewithgps.com/routes/46641093",
+        "corridor": "Marin local roads and paths, then CA-1 from Point Reyes Station to Leggett; zero US-101 before the Leggett junction",
+        "endpoint_warning": "Standish-Hickey SRA is 2.5 km north of the Leggett junction on US-101 and is excluded by the strict no-US-101 rule.",
+        "routing_status": "official_track_reference_not_saved_as_repo_gpx",
+        "verdict": "The partial Manchester-area ride was completed 12-13 Aug 2026. The full Leggett route was not completed and remains future reference material; use the official direction-specific tracks and HIKER-BIKER-CAMPSITES.md.",
         "built": false
       },
       {
