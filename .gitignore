@@ -1,4 +1,4 @@
 .DS_Store
 build/
 *.part
-
+*.inspect.ndjson

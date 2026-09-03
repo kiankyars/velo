@@ -67,7 +67,7 @@ assets/frames/bike-box.jpg
   https://www.youtube.com/watch?v=nRVeTv7W0VE&t=107s
 
 assets/frames/furka-pass.jpg
-  https://www.youtube.com/watch?v=hHPp29eo9OI&t=314s
+  https://www.youtube.com/watch?v=hHPp29eo9OI&t=387s
 
 assets/frames/phone-fixed.jpg
   https://www.youtube.com/watch?v=8nglV62Vr2o&t=530s
