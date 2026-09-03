@@ -1,0 +1,157 @@
+EUROPE BICYCLE TRIP: VERIFIED CHRONOLOGY
+
+Scope
+-----
+The trip ran from June 24 through July 10, 2026: 14 riding days and three
+non-riding days. Kian crossed seven European countries: Germany, France,
+Switzerland, Austria, Liechtenstein, Belgium, and the Netherlands.
+
+Distance
+--------
+Use 3,049.438 km as the preferred cycling estimate. The completed local audit
+places the plausible range at 3,040-3,061 km and excludes all train and car
+movement. The YouTube series rounds this to 3,000 km; its summary narration
+calls the route roughly 3,100 km. The older 2,780 km figure in the running notes
+was a placeholder and is superseded by the activity-, route-, and photo-backed
+audit.
+
+Primary distance source:
+/Users/kian/Developer/vélo/strava-europe-trip-audit-2026.md
+
+Written chronology sources:
+/Users/kian/Developer/kiankyars.github.io/_posts/weekly-victories/2026-06-26-weekly-victories.md
+/Users/kian/Developer/kiankyars.github.io/_posts/weekly-victories/2026-07-03-weekly-victories.md
+/Users/kian/Developer/kiankyars.github.io/_posts/weekly-victories/2026-07-10-weekly-victories.md
+/Users/kian/Developer/kiankyars.github.io/_posts/weekly-victories/2026-07-17-weekly-victories.md
+/Users/kian/Library/Mobile Documents/com~apple~CloudDocs/obsidian/notes/2026-06-22.md
+/Users/kian/Library/Mobile Documents/com~apple~CloudDocs/obsidian/notes/2026-06-23.md
+/Users/kian/Library/Mobile Documents/com~apple~CloudDocs/obsidian/notes/2026-06-24.md through 2026-07-11.md
+
+Calendar and ride ledger
+------------------------
+Jun 22 | Departure setup
+  Left at 3:00 a.m., packed the bicycle into a cardboard box, and had an
+  emotional goodbye with Kian's mother. Source: Obsidian 2026-06-22.
+
+Jun 23 | Arrival in Germany
+  Arrived near Frankfurt, rebuilt the bike in 33 C heat, and discovered that
+  the headset would not stay tight. Vlog Day 1, 00:23-04:46.
+
+Jun 24 | Ride 1 | Mittelbuchen -> Karlsruhe | 224.37 km (confidence B)
+  The pedal worked loose and destroyed the crank threads. Kian pedaled one-footed
+  to a station, took the Kelsterbach-Mainz S-Bahn, tried four shops, repaired the
+  bike, and still reached Karlsruhe around 10 p.m. The train is excluded from the
+  cycling total. Vlog Day 1, 05:03-11:57.
+
+Jun 25 | Ride 2 | Karlsruhe -> Heidolsheim, Alsace | 157.57 km (B)
+  Rode the Rhine in heat reported near 42 C, navigated from EuroVelo signs after
+  losing the Polar charger, and crossed into France. Vlog Day 2, 00:00-05:37.
+
+Jun 26 | Ride 3 | Heidolsheim -> Lottstetten | 202.55 km (A)
+  Reached the France-Germany-Switzerland tri-border, nearly lost the passport,
+  discovered Switzerland's public fountains, and finished back across the
+  German border. Vlog Day 3, 03:47-15:41.
+
+Jun 27 | Ride 4 | Lottstetten -> Danis | 278.06 km (B)
+  Visited Rhine Falls, crossed Germany, Switzerland, Austria, and Liechtenstein
+  in one day, then forced a late 100 km push through the Alps. A thunderstorm
+  soaked the bike and killed the phone. Vlog Day 4, 00:00-15:45.
+
+Jun 28 | Rest 1 | Near Danis | 0 km
+  Sunday closures left Kian stranded without a working phone. He hiked with
+  Marika and met Jerome at the hostel. Vlog Day 5, 00:19-01:59 and 09:37-11:20.
+
+Jun 29 | Ride 5 | Danis -> Brig; train to Sion | 135.60 km (A)
+  Crossed Oberalp Pass (about 2,000 m) and Furka Pass (2,436 m; a 13 km climb
+  with about 890 m gain), then descended toward the Rhone. Rain and a failed
+  booking led to a 40-minute Brig-Sion train, excluded from cycling distance.
+  Vlog Day 5, 01:59-13:26; Vlog Day 6, 00:01-03:07.
+
+Jun 30 | Ride 6 | Sion -> Geneva; train to Valserhone | 163.87 km (A/B)
+  Followed the Rhone and the south shore of Lake Geneva through Evian. Both
+  Airbnb bookings canceled, the backup phone died, and Kian was panicking at
+  Geneva station until Zahran offered him a place to sleep. The train into
+  Valserhone is excluded. Vlog Day 6, 03:25-17:03; Vlog Day 7, 00:01-03:53.
+
+Jul 1 | Ride 7 | Valserhone -> Lagnieu/Amberieu | 140.66 km (B/C)
+  The entire activity is missing; the audit reconstructs it from fifteen photo
+  and endpoint constraints. A Carrefour repair shop replaced the phone screen
+  for EUR 180. Kian then learned the original loop would require 264 km every
+  day plus the Italian Alps, and decided to reroute north through Paris.
+  Vlog Day 7, 04:08-17:27.
+
+Jul 2 | Ride 8 | Lagnieu -> Fleurville via Lyon | 172.48 km (A)
+  A front puncture forced a 20 km limp to a Giant shop: repeated hand-pumping,
+  no turns, weight shifted backward, and two liters of water dumped. Olivier
+  and Anton replaced the tire, charged only EUR 50 for the part, and gave away
+  the labor and tire levers. Kian revisited Lyon, then followed the Saone north.
+  Vlog Day 8, 00:00-19:32.
+
+Jul 3 | Ride 9 | Fleurville -> Nevers | 274.98 km (A)
+  Rode the Voie Bleue/EuroVelo 6 on baguettes and bananas. A wasp sting, a
+  nosebleed, a lost Croc elastic, a headwind, and an 80 km/h road without a
+  shoulder made the final hours ugly. Arrival: about 9:45 p.m.
+  YouTube upload is labeled Day 10, 00:01-08:58.
+
+Jul 4 | Ride 10 | Nevers -> Paris | 287.47 km (B)
+  Started hungry before stores opened, followed the Loire past a nuclear plant,
+  passed Fontainebleau, then entered Paris through traffic and confusion. Apple
+  Maps sent Kian 3 km from the right address; he reached his aunt's home around
+  11:30 p.m. as neighborhoods watched France play in the World Cup.
+  YouTube upload is labeled Day 11, 00:01-08:53.
+
+Jul 5 | Rest 2 | Paris | 0 km
+  Spent the day with Kian's aunt. Source: Weekly Victories and Obsidian.
+
+Jul 6 | Ride 11 | Paris -> Drocourt | 206.39 km (A)
+  Trimmed a planned 280 km route to 200 km, left Paris, ate his aunt's hard-boiled
+  eggs while riding, passed World War I cemeteries and poppy fields, and reached
+  the northern coal country to reunite with Jean-Luc.
+  YouTube upload is labeled Day 9, 00:01-07:45.
+
+Jul 7 | Rest 3 | Drocourt and Vimy | 0 km
+  Spent the day with Jean-Luc; the Vimy outing was by car and is excluded from
+  bicycle mileage. The buffet appears at the end of the upload labeled Day 9,
+  07:45-08:09, and the following episode reports the resulting stomachache.
+
+Jul 8 | Ride 12 | Drocourt -> Bruges plus city loop | 197.17 km (A)
+  Rode Paris-Roubaix cobbles into Belgium, visited Tournai, fought a visible
+  headwind, and found Ghent's bicycle infrastructure. After reaching Bruges,
+  Kian unloaded the bike and rode a 16.06 km city loop. With 600 km remaining,
+  he chose two 300 km days over three 200 km days to see family sooner.
+  Vlog Day 12, 00:01-08:56.
+
+Jul 9 | Ride 13 | Bruges -> Cologne | 337.84 km (A/B)
+  Left before 6 a.m., stopped at a Canadian war cemetery, crossed the 31 m-deep
+  Sint-Anna tunnel, then passed through the Netherlands and Germany. The final
+  hours were ridden in darkness while holding a phone flashlight. It remains
+  the trip's longest and hardest day. Vlog Day 13, 00:00-06:53.
+
+Jul 10 | Ride 14 | Cologne -> Mittelbuchen/Hanau | 270.42 km (A/B)
+  Saw Cologne Cathedral, Bonn, and the Rhine, but began the day with dead legs
+  after the 337 km ride. The final two days totaled about 608 km by the audit
+  (the vlog estimated 566 km before reconstruction). Kian crossed the Rhine for
+  the last time and arrived just after 11 p.m.; family had tracked the phone and
+  waited in the driveway. Obsidian ends the day: "I LOVE LIFE SO MUCH."
+  Vlog Day 14, 00:01-08:41.
+
+Jul 14 and Jul 27 | Epilogue
+  Back in San Francisco, the damaged bike box had lost both pedals and the tool
+  kit. Seventeen days after the finish, hand blisters and numb toes remained.
+  Vlog Day 14, 08:41-13:04; Summary, 04:30-05:55.
+
+YouTube label anomaly
+---------------------
+The YouTube titles do not preserve chronology for three uploads:
+  - "Day 10" (8ZtAti-cDM4) is ride 9, July 3, Fleurville to Nevers.
+  - "Day 11" (FlRIcKy9ehI) is ride 10, July 4, Nevers to Paris.
+  - "Day 9" (dsGF4hjbdKU) is ride 11, July 6, Paris to Drocourt.
+The transcript filenames retain the public upload labels. Presentation chronology
+must use the dated mapping above.
+
+Distance arithmetic
+-------------------
+224.37 + 157.57 + 202.55 + 278.06 + 135.60 + 163.87 + 140.66 +
+172.48 + 274.98 + 287.47 + 206.39 + 197.17 + 337.84 + 270.42
+= 3,049.43 km using the displayed two-decimal daily values. The audit sums the
+unrounded reconstructions to 3,049.438 km, which rounds to 3,049.44 km.
