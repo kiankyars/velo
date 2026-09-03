@@ -11,3 +11,7 @@ timestamped transcripts, a verified trip chronology, presentation research, and
 the final editable deck. The public upload labels for Days 9-11 are out of order;
 [`sources/trip-chronology.txt`](sources/trip-chronology.txt) records the dated
 mapping and the audited 3,049.438 km cycling total.
+
+The tracked deck source is [`build/build-deck.mjs`](build/build-deck.mjs).
+Downloaded videos, extracted frame candidates, and rendered QA files remain in
+the ignored `build/` workspace.
