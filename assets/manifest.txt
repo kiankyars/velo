@@ -1,0 +1,91 @@
+EUROPE BY BICYCLE — VISUAL SOURCE MANIFEST
+
+Photos library derivatives (read-only exports)
+
+assets/photos/departure-flight.jpg
+  Photos UUID: 57345BC2-53F9-443C-BE33-B20BD243C66F
+  Captured: 2026-06-23 02:50:15 UTC
+
+assets/photos/day-01-karlsruhe.jpg
+  Photos UUID: 12A74C3E-D919-4B92-AD7D-5032A7B9C9AF
+  Captured: 2026-06-24 20:41:19 UTC
+
+assets/photos/day-02-alsace-canal.jpg
+  Photos UUID: A0138D74-D2AE-4568-B8FE-7F0BDE98D899
+  Captured: 2026-06-25 17:18:10 UTC
+
+assets/photos/day-03-tri-border.jpg
+  Photos UUID: AE6C7878-AEDE-4E9B-A66C-4CC349A08EED
+  Captured: 2026-06-26 14:56:01 UTC
+
+assets/photos/day-04-rhine-falls.jpg
+  Photos UUID: 53E5891C-81FC-437E-8897-98ACCECFDAA6
+  Captured: 2026-06-27 05:06:55 UTC
+
+assets/photos/day-08-lyon.jpg
+  Photos UUID: 72B55A39-69CA-49AF-BEDD-532389601255
+  Captured: 2026-07-02 13:11:26 UTC
+
+assets/photos/paris-aunt.jpg
+  Photos UUID: 7D4E0D55-4E57-4920-899B-1D5C6F57A272
+  Captured: 2026-07-04 21:57:31 UTC
+
+assets/photos/drocourt-jean-luc.jpg
+  Photos UUID: 016EAE4D-D23D-42DA-AEB2-52AE2BFCAFB6
+  Captured: 2026-07-07 10:29:31 UTC
+
+assets/photos/vimy-group.jpg
+  Photos UUID: 7D11AA57-82DE-4EB1-8CC8-73D0A11ED2E2
+  Captured: 2026-07-07 15:25:05 UTC
+
+assets/photos/bruges-canal.jpg
+  Photos UUID: 943F3F3A-68DB-441E-A4D4-834951C68882
+  Captured: 2026-07-08 18:49:17 UTC
+
+assets/photos/bruges-bike.jpg
+  Photos UUID: 1C17224C-F85C-4013-B227-B1BBAAB05655
+  Captured: 2026-07-09 05:07:59 UTC
+
+assets/photos/finish-night.jpg
+  Photos UUID: EFF43E8E-483E-4544-B939-91AA7FDEB163
+  Captured: 2026-07-10 22:31:41 UTC
+
+assets/photos/next-day-aftermath.jpg
+  Photos UUID: 7E96FFA7-0C63-43E0-92FD-182C66AED271
+  Captured: 2026-07-11 05:37:42 UTC
+
+assets/photos/family-next-day.jpg
+  Photos UUID: 52721BC3-1DD4-459A-B27B-D293E5252CD5
+  Captured: 2026-07-11 18:18:31 UTC
+
+YouTube vlog frames
+
+assets/frames/route-map.jpg
+  https://www.youtube.com/watch?v=NWt_1sTojmA&t=12s
+
+assets/frames/bike-box.jpg
+  https://www.youtube.com/watch?v=nRVeTv7W0VE&t=107s
+
+assets/frames/furka-pass.jpg
+  https://www.youtube.com/watch?v=hHPp29eo9OI&t=314s
+
+assets/frames/phone-fixed.jpg
+  https://www.youtube.com/watch?v=8nglV62Vr2o&t=530s
+
+assets/frames/giant-bike-shop.jpg
+  https://www.youtube.com/watch?v=Jw-WU-_shfY&t=345s
+
+assets/frames/paris-roubaix-cobbles.jpg
+  https://www.youtube.com/watch?v=PTFawKQFJoo&t=85s
+
+assets/frames/antwerp-tunnel.jpg
+  https://www.youtube.com/watch?v=jKRlZC1f514&t=145s
+
+assets/frames/german-sunset.jpg
+  https://www.youtube.com/watch?v=jKRlZC1f514&t=340s
+
+assets/frames/cologne-cathedral.jpg
+  https://www.youtube.com/watch?v=uUUG8uGQaC0&t=100s
+
+assets/frames/final-rhine.jpg
+  https://www.youtube.com/watch?v=uUUG8uGQaC0&t=410s
