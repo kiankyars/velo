@@ -1,0 +1,95 @@
+PRESENTATION STORY NOTES
+
+Communication job
+-----------------
+By the end, Kian's friends should understand what the trip actually felt like
+and why it mattered. The deck should turn 17 elapsed days into a lived sequence:
+the plan breaks almost immediately, improvisation becomes the real route, and
+the finish matters because people keep making the trip possible.
+
+Narrative spine
+---------------
+1. Open at the finish, not the airport: Kian lifts the bicycle at night after
+   3,049 km. Family is waiting just outside the frame.
+2. Reveal the original 4,173 km loop and the 3,049 km route that actually happened.
+   This is not a story about flawlessly executing a plan.
+3. Day 1 nearly ends the trip: a loose pedal destroys the crank threads before
+   Mainz; four shops later, the ride continues to Karlsruhe.
+4. Heat, missing gear, a near-lost passport, and a four-country day accumulate.
+   The Day 4 Alpine storm kills the phone and forces the first rest day.
+5. Day 5 supplies the spectacular center: Oberalp and Furka. The emotional line
+   is not triumph; it is Kian deciding to stop being angry and look forward.
+6. Geneva is the low point. Two Airbnbs cancel, the backup phone dies, stores are
+   closed, and Kian cries at the station. Zahran walks up and offers his balcony.
+7. The phone gets repaired, but the original route does not. Completing it would
+   require 264 km every day plus the Italian Alps, so Kian turns north at Lyon.
+8. The bicycle immediately punctures. Kian dumps both water bottles, leans back,
+   and hand-pumps every few kilometers to reach Olivier and Anton, who repair it
+   and refuse labor payment.
+9. The middle of France becomes deliberate attrition: 275 km to Nevers, then 287
+   km to Paris. The scenery remains beautiful, but the body and route are messy.
+10. Paris and Drocourt are not detours from the story. His aunt, Jean-Luc, and a
+    day off restore the human scale before the final push.
+11. Belgium supplies cobbles, headwind, Ghent's infrastructure, and Bruges. With
+    600 km left, Kian chooses two enormous days because home now matters more than
+    preserving a sensible schedule.
+12. Day 13 is 337.84 km, the longest ride of his life. Day 14 is another 270.42 km
+    on dead legs. The family tracks his phone and waits in the driveway after 11.
+13. Close on the July 10 note, not a generic lesson: "I LOVE LIFE SO MUCH."
+
+Quantitative anchors
+--------------------
+- 3,049.438 km preferred audited cycling distance.
+- 14 riding days, three rest/non-riding days, 17 elapsed days.
+- Seven European countries.
+- 337.84 km longest day, Bruges to Cologne.
+- 608.26 km in the final two days by the audited ledger.
+- 2,436 m Furka Pass; 13 km climb with about 890 m gain.
+- 224.37 km on Day 1 despite the crank failure and S-Bahn transfer.
+- 197.17 km on July 8 includes a 16.06 km unloaded Bruges city loop.
+- 3,040-3,061 km plausible total range around the preferred estimate.
+
+High-value transcript moments
+-----------------------------
+- Day 1 06:52-08:37: pedal threads destroyed; one-foot riding, train, four bike
+  shops, considering quitting, then continuing.
+- Day 1 10:12-11:21: dehydrated arrival and ecstatic chocolate milk.
+- Day 3 06:50-07:48: nearly losing the passport in Switzerland.
+- Day 4 08:25-10:51: unexpected Austria, then Liechtenstein; 193 km by 5:15 p.m.
+- Day 4 11:13-15:45: late push to Danis, cliff road, storm aftermath.
+- Day 5 02:50-06:48: Oberalp and Furka climbs and descent.
+- Day 5 10:37-11:20: anger about the lost day, then "only looking forward."
+- Day 6 14:51-17:03 and Day 7 00:57-03:53: canceled stays, dead phone, Geneva
+  panic, and Zahran's invitation.
+- Day 7 07:31-10:28: unexpected Carrefour phone repair and EUR 180 payment.
+- Day 7 11:19-11:57: the original route is no longer physically sensible.
+- Day 8 00:54-05:22: tire puncture and 20 km limp to the Giant shop.
+- Day 8 05:39-08:15: repair, free labor, and gratitude.
+- Upload Day 10 05:39-07:28: dangerous shoulderless road, headwind, then sunset.
+- Upload Day 11 07:09-08:49: Paris chaos and 11:30 p.m. arrival.
+- Upload Day 9 00:01-07:45: aunt's eggs, war cemeteries, poppies, slag heaps,
+  and arrival in Drocourt.
+- Day 12 02:56-06:27: visible headwind, Ghent, and deciding to finish in two days.
+- Day 13 06:08-06:53: 337 km, darkness, phone flashlight, longest ride ever.
+- Day 14 03:37-04:32: dead legs and emergency supermarket calories.
+- Day 14 06:43-08:41: final Rhine crossing, family tracking, driveway finish.
+- Summary 04:30-05:55: blisters, cyclist's palsy, tan lines, and helmet neck pain
+  still present 17 days later.
+
+Recurring human pattern
+-----------------------
+The trip repeatedly survives because somebody helps: the fourth Mainz bike shop;
+Jerome and Marika during the Danis rest day; Zahran in Geneva; the cousin who
+transfers EUR 180; Olivier and Anton at Giant; the Airbnb host who offers food;
+Kian's aunt in Paris; Jean-Luc in Drocourt; and the family waiting at the finish.
+The point is not "strangers are kind" as a slogan. The point is that each act of
+help changes the feasible next day of the route.
+
+Tone and visual direction
+-------------------------
+Use a road-atlas / field-log visual language: warm paper, near-black type,
+safety-orange route marks, compact date labels, and photography that feels like
+evidence rather than tourism advertising. Keep slide copy concrete and sparse.
+Avoid inspirational maxims, three-item slogan lists, generic travel lessons, and
+AI-polished fragments. Speaker notes can carry the chronology and technical
+detail; the screen should carry the images, numbers, and exact moments.
